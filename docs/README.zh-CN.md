@@ -1,275 +1,146 @@
-# AI News Bot
+# Awesome Agent Cases
 
-每日自动收集 AI agent 相关情报，调用 DeepSeek 生成中文摘要，并输出 Markdown 与微信公众号 HTML。
+一个持续更新的 AI Agent 内容库，收录每日新闻稿、真实案例、论文、开源项目和实践笔记。
 
 [English](../README.md) | [中文](README.zh-CN.md)
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![DeepSeek](https://img.shields.io/badge/LLM-DeepSeek-black)
-![Markdown](https://img.shields.io/badge/Output-Markdown-green)
-![WeChat](https://img.shields.io/badge/Output-WeChat_HTML-07c160)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![AI Agents](https://img.shields.io/badge/Focus-AI_Agents-blue)
+![Daily Updates](https://img.shields.io/badge/Updates-Daily-green)
+![Research](https://img.shields.io/badge/Covers-Papers%20%26%20Projects-purple)
+![Language](https://img.shields.io/badge/Language-ZH%20%7C%20EN-orange)
 
 ---
 
-## 这个项目是什么
+## 这个仓库收录什么
 
-**AI News Bot** 是一个面向 AI agent 方向的每日内容生产脚本。
+**Awesome Agent Cases** 是一个面向 AI Agent 构建者、研究者和应用者的每日知识库。
 
-它会自动收集当天或最近几天的：
+这里会持续收录和整理：
 
-- AI agent 和模型能力最新进展
-- 使用 agent 完成科研、写代码、IC/EDA、自动化、安全等具体任务的案例
-- 最新论文、GitHub 项目和开源 agent 框架
-- AI 产品发布、融资、监管、事故和其他爆点新闻
+- 每日 AI Agent 新闻稿
+- 会影响 Agent 设计的模型能力更新
+- Coding Agent、Research Agent、Workflow Agent、多智能体实践
+- Agent 工具调用、规划、评测、自主任务完成相关论文
+- GitHub、Gitee 和开发者生态中的开源项目
+- 与 Agent 应用有关的长文、案例分析和实践笔记
 
-脚本会从 RSS、Google News RSS、arXiv、GitHub Search、中英文 AI 媒体中收集候选内容，然后调用 DeepSeek 判断价值并生成结构化日报。
+这个仓库的目标很直接：
 
-这不是 Web 应用，也不是仪表盘。它的目标是每天稳定产出可以直接发布的文件。
+> 帮助 Agent 构建者快速找到 AI Agent 生态中真正值得读的内容。
 
-## 输出文件
+## 最新每日简报
 
-每次运行默认可以生成：
+每日简报保存在 [`daily_news/`](../daily_news/)。
 
-| 输出 | 路径 |
+| 日期 | 简报 |
 |---|---|
-| Markdown 日报 | `daily_news/YYYY-MM-DD-ai-news-digest.md` |
-| 微信公众号 HTML | `wechat_articles/YYYY-MM-DD-ai-news-wechat.html` |
-| 微信公众号封面图 | `wechat_articles/covers/YYYY-MM-DD-ai-news-cover.png` |
-| 本地正文配图 | `wechat_articles/assets/YYYY-MM-DD-ai-news-wechat/` |
+| 2026-06-08 | [AI 新闻简报](../daily_news/2026-06-08-ai-news-digest.md) |
 
-最终文章分成两个独立模块：
+后续会按日期持续增加。
 
-| 模块 | 来源 |
+## 内容地图
+
+| 目录 | 内容 |
 |---|---|
-| 新闻与产业动态 | 媒体、官方博客、Google News RSS |
-| 论文与开源项目 | arXiv、GitHub Search、Gitee 相关报道 |
+| `daily_news/` | 每日 AI 新闻简报，包含来源链接、摘要和价值判断 |
+| `cases/` | Agent 实际应用案例和使用经验 |
+| `papers/` | Agent、工具调用、规划、评测相关重要论文 |
+| `projects/` | 开源项目、Agent 框架和开发者工具 |
+| `articles/` | 更长的分析文章、专题笔记和主题集合 |
 
-## 为什么要做
+部分目录会随着内容增长逐步出现。
 
-AI 新闻很多，但对 agent 开发者真正有价值的信息很分散。
+## 重点关注方向
 
-这个项目每天回答一个问题：
+这个仓库优先关注：
 
-> 今天做 AI agent 的人最值得读什么？
+- AI Agent 完成具体任务的案例
+- Coding Agent 和软件工程自动化
+- 科研 Agent，包括文献综述、实验设计、科学发现等
+- IC 设计、EDA、芯片工作流和工程自动化
+- 工具调用、浏览器操作、MCP、工作流编排和类 RPA Agent
+- 多智能体协作和 Agent 间通信
+- Benchmark、评测、可靠性和安全
+- Prompt injection、数据泄露、供应链攻击等安全风险
+- 开源 Agent 框架和开发者工具
+- 国内外 AI 产品、公司和生态变化
 
-筛选重点包括：
+## 筛选原则
 
-- 会影响 agent 架构设计的模型能力变化
-- agent 完成真实任务的经验，而不只是 demo
-- coding agent、research agent、多智能体、工具调用、MCP、评测等方向
-- 有足够信号的开源项目
-- 中英文来源，而不是只看海外公司官方博客
+这个仓库追求信息密度，而不是数量。
 
-## 快速开始
+值得收录的内容通常至少满足以下一点：
 
-安装依赖：
+- 展示了真实的能力提升
+- 说明了 Agent 如何完成某个具体任务
+- 包含可复用的工程经验
+- 揭示了新的风险、限制或失败模式
+- 介绍了有价值的开源项目
+- 能把产品更新和实际 Agent 工作流联系起来
 
-```powershell
-pip install -r requirements.txt
-```
+纯营销、重复报道和缺少实质信息的内容会降低优先级。
 
-创建配置文件：
+## 如何使用这个仓库
 
-```powershell
-Copy-Item .\.env.example .\.env
-```
+如果你正在构建 AI Agent：
 
-编辑 `.env`：
+- 从最新每日简报开始
+- 重点看“为什么重要”部分
+- 顺着原链接阅读实现细节
+- 关注 `projects/` 和 `papers/` 中可复用的设计思路
 
-```env
-DEEPSEEK_API_KEY=你的 DeepSeek API Key
-DEEPSEEK_MODEL=deepseek-v4-flash
-```
+如果你在研究 Agent 趋势：
 
-只抓取候选，不调用 DeepSeek：
+- 对比不同日期的每日简报
+- 跟踪 Coding Agent、工具调用、安全、评测等高频主题
+- 把这里当成一个长期阅读队列
 
-```powershell
-python .\ai_news_bot.py --dry-run
-```
+如果你在寻找实践案例：
 
-生成当天完整日报、微信公众号 HTML、封面图和配图：
+- 后续重点查看 `cases/` 和 `articles/`
+- 优先看任务导向的案例，而不是单纯产品发布
 
-```powershell
-python .\ai_news_bot.py
-```
-
-生成指定日期：
-
-```powershell
-python .\ai_news_bot.py --date 2026-06-08
-```
-
-## 常用命令
-
-| 任务 | 命令 |
-|---|---|
-| 生成完整日报 | `python .\ai_news_bot.py` |
-| 预览候选，不调用 DeepSeek | `python .\ai_news_bot.py --dry-run` |
-| 使用 3 天检索窗口 | `python .\ai_news_bot.py --days 3` |
-| 新闻 15 条，论文/项目 10 条 | `python .\ai_news_bot.py --top-n 15 --research-top-n 10` |
-| 增加中文来源数量 | `python .\ai_news_bot.py --min-zh-stories 4` |
-| 提高 GitHub star 阈值 | `python .\ai_news_bot.py --github-min-stars 50` |
-| 只生成 Markdown | `python .\ai_news_bot.py --skip-wechat` |
-| 不自动抓取正文图片 | `python .\ai_news_bot.py --no-fetch-images` |
-| 不生成封面图 | `python .\ai_news_bot.py --skip-cover` |
-| 使用其他配置文件 | `python .\ai_news_bot.py --env-file .\.env.local` |
-
-## 上传 Markdown 到 GitHub
-
-`upload_daily_md_to_github.py` 会把当天 Markdown 日报上传到：
-
-```text
-https://github.com/parkerluxu/Awesome-agent-cases.git
-```
-
-预览操作：
-
-```powershell
-python .\upload_daily_md_to_github.py --dry-run
-```
-
-上传当天日报：
-
-```powershell
-python .\upload_daily_md_to_github.py
-```
-
-上传指定日期：
-
-```powershell
-python .\upload_daily_md_to_github.py --date 2026-06-08
-```
-
-上传指定 Markdown 文件：
-
-```powershell
-python .\upload_daily_md_to_github.py --source .\daily_news\2026-06-08-ai-news-digest.md
-```
-
-脚本会自动识别目标仓库默认分支。如果目标仓库是刚创建的空仓库，还没有任何提交，脚本会默认创建并推送到 `main` 分支。
-
-强制指定分支：
-
-```powershell
-python .\upload_daily_md_to_github.py --branch master
-```
-
-认证方式：
-
-- 默认使用本机已有的 `git` 登录凭据或凭据管理器。
-- 如果设置了 `GITHUB_TOKEN`，脚本会在本次 Git 操作中使用 token，并在输出中遮蔽 token。
-- 本地缓存仓库位于 `.github_upload/`，该目录已加入 `.gitignore`。
-
-如果看到：
-
-```text
-Local upload repo has uncommitted changes
-```
-
-通常说明上一次上传中途失败，缓存仓库里留下了已复制但未提交的文件。可以删除缓存后重跑：
-
-```powershell
-Remove-Item .\.github_upload\Awesome-agent-cases -Recurse -Force
-python .\upload_daily_md_to_github.py
-```
-
-## 微信公众号发布
-
-生成 HTML 后，打开：
-
-```text
-wechat_articles/YYYY-MM-DD-ai-news-wechat.html
-```
-
-推荐发布流程：
-
-1. 用浏览器打开 HTML 文件。
-2. 在浏览器页面中 `Ctrl + A`、`Ctrl + C`。
-3. 打开微信公众号后台。
-4. 创建新的图文草稿。
-5. 点击正文编辑区，`Ctrl + V` 粘贴。
-6. 如果微信没有保留本地图片，需要从 `wechat_articles/assets/` 中重新上传对应图片。
-
-注意：不要复制 HTML 源码，要复制浏览器渲染后的页面内容。
-
-## 新闻源
-
-脚本会结合固定源和搜索源。
-
-| 类型 | 示例 |
-|---|---|
-| 官方/研究博客 | OpenAI、Google DeepMind、Microsoft、NVIDIA、Hugging Face |
-| 海外 AI 垂直媒体 | The Decoder、Synced、The Gradient、Import AI、MarkTechPost、Artificial Intelligence News |
-| 海外科技媒体 | TechCrunch AI、VentureBeat AI、The Verge AI、MIT Technology Review |
-| 中文科技/AI 媒体 | 量子位、InfoQ 中文、开源中国、cnBeta、36氪 |
-| 搜索覆盖 | Google News RSS 中英文查询 |
-| 论文 | arXiv API |
-| 开源项目 | GitHub Search API，通过新闻搜索覆盖 Gitee 相关报道 |
-
-## 工作流程
-
-1. 从 RSS 和 Google News RSS 收集新闻候选。
-2. 从 arXiv 收集论文候选。
-3. 从 GitHub Search 收集开源项目候选。
-4. 按 URL 去重。
-5. 根据 `--days` 过滤过旧内容。
-6. 用 agent 相关关键词做本地排序。
-7. 保留中英文候选来源。
-8. 将新闻池和论文/开源项目池分别提交给 DeepSeek。
-9. 让 DeepSeek 筛选高价值条目并生成 Markdown。
-10. 转换为微信公众号 HTML。
-11. 根据当天标题生成封面图。
-12. 尝试抓取正文配图。
-13. 可选：上传 Markdown 到 GitHub 仓库。
-
-## 项目结构
+## 当前结构
 
 ```text
 .
-├── ai_news_bot.py                  # 主流程：收集、筛选、生成日报
-├── wechat_formatter.py             # Markdown 转微信公众号 HTML
-├── cover_generator.py              # 封面图生成
-├── upload_daily_md_to_github.py    # 上传 Markdown 到 GitHub
-├── daily_news/                     # Markdown 日报
-├── wechat_articles/                # 微信 HTML、封面图和配图
+├── daily_news/
+│   └── YYYY-MM-DD-ai-news-digest.md
+├── cases/
+├── papers/
+├── projects/
+├── articles/
 ├── docs/
-│   └── README.zh-CN.md             # 中文文档
-├── requirements.txt
-└── .env.example
+│   └── README.zh-CN.md
+└── README.md
 ```
 
-## 配置
+## 贡献内容
 
-配置优先级：
+欢迎提交建议。
 
-```text
-命令行参数 > 系统环境变量 > .env > 默认值
-```
+适合贡献的内容包括：
 
-最小 `.env`：
+- 高质量 AI Agent 案例
+- 有实践价值的论文
+- 开源 Agent 项目
+- 链接、来源或摘要修正
+- 围绕 Coding Agent、Research Agent、工具调用、安全、评测等方向的主题集合
 
-```env
-DEEPSEEK_API_KEY=你的 DeepSeek API Key
-DEEPSEEK_MODEL=deepseek-v4-flash
-```
+建议内容时，请尽量包含：
 
-可选 GitHub token：
-
-```env
-GITHUB_TOKEN=你的 GitHub token
-```
-
-不要把密钥提交到 git。`.env` 已加入忽略规则。
+- 标题
+- 来源链接
+- 为什么值得关注
+- 分类，例如 news、case、paper、project、article
 
 ## 注意事项
 
-- RSS 摘要不一定包含全文，日报以候选源能提供的信息为准。
-- 某些 RSS 或 Google News 源可能临时失败，脚本会跳过失败源并继续。
-- Windows 上如果 Python HTTPS 抓取遇到 SSL EOF，脚本会 fallback 到 `curl.exe`。
-- 抓取到的新闻配图可能涉及版权，发布前建议检查来源和使用场景。
-- Google News 链接有时是跳转链接，不一定是最终原文链接。
+- 会尽可能保留原始来源链接。
+- 部分新闻链接可能来自聚合器跳转。
+- 摘要用于辅助阅读，不能替代原文。
+- 涉及图片、图表或引用内容时，请以原始来源的版权和许可为准。
 
 ## License
 
-MIT。你可以 fork、改造，并接入自己的内容发布流程。
+除非另有说明，本仓库的整理内容和原创笔记使用 MIT License。原始文章、论文和链接项目仍归各自权利方所有。

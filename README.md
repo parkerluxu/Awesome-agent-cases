@@ -1,260 +1,146 @@
-# AI News Bot
+# Awesome Agent Cases
 
-Daily AI agent intelligence, summarized by DeepSeek, exported as Markdown and WeChat-ready HTML.
+A curated, continuously updated collection of AI agent news, real-world cases, papers, open-source projects, and practical notes.
 
 [English](README.md) | [中文](docs/README.zh-CN.md)
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![DeepSeek](https://img.shields.io/badge/LLM-DeepSeek-black)
-![Markdown](https://img.shields.io/badge/Output-Markdown-green)
-![WeChat](https://img.shields.io/badge/Output-WeChat_HTML-07c160)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![AI Agents](https://img.shields.io/badge/Focus-AI_Agents-blue)
+![Daily Updates](https://img.shields.io/badge/Updates-Daily-green)
+![Research](https://img.shields.io/badge/Covers-Papers%20%26%20Projects-purple)
+![Language](https://img.shields.io/badge/Language-ZH%20%7C%20EN-orange)
 
 ---
 
-## What This Is
+## What This Repository Tracks
 
-**AI News Bot** is a daily publishing pipeline for tracking what matters in AI agents:
+**Awesome Agent Cases** is a daily knowledge base for people building, evaluating, or applying AI agents.
 
-- AI agent and model capability updates
-- real task usage, such as research, coding, IC/EDA work, security, automation, and productivity
-- new papers, GitHub projects, and open-source agent frameworks
-- major AI product launches, funding, regulation, incidents, and other breakout stories
+This repository collects and organizes:
 
-It collects candidates from RSS, Google News RSS, arXiv, GitHub Search, and Chinese/English AI media, then asks DeepSeek to select and write a structured daily digest.
+- daily AI agent news digests
+- model capability updates that affect agent design
+- coding agent, research agent, workflow agent, and multi-agent practice
+- papers about agents, tool use, planning, evaluation, and autonomous task completion
+- open-source projects from GitHub, Gitee, and the broader developer ecosystem
+- longer notes, case studies, and practical articles related to agent applications
 
-No web app. No dashboard. Just a practical automation script that produces files you can publish.
+The goal is simple:
 
-## Outputs
+> Help builders quickly find what matters in the fast-moving AI agent ecosystem.
 
-Every run can generate:
+## Latest Daily Briefs
 
-| Output | Path |
+Daily briefs are stored in [`daily_news/`](daily_news/).
+
+| Date | Brief |
 |---|---|
-| Markdown digest | `daily_news/YYYY-MM-DD-ai-news-digest.md` |
-| WeChat HTML article | `wechat_articles/YYYY-MM-DD-ai-news-wechat.html` |
-| WeChat cover image | `wechat_articles/covers/YYYY-MM-DD-ai-news-cover.png` |
-| downloaded article images | `wechat_articles/assets/YYYY-MM-DD-ai-news-wechat/` |
+| 2026-06-08 | [AI News Digest](daily_news/2026-06-08-ai-news-digest.md) |
 
-The generated article is split into two independent sections:
+New daily briefs will be added over time.
 
-| Section | Selected From |
+## Content Map
+
+| Section | What You Will Find |
 |---|---|
-| News and industry updates | media, official blogs, Google News RSS |
-| Papers and open-source projects | arXiv, GitHub Search, Gitee-related coverage |
+| `daily_news/` | Daily AI news digests with links, summaries, and why each item matters |
+| `cases/` | Practical agent application cases and usage writeups |
+| `papers/` | Notable papers about AI agents, tool use, planning, and evaluation |
+| `projects/` | Open-source projects, frameworks, and developer tools |
+| `articles/` | Longer analysis, notes, and topic-focused collections |
 
-## Why This Exists
+Some folders may appear as the collection grows.
 
-AI news is noisy. Agent progress is even noisier.
+## Topics We Care About
 
-This project is designed to answer one daily question:
+This repository prioritizes content about:
 
-> What should an AI agent builder actually read today?
+- AI agents completing concrete tasks
+- coding agents and software engineering automation
+- research agents for science, literature review, experiment design, and discovery
+- IC design, EDA, chip workflows, and engineering automation
+- tool use, browser use, MCP, workflow orchestration, and RPA-like agents
+- multi-agent collaboration and agent communication
+- benchmarks, evaluation, reliability, and safety
+- security risks, prompt injection, data leakage, and supply-chain attacks
+- open-source agent frameworks and developer tools
+- Chinese and international AI products, companies, and ecosystems
 
-The pipeline prioritizes sources and stories about:
+## Selection Principles
 
-- model capability improvements that affect agent design
-- agents completing concrete tasks, not just demos
-- coding agents, research agents, multi-agent systems, tool use, MCP, and evaluation
-- open-source projects with enough signal to be worth tracking
-- Chinese and English sources, instead of only Western company blogs
+Items are selected for signal, not volume.
 
-## Quick Start
+Good entries usually have at least one of these qualities:
 
-Install dependencies:
+- They show a real capability improvement.
+- They describe how agents perform a specific task.
+- They include reusable engineering lessons.
+- They reveal a new risk, limitation, or failure mode.
+- They introduce a useful open-source project.
+- They connect product updates to practical agent workflows.
 
-```bash
-pip install -r requirements.txt
-```
+Marketing-only posts, duplicated coverage, and vague announcements are deprioritized.
 
-Create your config:
+## How To Use This Repository
 
-```bash
-cp .env.example .env
-```
+If you are an AI agent builder:
 
-Edit `.env`:
+- start with the latest daily brief
+- scan the "why it matters" sections
+- follow source links for implementation details
+- watch the `projects/` and `papers/` folders for reusable ideas
 
-```env
-DEEPSEEK_API_KEY=your_deepseek_api_key
-DEEPSEEK_MODEL=deepseek-v4-flash
-```
+If you are researching agent trends:
 
-Preview candidate collection without calling DeepSeek:
+- compare daily briefs over time
+- track repeated themes such as coding agents, tool use, safety, and evaluation
+- use the collection as a reading queue
 
-```bash
-python ai_news_bot.py --dry-run
-```
+If you are looking for practical examples:
 
-Generate today's Markdown digest, WeChat HTML, cover image, and article images:
+- check `cases/` and `articles/` as the repository grows
+- look for task-specific examples, not only product announcements
 
-```bash
-python ai_news_bot.py
-```
-
-Generate a specific date:
-
-```bash
-python ai_news_bot.py --date 2026-06-08
-```
-
-## Common Commands
-
-| Task | Command |
-|---|---|
-| Generate full daily package | `python ai_news_bot.py` |
-| Dry run candidate collection | `python ai_news_bot.py --dry-run` |
-| Use a 3-day search window | `python ai_news_bot.py --days 3` |
-| Generate 15 news items and 10 paper/project items | `python ai_news_bot.py --top-n 15 --research-top-n 10` |
-| Require more Chinese stories | `python ai_news_bot.py --min-zh-stories 4` |
-| Raise GitHub star threshold | `python ai_news_bot.py --github-min-stars 50` |
-| Skip WeChat HTML | `python ai_news_bot.py --skip-wechat` |
-| Disable article image fetching | `python ai_news_bot.py --no-fetch-images` |
-| Disable cover generation | `python ai_news_bot.py --skip-cover` |
-| Use another env file | `python ai_news_bot.py --env-file .env.local` |
-
-## GitHub Publishing
-
-`upload_daily_md_to_github.py` uploads the daily Markdown digest to:
-
-```text
-https://github.com/parkerluxu/Awesome-agent-cases.git
-```
-
-Preview:
-
-```bash
-python upload_daily_md_to_github.py --dry-run
-```
-
-Upload today's digest:
-
-```bash
-python upload_daily_md_to_github.py
-```
-
-Upload a specific date:
-
-```bash
-python upload_daily_md_to_github.py --date 2026-06-08
-```
-
-Upload a specific Markdown file:
-
-```bash
-python upload_daily_md_to_github.py --source daily_news/2026-06-08-ai-news-digest.md
-```
-
-The script auto-detects the target repository's default branch. If the repository is brand new and has no commits, it creates and pushes to `main` by default.
-
-To force another branch:
-
-```bash
-python upload_daily_md_to_github.py --branch master
-```
-
-Authentication:
-
-- Uses your local `git` credentials by default.
-- If `GITHUB_TOKEN` is set, the token is used for this Git operation and redacted from script output.
-- The local clone cache lives in `.github_upload/`, which is ignored by git.
-
-## WeChat Publishing
-
-Open the generated HTML:
-
-```text
-wechat_articles/YYYY-MM-DD-ai-news-wechat.html
-```
-
-Recommended publishing flow:
-
-1. Open the HTML file in a browser.
-2. Select the rendered page content with `Ctrl + A`, then copy with `Ctrl + C`.
-3. Open WeChat Official Account backend.
-4. Create a new article draft.
-5. Paste into the rich text editor.
-6. Re-upload local images from `wechat_articles/assets/` if WeChat does not keep local image paths.
-
-Do not copy the raw HTML source. Copy the rendered browser page.
-
-## Sources
-
-The bot combines fixed sources and query-based sources.
-
-| Type | Examples |
-|---|---|
-| Official and research blogs | OpenAI, Google DeepMind, Microsoft, NVIDIA, Hugging Face |
-| International AI media | The Decoder, Synced, The Gradient, Import AI, MarkTechPost, Artificial Intelligence News |
-| International tech media | TechCrunch AI, VentureBeat AI, The Verge AI, MIT Technology Review |
-| Chinese tech and AI media | QbitAI, InfoQ CN, OSChina, cnBeta, 36Kr |
-| Search-backed coverage | Google News RSS English and Chinese queries |
-| Research | arXiv API |
-| Open source | GitHub Search API, Gitee-related coverage through news search |
-
-## How It Works
-
-1. Collect news candidates from RSS and Google News RSS.
-2. Collect paper candidates from arXiv.
-3. Collect open-source project candidates from GitHub Search.
-4. Deduplicate by URL.
-5. Filter by the configured time window.
-6. Score locally with agent-focused keywords.
-7. Keep Chinese and English sources in the candidate pool.
-8. Send separate candidate pools to DeepSeek.
-9. Ask DeepSeek to select high-value items and write the final Markdown article.
-10. Generate the WeChat HTML article.
-11. Generate a cover image from the daily title.
-12. Fetch useful article images when available.
-13. Optionally upload the Markdown digest to GitHub.
-
-## Project Structure
+## Current Structure
 
 ```text
 .
-├── ai_news_bot.py                  # main collection and generation pipeline
-├── wechat_formatter.py             # Markdown to WeChat-friendly HTML
-├── cover_generator.py              # daily cover image generator
-├── upload_daily_md_to_github.py    # upload daily Markdown to GitHub
-├── daily_news/                     # generated Markdown digests
-├── wechat_articles/                # generated WeChat HTML, covers, and images
+├── daily_news/
+│   └── YYYY-MM-DD-ai-news-digest.md
+├── cases/
+├── papers/
+├── projects/
+├── articles/
 ├── docs/
-│   └── README.zh-CN.md             # Chinese documentation
-├── requirements.txt
-└── .env.example
+│   └── README.zh-CN.md
+└── README.md
 ```
 
-## Configuration
+## Contributing
 
-Configuration priority:
+Suggestions are welcome.
 
-```text
-CLI arguments > system environment variables > .env > defaults
-```
+Useful contributions include:
 
-Minimal `.env`:
+- high-quality AI agent cases
+- papers with practical relevance
+- open-source agent projects
+- corrections to links, sources, or summaries
+- topic collections around coding agents, research agents, tool use, security, or evaluation
 
-```env
-DEEPSEEK_API_KEY=your_deepseek_api_key
-DEEPSEEK_MODEL=deepseek-v4-flash
-```
+When suggesting content, please include:
 
-Optional GitHub token:
-
-```env
-GITHUB_TOKEN=your_github_token
-```
-
-Keep secrets out of git. `.env` is already ignored.
+- title
+- source link
+- short reason why it matters
+- category, such as news, case, paper, project, or article
 
 ## Notes
 
-- RSS summaries may not contain full article text; the digest is based on available candidate metadata.
-- Some RSS or Google News endpoints may fail temporarily. The script skips failed sources and continues.
-- On Windows, if Python HTTPS fetching hits SSL EOF errors, the script falls back to `curl.exe`.
-- Downloaded article images may have copyright restrictions. Check source usage before publishing.
-- Google News links may be redirect links instead of final article URLs.
+- Source links are preserved whenever possible.
+- Some news links may be redirect links from news aggregators.
+- Summaries are intended as reading aids, not replacements for original sources.
+- For images, charts, or quoted material, always check the original license and usage context.
 
 ## License
 
-MIT. Fork it, customize it, and wire it into your own publishing workflow.
+Unless otherwise stated, repository curation and original notes are released under the MIT License. Original articles, papers, and linked projects remain under their respective owners' licenses.
