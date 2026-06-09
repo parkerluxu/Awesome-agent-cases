@@ -32,18 +32,14 @@
 
 每日简报保存在 [`daily_news/`](../daily_news/)。
 
-| 日期 | 简报 |
-|---|---|
-| 2026-06-08 | [AI 新闻简报](../daily_news/2026-06-08-ai-news-digest.md) |
-
-后续会按日期持续增加。
-
 <!-- DAILY_BRIEFS_START -->
 | 日期 | 简报 |
 |---|---|
 | 2026-06-09 | [AI 新闻简报](../daily_news/2026-06-09-ai-news-digest.md) |
 | 2026-06-08 | [AI 新闻简报](../daily_news/2026-06-08-ai-news-digest.md) |
 <!-- DAILY_BRIEFS_END -->
+
+后续会按日期持续增加。
 
 ## 重点索引
 
