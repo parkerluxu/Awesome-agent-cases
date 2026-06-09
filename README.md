@@ -38,6 +38,12 @@ Daily briefs are stored in [`daily_news/`](daily_news/).
 
 New daily briefs will be added over time.
 
+## Featured Indexes
+
+| Topic | Link |
+|---|---|
+| AI Agent tools, cases, tutorials, projects and papers | [articles/ai-agent-tools-cases-tutorials-projects-papers.md](articles/ai-agent-tools-cases-tutorials-projects-papers.md) |
+
 ## Content Map
 
 | Section | What You Will Find |

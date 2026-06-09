@@ -38,6 +38,12 @@
 
 后续会按日期持续增加。
 
+## 重点索引
+
+| 主题 | 链接 |
+|---|---|
+| AI Agent 工具、案例、教程、项目和论文总索引 | [articles/ai-agent-tools-cases-tutorials-projects-papers.md](../articles/ai-agent-tools-cases-tutorials-projects-papers.md) |
+
 ## 内容地图
 
 | 目录 | 内容 |
