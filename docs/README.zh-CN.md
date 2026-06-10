@@ -35,6 +35,7 @@
 <!-- DAILY_BRIEFS_START -->
 | 日期 | 简报 |
 |---|---|
+| 2026-06-10 | [AI 新闻简报](../daily_news/2026-06-10-ai-news-digest.md) |
 | 2026-06-09 | [AI 新闻简报](../daily_news/2026-06-09-ai-news-digest.md) |
 | 2026-06-08 | [AI 新闻简报](../daily_news/2026-06-08-ai-news-digest.md) |
 <!-- DAILY_BRIEFS_END -->
