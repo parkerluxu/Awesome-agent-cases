@@ -1,4 +1,4 @@
-﻿# 电子系统设计：AI Agent 实战案例、教程与科研项目调研
+# 电子系统设计：AI Agent 实战案例、教程与科研项目调研
 
 调研日期：2026-06-13
 
@@ -248,6 +248,58 @@ SmartonAI 以 KiCad 为例，尝试用 GPT/BERT 做 EDA 软件的自然语言交
 - 高速/射频规则错误。
 - DRC 通过但工程上不可制造。
 - 打样成本和硬件损坏风险。
+
+<!-- AUTO_CASE_UPDATES_START:electronic:zh-CN -->
+### 最新自动发现更新
+
+以下内容为基于最新候选资料的增量更新线索，尚未正式收录入主文章，供编辑和社区参考。
+
+#### 重点新增线索
+
+- **ForgeLab**：自称“设计的LLVM”，通过 JSON IR + MCP 服务器让 AI Agent 创建 KiCad、FreeCAD 及 glTF 文件。项目较新（2026-06-12），Star 数仅 2，但概念新颖，值得关注其架构与落地效果。 [GitHub](https://github.com/andresparraarze/ForgeLab)
+- **salitronic/eda-agent**：开源的 Altium Designer MCP 服务器，提供 290+ 工具用于原理图、PCB、库及项目自动化，包括设计审查、SVG 渲染、自动布局、拼板等。Apache-2.0 许可，Star 数 56，是当前候选资料中成熟度较高的 Altium 侧 Agent 方案。 [GitHub](https://github.com/salitronic/eda-agent)
+- **SchGen 论文**：首个从自然语言生成可编辑 PCB 原理图的大语言模型，解决了 LLM 缺乏合适表示和数据集的问题。来自 arXiv（2026-05-28），是学术端的重要进展。 [arXiv](https://arxiv.org/abs/2605.30345v1)
+
+#### GitHub/开源项目
+
+- **TripleT-KiCad-Agent**：AI 工程助手，连接高层系统需求与物理 PCB 设计，理解电子理论、元件可用性和 KiCad 文件结构。Star 数 1。 [GitHub](https://github.com/Matt-Thom/TripleT-KiCad-Agent)
+- **KiSkill**：为 AI 编码 Agent 提供对 KiCad 的完全控制（无 GUI），支持编辑、验证、审查和制造。Star 数 0。 [GitHub](https://github.com/AvatarSD/KiSkill)
+- **bretbouchard/kicad-agent**：对 KiCad 原理图、PCB、符号和封装文件进行 AI 安全的结构化编辑。Star 数 1。 [GitHub](https://github.com/bretbouchard/kicad-agent)
+- **liwenjinchn/hardwise**：专注于硬件研发中原理图审查节点的 AI Agent，基于 KiCad 公开样本的两周原型演示。Star 数 0。 [GitHub](https://github.com/liwenjinchn/hardwise)
+- **gfgf2023/hfss-mcp-server**：Ansys HFSS 的 MCP 服务器，支持天线设计与 PCB 仿真，允许 AI 通过自然语言控制 HFSS。Star 数 0。 [GitHub](https://github.com/gfgf2023/hfss-mcp-server)
+- **dshills/KiCadAI**：AI 辅助 KiCad 设计工具包，含 Go CLI、直接原理图/PCB 写入器、验证和引脚映射检查。Star 数 0。 [GitHub](https://github.com/dshills/KiCadAI)
+- **AdamWolcottSmith/tscircuit-to-fusion**：将 tscircuit PCB 设计导出到 Fusion360（分层 DXF 草图 + STEP 实体），无需 KiCad。Star 数 1。 [GitHub](https://github.com/AdamWolcottSmith/tscircuit-to-fusion)
+- **tscircuit/runframe**：在 Web Worker 中运行 tscircuit 代码，提供 PCB、原理图和 3D 预览。Star 数 17。 [GitHub](https://github.com/tscircuit/runframe)
+- **ritwick06/elektran-ai**：自称自主 PCB 设计工具。Star 数 0。 [GitHub](https://github.com/ritwick06/elektran-ai)
+- **Zero-inadequateness813/amux**：管理以 AI Agent 和人类命名的持久 tmux 面板，在后台会话中运行命令并跟踪输出。与 KiCad 无直接关联，但可能用于 Agent 工作流管理。Star 数 0。 [GitHub](https://github.com/Zero-inadequateness813/amux)
+
+#### 论文/Benchmark
+
+- **SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations**：首个从自然语言生成可编辑 PCB 原理图的 LLM，发表于 arXiv（2026-05-28）。 [arXiv](https://arxiv.org/abs/2605.30345v1)
+
+#### 产品教程/媒体实测
+
+- **Google 搜索框 25 年来首次重新设计**：转变为动态 AI 驱动对话界面。可能影响未来 Agent 与用户交互的方式。 [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
+- **OpenAI 收购 Ona**：旨在扩展 Codex，提供安全、持久的云端环境，支持企业工作流中的长时间运行 AI Agent。 [OpenAI](https://openai.com/index/openai-to-acquire-ona)
+- **OpenAI Academy 新课程**：教授构建实用 AI 技能、创建可重复工作流以及在工作中的应用 Agent。 [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work)
+- **Google DeepMind 关注百万 Agent 交互风险**：资助研究大规模 AI Agent 在线交互的潜在危险。 [MIT Technology Review](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/)
+- **Agentic AI 解决 RTL 验证生产力差距**：来自 New Electronics 的报道（2026-05-22），涉及 Agent 在芯片验证中的应用。 [New Electronics](https://news.google.com/rss/articles/CBMipwFBVV95cUxOUjlFNjRObWtnUGZxYzNyRG41NzI5a2EzRl9nNUJoaUVrcWdoN1VvTmlybjl0UGdmYnNQYW9xMExxRm0zMUJiaGpnT0tKbDR0TEJHQzZTZXhTSHE2Nk12YzVOUE1GVXJkUTVDSjh6bjE0TlNKVFlaYmFwWjUybnY5SDd4eUJxVlh6LWFCdG95Zmk4UEpNZXV5VlNCaHFMU25tcW9sVk1lWQ?oc=5)
+
+#### 中文社区线索
+
+- **菜鸟教程 - 大语言模型基础（LLM）**：中文入门教程，介绍 LLM 作为 AI Agent 大脑的基础概念。 [菜鸟教程](https://www.runoob.com/ai-agent/ai-agent-llm.html)
+- **Datawhale - Happy-LLM**：GitHub 上的系统性 LLM 学习教程，从 NLP 基础到 LLM 架构与训练。 [GitHub](https://github.com/datawhalechina/happy-llm)
+- **hashgraph-online/awesome-codex-plugins**：Codex 插件资源列表，可能包含与电子设计相关的 Agent 工具。 [GitHub](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WT2pYYl93MnNkZV9uVTIwOGtIWE85Y0tzYVRHWWJyampmSHZNMnhqV0V1ZXdaSmdLZ0JLT0lRckZHUGpPZG0xWWU0dUZpUXdRZjUxTGcxUW1KaDlheWRpd3pMRWhzcEVp?oc=5)
+
+#### 值得后续复核
+
+- **ForgeLab**：概念新颖但 Star 数极低，需人工复核其实际可用性与社区反馈。
+- **KiSkill、bretbouchard/kicad-agent、liwenjinchn/hardwise、dshills/KiCadAI、ritwick06/elektran-ai**：均为 0-1 Star 的新项目，功能描述尚不充分，需人工复核代码质量与文档完整性。
+- **hfss-mcp-server**：将 AI 引入 HFSS 仿真，但 Star 数为 0，需人工复核其与 Ansys HFSS 的集成深度。
+- **OpenEnv for Agentic RL**：Hugging Face 博客文章（2026-06-08），摘要为空，需人工复核其与电子设计 Agent 的相关性。 [Hugging Face](https://huggingface.co/blog/openenv-agentic-rl)
+- **hf CLI for agents**：Hugging Face 博客文章（2026-06-04），摘要为空，需人工复核其对 Agent 工作流的具体优化。 [Hugging Face](https://huggingface.co/blog/hf-cli-for-agents)
+- **tscircuit/tscircuit**：Star 数 2246，是成熟的 TypeScript 电子设计框架，但与本案例库的“AI Agent”核心主题关联度待人工复核。 [GitHub](https://github.com/tscircuit/tscircuit)
+<!-- AUTO_CASE_UPDATES_END:electronic:zh-CN -->
 
 ## 参考链接
 

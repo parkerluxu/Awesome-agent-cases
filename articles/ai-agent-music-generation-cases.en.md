@@ -162,6 +162,49 @@ This critique is useful because it reminds us that generating sounds resembling 
 5. Generate a lyric video.
 6. Before commercial release, check license, similarity, and voice rights.
 
+<!-- AUTO_CASE_UPDATES_START:music:en -->
+## Latest Auto-Discovered Updates
+
+### Key New Leads
+- **Google search box redesign** – Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a simple keyword input into a dynamic, AI-driven conversational interface. May affect how users discover music generation tools. [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
+- **OpenAI to acquire Ona** – OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. [OpenAI](https://openai.com/index/openai-to-acquire-ona)
+- **Microsoft Rayfin** – New backend platform for AI agent development and app creation, debuted June 3. [Tech Times](https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3IxQXM3SVNacnJuUFk4NlhBc2VaUklKWnpOM294aXQwaFVwSTBKQ3J4NzFONUlHRUtBMGRteWdYZGdDS1dLSTdTdVBLckMxVlBYQVl2Z2V2RkxRRm9feHl3aWk3Q1p2STk1eWltdjJkS0lnSk5fakNTVmNPVlFKNG9rREFhc1FuVG9Hc3htZ1RhdjNhdlg2ZWNWUXJyOUNLc0ZibkFjOU8xaC1iYThJOVlfdFhuZVIyQlRkUXpTQWx2Ymx6U01JVXBXbUtNdw)
+- **Google DeepMind on multi-agent risks** – DeepMind funding research into dangers of millions of AI agents interacting online. [MIT Technology Review](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/)
+- **OpenAI Academy courses** – New courses on building practical AI skills, repeatable workflows, and applying agents at work. [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work)
+
+### GitHub / Open-Source Projects
+- **AetherWave-Studio/aetherwave-mcp** – MCP server for music, image, video, and band generation tools for Claude, Cursor, Continue, and custom agents. Stars: 2. [GitHub](https://github.com/AetherWave-Studio/aetherwave-mcp)
+- **JOYLINK-LTD/lacuna-toolkit** – Open-source SDK, CLI, MCP server, and Agent Skill for Lacuna Music API. Stars: 4. [GitHub](https://github.com/JOYLINK-LTD/lacuna-toolkit)
+- **varosity-ai/mcp-server** – MCP server exposing video, voice, music generation to Claude Desktop, Cursor, Hermes. Stars: 0. [GitHub](https://github.com/varosity-ai/mcp-server)
+- **wangchuxiaoji-oss/doubao2api** – Reverse-engineered Doubao API → OpenAI-compatible REST service for multimodal chat, image/video/music generation. Stars: 40. [GitHub](https://github.com/wangchuxiaoji-oss/doubao2api)
+- **vivar/Hermes-Suno-Music-Agent** – Hermes agent for building complete AI music video projects with structured workflows. Stars: 0. [GitHub](https://github.com/vivar/Hermes-Suno-Music-Agent)
+- **ArcReel/ArcReel** – AI Agent-driven open-source video generation workspace (novel→character/scene/prop design→script→storyboard→video). [GitHub](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR)
+- **AceDataCloud/Skills** – Agent Skills for music, image, video generation, compatible with Claude Code, GitHub Copilot, Gemini CLI. Stars: 8. [GitHub](https://github.com/AceDataCloud/Skills)
+- **akshithajela/guitarmind** – AI agent that turns a feeling into a guitar chord progression, grounded in music theory. Stars: 0. [GitHub](https://github.com/akshithajela/guitarmind)
+- **Aman1601s/playlistAgent** – AI-powered Spotify playlist assistant via MCP for ChatGPT and Claude. Stars: 0. [GitHub](https://github.com/Aman1601s/playlistAgent)
+- **Neeidy/Badger-Tape** – Fully automated AI content pipeline for lofi YouTube channel: multi-agent system for image, video, music, and publishing. Stars: 0. [GitHub](https://github.com/Neeidy/Badger-Tape)
+- **Jessalynredflowered754/SmartDiscover** – Multi-agent AI for discovering Spotify music from natural language prompts. Stars: 0. [GitHub](https://github.com/Jessalynredflowered754/SmartDiscover)
+- **Antigravity Awesome Skills** – 1,527+ agentic skills for Claude Code, Gemini CLI, Cursor, Copilot. [GitHub](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tNl9NbVNGU214YXktUlkyVU5SM24xdkdYeUtGS0pXcTNPM0g0VnNmOVB1alc3S2NQcUR2cFhrLWZMR0p0UV85TjFvME5lRUowWW4yNnZkeEZMZnpVbjBjdlNCNA)
+
+### Papers / Benchmarks
+- **"The Moving Drone: Negotiating Agency Between the Voice and the Virtual"** – Explores agency in Hindustani music using virtual drones in Max/MSP. [arXiv](https://arxiv.org/abs/2606.13640v1)
+
+### Product Tutorials / Media Tests
+- **Claude Code Workflow tutorial** – Chinese-language YouTube tutorial on Claude Code's Workflow feature for multi-agent collaboration and reusable workflows. [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rSkpRRVh5VkJQMy1fbkJDazVDWEQ1NU92enJXX1VMUFRMRDBJMTlPZUI0VzFVdVd4eWRjeVIwbW4zLU14YlZwSmY1UUVoVk9IS1JoYVRR)
+- **Qwen3.6 "jailbreak" tutorial** – Chinese-language YouTube tutorial on running the uncensored Qwen3.6 model locally for agents with 6GB VRAM. [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oT3dJVzFaSmxsaWVCd1FBcUhqVFFiY1NGQ0xHWVU5c3pIRDlteFUydWUzU1BQY2ZxbE1ORDg0eWhoc0xZYVlxV3QyTHBMNjBsMXc1OXdR)
+
+### Chinese Community Leads
+- **AI Agent for IoTDB remote server maintenance** – Chinese tutorial on using AI agents for time-series database operations. [OSCHINA](https://news.google.com/rss/articles/CBMiWkFVX3lxTE14VW0zZ0RXLU1kVV9BUzZuVXFQQkxrXzdmY1NfRmFhTDRhamVFVF92dmZkVUF5Nm91ZzdGYmg5N0JRZ0taT08xWjZ5azJtZks2TFQybkxfS3JSZw)
+- **LLM basics tutorial (Chinese)** – Beginner tutorial on large language models as the "brain" of AI agents. [菜鸟教程](https://www.runoob.com/ai-agent/ai-agent-llm.html)
+
+### Follow-up Items
+- **Weak signals needing manual review:**
+  - `agerelated-clioquinol357/ACI` – Open protocol for agent-app access, but zero stars and unclear music relevance. [GitHub](https://github.com/agerelated-clioquinol357/ACI)
+  - `babyfaced-familytrionychidae322/chordbot` – Local-first AI agent, but zero stars and generic description. [GitHub](https://github.com/babyfaced-familytrionychidae322/chordbot)
+  - Google search redesign – Not directly music-agent related, but may affect discovery patterns.
+  - Google DeepMind multi-agent safety research – Important context but not music-specific.
+<!-- AUTO_CASE_UPDATES_END:music:en -->
+
 ## Main Risks
 
 - Platform license limits.

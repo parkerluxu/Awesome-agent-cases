@@ -165,6 +165,77 @@ This empirical study tracks 5,838 GitHub developers before and after Claude Code
 5. Use another agent for security and compliance review.
 6. Use Playwright or screenshots to verify mobile behavior.
 
+<!-- AUTO_CASE_UPDATES_START:web:en -->
+## Latest Auto-Discovered Updates
+
+### Key New Leads
+
+- **Google search box redesign (AI-driven conversational input)** — Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a keyword input into a dynamic, AI-driven conversational interface. This is the first major change to the search box in 25 years and signals a paradigm shift for how users interact with web-based AI agents. [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) (2026-05-19)
+
+- **OpenAI to acquire Ona** — OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows. This acquisition could significantly impact the infrastructure available for AI agent web development. [OpenAI](https://openai.com/index/openai-to-acquire-ona) (2026-06-11)
+
+- **"I vibe coded 3 real apps using Claude Code and OpenAI Codex"** — A hands-on comparison from Tom's Guide testing real app development with two leading coding agents. *Needs manual review for detailed findings.* [Tom's Guide](https://news.google.com/rss/articles/CBMiuwFBVV95cUxONmVSX0tDS0xLVWxzVDl5dExrc1htRXZwV0d4bndWNjNja3I4Ymh6anRmWExySEJfVG9waE9VOXI4SGJIcHBQSXBDM3FnY3lRZTJURUdFY0NnRk1ra2h0RjZ4cHFnYjludnQ0aEpQbzRoRXc3MkFlY1I2LTRKd0FueDJ0N0dVTGVYUW1CaTFLTWtlRTZCN1JqbjdfUERubU9KM1dIZ2VMRkZZVmFMa2sxbHktRjVORTh0WjRR?oc=5) (2026-05-16)
+
+### GitHub / Open-Source Projects
+
+- **cbt4free/claude-agent-sdk-laravel** — Enables Laravel apps to build AI agents using Claude Code for file handling, command execution, code editing, and web search integration. [GitHub](https://github.com/cbt4free/claude-agent-sdk-laravel) (2026-06-13, 1 star)
+
+- **praveen-palanisamy/autodemo** — "Demos as code" — generates demo videos, interactive walkthroughs, and marketing captures from running web apps. CI-native and agent-ready (MCP). [GitHub](https://github.com/praveen-palanisamy/autodemo) (2026-06-13, 0 stars)
+
+- **jcuervo/rails-skills** — A suite of Claude Code Agent Skills for building, testing, hardening, and shipping Ruby on Rails applications (Ruby 4.0.x / Rails 8.1.x). [GitHub](https://github.com/jcuervo/rails-skills) (2026-06-13, 0 stars)
+
+- **yufangjie1643/aigc-commerce-video-generator** — Local-first, open-source alternative to Claude Design. Supports 259+ skills, 142+ design systems, and exports to HTML/PDF/PPTX/MP4. Compatible with Claude Code, Codex, Cursor, and 17+ CLIs. [GitHub](https://github.com/yufangjie1643/aigc-commerce-video-generator) (2026-06-13, 0 stars)
+
+- **hegemonart/get-design-done** — Design-quality pipeline for AI coding agents: brief, map, plan, implement, and verify UI against your design system. [GitHub](https://github.com/hegemonart/get-design-done) (2026-06-13, 4 stars)
+
+- **CoWork-OS/CoWork-OS** — Local-first personal agentic OS for coding, knowledge work, web design, automations, and artifacts. [GitHub](https://github.com/CoWork-OS/CoWork-OS) (2026-06-13, 356 stars)
+
+- **AnujTechBoy/AIForge** — Build and manage AI-native web and mobile apps with a monorepo supporting over 90% code sharing. [GitHub](https://github.com/AnujTechBoy/AIForge) (2026-06-13, 2 stars)
+
+- **Ajiess/AI-Code-Reviewer** — A web app that instantly analyzes and improves code quality with real-time feedback. [GitHub](https://github.com/Ajiess/AI-Code-Reviewer) (2026-06-13, 0 stars)
+
+- **LeeKangRyong/ai-native-frontend-prac** — 4 frontend services in 1 repo developed with Claude Code (+Figma MCP). [GitHub](https://github.com/LeeKangRyong/ai-native-frontend-prac) (2026-06-07, 0 stars)
+
+- **RooCodeInc/Roo-Code** — "Roo Code gives you a whole dev team of AI agents in your code editor." *Needs manual review for details.* [GitHub](https://news.google.com/rss/articles/CBMiT0FVX3lxTE84eUNNd1F3TkZNc1FmZUlNWnhBbXA4SXdqS3Z1SnhmNk1SYWI3ZTd1ZlhOVFlFZ1hFdU1hbVVXc3BvdWlrX3NMbFdmdVJ3OUU?oc=5) (2026-05-15)
+
+### Papers / Benchmarks
+
+- **"From Runnable to Shippable: Multi-Agent Test-Driven Development for Generating Full-Stack Web Applications from Requirements"** — Proposes a multi-agent TDD approach for web apps, addressing the finding that over 70% of generated apps fail functional requirements. [arXiv](https://arxiv.org/abs/2605.17242v1) (2026-05-17)
+
+- **"VISTA: An End-to-End Benchmark for Visual Spec-to-Web-App Coding Agents"** — A benchmark evaluating LLM-based agents on realistic UI-centric web-app generation from underspecified inputs. [arXiv](https://arxiv.org/abs/2605.26144v2) (2026-05-22)
+
+- **"Asuka-Bench: Benchmarking Code Agents on Underspecified User Intent and Multi-Round Refinement"** — A benchmark pairing underspecified user intent with multi-round refinement, grounded in browser-rendered behavior. [arXiv](https://arxiv.org/abs/2606.05920v1) (2026-06-04)
+
+- **"Domain-Conditioned Safety in Frontier Computer-Using Agents"** — A 793-episode browser benchmark for red-teaming computer-using agents, covering 24 multi-step web tasks and 56 attack templates. [arXiv](https://arxiv.org/abs/2606.05233v1) (2026-06-03)
+
+- **"Helicase: Uncertainty-Guided Supply Chain Knowledge Graph Construction with Autonomous Multi-Agent LLMs"** — Multi-agent system for multi-hop reasoning across fragmented web resources. *Tangentially relevant to web agent workflows.* [arXiv](https://arxiv.org/abs/2605.26835v1) (2026-05-26)
+
+- **"Human-in-the-Loop Swarms: A Bionic Swarm Approach to Real-World Soil Mapping"** — Uses a smartphone web-app for human-in-the-loop control. *Tangentially relevant.* [arXiv](https://arxiv.org/abs/2605.29091v1) (2026-05-27)
+
+### Product Tutorials / Media Tests
+
+- **Playwright** — "Fast and reliable end-to-end testing for modern web apps." Playwright enables web automation for testing, scripting, and AI agents across Chromium, Firefox, and WebKit. [Playwright](https://playwright.dev/) (No date)
+
+- **"Modern Web Guidance: Teaching AI Agents to Stop Coding Like It's 2019"** — DEV Community article on teaching AI agents modern web development practices. *Needs manual review for full content.* [DEV Community](https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0ZqMXQ1XzFHY0lkNnk3UEJvNDdaOERFOUZTYjFzTU9VSkRhMi1QUG1ybExWajZNM0VNMHU3a1JFOXUyYzY4RlJUZVVyNGpNNWRscUxFN1BrQlcxV3ctMC1nLXhMdDFBY1VmZmpVdmlRTU54a3V3M2NCUHg3M3piODRjUTcwMHlWa0hmN05SeDJmMGlNOVNIUDNnbzFJaklNYnc?oc=5) (2026-05-21)
+
+### Chinese Community Leads
+
+- **"From Dialogue to Action: AI Agent Enters a 10-Billion-Yuan Track — 2026 AI Agent Industry Map Collection in Progress"** — CSDN article on the AI agent industry landscape. *Needs manual review for details.* [CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWmp2NXp1d3o3ZzJEOGlKQ3l4MmozZmhCaWFUZTNHTXphUnJ1ZmltTzNQWENvQnZUMjBrRmdmeUl0b0cxQlg5cHBmWXJLaWtrZHRJal92R0ZqSllHaEE?oc=5) (2026-06-08)
+
+- **"In-depth Analysis of AI Agent Development Trends: From Code Assistants to System-Level Agents"** — Juejin article analyzing core architectures of multiple agent products. *Needs manual review for details.* [掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1REpmZnZTVVNmUGE2TEhBVlVpamdtR09GVEZQUEJldUhuUXgwcEg4RW1iTjNxRGVYQk85eUJfSURkR2hlakxNLVVMSk1jY1hyRXJkVQ?oc=5) (2026-05-26)
+
+- **"2026 Smart Cockpit AI Agent Evolution Trends and 3 Case Studies"** — Electronic Engineering Album article on AI agents in smart cockpits. *Tangentially relevant to web-based agent interfaces.* [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xS2thU3pWdkVMa25paUxpVVRwMXlVeTlXRGJrNFFtTWlMMmhVcGVCQk0wTVIzb3dTSFVBaUZmTkVnV055UDBVbzh1M0J0eUdadC00?oc=5) (2026-06-13)
+
+### Follow-up Items
+
+- **Google search box redesign** — Monitor for developer documentation and API changes for integrating AI agents with the new search interface.
+- **OpenAI / Ona acquisition** — Track how persistent cloud environments for Codex agents evolve and what it means for web app deployment workflows.
+- **VISTA and Asuka-Bench benchmarks** — Consider evaluating your own agents against these new benchmarks for UI-centric and multi-round refinement tasks.
+- **Playwright for agent testing** — Investigate using Playwright as the browser automation layer for testing AI-generated web applications.
+- **hegemonart/get-design-done** — Low-star but directly relevant pipeline for design-to-code agent workflows; worth monitoring for maturity.
+- **Chinese community articles** — All three need manual review for actionable technical content before inclusion in the main article.
+<!-- AUTO_CASE_UPDATES_END:web:en -->
+
 ## Main Risks
 
 - Fabricated reviews, sales numbers, or qualifications.

@@ -138,6 +138,53 @@ The core trend is converting hardware design into intermediate representations t
 5. Ask the agent to explain errors and propose fixes.
 6. Human-review before exporting Gerbers.
 
+<!-- AUTO_CASE_UPDATES_START:electronic:en -->
+## Latest Auto-Discovered Updates
+
+### Key New Leads
+
+- **ForgeLab** — Described as "the LLVM of design," this project provides a JSON IR + MCP server enabling AI agents to create KiCad, FreeCAD & glTF files. (GitHub, 2026-06-12, 2 stars) [Link](https://github.com/andresparraarze/ForgeLab)
+- **salitronic/eda-agent** — An open-source MCP server for Altium Designer with 290+ tools for schematic, PCB, library & project automation, including design review, SVG rendering, connectivity-driven auto-placement, and an autonomous design-plan executor. Apache-2.0 license. (GitHub, 2026-06-12, 56 stars) [Link](https://github.com/salitronic/eda-agent)
+- **SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations** — The first LLM that generates editable PCB schematics from natural-language requests, addressing the lack of an LLM-suited representation and large-scale dataset. (arXiv, 2026-05-28) [Link](https://arxiv.org/abs/2605.30345v1)
+
+### GitHub / Open-Source Projects
+
+- **Matt-Thom/TripleT-KiCad-Agent** — AI-powered engineering assistant bridging system requirements and physical PCB design, acting as a co-designer that understands electronics theory, component availability, and KiCad file structures. (2026-06-11, 1 star) [Link](https://github.com/Matt-Thom/TripleT-KiCad-Agent)
+- **AvatarSD/KiSkill** — Agent skills + headless Python engine giving an AI coding agent full control of KiCad (edit, verify, review & fabricate schematics and PCBs) without GUI. (2026-06-11, 0 stars) [Link](https://github.com/AvatarSD/KiSkill)
+- **bretbouchard/kicad-agent** — AI-safe structural editing of KiCad schematic, PCB, symbol, and footprint files. (2026-06-08, 1 star) [Link](https://github.com/bretbouchard/kicad-agent)
+- **liwenjinchn/hardwise** — AI Agent for schematic review node of hardware R&D, built as a 2-week portfolio demo on KiCad public samples. (2026-06-12, 0 stars) [Link](https://github.com/liwenjinchn/hardwise)
+- **gfgf2023/hfss-mcp-server** — MCP Server for Ansys HFSS enabling AI control of antenna design and PCB simulation via natural language. (2026-06-11, 0 stars) [Link](https://github.com/gfgf2023/hfss-mcp-server)
+- **dshills/KiCadAI** — AI-assisted KiCad design toolkit with Go CLI, direct schematic/PCB writers, validation, and pinmap checks. (2026-06-12, 0 stars) [Link](https://github.com/dshills/KiCadAI)
+- **AdamWolcottSmith/tscircuit-to-fusion** — Export tscircuit PCB designs to Fusion360 (layer-organized DXF sketches + STEP bodies) without KiCad. (2026-06-12, 1 star) [Link](https://github.com/AdamWolcottSmith/tscircuit-to-fusion)
+- **tscircuit/runframe** — Runs tscircuit code inside a webworker, enabling PCB, schematic and 3D previews. (2026-06-12, 17 stars) [Link](https://github.com/tscircuit/runframe)
+- **ritwick06/elektran-ai** — Autonomous PCB design tool. (2026-06-13, 0 stars) [Link](https://github.com/ritwick06/elektran-ai)
+- **Zero-inadequateness813/amux** — Manages persistent tmux panels for AI agents and humans. (2026-06-13, 0 stars) [Link](https://github.com/Zero-inadequateness813/amux) *(Weak candidate — not directly related to PCB/EDA design)*
+
+### Papers / Benchmarks
+
+- **SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations** — First LLM for generating editable PCB schematics from natural language. (arXiv, 2026-05-28) [Link](https://arxiv.org/abs/2605.30345v1)
+
+### Product Tutorials / Media Tests
+
+- **Google search box redesign** — Google announced a sweeping redesign of the search box at I/O, transforming it from keyword input into a dynamic, AI-driven conversational interface. (VentureBeat, 2026-05-19) [Link](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) *(Weak candidate — not directly about EDA/PCB design)*
+- **OpenAI to acquire Ona** — OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. (OpenAI, 2026-06-11) [Link](https://openai.com/index/openai-to-acquire-ona) *(Weak candidate — general AI agent infrastructure)*
+- **New OpenAI Academy courses** — Three courses on building practical AI skills, creating repeatable workflows, and applying agents in everyday work. (OpenAI, 2026-06-12) [Link](https://openai.com/index/academy-courses-applying-ai-at-work) *(Weak candidate — general AI education)*
+- **OpenEnv for Agentic RL** — The open-source community backing OpenEnv for agentic reinforcement learning. (Hugging Face, 2026-06-08) [Link](https://huggingface.co/blog/openenv-agentic-rl) *(Weak candidate — general agentic RL)*
+- **hf CLI for agents** — Designing the Hugging Face CLI as an agent-optimized way to work with the Hub. (Hugging Face, 2026-06-04) [Link](https://huggingface.co/blog/hf-cli-for-agents) *(Weak candidate — general agent tooling)*
+
+### Chinese Community Leads
+
+- **大语言模型基础（LLM）** — Chinese tutorial on LLM basics as the brain of AI agents. (runoob.com) [Link](https://www.runoob.com/ai-agent/ai-agent-llm.html) *(Weak candidate — general LLM tutorial)*
+- **datawhalechina/happy-llm** — Chinese systematic LLM learning tutorial from Datawhale community. (GitHub) [Link](https://github.com/datawhalechina/happy-llm) *(Weak candidate — general LLM education)*
+- **How Agentic AI tackles RTL verification’s productivity gap** — Article from New Electronics on agentic AI for RTL verification. (New Electronics, 2026-05-22) [Link](https://news.google.com/rss/articles/CBMipwFBVV95cUxOUjlFNjRObWtnUGZxYzNyRG41NzI5a2EzRl9nNUJoaUVrcWdoN1VvTmlybjl0UGdmYnNQYW9xMExxRm0zMUJiaGpnT0tKbDR0TEJHQzZTZXhTSHE2Nk12YzVOUE1GVXJkUTVDSjh6bjE0TlNKVFlaYmFwWjUybnY5SDd4eUJxVlh6LWFCdG95Zmk4UEpNZXV5VlNCaHFMU25tcW9sVk1lWQ?oc=5) *(Weak candidate — needs manual review for relevance)*
+
+### Follow-up Items
+
+- **hashgraph-online/awesome-codex-plugins** — Curated list of Codex plugins. (GitHub, 2026-06-09) [Link](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WT2pYYl93MnNkZV9uVTIwOGtIWE85Y0tzYVRHWWJyampmSHZNMnhqV0V1ZXdaSmdLZ0JLT0lRckZHUGpPZG0xWWU0dUZpUXdRZjUxTGcxUW1KaDlheWRpd3pMRWhzcEVp?oc=5) *(Weak candidate — needs manual review)*
+- **Google DeepMind on multi-agent risks** — DeepMind funding research into dangers of millions of AI agents interacting online. (MIT Technology Review, 2026-06-11) [Link](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/) *(Weak candidate — general AI safety, not EDA-specific)*
+- **tscircuit/tscircuit** — Create real electronics with TypeScript and React. (GitHub, 2026-06-12, 2246 stars) [Link](https://github.com/tscircuit/tscircuit) *(Existing project, noted for continued activity)*
+<!-- AUTO_CASE_UPDATES_END:electronic:en -->
+
 ## Main Risks
 
 - Fabricated part numbers, footprints, or parameters.

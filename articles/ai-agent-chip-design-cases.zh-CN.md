@@ -1,4 +1,4 @@
-﻿# 芯片设计：AI Agent 实战案例、教程与科研项目调研
+# 芯片设计：AI Agent 实战案例、教程与科研项目调研
 
 调研日期：2026-06-13
 
@@ -225,6 +225,73 @@ LLM-aided design 汇总中提到 MG-Verilog、RTLCoder、VeriGen 等数据和模
 - PPA 指标差。
 - 形式验证缺失。
 - 过度相信 demo，忽略生产级复杂性。
+
+<!-- AUTO_CASE_UPDATES_START:chip:zh-CN -->
+### 最新自动发现更新
+
+以下内容基于近期自动抓取的候选资料整理，作为《AI Agent 芯片设计案例》的增量更新线索。所有信息均来自候选资料，未经验证，部分条目需人工复核。
+
+#### 重点新增线索
+
+- **RTL-BenchMT (2026-05-15)**：提出一种基于 Agent 的动态维护 RTL 生成基准的框架，旨在解决现有基准中的缺陷案例和过拟合问题。来源：arXiv (https://arxiv.org/abs/2605.15537v1)
+- **ChipMATE (2026-05-29)**：一个用于 RTL 生成的多智能体推理框架，包含 Verilog 智能体和 Python 参考模型智能体，可交叉验证输出，无需黄金测试平台。来源：GitHub (https://github.com/zhongkaiyu/ChipMATE)
+- **siliconcrew (2026-05-19)**：一个从自然语言到 GDSII 的自主 LLM 硬件设计智能体，通过 Verilog 生成、仿真和 OpenROAD 综合实现。来源：GitHub (https://github.com/naman-ranka/siliconcrew)
+- **Trace2Skill (2026-05-20)**：一个测试时扩展框架，通过验证器引导的技能进化，提升硬件 LLM 智能体在复杂 Verilog 设计问题上的表现。来源：arXiv (https://arxiv.org/abs/2605.21810v1)
+- **A3D (2026-05-14)**：一个用于自主加速器设计的 Agentic AI 流程，旨在降低硬件加速器设计的劳动密集度和专业知识门槛。来源：arXiv (https://arxiv.org/abs/2605.15237v1)
+- **Alpha-RTL (2026-06-03)**：提出在测试时进行强化学习，使 LLM 策略能根据特定 RTL 设计问题的 EDA 反馈进行自适应优化。来源：arXiv (https://arxiv.org/abs/2606.05253v1)
+- **RTL-BenchLS (2026-06-08)**：一个大规模 RTL 推理与生成基准，旨在解决现有基准规模小、任务单一、前沿模型性能饱和的问题。来源：arXiv (https://arxiv.org/abs/2606.08976v1)
+- **OpenRTLSet (2026-06-09)**：最大的完全开源硬件设计数据集，包含超过 13.1 万个多样化的 Verilog 代码样本。来源：arXiv (https://arxiv.org/abs/2606.10285v1)
+
+#### GitHub/开源项目
+
+- **ForgeLab** (2026-06-12)：一个 JSON IR + MCP 服务器，让 AI 智能体创建 KiCad、FreeCAD 和 glTF 文件。Stars: 2。来源：GitHub (https://github.com/andresparraarze/ForgeLab)
+- **ChipMATE** (2026-05-29)：多智能体 RTL 生成框架，Stars: 15。来源：GitHub (https://github.com/zhongkaiyu/ChipMATE)
+- **siliconcrew** (2026-05-19)：自然语言到 GDSII 的自主 LLM 智能体，Stars: 1。来源：GitHub (https://github.com/naman-ranka/siliconcrew)
+- **vlsi-pd-staff-engineer** (2026-05-14)：基于 Claude Code 的 RTL-to-GDSII 物理设计多智能体框架，包含 9 个专业智能体。Stars: 1。来源：GitHub (https://github.com/RAMA-L7/vlsi-pd-staff-engineer)
+- **universal-netlist** (2026-06-12)：让 AI 智能体读取 Cadence/Altium 设计。Stars: 21。来源：GitHub (https://github.com/IntelligentElectron/universal-netlist)
+- **eda-agents** (2026-05-18)：使用开源工具的 AI/LLM 辅助电路设计。Stars: 1。来源：GitHub (https://github.com/Mauricio-xx/eda-agents)
+- **ContextOS** (2026-06-13)：为 AI 智能体提供统一上下文智能层。Stars: 1。来源：GitHub (https://github.com/armmammothermography417/ContextOS)
+- **ml-ai-genai-agentic-practice** (2026-06-12)：包含 EDA 自动化等项目的实践集合。Stars: 0。来源：GitHub (https://github.com/sivahere4cloud/ml-ai-genai-agentic-practice)
+- **ecs_rapid_agent_hackathon** (2026-06-12)：一个现代 EDA 和原理图捕获工具，具备 AI 副驾驶能力。Stars: 0。来源：GitHub (https://github.com/hermes13002/ecs_rapid_agent_hackathon)
+- **ai-junior-data_scientist** (2026-06-13)：分析金融数据的 AI 初级数据科学家智能体。Stars: 1。来源：GitHub (https://github.com/Maranh0/ai-junior-data_scientist)
+
+#### 论文/Benchmark
+
+- **RTL-BenchMT** (2026-05-15)：基于 Agent 的动态 RTL 基准维护框架。来源：arXiv (https://arxiv.org/abs/2605.15537v1)
+- **CPPL: A Circuit Prompt Programming Language** (2026-05-18)：一种电路提示编程语言，旨在解决 LLM 直接生成 RTL 的验证和优化难题。来源：arXiv (https://arxiv.org/abs/2605.17892v1)
+- **Trace2Skill** (2026-05-20)：验证器引导的技能进化框架，用于长上下文 EDA 智能体。来源：arXiv (https://arxiv.org/abs/2605.21810v1)
+- **CASS-RTL** (2026-06-04)：一种正确性感知的子空间引导方法，用于 LLM 的 RTL 生成。来源：arXiv (https://arxiv.org/abs/2606.05680v1)
+- **A3D** (2026-05-14)：自主加速器设计的 Agentic AI 流程。来源：arXiv (https://arxiv.org/abs/2605.15237v1)
+- **Alpha-RTL** (2026-06-03)：用于 RTL 硬件优化的测试时训练方法。来源：arXiv (https://arxiv.org/abs/2606.05253v1)
+- **RTL-BenchLS** (2026-06-08)：大规模 RTL 推理与生成基准。来源：arXiv (https://arxiv.org/abs/2606.08976v1)
+- **OpenRTLSet** (2026-06-09)：完全开源的大规模 Verilog 模块设计数据集。来源：arXiv (https://arxiv.org/abs/2606.10285v1)
+- **Autonomous agentic design for photonics** (2026-05-30)：用于光子器件设计的自主智能体方法。来源：arXiv (https://arxiv.org/abs/2606.00915v1)
+- **Memory-Guided Tree Search** (2026-05-17)：用于 LLM 求解器合成的记忆引导树搜索，可应用于芯片设计中的组合优化。来源：arXiv (https://arxiv.org/abs/2605.17539v2)
+
+#### 产品教程/媒体实测
+
+- **Google 搜索框重新设计** (2026-05-19)：Google 将搜索框从简单的关键词输入转变为动态的 AI 驱动对话界面。来源：VentureBeat (https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
+- **OpenAI 收购 Ona** (2026-06-11)：OpenAI 计划收购 Ona 以扩展 Codex，提供安全的持久云环境，支持企业工作流中的长时间运行 AI 智能体。来源：OpenAI (https://openai.com/index/openai-to-acquire-ona)
+- **Google DeepMind 关注多智能体交互风险** (2026-06-11)：Google DeepMind 正在资助研究数百万 AI 智能体在线交互的潜在危险。来源：MIT Technology Review (https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/)
+
+#### 中文社区线索
+
+- **大语言模型基础（LLM） - 菜鸟教程**：一篇介绍 LLM 基础的中文教程，可作为 AI Agent 入门参考。来源：菜鸟教程 (https://www.runoob.com/ai-agent/ai-agent-llm.html)
+
+#### 值得后续复核
+
+- **RTL-BenchMT** 和 **RTL-BenchLS** 作为新的基准，其具体设计、评估方法和与现有基准的对比值得深入分析。
+- **ChipMATE** 和 **siliconcrew** 等开源项目，其实际效果、社区活跃度和文档完整性需要人工评估。
+- **Trace2Skill** 和 **Alpha-RTL** 提出的测试时优化方法，其创新性和实用性需要进一步确认。
+- **OpenRTLSet** 作为最大的开源硬件设计数据集，其数据质量、覆盖范围和许可协议需要人工复核。
+- **ForgeLab** 和 **universal-netlist** 等项目，其与主流 EDA 工具的集成程度和实际应用价值待确认。
+- **A3D** 论文中关于加速器设计的 Agentic 流程，其具体实现细节和可复现性需人工核实。
+- **CPPL** 提出的电路提示编程语言，其与现有硬件编译器基础设施（如 CIRCT）的兼容性值得关注。
+- **Autonomous agentic design for photonics** 虽非直接芯片设计，但其方法可能对芯片设计有借鉴意义，需人工判断相关性。
+- **Memory-Guided Tree Search** 论文中提到的“芯片设计”应用场景，其具体案例和效果需进一步核实。
+- **Google 搜索框重新设计** 和 **OpenAI 收购 Ona** 等新闻，其对 AI Agent 生态的潜在影响需人工分析。
+- **中文社区线索** 中的教程内容较为基础，与芯片设计 Agent 的直接关联性需人工判断。
+<!-- AUTO_CASE_UPDATES_END:chip:zh-CN -->
 
 ## 参考链接
 

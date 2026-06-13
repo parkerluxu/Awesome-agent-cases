@@ -1,4 +1,4 @@
-﻿# 嵌入式设计：AI Agent 实战案例、教程与科研项目调研
+# 嵌入式设计：AI Agent 实战案例、教程与科研项目调研
 
 调研日期：2026-06-13
 
@@ -255,6 +255,49 @@ LLM-aided design 把嵌入式固件生成列为硬件与系统设计应用之一
 - 阻塞式代码导致系统卡死。
 - 没有看门狗、超时和异常分支。
 - 控制电机/继电器时缺少安全保护。
+
+<!-- AUTO_CASE_UPDATES_START:embedded:zh-CN -->
+### 重点新增线索
+
+- **Google 搜索框 25 年来首次重新设计**：Google 在 I/O 大会上宣布将搜索框从简单的关键词输入转变为动态的 AI 驱动对话界面。这标志着人机交互范式的重大转变，对嵌入式 AI Agent 的交互设计有深远影响。 [来源](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
+- **OpenAI 收购 Ona**：OpenAI 计划收购 Ona 以扩展 Codex，提供安全、持久的云端环境，支持企业工作流中的长时间运行 AI Agent。这表明 Agent 的持久化和企业级部署是当前热点。 [来源](https://openai.com/index/openai-to-acquire-ona)
+- **AI Agent 催生自适应计算机蠕虫**：一篇论文展示了 AI Agent 如何利用大语言模型生成针对每个目标的定制攻击策略，构成新型网络安全威胁。这对嵌入式 Agent 的安全性设计提出了警示。 [来源](https://arxiv.org/abs/2606.03811v1)
+
+### GitHub/开源项目
+
+- **TuyaOpen** (⭐ 1585): 涂鸦智能推出的下一代 AI+IoT 框架，支持 T2/T3/T5AI/ESP32 等硬件，目标是快速实现 IoT 和 AI Agent 硬件集成。 [链接](https://github.com/tuya/TuyaOpen)
+- **open-agent-sdk-go** (⭐ 1): 一个用 Go 语言构建 AI Agent 的轻量级进程内 SDK，支持工具执行、MCP 和多提供商 LLM 兼容。 [链接](https://github.com/Sammyblear596/open-agent-sdk-go)
+- **ESP32-LLM-Agent-Bridge** (⭐ 1): 通过轻量级 UART 协议桥接 LLM AI Agent 和 ESP32 IoT 设备，灵感来自设备上下文协议 (DCP)，专为边缘 AI 应用设计。 [链接](https://github.com/kushagrabansal-IOT/ESP32-LLM-Agent-Bridge)
+- **zenclaw** (⭐ 3): 一个完全自主的 AI Agent，可直接在 ESP32 微控制器（S3 和 P4）上运行，具备工具使用、持久内存、定时任务和多渠道消息功能。 [链接](https://github.com/bennyzen/zenclaw)
+- **project-nova** (⭐ 33): 一个多 Agent AI 架构，通过 n8n 和 MCP 服务器连接 25+ 个专业 Agent，可控制从知识库到 DAW、家庭自动化到开发工具的应用。 [链接](https://github.com/PradeepaRW/project-nova)
+- **scout** (⭐ 0): 一个带有 AI Agent 的自主 Bug 跟踪系统，包含可嵌入的 widget、仪表盘和编排器。 [链接](https://github.com/scout-dev-org/scout)
+- **AIOS** (⭐ 1): 一个生产级多 Agent AI 系统，包含 8 个自主 Agent（规划、记忆、研究、简历、工作、编码、评估、文档），展示了 LLM 编排、RAG 管道等技术。 [链接](https://github.com/nalla-dinesh/AIOS)
+- **AI-LMS-TMS** (⭐ 16): 一个自托管的 AI 驱动学习与培训管理系统，集成了嵌入式 AI Agent。 [链接](https://github.com/alfredang/AI-LMS-TMS)
+- **Antigravity Awesome Skills** (⭐ 待人工复核): 一个包含 1,527+ 个 Agentic Skills 的仓库，适用于 Claude Code, Gemini CLI, Cursor, Copilot 等。 [链接](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tNl9NbVNGU214YXktUlkyVU5SM24xdkdYeUtGS0pXcTNPM0g0VnNmOVB1alc3S2NQcUR2cFhrLWZMR0p0UV85TjFvME5lRUowWW4yNnZkeEZMZnpVbjBjdlNCNA?oc=5)
+
+### 论文/Benchmark
+
+- **Device Context Protocol (DCP)**：提出了一种紧凑、安全优先的架构，用于 LLM 驱动受限设备（如微控制器）的控制，解决了 MCP 无法下探到 MCU 以及 LLM 幻觉带来的安全问题。 [链接](https://arxiv.org/abs/2605.26159v1)
+- **LLM Agent Based Renewable Energy Forecasting**：综述了基于 LLM Agent 的可再生能源预测，利用边缘和 IoT 数据进行太阳能、风能、天气和电网感知的决策支持。 [链接](https://arxiv.org/abs/2605.25141v1)
+- **PI-Hunter**：一种自动化红队测试方法，用于暴露和定位针对 LLM Agent 系统的提示注入攻击。 [链接](https://arxiv.org/abs/2606.12737v1)
+- **ProPlay**：提出程序化世界模型，使 LLM Agent 能够通过交互自我进化，无需外部监督。 [链接](https://arxiv.org/abs/2606.12780v1)
+- **CORE-Bench**：一个针对代码检索的综合基准测试，专门用于评估 Agentic Coding 场景下的代码检索能力。 [链接](https://arxiv.org/abs/2606.11864v1)
+- **Nous**：尝试从人类在预测市场中的行为中提取认知多样性，并将其注入 LLM Agent，以解决 Agent 的认知单一化问题。 [链接](https://arxiv.org/abs/2606.13038v1)
+
+### 产品教程/媒体实测
+
+- **Google 搜索框 AI 化改造**：VentureBeat 报道了 Google 搜索框的重新设计，将其转变为动态 AI 驱动界面。 [来源](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
+
+### 中文社区线索
+
+- **菜鸟教程 - 大语言模型基础（LLM）**：一篇面向中文初学者的 AI Agent 教程，介绍了 LLM 作为 AI Agent 大脑的基础概念。 [链接](https://www.runoob.com/ai-agent/ai-agent-llm.html)
+
+### 值得后续复核
+
+- **Antigravity Awesome Skills**：该仓库的 RSS 摘要信息有限，具体内容、质量和与嵌入式设计的关联度需要人工复核。
+- **多个低星 GitHub 项目**：如 `CodeCraft`、`deepagent-x-feed-monitoring`、`x-research-skill`、`healthcare-assistant`、`DevDuck` 等，虽然与 AI Agent 相关，但星数极低，且查询词为 `arduino ai agent`，与嵌入式设计的相关性待人工复核。
+- **AI 自适应计算机蠕虫论文**：虽然提出了重要的安全警示，但其与嵌入式 Agent 设计的直接关联度需要进一步评估。
+<!-- AUTO_CASE_UPDATES_END:embedded:zh-CN -->
 
 ## 参考链接
 

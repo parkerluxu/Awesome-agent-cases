@@ -156,6 +156,58 @@ These benchmarks show that desktop agents struggle with GUI grounding, screen pa
 4. Use desktop control to check menus, file dialogs, and error popups.
 5. Add packaging, auto-update, logs, and crash reporting.
 
+<!-- AUTO_CASE_UPDATES_START:desktop:en -->
+## Latest Auto-Discovered Updates
+
+### Key New Leads
+
+- **OpenAI to acquire Ona** — OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows. (Source: [OpenAI](https://openai.com/index/openai-to-acquire-ona), 2026-06-11)
+- **Google search box redesign** — Google announced a sweeping redesign of the search box at I/O, transforming it from a simple keyword input into a dynamic, AI-driven conversational interface. (Source: [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think), 2026-05-19)
+
+### GitHub / Open-Source Projects
+
+- **Astro-Han/pawwork** — Free, open-source desktop AI agent for macOS and Windows. Alternative to Codex App and Claude Cowork. BYOK with 75+ providers, ChatGPT OAuth, local models, Office files. No terminal needed. Stars: 48. (Source: [GitHub](https://github.com/Astro-Han/pawwork), 2026-06-13)
+- **Everfern-AI/Everfern** — Free, local-first AI agent that uses your computer the way you would — clicks buttons, navigates apps, fills forms, runs workflows. No subscription, no cloud, no data leaving your machine. Open source alternative to Claude Cowork and Manas Desktop. Stars: 15. (Source: [GitHub](https://github.com/Everfern-AI/Everfern), 2026-06-13)
+- **hexagon-codes/hexclaw-desktop** — Enterprise-grade secure personal AI agent desktop client. Tauri + Vue 3, local Sidecar zero cloud dependency, supports Ollama/OpenAI/Claude/DeepSeek and more, image/video generation, knowledge base RAG, MCP tool plugins, multi-platform IM integration. Stars: 13. (Source: [GitHub](https://github.com/hexagon-codes/hexclaw-desktop), 2026-06-13)
+- **AmrDab/clawdcursor** — MCP-powered fallback layer that lets AI agents execute tasks through the GUI when APIs, tools, or direct integrations are unavailable. Cross-OS, accessibility-first, local-only. Stars: 342. (Source: [GitHub](https://github.com/AmrDab/clawdcursor), 2026-06-13)
+- **maks-mk/desktop-ai-agent** — Portable Autonomous AI Agent with GUI. Built on LangGraph & MCP. Safe by design: human-in-the-loop for all critical actions. Self-correcting, multi-tool coding assistant in a single .exe. Stars: 2. (Source: [GitHub](https://github.com/maks-mk/desktop-ai-agent), 2026-06-13)
+- **Liviastrange489/easiest-claw** — Provide a desktop GUI for OpenClaw to run and manage AI agent teams without coding or extra setup across Windows and macOS. Stars: 2. (Source: [GitHub](https://github.com/Liviastrange489/easiest-claw), 2026-06-13)
+- **Mzeey-Empire/mcode** — Performant AI agent orchestration desktop app. T3Code Alternative also built with Electron. Stars: 1. (Source: [GitHub](https://github.com/Mzeey-Empire/mcode), 2026-06-13)
+- **nickoder635-ai/All-in-One** — Combine multiple productivity tools, games, PDF utilities, and AI agents in one desktop app with a modern GUI and action history tracking. Stars: 3. (Source: [GitHub](https://github.com/nickoder635-ai/All-in-One), 2026-06-13)
+- **merchantprotocol/sulla-desktop** — Business-ready AI agent desktop app. Easy to install, free to run. Built with Electron and Lima VM. Stars: 11. (Source: [GitHub](https://github.com/merchantprotocol/sulla-desktop), 2026-06-13)
+- **InbarR/tmax** — Cross-platform multi-terminal app with tiling layouts, floating panels, and a keyboard-driven workflow. Stars: 51. (Source: [GitHub](https://github.com/InbarR/tmax), 2026-06-13)
+- **paytenmorrow7-dot/clawInstaller** — Automate Windows deployment of OpenClaw with a portable C# app that isolates environments, handles dependencies, and optimizes network settings. Stars: 2. (Source: [GitHub](https://github.com/paytenmorrow7-dot/clawInstaller), 2026-06-13)
+- **Evan1108-Coder/AI-Debate-Council** — Multi-agent AI debate app where model teams argue, challenge claims, track evidence, and produce judged verdicts with analytics. Stars: 5. (Source: [GitHub](https://github.com/Evan1108-Coder/AI-Debate-Council), 2026-06-13)
+
+### Papers / Benchmarks
+
+- **EpiBench: Verifiable Evaluation of AI Agents on Epigenomics Analysis** — A verifiable benchmark for short-horizon epigenomics analysis. Includes 106 evaluations across CUT&Tag/CUT&RUN, ATAC-seq, ChIP-seq, and DNA methylation workflows. Across 5,088 valid trajectories from 16 model-harness pairs, no system passed a majority of attempts: GPT-5.5 / Pi led at 45.0% (143/318 attempts). (Source: [arXiv](https://arxiv.org/abs/2606.13602v1), 2026-06-11)
+- **DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration** — Introduces a benchmark for real-world professional desktop workflows in specialized creative and engineering software, requiring human-in-the-loop coordination. (Source: [arXiv](https://arxiv.org/abs/2606.03103v1), 2026-06-02)
+- **Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields** — Evaluates whether agents can operate GUIs to complete long-horizon, high-value professional workflows across diverse domains. (Source: [arXiv](https://arxiv.org/abs/2606.11042v3), 2026-06-09)
+- **Multi-Agent Computer Use** — Argues for moving towards evaluating and building multi-agent computer use (MACU) systems, emphasizing planning and parallel execution. (Source: [arXiv](https://arxiv.org/abs/2606.01533v1), 2026-06-01)
+- **Recovering Policy-Induced Errors: Benchmarking and Trajectory Synthesis for Robust GUI Agents** — Introduces GUI-RobustEval with 1,216 executable test cases measuring error recovery capabilities, and Robustness-driven Trajectory Synthesis (RoTS). (Source: [arXiv](https://arxiv.org/abs/2605.29447v1), 2026-05-28)
+- **Reasoning for Mobile User Experience with Multimodal LLMs: Task, Benchmark, and Approach** — Proposes UXBench, a novel multimodal benchmark for evaluating UX based on UI screenshots. (Source: [arXiv](https://arxiv.org/abs/2606.13192v1), 2026-06-11)
+- **WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces** — A long-horizon hybrid-interface benchmark with 114 tasks across 8 real-world work domains, grounded in real user requests and publicly verifiable artifacts. (Source: [arXiv](https://arxiv.org/abs/2606.09426v2), 2026-06-08)
+- **DragOn: A Benchmark and Dataset for Drag-Based GUI Interactions** — Introduces a drag grounding benchmark and training dataset covering drag-based interactions (e.g., drag-and-drop, swipe, highlight). (Source: [arXiv](https://arxiv.org/abs/2606.06322v1), 2026-06-04)
+- **MacArena: Benchmarking Computer Use Agents on an Online macOS Environment** — A benchmark for computer-use agents on macOS, addressing the underserved macOS ecosystem. (Source: [arXiv](https://arxiv.org/abs/2606.06560v1), 2026-06-04)
+- **MedCUA-Bench: A Screenshot-Only Benchmark for Clinical Computer-Use Agents** — An interactive benchmark for clinical computer-use agents, focusing on medical software with domain knowledge requirements and safety validation. (Source: [arXiv](https://arxiv.org/abs/2606.03203v1), 2026-06-02)
+
+### Product Tutorials / Media Tests
+
+*No candidates found in this category.*
+
+### Chinese Community Leads
+
+- **hexagon-codes/hexclaw-desktop** — Enterprise-grade secure personal AI agent desktop client. Tauri + Vue 3, local Sidecar zero cloud dependency, supports multiple models, image/video generation, knowledge base RAG, MCP tool plugins, multi-platform IM integration (Feishu/Telegram/Discord). (Source: [GitHub](https://github.com/hexagon-codes/hexclaw-desktop), 2026-06-13) — *Note: Chinese-language description in original candidate.*
+
+### Follow-up Items
+
+- **AmrDab/clawdcursor** (Stars: 342) — High-star project worth deeper investigation for its MCP-powered fallback approach to GUI agent execution.
+- **InbarR/tmax** (Stars: 51) — Cross-platform multi-terminal app with tiling layouts; relevance to AI agent desktop use cases needs manual review.
+- **EpiBench** — No system passed a majority of attempts; worth monitoring for future agent improvements in scientific domains.
+- **OpenAI to acquire Ona** — Potential major development for Codex and enterprise AI agent workflows; needs follow-up on acquisition completion and product integration.
+<!-- AUTO_CASE_UPDATES_END:desktop:en -->
+
 ## Main Risks
 
 - Accidental modification of real files.

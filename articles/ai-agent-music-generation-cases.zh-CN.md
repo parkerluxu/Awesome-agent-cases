@@ -1,4 +1,4 @@
-﻿# 音乐生成：AI Agent 实战案例、教程与科研项目调研
+# 音乐生成：AI Agent 实战案例、教程与科研项目调研
 
 调研日期：2026-06-13
 
@@ -268,6 +268,53 @@ Suno 和 Udio 都因训练数据和版权问题引发音乐产业诉讼或授权
 - AI 歌词俗套、空泛。
 - 自动混音质量不足。
 - 音乐和视频节奏不匹配。
+
+<!-- AUTO_CASE_UPDATES_START:music:zh-CN -->
+### 最新自动发现更新：AI Agent 音乐生成案例
+
+#### 重点新增线索
+
+- **AetherWave Studio 推出 MCP 服务器**：项目 `aetherwave-mcp` 为 Claude、Cursor 等 Agent 提供音乐、图像、视频和乐队生成工具。这是一个值得关注的 Agent 音乐生成工具链。
+- **Lacuna Music API 发布开源 SDK 与 Agent Skill**：`lacuna-toolkit` 提供了 SDK、CLI、MCP 服务器和 Agent Skill，支持从 Node 运行时、Shell 或 AI Agent 中生成 AI 音乐。
+- **Hermes-Suno-Music-Agent 项目**：一个完整的 Hermes Agent 工作流，用于构建 AI 音乐视频项目，涵盖歌词、Suno 提示词、图像生成、视频导演和 YouTube 元数据。
+- **Badger-Tape 全自动 AI 内容流水线**：一个多 Agent 系统，自动完成 LoFi 音乐 YouTube 频道的图像生成、视频合成、音乐制作和发布，实现从提示词到上传的零人工干预。
+
+#### GitHub/开源项目
+
+- **AetherWave-Studio/aetherwave-mcp**：MCP 服务器，用于音乐、图像、视频和乐队生成。Stars: 2。 [查看项目](https://github.com/AetherWave-Studio/aetherwave-mcp)
+- **JOYLINK-LTD/lacuna-toolkit**：Lacuna Music API 的开源 SDK、CLI、MCP 服务器和 Agent Skill。Stars: 4。 [查看项目](https://github.com/JOYLINK-LTD/lacuna-toolkit)
+- **varosity-ai/mcp-server**：Varosity.ai 的 MCP 服务器，支持向 Claude Desktop、Cursor 等暴露视频、语音、音乐生成能力。Stars: 0。 [查看项目](https://github.com/varosity-ai/mcp-server)
+- **vivar/Hermes-Suno-Music-Agent**：用于构建 AI 音乐视频项目的 Hermes Agent，包含结构化工作流。Stars: 0。 [查看项目](https://github.com/vivar/Hermes-Suno-Music-Agent)
+- **AceDataCloud/Skills**：提供音乐、图像、视频生成等 Agent Skills，兼容 Claude Code、GitHub Copilot 等。Stars: 8。 [查看项目](https://github.com/AceDataCloud/Skills)
+- **akshithajela/guitarmind**：将情绪转化为吉他和弦进行的 AI Agent，基于乐理。Stars: 0。 [查看项目](https://github.com/akshithajela/guitarmind)
+- **Aman1601s/playlistAgent**：AI 驱动的 Spotify 播放列表助手，通过 MCP 让 ChatGPT 和 Claude 创建、修改、优化播放列表。Stars: 0。 [查看项目](https://github.com/Aman1601s/playlistAgent)
+- **Neeidy/Badger-Tape**：全自动 AI 内容流水线，多 Agent 系统用于 LoFi 音乐 YouTube 频道。Stars: 0。 [查看项目](https://github.com/Neeidy/Badger-Tape)
+- **Jessalynredflowered754/SmartDiscover**：通过自然语言提示，使用多 Agent AI 发现 Spotify 音乐并构建播放列表。Stars: 0。 [查看项目](https://github.com/Jessalynredflowered754/SmartDiscover)
+- **wangchuxiaoji-oss/doubao2api**：逆向工程豆包 API，提供多模态聊天、图像/视频/音乐生成服务，兼容 OpenAI 格式。Stars: 40。 [查看项目](https://github.com/wangchuxiaoji-oss/doubao2api)
+
+#### 论文/Benchmark
+
+- **《The Moving Drone: Negotiating Agency Between the Voice and the Virtual》**：一篇来自 arXiv 的论文，探讨 Hindustani 音乐中虚拟 drone 的能动性，涉及实时循环器与即兴演唱的交互。 [查看论文](https://arxiv.org/abs/2606.13640v1)
+
+#### 产品教程/媒体实测
+
+- **Claude Code Workflow 功能实战教程**：YouTube 视频教程，展示如何利用 ultrawork 召唤多个 Agent 协同，自动生成 JS 脚本实现可复用的工作流。 [查看视频](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rSkpRRVh5VkJQMy1fbkJDazVDWEQ1NU92enJXX1VMUFRMRDBJMTlPZUI0VzFVdVd4eWRjeVIwbW4zLU14YlZwSmY1UUVoVk9IS1JoYVRR?oc=5)
+- **ArcReel：AI Agent 驱动的开源视频生成工作台**：一个开源项目，通过 AI Agent 将小说转化为角色/场景/道具设计、剧本、分镜图再到视频，支持跨镜头角色与场景一致。 [查看项目](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5)
+
+#### 中文社区线索
+
+- **豆包 API 逆向工程项目**：`doubao2api` 项目将豆包的多模态能力（含音乐生成）转为 OpenAI 兼容接口，适合国内开发者集成到 Agent 中。Stars: 40。 [查看项目](https://github.com/wangchuxiaoji-oss/doubao2api)
+- **ArcReel 项目**：中文描述的开源 AI Agent 视频生成工作台，涉及角色、场景、剧本等完整流程。 [查看项目](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5)
+
+#### 值得后续复核
+
+- **Google 搜索框重新设计**：虽然与音乐生成无直接关系，但可能影响 Agent 的交互入口。 [查看原文](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
+- **OpenAI 收购 Ona**：可能增强 Codex 的持久化云环境，对 Agent 工作流有潜在影响。 [查看原文](https://openai.com/index/openai-to-acquire-ona)
+- **Google DeepMind 关注多 Agent 交互风险**：对 Agent 生态的宏观讨论，可能影响音乐 Agent 的设计规范。 [查看原文](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/)
+- **Microsoft Rayfin 后端平台**：新推出的 AI Agent 开发后端平台，待观察其对音乐生成 Agent 的支持。 [查看原文](https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3IxQXM3SVNacnJuUFk4NlhBc2VaUklKWnpOM294aXQwaFVwSTBKQ3J4NzFONUlHRUtBMGRteWdYZGdDS1dLSTdTdVBLckMxVlBYQVl2Z2V2RkxRRm9feHl3aWk3Q1p2STk1eWltdjJkS0lnSk5fakNTVmNPVlFKNG9rREFhc1FuVG9Hc3htZ1RhdjNhdlg2ZWNWUXJyOUNLc0ZibkFjOU8xaC1iYThJOVlfdFhuZVIyQlRkUXpTQWx2Ymx6U01JVXBXbUtNdw?oc=5)
+- **Qwen3.6 越狱版教程**：支持本地 Agent 运行，可能用于本地音乐生成 Agent 部署。 [查看视频](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oT3dJVzFaSmxsaWVCd1FBcUhqVFFiY1NGQ0xHWVU5c3pIRDlteFUydWUzU1BQY2ZxbE1ORDg0eWhoc0xZYVlxV3QyTHBMNjBsMXc1OXdR?oc=5)
+- **OpenAI Academy 新课程**：包含应用 Agent 的课程，可能涉及音乐生成场景。 [查看原文](https://openai.com/index/academy-courses-applying-ai-at-work)
+<!-- AUTO_CASE_UPDATES_END:music:zh-CN -->
 
 ## 参考链接
 
