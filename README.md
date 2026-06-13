@@ -51,6 +51,14 @@ New daily briefs will be added over time.
 | AI Agent tools, cases, tutorials, projects and papers | [articles/ai-agent-tools-cases-tutorials-projects-papers.md](articles/ai-agent-tools-cases-tutorials-projects-papers.md) |
 | High-heat AI Agent projects and tutorials | [English](articles/ai-agent-projects-report.en.md) / [中文](articles/ai-agent-projects-report.zh-CN.md) |
 | Real AI Agent deliverables across industries | [English](articles/ai-agent-industry-case-tutorials.en.md) / [中文](articles/ai-agent-industry-case-tutorials.zh-CN.md) |
+| AI Agent Web development cases | [English](articles/ai-agent-web-development-cases.en.md) / [中文](articles/ai-agent-web-development-cases.zh-CN.md) |
+| AI Agent desktop application cases | [English](articles/ai-agent-desktop-application-cases.en.md) / [中文](articles/ai-agent-desktop-application-cases.zh-CN.md) |
+| AI Agent electronic system design cases | [English](articles/ai-agent-electronic-system-design-cases.en.md) / [中文](articles/ai-agent-electronic-system-design-cases.zh-CN.md) |
+| AI Agent embedded design cases | [English](articles/ai-agent-embedded-design-cases.en.md) / [中文](articles/ai-agent-embedded-design-cases.zh-CN.md) |
+| AI Agent chip design cases | [English](articles/ai-agent-chip-design-cases.en.md) / [中文](articles/ai-agent-chip-design-cases.zh-CN.md) |
+| AI Agent game development cases | [English](articles/ai-agent-game-development-cases.en.md) / [中文](articles/ai-agent-game-development-cases.zh-CN.md) |
+| AI Agent video/audio/visual generation cases | [English](articles/ai-agent-video-audio-visual-generation-cases.en.md) / [中文](articles/ai-agent-video-audio-visual-generation-cases.zh-CN.md) |
+| AI Agent music generation cases | [English](articles/ai-agent-music-generation-cases.en.md) / [中文](articles/ai-agent-music-generation-cases.zh-CN.md) |
 
 ## Content Map
 
