@@ -124,19 +124,9 @@ Links:
 
 These projects show that mature video agents split work into text understanding, material organization, script, layout, voiceover, subtitles, rendering, and verification.
 
-## Recommended Replication Path
-
-1. Use MoneyPrinterTurbo to create three knowledge videos.
-2. Use ShortGPT for an English Shorts automation PoC.
-3. Use NarratoAI to narrate a local video segment.
-4. Manually review scripts, facts, copyright, and subtitles.
-5. A/B test script styles.
-6. Add a storyboard agent and video-generation model.
-
 <!-- AUTO_CASE_UPDATES_START:video:en -->
-## Latest Auto-Discovered Updates
+## Latest Updates (2026-06-13)
 
-### Key New Leads
 
 - **VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation** — A new benchmark and harness that tests whether agent frameworks (Claude Code, Codex, OpenClaw) can handle long-horizon video generation tasks, where agents build and refine their own workflows rather than using handcrafted pipelines. [arXiv](https://arxiv.org/abs/2606.08091v1) (2026-06-06)
 - **ViMax: Agentic Video Generation** — A multi-agent collaboration framework for long-form video generation that coordinates specialized components for narrative planning, visual consistency, and character/environment continuity across scenes. [arXiv](https://arxiv.org/abs/2606.07649v1) (2026-06-02)
@@ -144,7 +134,7 @@ These projects show that mature video agents split work into text understanding,
 - **Cosmos 3: Omnimodal World Models for Physical AI** — NVIDIA's unified mixture-of-transformers architecture jointly processing/generating language, image, video, audio, and action sequences, subsuming video generators and world simulators. [arXiv](https://arxiv.org/abs/2606.02800v2) (2026-06-01)
 - **OmniDirector: General Multi-Shot Camera Cloning without Cross-Paired Data** — A new camera motion representation (grid motion videos) for cloning camera motion from reference videos in multi-shot generation. [arXiv](https://arxiv.org/abs/2606.13432v1) (2026-06-11)
 
-### GitHub / Open-Source Projects
+### Projects
 
 - **ArcReel/ArcReel** — AI Agent-driven open-source video generation workspace: novel → character/scene/prop design → script → storyboard → video, with cross-shot character and scene consistency. Powered by Nano Banana 2 & Veo 3.1 / Grok / Seedance / OpenAI. [GitHub](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5) (2026-06-11)
 - **ChaitanyaEswarRajeshJakki/gemini-youtube-automation** — Fully autonomous AI agent/Python pipeline using Gemini LLMs to generate content, produce videos, and auto-upload educational videos to YouTube. ⭐287. [GitHub](https://github.com/ChaitanyaEswarRajeshJakki/gemini-youtube-automation) (2026-06-13)
@@ -170,7 +160,6 @@ These projects show that mature video agents split work into text understanding,
 - **Antigravity Managed Agents Tutorial: Ship Production AI Agents** — Tutorial on shipping production AI agents. [Medium](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOGhfRTk4bV9PQmRJQkQ3WWVNMHl3Yk9nT3VpNHRGOGZDak82VW1jYWtuWWhFbzd2eFpNd1NxbGlHOTdIbE1mNjR3ZE9WcHp1QzZDcDh3bjdwYjAtU2pSZWYzYnJMc3FJMFlteHNEUjBpeUxWY3NnZUpaVERCTEI2UFJCZGpqS19xZVdnS1VGU29NNnEwWlB2dFlDdFJfMHdUZk94cHZzdllFQQ?oc=5) (2026-06-09) — *Needs manual review: link is RSS feed, not direct article.*
 - **LumeFlow AI Revolutionizes Video Production Pipeline with GPT Image 2 and AI Agent Skill** — [yourvalley.net](https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1BIU2lTYlhnZmZaRzRTWlZsaFRYU3hZRDZDYVRmdTlYOG95SnNTZTUzZUFoeHJZMVF0M0F0aWNrTEstXzNIQmxOVkhuVlZva2Y1Q21iTkJfa3lIR1ozcy0zb0Z1UkdHdDdjUWpoMFpwVnBSTFdWSjZtMFdCdkY3QTh1LXdQc09oZDJsNE5rUnRCdWRZMXVUZ2hBbm15T0pxaDBOS2t2UkdkU3o2TVN6UzBUbnRFZjVFQ2tmTWxPT2U0cW4tSDloTmln?oc=5) (2026-05-29) — *Needs manual review: link is RSS feed, not direct article.*
 
-### Chinese Community Leads
 
 - **ArcReel/ArcReel** (listed above) — Chinese-language description: "AI Agent 驱动的开源视频生成工作台 — 小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致". Open-source AI video workspace powered by AI Agents.
 
@@ -179,12 +168,3 @@ These projects show that mature video agents split work into text understanding,
 - **Google search box redesign** — Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a simple keyword input into a dynamic AI-driven conversational interface. [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) (2026-05-19) — *Potentially relevant to AI agent interfaces for video/visual search; needs manual review for direct connection.*
 - **OpenAI to acquire Ona** — Acquisition to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. [OpenAI](https://openai.com/index/openai-to-acquire-ona) (2026-06-11) — *Indirect relevance to video agent infrastructure; monitor for future video-related agent capabilities.*
 <!-- AUTO_CASE_UPDATES_END:video:en -->
-
-## Main Risks
-
-- Material copyright.
-- Factual errors.
-- Poor editing rhythm.
-- Voice and likeness rights.
-- Platform rules and content safety.
-- Low-quality batch content damaging a brand.

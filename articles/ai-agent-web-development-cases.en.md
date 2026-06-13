@@ -156,19 +156,9 @@ Link: https://arxiv.org/abs/2605.25438
 
 This empirical study tracks 5,838 GitHub developers before and after Claude Code collaboration. It suggests agents not only improve productivity within one stack, but also lower the barrier to trying new frameworks, languages, and projects.
 
-## Recommended Replication Path
-
-1. Build a pure frontend e-commerce demo.
-2. Add local JSON or SQLite data.
-3. Add login, admin, and order status.
-4. Add Stripe or PayPal sandbox.
-5. Use another agent for security and compliance review.
-6. Use Playwright or screenshots to verify mobile behavior.
-
 <!-- AUTO_CASE_UPDATES_START:web:en -->
-## Latest Auto-Discovered Updates
+## Latest Updates (2026-06-13)
 
-### Key New Leads
 
 - **Google search box redesign (AI-driven conversational input)** — Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a keyword input into a dynamic, AI-driven conversational interface. This is the first major change to the search box in 25 years and signals a paradigm shift for how users interact with web-based AI agents. [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) (2026-05-19)
 
@@ -176,7 +166,7 @@ This empirical study tracks 5,838 GitHub developers before and after Claude Code
 
 - **"I vibe coded 3 real apps using Claude Code and OpenAI Codex"** — A hands-on comparison from Tom's Guide testing real app development with two leading coding agents. *Needs manual review for detailed findings.* [Tom's Guide](https://news.google.com/rss/articles/CBMiuwFBVV95cUxONmVSX0tDS0xLVWxzVDl5dExrc1htRXZwV0d4bndWNjNja3I4Ymh6anRmWExySEJfVG9waE9VOXI4SGJIcHBQSXBDM3FnY3lRZTJURUdFY0NnRk1ra2h0RjZ4cHFnYjludnQ0aEpQbzRoRXc3MkFlY1I2LTRKd0FueDJ0N0dVTGVYUW1CaTFLTWtlRTZCN1JqbjdfUERubU9KM1dIZ2VMRkZZVmFMa2sxbHktRjVORTh0WjRR?oc=5) (2026-05-16)
 
-### GitHub / Open-Source Projects
+### Projects
 
 - **cbt4free/claude-agent-sdk-laravel** — Enables Laravel apps to build AI agents using Claude Code for file handling, command execution, code editing, and web search integration. [GitHub](https://github.com/cbt4free/claude-agent-sdk-laravel) (2026-06-13, 1 star)
 
@@ -212,13 +202,12 @@ This empirical study tracks 5,838 GitHub developers before and after Claude Code
 
 - **"Human-in-the-Loop Swarms: A Bionic Swarm Approach to Real-World Soil Mapping"** — Uses a smartphone web-app for human-in-the-loop control. *Tangentially relevant.* [arXiv](https://arxiv.org/abs/2605.29091v1) (2026-05-27)
 
-### Product Tutorials / Media Tests
+### Tutorials / Media Tests
 
 - **Playwright** — "Fast and reliable end-to-end testing for modern web apps." Playwright enables web automation for testing, scripting, and AI agents across Chromium, Firefox, and WebKit. [Playwright](https://playwright.dev/) (No date)
 
 - **"Modern Web Guidance: Teaching AI Agents to Stop Coding Like It's 2019"** — DEV Community article on teaching AI agents modern web development practices. *Needs manual review for full content.* [DEV Community](https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0ZqMXQ1XzFHY0lkNnk3UEJvNDdaOERFOUZTYjFzTU9VSkRhMi1QUG1ybExWajZNM0VNMHU3a1JFOXUyYzY4RlJUZVVyNGpNNWRscUxFN1BrQlcxV3ctMC1nLXhMdDFBY1VmZmpVdmlRTU54a3V3M2NCUHg3M3piODRjUTcwMHlWa0hmN05SeDJmMGlNOVNIUDNnbzFJaklNYnc?oc=5) (2026-05-21)
 
-### Chinese Community Leads
 
 - **"From Dialogue to Action: AI Agent Enters a 10-Billion-Yuan Track — 2026 AI Agent Industry Map Collection in Progress"** — CSDN article on the AI agent industry landscape. *Needs manual review for details.* [CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWmp2NXp1d3o3ZzJEOGlKQ3l4MmozZmhCaWFUZTNHTXphUnJ1ZmltTzNQWENvQnZUMjBrRmdmeUl0b0cxQlg5cHBmWXJLaWtrZHRJal92R0ZqSllHaEE?oc=5) (2026-06-08)
 
@@ -235,11 +224,3 @@ This empirical study tracks 5,838 GitHub developers before and after Claude Code
 - **hegemonart/get-design-done** — Low-star but directly relevant pipeline for design-to-code agent workflows; worth monitoring for maturity.
 - **Chinese community articles** — All three need manual review for actionable technical content before inclusion in the main article.
 <!-- AUTO_CASE_UPDATES_END:web:en -->
-
-## Main Risks
-
-- Fabricated reviews, sales numbers, or qualifications.
-- Overly broad database permissions.
-- Payment flows not tested in sandbox.
-- Generated code becoming hard to maintain.
-- UI looking complete while core business logic is missing.

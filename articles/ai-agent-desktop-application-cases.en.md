@@ -148,23 +148,14 @@ Links:
 
 These benchmarks show that desktop agents struggle with GUI grounding, screen parsing, action prediction, cross-app workflows, and enterprise reliability. If you build desktop apps with built-in agents, prefer structured APIs and logs over pure screen clicking.
 
-## Recommended Replication Path
-
-1. Start with an Electron or Tauri file utility.
-2. Ask the agent to write safety requirements and acceptance cases first.
-3. Run batch operations on a test directory.
-4. Use desktop control to check menus, file dialogs, and error popups.
-5. Add packaging, auto-update, logs, and crash reporting.
-
 <!-- AUTO_CASE_UPDATES_START:desktop:en -->
-## Latest Auto-Discovered Updates
+## Latest Updates (2026-06-13)
 
-### Key New Leads
 
 - **OpenAI to acquire Ona** — OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows. (Source: [OpenAI](https://openai.com/index/openai-to-acquire-ona), 2026-06-11)
 - **Google search box redesign** — Google announced a sweeping redesign of the search box at I/O, transforming it from a simple keyword input into a dynamic, AI-driven conversational interface. (Source: [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think), 2026-05-19)
 
-### GitHub / Open-Source Projects
+### Projects
 
 - **Astro-Han/pawwork** — Free, open-source desktop AI agent for macOS and Windows. Alternative to Codex App and Claude Cowork. BYOK with 75+ providers, ChatGPT OAuth, local models, Office files. No terminal needed. Stars: 48. (Source: [GitHub](https://github.com/Astro-Han/pawwork), 2026-06-13)
 - **Everfern-AI/Everfern** — Free, local-first AI agent that uses your computer the way you would — clicks buttons, navigates apps, fills forms, runs workflows. No subscription, no cloud, no data leaving your machine. Open source alternative to Claude Cowork and Manas Desktop. Stars: 15. (Source: [GitHub](https://github.com/Everfern-AI/Everfern), 2026-06-13)
@@ -192,11 +183,10 @@ These benchmarks show that desktop agents struggle with GUI grounding, screen pa
 - **MacArena: Benchmarking Computer Use Agents on an Online macOS Environment** — A benchmark for computer-use agents on macOS, addressing the underserved macOS ecosystem. (Source: [arXiv](https://arxiv.org/abs/2606.06560v1), 2026-06-04)
 - **MedCUA-Bench: A Screenshot-Only Benchmark for Clinical Computer-Use Agents** — An interactive benchmark for clinical computer-use agents, focusing on medical software with domain knowledge requirements and safety validation. (Source: [arXiv](https://arxiv.org/abs/2606.03203v1), 2026-06-02)
 
-### Product Tutorials / Media Tests
+### Tutorials / Media Tests
 
 *No candidates found in this category.*
 
-### Chinese Community Leads
 
 - **hexagon-codes/hexclaw-desktop** — Enterprise-grade secure personal AI agent desktop client. Tauri + Vue 3, local Sidecar zero cloud dependency, supports multiple models, image/video generation, knowledge base RAG, MCP tool plugins, multi-platform IM integration (Feishu/Telegram/Discord). (Source: [GitHub](https://github.com/hexagon-codes/hexclaw-desktop), 2026-06-13) — *Note: Chinese-language description in original candidate.*
 
@@ -207,11 +197,3 @@ These benchmarks show that desktop agents struggle with GUI grounding, screen pa
 - **EpiBench** — No system passed a majority of attempts; worth monitoring for future agent improvements in scientific domains.
 - **OpenAI to acquire Ona** — Potential major development for Codex and enterprise AI agent workflows; needs follow-up on acquisition completion and product integration.
 <!-- AUTO_CASE_UPDATES_END:desktop:en -->
-
-## Main Risks
-
-- Accidental modification of real files.
-- Incomplete cross-platform paths and permissions.
-- Missing signing, auto-update, or sandboxing.
-- Slow and unstable GUI automation.
-- Local private files leaking into logs or model context.

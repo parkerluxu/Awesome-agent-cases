@@ -251,28 +251,9 @@ Suno 和 Udio 都因训练数据和版权问题引发音乐产业诉讼或授权
 
 这类评论不是技术论文，但很适合放入音乐生成文章，因为它提醒我们：AI 能生成像音乐的声音，不等于能生成有文化语境、情感经验和艺术判断的作品。对教程文章来说，应把 AI 定位为辅助创作和草稿生成，而不是替代音乐人的完整系统。
 
-## 推荐复刻路线
-
-1. 用 Claude/ChatGPT 生成歌词和音乐 prompt。
-2. 用 Suno/Udio 生成 5-10 个版本。
-3. 人工筛出旋律和结构最好的版本。
-4. 用 Agent 生成封面、宣发文案、MV 分镜。
-5. 用视频工具生成 lyric video。
-6. 商业发布前检查授权、相似性和声音权利。
-
-## 主要风险
-
-- 平台授权限制。
-- 模仿特定歌手导致法律和伦理风险。
-- 旋律相似性不可控。
-- AI 歌词俗套、空泛。
-- 自动混音质量不足。
-- 音乐和视频节奏不匹配。
-
 <!-- AUTO_CASE_UPDATES_START:music:zh-CN -->
-### 最新自动发现更新：AI Agent 音乐生成案例
+## 最新更新(2026-06-13)
 
-#### 重点新增线索
 
 - **AetherWave Studio 推出 MCP 服务器**：项目 `aetherwave-mcp` 为 Claude、Cursor 等 Agent 提供音乐、图像、视频和乐队生成工具。这是一个值得关注的 Agent 音乐生成工具链。
 - **Lacuna Music API 发布开源 SDK 与 Agent Skill**：`lacuna-toolkit` 提供了 SDK、CLI、MCP 服务器和 Agent Skill，支持从 Node 运行时、Shell 或 AI Agent 中生成 AI 音乐。
@@ -292,21 +273,20 @@ Suno 和 Udio 都因训练数据和版权问题引发音乐产业诉讼或授权
 - **Jessalynredflowered754/SmartDiscover**：通过自然语言提示，使用多 Agent AI 发现 Spotify 音乐并构建播放列表。Stars: 0。 [查看项目](https://github.com/Jessalynredflowered754/SmartDiscover)
 - **wangchuxiaoji-oss/doubao2api**：逆向工程豆包 API，提供多模态聊天、图像/视频/音乐生成服务，兼容 OpenAI 格式。Stars: 40。 [查看项目](https://github.com/wangchuxiaoji-oss/doubao2api)
 
-#### 论文/Benchmark
+### 论文 / Benchmark
 
 - **《The Moving Drone: Negotiating Agency Between the Voice and the Virtual》**：一篇来自 arXiv 的论文，探讨 Hindustani 音乐中虚拟 drone 的能动性，涉及实时循环器与即兴演唱的交互。 [查看论文](https://arxiv.org/abs/2606.13640v1)
 
-#### 产品教程/媒体实测
+### 教程 / 媒体实测
 
 - **Claude Code Workflow 功能实战教程**：YouTube 视频教程，展示如何利用 ultrawork 召唤多个 Agent 协同，自动生成 JS 脚本实现可复用的工作流。 [查看视频](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rSkpRRVh5VkJQMy1fbkJDazVDWEQ1NU92enJXX1VMUFRMRDBJMTlPZUI0VzFVdVd4eWRjeVIwbW4zLU14YlZwSmY1UUVoVk9IS1JoYVRR?oc=5)
 - **ArcReel：AI Agent 驱动的开源视频生成工作台**：一个开源项目，通过 AI Agent 将小说转化为角色/场景/道具设计、剧本、分镜图再到视频，支持跨镜头角色与场景一致。 [查看项目](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5)
 
-#### 中文社区线索
 
 - **豆包 API 逆向工程项目**：`doubao2api` 项目将豆包的多模态能力（含音乐生成）转为 OpenAI 兼容接口，适合国内开发者集成到 Agent 中。Stars: 40。 [查看项目](https://github.com/wangchuxiaoji-oss/doubao2api)
 - **ArcReel 项目**：中文描述的开源 AI Agent 视频生成工作台，涉及角色、场景、剧本等完整流程。 [查看项目](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5)
 
-#### 值得后续复核
+### 待复核线索
 
 - **Google 搜索框重新设计**：虽然与音乐生成无直接关系，但可能影响 Agent 的交互入口。 [查看原文](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
 - **OpenAI 收购 Ona**：可能增强 Codex 的持久化云环境，对 Agent 工作流有潜在影响。 [查看原文](https://openai.com/index/openai-to-acquire-ona)
@@ -315,12 +295,3 @@ Suno 和 Udio 都因训练数据和版权问题引发音乐产业诉讼或授权
 - **Qwen3.6 越狱版教程**：支持本地 Agent 运行，可能用于本地音乐生成 Agent 部署。 [查看视频](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oT3dJVzFaSmxsaWVCd1FBcUhqVFFiY1NGQ0xHWVU5c3pIRDlteFUydWUzU1BQY2ZxbE1ORDg0eWhoc0xZYVlxV3QyTHBMNjBsMXc1OXdR?oc=5)
 - **OpenAI Academy 新课程**：包含应用 Agent 的课程，可能涉及音乐生成场景。 [查看原文](https://openai.com/index/academy-courses-applying-ai-at-work)
 <!-- AUTO_CASE_UPDATES_END:music:zh-CN -->
-
-## 参考链接
-
-- MusicAgent GitHub：https://github.com/microsoft/muzic/tree/main/musicagent
-- MusicAgent 论文：https://arxiv.org/abs/2310.11954
-- AutoMV：https://arxiv.org/abs/2512.12196
-- GVMGen：https://arxiv.org/abs/2501.09972
-- OpenAI 音乐生成历史：https://en.wikipedia.org/wiki/Products_and_applications_of_OpenAI
-

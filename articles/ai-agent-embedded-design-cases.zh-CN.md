@@ -239,25 +239,8 @@ LLM-aided design 把嵌入式固件生成列为硬件与系统设计应用之一
 
 嵌入式代码不只要正确，还要考虑速度、内存、功耗和平台差异。CodegenBench 研究跨 x86、Sunway、Kunpeng 架构的高性能代码生成，COFFE 关注代码执行效率。这些虽然不是 MCU 专用，但提醒我们：Agent 生成代码需要评估资源占用，而不是只看编译通过。
 
-## 推荐复刻路线
-
-1. 选择 ESP32 + 单个传感器项目。
-2. 让 Agent 输出接线表、库清单、代码和测试步骤。
-3. 编译，把错误贴回 Agent。
-4. 上板运行，把串口日志贴回 Agent。
-5. 加入异常处理和断线重连。
-6. 再做功耗、看门狗和版本管理。
-
-## 主要风险
-
-- 引脚、电压、库版本错误。
-- 代码能编译但实时性差。
-- 阻塞式代码导致系统卡死。
-- 没有看门狗、超时和异常分支。
-- 控制电机/继电器时缺少安全保护。
-
 <!-- AUTO_CASE_UPDATES_START:embedded:zh-CN -->
-### 重点新增线索
+## 最新更新(2026-06-13)
 
 - **Google 搜索框 25 年来首次重新设计**：Google 在 I/O 大会上宣布将搜索框从简单的关键词输入转变为动态的 AI 驱动对话界面。这标志着人机交互范式的重大转变，对嵌入式 AI Agent 的交互设计有深远影响。 [来源](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
 - **OpenAI 收购 Ona**：OpenAI 计划收购 Ona 以扩展 Codex，提供安全、持久的云端环境，支持企业工作流中的长时间运行 AI Agent。这表明 Agent 的持久化和企业级部署是当前热点。 [来源](https://openai.com/index/openai-to-acquire-ona)
@@ -275,7 +258,7 @@ LLM-aided design 把嵌入式固件生成列为硬件与系统设计应用之一
 - **AI-LMS-TMS** (⭐ 16): 一个自托管的 AI 驱动学习与培训管理系统，集成了嵌入式 AI Agent。 [链接](https://github.com/alfredang/AI-LMS-TMS)
 - **Antigravity Awesome Skills** (⭐ 待人工复核): 一个包含 1,527+ 个 Agentic Skills 的仓库，适用于 Claude Code, Gemini CLI, Cursor, Copilot 等。 [链接](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tNl9NbVNGU214YXktUlkyVU5SM24xdkdYeUtGS0pXcTNPM0g0VnNmOVB1alc3S2NQcUR2cFhrLWZMR0p0UV85TjFvME5lRUowWW4yNnZkeEZMZnpVbjBjdlNCNA?oc=5)
 
-### 论文/Benchmark
+### 论文 / Benchmark
 
 - **Device Context Protocol (DCP)**：提出了一种紧凑、安全优先的架构，用于 LLM 驱动受限设备（如微控制器）的控制，解决了 MCP 无法下探到 MCU 以及 LLM 幻觉带来的安全问题。 [链接](https://arxiv.org/abs/2605.26159v1)
 - **LLM Agent Based Renewable Energy Forecasting**：综述了基于 LLM Agent 的可再生能源预测，利用边缘和 IoT 数据进行太阳能、风能、天气和电网感知的决策支持。 [链接](https://arxiv.org/abs/2605.25141v1)
@@ -284,26 +267,16 @@ LLM-aided design 把嵌入式固件生成列为硬件与系统设计应用之一
 - **CORE-Bench**：一个针对代码检索的综合基准测试，专门用于评估 Agentic Coding 场景下的代码检索能力。 [链接](https://arxiv.org/abs/2606.11864v1)
 - **Nous**：尝试从人类在预测市场中的行为中提取认知多样性，并将其注入 LLM Agent，以解决 Agent 的认知单一化问题。 [链接](https://arxiv.org/abs/2606.13038v1)
 
-### 产品教程/媒体实测
+### 教程 / 媒体实测
 
 - **Google 搜索框 AI 化改造**：VentureBeat 报道了 Google 搜索框的重新设计，将其转变为动态 AI 驱动界面。 [来源](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
 
-### 中文社区线索
 
 - **菜鸟教程 - 大语言模型基础（LLM）**：一篇面向中文初学者的 AI Agent 教程，介绍了 LLM 作为 AI Agent 大脑的基础概念。 [链接](https://www.runoob.com/ai-agent/ai-agent-llm.html)
 
-### 值得后续复核
+### 待复核线索
 
 - **Antigravity Awesome Skills**：该仓库的 RSS 摘要信息有限，具体内容、质量和与嵌入式设计的关联度需要人工复核。
 - **多个低星 GitHub 项目**：如 `CodeCraft`、`deepagent-x-feed-monitoring`、`x-research-skill`、`healthcare-assistant`、`DevDuck` 等，虽然与 AI Agent 相关，但星数极低，且查询词为 `arduino ai agent`，与嵌入式设计的相关性待人工复核。
 - **AI 自适应计算机蠕虫论文**：虽然提出了重要的安全警示，但其与嵌入式 Agent 设计的直接关联度需要进一步评估。
 <!-- AUTO_CASE_UPDATES_END:embedded:zh-CN -->
-
-## 参考链接
-
-- ESP32 概述：https://en.wikipedia.org/wiki/ESP32
-- Copilot 实证研究：https://arxiv.org/abs/2303.08733
-- Copilot 实践挑战：https://arxiv.org/abs/2309.05687
-- 机器人装配编程：https://arxiv.org/abs/2405.08216
-- LLM-aided Design：https://en.wikipedia.org/wiki/LLM_aided_design
-

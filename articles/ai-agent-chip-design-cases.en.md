@@ -118,24 +118,14 @@ Reference: https://en.wikipedia.org/wiki/LLM_aided_design
 
 These dataset and model directions suggest that long-term chip agents will combine domain data, simulation feedback, structured retrieval, and toolchain logs rather than relying only on general models.
 
-## Recommended Replication Path
-
-1. Start with UART, PWM, or FIFO.
-2. Ask the agent to write RTL and testbench.
-3. Run iverilog or Verilator.
-4. Feed errors and waveform observations back.
-5. Add Yosys/OpenROAD for synthesis and simple backend.
-6. Try a multi-role flow: Planner, Coder, Reviewer, Verifier.
-
 <!-- AUTO_CASE_UPDATES_START:chip:en -->
-## Latest Auto-Discovered Updates
+## Latest Updates (2026-06-13)
 
-### Key New Leads
 
 - **OpenAI to acquire Ona** – OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows. (Source: [OpenAI](https://openai.com/index/openai-to-acquire-ona), 2026-06-11)
 - **Google DeepMind is worried about what happens when millions of agents start to interact** – DeepMind funding research into potential dangers of mass-market AI agent interaction. (Source: [MIT Technology Review](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/), 2026-06-11)
 
-### GitHub / Open-Source Projects
+### Projects
 
 - **andresparraarze/ForgeLab** – "The LLVM of design" — a JSON IR + MCP server that lets AI agents create KiCad, FreeCAD & glTF files. Stars: 2. (Source: [GitHub](https://github.com/andresparraarze/ForgeLab), 2026-06-12)
 - **zhongkaiyu/ChipMATE** – Multi-agent inference framework for RTL generation. A Verilog agent and a Python reference-model agent independently propose implementations and cross-verify each other's outputs on random stimuli — no golden testbench required. Open-source companion to the ChipMATE paper. Stars: 15. (Source: [GitHub](https://github.com/zhongkaiyu/ChipMATE), 2026-05-29)
@@ -158,11 +148,10 @@ These dataset and model directions suggest that long-term chip agents will combi
 - **Memory-Guided Tree Search with Cross-Branch Knowledge Transfer for LLM Solver Synthesis** – Applies memory-guided tree search with cross-branch knowledge transfer for combinatorial optimization solver synthesis, relevant to chip design. (Source: [arXiv](https://arxiv.org/abs/2605.17539v2), 2026-05-17)
 - **OpenRTLSet: A Fully Open-Source Dataset for Large Language Model-based Verilog Module Design** – Introduces the largest fully open-source dataset for hardware design, offering over 131,000 diverse Verilog code samples. (Source: [arXiv](https://arxiv.org/abs/2606.10285v1), 2026-06-09)
 
-### Product Tutorials / Media Tests
+### Tutorials / Media Tests
 
 - **Google just redesigned the search box for the first time in 25 years** – Google announced a sweeping redesign transforming the search box from a simple keyword input into a dynamic, AI-driven conversational interface. (Source: [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think), 2026-05-19)
 
-### Chinese Community Leads
 
 - **大语言模型基础（LLM）** – A Chinese tutorial on LLM basics for AI agents, from 菜鸟教程 (Runoob). (Source: [Bing Web](https://www.runoob.com/ai-agent/ai-agent-llm.html))
 
@@ -172,12 +161,3 @@ These dataset and model directions suggest that long-term chip agents will combi
 - **sivahere4cloud/ml-ai-genai-agentic-practice** – A growing collection of applied ML, GenAI, and Agentic AI projects covering EDA automation, predictive modeling, LLM integration, RAG pipelines, and autonomous agent workflows. Stars: 0. (Source: [GitHub](https://github.com/sivahere4cloud/ml-ai-genai-agentic-practice), 2026-06-12) — *Weak candidate, needs manual review.*
 - **Maranh0/ai-junior-data_scientist** – Analyzes fintech data with an AI Junior Data Scientist Agent performing EDA and churn modeling. Stars: 1. (Source: [GitHub](https://github.com/Maranh0/ai-junior-data_scientist), 2026-06-13) — *Weak candidate, "EDA" here refers to exploratory data analysis, not electronic design automation. Needs manual review.*
 <!-- AUTO_CASE_UPDATES_END:chip:en -->
-
-## Main Risks
-
-- Non-synthesizable syntax.
-- Timing and reset errors.
-- Weak testbenches.
-- Poor PPA.
-- Missing formal verification.
-- Overtrusting demos and ignoring production complexity.

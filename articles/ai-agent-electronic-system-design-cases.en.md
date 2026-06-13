@@ -129,25 +129,15 @@ Links:
 
 The core trend is converting hardware design into intermediate representations that models can generate, tools can verify, and engineers can review: Python DSLs, semantic-grounded code, CircuitJSON, knowledge graphs, and KiCad synchronization.
 
-## Recommended Replication Path
-
-1. Use an agent to create requirements and module lists.
-2. Manually confirm components and datasheets.
-3. Generate an initial connection draft with tscircuit or KiCad scripts.
-4. Run ERC/DRC.
-5. Ask the agent to explain errors and propose fixes.
-6. Human-review before exporting Gerbers.
-
 <!-- AUTO_CASE_UPDATES_START:electronic:en -->
-## Latest Auto-Discovered Updates
+## Latest Updates (2026-06-13)
 
-### Key New Leads
 
 - **ForgeLab** — Described as "the LLVM of design," this project provides a JSON IR + MCP server enabling AI agents to create KiCad, FreeCAD & glTF files. (GitHub, 2026-06-12, 2 stars) [Link](https://github.com/andresparraarze/ForgeLab)
 - **salitronic/eda-agent** — An open-source MCP server for Altium Designer with 290+ tools for schematic, PCB, library & project automation, including design review, SVG rendering, connectivity-driven auto-placement, and an autonomous design-plan executor. Apache-2.0 license. (GitHub, 2026-06-12, 56 stars) [Link](https://github.com/salitronic/eda-agent)
 - **SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations** — The first LLM that generates editable PCB schematics from natural-language requests, addressing the lack of an LLM-suited representation and large-scale dataset. (arXiv, 2026-05-28) [Link](https://arxiv.org/abs/2605.30345v1)
 
-### GitHub / Open-Source Projects
+### Projects
 
 - **Matt-Thom/TripleT-KiCad-Agent** — AI-powered engineering assistant bridging system requirements and physical PCB design, acting as a co-designer that understands electronics theory, component availability, and KiCad file structures. (2026-06-11, 1 star) [Link](https://github.com/Matt-Thom/TripleT-KiCad-Agent)
 - **AvatarSD/KiSkill** — Agent skills + headless Python engine giving an AI coding agent full control of KiCad (edit, verify, review & fabricate schematics and PCBs) without GUI. (2026-06-11, 0 stars) [Link](https://github.com/AvatarSD/KiSkill)
@@ -164,7 +154,7 @@ The core trend is converting hardware design into intermediate representations t
 
 - **SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations** — First LLM for generating editable PCB schematics from natural language. (arXiv, 2026-05-28) [Link](https://arxiv.org/abs/2605.30345v1)
 
-### Product Tutorials / Media Tests
+### Tutorials / Media Tests
 
 - **Google search box redesign** — Google announced a sweeping redesign of the search box at I/O, transforming it from keyword input into a dynamic, AI-driven conversational interface. (VentureBeat, 2026-05-19) [Link](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) *(Weak candidate — not directly about EDA/PCB design)*
 - **OpenAI to acquire Ona** — OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. (OpenAI, 2026-06-11) [Link](https://openai.com/index/openai-to-acquire-ona) *(Weak candidate — general AI agent infrastructure)*
@@ -172,7 +162,6 @@ The core trend is converting hardware design into intermediate representations t
 - **OpenEnv for Agentic RL** — The open-source community backing OpenEnv for agentic reinforcement learning. (Hugging Face, 2026-06-08) [Link](https://huggingface.co/blog/openenv-agentic-rl) *(Weak candidate — general agentic RL)*
 - **hf CLI for agents** — Designing the Hugging Face CLI as an agent-optimized way to work with the Hub. (Hugging Face, 2026-06-04) [Link](https://huggingface.co/blog/hf-cli-for-agents) *(Weak candidate — general agent tooling)*
 
-### Chinese Community Leads
 
 - **大语言模型基础（LLM）** — Chinese tutorial on LLM basics as the brain of AI agents. (runoob.com) [Link](https://www.runoob.com/ai-agent/ai-agent-llm.html) *(Weak candidate — general LLM tutorial)*
 - **datawhalechina/happy-llm** — Chinese systematic LLM learning tutorial from Datawhale community. (GitHub) [Link](https://github.com/datawhalechina/happy-llm) *(Weak candidate — general LLM education)*
@@ -184,11 +173,3 @@ The core trend is converting hardware design into intermediate representations t
 - **Google DeepMind on multi-agent risks** — DeepMind funding research into dangers of millions of AI agents interacting online. (MIT Technology Review, 2026-06-11) [Link](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/) *(Weak candidate — general AI safety, not EDA-specific)*
 - **tscircuit/tscircuit** — Create real electronics with TypeScript and React. (GitHub, 2026-06-12, 2246 stars) [Link](https://github.com/tscircuit/tscircuit) *(Existing project, noted for continued activity)*
 <!-- AUTO_CASE_UPDATES_END:electronic:en -->
-
-## Main Risks
-
-- Fabricated part numbers, footprints, or parameters.
-- Ignored power margin, thermal design, or EMI.
-- Wrong high-speed / RF rules.
-- DRC passing while the board is still hard to manufacture.
-- Prototype cost and hardware damage.

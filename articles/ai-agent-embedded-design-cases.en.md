@@ -109,19 +109,9 @@ Links:
 
 Embedded code must be correct, fast, memory-conscious, and power-aware. Passing compilation is not enough.
 
-## Recommended Replication Path
-
-1. Choose ESP32 plus one sensor.
-2. Ask the agent for wiring, libraries, code, and test steps.
-3. Compile and feed errors back.
-4. Run on board and feed serial logs back.
-5. Add exception handling and reconnect logic.
-6. Add power, watchdog, and version-management checks.
-
 <!-- AUTO_CASE_UPDATES_START:embedded:en -->
-## Latest Auto-Discovered Updates
+## Latest Updates (2026-06-13)
 
-### Key New Leads
 
 - **Google search box redesign (2026-05-19):** Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a simple keyword input into a dynamic, AI-driven conversational interface. This is the first major change to the search box in 25 years and signals a paradigm shift in how users interact with AI at the entry point. [Source](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
 
@@ -129,7 +119,7 @@ Embedded code must be correct, fast, memory-conscious, and power-aware. Passing 
 
 - **AI Agents Enable Adaptive Computer Worms (2026-06-02):** A new paper demonstrates that AI agents can generate tailored attack strategies for each target, creating a fundamentally new threat: a worm that parasitically uses compromised machines to run open-weight LLMs. This has significant security implications for embedded agent systems. [Paper](https://arxiv.org/abs/2606.03811v1)
 
-### GitHub / Open-Source Projects
+### Projects
 
 - **TuyaOpen (⭐1585):** Next-gen AI+IoT framework for T2/T3/T5AI/ESP32 and more, enabling fast IoT and AI Agent hardware integration. High relevance for embedded agent design. [GitHub](https://github.com/tuya/TuyaOpen)
 
@@ -163,11 +153,10 @@ Embedded code must be correct, fast, memory-conscious, and power-aware. Passing 
 
 - **Nous (2026-06-11):** Attempts to extract and inject human cognitive diversity from prediction-market behavior into LLM agents to avoid cognitive monoculture. [Paper](https://arxiv.org/abs/2606.13038v1)
 
-### Product Tutorials / Media Tests
+### Tutorials / Media Tests
 
 - No direct product tutorials or media tests found in the candidate resources.
 
-### Chinese Community Leads
 
 - **大语言模型基础（LLM） - 菜鸟教程:** A Chinese tutorial on LLM basics as the brain of AI agents, from the Runoob (菜鸟教程) platform. [Source](https://www.runoob.com/ai-agent/ai-agent-llm.html)
 
@@ -181,11 +170,3 @@ Embedded code must be correct, fast, memory-conscious, and power-aware. Passing 
   - DevDuck (⭐4) — sentiment-aware rubber duck agent
   - All scored below 25 with query "arduino ai agent" or "ai embedded systems agent" but unclear direct relevance
 <!-- AUTO_CASE_UPDATES_END:embedded:en -->
-
-## Main Risks
-
-- Wrong pins, voltage levels, or library versions.
-- Code compiles but has poor real-time behavior.
-- Blocking code freezes the system.
-- Missing watchdogs, timeouts, and exception branches.
-- Unsafe motor or relay control.

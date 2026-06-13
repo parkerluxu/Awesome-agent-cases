@@ -143,25 +143,15 @@ Links:
 
 These evaluate agents as game QA engineers, decision makers, or planners. They are useful for NPCs, strategy agents, and automated testing, even when they do not generate games.
 
-## Recommended Replication Path
-
-1. Start with Minesweeper, 2048, or Snake.
-2. Write complete rules and an acceptance checklist.
-3. Ask for a minimal playable version first.
-4. Add sound, animation, and mobile support.
-5. Let another agent audit gameplay holes.
-6. Add theme art and a publishing page.
-
 <!-- AUTO_CASE_UPDATES_START:game:en -->
-## Latest Auto-Discovered Updates
+## Latest Updates (2026-06-13)
 
-### Key New Leads
 
 - **Google search box redesign** — Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a simple keyword input into a dynamic, AI-driven conversational interface. This shift in the primary user interface for billions of queries could have downstream implications for how AI agents discover and interact with game development resources. [Source](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) (2026-05-19)
 
 - **OpenAI to acquire Ona** — OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows. This acquisition may strengthen Codex's capabilities for sustained game development sessions. [Source](https://openai.com/index/openai-to-acquire-ona) (2026-06-11)
 
-### GitHub / Open-Source Projects
+### Projects
 
 - **aigengame/godot-agent** — An agent-first CLI and MCP server that lets AI agents drive the Godot engine to build games, with structured output built for programmatic consumption. Stars: 0. [Source](https://github.com/aigengame/godot-agent) (2026-06-13)
 
@@ -199,13 +189,12 @@ These evaluate agents as game QA engineers, decision makers, or planners. They a
 
 - **LLM-Mediated Demand Response Coordination in Smart Microgrids** — A multi-agent simulation using LLM Influence Compiler for coordination in a repeated Prisoner's Dilemma on a social network. [Source](https://arxiv.org/abs/2606.11050v1) (2026-06-09)
 
-### Product Tutorials / Media Tests
+### Tutorials / Media Tests
 
 - **10分钟 0基础 一句代码没写 用Codex开发一个小游戏 Vibe Coding实战教程** — A Chinese-language YouTube tutorial showing how to develop a small game with Codex in 10 minutes without writing any code. [Source](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VUk5BWjlxUlZFSk13SGx1UXIydmFqSl9PUGxWQzlBRTRwaFd2N21RVGtmSi1fVWpESFhySzRNQXNyb2t3UEJvd3k1aC1nMUN5Njc5dnNR?oc=5) (2026-06-09)
 
 - **Graphify + code-review-graph: Build a Self-Updating Knowledge Graph for Claude Code and other AI Coding Agent** — A DEV Community post on building self-updating knowledge graphs for Claude Code and other AI coding agents. [Source](https://news.google.com/rss/articles/CBMiywFBVV95cUxQcnB3R0N1LXdHa2hjX1BiUVVMMm9fVDlVT0o2UXZmWGptbkFlLVZVU1dMSXppQlZ2ZDNPWlRJTC1LUXlhZURtQTVXT25tZkNVTWJVdGRzaDZjWkVVaXYyQTFLWFVYOWRuYndVSThLMlZ4LUlaczg0U043TzBDX0NYNHhfcDA1VjN6Y0NrU3NwczdVdDNQVHlabFMxdGZhVHRQbFUtZ3pnbkoxM05CZGVfMVpkZm8tZW81MWpBQ2o0aE1hc2EycDlGUm1lQQ?oc=5) (2026-05-17)
 
-### Chinese Community Leads
 
 - **Spring AI完整学习路线：从Java开发到AI Agent的进阶之路（附15篇实战教程）** — A comprehensive Spring AI learning roadmap from Java development to AI Agent, with 15 practical tutorials. [Source](https://news.google.com/rss/articles/CBMickFVX3lxTE51MWVkcUg0U1o1TGdJYVFhU1FhMXBFcGRmSlVOd0NUMnhBRkg2OEJpM2hxVS1UVWNlVGk3TVVlTnM5V0hQRGhtaTVadS1BTmRMRHZLbXJFTFg4OEEtTU9nV3RiMkZ4dXA1T2pZcU5kRUthZw?oc=5) (2026-05-16)
 
@@ -217,11 +206,3 @@ These evaluate agents as game QA engineers, decision makers, or planners. They a
 
 - **Manual review needed:** Several GitHub projects have 0 stars and minimal documentation. Their actual utility and stability should be verified before deeper inclusion.
 <!-- AUTO_CASE_UPDATES_END:game:en -->
-
-## Main Risks
-
-- Missing core rules.
-- Pretty UI with broken state machines.
-- Unplayable mobile controls.
-- Unclear audio and asset licensing.
-- Scope creep and unmaintainable code.

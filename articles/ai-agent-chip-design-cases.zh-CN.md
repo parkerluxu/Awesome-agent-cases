@@ -208,30 +208,11 @@ MAGE 是面向 Verilog RTL 生成的多 Agent 引擎，包含候选采样、debu
 
 LLM-aided design 汇总中提到 MG-Verilog、RTLCoder、VeriGen 等数据和模型路线。它们说明芯片 Agent 的长期方向可能不是直接用通用模型，而是结合领域数据、仿真反馈、结构检索和工具链日志训练专用模型。
 
-## 推荐复刻路线
-
-1. 从 UART/PWM/FIFO 这类小模块开始。
-2. 让 Agent 同时写 RTL 和 testbench。
-3. 用 iverilog/Verilator 跑仿真。
-4. 把报错和波形现象反馈给 Agent。
-5. 再接 Yosys/OpenROAD 做综合和简单后端。
-6. 最后尝试多角色流程：Planner、Coder、Reviewer、Verifier。
-
-## 主要风险
-
-- 不可综合语法。
-- 时序和复位处理错误。
-- testbench 不充分。
-- PPA 指标差。
-- 形式验证缺失。
-- 过度相信 demo，忽略生产级复杂性。
-
 <!-- AUTO_CASE_UPDATES_START:chip:zh-CN -->
-### 最新自动发现更新
+## 最新更新(2026-06-13)
 
 以下内容基于近期自动抓取的候选资料整理，作为《AI Agent 芯片设计案例》的增量更新线索。所有信息均来自候选资料，未经验证，部分条目需人工复核。
 
-#### 重点新增线索
 
 - **RTL-BenchMT (2026-05-15)**：提出一种基于 Agent 的动态维护 RTL 生成基准的框架，旨在解决现有基准中的缺陷案例和过拟合问题。来源：arXiv (https://arxiv.org/abs/2605.15537v1)
 - **ChipMATE (2026-05-29)**：一个用于 RTL 生成的多智能体推理框架，包含 Verilog 智能体和 Python 参考模型智能体，可交叉验证输出，无需黄金测试平台。来源：GitHub (https://github.com/zhongkaiyu/ChipMATE)
@@ -255,7 +236,7 @@ LLM-aided design 汇总中提到 MG-Verilog、RTLCoder、VeriGen 等数据和模
 - **ecs_rapid_agent_hackathon** (2026-06-12)：一个现代 EDA 和原理图捕获工具，具备 AI 副驾驶能力。Stars: 0。来源：GitHub (https://github.com/hermes13002/ecs_rapid_agent_hackathon)
 - **ai-junior-data_scientist** (2026-06-13)：分析金融数据的 AI 初级数据科学家智能体。Stars: 1。来源：GitHub (https://github.com/Maranh0/ai-junior-data_scientist)
 
-#### 论文/Benchmark
+### 论文 / Benchmark
 
 - **RTL-BenchMT** (2026-05-15)：基于 Agent 的动态 RTL 基准维护框架。来源：arXiv (https://arxiv.org/abs/2605.15537v1)
 - **CPPL: A Circuit Prompt Programming Language** (2026-05-18)：一种电路提示编程语言，旨在解决 LLM 直接生成 RTL 的验证和优化难题。来源：arXiv (https://arxiv.org/abs/2605.17892v1)
@@ -268,17 +249,16 @@ LLM-aided design 汇总中提到 MG-Verilog、RTLCoder、VeriGen 等数据和模
 - **Autonomous agentic design for photonics** (2026-05-30)：用于光子器件设计的自主智能体方法。来源：arXiv (https://arxiv.org/abs/2606.00915v1)
 - **Memory-Guided Tree Search** (2026-05-17)：用于 LLM 求解器合成的记忆引导树搜索，可应用于芯片设计中的组合优化。来源：arXiv (https://arxiv.org/abs/2605.17539v2)
 
-#### 产品教程/媒体实测
+### 教程 / 媒体实测
 
 - **Google 搜索框重新设计** (2026-05-19)：Google 将搜索框从简单的关键词输入转变为动态的 AI 驱动对话界面。来源：VentureBeat (https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
 - **OpenAI 收购 Ona** (2026-06-11)：OpenAI 计划收购 Ona 以扩展 Codex，提供安全的持久云环境，支持企业工作流中的长时间运行 AI 智能体。来源：OpenAI (https://openai.com/index/openai-to-acquire-ona)
 - **Google DeepMind 关注多智能体交互风险** (2026-06-11)：Google DeepMind 正在资助研究数百万 AI 智能体在线交互的潜在危险。来源：MIT Technology Review (https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/)
 
-#### 中文社区线索
 
 - **大语言模型基础（LLM） - 菜鸟教程**：一篇介绍 LLM 基础的中文教程，可作为 AI Agent 入门参考。来源：菜鸟教程 (https://www.runoob.com/ai-agent/ai-agent-llm.html)
 
-#### 值得后续复核
+### 待复核线索
 
 - **RTL-BenchMT** 和 **RTL-BenchLS** 作为新的基准，其具体设计、评估方法和与现有基准的对比值得深入分析。
 - **ChipMATE** 和 **siliconcrew** 等开源项目，其实际效果、社区活跃度和文档完整性需要人工评估。
@@ -290,16 +270,5 @@ LLM-aided design 汇总中提到 MG-Verilog、RTLCoder、VeriGen 等数据和模
 - **Autonomous agentic design for photonics** 虽非直接芯片设计，但其方法可能对芯片设计有借鉴意义，需人工判断相关性。
 - **Memory-Guided Tree Search** 论文中提到的“芯片设计”应用场景，其具体案例和效果需进一步核实。
 - **Google 搜索框重新设计** 和 **OpenAI 收购 Ona** 等新闻，其对 AI Agent 生态的潜在影响需人工分析。
-- **中文社区线索** 中的教程内容较为基础，与芯片设计 Agent 的直接关联性需人工判断。
+- **中文来源线索** 中的教程内容较为基础，与芯片设计 Agent 的直接关联性需人工判断。
 <!-- AUTO_CASE_UPDATES_END:chip:zh-CN -->
-
-## 参考链接
-
-- Verkor RISC-V CPU：https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours
-- OpenROAD：https://en.wikipedia.org/wiki/OpenROAD_Project
-- ChatEDA：https://arxiv.org/abs/2308.10204
-- AutoEDA：https://arxiv.org/abs/2508.01012
-- HiVeGen：https://arxiv.org/abs/2412.05393
-- VeriOpt：https://arxiv.org/abs/2507.14776
-- LLM-aided Design：https://en.wikipedia.org/wiki/LLM_aided_design
-
