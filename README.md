@@ -49,6 +49,8 @@ New daily briefs will be added over time.
 | Topic | Link |
 |---|---|
 | AI Agent tools, cases, tutorials, projects and papers | [articles/ai-agent-tools-cases-tutorials-projects-papers.md](articles/ai-agent-tools-cases-tutorials-projects-papers.md) |
+| High-heat AI Agent projects and tutorials | [English](articles/ai-agent-projects-report.en.md) / [中文](articles/ai-agent-projects-report.zh-CN.md) |
+| Real AI Agent deliverables across industries | [English](articles/ai-agent-industry-case-tutorials.en.md) / [中文](articles/ai-agent-industry-case-tutorials.zh-CN.md) |
 
 ## Content Map
 
