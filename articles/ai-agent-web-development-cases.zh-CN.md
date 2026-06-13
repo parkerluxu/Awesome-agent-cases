@@ -1,4 +1,4 @@
-﻿# Web 开发：AI Agent 实战案例、教程与科研项目调研
+# Web 开发：AI Agent 实战案例、教程与科研项目调研
 
 这是一份面向开发者、创作者和研究者的 AI Agent 资料索引，收集了相关方向的教程、案例、开源项目、论文、Benchmark 和产品实践。它的目标是帮助读者快速发现可复现的项目、可参考的工作流，以及值得进一步阅读的研究资料。
 
@@ -64,3 +64,47 @@
 | 13 | bolt.diy | 开源项目 | StackBlitz 推出的浏览器内全栈应用生成工具。它允许用户通过自然语言描述直接生成、运行和修改代码，零配置即可体验从需求到可运行应用的完整流程。 | https://github.com/stackblitz-labs/bolt.diy |
 | 14 | v0 | 产品案例 | Vercel 推出的 AI 驱动 UI 生成工具。它通过自然语言描述快速创建 React 组件和页面原型，是研究 AI 辅助前端开发工作流的典型产品案例。 | https://v0.dev/ |
 | 15 | Open Lovable | 开源项目 | 通过自然语言描述生成 Web 页面与后端的 prompt-to-app 工具。基于 Firecrawl 页面抓取与 LLM 代码生成，适合快速原型验证与 MVP 开发。 | https://github.com/firecrawl/open-lovable |
+
+## 资料更新（2026-06-13）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| cbt4free/claude-agent-sdk-laravel | Laravel SDK | 让 Laravel 应用使用 Claude Code 构建 AI Agent，支持文件处理、命令执行、代码编辑和网络搜索集成 | [GitHub](https://github.com/cbt4free/claude-agent-sdk-laravel) |
+| Chillin-spree/claude-code-system-template | 项目模板 | 基于 Claude Code 的轻量级 Web 应用构建模板，技能优先、可切换技术栈，含工作流技能、Agent 和提交推送安全门 | [GitHub](https://github.com/Chillin-spree/claude-code-system-template) |
+| cicy-ai/cicy-code | Agent 工作空间 | AI Agent 工作空间：在 tmux 中运行、编排和对话编码 Agent（Claude / Codex / OpenCode 等），管理团队，驱动浏览器和桌面；Go 服务端 + React 工作区，支持原生、Web/PWA 及 Telegram Mini App 客户端 | [GitHub](https://github.com/cicy-ai/cicy-code) |
+| jcuervo/rails-skills | Rails 技能套件 | 一套 Claude Code Agent Skills，用于构建、测试、加固和发布 Ruby on Rails 应用（JSON API 后端或全栈 Hotwire Web 应用），基于 Ruby 4.0.x 和 Rails 8.1.x | [GitHub](https://github.com/jcuervo/rails-skills) |
+| yufangjie1643/aigc-commerce-video-generator | 设计生成工具 | 本地优先、开源的 Claude Design 替代方案；原生桌面应用，259+ 技能、142+ 设计系统，支持 Web/桌面/移动原型、幻灯片、图片、视频、HyperFrames，沙盒预览，HTML/PDF/PPTX/MP4 导出，兼容 Claude Code / OpenClaw / Codex 等 17+ CLI | [GitHub](https://github.com/yufangjie1643/aigc-commerce-video-generator) |
+| AnujTechBoy/AIForge | 应用构建框架 | 使用单体仓库构建和管理 AI 原生 Web 与移动应用，支持 90% 以上代码共享以加速开发 | [GitHub](https://github.com/AnujTechBoy/AIForge) |
+| Ajiess/AI-Code-Reviewer | 代码审查工具 | AI 代码审查器 Web 应用，即时分析并改进代码质量，提供实时反馈 | [GitHub](https://github.com/Ajiess/AI-Code-Reviewer) |
+| hegemonart/get-design-done | 设计质量管线 | 面向 AI 编码 Agent 的设计质量管线：需求简报、映射、规划、实现，并对照设计系统验证 UI | [GitHub](https://github.com/hegemonart/get-design-done) |
+| LeeKangRyong/ai-native-frontend-prac | 前端实践仓库 | 使用 Claude Code（+Figma MCP）在一个仓库中开发 4 个前端服务 | [GitHub](https://github.com/LeeKangRyong/ai-native-frontend-prac) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| From Runnable to Shippable: Multi-Agent Test-Driven Development for Generating Full-Stack Web Applications from Requirements | 论文 | 提出多 Agent 测试驱动开发方法，解决编码 Agent 生成 Web 应用时功能需求满足率低（基准测试显示超 70% 失败）的问题，通过部署、浏览器交互模拟和失败信号转化实现可修复闭环 | [arXiv](https://arxiv.org/abs/2605.17242v1) |
+| VISTA: An End-to-End Benchmark for Visual Spec-to-Web-App Coding Agents | Benchmark | 端到端 Web 应用生成基准，评估 LLM Agent 从视觉规格生成功能完整、视觉连贯应用的能力，定义了五种提示信息条件（文本/视觉/结构约束/技术栈约束等） | [arXiv](https://arxiv.org/abs/2605.26144v2) |
+| Asuka-Bench: Benchmarking Code Agents on Underspecified User Intent and Multi-Round Refinement | Benchmark | 针对真实 Web 开发中用户需求不完整、需多轮迭代的场景，提出配对不完整用户意图与多轮精炼的基准，基于浏览器渲染行为闭环评估 | [arXiv](https://arxiv.org/abs/2606.05920v1) |
+| Domain-Conditioned Safety in Frontier Computer-Using Agents: A 793-Episode Browser Benchmark | 论文/Benchmark | 发布 CUA-HandCrafted 基准（793 个 episode，24 个多步 Web 任务，56 个攻击模板），评估前沿计算机使用 Agent 在浏览器环境中的提示注入安全性 | [arXiv](https://arxiv.org/abs/2606.05233v1) |
+| Helicase: Uncertainty-Guided Supply Chain Knowledge Graph Construction with Autonomous Multi-Agent LLMs | 论文 | 提出基于不确定性引导的多 Agent 系统，用于从碎片化 Web 资源中构建供应链知识图谱，解决多跳推理和结构推断问题 | [arXiv](https://arxiv.org/abs/2605.26835v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Google just redesigned the search box for the first time in 25 years | 行业报道 | Google I/O 宣布搜索框全面改版，从简单关键词输入转变为动态 AI 驱动对话界面 | [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) |
+| Modern Web Guidance: Teaching AI Agents to Stop Coding Like It's 2019 | 技术文章 | 指导 AI Agent 使用现代 Web 开发实践，避免过时的编码方式 | [DEV Community](https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0ZqMXQ1XzFHY0lkNnk3UEJvNDdaOERFOUZTYjFzTU9VSkRhMi1QUG1ybExWajZNM0VNMHU3a1JFOXUyYzY4RlJUZVVyNGpNNWRscUxFN1BrQlcxV3ctMC1nLXhMdDFBY1VmZmpVdmlRTU54a3V3M2NCUHg3M3piODRjUTcwMHlWa0hmN05SeDJmMGlNOVNIUDNnbzFJaklNYnc?oc=5) |
+| I vibe coded 3 real apps using Claude Code and OpenAI Codex. Here is the winner | 实测对比 | 使用 Claude Code 和 OpenAI Codex 构建 3 个真实应用的对比评测 | [Tom's Guide](https://news.google.com/rss/articles/CBMiuwFBVV95cUxONmVSX0tDS0xLVWxzVDl5dExrc1htRXZwV0d4bndWNjNja3I4Ymh6anRmWExySEJfVG9waE9VOXI4SGJIcHBQSXBDM3FnY3lRZTJURUdFY0NnRk1ra2h0RjZ4cHFnYjludnQ0aEpQbzRoRXc3MkFlY1I2LTRKd0FueDJ0N0dVTGVYUW1CaTFLTWtlRTZCN1JqbjdfUERubU9KM1dIZ2VMRkZZVmFMa2sxbHktRjVORTh0WjRR?oc=5) |
+| Roo Code gives you a whole dev team of AI agents in your code editor | 工具介绍 | Roo Code 在代码编辑器中提供完整的 AI Agent 开发团队 | [GitHub](https://news.google.com/rss/articles/CBMiT0FVX3lxTE84eUNNd1F3TkZNc1FmZUlNWnhBbXA4SXdqS3Z1SnhmNk1SYWI3ZTd1ZlhOVFlFZ1hFdU1hbVVXc3BvdWlrX3NMbFdmdVJ3OUU?oc=5) |
+| Hermes Agent Desktop App: Everything You Need to Know | 工具介绍 | Nous Research 自改进 AI Agent 桌面应用介绍 | [Medium](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTVPeXJ6NktnM015eHJTVzJUdVNCdFpIWHc1Y2dlLVBEc1d0cDRIckNNOW1jRElmTnMxWlhRQ1RxYmd0OU1sUWlDLWoxWUVaWHRCN1BpUmZKb3FiQkttSDRLQlFlZXJEZlRXNDY0dmJUaUhYN2owQW8zbFdiVmI1ckpuQkxGR1JJVmNjRGp0dU9qUks3WWp1NFoxc3V6RHZRdWhyTU9VUWpqZkF1QVVQNkpCNV95TUFSVnhocDh4Wi1pMEJOX1hfa3lMT3FQWEE1bVBUSzJR?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Playwright | 浏览器自动化工具 | 支持 Chromium、Firefox、WebKit 的可靠 Web 自动化工具，适用于测试、脚本和 AI Agent 工作流，支持 TypeScript、Python、.NET、Java | [Playwright](https://playwright.dev/) |
+| OpenAI 收购 Ona | 收购事件 | OpenAI 计划收购 Ona，为 Codex 扩展安全、持久的云端环境，支持企业工作流中的长期运行 AI Agent | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
+| Google DeepMind 关注多 Agent 交互风险 | 安全研究 | Google DeepMind 资助研究数百万 AI Agent 在线交互的潜在危险，关注无人类监督的 Agent 大规模部署风险 | [MIT Technology Review](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/) |

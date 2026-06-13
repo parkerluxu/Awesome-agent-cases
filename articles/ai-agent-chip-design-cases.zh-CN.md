@@ -1,4 +1,4 @@
-﻿# 芯片设计：AI Agent 实战案例、教程与科研项目调研
+# 芯片设计：AI Agent 实战案例、教程与科研项目调研
 
 这是一份面向开发者、创作者和研究者的 AI Agent 资料索引，收集了相关方向的教程、案例、开源项目、论文、Benchmark 和产品实践。它的目标是帮助读者快速发现可复现的项目、可参考的工作流，以及值得进一步阅读的研究资料。
 
@@ -27,3 +27,45 @@
 | 8 | VeriOpt | 论文 | 将功能验证与设计优化融合的芯片设计框架，在生成过程中确保正确性，适用于对设计可靠性有严格要求的场景。 | https://arxiv.org/abs/2507.14776 |
 | 9 | VeriGRAG | 论文 | VeriGRAG 基于检索增强生成技术进行 Verilog 验证，利用外部知识库提升代码准确性，其混合架构为验证工具开发提供了新范式。 | https://arxiv.org/abs/2510.15914 |
 | 10 | VeriContaminated | 论文 | VeriContaminated 系统分析了 LLM 在 Verilog 任务中的数据污染问题，提出了评估模型真实能力的严谨方法，对评测研究者有重要参考价值。 | https://arxiv.org/abs/2503.13572 |
+
+## 资料更新（2026-06-13）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ChipMATE | 多智能体推理框架 | 多智能体 RTL 生成框架，Verilog 智能体与 Python 参考模型智能体独立生成实现，并通过随机激励交叉验证输出，无需黄金测试平台。 | [GitHub](https://github.com/zhongkaiyu/ChipMATE) |
+| siliconcrew | 自主硬件设计智能体 | 从自然语言到 GDSII 的自主 LLM 智能体，通过 Verilog 生成、仿真和 OpenROAD 综合实现。 | [GitHub](https://github.com/naman-ranka/siliconcrew) |
+| vlsi-pd-staff-engineer | 多智能体物理设计框架 | 基于 Claude Code 的 RTL 到 GDSII 多智能体框架，包含 9 个专业智能体、阶段门验证和基于 Yosys + OpenROAD + Sky130 的 ECO 调试。 | [GitHub](https://github.com/RAMA-L7/vlsi-pd-staff-engineer) |
+| ForgeLab | 设计 IR + MCP 服务器 | 提供 JSON IR 和 MCP 服务器，使 AI 智能体能够创建 KiCad、FreeCAD 和 glTF 文件。 | [GitHub](https://github.com/andresparraarze/ForgeLab) |
+| universal-netlist | 网表读取工具 | 赋予 AI 智能体读取 Cadence/Altium 设计文件的能力。 | [GitHub](https://github.com/IntelligentElectron/universal-netlist) |
+| eda-agents | AI/LLM 辅助电路设计 | 使用开源工具进行 AI/LLM 辅助的电路设计。 | [GitHub](https://github.com/Mauricio-xx/eda-agents) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| RTL-BenchMT | 基准动态维护框架 | 提出智能体框架，用于动态维护 RTL 生成基准，解决基准中的缺陷案例和过拟合问题。 | [arXiv](https://arxiv.org/abs/2605.15537v1) |
+| CPPL | 电路提示编程语言 | 提出电路提示编程语言，使 LLM 能够直接生成符合硬件编译器基础设施（如 CIRCT）的中间表示。 | [arXiv](https://arxiv.org/abs/2605.17892v1) |
+| Trace2Skill | 验证器引导的技能进化 | 提出测试时扩展框架，通过验证器引导的技能进化，提升硬件智能体在复杂 Verilog 设计问题上的表现。 | [arXiv](https://arxiv.org/abs/2605.21810v1) |
+| CASS-RTL | 正确性感知子空间引导 | 提出正确性感知的子空间引导方法，用于 LLM 的 RTL 生成，提升周期准确性和并发正确性。 | [arXiv](https://arxiv.org/abs/2606.05680v1) |
+| A3D | 自主加速器设计智能体流程 | 提出智能体 AI 流程，用于自主硬件加速器设计，从工作负载理解到微架构和 EDA 工具使用。 | [arXiv](https://arxiv.org/abs/2605.15237v1) |
+| Alpha-RTL | 测试时训练 RTL 优化 | 在测试时进行强化学习，使 LLM 策略能够根据特定设计问题的 EDA 反馈进行自适应优化。 | [arXiv](https://arxiv.org/abs/2606.05253v1) |
+| RTL-BenchLS | 大规模 RTL 基准 | 提出大规模 RTL 推理与生成基准，覆盖更大规模和更复杂的设计，突破现有基准的饱和限制。 | [arXiv](https://arxiv.org/abs/2606.08976v1) |
+| OpenRTLSet | 开源 RTL 数据集 | 发布最大的全开源硬件设计数据集，包含超过 13.1 万个多样化的 Verilog 代码样本，并配有自然语言描述。 | [arXiv](https://arxiv.org/abs/2606.10285v1) |
+| 自主光子学设计 | 智能体驱动设计 | 提出自主智能体驱动方法，用于光子器件设计，通过 LLM 调用仿真工具进行自动设计循环。 | [arXiv](https://arxiv.org/abs/2606.00915v1) |
+| 记忆引导树搜索 | 求解器综合 | 提出记忆引导树搜索方法，通过跨分支知识迁移，提升 LLM 在芯片设计等组合优化问题上的求解器综合能力。 | [arXiv](https://arxiv.org/abs/2605.17539v2) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Google 搜索框 AI 改造 | 媒体报道 | Google 在 I/O 大会上宣布将搜索框从关键词输入改造为动态 AI 驱动对话界面，可能影响 EDA 工具的用户交互范式。 | [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) |
+| OpenAI 收购 Ona | 行业动态 | OpenAI 计划收购 Ona，以扩展 Codex 的安全持久云环境，支持企业工作流中的长时间运行 AI 智能体。 | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
+| Google DeepMind 关注多智能体交互风险 | 媒体报道 | Google DeepMind 资助研究数百万 AI 智能体在线交互的潜在风险，对芯片设计中的多智能体协作场景有参考意义。 | [MIT Technology Review](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ContextOS | 统一上下文智能层 | 为 AI 智能体提供统一的上下文智能层，支持无缝集成和完整功能。 | [GitHub](https://github.com/armmammothermography417/ContextOS) |

@@ -1,4 +1,4 @@
-﻿# 影音生成：AI Agent 实战案例、教程与科研项目调研
+# 影音生成：AI Agent 实战案例、教程与科研项目调研
 
 这是一份面向开发者、创作者和研究者的 AI Agent 资料索引，收集了相关方向的教程、案例、开源项目、论文、Benchmark 和产品实践。它的目标是帮助读者快速发现可复现的项目、可参考的工作流，以及值得进一步阅读的研究资料。
 
@@ -73,3 +73,47 @@
 | 28 | Auto-Editor | 开源项目 | 基于音频静音检测的自动视频剪辑工具，可快速删除无用片段，精简长视频或提取精彩内容，适合粗剪或批量处理。 | https://github.com/WyattBlue/auto-editor |
 | 29 | Segment Anything | 开源项目 | Meta 开源的图像分割基础模型，可识别任意物体。在影音生成中用于精准抠图或分离视频前景背景，辅助合成与特效制作。 | https://github.com/facebookresearch/segment-anything |
 | 30 | Depth Anything V2 | 开源项目 | 单目深度估计模型，能从单张图片预测深度图。可获取场景三维结构，用于视频特效、AR 合成或背景虚化等后期处理。 | https://github.com/DepthAnything/Depth-Anything-V2 |
+
+## 资料更新（2026-06-13）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ArcReel | 开源视频生成工作台 | AI Agent 驱动的开源视频生成工作台，支持小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致，基于 Nano Banana 2 & Veo 3.1 / Grok / Seedance / OpenAI | [GitHub](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5) |
+| MoneyPrinterPlus | AI 短视频流水线 | 模块化 CLI 工作流，5 节点流水线：LLM 脚本 → TTS+字幕 → Pexels/Pinterest 素材 → BGM → MoviePy 合成，支持 Hermes Agent / Claude Code / OpenClaw / Cline / Codex CLI | [GitHub](https://github.com/Chr1s-T/MoneyPrinterPlus) |
+| AngeMedia-gateway | 媒体生成网关 | OpenAI 兼容的媒体生成网关，支持多提供商图像/视频生成、模型路由、提示增强及内置 Web Studio | [GitHub](https://github.com/ang77712829/AngeMedia-gateway) |
+| gemini-youtube-automation | YouTube 自动化 | 完全自主的 AI Agent/Python 流水线，利用 Gemini 等 LLM 生成内容、制作视频并自动上传教育视频到 YouTube（287 Stars） | [GitHub](https://github.com/ChaitanyaEswarRajeshJakki/gemini-youtube-automation) |
+| segmio-copilot-agent | 营销 Agent | 基于 Google Cloud Reasoning Engines 和 Gemini 3.5 Flash 的状态化 AI 营销 Agent，集成 MongoDB Atlas MCP 实现自动化视频生成 | [GitHub](https://github.com/iamsourabhraikwar/segmio-copilot-agent) |
+| quickaishort | 短视频预发布模拟 | 多 Agent AI 系统，在发布前模拟观众对短视频的反应，基于 Google ADK、Gemini 2.5 Flash、BigQuery MCP 和 FFmpeg.wasm | [GitHub](https://github.com/HassaanFisky/quickaishort) |
+| clawreel | 短视频自动化 | 为 Agent 设计的语义对齐短视频自动化流水线，从脚本生成到最终渲染，含人工审核检查点 | [GitHub](https://github.com/marylindaunpleasing8037/clawreel) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| VideoWeaver | 论文/Benchmark | 评估和进化长视频生成技能的 Agent 框架与基准，测试 Claude Code、Codex、OpenClaw 等 Agent 处理长视频生成的能力 | [arXiv](https://arxiv.org/abs/2606.08091v1) |
+| ViMax: Agentic Video Generation | 论文 | 多 Agent 协作视频生成框架，通过专门组件协商叙事决策和视觉一致性，实现长视频生成 | [arXiv](https://arxiv.org/abs/2606.07649v1) |
+| StoryVideoQA | 论文/数据集 | 大规模、多类型、自动生成的深度视频理解数据集，用于评估视频问答中的复杂故事线理解 | [arXiv](https://arxiv.org/abs/2606.06338v1) |
+| Cosmos 3 | 论文 | 全模态世界模型，统一处理语言、图像、视频、音频和动作序列，支持视频生成和世界模拟 | [arXiv](https://arxiv.org/abs/2606.02800v2) |
+| OmniDirector | 论文 | 通用多镜头相机运动克隆方法，无需交叉配对数据，从参考视频中克隆相机运动用于视频生成 | [arXiv](https://arxiv.org/abs/2606.13432v1) |
+| MAVIS: Multi-Agent Video Retrieval | 论文 | 多 Agent 视频检索框架，将检索重构为协作推理，通过结构化语义库实现高效视频理解 | [arXiv](https://arxiv.org/abs/2606.09641v1) |
+| World Models: A Comprehensive Survey | 论文 | 世界模型综述，涵盖架构、方法论、推理范式及应用，包括在视频生成中的应用 | [arXiv](https://arxiv.org/abs/2606.00133v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Google 搜索框 25 年来首次重新设计 | 媒体报道 | Google I/O 宣布搜索框从简单关键词输入转变为动态 AI 驱动对话界面，影响 Agent 交互方式 | [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) |
+| Google 以 Gemini 3.5 Flash 和 Omni 瞄准 AI Agent 和视频生成 | 媒体报道 | Google 发布 Gemini 3.5 Flash 和 Omni，强化 Agent 和视频生成能力 | [SiliconANGLE](https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmVvWTBxR20zUjM5NkRydkJfVFdaUFVqZHh0VVBQd0oxeWtCdlYxRWcwd2cyaVR1Q1ZsNmlSQTZEZ3E5S3h6S2F2T3lMWldaV3NTcUhFaFBDUVlWUkctWGxaS1VONlJpclMzUjczandhai01Z01JZEZtWkR2Q21rSUtXUGI2T1JieUNwNGNtTVJYczVXX0hoUzVFYTcwQzRUTWc?oc=5) |
+| 前苹果营销人员获 1000 万美元融资，扩展解码社交视频的 AI Agent | 媒体报道 | 初创公司获 1000 万美元融资，开发用于解码社交视频的 AI Agent | [ADWEEK](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOUNpNS1BRktBNlNEa093MUZtajFRTGt0M0tFT2ZpRm9uOFB1dFlNRVJfR01ReEY5dXZuQWJnZWFPaGNBMGFSak00MHdPcUJmcEs0Q3M1Vy1wX3VmZ1hlcGI3cFZyeGdObHBQWUdZSE5yd3lnY1dob1kxTEpVWmhRelE1TG9HSjUxWUk5SmRfX0NmdzBDeUJqVDhHNGVGY0d0dHYybHVuOHp6eDhPRGdzSEtndzRuWVlDaXRfWDNCZEk4Zw?oc=5) |
+| LumeFlow AI 以 GPT Image 2 和 AI Agent 技能革新视频制作流水线 | 媒体报道 | LumeFlow AI 利用 GPT Image 2 和 AI Agent 技能革新视频制作流水线 | [yourvalley.net](https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1BIU2lTYlhnZmZaRzRTWlZsaFRYU3hZRDZDYVRmdTlYOG95SnNTZTUzZUFoeHJZMVF0M0F0aWNrTEstXzNIQmxOVkhuVlZva2Y1Q21iTkJfa3lIR1ozcy0zb0Z1UkdHdDdjUWpoMFpwVnBSTFdWSjZtMFdCdkY3QTh1LXdQc09oZDJsNE5rUnRCdWRZMXVUZ2hBbm15T0pxaDBOS2t2UkdkU3o2TVN6UzBUbnRFZjVFQ2tmTWxPT2U0cW4tSDloTmln?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| OpenAI 收购 Ona | 收购 | OpenAI 计划收购 Ona，为 Codex 扩展安全、持久的云环境，支持企业工作流中的长时间运行 AI Agent | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
+| ECC (Agent Harness Performance Optimization) | 工具 | Agent 框架性能优化系统，包含技能、本能、记忆、安全和研究优先开发，支持 Claude Code、Codex、Opencode、Cursor 等 | [GitHub](https://news.google.com/rss/articles/CBMiRkFVX3lxTE4tRl9yaG1rRlVSYXpRRFdwdzFjcGpQcW5SbXMyV2UtclI5VU5kamV3NHpCQVItZ1VrTk04RWtiQzNOWmFrWkE?oc=5) |
+| ComfyUI-LTXVideo | ComfyUI 节点 | 利用 LTX-2 模型的自定义节点增强视频生成工作流 | [GitHub](https://github.com/Ponlawat/ComfyUI-LTXVideo) |
+| stereoframe | 3D 视频工具 | 基于 three.js 的声明式、确定性 3D 视频生成工具，专为 AI Agent 设计 | [GitHub](https://github.com/kiyeonjeon21/stereoframe) |

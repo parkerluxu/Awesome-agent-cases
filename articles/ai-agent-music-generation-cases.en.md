@@ -54,3 +54,37 @@ This section is divided into two categories: `21 Tutorials / Cases` and `16 Proj
 | 14 | AudioCraft | Open-source Project | Meta's audio generation toolkit, integrating models like MusicGen and providing complete code for music and sound effect generation. It is worth including because it is a one-stop audio generation resource, with pre-trained weights directly usable for an Agent's audio output module. | https://github.com/facebookresearch/audiocraft |
 | 15 | Riffusion | Open-source Project | An open-source project using diffusion models to generate music spectrograms in real-time. It is worth including because it demonstrates the innovative practice of transferring image generation technology to the audio domain, providing new ideas for cross-modal generation in Agents. | https://github.com/riffusion/riffusion |
 | 16 | Jukebox | Open-source Project | An early milestone in music generation from OpenAI, capable of generating complete songs with lyrics. It is worth including because its multi-scale encoding and sampling mechanisms form the basis for subsequent music generation models, holding historical value for understanding an Agent's sequence generation capabilities. | https://github.com/openai/jukebox |
+
+## Resource Update (2026-06-13)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AetherWave MCP | MCP Server | Model Context Protocol server for AetherWave Studio — music, image, video, and band generation tools for Claude, Cursor, Continue, and custom agents. | [GitHub](https://github.com/AetherWave-Studio/aetherwave-mcp) |
+| Varosity MCP Server | MCP Server | Stdio MCP server for Varosity.ai — exposes video, voice, music generation to Claude Desktop, Cursor, Hermes, and any MCP host. | [GitHub](https://github.com/varosity-ai/mcp-server) |
+| doubao2api | API Wrapper | Reverse-engineered Doubao (豆包) API → OpenAI-compatible REST service. Free multimodal chat, image/video/music generation, and file hosting for AI agents. | [GitHub](https://github.com/wangchuxiaoji-oss/doubao2api) |
+| Hermes-Suno-Music-Agent | Agent Workflow | Comprehensive Hermes agent for building complete AI music video projects. Includes structured workflows for lyrics, Suno prompts, image generation, video direction, and YouTube metadata. | [GitHub](https://github.com/vivar/Hermes-Suno-Music-Agent) |
+| ArcReel | Agent Workbench | AI Agent-driven open-source video generation workbench — novel → character/scene/prop design → script → storyboard → video, with cross-shot character and scene consistency. | [GitHub](https://github.com/ArcReel/ArcReel) |
+| AceDataCloud Skills | Agent Skills | Agent Skills for AceDataCloud AI services — music, image, video generation, web search, and more. Compatible with Claude Code, GitHub Copilot, Gemini CLI, and all agentskills.io-compatible agents. | [GitHub](https://github.com/AceDataCloud/Skills) |
+| Badger-Tape | Multi-Agent Pipeline | Fully automated AI content pipeline for a lofi YouTube channel. Multi-agent system orchestrating image generation, video synthesis, music production, and YouTube publishing — zero manual steps from prompt to upload. | [GitHub](https://github.com/Neeidy/Badger-Tape) |
+| SmartDiscover | Multi-Agent Tool | Discover Spotify music from natural language prompts with multi-agent AI that ranks songs and builds ready-to-use playlists. | [GitHub](https://github.com/Jessalynredflowered754/SmartDiscover) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| The Moving Drone: Negotiating Agency Between the Voice and the Virtual | Research Paper | Explores a Hindustani music system where a traditionally static drone gains increasing agency, transitioning from reactive to proactive roles using four independent loopers in Max/MSP. | [arXiv](https://arxiv.org/abs/2606.13640v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Claude Code Workflow Tutorial | Video Tutorial | Complete practical tutorial on Claude Code's Workflow feature, demonstrating ultrawork to summon multiple agents and auto-generate JS scripts for reusable, precisely controllable workflows. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rSkpRRVh5VkJQMy1fbkJDazVDWEQ1NU92enJXX1VMUFRMRDBJMTlPZUI0VzFVdVd4eWRjeVIwbW4zLU14YlZwSmY1UUVoVk9IS1JoYVRR?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Antigravity Awesome Skills | Skill Registry | Registry of 1,527+ agentic skills for Claude Code, Gemini CLI, Cursor, Copilot, and more. | [GitHub](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tNl9NbVNGU214YXktUlkyVU5SM24xdkdYeUtGS0pXcTNPM0g0VnNmOVB1alc3S2NQcUR2cFhrLWZMR0p0UV85TjFvME5lRUowWW4yNnZkeEZMZnpVbjBjdlNCNA?oc=5) |
+| Microsoft Rayfin | Backend Platform | New backend platform from Microsoft for AI agent development and app creation. | [Tech Times](https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3IxQXM3SVNacnJuUFk4NlhBc2VaUklKWnpOM294aXQwaFVwSTBKQ3J4NzFONUlHRUtBMGRteWdYZGdDS1dLSTdTdVBLckMxVlBYQVl2Z2V2RkxRRm9feHl3aWk3Q1p2STk1eWltdjJkS0lnSk5fakNTVmNPVlFKNG9rREFhc1FuVG9Hc3htZ1RhdjNhdlg2ZWNWUXJyOUNLc0ZibkFjOU8xaC1iYThJOVlfdFhuZVIyQlRkUXpTQWx2Ymx6U01JVXBXbUtNdw?oc=5) |

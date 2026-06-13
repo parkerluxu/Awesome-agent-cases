@@ -64,3 +64,43 @@ This section is divided into two categories: `32 Tutorials / Cases` and `15 Proj
 | 13 | bolt.diy | Open Source Project | A full-stack application generation tool within the browser launched by StackBlitz. It allows users to directly generate, run, and modify code through natural language descriptions, offering a zero-configuration experience from requirements to a runnable application. | https://github.com/stackblitz-labs/bolt.diy |
 | 14 | v0 | Product Case | An AI-driven UI generation tool launched by Vercel. It quickly creates React components and page prototypes from natural language descriptions. A typical product case for researching AI-assisted frontend development workflows. | https://v0.dev/ |
 | 15 | Open Lovable | Open Source Project | A prompt-to-app tool that generates web pages and backends from natural language descriptions. Based on Firecrawl page scraping and LLM code generation, suitable for rapid prototype validation and MVP development. | https://github.com/firecrawl/open-lovable |
+
+## Resource Update (2026-06-13)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| cbt4free/claude-agent-sdk-laravel | GitHub | Enable Laravel apps to build AI agents using Claude Code for file handling, command execution, code editing, and web search integration. | [GitHub](https://github.com/cbt4free/claude-agent-sdk-laravel) |
+| Chillin-spree/claude-code-system-template | GitHub | A lean, skills-first Claude Code template for building web apps — vanilla by default, stack-swappable, with workflow skills, agents, and a commit/push safety gate. | [GitHub](https://github.com/Chillin-spree/claude-code-system-template) |
+| cicy-ai/cicy-code | GitHub | CiCy — the AI-agent workspace: run, orchestrate & chat with coding agents (Claude / Codex / OpenCode / …) in tmux, manage teams, drive browser & desktop. Go server + React workspace; ships native, web/PWA & Telegram Mini App clients. | [GitHub](https://github.com/cicy-ai/cicy-code) |
+| jcuervo/rails-skills | GitHub | A suite of Claude Code Agent Skills for building, testing, hardening, and shipping Ruby on Rails applications — whether a JSON API backend or a full-stack Hotwire web app — on the latest Ruby 4.0.x and Rails 8.1.x. | [GitHub](https://github.com/jcuervo/rails-skills) |
+| yufangjie1643/aigc-commerce-video-generator | GitHub | Local-first, open-source Claude Design alternative with 259+ skills, 142+ design systems, sandboxed preview, and HTML/PDF/PPTX/MP4 export. Supports Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs. | [GitHub](https://github.com/yufangjie1643/aigc-commerce-video-generator) |
+| AnujTechBoy/AIForge | GitHub | Build and manage AI-native web and mobile apps with a monorepo that supports over 90% code sharing for faster development. | [GitHub](https://github.com/AnujTechBoy/AIForge) |
+| Ajiess/AI-Code-Reviewer | GitHub | AI Code Reviewer — a web app that instantly analyzes and improves code quality with real-time feedback. | [GitHub](https://github.com/Ajiess/AI-Code-Reviewer) |
+| hegemonart/get-design-done | GitHub | Design-quality pipeline for AI coding agents: brief, map, plan, implement, and verify UI against your design system. | [GitHub](https://github.com/hegemonart/get-design-done) |
+| LeeKangRyong/ai-native-frontend-prac | GitHub | 4 FE Services in 1 repo developing with Claude Code (+Figma MCP). | [GitHub](https://github.com/LeeKangRyong/ai-native-frontend-prac) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| From Runnable to Shippable: Multi-Agent Test-Driven Development for Generating Full-Stack Web Applications from Requirements | arXiv | Proposes multi-agent test-driven development to address the >70% failure rate of generated web apps against functional requirements. | [arXiv](https://arxiv.org/abs/2605.17242v1) |
+| VISTA: An End-to-End Benchmark for Visual Spec-to-Web-App Coding Agents | arXiv | A benchmark for evaluating end-to-end web-app generation from underspecified inputs, varying visual/structural fidelity and stack constraints. | [arXiv](https://arxiv.org/abs/2605.26144v2) |
+| Asuka-Bench: Benchmarking Code Agents on Underspecified User Intent and Multi-Round Refinement | arXiv | A benchmark pairing underspecified user intent with multi-round refinement, grounded in browser-rendered behavior. | [arXiv](https://arxiv.org/abs/2606.05920v1) |
+| Domain-Conditioned Safety in Frontier Computer-Using Agents | arXiv | A 793-episode browser benchmark and reproducibility audit of recent red-teaming on prompt-injection attack success rates. | [arXiv](https://arxiv.org/abs/2606.05233v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| Modern Web Guidance: Teaching AI Agents to Stop Coding Like It's 2019 | DEV Community | Guidance on teaching AI agents to use modern web development practices. | [DEV Community](https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0ZqMXQ1XzFHY0lkNnk3UEJvNDdaOERFOUZTYjFzTU9VSkRhMi1QUG1ybExWajZNM0VNMHU3a1JFOXUyYzY4RlJUZVVyNGpNNWRscUxFN1BrQlcxV3ctMC1nLXhMdDFBY1VmZmpVdmlRTU54a3V3M2NCUHg3M3piODRjUTcwMHlWa0hmN05SeDJmMGlNOVNIUDNnbzFJaklNYnc?oc=5) |
+| I vibe coded 3 real apps using Claude Code and OpenAI Codex. Here is the winner | Tom's Guide | Hands-on comparison of vibe coding with Claude Code and OpenAI Codex on three real applications. | [Tom's Guide](https://news.google.com/rss/articles/CBMiuwFBVV95cUxONmVSX0tDS0xLVWxzVDl5dExrc1htRXZwV0d4bndWNjNja3I4Ymh6anRmWExySEJfVG9waE9VOXI4SGJIcHBQSXBDM3FnY3lRZTJURUdFY0NnRk1ra2h0RjZ4cHFnYjludnQ0aEpQbzRoRXc3MkFlY1I2LTRKd0FueDJ0N0dVTGVYUW1CaTFLTWtlRTZCN1JqbjdfUERubU9KM1dIZ2VMRkZZVmFMa2sxbHktRjVORTh0WjRR?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| Playwright | Tool | Fast and reliable end-to-end testing for modern web apps; one API to drive Chromium, Firefox, and WebKit for testing, scripting, and AI agent workflows. | [Playwright](https://playwright.dev/) |
+| Roo Code | Tool | Gives you a whole dev team of AI agents in your code editor. | [GitHub](https://news.google.com/rss/articles/CBMiT0FVX3lxTE84eUNNd1F3TkZNc1FmZUlNWnhBbXA4SXdqS3Z1SnhmNk1SYWI3ZTd1ZlhOVFlFZ1hFdU1hbVVXc3BvdWlrX3NMbFdmdVJ3OUU?oc=5) |
+| Hermes Agent Desktop App | Tool | Nous Research’s self-improving AI agent desktop application. | [Medium](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTVPeXJ6NktnM015eHJTVzJUdVNCdFpIWHc1Y2dlLVBEc1d0cDRIckNNOW1jRElmTnMxWlhRQ1RxYmd0OU1sUWlDLWoxWUVaWHRCN1BpUmZKb3FiQkttSDRLQlFlZXJEZlRXNDY0dmJUaUhYN2owQW8zbFdiVmI1ckpuQkxGR1JJVmNjRGp0dU9qUks3WWp1NFoxc3V6RHZRdWhyTU9VUWpqZkF1QVVQNkpCNV95TUFSVnhocDh4Wi1pMEJOX1hfa3lMT3FQWEE1bVBUSzJR?oc=5) |

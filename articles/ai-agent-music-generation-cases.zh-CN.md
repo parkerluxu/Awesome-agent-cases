@@ -1,4 +1,4 @@
-﻿# 音乐生成：AI Agent 实战案例、教程与科研项目调研
+# 音乐生成：AI Agent 实战案例、教程与科研项目调研
 
 这是一份面向开发者、创作者和研究者的 AI Agent 资料索引，收集了相关方向的教程、案例、开源项目、论文、Benchmark 和产品实践。它的目标是帮助读者快速发现可复现的项目、可参考的工作流，以及值得进一步阅读的研究资料。
 
@@ -54,3 +54,37 @@
 | 14 | AudioCraft | 开源项目 | Meta的音频生成工具包，整合了MusicGen等模型，提供音乐与音效生成的完整代码。值得收录在于它是一站式音频生成资源，预训练权重可直接用于Agent的音频输出模块。 | https://github.com/facebookresearch/audiocraft |
 | 15 | Riffusion | 开源项目 | 利用扩散模型实时生成音乐频谱图的开源项目。值得收录在于它展示了将图像生成技术迁移至音频领域的创新实践，为Agent的跨模态生成提供了新思路。 | https://github.com/riffusion/riffusion |
 | 16 | Jukebox | 开源项目 | OpenAI的早期音乐生成里程碑，能生成带歌词的完整歌曲。值得收录在于其多尺度编码与采样机制是后续音乐生成模型的基础，对理解Agent的序列生成能力有历史价值。 | https://github.com/openai/jukebox |
+
+## 资料更新（2026-06-13）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AetherWave Studio MCP Server | MCP 服务器 | 为 Claude、Cursor 等 Agent 提供音乐、图像、视频和乐队生成工具 | [GitHub](https://github.com/AetherWave-Studio/aetherwave-mcp) |
+| Varosity.ai MCP Server | MCP 服务器 | 将视频、语音、音乐生成能力暴露给 Claude Desktop、Cursor 等 MCP 宿主 | [GitHub](https://github.com/varosity-ai/mcp-server) |
+| Hermes-Suno-Music-Agent | Agent 工作流 | 完整的 AI 音乐视频项目构建 Agent，包含歌词、Suno 提示词、图像生成、视频导演和 YouTube 元数据工作流 | [GitHub](https://github.com/vivar/Hermes-Suno-Music-Agent) |
+| Badger-Tape | 多 Agent 系统 | 全自动 AI 内容管线，多 Agent 协调图像生成、视频合成、音乐制作和 YouTube 发布 | [GitHub](https://github.com/Neeidy/Badger-Tape) |
+| SmartDiscover | 多 Agent 系统 | 通过自然语言提示发现 Spotify 音乐，多 Agent 对歌曲排序并构建可直接使用的播放列表 | [GitHub](https://github.com/Jessalynredflowered754/SmartDiscover) |
+| ArcReel | AI Agent 视频工作台 | 开源 AI Agent 驱动视频生成工作台，支持小说→角色/场景/道具设计→剧本→分镜图→视频全流程 | [GitHub](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR) |
+| doubao2api | API 服务 | 逆向工程豆包 API，为 AI Agent 提供免费多模态聊天、图像/视频/音乐生成和文件托管服务 | [GitHub](https://github.com/wangchuxiaoji-oss/doubao2api) |
+| AceDataCloud Skills | Agent 技能集 | 为 Claude Code、GitHub Copilot、Gemini CLI 等 Agent 提供音乐、图像、视频生成等技能 | [GitHub](https://github.com/AceDataCloud/Skills) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| The Moving Drone: Negotiating Agency Between the Voice and the Virtual | 学术论文 | 探讨印度斯坦音乐中传统静态 drone 如何通过循环器获得 Agent 性，从被动响应转向主动角色 | [arXiv](https://arxiv.org/abs/2606.13640v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Claude Code Workflow 功能实战教程 | 视频教程 | 展示 Claude Code Workflow 功能，通过 ultrawork 召唤多个 Agent 协同，自动生成 JS 脚本实现可复用工作流 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rSkpRRVh5VkJQMy1fbkJDazVDWEQ1NU92enJXX1VMUFRMRDBJMTlPZUI0VzFVdVd4eWRjeVIwbW4zLU14YlZwSmY1UUVoVk9IS1JoYVRR) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ACI 协议 | 开放协议 | 使 AI Agent 能够通过结构化、Agent 就绪的应用程序接口与 Web 和桌面软件交互 | [GitHub](https://github.com/agerelated-clioquinol357/ACI) |
+| Antigravity Awesome Skills | 技能集合 | 收录 1,527+ 个 Agent 技能，适用于 Claude Code、Gemini CLI、Cursor、Copilot 等 | [GitHub](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tNl9NbVNGU214YXktUlkyVU5SM24xdkdYeUtGS0pXcTNPM0g0VnNmOVB1alc3S2NQcUR2cFhrLWZMR0p0UV85TjFvME5lRUowWW4yNnZkeEZMZnpVbjBjdlNCNA) |

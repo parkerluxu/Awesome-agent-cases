@@ -45,3 +45,42 @@ This section is divided into two categories: `3 Tutorials / Cases` and `25 Proje
 | 23 | Griddly | Open Source Project | Griddly is a grid world environment generator supporting custom rules and rendering. High configurability allows for rapid construction of unique tasks for testing an Agent's generalization learning ability. | https://github.com/Bam4d/Griddly |
 | 24 | Unity ML-Agents | Open Source Project | Unity ML-Agents is Unity's machine learning toolkit, providing a 3D environment training framework. Its physics simulation and visual rendering capabilities support the development of embodied Agents with spatial awareness. | https://github.com/Unity-Technologies/ml-agents |
 | 25 | OpenAI Retro | Open Source Project | OpenAI Retro is a retro game reinforcement learning platform supporting multiple classic games. Limited state space and deterministic rules make it suitable for studying Agent policy optimization in discrete action spaces. | https://github.com/openai/retro |
+
+## Resource Update (2026-06-13)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| everything-game-dev-code | GitHub | Universal scaffold for AI-assisted game development: 42 agents, 51 commands, 86 skills. Multi-engine (Unity, Unreal, Godot, HTML). Multi-harness (Claude Code, Codex, Cursor, OpenCode, Kiro). | [Link](https://github.com/MRCalderon3D/everything-game-dev-code) |
+| faster-vibe-coded-apps-games-website | GitHub | Faster vibe-coded apps, games, and websites for Codex, Claude Code, and other agents. | [Link](https://github.com/rhythmkr360-png/faster-vibe-coded-apps-games-website.-) |
+| claude_agents_gamekit | GitHub | Build multi-agent game dev workflows for Unity, Godot, Web, WeChat Mini Games, and Cocos Creator with Claude Code. | [Link](https://github.com/maybugwaterbutt646/claude_agents_gamekit) |
+| claude-code-build | GitHub | Build an unofficial Claude Code CLI from source for research, Bun builds, and Node.js use with custom API endpoints. | [Link](https://github.com/alessandrahighvoltage217/claude-code-build) |
+| godot-agent | GitHub | Agent-first CLI and MCP server that lets AI agents drive the Godot engine to build games, with structured output for programmatic consumption. | [Link](https://github.com/aigengame/godot-agent) |
+| GameStudio | GitHub | Turn any supported coding-agent harness into a full game-dev studio: 55 specialized AI agents and 182 skills for Godot, Unity, Unreal, Three.js, PixiJS, Phaser, and R3F. | [Link](https://github.com/bullish0x/GameStudio) |
+| crystal-kingdom-defenders | GitHub | Tower defense 2D game on web (TypeScript + Phaser 3 + Vite), developed using Agentic Vibe Coding with Claude Code. | [Link](https://github.com/ds-mrtq/crystal-kingdom-defenders) |
+| hadoken-high-roller-web | GitHub | Street Fighter themed slot machine game built with Cloudflare Workers, React, and TypeScript using agentic coding workflows (Cursor/OpenCode/BMAD). | [Link](https://github.com/everscending/hadoken-high-roller-web) |
+| audio-mcp | GitHub | Capture mic and system audio on macOS in explicit MCP sessions and expose raw WAV files to AI agents for analysis. | [Link](https://github.com/burfthdae-oss/audio-mcp) |
+| vibecraft | GitHub | Browser-based voxel game inspired by Minecraft, built with Three.js and TypeScript using OpenCode, Claude Code, and Codex AI assistants. | [Link](https://github.com/Uzzoper/vibecraft) |
+| godot-native-rl | GitHub | Native integration of RL in Godot using ncnn for small AI agents, even in web apps. | [Link](https://github.com/minigraphx/godot-native-rl) |
+| gemma4-uefn-game-planner | GitHub | Premium agentic web dashboard and local orchestrator powered by Gemma 4 12B to design high-retention Fortnite UEFN games. Features Architect & Critic pipelines, Verse code blueprinting, and progression math. | [Link](https://github.com/RorriMaesu/gemma4-uefn-game-planner) |
+| WebGameTemplateForAgents | GitHub | Project template for building browser games with the help of a coding agent. | [Link](https://github.com/ludenio/WebGameTemplateForAgents) |
+| Autonomous-Game-Developer-Studio | GitHub | AI-orchestrated development environment where specialized agents collaborate to design, build, test, and refine a Python/Pygame adventure game in real-time. | [Link](https://github.com/MustfZTRK/Autonomous-Game-Developer-Studio) |
+| graphia | GitHub | LLM-powered text-based UI Mafia Game using Langgraph, Bedrock Agent Core, Terraform, and spec-driven development lifecycle. | [Link](https://github.com/tigra/graphia) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Game-Theoretic Multi-Agent Control for Robust Contextual Reasoning in LLMs | arXiv | Proposes multi-agent control framework to defend against prompt-injection and context-poisoning attacks in long-horizon LLM reasoning, using MCP for context exchange. | [Link](https://arxiv.org/abs/2606.10322v1) |
+| RogueAI: A Reverse Turing Test for Detecting Licensed AI Deception in Dialogue | arXiv | Interactive webapp operationalizing a one-on-two interrogation game where a human judge detects AI deception in dialogue. | [Link](https://arxiv.org/abs/2606.13310v1) |
+| LLM-Mediated Demand Response Coordination in Smart Microgrids | arXiv | Multi-agent simulation using LLM Influence Compiler for demand-response directives in a repeated Prisoner's Dilemma on a social network. | [Link](https://arxiv.org/abs/2606.11050v1) |
+| From Player to Master: Enhancing Test-Time Learning of LLM Agents via Reinforcement Learning over Memory | arXiv | Proposes MemoPilot, a plug-in memory copilot that trains memory updates via RL to align with downstream objectives over multi-step horizons. | [Link](https://arxiv.org/abs/2606.08656v1) |
+| The Shibboleth Effect: Auditing the Cross-Lingual Distributional Skew of Large Language Models | arXiv | Multi-agent geopolitical wargame (Cerulean Sea Crisis) auditing cross-lingual distributional skew in six frontier LLMs under adversarial conditions. | [Link](https://arxiv.org/abs/2606.11082v1) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenAI to acquire Ona | News | OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. | [Link](https://openai.com/index/openai-to-acquire-ona) |
+| Google search box redesign | News | Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a keyword input into a dynamic, AI-driven conversational interface. | [Link](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) |

@@ -73,3 +73,41 @@ This section is divided into two categories: `26 Tutorials / Cases` and `30 Proj
 | 28 | Auto-Editor | Open-source Project | An automatic video editing tool based on audio silence detection, capable of quickly removing useless segments, trimming long videos, or extracting highlights, suitable for rough cuts or batch processing. | https://github.com/WyattBlue/auto-editor |
 | 29 | Segment Anything | Open-source Project | Meta's open-source foundation model for image segmentation, capable of identifying any object. In audio/video generation, it is used for precise matting or separating video foreground/background, aiding compositing and special effects. | https://github.com/facebookresearch/segment-anything |
 | 30 | Depth Anything V2 | Open-source Project | A monocular depth estimation model capable of predicting depth maps from a single image. It can obtain the 3D structure of a scene, used for video effects, AR compositing, or background blurring in post-processing. | https://github.com/DepthAnything/Depth-Anything-V2 |
+
+## Resource Update (2026-06-13)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| ArcReel | Open-source AI video workspace | AI Agent-driven open-source video generation workbench: novel → character/scene/prop design → script → storyboard → video, with cross-shot character and scene consistency. Powered by Nano Banana 2 & Veo 3.1 / Grok / Seedance / OpenAI. | [GitHub](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5) |
+| MoneyPrinterPlus | AI video generation pipeline | Modular CLI workflow for Hermes Agent / Claude Code / OpenClaw / Cline / Codex CLI. 5-node pipeline: LLM script → TTS+subtitles → Pexels/Pinterest assets → BGM → MoviePy compose. | [GitHub](https://github.com/Chr1s-T/MoneyPrinterPlus) |
+| AngeMedia-gateway | OpenAI-compatible media generation gateway | Supports multi-provider image/video generation, model routing, prompt enhancement, and built-in Web Studio for AI Agents. | [GitHub](https://github.com/ang77712829/AngeMedia-gateway) |
+| gemini-youtube-automation | Autonomous AI Agent pipeline | Fully autonomous Python pipeline using LLMs (Gemini) to generate content, produce videos, and automatically upload educational videos to YouTube. | [GitHub](https://github.com/ChaitanyaEswarRajeshJakki/gemini-youtube-automation) |
+| segmio-copilot-agent | Stateful AI marketing agent | Built with Google Cloud Reasoning Engines and Gemini 3.5 Flash, integrated with MongoDB Atlas MCP for automated video generation. | [GitHub](https://github.com/iamsourabhraikwar/segmio-copilot-agent) |
+| quickaishort | Multi-agent AI system | Pre-flight simulation of audience reactions to short-form video clips before publishing — built on Google ADK, Gemini 2.5 Flash, BigQuery MCP, and FFmpeg.wasm. | [GitHub](https://github.com/HassaanFisky/quickaishort) |
+| ComfyUI-LTXVideo | ComfyUI custom nodes | Enhances video generation with custom nodes for the LTX-2 model, improving creative workflows. | [GitHub](https://github.com/Ponlawat/ComfyUI-LTXVideo) |
+| clawreel | AI short video production automation | Semantic-aligned pipeline for agents, from script generation to final render, with human-in-the-loop checkpoints. | [GitHub](https://github.com/marylindaunpleasing8037/clawreel) |
+| stereoframe | Declarative 3D video framework | Declarative, deterministic 3D video on three.js — built for AI agents. | [GitHub](https://github.com/kiyeonjeon21/stereoframe) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| VideoWeaver | Benchmark & framework | Evaluates and evolves skills for agentic long video generation. Tests whether agent frameworks (Claude Code, Codex, OpenClaw) can handle long-horizon multimodal video tasks. | [arXiv](https://arxiv.org/abs/2606.08091v1) |
+| StoryVideoQA | Dataset & benchmark | Large-scale, multi-genre, auto-generated dataset for deep video understanding (DVU) via VideoQA, targeting complex storylines. | [arXiv](https://arxiv.org/abs/2606.06338v1) |
+| Cosmos 3 | World model family | Omnimodal world models for Physical AI: jointly process and generate language, image, video, audio, and action sequences within a unified mixture-of-transformers architecture. | [arXiv](https://arxiv.org/abs/2606.02800v2) |
+| ViMax | Agentic video generation framework | Multi-agent collaboration framework for long-form video generation with narrative planning and visual consistency across scenes. | [arXiv](https://arxiv.org/abs/2606.07649v1) |
+| OmniDirector | Camera motion cloning | General multi-shot camera cloning from reference videos without cross-paired data, using grid motion video encoding. | [arXiv](https://arxiv.org/abs/2606.13432v1) |
+| MAVIS | Multi-agent video retrieval | Multi-agent framework rethinking retrieval as cooperative reasoning, parsing raw videos into Structured Semantic Libraries. | [arXiv](https://arxiv.org/abs/2606.09641v1) |
+| World Models Survey | Comprehensive survey | Surveys architectures, methodologies, reasoning paradigms, and applications of world models across RL, robotics, autonomous driving, and video generation. | [arXiv](https://arxiv.org/abs/2606.00133v1) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| Google Gemini 3.5 Flash & Omni | Model release | Google targets AI agents and video generation with Gemini 3.5 Flash and Omni. | [SiliconANGLE](https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmVvWTBxR20zUjM5NkRydkJfVFdaUFVqZHh0VVBQd0oxeWtCdlYxRWcwd2cyaVR1Q1ZsNmlSQTZEZ3E5S3h6S2F2T3lMWldaV3NTcUhFaFBDUVlWUkctWGxaS1VONlJpclMzUjczandhai01Z01JZEZtWkR2Q21rSUtXUGI2T1JieUNwNGNtTVJYczVXX0hoUzVFYTcwQzRUTWc?oc=5) |
+| LumeFlow AI | Video production pipeline | Revolutionizes video production pipeline with GPT Image 2 and AI Agent Skill. | [yourvalley.net](https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1BIU2lTYlhnZmZaRzRTWlZsaFRYU3hZRDZDYVRmdTlYOG95SnNTZTUzZUFoeHJZMVF0M0F0aWNrTEstXzNIQmxOVkhuVlZva2Y1Q21iTkJfa3lIR1ozcy0zb0Z1UkdHdDdjUWpoMFpwVnBSTFdWSjZtMFdCdkY3QTh1LXdQc09oZDJsNE5rUnRCdWRZMXVUZ2hBbm15T0pxaDBOS2t2UkdkU3o2TVN6UzBUbnRFZjVFQ2tmTWxPT2U0cW4tSDloTmln?oc=5) |
+| ECC | Agent harness optimization system | Performance optimization system for agent harnesses (Claude Code, Codex, Opencode, Cursor). Skills, instincts, memory, security, and research-first development. | [GitHub](https://news.google.com/rss/articles/CBMiRkFVX3lxTE4tRl9yaG1rRlVSYXpRRFdwdzFjcGpQcW5SbXMyV2UtclI5VU5kamV3NHpCQVItZ1VrTk04RWtiQzNOWmFrWkE?oc=5) |
+| OpenAI to acquire Ona | Acquisition | OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
+| Ex-Apple Marketer raises $10M | Startup funding | Raises $10M to scale AI agents that decode social video. | [ADWEEK](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOUNpNS1BRktBNlNEa093MUZtajFRTGt0M0tFT2ZpRm9uOFB1dFlNRVJfR01ReEY5dXZuQWJnZWFPaGNBMGFSak00MHdPcUJmcEs0Q3M1Vy1wX3VmZ1hlcGI3cFZyeGdObHBQWUdZSE5yd3lnY1dob1kxTEpVWmhRelE1TG9HSjUxWUk5SmRfX0NmdzBDeUJqVDhHNGVGY0d0dHYybHVuOHp6eDhPRGdzSEtndzRuWVlDaXRfWDNCZEk4Zw?oc=5) |

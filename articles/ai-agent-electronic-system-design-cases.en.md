@@ -32,3 +32,40 @@ This section is divided into two categories: `2 Tutorials / Cases` and `13 Proje
 | 11 | EEsizer | Paper | Focuses on automatic size optimization of electronic components or circuits, targeting automated methods for design space exploration and parameter tuning. | https://arxiv.org/abs/2509.25510 |
 | 12 | tscircuit snippets | Open-Source Project | tscircuit snippets is an open-source code snippet library for electronic design, containing examples of schematics, netlists, and simulations that can be directly used to accelerate EDA automation workflows. | https://github.com/tscircuit/snippets |
 | 13 | JITX | Product/Language | JITX is a programmable hardware design language and platform that describes circuits through code, supporting automated electronic design and rapid prototyping. | https://www.jitx.com/ |
+
+## Resource Update (2026-06-13)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| salitronic/eda-agent | GitHub | Open-source MCP server for Altium Designer. 290+ tools for schematic, PCB, library & project automation over a persistent DelphiScript bridge. Apache-2.0. | [GitHub](https://github.com/salitronic/eda-agent) |
+| andresparraarze/ForgeLab | GitHub | JSON IR + MCP server that lets AI agents create KiCad, FreeCAD & glTF files. | [GitHub](https://github.com/andresparraarze/ForgeLab) |
+| Matt-Thom/TripleT-KiCad-Agent | GitHub | AI-powered engineering assistant bridging high-level system requirements and physical PCB design; understands electronics theory, component availability, and KiCad file structures. | [GitHub](https://github.com/Matt-Thom/TripleT-KiCad-Agent) |
+| AvatarSD/KiSkill | GitHub | Agent skills + headless Python engine giving an AI coding agent full control of KiCad — edit, verify, review & fabricate schematics and PCBs, no GUI. | [GitHub](https://github.com/AvatarSD/KiSkill) |
+| bretbouchard/kicad-agent | GitHub | AI-safe structural editing of KiCad schematic, PCB, symbol, and footprint files. | [GitHub](https://github.com/bretbouchard/kicad-agent) |
+| liwenjinchn/hardwise | GitHub | AI Agent for the schematic review node of hardware R&D — 2-week portfolio demo built on KiCad public samples. | [GitHub](https://github.com/liwenjinchn/hardwise) |
+| gfgf2023/hfss-mcp-server | GitHub | MCP Server for Ansys HFSS — Antenna Design & PCB Simulation. Let AI control HFSS with natural language. | [GitHub](https://github.com/gfgf2023/hfss-mcp-server) |
+| dshills/KiCadAI | GitHub | AI-assisted KiCad design toolkit with Go CLI, direct schematic/PCB writers, validation, and pinmap checks. | [GitHub](https://github.com/dshills/KiCadAI) |
+| ritwick06/elektran-ai | GitHub | Autonomous PCB design tool. | [GitHub](https://github.com/ritwick06/elektran-ai) |
+| tscircuit/tscircuit | GitHub | Create real electronics with Typescript and React. | [GitHub](https://github.com/tscircuit/tscircuit) |
+| tscircuit/docs | GitHub | Docs, tutorials and guides for tscircuit (Electronics with React/Typescript). | [GitHub](https://github.com/tscircuit/docs) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations | arXiv | First large language model that generates editable PCB schematics from natural-language requests. | [arXiv](https://arxiv.org/abs/2605.30345v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| How Agentic AI tackles RTL verification’s productivity gap | New Electronics | Article on agentic AI applied to RTL verification productivity. | [New Electronics](https://news.google.com/rss/articles/CBMipwFBVV95cUxOUjlFNjRObWtnUGZxYzNyRG41NzI5a2EzRl9nNUJoaUVrcWdoN1VvTmlybjl0UGdmYnNQYW9xMExxRm0zMUJiaGpnT0tKbDR0TEJHQzZTZXhTSHE2Nk12YzVOUE1GVXJkUTVDSjh6bjE0TlNKVFlaYmFwWjUybnY5SDd4eUJxVlh6LWFCdG95Zmk4UEpNZXV5VlNCaHFMU25tcW9sVk1lWQ?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenAI to acquire Ona | OpenAI | Acquisition to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
+| New OpenAI Academy courses for the next era of work | OpenAI | Three Academy courses helping people build practical AI skills, create repeatable workflows, and apply agents in everyday work. | [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work) |

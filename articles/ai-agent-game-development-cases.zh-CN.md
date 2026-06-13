@@ -1,4 +1,4 @@
-﻿# 游戏开发：AI Agent 实战案例、教程与科研项目调研
+# 游戏开发：AI Agent 实战案例、教程与科研项目调研
 
 这是一份面向开发者、创作者和研究者的 AI Agent 资料索引，收集了相关方向的教程、案例、开源项目、论文、Benchmark 和产品实践。它的目标是帮助读者快速发现可复现的项目、可参考的工作流，以及值得进一步阅读的研究资料。
 
@@ -45,3 +45,49 @@
 | 23 | Griddly | 开源项目 | Griddly 是网格世界环境生成器，支持自定义规则和渲染。高度可配置性允许快速构建独特任务，用于测试Agent的泛化学习能力。 | https://github.com/Bam4d/Griddly |
 | 24 | Unity ML-Agents | 开源项目 | Unity ML-Agents 是Unity的机器学习工具包，提供3D环境训练框架。其物理模拟和视觉渲染能力，支持开发具备空间感知的具身Agent。 | https://github.com/Unity-Technologies/ml-agents |
 | 25 | OpenAI Retro | 开源项目 | OpenAI Retro 是复古游戏强化学习平台，支持多种经典游戏。有限状态空间和确定性规则，适合研究Agent在离散动作空间中的策略优化。 | https://github.com/openai/retro |
+
+## 资料更新（2026-06-13）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| everything-game-dev-code | 通用游戏开发脚手架 | 42 个 Agent、51 条命令、86 项技能，支持 Unity、Unreal、Godot、HTML 等多引擎及 Claude Code、Codex、Cursor 等工具链 | [GitHub](https://github.com/MRCalderon3D/everything-game-dev-code) |
+| godot-agent | Godot 专用 Agent 工具 | Agent 优先的 CLI 和 MCP 服务器，让 AI Agent 直接驱动 Godot 引擎构建游戏 | [GitHub](https://github.com/aigengame/godot-agent) |
+| GameStudio | 多引擎游戏开发工作室 | 55 个专用 AI Agent 和 182 项技能，支持 Godot、Unity、Unreal、Three.js、PixiJS、Phaser、R3F | [GitHub](https://github.com/bullish0x/GameStudio) |
+| claude_agents_gamekit | 多 Agent 游戏开发工作流 | 为 Unity、Godot、Web、微信小游戏、Cocos Creator 构建多 Agent 工作流 | [GitHub](https://github.com/maybugwaterbutt646/claude_agents_gamekit) |
+| Autonomous-Game-Developer-Studio | 自主游戏开发工作室 | 专用 Agent 协作设计、构建、测试和优化 Python/Pygame 冒险游戏 | [GitHub](https://github.com/MustfZTRK/Autonomous-Game-Developer-Studio) |
+| godot-native-rl | Godot 强化学习集成 | 使用 ncnn 在 Godot 中原生集成强化学习，支持小型 AI Agent 及 Web 应用 | [GitHub](https://github.com/minigraphx/godot-native-rl) |
+| gemma4-uefn-game-planner | Fortnite UEFN 游戏规划器 | 基于 Gemma 4 12B 的 Agent 化 Web 仪表盘，设计高留存率 Fortnite UEFN 游戏 | [GitHub](https://github.com/RorriMaesu/gemma4-uefn-game-planner) |
+| WebGameTemplateForAgents | 浏览器游戏模板 | 专为配合编码 Agent 构建浏览器游戏设计的项目模板 | [GitHub](https://github.com/ludenio/WebGameTemplateForAgents) |
+| crystal-kingdom-defenders | 塔防游戏示例 | 使用 TypeScript + Phaser 3 + Vite 构建的 2D 塔防游戏，通过 Agentic Vibe Coding 开发 | [GitHub](https://github.com/ds-mrtq/crystal-kingdom-defenders) |
+| hadoken-high-roller-web | 街机风格老虎机游戏 | 基于 Cloudflare Workers + React + TypeScript 的《街霸》主题老虎机游戏，使用 Agentic 编码工作流 | [GitHub](https://github.com/everscending/hadoken-high-roller-web) |
+| vibecraft | 体素沙盒游戏 | 基于 Three.js 和 TypeScript 的浏览器体素游戏，使用 OpenCode、Claude Code、Codex 开发 | [GitHub](https://github.com/Uzzoper/vibecraft) |
+| graphia | 文本界面黑手党游戏 | 基于 LLM 的文本 UI 黑手党游戏，使用 LangGraph + Bedrock Agent Core + Terraform | [GitHub](https://github.com/tigra/graphia) |
+| faster-vibe-coded-apps-games-website | 快速 Vibe Coding 模板 | 适用于 Codex、Claude Code 等 Agent 的快速应用、游戏、网站模板 | [GitHub](https://github.com/rhythmkr360-png/faster-vibe-coded-apps-games-website.-) |
+| claude-code-build | Claude Code CLI 构建工具 | 从源码构建非官方 Claude Code CLI，支持 Bun 构建和 Node.js 自定义 API 端点 | [GitHub](https://github.com/alessandrahighvoltage217/claude-code-build) |
+| audio-mcp | 音频 MCP 工具 | 在 macOS 上捕获麦克风和系统音频，暴露原始 WAV 文件供 AI Agent 分析 | [GitHub](https://github.com/burfthdae-oss/audio-mcp) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Game-Theoretic Multi-Agent Control for Robust Contextual Reasoning in LLMs | 论文 | 博弈论多 Agent 控制框架，应对 LLM 在多轮交互中的上下文投毒攻击 | [arXiv](https://arxiv.org/abs/2606.10322v1) |
+| RogueAI: A Reverse Turing Test for Detecting Licensed AI Deception in Dialogue | 论文 | 反向图灵测试交互式 Web 应用，通过 1v2 审讯游戏检测 AI 欺骗 | [arXiv](https://arxiv.org/abs/2606.13310v1) |
+| From Player to Master: Enhancing Test-Time Learning of LLM Agents via Reinforcement Learning over Memory | 论文 | MemoPilot 插件，通过强化学习优化 LLM Agent 的测试时记忆更新策略 | [arXiv](https://arxiv.org/abs/2606.08656v1) |
+| The Shibboleth Effect: Auditing the Cross-Lingual Distributional Skew of LLMs | 论文 | 使用多 Agent 地缘政治兵棋推演（Cerulean Sea Crisis）审计 LLM 跨语言分布偏差 | [arXiv](https://arxiv.org/abs/2606.11082v1) |
+| LLM-Mediated Demand Response Coordination in Smart Microgrids | 论文 | 多 Agent 模拟中 LLM 协调智能微电网需求响应，结构等价于重复囚徒困境 | [arXiv](https://arxiv.org/abs/2606.11050v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AI-Coding-Guide-Zh: Subagent 子代理完整指南 | 中文教程 | Claude Code Subagent 子代理完整使用指南 | [GitHub](https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMnMweC1LVHRtaDhoQVh1V0VNMzZ5Q2Nqb2VUcFEwejM0Nk90YldlQjJoV0s4b0FwVDk1N3diV1JIMVY2djNObnBKOUNscmY5S1JGQUpROXI2OWdhTGxpSU11NUlhTlIybk1STGVSYnJGWkdScks4T2FhWkIxSWFRZ0JydlNYTGptY0tpQ1hIdUdiVUhxcTN2MGVnLXdMcTZvNXl4eTRpcFBFWGFObldXYXVhOFg3ZThYSXhrLXNDbG5mQlhSN3R3M3JEYnd0UGwyOVVQSThmb3ZPeFBLOTRTQnhqTnhQc2s?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Google 搜索框 AI 改造 | 搜索引擎更新 | Google 将搜索框从关键词输入改造为动态 AI 对话界面 | [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) |
+| OpenAI 收购 Ona | 企业收购 | OpenAI 计划收购 Ona，为 Codex 扩展安全持久云环境，支持长期运行 AI Agent | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
+| scientific-agent-skills | 科学 Agent 技能库 | 140 个即用技能 + 100+ 科学数据库，将 AI Agent 转化为 AI 科学家 | [GitHub](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nS0lZYUhjYnFGN0NqSTdIdGpfekhSMmlsY3NhX1Atamk2RXpPNGwwOE1paXhUazRzWDlZYTdxcEs4OTBSZkhXT0xMTU82OHMyMEVBLVFuOGh6bmVjdVlKb05mQQ?oc=5) |
