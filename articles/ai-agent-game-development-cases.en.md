@@ -200,9 +200,4 @@ These evaluate agents as game QA engineers, decision makers, or planners. They a
 
 - **2026年，AI Agent 开发踩坑实录：MCP 协议落地， 我总结了这三条铁律** — A Chinese developer's practical pitfalls and lessons learned from implementing the MCP protocol in AI Agent development in 2026. [Source](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sNmxPcUdUSEZRd3JNRjZmd0lZMnFacGFfeUY5VnRpaDhLTWxHWE1wQVZfWFBIUkxDcGd0ZHpEUE9TVjlybzJfa0tWODNIU09RYTJibQ?oc=5) (2026-05-26)
 
-### Follow-up Items
-
-- **K-Dense-AI/scientific-agent-skills** — Turn any AI agent into an AI Scientist with 140 ready-to-use skills plus 100+ scientific databases. While not game-specific, this agent skills library approach may be adaptable for game development agent workflows. [Source](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nS0lZYUhjYnFGN0NqSTdIdGpfekhSMmlsY3NhX1Atamk2RXpPNGwwOE1paXhUazRzWDlZYTdxcEs4OTBSZkhXT0xMTU82OHMyMEVBLVFuOGh6bmVjdVlKb05mQQ?oc=5) (2026-06-11)
-
-- **Manual review needed:** Several GitHub projects have 0 stars and minimal documentation. Their actual utility and stability should be verified before deeper inclusion.
 <!-- AUTO_CASE_UPDATES_END:game:en -->

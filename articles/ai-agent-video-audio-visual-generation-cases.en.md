@@ -163,8 +163,4 @@ These projects show that mature video agents split work into text understanding,
 
 - **ArcReel/ArcReel** (listed above) — Chinese-language description: "AI Agent 驱动的开源视频生成工作台 — 小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致". Open-source AI video workspace powered by AI Agents.
 
-### Follow-up Items
-
-- **Google search box redesign** — Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a simple keyword input into a dynamic AI-driven conversational interface. [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) (2026-05-19) — *Potentially relevant to AI agent interfaces for video/visual search; needs manual review for direct connection.*
-- **OpenAI to acquire Ona** — Acquisition to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. [OpenAI](https://openai.com/index/openai-to-acquire-ona) (2026-06-11) — *Indirect relevance to video agent infrastructure; monitor for future video-related agent capabilities.*
 <!-- AUTO_CASE_UPDATES_END:video:en -->

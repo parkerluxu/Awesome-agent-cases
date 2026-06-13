@@ -258,17 +258,4 @@ LLM-aided design 汇总中提到 MG-Verilog、RTLCoder、VeriGen 等数据和模
 
 - **大语言模型基础（LLM） - 菜鸟教程**：一篇介绍 LLM 基础的中文教程，可作为 AI Agent 入门参考。来源：菜鸟教程 (https://www.runoob.com/ai-agent/ai-agent-llm.html)
 
-### 待复核线索
-
-- **RTL-BenchMT** 和 **RTL-BenchLS** 作为新的基准，其具体设计、评估方法和与现有基准的对比值得深入分析。
-- **ChipMATE** 和 **siliconcrew** 等开源项目，其实际效果、社区活跃度和文档完整性需要人工评估。
-- **Trace2Skill** 和 **Alpha-RTL** 提出的测试时优化方法，其创新性和实用性需要进一步确认。
-- **OpenRTLSet** 作为最大的开源硬件设计数据集，其数据质量、覆盖范围和许可协议需要人工复核。
-- **ForgeLab** 和 **universal-netlist** 等项目，其与主流 EDA 工具的集成程度和实际应用价值待确认。
-- **A3D** 论文中关于加速器设计的 Agentic 流程，其具体实现细节和可复现性需人工核实。
-- **CPPL** 提出的电路提示编程语言，其与现有硬件编译器基础设施（如 CIRCT）的兼容性值得关注。
-- **Autonomous agentic design for photonics** 虽非直接芯片设计，但其方法可能对芯片设计有借鉴意义，需人工判断相关性。
-- **Memory-Guided Tree Search** 论文中提到的“芯片设计”应用场景，其具体案例和效果需进一步核实。
-- **Google 搜索框重新设计** 和 **OpenAI 收购 Ona** 等新闻，其对 AI Agent 生态的潜在影响需人工分析。
-- **中文来源线索** 中的教程内容较为基础，与芯片设计 Agent 的直接关联性需人工判断。
 <!-- AUTO_CASE_UPDATES_END:chip:zh-CN -->

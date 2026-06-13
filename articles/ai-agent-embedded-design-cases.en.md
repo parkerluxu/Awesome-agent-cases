@@ -160,13 +160,4 @@ Embedded code must be correct, fast, memory-conscious, and power-aware. Passing 
 
 - **大语言模型基础（LLM） - 菜鸟教程:** A Chinese tutorial on LLM basics as the brain of AI agents, from the Runoob (菜鸟教程) platform. [Source](https://www.runoob.com/ai-agent/ai-agent-llm.html)
 
-### Follow-up Items
-
-- **Manual review needed:** The following candidates have low stars (0-1) or unclear relevance to embedded agent design and should be manually reviewed before inclusion:
-  - CodeCraft (⭐0) — automates software development with AI agent
-  - deepagent-x-feed-monitoring (⭐0) — X feed monitoring agent
-  - x-research-skill (⭐1) — X/Twitter research CLI tool
-  - healthcare-assistant (⭐1) — healthcare management AI platform
-  - DevDuck (⭐4) — sentiment-aware rubber duck agent
-  - All scored below 25 with query "arduino ai agent" or "ai embedded systems agent" but unclear direct relevance
 <!-- AUTO_CASE_UPDATES_END:embedded:en -->

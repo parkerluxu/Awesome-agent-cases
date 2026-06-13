@@ -167,9 +167,4 @@ The core trend is converting hardware design into intermediate representations t
 - **datawhalechina/happy-llm** — Chinese systematic LLM learning tutorial from Datawhale community. (GitHub) [Link](https://github.com/datawhalechina/happy-llm) *(Weak candidate — general LLM education)*
 - **How Agentic AI tackles RTL verification’s productivity gap** — Article from New Electronics on agentic AI for RTL verification. (New Electronics, 2026-05-22) [Link](https://news.google.com/rss/articles/CBMipwFBVV95cUxOUjlFNjRObWtnUGZxYzNyRG41NzI5a2EzRl9nNUJoaUVrcWdoN1VvTmlybjl0UGdmYnNQYW9xMExxRm0zMUJiaGpnT0tKbDR0TEJHQzZTZXhTSHE2Nk12YzVOUE1GVXJkUTVDSjh6bjE0TlNKVFlaYmFwWjUybnY5SDd4eUJxVlh6LWFCdG95Zmk4UEpNZXV5VlNCaHFMU25tcW9sVk1lWQ?oc=5) *(Weak candidate — needs manual review for relevance)*
 
-### Follow-up Items
-
-- **hashgraph-online/awesome-codex-plugins** — Curated list of Codex plugins. (GitHub, 2026-06-09) [Link](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WT2pYYl93MnNkZV9uVTIwOGtIWE85Y0tzYVRHWWJyampmSHZNMnhqV0V1ZXdaSmdLZ0JLT0lRckZHUGpPZG0xWWU0dUZpUXdRZjUxTGcxUW1KaDlheWRpd3pMRWhzcEVp?oc=5) *(Weak candidate — needs manual review)*
-- **Google DeepMind on multi-agent risks** — DeepMind funding research into dangers of millions of AI agents interacting online. (MIT Technology Review, 2026-06-11) [Link](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/) *(Weak candidate — general AI safety, not EDA-specific)*
-- **tscircuit/tscircuit** — Create real electronics with TypeScript and React. (GitHub, 2026-06-12, 2246 stars) [Link](https://github.com/tscircuit/tscircuit) *(Existing project, noted for continued activity)*
 <!-- AUTO_CASE_UPDATES_END:electronic:en -->

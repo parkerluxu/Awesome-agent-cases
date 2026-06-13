@@ -215,12 +215,4 @@ This empirical study tracks 5,838 GitHub developers before and after Claude Code
 
 - **"2026 Smart Cockpit AI Agent Evolution Trends and 3 Case Studies"** — Electronic Engineering Album article on AI agents in smart cockpits. *Tangentially relevant to web-based agent interfaces.* [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xS2thU3pWdkVMa25paUxpVVRwMXlVeTlXRGJrNFFtTWlMMmhVcGVCQk0wTVIzb3dTSFVBaUZmTkVnV055UDBVbzh1M0J0eUdadC00?oc=5) (2026-06-13)
 
-### Follow-up Items
-
-- **Google search box redesign** — Monitor for developer documentation and API changes for integrating AI agents with the new search interface.
-- **OpenAI / Ona acquisition** — Track how persistent cloud environments for Codex agents evolve and what it means for web app deployment workflows.
-- **VISTA and Asuka-Bench benchmarks** — Consider evaluating your own agents against these new benchmarks for UI-centric and multi-round refinement tasks.
-- **Playwright for agent testing** — Investigate using Playwright as the browser automation layer for testing AI-generated web applications.
-- **hegemonart/get-design-done** — Low-star but directly relevant pipeline for design-to-code agent workflows; worth monitoring for maturity.
-- **Chinese community articles** — All three need manual review for actionable technical content before inclusion in the main article.
 <!-- AUTO_CASE_UPDATES_END:web:en -->

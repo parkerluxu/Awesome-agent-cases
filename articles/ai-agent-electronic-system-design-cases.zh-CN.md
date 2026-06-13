@@ -272,12 +272,4 @@ SmartonAI 以 KiCad 为例，尝试用 GPT/BERT 做 EDA 软件的自然语言交
 - **Datawhale - Happy-LLM**：GitHub 上的系统性 LLM 学习教程，从 NLP 基础到 LLM 架构与训练。 [GitHub](https://github.com/datawhalechina/happy-llm)
 - **hashgraph-online/awesome-codex-plugins**：Codex 插件资源列表，可能包含与电子设计相关的 Agent 工具。 [GitHub](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WT2pYYl93MnNkZV9uVTIwOGtIWE85Y0tzYVRHWWJyampmSHZNMnhqV0V1ZXdaSmdLZ0JLT0lRckZHUGpPZG0xWWU0dUZpUXdRZjUxTGcxUW1KaDlheWRpd3pMRWhzcEVp?oc=5)
 
-### 待复核线索
-
-- **ForgeLab**：概念新颖但 Star 数极低，需人工复核其实际可用性与社区反馈。
-- **KiSkill、bretbouchard/kicad-agent、liwenjinchn/hardwise、dshills/KiCadAI、ritwick06/elektran-ai**：均为 0-1 Star 的新项目，功能描述尚不充分，需人工复核代码质量与文档完整性。
-- **hfss-mcp-server**：将 AI 引入 HFSS 仿真，但 Star 数为 0，需人工复核其与 Ansys HFSS 的集成深度。
-- **OpenEnv for Agentic RL**：Hugging Face 博客文章（2026-06-08），摘要为空，需人工复核其与电子设计 Agent 的相关性。 [Hugging Face](https://huggingface.co/blog/openenv-agentic-rl)
-- **hf CLI for agents**：Hugging Face 博客文章（2026-06-04），摘要为空，需人工复核其对 Agent 工作流的具体优化。 [Hugging Face](https://huggingface.co/blog/hf-cli-for-agents)
-- **tscircuit/tscircuit**：Star 数 2246，是成熟的 TypeScript 电子设计框架，但与本案例库的“AI Agent”核心主题关联度待人工复核。 [GitHub](https://github.com/tscircuit/tscircuit)
 <!-- AUTO_CASE_UPDATES_END:electronic:zh-CN -->

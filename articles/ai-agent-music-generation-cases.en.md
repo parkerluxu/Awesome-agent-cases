@@ -186,10 +186,4 @@ This critique is useful because it reminds us that generating sounds resembling 
 - **AI Agent for IoTDB remote server maintenance** – Chinese tutorial on using AI agents for time-series database operations. [OSCHINA](https://news.google.com/rss/articles/CBMiWkFVX3lxTE14VW0zZ0RXLU1kVV9BUzZuVXFQQkxrXzdmY1NfRmFhTDRhamVFVF92dmZkVUF5Nm91ZzdGYmg5N0JRZ0taT08xWjZ5azJtZks2TFQybkxfS3JSZw)
 - **LLM basics tutorial (Chinese)** – Beginner tutorial on large language models as the "brain" of AI agents. [菜鸟教程](https://www.runoob.com/ai-agent/ai-agent-llm.html)
 
-### Follow-up Items
-- **Weak signals needing manual review:**
-  - `agerelated-clioquinol357/ACI` – Open protocol for agent-app access, but zero stars and unclear music relevance. [GitHub](https://github.com/agerelated-clioquinol357/ACI)
-  - `babyfaced-familytrionychidae322/chordbot` – Local-first AI agent, but zero stars and generic description. [GitHub](https://github.com/babyfaced-familytrionychidae322/chordbot)
-  - Google search redesign – Not directly music-agent related, but may affect discovery patterns.
-  - Google DeepMind multi-agent safety research – Important context but not music-specific.
 <!-- AUTO_CASE_UPDATES_END:music:en -->

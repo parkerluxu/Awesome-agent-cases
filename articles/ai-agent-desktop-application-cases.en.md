@@ -190,10 +190,4 @@ These benchmarks show that desktop agents struggle with GUI grounding, screen pa
 
 - **hexagon-codes/hexclaw-desktop** — Enterprise-grade secure personal AI agent desktop client. Tauri + Vue 3, local Sidecar zero cloud dependency, supports multiple models, image/video generation, knowledge base RAG, MCP tool plugins, multi-platform IM integration (Feishu/Telegram/Discord). (Source: [GitHub](https://github.com/hexagon-codes/hexclaw-desktop), 2026-06-13) — *Note: Chinese-language description in original candidate.*
 
-### Follow-up Items
-
-- **AmrDab/clawdcursor** (Stars: 342) — High-star project worth deeper investigation for its MCP-powered fallback approach to GUI agent execution.
-- **InbarR/tmax** (Stars: 51) — Cross-platform multi-terminal app with tiling layouts; relevance to AI agent desktop use cases needs manual review.
-- **EpiBench** — No system passed a majority of attempts; worth monitoring for future agent improvements in scientific domains.
-- **OpenAI to acquire Ona** — Potential major development for Codex and enterprise AI agent workflows; needs follow-up on acquisition completion and product integration.
 <!-- AUTO_CASE_UPDATES_END:desktop:en -->

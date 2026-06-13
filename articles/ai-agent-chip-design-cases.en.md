@@ -155,9 +155,4 @@ These dataset and model directions suggest that long-term chip agents will combi
 
 - **大语言模型基础（LLM）** – A Chinese tutorial on LLM basics for AI agents, from 菜鸟教程 (Runoob). (Source: [Bing Web](https://www.runoob.com/ai-agent/ai-agent-llm.html))
 
-### Follow-up Items
-
-- **armmammothermography417/ContextOS** – Provides a unified context intelligence layer for AI agents. Stars: 1. (Source: [GitHub](https://github.com/armmammothermography417/ContextOS), 2026-06-13) — *Weak candidate, needs manual review for relevance to chip design.*
-- **sivahere4cloud/ml-ai-genai-agentic-practice** – A growing collection of applied ML, GenAI, and Agentic AI projects covering EDA automation, predictive modeling, LLM integration, RAG pipelines, and autonomous agent workflows. Stars: 0. (Source: [GitHub](https://github.com/sivahere4cloud/ml-ai-genai-agentic-practice), 2026-06-12) — *Weak candidate, needs manual review.*
-- **Maranh0/ai-junior-data_scientist** – Analyzes fintech data with an AI Junior Data Scientist Agent performing EDA and churn modeling. Stars: 1. (Source: [GitHub](https://github.com/Maranh0/ai-junior-data_scientist), 2026-06-13) — *Weak candidate, "EDA" here refers to exploratory data analysis, not electronic design automation. Needs manual review.*
 <!-- AUTO_CASE_UPDATES_END:chip:en -->

@@ -286,12 +286,4 @@ Suno 和 Udio 都因训练数据和版权问题引发音乐产业诉讼或授权
 - **豆包 API 逆向工程项目**：`doubao2api` 项目将豆包的多模态能力（含音乐生成）转为 OpenAI 兼容接口，适合国内开发者集成到 Agent 中。Stars: 40。 [查看项目](https://github.com/wangchuxiaoji-oss/doubao2api)
 - **ArcReel 项目**：中文描述的开源 AI Agent 视频生成工作台，涉及角色、场景、剧本等完整流程。 [查看项目](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5)
 
-### 待复核线索
-
-- **Google 搜索框重新设计**：虽然与音乐生成无直接关系，但可能影响 Agent 的交互入口。 [查看原文](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
-- **OpenAI 收购 Ona**：可能增强 Codex 的持久化云环境，对 Agent 工作流有潜在影响。 [查看原文](https://openai.com/index/openai-to-acquire-ona)
-- **Google DeepMind 关注多 Agent 交互风险**：对 Agent 生态的宏观讨论，可能影响音乐 Agent 的设计规范。 [查看原文](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/)
-- **Microsoft Rayfin 后端平台**：新推出的 AI Agent 开发后端平台，待观察其对音乐生成 Agent 的支持。 [查看原文](https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3IxQXM3SVNacnJuUFk4NlhBc2VaUklKWnpOM294aXQwaFVwSTBKQ3J4NzFONUlHRUtBMGRteWdYZGdDS1dLSTdTdVBLckMxVlBYQVl2Z2V2RkxRRm9feHl3aWk3Q1p2STk1eWltdjJkS0lnSk5fakNTVmNPVlFKNG9rREFhc1FuVG9Hc3htZ1RhdjNhdlg2ZWNWUXJyOUNLc0ZibkFjOU8xaC1iYThJOVlfdFhuZVIyQlRkUXpTQWx2Ymx6U01JVXBXbUtNdw?oc=5)
-- **Qwen3.6 越狱版教程**：支持本地 Agent 运行，可能用于本地音乐生成 Agent 部署。 [查看视频](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oT3dJVzFaSmxsaWVCd1FBcUhqVFFiY1NGQ0xHWVU5c3pIRDlteFUydWUzU1BQY2ZxbE1ORDg0eWhoc0xZYVlxV3QyTHBMNjBsMXc1OXdR?oc=5)
-- **OpenAI Academy 新课程**：包含应用 Agent 的课程，可能涉及音乐生成场景。 [查看原文](https://openai.com/index/academy-courses-applying-ai-at-work)
 <!-- AUTO_CASE_UPDATES_END:music:zh-CN -->

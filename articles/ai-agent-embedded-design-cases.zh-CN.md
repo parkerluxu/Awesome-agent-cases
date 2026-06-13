@@ -274,9 +274,4 @@ LLM-aided design 把嵌入式固件生成列为硬件与系统设计应用之一
 
 - **菜鸟教程 - 大语言模型基础（LLM）**：一篇面向中文初学者的 AI Agent 教程，介绍了 LLM 作为 AI Agent 大脑的基础概念。 [链接](https://www.runoob.com/ai-agent/ai-agent-llm.html)
 
-### 待复核线索
-
-- **Antigravity Awesome Skills**：该仓库的 RSS 摘要信息有限，具体内容、质量和与嵌入式设计的关联度需要人工复核。
-- **多个低星 GitHub 项目**：如 `CodeCraft`、`deepagent-x-feed-monitoring`、`x-research-skill`、`healthcare-assistant`、`DevDuck` 等，虽然与 AI Agent 相关，但星数极低，且查询词为 `arduino ai agent`，与嵌入式设计的相关性待人工复核。
-- **AI 自适应计算机蠕虫论文**：虽然提出了重要的安全警示，但其与嵌入式 Agent 设计的直接关联度需要进一步评估。
 <!-- AUTO_CASE_UPDATES_END:embedded:zh-CN -->
