@@ -1,203 +1,47 @@
-# Game Development: AI Agent Case Studies, Tutorials, and Research Projects
-
-Research date: 2026-06-13
-
-Game development is an excellent domain for showing AI agent capability because it tests rules, state management, art, audio, interaction, mobile adaptation, and performance at the same time. Public cases mostly involve Web mini games, Unity/Godot prototypes, game jams, and media comparisons.
-
-## Quick Takeaways
-
-Good tasks for AI agents:
-
-- Web mini games: Minesweeper, 2048, Snake, tower defense, cards, puzzles.
-- Fast prototypes for core-loop validation.
-- Level generation: maps, items, enemies.
-- UI/HUD and menus.
-- Sound, particles, feedback animations.
-- Tests and gameplay acceptance checklists.
-
-Do not fully delegate:
-
-- Large commercial game architecture.
-- Complex multiplayer synchronization.
-- Low-level high-performance 3D engine work.
-- Large unified art-asset pipelines.
-- Payments, loot boxes, or minor-compliance logic.
-
-## Tutorials and Practitioner Notes
-
-### 1. Minesweeper Comparison Across Codex, Claude Code, Gemini, and Mistral
-
-Type: media test  
-Link: https://www.tomshardware.com/tech-industry/artificial-intelligence/turns-out-ai-can-actually-build-competent-minesweeper-clones-four-ai-coding-agents-put-to-the-test-reveal-openais-codex-as-the-best-while-googles-gemini-cli-as-the-worst
-
-Ars Technica / Tom's Hardware asked four agents to build Web Minesweeper with playability, sound, touch support, and a creative twist. Codex scored best with chording, responsive design, sound, and Lucky Sweep; Claude Code looked more polished but missed chording; Gemini CLI produced an unplayable result.
-
-Example prompt:
-
-```text
-Write a Minesweeper game in pure HTML/CSS/JS.
-Must support first-click safety, timer, flag count, win/loss detection,
-chording, mobile touch, and a sound toggle.
-Add one creative mechanic without breaking classic rules.
-List the acceptance checklist before writing code.
-```
-
-### 2. Vibe Coding Personal Mini Games
-
-Common workflow: describe gameplay, generate an HTML5/Canvas/React game, point out UI and rule problems with screenshots, iterate audio/particles/mobile, then deploy to Vercel, Netlify, or itch.io.
-
-Good topics:
-
-- 2048 with a new item mechanic.
-- Snake with missions.
-- Breakout with skill upgrades.
-- Card-battle prototype.
-- Single-screen puzzle.
-- Children's educational game.
-
-Constrain stack, canvas ratio, input method, pause/restart, volume, tutorial, and failure feedback.
-
-### 3. Personal Software and Game-Like Tools
-
-Link: https://www.theverge.com/tech/928905/vibe-code-personal-software-revolution
-
-The Verge's critique of agent-generated UI applies strongly to games: agents can validate gameplay quickly, but visual style, feel, rhythm, and art direction still need human taste and reference material.
-
-### 4. Caleb Leak's Godot Experiment
-
-Link: https://www.pcgamer.com/software/ai/i-taught-my-dog-to-vibe-code-games-yup-someone-actually-managed-to-get-claude-ai-to-code-a-game-based-on-the-keyboard-inputs-of-a-pooch/
-
-This playful experiment used Raspberry Pi, a Bluetooth keyboard, a Rust app, and Claude to turn chaotic input into Godot C# games. The serious lesson is that guardrails, screenshot feedback, and shader validation can turn messy creative input into playable prototypes.
-
-### 5. Replit Agent Builds a Themed Racing Game
-
-Link: https://www.businessinsider.com/vibe-coding-game-replit-elon-musk-sam-altman-racing-2025-3
-
-Business Insider used Replit Agent to create a topical racing game, "The Final Boss of AGI." It is useful as a record of non-professional natural-language game development with repeated bugs and debugging rounds.
-
-### 6. Claude / Lovable Build Meatball Mania
-
-Link: https://www.thetimes.co.uk/article/i-built-a-game-in-minutes-with-ai-the-thrill-took-me-back-years-27mljwx6j
-
-The Times tried generating a retro game with Claude and Lovable. Claude produced a rough playable version, while Lovable did not work correctly. This is a useful reminder that agents lower the barrier but do not guarantee quality.
-
-### 7. Publishing Matters
-
-Link: https://www.tomsguide.com/ai/i-vibe-coded-an-app-in-a-single-weekend-heres-how-i-got-it-into-other-peoples-phones
-
-Generated mini games often stop at local playability. Real acceptance should include mobile adaptation, public deployment, QR sharing, and feedback collection.
-
-## Research and Evaluation
-
-### Best Task Shapes for Game Prototyping Agents
-
-References:
-
-- Codex overview: https://en.wikipedia.org/wiki/Codex_%28AI_agent%29
-- Cursor 3: https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic
-- GitHub Agent HQ: https://www.theverge.com/news/873665/github-claude-codex-ai-agents
-
-Web/Canvas mini games are easiest; Godot and Unity prototypes come next. Complex 3D assets, networking, and physical feel require heavier human involvement.
-
-Agent roles:
-
-- Designer Agent: rules and balance.
-- Programmer Agent: core loop.
-- QA Agent: rule holes.
-- UX Agent: mobile and feedback.
-- Producer Agent: scope control.
-
-### Acceptance Checklist Template
-
-- Start, pause, restart.
-- Win/loss condition.
-- Mobile input.
-- Error states.
-- Sound toggle.
-- Rule explanation.
-- Five minutes of continuous play without crash.
-- Fixed random seed for bug reproduction.
-
-### StoryAgent / Kubrick Inspiration
-
-Links:
-
-- StoryAgent: https://arxiv.org/abs/2411.04925
-- Kubrick: https://arxiv.org/abs/2408.10453
-
-Although these papers focus on video generation, the structure transfers to games: designer, programmer, artist, QA, and producer agents with iterative feedback.
-
-### GamED.AI
-
-Link: https://arxiv.org/abs/2604.23947
-
-GamED.AI turns teacher-provided problems into playable educational games through hierarchical multi-agent workflows, LangGraph subgraphs, Pydantic schemas, and deterministic quality gates.
-
-### GBQA / DSGBench / SmartPlay
-
-Links:
-
-- GBQA: https://arxiv.org/abs/2604.02648
-- DSGBench: https://arxiv.org/abs/2503.06047
-- SmartPlay: https://arxiv.org/abs/2310.01557
-
-These evaluate agents as game QA engineers, decision makers, or planners. They are useful for NPCs, strategy agents, and automated testing, even when they do not generate games.
-
-<!-- AUTO_CASE_UPDATES_START:game:en -->
-## Latest Updates (2026-06-13)
-
-
-- **Google search box redesign** — Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a simple keyword input into a dynamic, AI-driven conversational interface. This shift in the primary user interface for billions of queries could have downstream implications for how AI agents discover and interact with game development resources. [Source](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) (2026-05-19)
-
-- **OpenAI to acquire Ona** — OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows. This acquisition may strengthen Codex's capabilities for sustained game development sessions. [Source](https://openai.com/index/openai-to-acquire-ona) (2026-06-11)
-
-### Projects
-
-- **aigengame/godot-agent** — An agent-first CLI and MCP server that lets AI agents drive the Godot engine to build games, with structured output built for programmatic consumption. Stars: 0. [Source](https://github.com/aigengame/godot-agent) (2026-06-13)
-
-- **LuoxuanLove/godot-dotnet-mcp** — A Godot 4.6+ editor plugin giving AI agents a real MCP interface to the live Godot editor: project state, scene editing, script analysis, runtime control, screenshots, logs, and client setup from inside the editor. Stars: 30. [Source](https://github.com/LuoxuanLove/godot-dotnet-mcp) (2026-06-13)
-
-- **bullish0x/GameStudio** — Turn any supported coding-agent harness into a full game-dev studio with 55 specialized AI agents and 182 skills for Godot, Unity, Unreal, Three.js, PixiJS, Phaser, and R3F. Stars: 0. [Source](https://github.com/bullish0x/GameStudio) (2026-06-13)
-
-- **maybugwaterbutt646/claude_agents_gamekit** — Build multi-agent game dev workflows for Unity, Godot, Web, WeChat Mini Games, and Cocos Creator with Claude Code. Stars: 1. [Source](https://github.com/maybugwaterbutt646/claude_agents_gamekit) (2026-06-13)
-
-- **ludenio/WebGameTemplateForAgents** — A project template for building browser games with the help of a coding agent. Stars: 11. [Source](https://github.com/ludenio/WebGameTemplateForAgents) (2026-06-12)
-
-- **ds-mrtq/crystal-kingdom-defenders** — A 2D chibi tower defense game running on web (TypeScript + Phaser 3 + Vite), developed using Agentic Vibe Coding with Claude Code. Stars: 0. [Source](https://github.com/ds-mrtq/crystal-kingdom-defenders) (2026-05-25)
-
-- **everscending/hadoken-high-roller-web** — A Street Fighter themed slot machine game built using Cloudflare Workers, React and TypeScript, built primarily with agentic coding workflows using Cursor/OpenCode/BMAD. Stars: 0. [Source](https://github.com/everscending/hadoken-high-roller-web) (2026-06-03)
-
-- **Uzzoper/vibecraft** — A browser-based voxel game inspired by Minecraft, built with Three.js and TypeScript, developed using OpenCode, Claude Code, and Codex AI assistants. Stars: 0. [Source](https://github.com/Uzzoper/vibecraft) (2026-06-10)
-
-- **RorriMaesu/gemma4-uefn-game-planner** — A premium agentic web dashboard and local orchestrator powered by Gemma 4 12B to design high-retention Fortnite UEFN games, featuring side-by-side Architect & Critic pipelines. Stars: 0. [Source](https://github.com/RorriMaesu/gemma4-uefn-game-planner) (2026-06-12)
-
-- **minigraphx/godot-native-rl** — Native integration of RL in Godot using ncnn for small AI agents even in webapps. Stars: 0. [Source](https://github.com/minigraphx/godot-native-rl) (2026-06-13)
-
-- **rhythmkr360-png/faster-vibe-coded-apps-games-website.-** — Faster vibe coded apps, games, website for Codex, Claude Code, etc agents. Stars: 0. [Source](https://github.com/rhythmkr360-png/faster-vibe-coded-apps-games-website.-) (2026-06-01)
-
-- **alessandrahighvoltage217/claude-code-build** — Build an unofficial Claude Code CLI from source for research, Bun builds, and Node.js use with custom API endpoints. Stars: 0. [Source](https://github.com/alessandrahighvoltage217/claude-code-build) (2026-06-13)
-
-- **burfthdae-oss/audio-mcp** — Capture mic and system audio on macOS in explicit MCP sessions and expose raw WAV files to AI agents for analysis. Stars: 1. [Source](https://github.com/burfthdae-oss/audio-mcp) (2026-06-13)
-
-### Papers / Benchmarks
-
-- **Game-Theoretic Multi-Agent Control for Robust Contextual Reasoning in LLMs** — Proposes a defense against prompt-injection and context-poisoning attacks in multi-turn LLM interactions, relevant to long-horizon game agent reasoning. [Source](https://arxiv.org/abs/2606.10322v1) (2026-06-09)
-
-- **RogueAI: A Reverse Turing Test for Detecting Licensed AI Deception in Dialogue** — An interactive webapp operationalizing a one-on-two interrogation game where a human player tries to distinguish a trusted AI from a deceptive one. [Source](https://arxiv.org/abs/2606.13310v1) (2026-06-11)
-
-- **From Player to Master: Enhancing Test-Time Learning of LLM Agents via Reinforcement Learning over Memory** — Proposes MemoPilot, a plug-in memory copilot that trains LLM agents to improve through experience at test time using reinforcement learning over memory. [Source](https://arxiv.org/abs/2606.08656v1) (2026-06-07)
-
-- **LLM-Mediated Demand Response Coordination in Smart Microgrids** — A multi-agent simulation using LLM Influence Compiler for coordination in a repeated Prisoner's Dilemma on a social network. [Source](https://arxiv.org/abs/2606.11050v1) (2026-06-09)
-
-### Tutorials / Media Tests
-
-- **10分钟 0基础 一句代码没写 用Codex开发一个小游戏 Vibe Coding实战教程** — A Chinese-language YouTube tutorial showing how to develop a small game with Codex in 10 minutes without writing any code. [Source](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VUk5BWjlxUlZFSk13SGx1UXIydmFqSl9PUGxWQzlBRTRwaFd2N21RVGtmSi1fVWpESFhySzRNQXNyb2t3UEJvd3k1aC1nMUN5Njc5dnNR?oc=5) (2026-06-09)
-
-- **Graphify + code-review-graph: Build a Self-Updating Knowledge Graph for Claude Code and other AI Coding Agent** — A DEV Community post on building self-updating knowledge graphs for Claude Code and other AI coding agents. [Source](https://news.google.com/rss/articles/CBMiywFBVV95cUxQcnB3R0N1LXdHa2hjX1BiUVVMMm9fVDlVT0o2UXZmWGptbkFlLVZVU1dMSXppQlZ2ZDNPWlRJTC1LUXlhZURtQTVXT25tZkNVTWJVdGRzaDZjWkVVaXYyQTFLWFVYOWRuYndVSThLMlZ4LUlaczg0U043TzBDX0NYNHhfcDA1VjN6Y0NrU3NwczdVdDNQVHlabFMxdGZhVHRQbFUtZ3pnbkoxM05CZGVfMVpkZm8tZW81MWpBQ2o0aE1hc2EycDlGUm1lQQ?oc=5) (2026-05-17)
-
-
-- **Spring AI完整学习路线：从Java开发到AI Agent的进阶之路（附15篇实战教程）** — A comprehensive Spring AI learning roadmap from Java development to AI Agent, with 15 practical tutorials. [Source](https://news.google.com/rss/articles/CBMickFVX3lxTE51MWVkcUg0U1o1TGdJYVFhU1FhMXBFcGRmSlVOd0NUMnhBRkg2OEJpM2hxVS1UVWNlVGk3TVVlTnM5V0hQRGhtaTVadS1BTmRMRHZLbXJFTFg4OEEtTU9nV3RiMkZ4dXA1T2pZcU5kRUthZw?oc=5) (2026-05-16)
-
-- **2026年，AI Agent 开发踩坑实录：MCP 协议落地， 我总结了这三条铁律** — A Chinese developer's practical pitfalls and lessons learned from implementing the MCP protocol in AI Agent development in 2026. [Source](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sNmxPcUdUSEZRd3JNRjZmd0lZMnFacGFfeUY5VnRpaDhLTWxHWE1wQVZfWFBIUkxDcGd0ZHpEUE9TVjlybzJfa0tWODNIU09RYTJibQ?oc=5) (2026-05-26)
-
-<!-- AUTO_CASE_UPDATES_END:game:en -->
+# Game Development: AI Agent Practical Cases, Tutorials, and Research Project Survey
+
+This is a curated index of AI Agent resources for developers, creators, and researchers, collecting tutorials, cases, open-source projects, papers, benchmarks, and product practices in related directions. Its goal is to help readers quickly discover reproducible projects, reference workflows, and research materials worth further reading.
+
+> Note: This index leans towards "resource collection" and "topic navigation." Some entries will undergo secondary review, supplementary notes, and quality filtering in the future. Feel free to use it as a starting checklist in a GitHub repository and expand it according to your own direction.
+
+## Large-Scale Resource Index (3+25)
+
+This section is divided into two categories: `3 Tutorials / Cases` and `25 Projects / Papers`. Each resource includes a name, type, brief description, and original link for quick assessment of whether it is worth in-depth reading.
+
+### Tutorials / Cases (3 Items)
+
+| # | Name | Type | Purpose/Summary | Link |
+|---:|---|---|---|---|
+| 1 | Replit racing game article | Media Case | Business Insider case, documenting the process of building a racing game from scratch using Replit Agent, observing the transformation from natural language requirements to a runnable prototype. | https://www.businessinsider.com/vibe-coding-game-replit-elon-musk-sam-altman-racing-2025-3 |
+| 2 | The Times Meatball Mania | Media Case | The Times report, describing the author's experience of building the game Meatball Mania in minutes using AI, experiencing the fun and challenges of rapid prototyping. | https://www.thetimes.co.uk/article/i-built-a-game-in-minutes-with-ai-the-thrill-took-me-back-years-27mljwx6j |
+| 3 | Tom Hardware Minesweeper | Media Test | Tom's Hardware test, comparing the performance of four AI coding agents in building a Minesweeper clone, providing performance evaluations of each tool in game development. | https://www.tomshardware.com/tech-industry/artificial-intelligence/turns-out-ai-can-actually-build-competent-minesweeper-clones-four-ai-coding-agents-put-to-the-test-reveal-openais-codex-as-the-best-while-googles-gemini-cli-as-the-worst |
+
+### Projects / Papers (25 Items)
+
+| # | Name | Type | Purpose/Summary | Link |
+|---:|---|---|---|---|
+| 1 | GamED.AI | Paper | The GamED.AI paper proposes an AI application framework for the entire game development process, covering automatic gameplay prototype generation and agent behavior evaluation, providing a reproducible evaluation benchmark for game AI research. | https://arxiv.org/abs/2604.23947 |
+| 2 | DSGBench | Paper | DSGBench focuses on dynamic strategy games, designing an evaluation framework that includes multi-agent collaboration and competition, emphasizing experimental reproducibility and scenario diversity. | https://arxiv.org/abs/2503.06047 |
+| 3 | SmartPlay | Paper | SmartPlay integrates multiple game environments to build an agent evaluation platform, providing standardized task settings and performance metrics for easy horizontal comparison of different algorithms. | https://arxiv.org/abs/2310.01557 |
+| 4 | Unity ML-Agents | Open Source Project | An official toolkit deeply integrating reinforcement learning with the Unity game engine, supporting training agents in 3D environments and directly using them in game logic; a mature infrastructure for game AI development. | https://github.com/Unity-Technologies/ml-agents |
+| 5 | Voyager | Paper/Project | Implements an autonomous exploration agent based on large language models in Minecraft, continuously learning through a skill library and environmental interaction, demonstrating open-ended task-solving capabilities; a benchmark work for in-game Agent research. | https://arxiv.org/abs/2305.16291 |
+| 6 | MineDojo | Paper/Project | MineDojo provides a Minecraft research framework and a large-scale multimodal dataset covering tasks, demonstrations, and knowledge graphs, supporting agent training and evaluation. | https://arxiv.org/abs/2206.08853 |
+| 7 | Generative Agents | Paper | Generative Agents simulate credible human behavior through memory, reflection, and social architectures, achieving long-term character interaction and group evolution in a sandbox environment. | https://arxiv.org/abs/2304.03442 |
+| 8 | StoryAgent | Paper | StoryAgent researches AI-based narrative generation, proposing a joint evaluation method for story planning and character interaction, focusing on narrative coherence and user engagement. | https://arxiv.org/abs/2411.04925 |
+| 9 | Kubrick | Paper | The Kubrick paper proposes a generative model-based algorithm for automatic game level generation, covering design constraints and player experience optimization, with experimental reproducibility details. | https://arxiv.org/abs/2408.10453 |
+| 10 | OpenSpiel | Open Source Project | DeepMind's game theory research framework, incorporating multiple game environments and algorithms. Provides a standardized multi-agent reinforcement learning benchmark for training and comparing competitive and cooperative strategies of Agents. | https://github.com/google-deepmind/open_spiel |
+| 11 | PettingZoo | Open Source Project | A multi-agent reinforcement learning library providing a Gymnasium-compatible API. Unified environment interfaces and built-in cooperative/adversarial scenarios simplify the setup and evaluation process for multi-Agent experiments. | https://github.com/Farama-Foundation/PettingZoo |
+| 12 | MiniGrid | Open Source Project | A lightweight grid world environment designed for reinforcement learning teaching and benchmarking. Simple observation space and configurable tasks allow for quick validation of an Agent's navigation and basic reasoning abilities. | https://github.com/Farama-Foundation/Minigrid |
+| 13 | Procgen Benchmark | Open Source Project | OpenAI's procedurally generated environment suite, containing 16 games. Included for its infinite level variation feature, specifically designed to test an Agent's generalization ability and robustness to unseen scenarios. | https://github.com/openai/procgen |
+| 14 | NetHack Learning Environment | Open Source Project | A reinforcement learning environment based on the classic Roguelike game NetHack. Complex interactions and long-term planning requirements provide a challenge for studying Agent exploration and strategy under sparse rewards. | https://github.com/facebookresearch/nle |
+| 15 | GVGAI | Open Source Project | A general video game AI framework supporting multiple games and controllers. Included for its competition mechanism and unknown game testing, driving the design of general Agent architectures capable of transferring across games. | https://github.com/GAIGResearch/GVGAI |
+| 16 | MineDojo | Open Source Project/Paper | A Minecraft research platform providing a large-scale dataset and simulator. Included for its open world and complex survival tasks, providing a benchmark for embodied Agent perception, planning, and tool use. | https://github.com/MineDojo/MineDojo |
+| 17 | Voyager | Open Source Project/Paper | An autonomous Agent based on MineDojo, featuring an automatic skill library expansion mechanism. Self-exploration and skill unlocking processes demonstrate the Agent's ability for continuous learning in an open world. | https://github.com/MineDojo/Voyager |
+| 18 | Crafter | Open Source Project | A Minecraft-like 2D survival game environment providing a reinforcement learning interface. Resource collection and crafting task chains are suitable for testing an Agent's learning efficiency under compositional goals. | https://github.com/danijar/crafter |
+| 19 | MiniHack | Open Source Project | A simplified version of the NetHack environment, supporting custom level generation. Included for its programmable task generator, which can quickly create diverse scenarios to evaluate an Agent's strategy adaptation ability. | https://github.com/facebookresearch/minihack |
+| 20 | ViZDoom | Open Source Project | A first-person shooter reinforcement learning environment based on Doom. Visual input and dynamic combat scenarios are used to train an Agent's perception and decision-making in real-time adversarial settings. | https://github.com/Farama-Foundation/ViZDoom |
+| 21 | Pommerman | Open Source Project | Pommerman is a Bomberman-style multi-agent environment supporting competition and cooperation. Its limited map and spatial reasoning requirements make it suitable for studying an Agent's adversarial strategies under partial information. | https://github.com/MultiAgentLearning/playground |
+| 22 | Melting Pot | Open Source Project | DeepMind's social interaction environment suite, containing resource allocation and cooperation game scenarios. Included for its carefully designed social dilemmas, used to analyze Agent behavior patterns and fairness within groups. | https://github.com/google-deepmind/meltingpot |
+| 23 | Griddly | Open Source Project | Griddly is a grid world environment generator supporting custom rules and rendering. High configurability allows for rapid construction of unique tasks for testing an Agent's generalization learning ability. | https://github.com/Bam4d/Griddly |
+| 24 | Unity ML-Agents | Open Source Project | Unity ML-Agents is Unity's machine learning toolkit, providing a 3D environment training framework. Its physics simulation and visual rendering capabilities support the development of embodied Agents with spatial awareness. | https://github.com/Unity-Technologies/ml-agents |
+| 25 | OpenAI Retro | Open Source Project | OpenAI Retro is a retro game reinforcement learning platform supporting multiple classic games. Limited state space and deterministic rules make it suitable for studying Agent policy optimization in discrete action spaces. | https://github.com/openai/retro |

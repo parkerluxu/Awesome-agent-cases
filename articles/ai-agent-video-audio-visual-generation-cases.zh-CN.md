@@ -1,303 +1,75 @@
-# 影音生成：AI Agent 实战案例、教程与科研项目调研
-
-调研日期：2026-06-13
-
-这里的“影音生成”主要指短视频、短剧、影视解说、营销视频、MV 画面、自动剪辑等。与单纯文生视频模型不同，AI Agent 的价值在于把脚本、分镜、素材检索、配音、字幕、剪辑、审核和发布串成流程。
-
-## 结论速览
-
-影音方向是 AI Agent 案例最多、商业化最直接的领域之一。开源项目已经能做到“一键生成短视频”或“一键解说并剪辑视频”，科研项目则开始模拟导演、编剧、摄影、审片等多角色协作。
-
-适合 Agent 的任务：
-
-- 短视频脚本生成。
-- 商品链接到广告短片。
-- 知识科普视频批量生成。
-- 影视/课程长视频解说。
-- 字幕、配音、BGM、素材匹配。
-- 多平台比例导出。
-- 分镜和镜头提示词生成。
-
-不适合完全交给 Agent：
-
-- 新闻事实类视频无人审核。
-- 版权不明的素材混剪。
-- 深度伪造人物或声音。
-- 高要求剧情片最终剪辑。
-- 商业广告合规和疗效/收益承诺。
-
-## 博主/开发者教程与心得
-
-### 1. MoneyPrinterTurbo：一键生成高清短视频
-
-资料类型：开源项目/教程型 README  
-链接：https://github.com/harry0703/MoneyPrinterTurbo
-
-MoneyPrinterTurbo 是中文社区非常高热度的开源项目。README 写明：只需提供视频主题或关键词，就可以自动生成视频文案、视频素材、字幕、背景音乐，并合成高清短视频。项目支持 Web/API、批量生成、字幕样式、横竖屏、多素材源、多模型接入。
-
-适合任务：
-
-- 知识科普短视频。
-- 电商种草视频。
-- 营销号批量测试。
-- 公众号/小红书/抖音素材再加工。
-- 多语言短视频本地化。
-
-使用心得：
-
-- 主题词越具体，脚本越可控。
-- 自动素材匹配不一定贴合语义，需要人工筛。
-- 背景音乐、图片、视频素材要注意授权。
-- 批量生成后应人工挑选，不要全部自动发布。
-
-### 2. ShortGPT：YouTube Shorts/TikTok 自动化框架
-
-资料类型：开源项目/开发者教程  
-链接：https://github.com/RayVentura/ShortGPT
-
-ShortGPT 定位为 YouTube Shorts / TikTok channel automation 的实验性 AI 框架。README 显示它使用 MoviePy 做剪辑渲染，OpenAI 生成脚本和编辑提示，ElevenLabs/EdgeTTS 做语音，Pexels/Bing Image 搜索素材。
-
-适合任务：
-
-- 英文 Shorts 频道 PoC。
-- 视频自动化流水线学习。
-- LLM + TTS + 素材 API + MoviePy 的工程实践。
-- 社媒创意批量测试。
-
-使用心得：
-
-- 它更像“自动剪辑框架”，不是成熟商业发布系统。
-- 视频频道质量取决于脚本和素材选择，不只是自动化。
-- 最好先生成 5 条，人工分析留存率和观看体验，再扩量。
-
-### 3. NarratoAI：影视解说与自动剪辑
-
-资料类型：中文开源项目/教程型 README  
-链接：https://github.com/linyqh/NarratoAI
-
-NarratoAI 定位为“利用 AI 大模型，一键解说并剪辑视频”。README 提供 Docker、本地运行、Streamlit WebUI 等方式。项目基于 MoneyPrinter 等项目重构，增加影视解说能力，计划中还包括短剧混剪、导出剪映草稿、主角人脸匹配等。
-
-适合任务：
-
-- 影视解说。
-- 长视频课程摘要。
-- 企业培训视频剪辑。
-- 短剧混剪。
-- 本地素材自动整理和剪辑。
-
-使用心得：
-
-- 长视频理解成本高，建议先用 5-10 分钟片段测试。
-- 自动解说要检查剧情理解是否错误。
-- 影视版权风险比纯素材库视频更高。
-
-### 4. Creatify / LTX Studio / Higgsfield：商业视频 Agent 工作流
-
-资料类型：商业产品/行业案例  
-链接：
-
-- Creatify：https://en.wikipedia.org/wiki/Creatify
-- LTX Studio：https://en.wikipedia.org/wiki/LTX_Studio
-- Higgsfield AI：https://en.wikipedia.org/wiki/Higgsfield_AI
-
-这些工具代表了商业化视频 Agent 的方向：从商品链接、脚本或人物设定出发，自动生成广告视频、分镜、人物镜头和多平台版本。它们不一定开源，但非常适合拆解工作流。
-
-可复刻流程：
-
-- 商品链接或 brief。
-- Agent 提取卖点。
-- 编剧 Agent 生成脚本。
-- 分镜 Agent 生成镜头。
-- 视频/图像模型生成画面。
-- TTS、字幕、BGM。
-- 输出 9:16、1:1、16:9 多版本。
-
-### 5. LTX Studio：从脚本到分镜、镜头和长视频项目
-
-资料类型：商业产品/创作者工作流  
-链接：https://en.wikipedia.org/wiki/LTX_Studio
-
-LTX Studio 让用户把文本 prompt 或脚本转成角色、场景、storyboard 和视频序列，并提供构图和镜头方向控制。它不是传统开源项目，但很适合作为短剧/广告/分镜类 Agent 工作流参考：Agent 先负责结构和导演意图，再由视频模型生成镜头。
-
-### 6. LTX-2 / LTX Desktop：本地可运行视频模型和桌面编辑器
-
-资料类型：开源模型/桌面工具  
-链接：https://en.wikipedia.org/wiki/LTX_%28text-to-video_model%29
-
-LTX-2 是 Lightricks 的开源视频模型系列，资料显示其后续版本支持音视频同步、更高分辨率和本地桌面编辑器。对 Agent 工作流来说，它可以成为“执行器”：Claude/Codex 生成脚本、镜头表、ffmpeg 命令，LTX 生成视频片段，再由 Agent 自动合成。
-
-### 7. Higgsfield：面向社媒营销的端到端视频工作流
-
-资料类型：商业产品/行业案例  
-链接：https://en.wikipedia.org/wiki/Higgsfield_AI
-
-Higgsfield 定位为短视频和营销视频工作流平台，面向社媒团队和广告创意。公开资料提到它组合第三方模型和内部 reasoning engine，提高生成视频的一致性。它适合放入“影音生成 Agent 商业化案例”，尤其是商品视频、趋势热点、广告素材快速迭代。
-
-### 8. Pippit / 小云雀：Agent Mode 与短剧 Agent
-
-资料类型：中文/国际商业产品案例  
-代表工具：Pippit、小云雀、CapCut、Seedance 2.0  
-链接：https://en.wikipedia.org/wiki/Pippit
-
-Pippit 是字节跳动面向内容创作者和中小企业的 AI 内容生产平台。公开资料提到它推出 Agent Mode，可把想法转为可发布视频；2026 年又接入 Dreamina/Seedance 2.0，推出 Short Drama Agent，支持把长剧本转成完整视频制作流程。它不算开源教程，但很适合放进“短剧/营销视频 Agent”案例库。
-
-可借鉴点：
-
-- 代表中文短视频生态里的端到端 Agent 工作流。
-- 输入不再只是短 prompt，也可以是长剧本、商品信息、营销 brief。
-- 风险包括版权、肖像、平台审核和批量低质内容。
-
-### 9. Kling AI / 可灵：中文视频模型进入创作者工作流
-
-资料类型：中文视频生成产品 / 创作案例线索  
-代表工具：Kling AI、快影、快手视频生态  
-链接：https://en.wikipedia.org/wiki/Kling_AI
-
-Kling AI 是快手推出的视频生成模型，公开资料显示它可以从自然语言生成视频，并与快手/快影生态关联。它本身不是完整 Agent，但可作为影音 Agent 的执行器：脚本 Agent 生成分镜，Kling 生成镜头，剪辑 Agent 用 ffmpeg/MoviePy 合成，再由 QA Agent 检查字幕、节奏和风险。
-
-可借鉴点：
-
-- 中文短视频平台拥有大量视频数据和分发场景，适合视频 Agent 落地。
-- 适合商品短片、剧情片段、知识视频视觉化。
-- 需要明确敏感内容、肖像权和平台合规。
-
-### 10. HunyuanVideo：腾讯开源视频模型作为 Agent 后端
-
-资料类型：开源模型 / 影音生成项目  
-链接：https://arxiv.org/abs/2412.03603  
-代码：https://github.com/Tencent/HunyuanVideo
-
-HunyuanVideo 是腾讯开源的大规模视频生成框架。它不是 Agent 本身，但很适合被 Agent 调用：Agent 负责脚本、分镜、提示词、镜头排序和合成，HunyuanVideo 负责生成片段。对本地化团队来说，这比只使用闭源 SaaS 更容易做私有化实验。
-
-可借鉴点：
-
-- 适合“Agent 编排 + 开源视频模型执行”的实验。
-- 可把模型输出接入 ShortGPT、MoviePy、ffmpeg 等流程。
-- 需要较高算力和模型部署经验。
-
-## 科研项目/论文
-
-### LTX-2 / LTX Studio：开源视频模型与可控工作室
-
-资料类型：开源模型/商业产品  
-链接：
-
-- LTX-2：https://en.wikipedia.org/wiki/LTX_%28text-to-video_model%29
-- LTX Studio：https://en.wikipedia.org/wiki/LTX_Studio
-
-LTX-2 是 Lightricks 的开源视频模型系列，LTX Studio 则把脚本、角色、场景、分镜、镜头控制和编辑整合成视频制作环境。对于 AI Agent 工作流，它提供了一个清晰方向：先由 Agent 生成导演意图和结构，再调用可控视频模型生产镜头。
-
-可复刻流程：
-
-- Agent 生成脚本。
-- Agent 生成角色表和镜头表。
-- LTX/Runway/Pika 等生成镜头。
-- ffmpeg/MoviePy 合成。
-- QA Agent 检查字幕、节奏、品牌词和版权。
-
-### 1. StoryAgent：多 Agent 叙事视频生成
-
-资料类型：科研项目  
-链接：https://arxiv.org/abs/2411.04925
-
-StoryAgent 把故事视频生成拆给多个专业 Agent：故事设计、分镜、视频创建、协调和结果评估。重点解决主角一致性和跨镜头一致性。
-
-实践启发：
-
-- 短剧生成不能只靠一句 prompt。
-- 角色设定库、分镜和审核 Agent 很重要。
-- 一致性比单帧质量更难。
-
-### 2. Kubrick：多模态 Agent 协作生成 Blender 视频
-
-资料类型：科研项目  
-链接：https://arxiv.org/abs/2408.10453
-
-Kubrick 使用 VLM Agent 协作，把文字描述转成 Blender 脚本并渲染视频。Director Agent 分解任务，Programmer Agent 写 Python Blender 脚本，Reviewer Agent 根据截图反馈修改。
-
-实践启发：
-
-- 对可控视频，3D/Blender 脚本比纯文生视频更可验证。
-- Agent 写脚本、截图审查、迭代修正是很好的闭环。
-
-### 3. GenMAC / WorldGPT：复杂视频生成 Agent
-
-资料类型：科研项目  
-链接：
-
-- GenMAC：https://arxiv.org/abs/2412.04440
-- WorldGPT：https://arxiv.org/abs/2403.07944
-
-这些研究关注复杂动态场景、时间一致性和多 Agent 验证。对商业短视频来说，它们说明未来 Agent 会从“剪现成素材”走向“设计并生成完整镜头”。
-
-### 5. StreamingT2V：长视频生成的一致性路线
-
-资料类型：科研项目  
-链接：https://arxiv.org/abs/2403.14773
-
-StreamingT2V 不是 Agent 系统，但解决了长视频生成中的 chunk 过渡、短期记忆和长期外观保持问题。对短剧/MV Agent 来说，长视频一致性是核心瓶颈，因此这类模型可作为后端视频生成能力记录。
-
-### 6. Video2GIF：从视频自动生成 GIF 的早期任务
-
-资料类型：经典研究  
-链接：https://arxiv.org/abs/1605.04850
-
-Video2GIF 是更早的自动视频片段选择研究，虽然不是现代 Agent，但对“自动剪辑精彩片段”很有启发。现在的 Agent 可以把类似片段选择能力接到短视频切片、直播切片和课程摘要里。
-
-### 7. UniVA / Paper2Video / VideoAgent / VGTeam 的分工比较
-
-资料类型：研究路线总结  
-链接：
-
-- UniVA：https://arxiv.org/abs/2511.08521
-- Paper2Video：https://arxiv.org/abs/2510.05096
-- VideoAgent：https://arxiv.org/abs/2509.11253
-- VGTeam：https://arxiv.org/abs/2509.01277
-
-这组项目覆盖了通用视频 Agent、论文讲解视频、科学视频、slideshow storytelling。它们共同说明：影音 Agent 的成熟路线不是“一句话生成完整视频”，而是把视频拆成文本理解、素材组织、脚本、布局、配音、字幕、渲染和验证多个节点。
-
-<!-- AUTO_CASE_UPDATES_START:video:zh-CN -->
-## 最新更新(2026-06-13)
-
-以下内容为基于候选资料自动发现的增量线索，供《AI Agent 影音生成案例》后续更新参考。所有信息均来自候选资料，未做额外编造。
-
-
-- **VideoWeaver 基准与技能演化框架**：论文 `VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation`（arXiv, 2026-06-06）提出一个用于评估和演化长视频生成技能的 Agent 框架。该工作指出，Claude Code、Codex 等现代 Agent 框架在长视频生成这一长程多模态任务上的能力尚待探索。来源：https://arxiv.org/abs/2606.08091v1
-- **ViMax 多智能体协作视频生成**：论文 `ViMax: Agentic Video Generation`（arXiv, 2026-06-02）提出一个通过多智能体协作实现长视频生成的框架，专门组件协商叙事决策和视觉一致性。来源：https://arxiv.org/abs/2606.07649v1
-- **Prisma-World 多智能体视频世界模型**：论文 `Prisma-World: Camera-Controllable Multi-Agent Video World Model`（arXiv, 2026-06-08）探索了可控制摄像机的多智能体视频世界模型，解决多视角场景一致性问题。来源：https://arxiv.org/abs/2606.09507v1
-- **MAVIS 多智能体视频检索**：论文 `MAVIS: Multi-Agent Video Retrieval via Structured Video Understanding`（arXiv, 2026-06-08）将视频检索重构为多智能体协作推理，而非暴力搜索。来源：https://arxiv.org/abs/2606.09641v1
-
-#### GitHub/开源项目
-
-- **ArcReel**：AI Agent 驱动的开源视频生成工作台，支持小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致。使用 Nano Banana 2 & Veo 3.1 / Grok / Seedance / OpenAI。来源：https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5
-- **Synapse**：实时视频 AI Agent，使用 TruGen AI APIs，用户可调用并与 Agent 交互以端到端完成现实任务，集成外部工具（通过 MCP/APIs）。来源：https://github.com/12asascoder/Synapse
-- **stereoframe**：基于 three.js 的声明式、确定性 3D 视频框架，专为 AI Agent 构建。来源：https://github.com/kiyeonjeon21/stereoframe
-- **content-pipeline**：将发布公告转化为可发布社交内容（文案、图片卡片、配音、视频规格）的 AI Agent 管道，由 AI Agent 构建者以测试驱动方式开发。来源：https://github.com/ziyilam3999/content-pipeline
-- **gemini-youtube-automation**：完全自主的 AI Agent/Python 管道，使用 Gemini 等 LLM 生成内容、制作视频并自动上传教育视频到 YouTube（287 Stars）。来源：https://github.com/ChaitanyaEswarRajeshJakki/gemini-youtube-automation
-- **shopthevideo**：AI 驱动的“购物视频”电商 Agent。来源：https://github.com/faireide/shopthevideo
-- **voice-agent**：AI 面试官，以视频通话形式提问并给出评分反馈。来源：https://github.com/PratikMahara/voice-agent
-- **NVIDIA/skills**：NVIDIA 发布的 AI Agent 技能集合。来源：https://news.google.com/rss/articles/CBMiR0FVX3lxTE5sTlJJZVZJQWFUd3kwLW1tQ2JCU1ZfN2RjY2hkRlZiSVZZZUdpLXBnUmF5SUU1SVJDUzJOT05MUnJVbnJwUkk4?oc=5
-
-### 论文 / Benchmark
-
-- **VideoWeaver**：评估和演化长视频生成技能的 Agent 基准。来源：https://arxiv.org/abs/2606.08091v1
-- **StoryVideoQA**：大规模、多体裁、自动生成的深度视频理解数据集，用于视频问答。来源：https://arxiv.org/abs/2606.06338v1
-- **Cosmos 3**：NVIDIA 的全模态世界模型，统一处理语言、图像、视频、音频和动作序列。来源：https://arxiv.org/abs/2606.02800v2
-- **World Models 综述**：对世界模型架构、方法论、推理范式和应用的全面综述，涵盖视频生成。来源：https://arxiv.org/abs/2606.00133v1
-- **OmniDirector**：通用多镜头摄像机克隆方法，无需交叉配对数据。来源：https://arxiv.org/abs/2606.13432v1
-- **Resonant Minds**：具有心智理论的闭环社交数字人，整合认知推理与多模态生成。来源：https://arxiv.org/abs/2606.05896v1
-- **多模态多智能体机器人认知对齐**：利用非侵入式消费级脑机接口实现多智能体机器人认知对齐。来源：https://arxiv.org/abs/2606.13190v1
-- **Continual Quadruped Robots Coordination**：通过语义技能发现实现持续四足机器人协调。来源：https://arxiv.org/abs/2606.08102v2
-- **Does Persona Make LLMs K-pop Fans?**：基于人格的 LLM 在线演唱会观众 Agent 研究，生成实时粉丝聊天。来源：https://arxiv.org/abs/2606.07837v1
-
-### 教程 / 媒体实测
-
-- **Google 搜索框 25 年来首次重新设计**：从简单关键词输入转变为动态 AI 驱动对话界面。来源：https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think
-- **OpenAI 收购 Ona**：扩展 Codex 以提供安全、持久的云环境，支持跨企业工作流的长时间运行 AI Agent。来源：https://openai.com/index/openai-to-acquire-ona
-- **Antigravity Managed Agents 教程**：关于如何部署生产级 AI Agent 的教程。来源：https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOGhfRTk4bV9PQmRJQkQ3WWVNMHl3Yk9nT3VpNHRGOGZDak82VW1jYWtuWWhFbzd2eFpNd1NxbGlHOTdIbE1mNjR3ZE9WcHp1QzZDcDh3bjdwYjAtU2pSZWYzYnJMc3FJMFlteHNEUjBpeUxWY3NnZUpaVERCTEI2UFJCZGpqS19xZVdnS1VGU29NNnEwWlB2dFlDdFJfMHdUZk94cHZzdllFQQ?oc=5
-- **LumeFlow AI 革新视频制作管道**：使用 GPT Image 2 和 AI Agent 技能。来源：https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1BIU2lTYlhnZmZaRzRTWlZsaFRYU3hZRDZDYVRmdTlYOG95SnNTZTUzZUFoeHJZMVF0M0F0aWNrTEstXzNIQmxOVkhuVlZva2Y1Q21iTkJfa3lIR1ozcy0zb0Z1UkdHdDdjUWpoMFpwVnBSTFdWSjZtMFdCdkY3QTh1LXdQc09oZDJsNE5rUnRCdWRZMXVUZ2hBbm15T0pxaDBOS2t2UkdkU3o2TVN6UzBUbnRFZjVFQ2tmTWxPT2U0cW4tSDloTmln?oc=5
-
-
-- **ArcReel** 项目描述为中文，明确提及“AI Agent 驱动的开源视频生成工作台 — 小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致”。来源：https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR?oc=5
-
-<!-- AUTO_CASE_UPDATES_END:video:zh-CN -->
+﻿# 影音生成：AI Agent 实战案例、教程与科研项目调研
+
+这是一份面向开发者、创作者和研究者的 AI Agent 资料索引，收集了相关方向的教程、案例、开源项目、论文、Benchmark 和产品实践。它的目标是帮助读者快速发现可复现的项目、可参考的工作流，以及值得进一步阅读的研究资料。
+
+> 说明：本索引偏“资料集合”和“选题导航”，部分条目会在后续持续二次 review、补充备注和筛选质量。欢迎把它作为 GitHub 仓库中的起点清单使用，并根据自己的方向继续扩展。
+
+## 大规模资料索引（26+30）
+
+本节分为两类：`教程 / 案例 26 条` 和 `项目 / 论文 30 条`。每条资料包含名称、类型、简要说明和原链接，便于快速判断是否值得深入阅读。
+
+### 教程 / 案例 26 条
+
+| # | 名称 | 类型 | 用途/摘要 | 链接 |
+|---:|---|---|---|---|
+| 1 | MoneyPrinterTurbo | 开源教程 | 开源项目 MoneyPrinterTurbo，提供脚本、素材、配音、字幕和镜头生成的合成流水线。 | https://github.com/harry0703/MoneyPrinterTurbo |
+| 2 | ShortGPT | 开源教程 | 开源项目 ShortGPT，实现短视频的自动化脚本编写、配音和镜头合成。 | https://github.com/RayVentura/ShortGPT |
+| 3 | NarratoAI | 开源教程 | 开源项目 NarratoAI，自动化生成配音、字幕和视频剪辑的完整流水线。 | https://github.com/linyqh/NarratoAI |
+| 4 | Pippit | 产品案例 | 维基百科条目，介绍 Pippit 产品在视频生成与多媒体自动化方面的功能。 | https://en.wikipedia.org/wiki/Pippit |
+| 5 | Kling AI | 产品案例 | 维基百科条目，概述 Kling AI 在视频生成领域的应用和产品特点。 | https://en.wikipedia.org/wiki/Kling_AI |
+| 6 | Runway docs | 官方教程 | Runway 官方帮助中心，涵盖文本/图像转视频、视频编辑等工具的操作指南，是理解其Gen-2等模型工作流的起点。 | https://help.runwayml.com/ |
+| 7 | Pika docs | 官方教程 | Pika 官网展示其视频生成平台，核心卖点是低门槛的文本提示即可产出连贯短视频，适合快速原型验证。 | https://pika.art/ |
+| 8 | LTX Studio | 产品案例 | 维基百科对 LTX Studio 的概述，定位为面向创意叙事的 AI 视频生成工具，强调剧本到分镜的自动化流程。 | https://en.wikipedia.org/wiki/LTX_Studio |
+| 9 | Creatify | 产品案例 | Creatify 的维基百科条目，聚焦其自动化生成营销视频的能力，典型场景是商品链接一键转化为广告短片。 | https://en.wikipedia.org/wiki/Creatify |
+| 10 | Higgsfield AI | 产品案例 | Higgsfield AI 的维基百科介绍，主打个性化数字人视频生成，可基于单张照片驱动面部表情与口型同步。 | https://en.wikipedia.org/wiki/Higgsfield_AI |
+| 11 | ComfyUI examples | 教程 | ComfyUI 官方示例集，以节点图形式展示图像与视频生成管线，可复现 Stable Diffusion、AnimateDiff 等模型的典型工作流。 | https://comfyanonymous.github.io/ComfyUI_examples/ |
+| 12 | AnimateDiff docs | 教程 | AnimateDiff 的 GitHub 仓库，提供将静态图像序列转化为平滑动画的扩散模型实现，附带推理脚本与预训练权重。 | https://github.com/guoyww/AnimateDiff |
+| 13 | Stable Video Diffusion | 模型文档 | Stable Video Diffusion 在Hugging Face上的模型卡，包含img2vid权重、推理示例与使用限制说明，适合直接调用。 | https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt |
+| 14 | Diffusers text-to-video | 官方教程 | Hugging Face Diffusers 库的 text-to-video 教程，演示如何用几行代码调用预训练模型从文字生成短视频片段。 | https://huggingface.co/docs/diffusers/using-diffusers/text-img2vid |
+| 15 | Whisper usage | 项目教程 | OpenAI Whisper 的 GitHub 项目，通用语音识别模型，支持多语言转录与翻译，可本地部署实现高精度音频转文字。 | https://github.com/openai/whisper |
+| 16 | WhisperX docs | 项目教程 | WhisperX 在 Whisper 基础上增加说话人分离与词级时间戳对齐，提升多人对话场景的转录准确性与可用性。 | https://github.com/m-bain/whisperX |
+| 17 | Coqui TTS docs | 教程 | Coqui TTS 的开源文本转语音引擎，支持多语言与声音克隆，提供预训练模型与训练脚本，可定制语音风格。 | https://github.com/coqui-ai/TTS |
+| 18 | Edge TTS project | 项目教程 | Edge TTS 项目封装微软Edge浏览器的免费语音服务，无需API Key即可调用，适合快速集成高质量TTS。 | https://github.com/rany2/edge-tts |
+| 19 | ElevenLabs docs | 官方教程 | ElevenLabs 官方文档，详述其语音合成与克隆API的调用方式，支持情感控制与多语言生成，适合构建对话式AI。 | https://elevenlabs.io/docs |
+| 20 | Runway Academy | 官方教程 | Runway Academy 提供从基础到进阶的视频生成课程，涵盖 Gen-2 操作、绿幕合成与运动追踪等实战案例。 | https://academy.runwayml.com/ |
+| 21 | Luma Dream Machine | 产品教程 | Luma Dream Machine 产品页，展示其从文本或图像生成连贯 3D 场景与动态视频的能力，强调物理一致性。 | https://lumalabs.ai/dream-machine |
+| 22 | HeyGen docs | 官方教程 | HeyGen 官方文档，指导创建 AI 数字人视频，支持上传照片驱动口型、多语言配音与模板化批量生产。 | https://docs.heygen.com/ |
+| 23 | Synthesia help | 官方教程 | Synthesia 帮助中心，提供数字人视频制作全流程指南，从选择虚拟形象到导出成品，适合企业级内容生产。 | https://help.synthesia.io/ |
+| 24 | Remotion docs | 官方教程 | Remotion 官方文档，阐述如何用 React 组件编程生成视频，为构建自动化视频渲染流水线提供完整技术参考。 | https://www.remotion.dev/docs/ |
+| 25 | Shotstack API docs | 官方教程 | Shotstack API 开发指南，提供云端视频编辑的接口说明，适合构建可编程的视频合成与渲染服务。 | https://shotstack.io/docs/guide/ |
+| 26 | Creatomate docs | 官方教程 | Creatomate 官方文档，展示如何通过 API 和模板自动化生成视频，便于快速集成动态视频生成功能到应用中。 | https://creatomate.com/docs |
+
+### 项目 / 论文 30 条
+
+| # | 名称 | 类型 | 用途/摘要 | 链接 |
+|---:|---|---|---|---|
+| 1 | UniVA | 论文 | UniVA 提出统一视频生成架构，涵盖问题设定、数据来源与评价指标，为多任务视频生成提供可复现的基准框架。 | https://arxiv.org/abs/2511.08521 |
+| 2 | Paper2Video | 论文 | Paper2Video 构建从论文自动生成视频的流水线，涉及脚本撰写、素材检索、配音合成与字幕生成，适合学术内容可视化场景。 | https://arxiv.org/abs/2510.05096 |
+| 3 | VideoAgent | 论文 | VideoAgent 以智能体驱动视频生成，整合脚本规划、素材选择与镜头合成，为自动化视频制作提供端到端工作流参考。 | https://arxiv.org/abs/2509.11253 |
+| 4 | VGTeam | 论文 | VGTeam 聚焦视频生成中的多智能体协作机制，定义团队分工与交互流程，实验验证了协作式生成的效果提升。 | https://arxiv.org/abs/2509.01277 |
+| 5 | StoryAgent | 论文 | StoryAgent 探索故事驱动的视频生成，将叙事结构转化为镜头序列，附带评价指标与可复现性说明，适合剧情类生成研究。 | https://arxiv.org/abs/2411.04925 |
+| 6 | Kubrick | 论文 | Kubrick 研究电影级视频生成技术，从数据采集到评价指标均面向高视觉质量场景，为影视风格生成提供实验依据。 | https://arxiv.org/abs/2408.10453 |
+| 7 | GenMAC | 论文 | GenMAC 提出生成式多模态对齐与合成方法，解决跨模态内容一致性问题，实验覆盖多种视频与音频对齐任务。 | https://arxiv.org/abs/2412.04440 |
+| 8 | WorldGPT | 论文 | WorldGPT 将世界模型与视频生成结合，通过物理规律约束生成过程，提供问题设定与可复现性细节，适合仿真与预测场景。 | https://arxiv.org/abs/2403.07944 |
+| 9 | StreamingT2V | 论文 | StreamingT2V 实现流式文本到视频生成，支持长视频的渐进式输出，数据来源与评价指标面向实时生成需求。 | https://arxiv.org/abs/2403.14773 |
+| 10 | HunyuanVideo | 开源项目/论文 | HunyuanVideo 是腾讯开源的视频生成项目，提供论文与完整代码，涵盖从文本到视频的合成流水线，可直接复现实验。 | https://github.com/Tencent/HunyuanVideo |
+| 11 | ComfyUI | 开源项目 | 节点式界面编排稳定扩散工作流，支持视频生成与剪辑的自动化组合，适合构建复杂流水线或快速原型验证。 | https://github.com/comfyanonymous/ComfyUI |
+| 12 | AnimateDiff | 开源项目 | AnimateDiff 为文本到图像模型添加动画能力，通过运动模块实现帧间一致性，代码开源，可集成到现有生成流程。 | https://github.com/guoyww/AnimateDiff |
+| 13 | Stable Video Diffusion | 模型 | Stable Video Diffusion 是 Stability AI 的图像到视频模型，基于扩散架构生成连贯视频，提供预训练权重与推理示例。 | https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt |
+| 14 | ModelScope text-to-video | 模型 | 达摩院开源的文本到视频生成模型，提供直接推理接口，可快速验证文本驱动的视频合成效果。 | https://huggingface.co/damo-vilab/text-to-video-ms-1.7b |
+| 15 | VideoCrafter | 开源项目 | VideoCrafter 提供多种视频生成模式，包括文本到视频与图像到视频，代码开源，附带预训练模型与使用示例。 | https://github.com/AILab-CVC/VideoCrafter |
+| 16 | Open-Sora | 开源项目 | 开源复现 Sora 视频生成能力，涵盖数据预处理到模型训练全流程，适合研究大规模视频生成技术。 | https://github.com/hpcaitech/Open-Sora |
+| 17 | CogVideo | 开源项目 | CogVideo 是清华开源的文本到视频生成项目，基于预训练模型实现端到端合成，提供推理脚本与示例输出。 | https://github.com/THUDM/CogVideo |
+| 18 | Whisper | 开源项目 | OpenAI 开源的通用语音识别模型，支持多语种转录与翻译。在影音生成中作为语音转文字的基础工具，可用于自动生成视频字幕或辅助音频内容索引。 | https://github.com/openai/whisper |
+| 19 | WhisperX | 开源项目 | Whisper 增强版，集成语音活动检测与说话人分离，输出更精准的时间戳和多人对话转录结果，适用于会议或访谈视频处理。 | https://github.com/m-bain/whisperX |
+| 20 | edge-tts | 开源项目 | 基于微软 Edge TTS 服务的 Python 库，无需 API Key 即可调用自然语音合成，适合为视频或应用快速生成配音。 | https://github.com/rany2/edge-tts |
+| 21 | Coqui TTS | 开源项目 | 社区驱动的深度学习 TTS 工具包，支持多语言与声音克隆，提供从训练到部署的完整流程，可用于定制化语音合成。 | https://github.com/coqui-ai/TTS |
+| 22 | SadTalker | 开源项目 | 从单张图片与音频生成说话人脸视频的模型。输入静态肖像和语音，输出唇形同步的动画，适用于虚拟主播、数字人交互等场景。 | https://github.com/OpenTalker/SadTalker |
+| 23 | Wav2Lip | 开源项目 | 根据音频同步唇形运动的视频生成模型。可将任意视频中人物口型与给定语音精确匹配，常用于配音、翻译或视频后期修正。 | https://github.com/Rudrabha/Wav2Lip |
+| 24 | RIFE | 开源项目 | ECCV2022 提出的实时视频帧插值算法。通过生成中间帧提升视频帧率，用于制作慢动作或平滑过渡效果，优化播放流畅度。 | https://github.com/hzwer/ECCV2022-RIFE |
+| 25 | Real-ESRGAN | 开源项目 | 实用的盲超分辨率模型，擅长修复低分辨率图像与视频。能显著提升老旧或压缩素材的清晰度，在影音修复中作为关键后处理工具。 | https://github.com/xinntao/Real-ESRGAN |
+| 26 | GFPGAN | 开源项目 | 腾讯 ARC 开源的人脸修复模型，专用于老照片或模糊人脸。可恢复面部细节，改善视频中人像质量，常与超分辨率模型配合使用。 | https://github.com/TencentARC/GFPGAN |
+| 27 | Remotion | 开源项目 | 用 React 编写视频的框架，通过代码控制每一帧，适合程序化视频制作，如动态数据可视化或自动化剪辑。 | https://github.com/remotion-dev/remotion |
+| 28 | Auto-Editor | 开源项目 | 基于音频静音检测的自动视频剪辑工具，可快速删除无用片段，精简长视频或提取精彩内容，适合粗剪或批量处理。 | https://github.com/WyattBlue/auto-editor |
+| 29 | Segment Anything | 开源项目 | Meta 开源的图像分割基础模型，可识别任意物体。在影音生成中用于精准抠图或分离视频前景背景，辅助合成与特效制作。 | https://github.com/facebookresearch/segment-anything |
+| 30 | Depth Anything V2 | 开源项目 | 单目深度估计模型，能从单张图片预测深度图。可获取场景三维结构，用于视频特效、AR 合成或背景虚化等后期处理。 | https://github.com/DepthAnything/Depth-Anything-V2 |

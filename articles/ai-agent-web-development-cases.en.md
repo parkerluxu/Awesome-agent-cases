@@ -1,218 +1,66 @@
-# Web Development: AI Agent Case Studies, Tutorials, and Research Projects
-
-Research date: 2026-06-13
-
-This article focuses on cases where AI agents directly build Web products, websites, admin panels, and tools. The main actors are Claude Code, OpenAI Codex, Cursor, Replit Agent, Lovable, Bolt, Firebase Studio, and similar systems, rather than agent platforms such as Dify or Coze.
-
-## Quick Takeaways
-
-Web development is currently one of the most mature landing areas for AI agents. Feedback loops are fast, tests can be automated, screenshots can be used for acceptance, deployment is mature, and errors are usually easy to iterate on.
-
-Tasks that are especially suitable for replication:
-
-- E-commerce demos: product lists, detail pages, carts, payment sandboxes, admin panels.
-- Small SaaS tools: subscription trackers, quote tools, CRMs, dashboards.
-- Content sites: blogs, knowledge bases, portfolios, course pages.
-- Business admin systems: CRUD, permissions, search, filters, import/export.
-- Personal tools: budgets, fitness, reading, habits, data visualization.
-
-## Tutorials and Practitioner Notes
-
-### 1. Vibe Coding for Personal Web Tools and E-commerce Prototypes
-
-Type: media / practitioner summaries  
-Representative tools: Replit, Cursor, Claude, Lovable  
-Link: https://en.wikipedia.org/wiki/Vibe_coding
-
-The typical vibe-coding pattern is simple: users describe a product in natural language, and the agent generates pages, components, data structures, and deployment configuration. Kevin Roose's experiments are often cited as "software for one." Public materials also mention an e-commerce experiment where AI fabricated product reviews.
-
-Reusable lessons:
-
-- Ask for a minimal runnable version first.
-- Add database, auth, payment sandbox, and admin panel in the second round.
-- Use a second agent or a human for security review.
-- Put hard human constraints around reviews, sales numbers, certifications, and discounts.
-
-### 2. Claude Code vs Codex Building Three Real Apps
-
-Type: media test  
-Representative tools: Claude Code, OpenAI Codex  
-Link: https://www.tomsguide.com/ai/claude-code-vs-openai-codex-i-built-3-real-apps-to-find-the-better-agent-heres-the-verdict
-
-Tom's Guide asked Claude Code and Codex to build a subscription tracker, a grocery price comparison tool, and a loan-vs-cash purchase calculator. The rough conclusion: Claude Code behaved more like a fast product prototyper with better first-run UX, while Codex was stronger in complex logic, data handling, and analytical depth.
-
-Prompt structure:
-
-```text
-Target user:
-Core features:
-Input fields:
-Calculation rules:
-Page structure:
-Acceptance criteria:
-Things not to do:
-```
-
-For finance, e-commerce, and price-comparison tools, require formulas and boundary cases. A second agent doing code review is especially useful.
-
-### 3. Lovable / Replit / Bolt and Prompt-to-App Web Generation
-
-Type: platform ecosystem / industry reports  
-Links:
-
-- Replit overview: https://en.wikipedia.org/wiki/Replit
-- Lovable overview: https://en.wikipedia.org/wiki/Lovable_%28company%29
-- Prompt-to-product research: https://arxiv.org/abs/2512.18080
-
-Lovable, Replit, Bolt, and Firebase Studio combine generation, preview, deployment, database, and auth into one flow. They are especially useful for non-technical founders building MVPs, but complex applications still run into data modeling, security, and permission issues.
-
-Good tasks include customer questionnaires, appointment/inventory/order tools, course landing pages, student admin panels, lead capture, and lightweight CRM tools.
-
-### 4. Washington Post: Ordinary Users Building Personal Apps
-
-Type: non-programmer cases  
-Representative tools: Claude Code, Claude Cowork  
-Link: https://www.washingtonpost.com/technology/interactive/2026/claude-code-cowork-build-apps/
-
-The key lesson is that domain knowledge matters. Users can turn highly specific personal or local knowledge into software requirements, while agents turn those requirements into usable prototypes. Publishing, hosting, permissions, and data maintenance remain harder than first generation.
-
-### 5. Weekend Vibe-Coded Apps and Distribution
-
-Type: media tutorial  
-Link: https://www.tomsguide.com/ai/i-vibe-coded-an-app-in-a-single-weekend-heres-how-i-got-it-into-other-peoples-phones
-
-The practical reminder is that getting the app into other people's hands matters as much as generating code. Vercel, Netlify, Replit, and GitHub Pages are part of the real workflow. A useful replication path is to build a PWA, add manifest and responsive layout, deploy it, and distribute it with a QR code.
-
-### 6. Claude Code Web App and Repository-Based Agent Workflows
-
-Type: product workflow case  
-Link: https://timesofindia.indiatimes.com/technology/tech-news/anthropic-launches-claude-code-web-app-expanding-access-to-ai-powered-coding-agents/articleshow/124720853.cms
-
-Claude Code Web connects to GitHub repositories and runs in isolated hosted VMs to clone, install dependencies, edit code, run tests, and create PRs. This is well suited for Web maintenance tasks such as UI bug fixes, tests, dependency upgrades, docs, and small feature PRs.
-
-### 7. GPT Engineer to Lovable
-
-Type: open-source-to-commercial evolution  
-Link: https://en.wikipedia.org/wiki/Lovable_%28company%29
-
-Lovable's roots in gpt-engineer show a broader shift: one-shot repository generation was only the first step. Durable value comes from continuous editing, visual feedback, database/auth/deployment integration, and exportable code that engineers can take over.
-
-### 8. Figma MCP to Frontend Pages with Trae
-
-Type: Chinese tutorial / concrete workflow  
-Link: https://www.infoq.cn/article/QjaRMr5pGMK84UYjoo9P
-
-This tutorial demonstrates a full "Figma design to frontend page" workflow with Trae, Figma AI Bridge MCP, DeepSeek-V3, tokens, MCP configuration, a custom Figma assistant, and generated responsive HTML. The important lesson is to give the agent the Figma file as context instead of asking it to imagine the UI.
-
-### 9. Playwright MCP for Web Acceptance Testing
-
-Type: Chinese tutorial / Web testing agent  
-Link: https://www.infoq.cn/article/khJ1J5iikaO9q1Pwc5HI
-
-This workflow configures Playwright MCP in Trae, creates a Web testing assistant, and lets the agent open pages, take screenshots, click links, and execute test instructions. It is a strong addition to Web-agent acceptance: agents should not only write pages, but also inspect interactions.
-
-## Research and Product Directions
-
-### Cursor 3 / Agent HQ: Assigning Web Tasks to Multiple Agents
-
-Links:
-
-- Cursor 3: https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic
-- GitHub Agent HQ: https://www.theverge.com/news/873665/github-claude-codex-ai-agents
-
-Web development is moving from one chat box generating code to multiple agents handling issues, PRs, tests, and UI changes. A good replication test is to create three issues for a demo e-commerce app, assign them to different agents, and compare scope, tests, and UI regressions.
-
-### Replit Agent and Production Data Incidents
-
-Links:
-
-- Replit overview: https://en.wikipedia.org/wiki/Replit
-- AI agent risk overview: https://en.wikipedia.org/wiki/AI_agent
-- Guardian incident report: https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database
-
-The lesson is blunt: once agents touch production databases, credentials, and deployment environments, the risk moves from "code bug" to "business incident." Keep local/preview and production environments separate, make production databases read-only by default, require human approval for migrations, and rely on external backups.
-
-### From Prompt to Product
-
-Link: https://arxiv.org/abs/2512.18080
-
-This benchmark compares Replit, Bolt, and Firebase Studio across 96 Web-app prompts and 288 generated apps, evaluated through 1,071 pairwise comparisons. It highlights that Web-agent outputs should be judged by task completion, usability, visual appeal, and trust, not only whether code runs.
-
-### Student-AI Interactions in Vibe Coding
-
-Link: https://arxiv.org/abs/2507.22614
-
-The study observes students using Replit to build Web apps. Many focus on testing and debugging prototypes while rarely entering code. Tutorials should therefore teach users how to describe context, inspect code, verify data flow, and check permissions.
-
-### WebApp1K
-
-Link: https://arxiv.org/abs/2408.00019
-
-WebApp1K provides a benchmark for Web app code generation, helping move "can agents build websites?" from subjective demos toward testable tasks.
-
-### Coding Beyond Your Training
-
-Link: https://arxiv.org/abs/2605.25438
-
-This empirical study tracks 5,838 GitHub developers before and after Claude Code collaboration. It suggests agents not only improve productivity within one stack, but also lower the barrier to trying new frameworks, languages, and projects.
-
-<!-- AUTO_CASE_UPDATES_START:web:en -->
-## Latest Updates (2026-06-13)
-
-
-- **Google search box redesign (AI-driven conversational input)** — Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a keyword input into a dynamic, AI-driven conversational interface. This is the first major change to the search box in 25 years and signals a paradigm shift for how users interact with web-based AI agents. [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) (2026-05-19)
-
-- **OpenAI to acquire Ona** — OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows. This acquisition could significantly impact the infrastructure available for AI agent web development. [OpenAI](https://openai.com/index/openai-to-acquire-ona) (2026-06-11)
-
-- **"I vibe coded 3 real apps using Claude Code and OpenAI Codex"** — A hands-on comparison from Tom's Guide testing real app development with two leading coding agents. *Needs manual review for detailed findings.* [Tom's Guide](https://news.google.com/rss/articles/CBMiuwFBVV95cUxONmVSX0tDS0xLVWxzVDl5dExrc1htRXZwV0d4bndWNjNja3I4Ymh6anRmWExySEJfVG9waE9VOXI4SGJIcHBQSXBDM3FnY3lRZTJURUdFY0NnRk1ra2h0RjZ4cHFnYjludnQ0aEpQbzRoRXc3MkFlY1I2LTRKd0FueDJ0N0dVTGVYUW1CaTFLTWtlRTZCN1JqbjdfUERubU9KM1dIZ2VMRkZZVmFMa2sxbHktRjVORTh0WjRR?oc=5) (2026-05-16)
-
-### Projects
-
-- **cbt4free/claude-agent-sdk-laravel** — Enables Laravel apps to build AI agents using Claude Code for file handling, command execution, code editing, and web search integration. [GitHub](https://github.com/cbt4free/claude-agent-sdk-laravel) (2026-06-13, 1 star)
-
-- **praveen-palanisamy/autodemo** — "Demos as code" — generates demo videos, interactive walkthroughs, and marketing captures from running web apps. CI-native and agent-ready (MCP). [GitHub](https://github.com/praveen-palanisamy/autodemo) (2026-06-13, 0 stars)
-
-- **jcuervo/rails-skills** — A suite of Claude Code Agent Skills for building, testing, hardening, and shipping Ruby on Rails applications (Ruby 4.0.x / Rails 8.1.x). [GitHub](https://github.com/jcuervo/rails-skills) (2026-06-13, 0 stars)
-
-- **yufangjie1643/aigc-commerce-video-generator** — Local-first, open-source alternative to Claude Design. Supports 259+ skills, 142+ design systems, and exports to HTML/PDF/PPTX/MP4. Compatible with Claude Code, Codex, Cursor, and 17+ CLIs. [GitHub](https://github.com/yufangjie1643/aigc-commerce-video-generator) (2026-06-13, 0 stars)
-
-- **hegemonart/get-design-done** — Design-quality pipeline for AI coding agents: brief, map, plan, implement, and verify UI against your design system. [GitHub](https://github.com/hegemonart/get-design-done) (2026-06-13, 4 stars)
-
-- **CoWork-OS/CoWork-OS** — Local-first personal agentic OS for coding, knowledge work, web design, automations, and artifacts. [GitHub](https://github.com/CoWork-OS/CoWork-OS) (2026-06-13, 356 stars)
-
-- **AnujTechBoy/AIForge** — Build and manage AI-native web and mobile apps with a monorepo supporting over 90% code sharing. [GitHub](https://github.com/AnujTechBoy/AIForge) (2026-06-13, 2 stars)
-
-- **Ajiess/AI-Code-Reviewer** — A web app that instantly analyzes and improves code quality with real-time feedback. [GitHub](https://github.com/Ajiess/AI-Code-Reviewer) (2026-06-13, 0 stars)
-
-- **LeeKangRyong/ai-native-frontend-prac** — 4 frontend services in 1 repo developed with Claude Code (+Figma MCP). [GitHub](https://github.com/LeeKangRyong/ai-native-frontend-prac) (2026-06-07, 0 stars)
-
-- **RooCodeInc/Roo-Code** — "Roo Code gives you a whole dev team of AI agents in your code editor." *Needs manual review for details.* [GitHub](https://news.google.com/rss/articles/CBMiT0FVX3lxTE84eUNNd1F3TkZNc1FmZUlNWnhBbXA4SXdqS3Z1SnhmNk1SYWI3ZTd1ZlhOVFlFZ1hFdU1hbVVXc3BvdWlrX3NMbFdmdVJ3OUU?oc=5) (2026-05-15)
-
-### Papers / Benchmarks
-
-- **"From Runnable to Shippable: Multi-Agent Test-Driven Development for Generating Full-Stack Web Applications from Requirements"** — Proposes a multi-agent TDD approach for web apps, addressing the finding that over 70% of generated apps fail functional requirements. [arXiv](https://arxiv.org/abs/2605.17242v1) (2026-05-17)
-
-- **"VISTA: An End-to-End Benchmark for Visual Spec-to-Web-App Coding Agents"** — A benchmark evaluating LLM-based agents on realistic UI-centric web-app generation from underspecified inputs. [arXiv](https://arxiv.org/abs/2605.26144v2) (2026-05-22)
-
-- **"Asuka-Bench: Benchmarking Code Agents on Underspecified User Intent and Multi-Round Refinement"** — A benchmark pairing underspecified user intent with multi-round refinement, grounded in browser-rendered behavior. [arXiv](https://arxiv.org/abs/2606.05920v1) (2026-06-04)
-
-- **"Domain-Conditioned Safety in Frontier Computer-Using Agents"** — A 793-episode browser benchmark for red-teaming computer-using agents, covering 24 multi-step web tasks and 56 attack templates. [arXiv](https://arxiv.org/abs/2606.05233v1) (2026-06-03)
-
-- **"Helicase: Uncertainty-Guided Supply Chain Knowledge Graph Construction with Autonomous Multi-Agent LLMs"** — Multi-agent system for multi-hop reasoning across fragmented web resources. *Tangentially relevant to web agent workflows.* [arXiv](https://arxiv.org/abs/2605.26835v1) (2026-05-26)
-
-- **"Human-in-the-Loop Swarms: A Bionic Swarm Approach to Real-World Soil Mapping"** — Uses a smartphone web-app for human-in-the-loop control. *Tangentially relevant.* [arXiv](https://arxiv.org/abs/2605.29091v1) (2026-05-27)
-
-### Tutorials / Media Tests
-
-- **Playwright** — "Fast and reliable end-to-end testing for modern web apps." Playwright enables web automation for testing, scripting, and AI agents across Chromium, Firefox, and WebKit. [Playwright](https://playwright.dev/) (No date)
-
-- **"Modern Web Guidance: Teaching AI Agents to Stop Coding Like It's 2019"** — DEV Community article on teaching AI agents modern web development practices. *Needs manual review for full content.* [DEV Community](https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0ZqMXQ1XzFHY0lkNnk3UEJvNDdaOERFOUZTYjFzTU9VSkRhMi1QUG1ybExWajZNM0VNMHU3a1JFOXUyYzY4RlJUZVVyNGpNNWRscUxFN1BrQlcxV3ctMC1nLXhMdDFBY1VmZmpVdmlRTU54a3V3M2NCUHg3M3piODRjUTcwMHlWa0hmN05SeDJmMGlNOVNIUDNnbzFJaklNYnc?oc=5) (2026-05-21)
-
-
-- **"From Dialogue to Action: AI Agent Enters a 10-Billion-Yuan Track — 2026 AI Agent Industry Map Collection in Progress"** — CSDN article on the AI agent industry landscape. *Needs manual review for details.* [CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWmp2NXp1d3o3ZzJEOGlKQ3l4MmozZmhCaWFUZTNHTXphUnJ1ZmltTzNQWENvQnZUMjBrRmdmeUl0b0cxQlg5cHBmWXJLaWtrZHRJal92R0ZqSllHaEE?oc=5) (2026-06-08)
-
-- **"In-depth Analysis of AI Agent Development Trends: From Code Assistants to System-Level Agents"** — Juejin article analyzing core architectures of multiple agent products. *Needs manual review for details.* [掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1REpmZnZTVVNmUGE2TEhBVlVpamdtR09GVEZQUEJldUhuUXgwcEg4RW1iTjNxRGVYQk85eUJfSURkR2hlakxNLVVMSk1jY1hyRXJkVQ?oc=5) (2026-05-26)
-
-- **"2026 Smart Cockpit AI Agent Evolution Trends and 3 Case Studies"** — Electronic Engineering Album article on AI agents in smart cockpits. *Tangentially relevant to web-based agent interfaces.* [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xS2thU3pWdkVMa25paUxpVVRwMXlVeTlXRGJrNFFtTWlMMmhVcGVCQk0wTVIzb3dTSFVBaUZmTkVnV055UDBVbzh1M0J0eUdadC00?oc=5) (2026-06-13)
-
-<!-- AUTO_CASE_UPDATES_END:web:en -->
+# Web Development: AI Agent Practical Cases, Tutorials, and Research Project Survey
+
+This is an AI Agent resource index for developers, creators, and researchers, collecting tutorials, cases, open-source projects, papers, benchmarks, and product practices in related directions. Its goal is to help readers quickly discover reproducible projects, referenceable workflows, and research materials worth further reading.
+
+> Note: This index leans towards "resource collection" and "topic navigation." Some entries will undergo secondary review, supplementary notes, and quality filtering in the future. Feel free to use it as a starting checklist in a GitHub repository and expand it according to your own direction.
+
+## Large-Scale Resource Index (32+15)
+
+This section is divided into two categories: `32 Tutorials / Cases` and `15 Projects / Papers`. Each resource includes a name, type, brief description, and original link for quick assessment of whether it's worth in-depth reading.
+
+### 32 Tutorials / Cases
+
+| # | Name | Type | Purpose/Summary | Link |
+|---:|---|---|---|---|
+| 1 | Anthropic Claude Code docs | Official Documentation | Anthropic's official documentation detailing how Claude Code reads codebases, edits files, executes commands, and delegates subtasks. A core reference for studying code generation Agent workflows and permission management. | https://docs.anthropic.com/en/docs/claude-code/overview |
+| 2 | OpenAI Codex docs | Official Documentation | OpenAI's official guide explaining Codex's mechanism for understanding repository structure, modifying code, running tests, and generating reviewable changes. Provides a benchmark for the engineering capabilities of coding agents. | https://platform.openai.com/docs/guides/codex |
+| 3 | Cursor docs | Official Documentation | Cursor's official documentation introducing the implementation details of its codebase indexing, automatic editing, and multi-file modification. Key material for understanding how AI IDEs enhance interactive development efficiency. | https://docs.cursor.com/ |
+| 4 | GitHub Copilot docs | Official Documentation | GitHub's official documentation covering Copilot's integration in issues, PRs, code completion, and team collaboration. A core reference for understanding the deployment of AI programming assistants in real development workflows. | https://docs.github.com/en/copilot |
+| 5 | Replit Agent docs | Official Documentation | Replit's official documentation describing the complete path for the Agent to transform natural language requirements into online running prototypes, covering the end-to-end development process from zero to deployment. | https://docs.replit.com/replitai/agent |
+| 6 | Lovable docs | Official Documentation | Lovable's official documentation covering prompt-to-app page generation, backend integration, and visual iteration. A practical guide for researching Agents that rapidly build full-stack applications. | https://docs.lovable.dev/ |
+| 7 | Bolt.new docs | Official Documentation | Bolt.new's support documentation explaining how to generate, run, and modify full-stack applications within the browser, showcasing a cloud-based development workflow without environment configuration. | https://support.bolt.new/ |
+| 8 | Firebase Studio docs | Official Documentation | Firebase's official documentation explaining how Studio connects to databases, authentication, hosting, and backend services. A technical reference for researching deep integration between AI prototypes and cloud services. | https://firebase.google.com/docs/studio |
+| 9 | Trae Figma MCP Tutorial | Chinese Tutorial | InfoQ Chinese tutorial explaining how to pass design context to an Agent via Trae and Figma MCP to generate previewable pages. A practical case for design-to-code conversion. | https://www.infoq.cn/article/QjaRMr5pGMK84UYjoo9P |
+| 10 | Trae Playwright MCP Tutorial | Chinese Tutorial | InfoQ Chinese tutorial introducing Trae combined with Playwright MCP for web page operations and automated acceptance testing. Provides a reproducible solution for quality assurance of Agent outputs. | https://www.infoq.cn/article/khJ1J5iikaO9q1Pwc5HI |
+| 11 | Tom Guide Claude Code vs Codex | Media Hands-on Test | Tom's Guide hands-on comparison, evaluating the performance differences between Claude Code and OpenAI Codex in codebase reading, file editing, and task delegation by building three real applications. | https://www.tomsguide.com/ai/claude-code-vs-openai-codex-i-built-3-real-apps-to-find-the-better-agent-heres-the-verdict |
+| 12 | Tom Guide weekend app | Media Tutorial | Tom's Guide shares the complete process of developing an application with AI assistance over a weekend and deploying it to others' phones, covering the full workflow from idea to launch and practical tips. | https://www.tomsguide.com/ai/i-vibe-coded-an-app-in-a-single-weekend-heres-how-i-got-it-into-other-peoples-phones |
+| 13 | The Verge personal software | Media Experience | The Verge explores the revolution in personal software development, showcasing through hands-on experience how non-professional developers can create customized applications to meet personal needs using AI tools. | https://www.theverge.com/tech/928905/vibe-code-personal-software-revolution |
+| 14 | Washington Post Claude app | Media Experience | An interactive report by the Washington Post, documenting a journalist's firsthand experience using Claude Code as a programming partner to build an application, revealing collaboration patterns and output effectiveness in AI-assisted development. | https://www.washingtonpost.com/technology/interactive/2026/claude-code-cowork-build-apps/ |
+| 15 | Vibe coding overview | Encyclopedia/Case Collection | A Wikipedia entry systematically outlining the concept, origins, and practices of Vibe Coding, summarizing community cases. Foundational material for understanding this new programming paradigm reliant on AI-generated code. | https://en.wikipedia.org/wiki/Vibe_coding |
+| 16 | Vercel AI SDK examples | Official Examples | Vercel AI SDK's official documentation provides complete examples covering streaming responses, tool calls, and frontend interactions. A technical starting point for quickly building web applications with AI capabilities. | https://sdk.vercel.ai/docs |
+| 17 | Supabase AI docs | Official Documentation | Supabase AI documentation focuses on databases, authentication, vector search, and backend integration, providing out-of-the-box backend infrastructure and operational guides for building AI applications. | https://supabase.com/docs/guides/ai |
+| 18 | LangChain JS tutorials | Official Tutorials | LangChain.js official tutorials guiding the construction of RAG systems, tool calling chains, and multi-step reasoning Agents. Key material for mastering complex AI workflows in a JavaScript environment. | https://js.langchain.com/docs/tutorials/ |
+| 19 | OpenAI Agents SDK Python quickstart | Official Tutorial | OpenAI Agents SDK Python quickstart, guiding installation and basic examples to help quickly build Agent-based AI applications. | https://openai.github.io/openai-agents-python/quickstart/ |
+| 20 | OpenAI Realtime API guide | Official Tutorial | OpenAI Realtime API guide, explaining real-time voice and text interaction capabilities, suitable for building low-latency conversational AI applications. | https://platform.openai.com/docs/guides/realtime |
+| 21 | Anthropic tool use docs | Official Tutorial | Anthropic tool use documentation, introducing how to integrate Claude's tool calling functionality to enable interaction between the model and external APIs or data. | https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview |
+| 22 | Anthropic MCP connector docs | Official Tutorial | Anthropic MCP connector documentation, explaining how to connect external tools and data sources via the Model Context Protocol to extend Agent capabilities. | https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector |
+| 23 | Google ADK quickstart | Official Tutorial | Google ADK quickstart, guiding installation and initial configuration to help quickly get started with the Agent Development Kit. | https://google.github.io/adk-docs/get-started/quickstart/ |
+| 24 | Mastra getting started | Official Tutorial | Mastra getting started guide, covering installation and basic usage to help quickly build a scalable AI Agent framework. | https://mastra.ai/docs/getting-started/installation |
+| 25 | Agno quickstart | Official Tutorial | Agno quickstart documentation, introducing installation and core concepts to help quickly build and deploy AI agent applications. | https://docs.agno.com/introduction |
+| 26 | Convex AI quickstart | Official Tutorial | Convex AI quickstart, explaining how to combine the Convex backend with AI features to build real-time data-driven intelligent applications. | https://docs.convex.dev/ai |
+| 27 | Postgres pgvector tutorial | Official Tutorial | pgvector official tutorial, demonstrating how to store and retrieve vector data in PostgreSQL, suitable for RAG and semantic search scenarios. | https://github.com/pgvector/pgvector |
+| 28 | Qdrant RAG tutorial | Official Tutorial | Qdrant RAG tutorial, guiding the use of vector databases to build Retrieval-Augmented Generation systems, improving the accuracy of Q&A and knowledge base applications. | https://qdrant.tech/documentation/tutorials/ |
+| 29 | Chroma getting started | Official Tutorial | Chroma getting started guide, introducing the installation and basic operations of a lightweight vector database, suitable for quick integration into AI applications. | https://docs.trychroma.com/getting-started |
+| 30 | Pinecone RAG guide | Official Tutorial | Pinecone RAG guide, explaining how to leverage a managed vector database for efficient semantic retrieval, optimizing knowledge base Q&A workflows. | https://docs.pinecone.io/guides/get-started/overview |
+| 31 | Weaviate quickstart | Official Tutorial | Weaviate quickstart, demonstrating the configuration and querying of a cloud-native vector database, supporting hybrid search and AI workflow integration. | https://weaviate.io/developers/weaviate/quickstart |
+| 32 | Streamlit LLM tutorials | Official Tutorial | Streamlit LLM tutorials, providing examples for building large language model interaction interfaces, helping to quickly create data-driven AI demo applications. | https://docs.streamlit.io/develop/tutorials/llms |
+
+### 15 Projects / Papers
+
+| # | Name | Type | Purpose/Summary | Link |
+|---:|---|---|---|---|
+| 1 | AIDev | Paper/Dataset | The AIDev paper proposes a benchmark for evaluating AI development capabilities, covering problem formulation, dataset construction, and model performance analysis, providing a standardized test for measuring Agent coding ability. | https://arxiv.org/abs/2602.09185 |
+| 2 | Agentic Much | Paper | The Agentic Much paper studies the autonomy of AI agents in software development, including experimental design, evaluation metrics, and key findings, revealing the boundaries and potential of autonomous Agent coding. | https://arxiv.org/abs/2601.18341 |
+| 3 | Configuring Agentic AI Coding Tools | Paper | The Configuring Agentic AI Coding Tools paper explores the impact of AI coding tool configuration on code generation quality, providing actionable configuration strategies for optimizing Agent coding output. | https://arxiv.org/abs/2602.14690 |
+| 4 | Fingerprinting AI Coding Agents | Paper | The Fingerprinting AI Coding Agents paper proposes methods for identifying different AI coding agents through behavioral characteristics and provenance techniques, providing technical support for Agent auditing and security. | https://arxiv.org/abs/2601.17406 |
+| 5 | Dive into Claude Code | Paper | The Dive into Claude Code paper provides an in-depth analysis of Claude's coding agent performance in codebase operations and task delegation, offering empirical evidence for designing Agent collaborative workflows. | https://arxiv.org/abs/2604.14228 |
+| 6 | From Prompt to Product | Paper/Benchmark | The From Prompt to Product paper and benchmark study the generation process from prompt to complete product, providing an evaluation framework and experimental results to measure Agent end-to-end development capability. | https://arxiv.org/abs/2512.18080 |
+| 7 | WebApp1K | Paper/Benchmark | The WebApp1K paper and benchmark provide one thousand web application generation tasks, including dataset construction and model generation evaluation, serving as a standardized resource for testing Agent frontend generation capabilities. | https://arxiv.org/abs/2408.00019 |
+| 8 | Student-AI Vibe Coding | Paper | The Student-AI Vibe Coding paper studies the patterns of student-AI collaborative programming, analyzing the impact of human-machine collaboration on learning outcomes, providing a reference for designing Agent educational scenarios. | https://arxiv.org/abs/2507.22614 |
+| 9 | gpt-engineer | Open Source Project | An open-source project that automatically generates code from natural language descriptions. The core workflow involves user input requirements, and the AI autonomously completes code writing, iteration, and file generation. Suitable for researching end-to-end Agent implementation paths from requirements to code. | https://github.com/AntonOsika/gpt-engineer |
+| 10 | OpenHands | Open Source Project | An open-source platform enabling AI to autonomously write and debug code. It simulates the interaction of a human developer with a code repository, capable of handling complex software engineering tasks. A typical case for studying code generation Agent performance in real project environments. | https://github.com/All-Hands-AI/OpenHands |
+| 11 | SWE-agent | Open Source Project | Focuses on enabling AI to autonomously solve software engineering problems on GitHub. It interacts with code repositories via an Agent-Computer Interface, performing tasks like bug fixing and feature addition. Its tool calling and task decomposition strategies are reproducible. | https://github.com/SWE-agent/SWE-agent |
+| 12 | browser-use | Open Source Project | An open-source tool enabling AI to directly control a browser. It simulates user clicks, inputs, and navigation to achieve automated web interaction and data collection. A practical reference for studying Agent task execution in real web environments. | https://github.com/browser-use/browser-use |
+| 13 | bolt.diy | Open Source Project | A full-stack application generation tool within the browser launched by StackBlitz. It allows users to directly generate, run, and modify code through natural language descriptions, offering a zero-configuration experience from requirements to a runnable application. | https://github.com/stackblitz-labs/bolt.diy |
+| 14 | v0 | Product Case | An AI-driven UI generation tool launched by Vercel. It quickly creates React components and page prototypes from natural language descriptions. A typical product case for researching AI-assisted frontend development workflows. | https://v0.dev/ |
+| 15 | Open Lovable | Open Source Project | A prompt-to-app tool that generates web pages and backends from natural language descriptions. Based on Firecrawl page scraping and LLM code generation, suitable for rapid prototype validation and MVP development. | https://github.com/firecrawl/open-lovable |

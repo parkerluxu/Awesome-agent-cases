@@ -1,275 +1,34 @@
-# 电子系统设计：AI Agent 实战案例、教程与科研项目调研
-
-调研日期：2026-06-13
-
-电子系统设计包括原理图、PCB、BOM、封装、布线、DRC/ERC、制造文件、调试文档等。这个方向的个人博主教程较少，更多资料来自开源项目、创业公司案例、科研论文和媒体报道。本文把它们分开列出。
-
-## 结论速览
-
-AI Agent 在电子系统设计里最有价值的环节：
-
-- 规格书到模块拆解。
-- 原理图辅助生成。
-- PCB 布局布线建议。
-- EDA 工具脚本生成。
-- BOM 检查和替代料建议。
-- DRC/ERC 报告解释。
-- 制造文件和调试文档生成。
-
-当前不建议完全交给 Agent 的环节：
-
-- 高压、大电流、射频、高速差分、安规相关设计。
-- 量产级 PCB sign-off。
-- 未经专家 review 的直接打样。
-- 复杂电源完整性/信号完整性判断。
-
-## 博主/开发者教程与心得
-
-### 1. 用 ChatGPT/Claude/Codex 辅助 KiCad、Altium、脚本化 EDA
-
-资料类型：开发者实践归纳  
-代表工具：ChatGPT、Claude、Claude Code、Codex、KiCad、tscircuit
-
-公开个人教程通常不是“AI 一键画完 PCB”，而是把 Agent 当作电路设计助理：
-
-- 根据需求列模块和元器件。
-- 解释 datasheet。
-- 生成 KiCad/EDA 脚本。
-- 帮助检查引脚连接。
-- 生成 BOM 表和采购备注。
-- 写调试步骤和测试计划。
-
-可复刻任务：
-
-- ESP32 传感器扩展板。
-- USB-C 供电小板。
-- LED 驱动板。
-- 电机驱动扩展板。
-- Arduino shield。
-
-推荐提示：
-
-```text
-我要设计一块 ESP32 温湿度传感器扩展板。
-请先输出模块划分、关键芯片、接口、电源树、风险点。
-不要直接给最终 PCB。
-每一步都列出需要人工确认的数据手册参数。
-```
-
-使用心得：
-
-- Agent 很会“讲方案”，但可能编错具体料号或封装。
-- 要求它引用 datasheet 页码或明确“需要人工查证”。
-- 原理图和 PCB 仍要用 ERC/DRC 和人工检查兜底。
-
-### 2. tscircuit：把电路变成代码，适合给 Coding Agent 接管
-
-资料类型：开源项目/开发者工具  
-链接：
-
-- GitHub：https://github.com/tscircuit/tscircuit
-- 介绍：https://en.wikipedia.org/wiki/Tscircuit
-
-tscircuit 用 TypeScript 定义电子电路，并生成原理图、PCB、3D 预览和制造文件。它本身不是 AI Agent，但它非常适合 Claude Code/Codex：因为 Agent 擅长读写代码，代码化 PCB 比纯 GUI 操作更容易让 Agent 迭代。
-
-可复刻方式：
-
-- 让 Agent 生成 tscircuit 元件和连接代码。
-- 生成预览后，把错误截图或检查结果喂回 Agent。
-- 将常用模块封装为组件，例如 USB-C、电源、传感器接口。
-
-使用心得：
-
-- 代码化硬件能让 Git diff、review、CI 检查进入 PCB 流程。
-- 对 Agent 来说，改 TypeScript 比在 GUI 里拖元件更稳定。
-- 封装库和真实制造规则仍是门槛。
-
-### 3. Quilter Project Speedrun：AI 设计 Linux 单板电脑
-
-资料类型：媒体报道/公司案例  
-链接：https://www.tomshardware.com/tech-industry/artificial-intelligence/dual-pcb-linux-computer-with-843-components-designed-by-ai-boots-on-first-attempt-project-speedrun-was-made-in-just-one-week-and-required-less-than-40-hours-of-human-work
-
-Quilter 的 Project Speedrun 用 AI 辅助设计了一块包含 843 个元件、双 PCB 的 Linux 单板电脑。据报道，项目一周完成，人类参与 38.5 小时，首次上电成功启动 Debian。
-
-可借鉴点：
-
-- AI 主要减少 setup、execution、cleanup 中重复耗时的部分。
-- 人类工程师转向规格、约束、检查和创造性决策。
-- 复杂硬件的“首次成功”仍需要强工具链和专家监督。
-
-使用心得：
-
-- 不要把这个案例理解成普通用户可以立刻一键做 SBC。
-- 它更像电子设计自动化方向的趋势证明。
-- 对个人开发者，应该从传感器板、电源板、扩展板开始。
-
-### 4. Diode Computers：把 PCB 设计变成代码化流程
-
-资料类型：创业公司案例  
-链接：https://www.businessinsider.com/ai-circuit-board-diode-a16z-series-a-y-combinator-2025-7
-
-Diode Computers 使用 LLM 和强化学习来生成、检查和修正 PCB 设计。报道中提到，它们希望把传统图形化 PCB 设计转成代码化流程，把周期从数周/数月缩短到数天。
-
-对个人和团队的启发：
-
-- 电子设计会越来越像软件部署：提交规格和代码，输出物理板卡。
-- 机器人、医疗设备、航空航天等行业会优先受益。
-- 但越接近真实生产，越需要约束、验证和供应链经验。
-
-### 5. pcbGPT：从自然语言生成可编辑 KiCad 原理图
-
-资料类型：科研系统/可复刻方向  
-链接：https://arxiv.org/abs/2606.01188
-
-pcbGPT 面向嵌入式、IoT、可穿戴设备的 PCB 原理图生成，使用 Python DSL、组件库搜索、datasheet grounding、结构/语义验证和可与 KiCad 同步的 Web 工作流。它在 20 个嵌入式原理图任务上取得较高 pass@k，但作者也强调仍需要专家 review。
-
-可借鉴点：
-
-- AI 先生成“可审查初稿”，不是直接打样。
-- datasheet-grounded knowledge 比模型自由发挥可靠。
-- KiCad 同步和交互式 refinement 是落地关键。
-
-### 6. PCBSchemaGen：约束引导的 PCB 原理图 Agent
-
-资料类型：科研系统  
-链接：https://arxiv.org/abs/2602.00510
-
-PCBSchemaGen 把 LLM agent 和 constraint-guided synthesis 结合起来，用 datasheet 知识图谱和子图同构检查 pin role、拓扑约束和功能连接。它适合放进电子系统设计案例库，因为它明确处理数字、模拟、电源混合信号，而不是只做简单数字电路。
-
-### 7. CircuitLM：多 Agent 生成 CircuitJSON 原理图
-
-资料类型：科研系统/多 Agent 设计  
-链接：https://arxiv.org/abs/2601.04505
-
-CircuitLM 用五个阶段完成从自然语言到原理图：组件识别、pinout 检索、电子专家 Agent 推理、JSON 原理图合成、SVG 可视化。它的关键价值是把“电子专家知识库 + 多 Agent + 结构化输出”结合起来，减少 hallucination。
-
-### 8. Hackaday / tscircuit 路线：像写前端组件一样写 PCB
-
-资料类型：英文硬件社区/开源项目线索  
-链接：https://en.wikipedia.org/wiki/Tscircuit
-
-Hackaday 等硬件社区讨论过 tscircuit 这类 code-first PCB 方式。对 AI Agent 来说，这比 GUI 更友好，因为 Agent 可以改 TypeScript、跑检查、生成预览，再根据错误迭代。适合整理中文教程时关注关键词：`tscircuit AI PCB`、`TypeScript PCB`、`代码化电路设计`、`AI 画电路板`。
-
-### 9. KiCad Python 脚本化：Agent 可接管的开源 EDA 底座
-
-资料类型：开源 EDA 工具 / Agent 可编程入口  
-链接：https://en.wikipedia.org/wiki/KiCad
-
-KiCad 是开源 EDA 套件，支持原理图、PCB、Gerber、3D 预览、ERC/DRC、ngspice，并且有 Python 脚本与文本化工程文件。它不是 AI 项目，但对 AI Agent 很关键：Agent 可以生成/修改脚本、解析工程文件、读取 DRC 报告，再让人类在 KiCad GUI 中审查。
-
-可复刻案例：
-
-- 让 Agent 生成 KiCad 项目 README、BOM 检查脚本和制造文件导出脚本。
-- 让 Agent 根据 DRC 报告解释间距、未连接网络、封装不匹配问题。
-- 让 Agent 从 datasheet 摘要出 pinout 表，再人工对照原理图。
-
-### 10. SmartonAI：KiCad 自然语言插件式操作
-
-资料类型：科研原型 / EDA 操作 Agent  
-论文：https://arxiv.org/abs/2307.14740
-
-SmartonAI 以 KiCad 为例，把 GPT/BERT 和插件执行结合起来，让用户用自然语言调用复杂 EDA 功能。它不是生成完整 PCB，而是把“找功能、执行命令、查帮助文档、调用插件”交给 Agent，降低新手使用 KiCad 的门槛。
-
-可借鉴点：
-
-- 对电子设计，先做“EDA 助手”比“一键画板”更现实。
-- Agent 可以负责查文档、执行重复操作、解释工具输出。
-- 适合中文教程复刻：用 KiCad + ChatGPT/Claude 做 ERC/DRC 报告解释助手。
-
-## 科研项目/论文
-
-### Flux / Quilter / Diode 类商业 EDA Agent 的共性
-
-资料类型：产品趋势总结  
-链接：
-
-- Diode：https://www.businessinsider.com/ai-circuit-board-diode-a16z-series-a-y-combinator-2025-7
-- tscircuit：https://en.wikipedia.org/wiki/Tscircuit
-
-商业工具正在把“画图式 EDA”转向“代码化/约束化 EDA”。这对个人开发者的启发是：不要只期待聊天机器人直接画 PCB，而要搭建一个可验证流水线。
-
-推荐流水线：
-
-- 自然语言规格。
-- 结构化模块清单。
-- 代码化原理图或 netlist。
-- 自动 ERC/DRC。
-- Agent 解释错误。
-- 人工 review。
-- 再进入打样。
-
-### 1. SmartonAI：KiCad 的自然语言交互插件
-
-资料类型：科研项目  
-链接：https://arxiv.org/abs/2307.14740
-
-SmartonAI 以 KiCad 为例，尝试用 GPT/BERT 做 EDA 软件的自然语言交互。它能拆解设计请求、检索帮助文档、执行插件或内置函数，降低复杂 EDA 软件的使用门槛。
-
-实践启发：
-
-- AI 不一定要直接生成完整 PCB，也可以先做“EDA 操作助手”。
-- 对新手最有价值的是把复杂命令变成自然语言任务。
-- 未来 KiCad/Altium/Cadence 都可能接入类似 Agent。
-
-### 2. AutoEDA / ChatEDA：EDA Flow 自动化
-
-资料类型：科研项目  
-链接：
-
-- AutoEDA：https://arxiv.org/abs/2508.01012
-- ChatEDA：https://arxiv.org/abs/2308.10204
-
-这类项目把 Agent 用于任务分解、脚本生成、工具调用和结果反馈，尤其适合复杂 EDA flow。虽然更偏芯片后端，但思想同样适用于 PCB：Agent 不是凭空设计，而是调度专业工具。
-
-### 5. pcbGPT / SchGen / PCBSchemaGen 的共同趋势
-
-资料类型：研究趋势总结  
-链接：
-
-- pcbGPT：https://arxiv.org/abs/2606.01188
-- SchGen：https://arxiv.org/abs/2605.30345
-- PCBSchemaGen：https://arxiv.org/abs/2602.00510
-
-这些项目都指向同一个结论：PCB Agent 的核心不是“更会聊天”，而是把硬件设计转成模型容易生成、工具容易验证、工程师容易审查的中间表示。Python DSL、semantic-grounded code、CircuitJSON、知识图谱和 KiCad 同步都是可复用方向。
-
-<!-- AUTO_CASE_UPDATES_START:electronic:zh-CN -->
-## 最新更新(2026-06-13)
-
-以下内容为基于最新候选资料的增量更新线索，尚未正式收录入主文章，供编辑和社区参考。
-
-
-- **ForgeLab**：自称“设计的LLVM”，通过 JSON IR + MCP 服务器让 AI Agent 创建 KiCad、FreeCAD 及 glTF 文件。项目较新（2026-06-12），Star 数仅 2，但概念新颖，值得关注其架构与落地效果。 [GitHub](https://github.com/andresparraarze/ForgeLab)
-- **salitronic/eda-agent**：开源的 Altium Designer MCP 服务器，提供 290+ 工具用于原理图、PCB、库及项目自动化，包括设计审查、SVG 渲染、自动布局、拼板等。Apache-2.0 许可，Star 数 56，是当前候选资料中成熟度较高的 Altium 侧 Agent 方案。 [GitHub](https://github.com/salitronic/eda-agent)
-- **SchGen 论文**：首个从自然语言生成可编辑 PCB 原理图的大语言模型，解决了 LLM 缺乏合适表示和数据集的问题。来自 arXiv（2026-05-28），是学术端的重要进展。 [arXiv](https://arxiv.org/abs/2605.30345v1)
-
-#### GitHub/开源项目
-
-- **TripleT-KiCad-Agent**：AI 工程助手，连接高层系统需求与物理 PCB 设计，理解电子理论、元件可用性和 KiCad 文件结构。Star 数 1。 [GitHub](https://github.com/Matt-Thom/TripleT-KiCad-Agent)
-- **KiSkill**：为 AI 编码 Agent 提供对 KiCad 的完全控制（无 GUI），支持编辑、验证、审查和制造。Star 数 0。 [GitHub](https://github.com/AvatarSD/KiSkill)
-- **bretbouchard/kicad-agent**：对 KiCad 原理图、PCB、符号和封装文件进行 AI 安全的结构化编辑。Star 数 1。 [GitHub](https://github.com/bretbouchard/kicad-agent)
-- **liwenjinchn/hardwise**：专注于硬件研发中原理图审查节点的 AI Agent，基于 KiCad 公开样本的两周原型演示。Star 数 0。 [GitHub](https://github.com/liwenjinchn/hardwise)
-- **gfgf2023/hfss-mcp-server**：Ansys HFSS 的 MCP 服务器，支持天线设计与 PCB 仿真，允许 AI 通过自然语言控制 HFSS。Star 数 0。 [GitHub](https://github.com/gfgf2023/hfss-mcp-server)
-- **dshills/KiCadAI**：AI 辅助 KiCad 设计工具包，含 Go CLI、直接原理图/PCB 写入器、验证和引脚映射检查。Star 数 0。 [GitHub](https://github.com/dshills/KiCadAI)
-- **AdamWolcottSmith/tscircuit-to-fusion**：将 tscircuit PCB 设计导出到 Fusion360（分层 DXF 草图 + STEP 实体），无需 KiCad。Star 数 1。 [GitHub](https://github.com/AdamWolcottSmith/tscircuit-to-fusion)
-- **tscircuit/runframe**：在 Web Worker 中运行 tscircuit 代码，提供 PCB、原理图和 3D 预览。Star 数 17。 [GitHub](https://github.com/tscircuit/runframe)
-- **ritwick06/elektran-ai**：自称自主 PCB 设计工具。Star 数 0。 [GitHub](https://github.com/ritwick06/elektran-ai)
-- **Zero-inadequateness813/amux**：管理以 AI Agent 和人类命名的持久 tmux 面板，在后台会话中运行命令并跟踪输出。与 KiCad 无直接关联，但可能用于 Agent 工作流管理。Star 数 0。 [GitHub](https://github.com/Zero-inadequateness813/amux)
-
-### 论文 / Benchmark
-
-- **SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations**：首个从自然语言生成可编辑 PCB 原理图的 LLM，发表于 arXiv（2026-05-28）。 [arXiv](https://arxiv.org/abs/2605.30345v1)
-
-### 教程 / 媒体实测
-
-- **Google 搜索框 25 年来首次重新设计**：转变为动态 AI 驱动对话界面。可能影响未来 Agent 与用户交互的方式。 [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
-- **OpenAI 收购 Ona**：旨在扩展 Codex，提供安全、持久的云端环境，支持企业工作流中的长时间运行 AI Agent。 [OpenAI](https://openai.com/index/openai-to-acquire-ona)
-- **OpenAI Academy 新课程**：教授构建实用 AI 技能、创建可重复工作流以及在工作中的应用 Agent。 [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work)
-- **Google DeepMind 关注百万 Agent 交互风险**：资助研究大规模 AI Agent 在线交互的潜在危险。 [MIT Technology Review](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/)
-- **Agentic AI 解决 RTL 验证生产力差距**：来自 New Electronics 的报道（2026-05-22），涉及 Agent 在芯片验证中的应用。 [New Electronics](https://news.google.com/rss/articles/CBMipwFBVV95cUxOUjlFNjRObWtnUGZxYzNyRG41NzI5a2EzRl9nNUJoaUVrcWdoN1VvTmlybjl0UGdmYnNQYW9xMExxRm0zMUJiaGpnT0tKbDR0TEJHQzZTZXhTSHE2Nk12YzVOUE1GVXJkUTVDSjh6bjE0TlNKVFlaYmFwWjUybnY5SDd4eUJxVlh6LWFCdG95Zmk4UEpNZXV5VlNCaHFMU25tcW9sVk1lWQ?oc=5)
-
-
-- **菜鸟教程 - 大语言模型基础（LLM）**：中文入门教程，介绍 LLM 作为 AI Agent 大脑的基础概念。 [菜鸟教程](https://www.runoob.com/ai-agent/ai-agent-llm.html)
-- **Datawhale - Happy-LLM**：GitHub 上的系统性 LLM 学习教程，从 NLP 基础到 LLM 架构与训练。 [GitHub](https://github.com/datawhalechina/happy-llm)
-- **hashgraph-online/awesome-codex-plugins**：Codex 插件资源列表，可能包含与电子设计相关的 Agent 工具。 [GitHub](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WT2pYYl93MnNkZV9uVTIwOGtIWE85Y0tzYVRHWWJyampmSHZNMnhqV0V1ZXdaSmdLZ0JLT0lRckZHUGpPZG0xWWU0dUZpUXdRZjUxTGcxUW1KaDlheWRpd3pMRWhzcEVp?oc=5)
-
-<!-- AUTO_CASE_UPDATES_END:electronic:zh-CN -->
+﻿# 电子系统设计：AI Agent 实战案例、教程与科研项目调研
+
+这是一份面向开发者、创作者和研究者的 AI Agent 资料索引，收集了相关方向的教程、案例、开源项目、论文、Benchmark 和产品实践。它的目标是帮助读者快速发现可复现的项目、可参考的工作流，以及值得进一步阅读的研究资料。
+
+> 说明：本索引偏“资料集合”和“选题导航”，部分条目会在后续持续二次 review、补充备注和筛选质量。欢迎把它作为 GitHub 仓库中的起点清单使用，并根据自己的方向继续扩展。
+
+## 大规模资料索引（2+13）
+
+本节分为两类：`教程 / 案例 2 条` 和 `项目 / 论文 13 条`。每条资料包含名称、类型、简要说明和原链接，便于快速判断是否值得深入阅读。
+
+### 教程 / 案例 2 条
+
+| # | 名称 | 类型 | 用途/摘要 | 链接 |
+|---:|---|---|---|---|
+| 1 | tscircuit docs | 官方教程 | tscircuit 官方教程，涵盖原理图、网表、制造文件和 EDA 自动化流程。代码驱动的电子设计方法可参考此文档。 | https://docs.tscircuit.com/ |
+| 2 | Hackaday tscircuit | 社区案例 | Hackaday社区中tscircuit案例展示，探索用代码驱动电路设计的新颖思路与创意项目。 | https://hackaday.com/ |
+
+### 项目 / 论文 13 条
+
+| # | 名称 | 类型 | 用途/摘要 | 链接 |
+|---:|---|---|---|---|
+| 1 | AIDev | 论文/数据集 | AIDev 论文提出面向 AI 辅助硬件设计的评测框架，包含任务定义、数据集构建与模型性能评估方法，为硬件自动化研究提供基准。 | https://arxiv.org/abs/2602.09185 |
+| 2 | tscircuit | 开源项目 | TypeScript 编写的开源 EDA 工具，用代码定义电路原理图与 PCB 布局，将电子设计纳入软件工程工作流。 | https://github.com/tscircuit/tscircuit |
+| 3 | pcbGPT | 论文 | 探讨大语言模型辅助 PCB 设计的论文，展示通过自然语言交互实现电路板设计流程的自动化。 | https://arxiv.org/abs/2606.01188 |
+| 4 | PCBSchemaGen | 论文 | 从高层次描述自动生成 PCB 原理图的 AI 方法，展示了从需求到电路连接图的端到端流程。 | https://arxiv.org/abs/2602.00510 |
+| 5 | CircuitLM | 论文 | 提出 CircuitLM 模型，评估语言模型在原理图生成与理解任务上的能力，聚焦电路设计专用 LLM。 | https://arxiv.org/abs/2601.04505 |
+| 6 | SchGen | 论文 | 原理图自动生成研究，详细描述算法设计与实验效果，面向 AI 辅助电子设计的前沿方向。 | https://arxiv.org/abs/2605.30345 |
+| 7 | SmartonAI | 论文 | 探讨 AI 在电子设计自动化中特定问题的建模与解决方案，提供问题定义与算法实现细节。 | https://arxiv.org/abs/2307.14740 |
+| 8 | AutoEDA | 论文 | 系统性研究电子设计自动化的 AI 方法，包含实验设定与多方法性能对比，覆盖完整 EDA 流程。 | https://arxiv.org/abs/2508.01012 |
+| 9 | ChatEDA | 论文 | 提出 ChatEDA 框架，用对话式 AI 辅助 EDA 工具链，展示人机协作设计的新交互范式。 | https://arxiv.org/abs/2308.10204 |
+| 10 | AiEDA | 论文 | AI 驱动的电子设计自动化论文，详述模型架构、训练数据与实验结果，聚焦端到端设计生成。 | https://arxiv.org/abs/2511.05823 |
+| 11 | EEsizer | 论文 | 专注于电子元件或电路的自动尺寸优化，面向设计空间探索与参数调优的自动化方法。 | https://arxiv.org/abs/2509.25510 |
+| 12 | tscircuit snippets | 开源项目 | tscircuit snippets 是一个面向电子设计的开源代码片段库，收录原理图、网表与仿真示例，可直接用于加速 EDA 自动化工作流。 | https://github.com/tscircuit/snippets |
+| 13 | JITX | 产品/语言 | JITX 是一种编程式硬件设计语言与平台，通过代码描述电路，支持自动化电子设计与快速原型开发。 | https://www.jitx.com/ |

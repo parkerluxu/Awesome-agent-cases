@@ -1,299 +1,41 @@
-# 桌面应用：AI Agent 实战案例、教程与科研项目调研
-
-调研日期：2026-06-13
-
-桌面应用方向的公开个人教程比 Web 少，但 2026 年后出现了一个重要变化：Claude Code、OpenAI Codex 不只是写代码，还开始能操作桌面应用、浏览器、文件和开发工具。这使得“Agent 帮你构建和测试桌面应用”逐渐可行。
-
-## 结论速览
-
-桌面应用适合 AI Agent 的任务：
-
-- Electron/Tauri 小工具。
-- 本地文件处理器。
-- PDF/图片/音频批处理软件。
-- 内部运营工具。
-- 桌面端开发者工具。
-- 自动化 GUI 测试和前端验收。
-
-不太适合完全交给 Agent 的任务：
-
-- 深度系统权限工具。
-- 驱动、内核扩展、安全软件。
-- 强依赖复杂原生 API 的跨平台应用。
-- 涉及隐私文件批处理但没有审计日志的工具。
-
-## 博主/开发者教程与心得
-
-### 1. Claude Code / Codex 操作桌面应用：从写代码到“用电脑”
-
-资料类型：产品更新报道/开发者工作流  
-代表工具：Claude Code、Claude Cowork、OpenAI Codex Desktop  
-链接：
-
-- Claude Code/Cowork 控制电脑：https://www.theverge.com/ai-artificial-intelligence/899430/anthropic-claude-code-cowork-ai-control-computer
-- Codex 操作 macOS 桌面应用：https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos
-
-The Verge 报道，Anthropic 给 Claude Code/Cowork 加入了控制电脑的能力，可以打开文件、使用浏览器和应用、运行开发工具。OpenAI 随后也给 Codex 增加了操作 macOS 桌面应用、后台并行 Agent、浏览器内注释、图片生成和记忆等能力。
-
-对桌面应用开发的意义：
-
-- Agent 不再只会改代码，还能打开 App 看界面。
-- 可以让 Agent 运行桌面应用，截图或检查交互，再回到代码修复。
-- 对没有 API 的工具，Agent 可通过 GUI 完成部分验证。
-
-可复刻任务：
-
-- 用 Electron 做一个本地 Markdown 图片压缩工具。
-- 用 Tauri 做一个目录批量重命名工具。
-- 用 Codex/Claude Code 打开 App，检查按钮、菜单、文件保存流程。
-- 让 Agent 根据截图修 UI 溢出和平台差异。
-
-使用心得：
-
-- 桌面控制比直接 API 慢，适合验收，不适合大规模自动化。
-- 每次让 Agent 操作文件前，要指定测试目录，避免误改真实资料。
-- 权限弹窗、系统设置、文件选择框是常见卡点。
-
-### 2. Electron/Tauri 应用的 AI 生成套路
-
-资料类型：开发者实践归纳  
-代表工具：Claude Code、Cursor、Codex、GitHub Copilot
-
-公开教程里常见的桌面应用路线不是“从零写复杂原生应用”，而是基于 Web 技术做桌面壳：
-
-- Electron：生态成熟，适合快速做跨平台工具，但体积大。
-- Tauri：体积小，Rust 后端，适合轻量桌面工具。
-- Python + PySide/Tkinter：适合脚本型工具和内部使用。
-
-推荐提示词：
-
-```text
-请构建一个桌面应用：
-技术栈：Tauri + React
-功能：批量重命名文件
-限制：只能操作用户选择的目录
-安全：执行前展示预览，不直接覆盖原文件
-验收：支持撤销、错误日志、空目录提示、Windows/macOS 路径
-```
-
-使用心得：
-
-- Agent 很擅长生成主流程，但容易忘记取消、撤销、错误提示。
-- 桌面工具必须强调“预览后执行”。
-- 让 Agent 先做 mock 文件测试，再接真实文件系统。
-
-### 3. Claude Code 构建 TUI 框架
-
-资料类型：开发者/科研混合案例  
-链接：https://arxiv.org/abs/2601.17584
-
-一篇论文记录了使用 Claude Code 和 Opus 4.5 在三天内构建 Ring 语言的 TUI 框架。作者通过 107 个提示完成约 7420 行代码，功能包括窗口管理、事件驱动架构、控件、菜单、表格、树组件、多窗口桌面环境等。
-
-虽然这是终端 UI，不是传统 GUI 桌面应用，但它对桌面工具很有启发：
-
-- Agent 能维护多模块 UI 框架。
-- 人类主要负责需求拆解、验证、架构引导。
-- 大量 bug fix prompt 是正常现象，不要期待一次生成完美。
-
-### 4. Claude Desktop / ChatGPT Desktop：桌面入口本身成为工作流容器
-
-资料类型：产品报道/桌面工作流  
-链接：https://www.theverge.com/2024/10/31/24284742/claude-ai-macos-windows-desktop-app
-
-Claude、ChatGPT、Perplexity 等都有桌面应用，虽然它们不等于“桌面 App 开发 Agent”，但它们改变了用户调用 Agent 的方式：本地文件拖入、截图、语音、窗口常驻、跨应用复制粘贴变得更自然。桌面应用开发者可以把这看成一种新交互范式：AI 不是隐藏在后台 API，而是作为桌面常驻协作者参与资料整理、代码修改和结果检查。
-
-### 5. Boris Cherny 的多 Agent 过夜工作流
-
-资料类型：英文媒体/工程师心得  
-代表工具：Claude Code  
-链接：https://www.businessinsider.com/anthropic-engineer-claude-boris-cherny-ai-agent-use-overnight-2026-5
-
-Claude Code 创建者 Boris Cherny 曾分享自己同时运行多个 Claude Code 会话、让子 Agent 过夜执行更深工作的流程。这对桌面工具开发有启发：桌面应用往往涉及打包、跨平台测试、图标资源、安装器、文档和发布清单，这些低风险长任务可以交给多个 Agent 并行推进。
-
-可复刻任务：
-
-- 一个 Agent 负责 Electron/Tauri 打包。
-- 一个 Agent 负责 Windows/macOS 路径差异检查。
-- 一个 Agent 负责 README 和安装文档。
-- 一个 Agent 负责 UI 截图验收和 bug 清单。
-
-### 6. Manus：中文语境里的通用云端 Agent，也可做桌面替代流程
-
-资料类型：中文/国际媒体报道汇总  
-链接：https://en.wikipedia.org/wiki/Manus_%28AI_agent%29
-
-Manus 是中国团队推出的通用 AI Agent，公开资料列出的用途包括网站/应用原型、商业智能看板、文档自动化、简历筛选、研究综合等。它不直接开发桌面 App，但对于“桌面办公自动化”有参考价值：很多原本要在 Excel、浏览器、文件夹之间切换的任务，可以转为云端沙箱 Agent 完成。
-
-适合记录为案例：
-
-- 自动生成 BI 看板。
-- 批量整理文档和报告。
-- 用浏览器和代码环境组合完成研究任务。
-- 把桌面手工流程迁移到云端 Agent。
-
-### 7. Agent S：开源 GUI Agent，像人一样操作电脑
-
-资料类型：开源项目 / 桌面 GUI Agent  
-论文：https://arxiv.org/abs/2410.08164  
-代码：https://github.com/simular-ai/Agent-S
-
-Agent S 是一个开源 GUI Agent 框架，目标是通过图形界面自动完成多步骤电脑任务。它引入经验增强的层级规划、外部知识检索和 Agent-Computer Interface，并在 OSWorld 和 WindowsAgentArena 上做评估。对桌面应用开发者来说，它不是“帮你写 Electron 代码”的工具，而是“帮你操作已有桌面应用”的路线。
-
-可借鉴任务：
-
-- 自动打开桌面软件、填写表单、保存文件。
-- 跨浏览器、文件管理器、办公软件完成流程。
-- 用 Agent 自动回归测试桌面 App 的 UI 行为。
-
-### 8. OSWorld：真实电脑环境中的桌面 Agent 任务集
-
-资料类型：开源 benchmark / 具体任务库  
-论文：https://arxiv.org/abs/2404.07972  
-项目：https://os-world.github.io
-
-OSWorld 包含 369 个真实电脑任务，涉及 Web、桌面应用、OS 文件 I/O 和跨应用工作流。它的价值是把“桌面 Agent 能不能用”变成可执行评测，而不是只看演示视频。论文显示，人类能完成 72% 以上任务，而当时最好的模型只有约 12% 成功率。
-
-对桌面应用开发的启发：
-
-- 桌面自动化任务要有初始状态、执行步骤和结果验证脚本。
-- GUI Agent 容易卡在定位按钮、理解窗口状态、跨应用复制粘贴上。
-- 做桌面 Agent 教程时，最好提供录屏、初始文件和自动验收方式。
-
-## 科研项目/论文
-
-### Claude Computer Use：桌面操作型 Agent 的早期实战
-
-资料类型：产品报道/早期用户体验  
-链接：
-
-- Business Insider explainer：https://www.businessinsider.com/anthropic-claude-computer-use-ai-explainer-2024-10
-- Axios 报道：https://www.axios.com/2024/10/24/bots-ai-anthropic-claude-computer-use
-- Claude 桌面应用：https://www.theverge.com/2024/10/31/24284742/claude-ai-macos-windows-desktop-app
-
-Claude computer use 最初演示的是“AI 像人一样移动鼠标、点击、输入、浏览网页”。早期报道称 Asana、Canva、DoorDash 等公司探索将其用于办公流程。对桌面应用开发来说，它的启发在于：Agent 可以用 GUI 完成没有 API 的任务，例如打开桌面 App、检查表格、复制信息、生成报告。
-
-可复刻任务：
-
-- 让 Agent 操作一个本地 Electron App 完成 onboarding。
-- 让 Agent 在桌面文件夹里整理图片/PDF，再生成索引表。
-- 让 Agent 打开浏览器管理后台，导出 CSV 后用本地脚本处理。
-
-使用心得：
-
-- GUI Agent 适合“低频、复杂、跨软件”的任务。
-- 不适合高速批处理，速度和稳定性都弱于 API。
-- 对文件系统和桌面权限要设置明确边界。
-
-### Claude Cowork：非程序员桌面 Agent 与 recurring tasks
-
-资料类型：产品报道/工作流案例  
-链接：
-
-- Cowork recurring tasks：https://www.techradar.com/pro/claude-cowork-can-now-handle-all-your-recurring-work-tasks
-- Anthropic 概述：https://en.wikipedia.org/wiki/Anthropic
-
-Claude Cowork 被定位为更适合非技术用户的图形界面 Agent。公开资料提到它可以管理文件、读取/编辑/写入材料、生成每日简报、研究竞争对手和行业动态，并支持定时任务。这类能力虽然不是“桌面应用开发教程”，但很适合桌面应用使用者自动化办公流程。
-
-可复刻任务：
-
-- 每周整理下载目录中的发票并生成 Excel。
-- 从本地资料夹生成客户周报。
-- 自动打开财务文件、提取关键指标、生成简报。
-
-风险提醒：
-
-- 定时任务如果能访问文件和第三方服务，必须设审批点。
-- 不要让 Agent 自动发送外部邮件或提交财务数据。
-
-### 1. Prompt-Driven Development with Claude Code
-
-资料类型：科研/过程复盘  
-链接：https://arxiv.org/abs/2601.17584
-
-研究价值：
-
-- 给出了提示次数、开发时间和代码规模。
-- 展示了 Agent 在新语言/小生态中补齐工具链的能力。
-- 强调人类在验证和架构决策中的作用。
-
-### 2. AIDev：真实 GitHub PR 中的 Agent 代码
-
-资料类型：大规模数据集研究  
-链接：https://arxiv.org/abs/2602.09185
-
-AIDev 收集了 OpenAI Codex、Devin、GitHub Copilot、Cursor、Claude Code 等 Agent 生成的 932,791 个 pull requests，覆盖 116,211 个仓库。它不是桌面应用专用研究，但说明 Agent-authored code 已经进入真实项目协作。
-
-对桌面应用的启发：
-
-- Agent 代码需要和现有工程规范结合。
-- PR 级别的审查、测试和回滚比“聊天生成代码”更可靠。
-- 桌面应用应把 Agent 输出纳入正常 CI、打包、签名流程。
-
-### 3. GUI-360：Windows 办公软件中的 Computer-Using Agent 基准
-
-资料类型：科研 benchmark  
-链接：https://arxiv.org/abs/2511.04307
-
-GUI-360 包含超过 120 万步真实执行轨迹，覆盖 Windows 办公应用中的 GUI grounding、screen parsing、action prediction 等任务。它说明桌面 Agent 的难点不只是点击按钮，还包括识别界面、理解目标、维持跨步骤状态。
-
-### 4. WindowsWorld：跨应用职业工作流基准
-
-资料类型：科研 benchmark  
-链接：https://arxiv.org/abs/2604.27776
-
-WindowsWorld 关注跨 17 个常见桌面应用的职业工作流，78% 任务需要多应用协作。实验显示当前 GUI Agent 在多应用复杂任务上成功率低于 21%。这对桌面应用自动化是重要提醒：单应用 demo 成功不代表真实办公流程可靠。
-
-### 5. UI-CUBE：企业级 Computer Use Agent 可靠性评估
-
-资料类型：科研 benchmark  
-链接：https://arxiv.org/abs/2511.17131
-
-UI-CUBE 从企业部署角度评估 CUA，不只看任务完成，还看操作可靠性。它发现简单 UI 任务成功率较高，但复杂复制粘贴和企业场景任务会断崖式下降到 9%-19%。桌面应用开发者如果想内置 Agent，应优先设计 API/结构化接口，而不是只依赖屏幕点击。
-
-<!-- AUTO_CASE_UPDATES_START:desktop:zh-CN -->
-## 最新更新(2026-06-13)
-
-以下为近期（2026年5月底至6月中旬）自动发现的与《AI Agent 桌面应用案例》相关的候选线索，供人工复核与增量更新参考。
-
-
-- **PawWork**：一款免费开源的桌面AI Agent，支持macOS和Windows，可作为Codex App和Claude Cowork的替代品。自带75+模型提供商、ChatGPT OAuth、本地模型和Office文件支持，无需终端。GitHub星数48。
-- **EverFern**：本地优先的免费AI Agent，通过点击按钮、导航应用、填写表单和运行工作流来操作电脑。无订阅、无云端依赖，数据不离开本地。是Claude Cowork和Manas Desktop的开源替代。GitHub星数15。
-- **HexClaw Desktop**：企业级安全个人AI Agent桌面客户端，基于Tauri + Vue 3，本地Sidecar零云端依赖，支持多模型、图片视频生成、知识库RAG、MCP工具插件及多平台IM接入。GitHub星数13。
-- **OpenAI收购Ona**：OpenAI计划收购Ona，以扩展Codex的安全持久云环境，支持企业工作流中的长期运行AI Agent。
-
-### GitHub/开源项目
-
-- [Astro-Han/pawwork](https://github.com/Astro-Han/pawwork) — 免费开源桌面AI Agent，macOS/Windows，BYOK，75+提供商，星数48。
-- [Everfern-AI/Everfern](https://github.com/Everfern-AI/Everfern) — 本地优先AI Agent，操作电脑，无云端依赖，星数15。
-- [hexagon-codes/hexclaw-desktop](https://github.com/hexagon-codes/hexclaw-desktop) — 企业级安全AI Agent桌面客户端，Tauri + Vue 3，星数13。
-- [AmrDab/clawdcursor](https://github.com/AmrDab/clawdcursor) — MCP驱动的GUI回退层，当API或工具不可用时通过GUI执行任务，跨平台、本地优先，星数342。
-- [maks-mk/desktop-ai-agent](https://github.com/maks-mk/desktop-ai-agent) — 基于LangGraph & MCP的便携自主AI Agent，含GUI，人类在环，单.exe文件，星数2。
-- [Liviastrange489/easiest-claw](https://github.com/Liviastrange489/easiest-claw) — 为OpenClaw提供桌面GUI，无需编码即可运行和管理AI Agent团队，星数2。
-- [Mzeey-Empire/mcode](https://github.com/Mzeey-Empire/mcode) — 高性能AI Agent编排桌面应用，基于Electron，星数1。
-- [nickoder635-ai/All-in-One](https://github.com/nickoder635-ai/All-in-One) — 集成生产力工具、游戏、PDF工具和AI Agent的桌面应用，星数3。
-- [merchantprotocol/sulla-desktop](https://github.com/merchantprotocol/sulla-desktop) — 商业就绪AI Agent桌面应用，基于Electron和Lima VM，星数11。
-- [InbarR/tmax](https://github.com/InbarR/tmax) — 跨平台多终端应用，支持平铺布局、浮动面板和键盘驱动工作流，星数51。
-- [paytenmorrow7-dot/clawInstaller](https://github.com/paytenmorrow7-dot/clawInstaller) — 自动化Windows部署OpenClaw的便携C#应用，星数2。
-- [Evan1108-Coder/AI-Debate-Council](https://github.com/Evan1108-Coder/AI-Debate-Council) — 多Agent AI辩论应用，模型团队争论、挑战主张、追踪证据并生成裁决，星数5。
-
-### 论文 / Benchmark
-
-- [EpiBench: Verifiable Evaluation of AI Agents on Epigenomics Analysis](https://arxiv.org/abs/2606.13602v1) — 表观基因组学分析的可验证基准，包含106个评估，在5088条轨迹中，GPT-5.5/Pi以45.0%通过率领先。
-- [DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration](https://arxiv.org/abs/2606.03103v1) — 针对专业工作流和人机协作的桌面Agent基准。
-- [Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields](https://arxiv.org/abs/2606.11042v3) — 面向真实世界专业领域的长周期计算机使用Agent任务评估。
-- [Multi-Agent Computer Use](https://arxiv.org/abs/2606.01533v1) — 提出多Agent计算机使用系统，强调规划与并行执行。
-- [Recovering Policy-Induced Errors: Benchmarking and Trajectory Synthesis for Robust GUI Agents](https://arxiv.org/abs/2605.29447v1) — 引入GUI-RobustEval和RoTS，评估GUI Agent的错误恢复能力。
-- [WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces](https://arxiv.org/abs/2606.09426v2) — 长周期混合接口基准，114个任务覆盖8个真实工作领域。
-- [DragOn: A Benchmark and Dataset for Drag-Based GUI Interactions](https://arxiv.org/abs/2606.06322v1) — 拖拽式GUI交互基准与数据集。
-- [MacArena: Benchmarking Computer Use Agents on an Online macOS Environment](https://arxiv.org/abs/2606.06560v1) — macOS环境下的计算机使用Agent基准。
-- [MedCUA-Bench: A Screenshot-Only Benchmark for Clinical Computer-Use Agents](https://arxiv.org/abs/2606.03203v1) — 面向临床计算机使用Agent的仅截图基准。
-- [Reasoning for Mobile User Experience with Multimodal LLMs: Task, Benchmark, and Approach](https://arxiv.org/abs/2606.13192v1) — 提出UXBench，评估基于UI截图的用户体验。
-
-### 教程 / 媒体实测
-
-- [Google just redesigned the search box for the first time in 25 years](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) — VentureBeat报道，Google将搜索框从简单关键词输入转变为动态AI驱动对话界面。该变化可能影响桌面AI Agent与浏览器的交互方式。
-
-
-- **待人工复核**：候选资料中未发现明确的中文来源线索（如中文博客、知乎文章、B站教程等）。建议后续关注PawWork、EverFern、HexClaw Desktop等项目的国内社区讨论或汉化情况。
-
-<!-- AUTO_CASE_UPDATES_END:desktop:zh-CN -->
+﻿# 桌面应用：AI Agent 实战案例、教程与科研项目调研
+
+这是一份面向开发者、创作者和研究者的 AI Agent 资料索引，收集了相关方向的教程、案例、开源项目、论文、Benchmark 和产品实践。它的目标是帮助读者快速发现可复现的项目、可参考的工作流，以及值得进一步阅读的研究资料。
+
+> 说明：本索引偏“资料集合”和“选题导航”，部分条目会在后续持续二次 review、补充备注和筛选质量。欢迎把它作为 GitHub 仓库中的起点清单使用，并根据自己的方向继续扩展。
+
+## 大规模资料索引（7+15）
+
+本节分为两类：`教程 / 案例 7 条` 和 `项目 / 论文 15 条`。每条资料包含名称、类型、简要说明和原链接，便于快速判断是否值得深入阅读。
+
+### 教程 / 案例 7 条
+
+| # | 名称 | 类型 | 用途/摘要 | 链接 |
+|---:|---|---|---|---|
+| 1 | Trae Figma MCP 教程 | 中文教程 | InfoQ 中文教程，讲解如何将 Figma 设计稿上下文交给 Agent 并生成可预览页面，是参考设计到代码自动化转换流程的实操案例。 | https://www.infoq.cn/article/QjaRMr5pGMK84UYjoo9P |
+| 2 | Trae Playwright MCP 教程 | 中文教程 | InfoQ 上的中文教程，聚焦 Playwright 在 Agent 产物验收中的角色。演示如何用浏览器操作脚本验证 Web 页面，是端到端测试在 AI 工作流中的具体实践。 | https://www.infoq.cn/article/khJ1J5iikaO9q1Pwc5HI |
+| 3 | Tom Guide Claude Code vs Codex | 媒体实测 | Tom's Guide 媒体实测，通过构建三个真实应用对比 Claude Code 与 OpenAI Codex，是评估两者在开发任务中性能差异与适用场景的实证报告。 | https://www.tomsguide.com/ai/claude-code-vs-openai-codex-i-built-3-real-apps-to-find-the-better-agent-heres-the-verdict |
+| 4 | Tom Guide weekend app | 媒体教程 | Tom's Guide 的周末编码实录，展示用 AI 工具从零构建应用并分发至手机的全过程。案例价值在于快速原型迭代与移动端部署的实操细节。 | https://www.tomsguide.com/ai/i-vibe-coded-an-app-in-a-single-weekend-heres-how-i-got-it-into-other-peoples-phones |
+| 5 | The Verge personal software | 媒体体验 | The Verge 的观察文章，探讨 AI 辅助编码如何催生个人软件新范式。记录实际任务中 AI 工具的使用流程与产出效果，是趋势与实操并重的参考。 | https://www.theverge.com/tech/928905/vibe-code-personal-software-revolution |
+| 6 | Washington Post Claude app | 媒体体验 | 华盛顿邮报互动报道，展示使用 Claude Code 作为编程伙伴构建应用的真实体验，是提炼任务流程与踩坑教训的第一人称记录。 | https://www.washingtonpost.com/technology/interactive/2026/claude-code-cowork-build-apps/ |
+| 7 | Vibe coding overview | 百科/案例汇总 | 维基百科词条，系统梳理 Vibe coding 的概念、典型案例与社区实践。作为百科入口，可快速把握这一 AI 编程范式的演变脉络与核心特征。 | https://en.wikipedia.org/wiki/Vibe_coding |
+
+### 项目 / 论文 15 条
+
+| # | 名称 | 类型 | 用途/摘要 | 链接 |
+|---:|---|---|---|---|
+| 1 | OSWorld | Benchmark | OSWorld 基准评估 AI 在操作系统层面执行跨应用任务的能力，涵盖屏幕观察与控件操作。 | https://arxiv.org/abs/2404.07972 |
+| 2 | Agent S | 开源项目/论文 | Agent S 开源项目与论文，实现可扩展的桌面自动化代理，支持跨应用任务执行与 GUI 交互。 | https://github.com/simular-ai/Agent-S |
+| 3 | OSWorld | Benchmark | OSWorld 是桌面 GUI Agent 基准测试，提供跨应用任务环境，用于评估模型在屏幕观察、控件定位与操作执行上的综合能力。 | https://os-world.github.io/ |
+| 4 | OpenCUA | 项目/论文 | OpenCUA 是通用计算机使用 Agent 的开源实现，聚焦屏幕理解与跨应用操作，可复现其任务拆解与执行流程。 | https://github.com/OpenCUA/OpenCUA |
+| 5 | UI-TARS | 项目 | 字节跳动开源的 GUI Agent UI-TARS，基于视觉界面交互方案。通过截图定位并操作控件，适合研究纯视觉驱动的桌面自动化，无需依赖控件树。 | https://github.com/bytedance/UI-TARS |
+| 6 | WindowsAgentArena | Benchmark | WindowsAgentArena 是微软开发的 Windows 环境 Agent 评测平台，在真实桌面应用中测试自动化任务执行效果，提供标准化评估场景。 | https://github.com/microsoft/WindowsAgentArena |
+| 7 | AppAgent | 论文 | AppAgent 提出基于 LLM 的移动端 GUI Agent 框架，通过视觉观察实现应用内操作，其探索-执行循环可迁移至桌面场景。 | https://arxiv.org/abs/2312.13771 |
+| 8 | ScreenAgent | 项目/论文 | ScreenAgent 介绍通过屏幕截图驱动 Agent 执行桌面任务的方法，展示了视觉语言模型在 GUI 自动化中的端到端应用。 | https://arxiv.org/abs/2402.07945 |
+| 9 | SeeAct | 论文 | SeeAct 提出基于视觉理解的网页操作 Agent，从屏幕截图直接生成动作指令，其截图-动作映射思路适用于桌面环境。 | https://arxiv.org/abs/2401.01614 |
+| 10 | CogAgent | 项目/论文 | CogAgent 结合视觉与语言模型实现 GUI 操作，提供屏幕理解与动作生成的完整方案，是多模态桌面 Agent 的参考架构。 | https://arxiv.org/abs/2312.08914 |
+| 11 | OmniParser | 项目 | OmniParser 是微软开源的 UI 元素解析工具，将截图转换为结构化控件信息，为 Agent 提供可编程的屏幕理解层。 | https://github.com/microsoft/OmniParser |
+| 12 | AnythingLLM Desktop | 开源项目 | 本地运行的 LLM 聊天应用，支持多种模型后端和文档私密问答。可作为 Agent 本地知识管理与对话界面的开箱即用方案。 | https://github.com/Mintplex-Labs/anything-llm |
+| 13 | Jan | 开源项目 | 开源桌面 AI 助手，支持本地运行多种大语言模型，注重隐私和离线使用。其插件架构和模型管理方式对构建 Agent 桌面客户端有借鉴意义。 | https://github.com/menloresearch/jan |
+| 14 | LM Studio docs | 产品/文档 | LM Studio 的官方文档，详述在桌面端运行和调试本地 LLM 的流程，包括模型加载、API 配置和性能调优。是搭建本地 Agent 推理环境的操作指南。 | https://lmstudio.ai/docs |
+| 15 | LM Studio | 桌面应用 | 桌面应用，允许用户下载、运行和测试本地大语言模型，无需联网即可推理。是快速验证 Agent 模型选择和本地部署效果的实用工具。 | https://lmstudio.ai/ |

@@ -1,382 +1,66 @@
-# Web 开发：AI Agent 实战案例、教程与科研项目调研
-
-调研日期：2026-06-13
-
-本文关注“用 AI Agent 直接完成 Web 产品/网站/后台/工具”的案例，不把 Dify、Coze 等 Agent 平台本身作为主角。这里的 Agent 包括 Claude Code、OpenAI Codex、Cursor、Replit Agent、Lovable、Bolt、Firebase Studio 等。
-
-## 结论速览
-
-Web 开发是目前 AI Agent 最成熟的落地方向。原因很简单：Web 项目反馈快、可自动运行测试、可截图验收、部署链路成熟，Agent 写错了也容易迭代。相比桌面、硬件和芯片，Web 案例里个人博主、媒体实测和平台用户故事都更丰富。
-
-最适合复刻的任务：
-
-- 电商 Demo：商品列表、详情页、购物车、支付沙箱、后台管理。
-- 小型 SaaS：订阅追踪器、报价工具、客户管理、报表面板。
-- 内容站：博客、知识库、作品集、课程页。
-- 业务后台：CRUD、权限、搜索筛选、导入导出。
-- 私人工具：预算、健身、读书、习惯记录、数据可视化。
-
-## 博主/开发者教程与心得
-
-### 1. Vibe coding：非程序员构建个人 Web 工具与电商原型
-
-资料类型：媒体/博主实践总结  
-代表工具：Replit、Cursor、Claude、Lovable 等  
-链接：https://en.wikipedia.org/wiki/Vibe_coding
-
-Vibe coding 的典型模式是：用户用自然语言描述产品，AI Agent 生成页面、组件、数据结构和部署配置。纽约时报记者 Kevin Roose 的实验被大量引用，他把这类产物称为 “software for one”。公开资料里提到，他曾用 AI 构建多个小软件，其中一个电商网站实验出现了 AI 自动编造商品评价的问题。
-
-可借鉴的做法：
-
-- 第一轮只要求 Agent 做能跑的最小版本。
-- 第二轮补数据库、鉴权、支付沙箱、后台管理。
-- 第三轮让另一个 Agent 或人工做安全审查。
-- 对“评价、销量、认证、优惠”等营销内容做人工强约束，避免虚假信息。
-
-使用心得：
-
-- AI 很适合快速生成电商页面结构和 UI。
-- 数据真实性、支付安全、隐私和合规不能交给 Agent 自主决定。
-- 非技术用户容易被“能打开页面”误导，以为已经能生产上线。
-
-### 2. Claude Code vs Codex：构建 3 个真实小 App
-
-资料类型：媒体实测  
-代表工具：Claude Code、OpenAI Codex  
-链接：https://www.tomsguide.com/ai/claude-code-vs-openai-codex-i-built-3-real-apps-to-find-the-better-agent-heres-the-verdict
-
-Tom's Guide 让 Claude Code 和 Codex 分别构建订阅追踪器、杂货价格比较工具、贷款/现金购买计算器。结论大致是：Claude Code 更像快速产品原型师，界面和开箱体验更好；Codex 在复杂逻辑、数据处理和分析深度上更稳。
-
-可复刻任务：
-
-- 订阅追踪器：输入服务名、价格、扣费周期，输出月度/年度总成本。
-- 价格比较器：录入不同商店商品价格，输出最优购买组合。
-- 财务计算器：对比贷款购买和现金购买的长期成本。
-
-提示词结构：
-
-```text
-目标用户：
-核心功能：
-输入字段：
-计算规则：
-页面结构：
-验收标准：
-不要做的事情：
-```
-
-使用心得：
-
-- 不要只让 Agent “做一个 App”，要给它验收标准。
-- 财务、电商、价格比较这类任务必须要求 Agent 展示公式。
-- 第二个 Agent 做 code review 很有价值，尤其能发现边界条件。
-
-### 3. Lovable/Replit/Bolt：Prompt-to-app 平台里的 Web 应用生成
-
-资料类型：平台用户生态/行业报道  
-代表工具：Lovable、Replit Agent、Bolt、Firebase Studio  
-链接：
-
-- Replit Agent 概述：https://en.wikipedia.org/wiki/Replit
-- Lovable 概述：https://en.wikipedia.org/wiki/Lovable_%28company%29
-- Prompt-to-product 研究：https://arxiv.org/abs/2512.18080
-
-Lovable、Replit、Bolt 这类产品的共同点是把 Web 应用生成、预览、部署、数据库、鉴权做成一条链。它们特别适合非技术创业者做 MVP。Business Insider 对 Lovable 用户的报道显示，很多用户来自营销、咨询、销售等非工程背景，但多数项目还没有产生收入。
-
-可借鉴的任务：
-
-- 咨询顾问的客户问卷收集系统。
-- 小商家的预约/库存/订单工具。
-- 课程售卖页和学员管理后台。
-- 销售线索收集与 CRM 小工具。
-
-使用心得：
-
-- Prompt-to-app 很适合“从 0 到 1”，但复杂业务会遇到权限、数据模型和安全问题。
-- Supabase/数据库权限配置是常见风险点，不能只看页面是否可用。
-- 非工程用户最好把 Agent 输出当作“可演示原型”，上线前请开发者审查。
-
-### 4. Washington Post：普通人用 Claude Code/Cowork 做个人 App
-
-资料类型：英文媒体体验/非程序员案例  
-代表工具：Claude Code、Claude Cowork  
-链接：https://www.washingtonpost.com/technology/interactive/2026/claude-code-cowork-build-apps/
-
-Washington Post 的互动报道记录了非程序员用 Claude Code/Cowork 生成网站和 App 的趋势，案例包括个人媒体追踪器、针对本地海况的冲浪预测 App “Dialed”等。这类案例的重点不是技术多复杂，而是用户把自己掌握的细分领域知识转成软件需求，Agent 负责把它落成可用原型。
-
-可借鉴点：
-
-- 适合把“非常个人化、市场太小但自己很需要”的需求做成工具。
-- 用户领域知识越具体，Agent 输出越有用。
-- 发布和分享比写出第一版更难，后续仍要考虑托管、域名、权限和数据维护。
-
-### 5. Tom's Guide：周末 vibe coded App 并发布到别人手机
-
-资料类型：英文博主/媒体教程  
-代表工具：Codex、Gemini、Claude Code、Cursor、Replit、Lovable  
-链接：https://www.tomsguide.com/ai/i-vibe-coded-an-app-in-a-single-weekend-heres-how-i-got-it-into-other-peoples-phones
-
-这篇文章把重点放在“做完之后如何交到别人手里”：Vercel、Netlify、Replit、GitHub Pages 等部署方式比写代码本身更关键。对 Web/App Agent 项目来说，这是很实用的提醒：现在生成原型很快，但真正让用户访问、反馈、复用，仍要处理部署、分享链接、版本迭代和成本。
-
-可复刻任务：
-
-- 让 Agent 生成一个 PWA 小工具。
-- 让 Agent 补 `manifest.json`、响应式布局、离线缓存。
-- 部署到 Vercel/Netlify/Replit。
-- 用二维码分发给测试用户。
-
-### 6. Claude Code Web App：从本地 CLI 到浏览器内自动改 GitHub 仓库
-
-资料类型：产品报道/工作流案例  
-代表工具：Claude Code Web  
-链接：https://timesofindia.indiatimes.com/technology/tech-news/anthropic-launches-claude-code-web-app-expanding-access-to-ai-powered-coding-agents/articleshow/124720853.cms
-
-Claude Code Web 允许用户连接 GitHub 仓库，在 Anthropic 托管的隔离 VM 中克隆项目、安装依赖、改代码、运行测试并创建 PR。这类模式很适合 Web 项目维护：不是让 Agent 直接操作本地机器，而是在云端沙箱里完成 issue 到 PR 的闭环。
-
-适合任务：
-
-- 修复 UI bug。
-- 补单元测试。
-- 升级依赖。
-- 改 README 和部署文档。
-- 根据 issue 生成小功能 PR。
-
-### 7. GPT Engineer -> Lovable：从开源代码生成器到商业 Prompt-to-app
-
-资料类型：开源项目/商业演化案例  
-代表工具：gpt-engineer、Lovable  
-链接：https://en.wikipedia.org/wiki/Lovable_%28company%29
-
-Lovable 的前身之一是开源项目 gpt-engineer，这个路径很适合作为 Web Agent 项目史的一条线索：先是“从文本规格生成完整代码库”的开源实验，然后演化为带预览、编辑、部署、后端集成的商业平台。对开发者来说，它说明单次代码生成并不足够，真正的产品价值在于持续编辑、可视化反馈、数据库/鉴权/部署集成。
-
-使用心得：
-
-- 早期 prompt-to-code 项目适合学习生成代码库的基本流程。
-- 商业 prompt-to-app 更适合快速出 MVP。
-- 复杂业务仍要导出代码，由工程师接管。
-
-### 8. InfoQ / Trae：用 Figma MCP 把设计稿转成前端页面
-
-资料类型：中文教程 / 具体操作案例  
-代表工具：Trae IDE、Figma AI Bridge MCP、DeepSeek-V3  
-链接：https://www.infoq.cn/article/QjaRMr5pGMK84UYjoo9P
-
-InfoQ 这篇 Trae 教程不是泛泛介绍 AI 编程，而是完整演示“Figma 设计稿 -> 前端页面”的流程：安装 Trae，配置 Node、Python、uvx，获取 Figma Personal Access Token，添加 MCP Server - Figma AI Bridge，创建“Figma 助手”智能体，然后把 Figma 链接交给 Agent 生成 `index.html` 并预览。文章还给出可直接复用的智能体提示词，要求忠实还原设计稿、生成响应式 HTML。
-
-可借鉴点：
-
-- 这是设计到代码的具体 Agent 工作流，适合 Web/落地页/运营页面。
-- 关键不在“让 AI 猜 UI”，而是把 Figma 文件作为上下文输入。
-- 教程强调 token 权限、MCP 配置、预览迭代，这些比单次生成代码更接近真实工作。
-
-### 9. InfoQ / Trae：用 Playwright MCP 做网页自动化测试
-
-资料类型：中文教程 / Web 测试 Agent 案例  
-代表工具：Trae IDE、Playwright MCP、DeepSeek-V3  
-链接：https://www.infoq.cn/article/khJ1J5iikaO9q1Pwc5HI
-
-这篇教程演示了在 Trae 中配置 Playwright MCP Server，创建“网页测试助手”智能体，并让 Agent 自动打开网页、截图、点击链接、执行测试指令。文章给出依赖安装、MCP 配置、自定义智能体提示词、工具权限和 Auto-Run 设置。
-
-可借鉴点：
-
-- 很适合补到 Web Agent 的“验收环节”：Agent 不只写页面，还要打开页面检查交互。
-- Playwright MCP 能把自然语言测试需求转成浏览器动作。
-- 教程也提醒了自动运行和命令权限问题，适合作为团队落地时的安全讨论材料。
-
-## 科研项目/论文
-
-### Cursor 3 / Agent HQ：把 Web 开发任务分配给多个 Agent
-
-资料类型：产品报道/开发者工作流  
-链接：
-
-- Cursor 3 报道：https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic
-- GitHub Agent HQ：https://www.theverge.com/news/873665/github-claude-codex-ai-agents
-
-Cursor 3 和 GitHub Agent HQ 都反映了一个趋势：Web 开发不再只是单个聊天框里生成代码，而是把 issue、PR、修 bug、补测试、改 UI 分派给不同 Agent。GitHub Agent HQ 甚至把 Claude、Codex、Copilot 和自定义 Agent 放在同一入口里，让开发者比较不同 Agent 对同一任务的输出。
-
-可复刻任务：
-
-- 给电商项目开 3 个 issue：购物车 bug、移动端样式、订单导出。
-- 分别让 Claude/Codex/Copilot 生成 PR。
-- 比较改动范围、测试完整度和 UI 退化情况。
-
-使用心得：
-
-- Agent 之间的输出风格差异很大，适合做“竞标式开发”。
-- 对 Web 项目尤其适合，因为截图、测试和部署预览都容易自动化。
-- 最好把每个任务拆成小 PR，不要让 Agent 一次改完整个站点。
-
-### Replit Agent 与生产数据库事故：Web Agent 的反面教材
-
-资料类型：事故报道/安全案例  
-链接：
-
-- Replit 概述：https://en.wikipedia.org/wiki/Replit
-- AI agent 风险概述：https://en.wikipedia.org/wiki/AI_agent
-- Guardian 事故报道：https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database
-
-Replit Agent、Cursor/Claude 类工具都出现过“Agent 误删数据、伪造报告、绕过约束”的报道。这些并不是教程，但对 Web 开发极其重要：Agent 一旦接入数据库、部署环境和生产凭据，风险会从“代码 bug”变成“业务事故”。
-
-建议加入的安全流程：
-
-- 本地/预览环境与生产环境完全隔离。
-- Agent 默认只读生产数据库。
-- 迁移脚本必须人工审批。
-- 对 destructive command 设置二次确认。
-- 自动备份要由外部系统负责，不能交给同一个 Agent。
-
-### 1. From Prompt to Product
-
-资料类型：科研 benchmark  
-链接：https://arxiv.org/abs/2512.18080
-
-这篇论文比较 Replit、Bolt、Firebase Studio 三类 agentic app generation system。研究用 96 个 Web 应用提示生成 288 个应用，再由 205 名参与者进行 1071 次成对比较，评价易用性、视觉吸引力、完整度和信任感。
-
-对实践的启发：
-
-- Web Agent 不能只评代码是否能跑，还要评用户能否完成任务。
-- 视觉好看不等于用户信任。
-- 不同平台差异很大，不能用单一 demo 判断所有 Agent。
-
-### 2. Exploring Student-AI Interactions in Vibe Coding
-
-资料类型：科研/教育观察  
-链接：https://arxiv.org/abs/2507.22614
-
-研究观察学生使用 Replit 构建 Web 应用。结论之一是：多数学生主要在测试和调试原型，很少进入代码；高级软件工程学生的提示更常包含功能和代码上下文。
-
-对实践的启发：
-
-- 初学者需要“如何描述上下文”的训练。
-- AI Agent 降低了入口门槛，但也可能让用户不了解系统内部。
-- 教程应加入“读代码、检查数据流、验证权限”的环节。
-
-### 4. WebApp1K：Web App 代码生成 Benchmark
-
-资料类型：科研 benchmark  
-链接：https://arxiv.org/abs/2408.00019
-
-WebApp1K 是面向 Web App 开发的代码生成基准，目标是评估模型生成 Web 应用的正确性和功能完整度。它适合用来把“Agent 能不能做网站”从主观体验变成可测试任务。
-
-### 5. Coding Beyond Your Training：Claude Code 是否扩展开发者技术边界
-
-资料类型：实证研究  
-链接：https://arxiv.org/abs/2605.25438
-
-这篇研究追踪 5,838 名 GitHub 开发者，观察 Claude Code 协作提交出现前后的行为变化。结果显示采用 Claude Code 后，开发者月提交数、参与仓库数、使用语言种类都有显著增加。对 Web 开发的启发是：Agent 不只是提高同一技术栈效率，也会降低尝试新框架、新语言、新项目的门槛。
-
-<!-- AUTO_CASE_UPDATES_START:web:zh-CN -->
-## 最新更新(2026-06-13)
-
-以下内容基于 2026 年 5 月中旬至 6 月中旬的候选资料整理，供《AI Agent Web 开发案例》后续修订参考。所有信息均来自候选资料，未做外部补充或推断。
-
----
-
-### 产品 / 工具
-
-- **Google 搜索框 25 年来首次重新设计**：Google 在 2026 年 I/O 大会上宣布，将传统关键词输入框改造为动态 AI 驱动对话界面。这一变化可能深刻影响 Web 前端 Agent 的交互范式与搜索集成方式。  
-  [来源](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) (2026-05-19)
-
-- **OpenAI 收购 Ona**：OpenAI 计划收购 Ona，为 Codex 提供安全、持久的云端环境，支持企业级长运行 AI Agent。这可能改变 Agent 后端部署与工作流持久化的格局。  
-  [来源](https://openai.com/index/openai-to-acquire-ona) (2026-06-11)
-
-- **“Vibe coding” 实战对比**：Tom's Guide 用 Claude Code 和 OpenAI Codex 分别开发了 3 个真实应用并对比结果。该评测对 Agent 选型有直接参考价值。  
-  [来源](https://news.google.com/rss/articles/CBMiuwFBVV95cUxONmVSX0tDS0xLVWxzVDl5dExrc1htRXZwV0d4bndWNjNja3I4Ymh6anRmWExySEJfVG9waE9VOXI4SGJIcHBQSXBDM3FnY3lRZTJURUdFY0NnRk1ra2h0RjZ4cHFnYjludnQ0aEpQbzRoRXc3MkFlY1I2LTRKd0FueDJ0N0dVTGVYUW1CaTFLTWtlRTZCN1JqbjdfUERubU9KM1dIZ2VMRkZZVmFMa2sxbHktRjVORTh0WjRR?oc=5) (2026-05-16)
-
----
-
-### 项目
-
-- **cbt4free/claude-agent-sdk-laravel**：为 Laravel 应用集成 Claude Code Agent，支持文件处理、命令执行、代码编辑和 Web 搜索。Star 数：1。  
-  [GitHub](https://github.com/cbt4free/claude-agent-sdk-laravel) (2026-06-13)
-
-- **praveen-palanisamy/autodemo**：将运行中的 Web 应用自动生成演示视频、交互式导览和市场宣传素材，支持 CI 和 MCP 协议。Star 数：0。  
-  [GitHub](https://github.com/praveen-palanisamy/autodemo) (2026-06-13)
-
-- **jcuervo/rails-skills**：为 Ruby on Rails 应用（JSON API 或 Hotwire 全栈）提供 Claude Code Agent 技能集，覆盖构建、测试、加固和部署。Star 数：0。  
-  [GitHub](https://github.com/jcuervo/rails-skills) (2026-06-13)
-
-- **yufangjie1643/aigc-commerce-video-generator**：本地优先的开源设计工具，支持 259+ 技能、142+ 设计系统，可生成 Web/桌面/移动原型、幻灯片、视频等，兼容多种 Agent CLI。Star 数：0。  
-  [GitHub](https://github.com/yufangjie1643/aigc-commerce-video-generator) (2026-06-13)
-
-- **AnujTechBoy/AIForge**：AI 原生 Web 和移动应用构建工具，基于 monorepo 实现 90%+ 代码共享。Star 数：2。  
-  [GitHub](https://github.com/AnujTechBoy/AIForge) (2026-06-13)
-
-- **Ajiess/AI-Code-Reviewer**：AI 代码审查 Web 应用，提供实时反馈。Star 数：0。  
-  [GitHub](https://github.com/Ajiess/AI-Code-Reviewer) (2026-06-13)
-
-- **hegemonart/get-design-done**：为 AI 编码 Agent 提供设计质量流水线：从需求简报、映射、规划、实现到 UI 验证。Star 数：4。  
-  [GitHub](https://github.com/hegemonart/get-design-done) (2026-06-13)
-
-- **CoWork-OS/CoWork-OS**：本地优先的个人 Agent 操作系统，涵盖编码、知识工作、Web 设计、自动化和工件。Star 数：356。  
-  [GitHub](https://github.com/CoWork-OS/CoWork-OS) (2026-06-13)
-
-- **LeeKangRyong/ai-native-frontend-prac**：使用 Claude Code + Figma MCP 开发 4 个前端服务的单体仓库。Star 数：0。  
-  [GitHub](https://github.com/LeeKangRyong/ai-native-frontend-prac) (2026-06-07)
-
-- **RooCodeInc/Roo-Code**：在代码编辑器中提供完整 AI Agent 开发团队。  
-  [GitHub](https://news.google.com/rss/articles/CBMiT0FVX3lxTE84eUNNd1F3TkZNc1FmZUlNWnhBbXA4SXdqS3Z1SnhmNk1SYWI3ZTd1ZlhOVFlFZ1hFdU1hbVVXc3BvdWlrX3NMbFdmdVJ3OUU?oc=5) (2026-05-15)
-
----
-
-### 论文 / Benchmark
-
-- **From Runnable to Shippable: Multi-Agent Test-Driven Development for Generating Full-Stack Web Applications from Requirements**  
-  提出多 Agent 测试驱动开发方法，解决当前 Agent 生成 Web 应用在功能需求上失败率超 70% 的问题。  
-  [arXiv](https://arxiv.org/abs/2605.17242v1) (2026-05-17)
-
-- **VISTA: An End-to-End Benchmark for Visual Spec-to-Web-App Coding Agents**  
-  针对 LLM Agent 从视觉规格生成 Web 应用的全流程基准测试，涵盖文本、视觉/结构保真度、技术栈约束等多种输入条件。  
-  [arXiv](https://arxiv.org/abs/2605.26144v2) (2026-05-22)
-
-- **Asuka-Bench: Benchmarking Code Agents on Underspecified User Intent and Multi-Round Refinement**  
-  模拟真实 Web 开发中用户意图不明确、需多轮迭代的场景，评估 Agent 在浏览器渲染行为下的闭环能力。  
-  [arXiv](https://arxiv.org/abs/2606.05920v1) (2026-06-04)
-
-- **Domain-Conditioned Safety in Frontier Computer-Using Agents**  
-  发布 CUA-HandCrafted 基准，包含 793 个浏览器任务、56 个攻击模板，评估前沿计算机使用 Agent 的安全性。  
-  [arXiv](https://arxiv.org/abs/2606.05233v1) (2026-06-03)
-
-- **Helicase: Uncertainty-Guided Supply Chain Knowledge Graph Construction with Autonomous Multi-Agent LLMs**  
-  多 Agent 系统在供应链知识图谱构建中的应用，涉及多跳推理与 Web 资源碎片化处理。  
-  [arXiv](https://arxiv.org/abs/2605.26835v1) (2026-05-26)
-
-- **Human-in-the-Loop Swarms: A Bionic Swarm Approach to Real-World Soil Mapping**  
-  使用智能手机 Web 应用作为人机交互界面，辅助机器人集群进行土壤测绘。  
-  [arXiv](https://arxiv.org/abs/2605.29091v1) (2026-05-27)
-
----
-
-### 教程 / 媒体实测
-
-- **Modern Web Guidance: Teaching AI Agents to Stop Coding Like It's 2019**  
-  DEV Community 文章，指导如何让 AI Agent 使用现代 Web 开发实践。  
-  [来源](https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0ZqMXQ1XzFHY0lkNnk3UEJvNDdaOERFOUZTYjFzTU9VSkRhMi1QUG1ybExWajZNM0VNMHU3a1JFOXUyYzY4RlJUZVVyNGpNNWRscUxFN1BrQlcxV3ctMC1nLXhMdDFBY1VmZmpVdmlRTU54a3V3M2NCUHg3M3piODRjUTcwMHlWa0hmN05SeDJmMGlNOVNIUDNnbzFJaklNYnc?oc=5) (2026-05-21)
-
-- **Playwright 官方文档**：Playwright 定位为支持 AI Agent 工作流的 Web 自动化工具，支持多浏览器和多种语言。  
-  [来源](https://playwright.dev/) (无发布日期)
-
-- **I vibe coded 3 real apps using Claude Code and OpenAI Codex. Here is the winner**  
-  Tom's Guide 的实战对比评测。  
-  [来源](https://news.google.com/rss/articles/CBMiuwFBVV95cUxONmVSX0tDS0xLVWxzVDl5dExrc1htRXZwV0d4bndWNjNja3I4Ymh6anRmWExySEJfVG9waE9VOXI4SGJIcHBQSXBDM3FnY3lRZTJURUdFY0NnRk1ra2h0RjZ4cHFnYjludnQ0aEpQbzRoRXc3MkFlY1I2LTRKd0FueDJ0N0dVTGVYUW1CaTFLTWtlRTZCN1JqbjdfUERubU9KM1dIZ2VMRkZZVmFMa2sxbHktRjVORTh0WjRR?oc=5) (2026-05-16)
-
----
-
-### 教程 / 媒体实测
-
-- **CSDN：从对话到行动：AI Agent驶入百亿赛道——2026年AI智能体产业图谱征集进行中**  
-  中文社区对 AI Agent 产业图谱的征集与讨论。  
-  [来源](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWmp2NXp1d3o3ZzJEOGlKQ3l4MmozZmhCaWFUZTNHTXphUnJ1ZmltTzNQWENvQnZUMjBrRmdmeUl0b0cxQlg5cHBmWXJLaWtrZHRJal92R0ZqSllHaEE?oc=5) (2026-06-08)
-
-- **掘金：AI Agent发展趋势的深度解析：从代码助手到系统级智能体的演进**  
-  分析多个 Agent 产品的核心架构机制。  
-  [来源](https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1REpmZnZTVVNmUGE2TEhBVlVpamdtR09GVEZQUEJldUhuUXgwcEg4RW1iTjNxRGVYQk85eUJfSURkR2hlakxNLVVMSk1jY1hyRXJkVQ?oc=5) (2026-05-26)
-
-- **电子工程专辑：2026智能座舱AI Agent演进趋势及3大案例分析**  
-  智能座舱场景下的 AI Agent 应用分析。  
-  [来源](https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xS2thU3pWdkVMa25paUxpVVRwMXlVeTlXRGJrNFFtTWlMMmhVcGVCQk0wTVIzb3dTSFVBaUZmTkVnV055UDBVbzh1M0J0eUdadC00?oc=5) (2026-06-13)
-
----
-
-<!-- AUTO_CASE_UPDATES_END:web:zh-CN -->
+﻿# Web 开发：AI Agent 实战案例、教程与科研项目调研
+
+这是一份面向开发者、创作者和研究者的 AI Agent 资料索引，收集了相关方向的教程、案例、开源项目、论文、Benchmark 和产品实践。它的目标是帮助读者快速发现可复现的项目、可参考的工作流，以及值得进一步阅读的研究资料。
+
+> 说明：本索引偏“资料集合”和“选题导航”，部分条目会在后续持续二次 review、补充备注和筛选质量。欢迎把它作为 GitHub 仓库中的起点清单使用，并根据自己的方向继续扩展。
+
+## 大规模资料索引（32+15）
+
+本节分为两类：`教程 / 案例 32 条` 和 `项目 / 论文 15 条`。每条资料包含名称、类型、简要说明和原链接，便于快速判断是否值得深入阅读。
+
+### 教程 / 案例 32 条
+
+| # | 名称 | 类型 | 用途/摘要 | 链接 |
+|---:|---|---|---|---|
+| 1 | Anthropic Claude Code docs | 官方文档 | Anthropic 官方文档，详述 Claude Code 如何读取代码库、编辑文件、执行命令并委派子任务，是研究代码生成 Agent 工作流与权限管理的核心参考。 | https://docs.anthropic.com/en/docs/claude-code/overview |
+| 2 | OpenAI Codex docs | 官方文档 | OpenAI 官方指南，阐述 Codex 理解仓库结构、修改代码、运行测试并生成可审查变更的机制，为 coding agent 的工程化能力提供基准。 | https://platform.openai.com/docs/guides/codex |
+| 3 | Cursor docs | 官方文档 | Cursor 官方文档，介绍其代码库索引、自动编辑与多文件修改的实现细节，是理解 AI IDE 如何提升交互式开发效率的关键资料。 | https://docs.cursor.com/ |
+| 4 | GitHub Copilot docs | 官方文档 | GitHub 官方文档，覆盖 Copilot 在 issue、PR、代码补全及团队协作中的集成方式，是理解 AI 编程助手在真实开发流程中落地的核心参考。 | https://docs.github.com/en/copilot |
+| 5 | Replit Agent docs | 官方文档 | Replit 官方文档，描述 Agent 将自然语言需求转化为在线运行原型的完整路径，涵盖从零到部署的端到端开发流程。 | https://docs.replit.com/replitai/agent |
+| 6 | Lovable docs | 官方文档 | Lovable 官方文档，覆盖 prompt-to-app 的页面生成、后端集成与可视化迭代，是研究快速构建全栈应用 Agent 的实践指南。 | https://docs.lovable.dev/ |
+| 7 | Bolt.new docs | 官方文档 | Bolt.new 支持文档，解释如何在浏览器内生成、运行和修改全栈应用，展示了无环境配置的云端开发工作方式。 | https://support.bolt.new/ |
+| 8 | Firebase Studio docs | 官方文档 | Firebase 官方文档，说明 Studio 如何连接数据库、鉴权、托管和后端服务，是研究 AI 原型与云服务深度集成的技术参考。 | https://firebase.google.com/docs/studio |
+| 9 | Trae Figma MCP 教程 | 中文教程 | InfoQ 中文教程，讲解通过 Trae 与 Figma MCP 将设计稿上下文交给 Agent 并生成可预览页面，是设计转代码的实操案例。 | https://www.infoq.cn/article/QjaRMr5pGMK84UYjoo9P |
+| 10 | Trae Playwright MCP 教程 | 中文教程 | InfoQ 中文教程，介绍 Trae 结合 Playwright MCP 进行 Web 页面操作与自动化验收，为 Agent 产物的质量检测提供可复现方案。 | https://www.infoq.cn/article/khJ1J5iikaO9q1Pwc5HI |
+| 11 | Tom Guide Claude Code vs Codex | 媒体实测 | Tom's Guide 实测对比，通过构建三个真实应用评估 Claude Code 与 OpenAI Codex 在代码库读取、文件编辑和任务委派中的表现差异。 | https://www.tomsguide.com/ai/claude-code-vs-openai-codex-i-built-3-real-apps-to-find-the-better-agent-heres-the-verdict |
+| 12 | Tom Guide weekend app | 媒体教程 | Tom's Guide 分享用 AI 辅助在一个周末内完成应用开发并部署到他人手机的全过程，涵盖从创意到上线的完整工作流与实用技巧。 | https://www.tomsguide.com/ai/i-vibe-coded-an-app-in-a-single-weekend-heres-how-i-got-it-into-other-peoples-phones |
+| 13 | The Verge personal software | 媒体体验 | The Verge 探讨个人软件开发变革，通过实际体验展示非专业开发者如何借助 AI 工具创建满足个人需求的定制化应用。 | https://www.theverge.com/tech/928905/vibe-code-personal-software-revolution |
+| 14 | Washington Post Claude app | 媒体体验 | 华盛顿邮报交互式报道，记录记者使用 Claude Code 作为编程搭档构建应用的亲身经历，揭示 AI 辅助开发中的协作模式与产出效果。 | https://www.washingtonpost.com/technology/interactive/2026/claude-code-cowork-build-apps/ |
+| 15 | Vibe coding overview | 百科/案例汇总 | 维基百科词条系统梳理 Vibe Coding 的概念、起源与实践方法，汇总社区案例，是理解这种依赖 AI 生成代码的新编程范式的基础资料。 | https://en.wikipedia.org/wiki/Vibe_coding |
+| 16 | Vercel AI SDK examples | 官方示例 | Vercel AI SDK 官方文档提供完整示例，涵盖流式响应、工具调用和前端交互，是快速搭建具备 AI 能力的 Web 应用的技术起点。 | https://sdk.vercel.ai/docs |
+| 17 | Supabase AI docs | 官方文档 | Supabase AI 文档聚焦数据库、鉴权、向量检索和后端集成，为构建 AI 应用提供开箱即用的后端基础设施与操作指南。 | https://supabase.com/docs/guides/ai |
+| 18 | LangChain JS tutorials | 官方教程 | LangChain.js 官方教程，指导构建 RAG 系统、工具调用链和多步骤推理 Agent，是掌握 JavaScript 环境下复杂 AI 工作流的关键资料。 | https://js.langchain.com/docs/tutorials/ |
+| 19 | OpenAI Agents SDK Python quickstart | 官方教程 | OpenAI Agents SDK Python 快速入门，指导安装与基础示例，帮助快速构建基于 Agent 的 AI 应用。 | https://openai.github.io/openai-agents-python/quickstart/ |
+| 20 | OpenAI Realtime API guide | 官方教程 | OpenAI Realtime API 指南，讲解实时语音与文本交互能力，适用于构建低延迟的对话式 AI 应用。 | https://platform.openai.com/docs/guides/realtime |
+| 21 | Anthropic tool use docs | 官方教程 | Anthropic 工具使用文档，介绍如何集成 Claude 的工具调用功能，实现模型与外部 API 或数据的交互。 | https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview |
+| 22 | Anthropic MCP connector docs | 官方教程 | Anthropic MCP 连接器文档，讲解如何通过模型上下文协议连接外部工具与数据源，扩展 Agent 能力。 | https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector |
+| 23 | Google ADK quickstart | 官方教程 | Google ADK 快速入门，指导安装与初始配置，帮助快速上手 Agent 开发工具包。 | https://google.github.io/adk-docs/get-started/quickstart/ |
+| 24 | Mastra getting started | 官方教程 | Mastra 入门指南，涵盖安装与基础用法，助力快速搭建可扩展的 AI Agent 框架。 | https://mastra.ai/docs/getting-started/installation |
+| 25 | Agno quickstart | 官方教程 | Agno 快速入门文档，介绍安装与核心概念，帮助快速构建和部署 AI 代理应用。 | https://docs.agno.com/introduction |
+| 26 | Convex AI quickstart | 官方教程 | Convex AI 快速入门，讲解如何结合 Convex 后端与 AI 功能，实现实时数据驱动的智能应用。 | https://docs.convex.dev/ai |
+| 27 | Postgres pgvector tutorial | 官方教程 | pgvector 官方教程，展示如何在 PostgreSQL 中存储和检索向量数据，适用于 RAG 与语义搜索场景。 | https://github.com/pgvector/pgvector |
+| 28 | Qdrant RAG tutorial | 官方教程 | Qdrant RAG 教程，指导使用向量数据库构建检索增强生成系统，提升问答与知识库应用的准确性。 | https://qdrant.tech/documentation/tutorials/ |
+| 29 | Chroma getting started | 官方教程 | Chroma 入门指南，介绍轻量级向量数据库的安装与基本操作，适合快速集成到 AI 应用中。 | https://docs.trychroma.com/getting-started |
+| 30 | Pinecone RAG guide | 官方教程 | Pinecone RAG 指南，讲解如何利用托管向量数据库实现高效语义检索，优化知识库问答流程。 | https://docs.pinecone.io/guides/get-started/overview |
+| 31 | Weaviate quickstart | 官方教程 | Weaviate 快速入门，展示云原生向量数据库的配置与查询，支持混合搜索与 AI 工作流集成。 | https://weaviate.io/developers/weaviate/quickstart |
+| 32 | Streamlit LLM tutorials | 官方教程 | Streamlit LLM 教程，提供构建大语言模型交互界面的示例，帮助快速创建数据驱动的 AI 演示应用。 | https://docs.streamlit.io/develop/tutorials/llms |
+
+### 项目 / 论文 15 条
+
+| # | 名称 | 类型 | 用途/摘要 | 链接 |
+|---:|---|---|---|---|
+| 1 | AIDev | 论文/数据集 | AIDev 论文提出评估 AI 开发能力的基准，涵盖问题设定、数据集构建和模型表现分析，为衡量 Agent 编码能力提供标准化测试。 | https://arxiv.org/abs/2602.09185 |
+| 2 | Agentic Much | 论文 | Agentic Much 论文研究 AI 代理在软件开发中的自主性，包含实验设计、评测指标和关键发现，揭示 Agent 自主编码的边界与潜力。 | https://arxiv.org/abs/2601.18341 |
+| 3 | Configuring Agentic AI Coding Tools | 论文 | Configuring Agentic AI Coding Tools 论文探讨 AI 编码工具配置对代码生成质量的影响，为优化 Agent 编码输出提供可操作的配置策略。 | https://arxiv.org/abs/2602.14690 |
+| 4 | Fingerprinting AI Coding Agents | 论文 | Fingerprinting AI Coding Agents 论文提出识别不同 AI 编码代理的方法，通过行为特征和溯源技术，为 Agent 审计与安全提供技术支撑。 | https://arxiv.org/abs/2601.17406 |
+| 5 | Dive into Claude Code | 论文 | Dive into Claude Code 论文深入分析 Claude 编码代理在代码库操作和任务委派中的实际表现，为 Agent 协作工作流设计提供实证。 | https://arxiv.org/abs/2604.14228 |
+| 6 | From Prompt to Product | 论文/Benchmark | From Prompt to Product 论文与基准研究从提示到完整产品的生成过程，提供评估框架和实验结果，衡量 Agent 端到端开发能力。 | https://arxiv.org/abs/2512.18080 |
+| 7 | WebApp1K | 论文/Benchmark | WebApp1K 论文与基准提供一千个网页应用生成任务，包含数据集构建和模型生成效果评测，是测试 Agent 前端生成能力的标准化资源。 | https://arxiv.org/abs/2408.00019 |
+| 8 | Student-AI Vibe Coding | 论文 | Student-AI Vibe Coding 论文研究学生与 AI 协作编程的模式，分析人机协作对学习效果的影响，为 Agent 教育场景设计提供参考。 | https://arxiv.org/abs/2507.22614 |
+| 9 | gpt-engineer | 开源项目 | 通过自然语言描述自动生成代码的开源项目。核心工作流是用户输入需求，AI 自主完成代码编写、迭代与文件生成，适合研究从需求到代码的端到端 Agent 实现路径。 | https://github.com/AntonOsika/gpt-engineer |
+| 10 | OpenHands | 开源项目 | 让 AI 自主编写和调试代码的开源平台。它模拟人类开发者与代码仓库的交互，能处理复杂的软件工程任务，是研究代码生成 Agent 在真实项目环境中表现的典型案例。 | https://github.com/All-Hands-AI/OpenHands |
+| 11 | SWE-agent | 开源项目 | 专注于让 AI 自主解决 GitHub 上的软件工程问题。它通过 Agent-Computer Interface 与代码仓库交互，执行修复 bug、添加功能等任务，可复现其工具调用与任务分解策略。 | https://github.com/SWE-agent/SWE-agent |
+| 12 | browser-use | 开源项目 | 让 AI 直接操控浏览器的开源工具。它模拟用户点击、输入和导航，实现自动化网页交互与数据采集，是研究 Agent 在真实 Web 环境中执行任务的实用参考。 | https://github.com/browser-use/browser-use |
+| 13 | bolt.diy | 开源项目 | StackBlitz 推出的浏览器内全栈应用生成工具。它允许用户通过自然语言描述直接生成、运行和修改代码，零配置即可体验从需求到可运行应用的完整流程。 | https://github.com/stackblitz-labs/bolt.diy |
+| 14 | v0 | 产品案例 | Vercel 推出的 AI 驱动 UI 生成工具。它通过自然语言描述快速创建 React 组件和页面原型，是研究 AI 辅助前端开发工作流的典型产品案例。 | https://v0.dev/ |
+| 15 | Open Lovable | 开源项目 | 通过自然语言描述生成 Web 页面与后端的 prompt-to-app 工具。基于 Firecrawl 页面抓取与 LLM 代码生成，适合快速原型验证与 MVP 开发。 | https://github.com/firecrawl/open-lovable |

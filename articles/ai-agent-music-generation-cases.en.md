@@ -1,189 +1,56 @@
-# Music Generation: AI Agent Case Studies, Tutorials, and Research Projects
-
-Research date: 2026-06-13
-
-Music generation should be split into two categories: direct generation products such as Suno, Udio, and Stable Audio, and AI agents that connect lyric writing, composition, arrangement, timbre conversion, music understanding, retrieval, evaluation, and MV generation. This article focuses on the latter while documenting replicable creative workflows.
-
-## Quick Takeaways
-
-AI agents are most useful for:
-
-- Lyric writing and multi-version rewriting.
-- Style, mood, and structure planning.
-- Calling music generation models.
-- Audio analysis, classification, transposition, and separation.
-- Automatic scoring for videos.
-- MV storyboard generation.
-- Managing multiple music tools.
-
-Do not fully delegate:
-
-- Copyright judgment before commercial release.
-- Imitating specific living singers.
-- Unauthorized voice cloning.
-- High-quality mixing and mastering.
-- Legal risk around melody similarity.
-
-## Tutorials and Practitioner Notes
-
-### 1. Suno / Udio + Claude / ChatGPT Workflow
-
-Common creator workflow:
-
-- Use Claude/ChatGPT for theme, lyrics, and style.
-- Put lyrics and style prompts into Suno or Udio.
-- Generate multiple versions.
-- Select strong melody and vocal takes.
-- Edit, mix, or denoise in a DAW.
-- Use AI to generate cover art, MV storyboard, and marketing copy.
-
-Example prompt:
-
-```text
-Write lyrics for a 90-second Chinese pop song.
-Theme: an indie developer launching a product late at night
-Mood: restrained, warm, slightly electronic
-Structure: Verse / Pre-Chorus / Chorus / Bridge
-Avoid slogans; make the chorus memorable.
-Also provide Suno/Udio style prompts.
-```
-
-Multi-version selection is more important than one-shot generation. Check platform licenses and similarity risk before commercial use.
-
-### 2. MusicAgent
-
-GitHub: https://github.com/microsoft/muzic/tree/main/musicagent
-
-MusicAgent in Microsoft's Muzic repository is an LLM-powered autonomous agent for music. It dynamically chooses music-task methods and unifies Hugging Face models, GitHub projects, Web APIs, and other tools. Its core value is tool routing, not a single generation model.
-
-### 3. Music-to-Video and MV Pipelines
-
-Common workflow:
-
-- Analyze lyrics and song sections.
-- Generate storyboard scripts.
-- Generate cover art and character settings.
-- Generate keyframes.
-- Generate video clips.
-- Edit to beats.
-
-Music structure matters: intro, verse, chorus, and bridge should be handled separately. Start with lyric videos before attempting full narrative MVs.
-
-### 4. Suno Studio
-
-Link: https://www.techradar.com/ai-platforms-assistants/i-tried-suno-studio-the-new-platform-that-mixes-ai-music-generation-with-hands-on-editing-like-garageband-but-smarter
-
-Suno Studio is described as a generative audio workstation that starts from humming or text prompts and lets users edit drums, effects, instruments, and stems. This signals a shift from "one-click song generation" toward AI draft plus human DAW-style editing.
-
-### 5. Suno MILO-1080
-
-Link: https://www.musicradar.com/music-tech/suno-takes-another-step-into-music-production-with-ai-step-sequencer-milo-1080
-
-MILO-1080 is a browser step sequencer / synthesizer with 16 tracks, AI-generated samples, uploaded clips, built-in synths, and an Idea Generator. It moves AI from whole-song generation toward loops, samples, and arrangement assistance.
-
-### 6. Udio
-
-Link: https://en.wikipedia.org/wiki/Udio
-
-Udio supports text-to-music with vocals and instruments, plus remix, extension, and audio inpainting. Compared with one-shot complete songs, it is well suited to iterative workflows: generate a 30-second hook, extend it, repair local sections, and remix.
-
-### 7. AI Music Company Ecosystem
-
-Link: https://pitchfork.com/features/an-idiots-guide-to-music-ai-companies
-
-Pitchfork's overview maps companies such as Suno, Udio, Boomy, ElevenLabs, Klay Vision, Splice, Music Flamingo, Loudly, and Soundraw. A music-agent toolkit may combine full-song generation, voice tools, royalty-free assets, and analysis tools.
-
-### 8. Microsoft Copilot + Suno
-
-Link: https://en.wikipedia.org/wiki/Suno_%28platform%29
-
-Suno's Microsoft Copilot integration is a beginner-friendly music-agent entry point: the LLM structures theme, lyrics, and style, then Suno generates audio.
-
-### 9. BBL Drizzy and AI Music in Pop Culture
-
-Link: https://en.wikipedia.org/wiki/Udio
-
-The Udio-generated parody song "BBL Drizzy" shows that AI music can enter meme culture and social distribution. Virality may depend more on cultural context than audio quality, but parody, sampling, and celebrity-related content carry higher copyright risk.
-
-## Research and Industry Cases
-
-### IngaRose
-
-Link: https://en.wikipedia.org/wiki/IngaRose
-
-IngaRose is an AI-generated musical act that used tools such as Suno and entered sales charts. It is useful for tracking disclosure, training-data rights, chart manipulation concerns, and attribution between human and AI contributors.
-
-### MusicAgent Paper
-
-Link: https://arxiv.org/abs/2310.11954
-
-MusicAgent argues that users cannot master every AI music tool, so an autonomous workflow should decompose requests and call suitable tools. Tool selection, task decomposition, and result composition are central.
-
-### AutoMV
-
-Link: https://arxiv.org/abs/2512.12196
-
-AutoMV generates MVs from complete songs. It extracts structure, vocals, and lyric timelines, then uses screenwriter and director agents to create scripts, characters, and shots, followed by image/video generation and verifier review.
-
-### GVMGen
-
-Link: https://arxiv.org/abs/2501.09972
-
-GVMGen studies video-to-music generation, aligning music with video across spatial and temporal dimensions. It is relevant to agents that analyze a video before choosing or generating music.
-
-### YingVideo-MV
-
-Link: https://arxiv.org/abs/2512.02492
-
-YingVideo-MV covers audio semantic analysis, MV-director shot planning, camera adapters, and long-sequence consistency for music-performance video.
-
-### Suno / Udio Legal and Industry Cases
-
-Links:
-
-- Suno: https://en.wikipedia.org/wiki/Suno_%28platform%29
-- Udio: https://en.wikipedia.org/wiki/Udio
-- AP report: https://apnews.com/article/849a2d59eab89072154ab32b4db06284
-
-Training data, licensing, artist imitation, disclosure, and commercial use must be core fields in any music-agent case library.
-
-### Critical View: AI Can't Make Music
-
-Link: https://www.theatlantic.com/technology/archive/2024/07/generative-ai-music-suno-udio/679114/
-
-This critique is useful because it reminds us that generating sounds resembling music is not the same as creating work with cultural context, lived emotion, and artistic judgment. Tutorials should position AI as drafting and assistance, not full replacement for musicians.
-
-<!-- AUTO_CASE_UPDATES_START:music:en -->
-## Latest Updates (2026-06-13)
-
-- **Google search box redesign** – Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a simple keyword input into a dynamic, AI-driven conversational interface. May affect how users discover music generation tools. [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think)
-- **OpenAI to acquire Ona** – OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. [OpenAI](https://openai.com/index/openai-to-acquire-ona)
-- **Microsoft Rayfin** – New backend platform for AI agent development and app creation, debuted June 3. [Tech Times](https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3IxQXM3SVNacnJuUFk4NlhBc2VaUklKWnpOM294aXQwaFVwSTBKQ3J4NzFONUlHRUtBMGRteWdYZGdDS1dLSTdTdVBLckMxVlBYQVl2Z2V2RkxRRm9feHl3aWk3Q1p2STk1eWltdjJkS0lnSk5fakNTVmNPVlFKNG9rREFhc1FuVG9Hc3htZ1RhdjNhdlg2ZWNWUXJyOUNLc0ZibkFjOU8xaC1iYThJOVlfdFhuZVIyQlRkUXpTQWx2Ymx6U01JVXBXbUtNdw)
-- **Google DeepMind on multi-agent risks** – DeepMind funding research into dangers of millions of AI agents interacting online. [MIT Technology Review](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/)
-- **OpenAI Academy courses** – New courses on building practical AI skills, repeatable workflows, and applying agents at work. [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work)
-
-### Projects
-- **AetherWave-Studio/aetherwave-mcp** – MCP server for music, image, video, and band generation tools for Claude, Cursor, Continue, and custom agents. Stars: 2. [GitHub](https://github.com/AetherWave-Studio/aetherwave-mcp)
-- **JOYLINK-LTD/lacuna-toolkit** – Open-source SDK, CLI, MCP server, and Agent Skill for Lacuna Music API. Stars: 4. [GitHub](https://github.com/JOYLINK-LTD/lacuna-toolkit)
-- **varosity-ai/mcp-server** – MCP server exposing video, voice, music generation to Claude Desktop, Cursor, Hermes. Stars: 0. [GitHub](https://github.com/varosity-ai/mcp-server)
-- **wangchuxiaoji-oss/doubao2api** – Reverse-engineered Doubao API → OpenAI-compatible REST service for multimodal chat, image/video/music generation. Stars: 40. [GitHub](https://github.com/wangchuxiaoji-oss/doubao2api)
-- **vivar/Hermes-Suno-Music-Agent** – Hermes agent for building complete AI music video projects with structured workflows. Stars: 0. [GitHub](https://github.com/vivar/Hermes-Suno-Music-Agent)
-- **ArcReel/ArcReel** – AI Agent-driven open-source video generation workspace (novel→character/scene/prop design→script→storyboard→video). [GitHub](https://news.google.com/rss/articles/CBMiSkFVX3lxTE81dG5kRFZDSnpsOHE3VmZjbGNlM0J3Q09MMHp0WU5xSUlNOTd3N1U1YlR2a20wMVRYZy1qTVlxRi10WnlVZ0pRcjhR)
-- **AceDataCloud/Skills** – Agent Skills for music, image, video generation, compatible with Claude Code, GitHub Copilot, Gemini CLI. Stars: 8. [GitHub](https://github.com/AceDataCloud/Skills)
-- **akshithajela/guitarmind** – AI agent that turns a feeling into a guitar chord progression, grounded in music theory. Stars: 0. [GitHub](https://github.com/akshithajela/guitarmind)
-- **Aman1601s/playlistAgent** – AI-powered Spotify playlist assistant via MCP for ChatGPT and Claude. Stars: 0. [GitHub](https://github.com/Aman1601s/playlistAgent)
-- **Neeidy/Badger-Tape** – Fully automated AI content pipeline for lofi YouTube channel: multi-agent system for image, video, music, and publishing. Stars: 0. [GitHub](https://github.com/Neeidy/Badger-Tape)
-- **Jessalynredflowered754/SmartDiscover** – Multi-agent AI for discovering Spotify music from natural language prompts. Stars: 0. [GitHub](https://github.com/Jessalynredflowered754/SmartDiscover)
-- **Antigravity Awesome Skills** – 1,527+ agentic skills for Claude Code, Gemini CLI, Cursor, Copilot. [GitHub](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tNl9NbVNGU214YXktUlkyVU5SM24xdkdYeUtGS0pXcTNPM0g0VnNmOVB1alc3S2NQcUR2cFhrLWZMR0p0UV85TjFvME5lRUowWW4yNnZkeEZMZnpVbjBjdlNCNA)
-
-### Papers / Benchmarks
-- **"The Moving Drone: Negotiating Agency Between the Voice and the Virtual"** – Explores agency in Hindustani music using virtual drones in Max/MSP. [arXiv](https://arxiv.org/abs/2606.13640v1)
-
-### Tutorials / Media Tests
-- **Claude Code Workflow tutorial** – Chinese-language YouTube tutorial on Claude Code's Workflow feature for multi-agent collaboration and reusable workflows. [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rSkpRRVh5VkJQMy1fbkJDazVDWEQ1NU92enJXX1VMUFRMRDBJMTlPZUI0VzFVdVd4eWRjeVIwbW4zLU14YlZwSmY1UUVoVk9IS1JoYVRR)
-- **Qwen3.6 "jailbreak" tutorial** – Chinese-language YouTube tutorial on running the uncensored Qwen3.6 model locally for agents with 6GB VRAM. [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oT3dJVzFaSmxsaWVCd1FBcUhqVFFiY1NGQ0xHWVU5c3pIRDlteFUydWUzU1BQY2ZxbE1ORDg0eWhoc0xZYVlxV3QyTHBMNjBsMXc1OXdR)
-
-- **AI Agent for IoTDB remote server maintenance** – Chinese tutorial on using AI agents for time-series database operations. [OSCHINA](https://news.google.com/rss/articles/CBMiWkFVX3lxTE14VW0zZ0RXLU1kVV9BUzZuVXFQQkxrXzdmY1NfRmFhTDRhamVFVF92dmZkVUF5Nm91ZzdGYmg5N0JRZ0taT08xWjZ5azJtZks2TFQybkxfS3JSZw)
-- **LLM basics tutorial (Chinese)** – Beginner tutorial on large language models as the "brain" of AI agents. [菜鸟教程](https://www.runoob.com/ai-agent/ai-agent-llm.html)
-
-<!-- AUTO_CASE_UPDATES_END:music:en -->
+# Music Generation: AI Agent Practical Cases, Tutorials, and Research Project Survey
+
+This is an AI Agent resource index for developers, creators, and researchers, collecting tutorials, cases, open-source projects, papers, benchmarks, and product practices in related directions. Its goal is to help readers quickly discover reproducible projects, reference workflows, and research materials worth further reading.
+
+> Note: This index leans towards a "resource collection" and "topic navigation." Some entries will undergo secondary review, supplementary notes, and quality filtering in the future. Feel free to use it as a starting checklist in a GitHub repository and expand it according to your own direction.
+
+## Large-Scale Resource Index (21+16)
+
+This section is divided into two categories: `21 Tutorials / Cases` and `16 Projects / Papers`. Each resource includes a name, type, brief description, and original link for quick assessment of whether it's worth in-depth reading.
+
+### 21 Tutorials / Cases
+
+| # | Name | Type | Purpose/Summary | Link |
+|---:|---|---|---|---|
+| 1 | Suno | Product Tutorial | Wikipedia entry, outlining the generation process of the Suno platform from lyric input to song output, covering model capability boundaries and mainstream application scenarios. | https://en.wikipedia.org/wiki/Suno_%28platform%29 |
+| 2 | Udio | Product Tutorial | Wikipedia entry, introducing Udio's technical implementation in lyric processing, audio analysis, and genre conversion, serving as a reference for comparing music generation models. | https://en.wikipedia.org/wiki/Udio |
+| 3 | Suno Studio hands-on | Media Experience | TechRadar hands-on report, evaluating the interactive mode of Suno Studio that combines AI generation with manual editing, comparing it with GarageBand to analyze the usability of its intelligent audio tools. | https://www.techradar.com/ai-platforms-assistants/i-tried-suno-studio-the-new-platform-that-mixes-ai-music-generation-with-hands-on-editing-like-garageband-but-smarter |
+| 4 | MILO-1080 | Media Report | MusicRadar report, introducing Suno's AI step sequencer MILO-1080, focusing on new capabilities of AI-assisted composition in rhythm and sequence design. | https://www.musicradar.com/music-tech/suno-takes-another-step-into-music-production-with-ai-step-sequencer-milo-1080 |
+| 5 | Pitchfork AI music guide | Industry Overview | Pitchfork industry overview, sorting out the technical routes and product positioning of major AI music companies, providing a panoramic view for understanding the competitive landscape of the music generation field. | https://pitchfork.com/features/an-idiots-guide-to-music-ai-companies |
+| 6 | Boomy | Product Case | Boomy is a zero-barrier online music generation platform. Users without music theory knowledge can create and publish original songs in minutes, experiencing the complete AI composition workflow from style selection to final export. | https://boomy.com/ |
+| 7 | Soundraw | Product Case | Soundraw provides AI-assisted composition tools. Users can customize melody direction and arrangement details to generate royalty-free tracks, suitable for studying refined human-machine collaboration music production models. | https://soundraw.io/ |
+| 8 | Loudly | Product Case | Loudly supports automatic generation of multi-style tracks via text prompts and offers online multi-track editing functions, covering an end-to-end workflow from creativity to mixdown output. | https://www.loudly.com/ |
+| 9 | ElevenLabs music | Product Case | ElevenLabs extends its speech synthesis capabilities to music generation, supporting text input to generate complete songs with vocals, serving as a case for studying end-to-end lyric-to-audio solutions. | https://elevenlabs.io/ |
+| 10 | Stable Audio | Product Case | Stable Audio is based on diffusion models. Users can control music style and duration via text descriptions to generate high-quality audio, representing the cutting-edge technical route in current AI audio generation. | https://stableaudio.com/ |
+| 11 | Suno help center | Official Tutorial | Suno's official help documentation, covering creation tips, parameter explanations, and frequently asked questions, serving as the core reference for mastering music generation operations on this platform. | https://help.suno.com/ |
+| 12 | Udio | Product Tutorial | Udio supports generating complete songs via lyrics and style descriptions, usable as a test sample for comparing the effects of different models in music creation. | https://www.udio.com/ |
+| 13 | Stable Audio | Official Tutorial | Stable Audio's official tutorial provides guides from basic to advanced audio generation, including parameter adjustments and best practices, suitable for systematically learning how to use this diffusion model tool. | https://stableaudio.com/ |
+| 14 | AIVA | Product Tutorial | AIVA focuses on AI composition for classical and film scoring styles. Users can generate scores based on emotion or scene parameters, exploring the composition logic combining rule-driven and deep learning approaches. | https://www.aiva.ai/ |
+| 15 | Boomy | Product Tutorial | Boomy's product tutorial guides users on how to quickly create and publish AI-generated songs, including style selection and editing tips, suitable for beginners with zero foundation in music creation. | https://boomy.com/ |
+| 16 | Soundraw | Product Tutorial | Soundraw's product tutorial demonstrates how to use AI to generate melodies and manually adjust arrangements, suitable for learning the refined human-machine collaboration music production workflow. | https://soundraw.io/ |
+| 17 | Loudly | Product Tutorial | Loudly's product tutorial explains the complete steps from text prompts to multi-track mixing, suitable for understanding the editing and export functions of an AI music platform. | https://www.loudly.com/ |
+| 18 | BandLab SongStarter | Product Tutorial | BandLab SongStarter provides an AI-driven music inspiration generator. Users can quickly obtain melody snippets based on preset styles, suitable for sparking creative starting points. | https://www.bandlab.com/songstarter |
+| 19 | Magenta demos | Official Tutorial | Online demo collection of Google's open-source music AI project. Covers melody generation and style transfer, allowing direct experience of the actual output effects of Magenta models. | https://magenta.tensorflow.org/demos |
+| 20 | Magenta.js demos | Official Tutorial | Browser-based interactive examples of Magenta.js. Supports real-time generation and performance, suitable for front-end developers to integrate music AI capabilities into web applications. | https://magenta.tensorflow.org/js |
+| 21 | Demucs guide | Project Tutorial | Facebook's open-source Demucs audio source separation project. Based on deep learning models, it can split mixed audio into independent tracks such as vocals, drums, and bass. | https://github.com/facebookresearch/demucs |
+
+### 16 Projects / Papers
+
+| # | Name | Type | Purpose/Summary | Link |
+|---:|---|---|---|---|
+| 1 | MusicAgent | Open-source Project/Paper | Microsoft's music Agent framework, unifying tasks such as lyric-to-song conversion, MIDI processing, and audio analysis. It is worth including because it demonstrates a multi-tool collaborative music workflow design, providing a reproducible architectural reference for building integrated music processing Agents. | https://github.com/microsoft/muzic/tree/main/musicagent |
+| 2 | MusicAgent paper | Paper | The accompanying paper for MusicAgent, detailing the architecture and experiments of the unified music processing Agent. It is worth including because it discloses technical details of task planning and tool invocation, serving as the original literature for understanding how Agents orchestrate music sub-tasks. | https://arxiv.org/abs/2310.11954 |
+| 3 | AutoMV | Paper | A paper proposing an automatic music video generation method, with the core being a cross-modal generation pipeline from audio to visual content. It is worth including because it fully presents the pipeline design and evaluation system for audio-visual alignment, offering direct reference value for multimodal generation Agents. | https://arxiv.org/abs/2512.12196 |
+| 4 | GVMGen | Paper | A paper focusing on generative video music matching, with the core being audio-visual synchronization based on generative models. It is worth including because it provides a complete thought process from model design to experimental validation, serving as key literature for researching automated video scoring. | https://arxiv.org/abs/2501.09972 |
+| 5 | WeaveMuse | Paper | A paper exploring the interweaving generation of music and visuals, proposing a new paradigm for multimodal fusion generation. It is worth including because it showcases innovative solutions for cross-modal feature interaction and effect evaluation methods, inspiring the generation strategies of multimodal Agents. | https://arxiv.org/abs/2509.11183 |
+| 6 | MACAT | Paper | A paper proposing music-aware cross-modal alignment technology, with the core being an alignment scheme for audio and text features. It is worth including because it provides innovative alignment methods and experimental results, serving as an important technical reference for building music understanding Agents. | https://arxiv.org/abs/2502.00023 |
+| 7 | MusicAIR | Paper | A paper studying audio information retrieval in music generation, with the core being the use of retrieval-augmented generation for high-quality music. It is worth including because it demonstrates the application of RAG technology in the music domain, providing a specific case for Agents to incorporate external knowledge bases. | https://arxiv.org/abs/2511.17323 |
+| 8 | YingVideo-MV | Paper | A paper proposing an automatic music video generation system, completing full video synthesis from script to shots. It is worth including because it discloses pipeline design details, serving as an engineering template for studying end-to-end MV generation Agents. | https://arxiv.org/abs/2512.02492 |
+| 9 | IngaRose | Industry Case | A well-known case in the AI music creation field. IngaRose is a real artist who uses AI tools for creation. It is worth including because it provides first-hand experience from the creation workflow to tool usage, serving as a living sample for understanding AI music industry practices. | https://en.wikipedia.org/wiki/IngaRose |
+| 10 | BBL Drizzy/Udio | Cultural Case | The controversial case of BBL Drizzy and Udio, showcasing the cultural impact triggered by AI music generation. It is worth including because it exposes conflicts over copyright, originality, and technological ethics, serving as a landmark event for discussing the social impact of AI music. | https://en.wikipedia.org/wiki/Udio |
+| 11 | Magenta | Open-source Project | Google's classic open-source project for music and art generation, covering models for melody, rhythm, and timbre generation. It laid the foundation for deep learning music generation, providing a large number of reusable pre-trained models and experimental code. | https://github.com/magenta/magenta |
+| 12 | Magenta.js | Open-source Project | The JavaScript version of Magenta, allowing music generation models to run directly in the browser. It lowers the barrier for interactive music creation, enabling front-end developers to quickly integrate AI music capabilities. | https://github.com/magenta/magenta-js |
+| 13 | MusicGen | Open-source Project | Meta's text-to-music generation model, based on an audio codec architecture. It is worth including because it provides a high-quality open-source implementation for music generation, serving as a core reference for researching conditional music generation Agents. | https://github.com/facebookresearch/audiocraft |
+| 14 | AudioCraft | Open-source Project | Meta's audio generation toolkit, integrating models like MusicGen and providing complete code for music and sound effect generation. It is worth including because it is a one-stop audio generation resource, with pre-trained weights directly usable for an Agent's audio output module. | https://github.com/facebookresearch/audiocraft |
+| 15 | Riffusion | Open-source Project | An open-source project using diffusion models to generate music spectrograms in real-time. It is worth including because it demonstrates the innovative practice of transferring image generation technology to the audio domain, providing new ideas for cross-modal generation in Agents. | https://github.com/riffusion/riffusion |
+| 16 | Jukebox | Open-source Project | An early milestone in music generation from OpenAI, capable of generating complete songs with lyrics. It is worth including because its multi-scale encoding and sampling mechanisms form the basis for subsequent music generation models, holding historical value for understanding an Agent's sequence generation capabilities. | https://github.com/openai/jukebox |
