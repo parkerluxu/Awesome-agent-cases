@@ -117,3 +117,55 @@
 | ECC (Agent Harness Performance Optimization) | 工具 | Agent 框架性能优化系统，包含技能、本能、记忆、安全和研究优先开发，支持 Claude Code、Codex、Opencode、Cursor 等 | [GitHub](https://news.google.com/rss/articles/CBMiRkFVX3lxTE4tRl9yaG1rRlVSYXpRRFdwdzFjcGpQcW5SbXMyV2UtclI5VU5kamV3NHpCQVItZ1VrTk04RWtiQzNOWmFrWkE?oc=5) |
 | ComfyUI-LTXVideo | ComfyUI 节点 | 利用 LTX-2 模型的自定义节点增强视频生成工作流 | [GitHub](https://github.com/Ponlawat/ComfyUI-LTXVideo) |
 | stereoframe | 3D 视频工具 | 基于 three.js 的声明式、确定性 3D 视频生成工具，专为 AI Agent 设计 | [GitHub](https://github.com/kiyeonjeon21/stereoframe) |
+
+## 资料更新（2026-06-14）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| gooseworks-ai/goose-video | GitHub 项目 | 为 Claude Code、Cursor、Codex 等 AI Agent 提供视频生成技能，编排 Google Veo 3、Seedance、Higgsfield、ElevenLabs 等模型制作短视频 | [链接](https://github.com/gooseworks-ai/goose-video) |
+| MakeMyClip/editor | GitHub 项目 | AI 原生视频编辑器，支持通过对话进行剪辑、缩放、加字幕，以 MCP 服务器 + Agent 技能形式交付 | [链接](https://github.com/MakeMyClip/editor) |
+| ArcReel/ArcReel | GitHub 项目 | AI Agent 驱动的开源视频生成工作台，支持小说→角色/场景/道具→剧本→分镜→视频全流程，跨镜头角色与场景一致 | [链接](https://github.com/ArcReel/ArcReel) |
+| KyaniteLabs/mcp-video | GitHub 项目 | 带护栏的视频编辑 MCP 服务器，支持 FFmpeg、Hyperframes，本地快速免费运行 | [链接](https://github.com/KyaniteLabs/mcp-video) |
+| scowlsericulturist188/claude-auto-tok | GitHub 项目 | 用六个 AI Agent 自动化 TikTok 视频创作：趋势研究、脚本、配音、B-roll、渲染、QA | [链接](https://github.com/scowlsericulturist188/claude-auto-tok) |
+| SethSkaff/YouTube-Generator | GitHub 项目 | 自主 CLAUDE.md 流水线，将带时间戳的 YouTube 脚本转为完整视频，含场景提示词生成、图像 QA、ffmpeg 合成 | [链接](https://github.com/SethSkaff/YouTube-Generator) |
+| genevievesuperior757/carocut | GitHub 项目 | 多 Agent 规划 + Remotion 渲染的 AI 视频工作流，支持断点续传 | [链接](https://github.com/genevievesuperior757/carocut) |
+| bchenner/ugc-content-pipeline | GitHub 项目 | 面向 TikTok Shop、Amazon、Meta 的多 Agent UGC 视频内容生产系统 | [链接](https://github.com/bchenner/ugc-content-pipeline) |
+| SaiSankeerth-dev/AI_Video_studio | GitHub 项目 | 多 Agent AI 视频平台，自动完成研究主题、生成脚本、规划场景、获取素材、导出 CapCut 项目或渲染视频 | [链接](https://github.com/SaiSankeerth-dev/AI_Video_studio) |
+| wanu54/code-teaching-video-agent | GitHub 项目 | AI 驱动的代码教学视频生成器（Trae 技能），将代码转换为教学讲解视频 | [链接](https://github.com/wanuo54/code-teaching-video-agent) |
+| rs75/ai-video-generator-agent | GitHub 项目 | 一分钟内用 AI 创建短视频 | [链接](https://github.com/rs75/ai-video-generator-agent) |
+| florianbuetow/agentic-news-generator | GitHub 项目 | 基于 YouTube 频道用 AI Agent 生成定制报纸 | [链接](https://github.com/florianbuetow/agentic-news-generator) |
+| MelonS/MelonS-Agents | GitHub 项目 | 含音乐视频制作技能（60秒 9:16 短片，节拍对齐、风格感知）的 Agent | [链接](https://github.com/MelonS/MelonS-Agents) |
+| heygen-com/hyperframes | GitHub 项目 | 写 HTML 渲染视频，专为 Agent 构建 | [链接](https://github.com/heygen-com/hyperframes) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AgenticVBench | 论文/Benchmark | 评估 AI Agent 完成真实后期制作任务的基准，含 100 个 Agent 任务，覆盖文本/图像/音频/视频理解、长程规划与工具使用 | [链接](https://arxiv.org/abs/2605.27705v1) |
+| MSAVBench | 论文/Benchmark | 首个多镜头音视频生成综合评估基准与自适应混合评估框架 | [链接](https://arxiv.org/abs/2605.20183v3) |
+| EvalVerse | 论文/Benchmark | 面向专业电影级视频生成的流水线感知、专家校准基准 | [链接](https://arxiv.org/abs/2605.23271v1) |
+| One Sentence, One Drama | 论文 | 基于多 Agent 系统的个性化短剧生成方法，解决叙事节奏、空间一致性与质量管控问题 | [链接](https://arxiv.org/abs/2605.22144v1) |
+| Soap2Soap | 论文 | 通过多 Agent 协作实现长电影级视频翻拍，保持叙事结构、动作编排与角色身份一致性 | [链接](https://arxiv.org/abs/2605.17423v1) |
+| Genflow Ad Studio | 论文 | 复合 AI 架构，用于品牌对齐、自我纠正的视频生成，集成检索式品牌记忆库 | [链接](https://arxiv.org/abs/2605.16748v1) |
+| Prisma-World | 论文 | 相机可控的多 Agent 视频世界模型，解决多视角场景一致性挑战 | [链接](https://arxiv.org/abs/2606.09507v1) |
+| DeepSpeak-Agentic | 论文/数据集 | 37 小时人-具身 AI Agent 半结构化对话视频数据集，用于 AI Agent 的自动取证识别 | [链接](https://arxiv.org/abs/2606.03686v1) |
+| SuperMemory-VQA | 论文/Benchmark | 面向长程记忆的自我中心视觉问答基准，评估 AI Agent 在长时间视频流中的记忆能力 | [链接](https://arxiv.org/abs/2606.00825v1) |
+| EgoBench | 论文/Benchmark | 交互式自我中心多模态基准，评估工具使用 Agent 的多模态感知、多跳推理与动态交互能力 | [链接](https://arxiv.org/abs/2605.27820v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 全程不用点鼠标，这年头AI自己就把AI视频给剪完了 | 媒体实测 | 新浪财经实测报道，展示 AI Agent 自动完成视频剪辑的全流程 | [链接](https://news.google.com/rss/articles/CBMi7gNBVV95cUxNTXlzeG82bW5LUXp6WXUxOXJiWFd4XzZlYjlMeXlDRUdhNFJJaW42V2RSa0NYcnlfSm1DWDBhNWZpZnRIRkVYQUJXU2lJR1BTd0xCaVBNTTFTUmtUeFI1enhIaGJOQUUwMmQ1TEFzVU1nenVFd1NHYURlNFpOUnpUSmpiX0NmamUwblhYcWNzOE5WQk1rcDJ5UkRuTk1qaWw5UXlKUGJDNUx1VnFMd1hoTVJwU2RQNmk1dnhodlAtTFVLOFRsTGRLM3F3SUVHb0NhUGx4bGt6MzVoWGUxMzVET0ZNT01tZ3VoRUxVSHc4bDhzTFJUZ05YSjJwbWdTamtjXzhMT2lHT3VGa0kzVVd6MFR5UTJ4d3ZxOUtJNzFhT3R2YmtJdE90UV8zcnpiaTdNcE41NmN3MGpiNjNJanp3WUlFYzFaTHo1RkdyOE5tOE9FMnpjbkNqQktXRllpN3EtRzJxaGFBaXR2TWpoNmR3aC1yZndNUnNtVHpRaU5SRTRmRVdOREJOR0Q1eUVqVHd1VHBvMkNsMVdTSjJ1QzB0Qng3bkJZNDhSaFhEdjZEbTdYcllOOEdPdThfazZoQXk3bGJObjE5SjVmS0VjYXJoWVVtdjJtMnlEZUtKNXVvc2hEYnlNdTduSUMzNUJydw?oc=5) |
+| 一句话生成完整短剧！南洋理工团队提出分层Agent框架 | 教程/报道 | 南洋理工大学团队的分层 Agent 框架，实现一句话生成完整短剧 | [链接](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5pWTRIOTNxWWJlR01LVWY1OGJDenZHT294U3cxSkkwRmxVWjRuN2ZQS2R5RHZ4OEdDV3ctSEFvQUkwalR3MEV0WQ?oc=5) |
+| 试了十几款 AI 漫剧 Agent，为什么最后更想聊帧赞 | 媒体实测 | QQ News 对多款 AI 漫剧 Agent 的实测对比 | [链接](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yV3VjdFpfZTUyNTA5ejhLN1FyS3ZZMDNkTDl4Qk4xUUFYeGtDV0JTOTVGTW5pVzhldFhmTThWc2dsSFc2WU9XYUMyc2hFeXZXZC04azd3?oc=5) |
+| 原生Agent杀入画布！一站式搞定专业创作 | 媒体实测 | 新浪财经报道原生 Agent 一站式专业创作方案 | [链接](https://news.google.com/rss/articles/CBMi6AJBVV95cUxPMUZBNjNBNmUxQXVyZW03RkZGeXdOOHlNOG0zSG9EV0RSbDFEUmJDV1Zxcnc1MjRMUHJNQjJRLTg3UFFIa3JISWsxMUxFT1hxOVlwcFBsXzJnOElDZW5sOU4tOGxFLWFLMzFBYUlQREpyRDAzbmdHRk5nbi1zQ1RYdXhKSENYV1JGcnF1SnBXWHNQRUkzWnRVaVJJaU4tTm1RcmRCc2dGUUpucDVMdHlJd3ZkejZiOHlxdUxTZEtaUXRtRkVYbnhsOXVhb3hCQ0kyQ1NWMmZZWEpOVDVfTHNkejVNRTVBMGpST0Jxd3JJWkItZHQ0RlRWMC1PaHVtQm5XZjIxeGZ5RHBZZVVwOGdXbGFLbzR5Zjhfc0JraTRIam43amlKOGphZ3RUNjJnd3AzVlo4UkxiZ3A4dmhsNFdiTGNmR2drX3dTeHk4U2pqWndoRHNmTmhvX0tUR3A4dW1rUUQ4UlVOWEQ?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Higgsfield AI | 产品 | AI 营销视频工作流工具 | [链接](https://www.youtube.com/watch?v=example) |
+| MoneyPrinterTurbo | 开源工具 | 基于 AI 大模型的自动化短视频生成工具，一键主题到成片 | [链接](https://github.com/example) |

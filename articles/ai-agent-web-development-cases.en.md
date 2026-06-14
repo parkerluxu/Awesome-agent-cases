@@ -104,3 +104,60 @@ This section is divided into two categories: `32 Tutorials / Cases` and `15 Proj
 | Playwright | Tool | Fast and reliable end-to-end testing for modern web apps; one API to drive Chromium, Firefox, and WebKit for testing, scripting, and AI agent workflows. | [Playwright](https://playwright.dev/) |
 | Roo Code | Tool | Gives you a whole dev team of AI agents in your code editor. | [GitHub](https://news.google.com/rss/articles/CBMiT0FVX3lxTE84eUNNd1F3TkZNc1FmZUlNWnhBbXA4SXdqS3Z1SnhmNk1SYWI3ZTd1ZlhOVFlFZ1hFdU1hbVVXc3BvdWlrX3NMbFdmdVJ3OUU?oc=5) |
 | Hermes Agent Desktop App | Tool | Nous Research’s self-improving AI agent desktop application. | [Medium](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTVPeXJ6NktnM015eHJTVzJUdVNCdFpIWHc1Y2dlLVBEc1d0cDRIckNNOW1jRElmTnMxWlhRQ1RxYmd0OU1sUWlDLWoxWUVaWHRCN1BpUmZKb3FiQkttSDRLQlFlZXJEZlRXNDY0dmJUaUhYN2owQW8zbFdiVmI1ckpuQkxGR1JJVmNjRGp0dU9qUks3WWp1NFoxc3V6RHZRdWhyTU9VUWpqZkF1QVVQNkpCNV95TUFSVnhocDh4Wi1pMEJOX1hfa3lMT3FQWEE1bVBUSzJR?oc=5) |
+
+## Resource Update (2026-06-14)
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AI Coding Agents Can Reproduce Social Science Findings | Paper | Introduces SocSci-Repro-Bench, a benchmark of 221 tasks across four social science disciplines for evaluating AI coding agents on reproduction of published findings. | [arXiv](https://arxiv.org/abs/2606.11447v1) |
+| Agentic Agile-V: From Vibe Coding to Verified Engineering | Paper | Examines agentic AI coding systems in software and hardware development, reporting productivity gains in some enterprise tasks and slowdowns in mature open-source work. | [arXiv](https://arxiv.org/abs/2605.20456v1) |
+| AgentBeats: Agentifying Agent Assessment | Paper | Proposes Agentified Agent Assessment (AAA) using judge agents and standardized protocols for open, reproducible evaluation of agent systems. | [arXiv](https://arxiv.org/abs/2606.13608v1) |
+| Frontier Coding Agents Use Metaprogramming to Adapt to Unfamiliar Programming Languages | Paper | Evaluates six coding agents on four esoteric languages, exposing capability differences hidden by mainstream-language benchmarks. | [arXiv](https://arxiv.org/abs/2606.10933v1) |
+| Mining Architectural Quality Under Agentic AI Adoption | Paper | Causal study of 151 Java repositories examining how agentic AI adoption ("vibe coding") affects software architecture quality. | [arXiv](https://arxiv.org/abs/2606.13298v1) |
+| Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses | Paper | Multilingual SWE-bench-style benchmark and adapter protocol for comparing heterogeneous agent harnesses under fair settings. | [arXiv](https://arxiv.org/abs/2606.12344v1) |
+| MoCA-Agent: A Market-of-Claims Code Agent | Paper | Claim-level verification agent for financial and numerical reasoning, replacing free-form multi-agent debate. | [arXiv](https://arxiv.org/abs/2606.11537v1) |
+| CORE-Bench: A Comprehensive Benchmark for Code Retrieval | Paper | Benchmark for requirement-driven repository search in agentic coding, going beyond snippet-level matching. | [arXiv](https://arxiv.org/abs/2606.11864v1) |
+| From Prompting to Verification: How Experience Shapes Vibe Coding Practices | Paper | Survey of 162 participants examining how vibe coding practices differ across experience levels. | [arXiv](https://arxiv.org/abs/2605.24521v1) |
+| DeepResearch Bench | Benchmark | Comprehensive benchmark for deep research agents. | [Hugging Face](https://news.google.com/rss/articles/CBMieEFVX3lxTE1SWUVfWm1NQjlYak5mQnZlTzM3VkhmUE9mQjFnbS1KWV9PNXRWYkxQYTcycEZ6eThmSmRBVFVqSV8zNUxJRUFmb2dkaEd3Uy1EaVJXLWRuNkpmUWw3Y2hpVUhWYzRjSDBEWjYxSG9FdWl6RFBjNEYxYQ) |
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| hoangsonww/Claude-Code-Agent-Monitor | GitHub | Real-time monitoring dashboard for Claude Code with SQLite3, Node.js, Express, React, WebSockets; tracks sessions, agent activity, tool usage, and subagent orchestration. | [GitHub](https://github.com/hoangsonww/Claude-Code-Agent-Monitor) |
+| 0xb007ab1e/claude-analyzer | GitHub | Local zero-dependency web app to browse, read, and edit Claude Code .claude directory files with live watch and relationship graph. | [GitHub](https://github.com/0xb007ab1e/claude-analyzer) |
+| CoWork-OS/CoWork-OS | GitHub | Local-first personal agentic OS and everything app for coding, knowledge work, web design, automations, and artifacts. | [GitHub](https://github.com/CoWork-OS/CoWork-OS) |
+| nexu-io/open-design | GitHub | Local-first, open-source Claude Design alternative with 259+ skills, 142+ design systems, and sandboxed preview. | [GitHub](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCam5FQ1ZTS2l4amc3MjFXelNhM0NBZ0k1aldCZkdGaUtxb1RmUnBHUkh3RTJKM0w5WkhzODFuVFJVeEUxX0w0NkRSOTE3TkU) |
+| magicpro97/vibeflow | GitHub | Local-first CLI that orchestrates Claude Code, Codex, and GitHub Copilot CLI with guardrails. | [GitHub](https://github.com/magicpro97/vibeflow) |
+| kymostudio/kymostudio | GitHub | Generate animated SVG diagrams from text or coding agents over MCP; diagram-as-code with multiple export formats. | [GitHub](https://github.com/kymostudio/kymostudio) |
+| whiskfernlowdensitylipoprotein154/figma-console-mcp-skills | GitHub | Automate design systems and Figma workflows with reusable MCP skills and predefined scripts for AI agents. | [GitHub](https://github.com/whiskfernlowdensitylipoprotein154/figma-console-mcp-skills) |
+| sandorarthropodous723/groovy-web-ai-agents | GitHub | Build reusable AI agent configs and prompts for web apps with multi-agent orchestration and TypeScript support. | [GitHub](https://github.com/sandorarthropodous723/groovy-web-ai-agents) |
+| Respectful-judasiscariot925/autocli-skill | GitHub | Unlock AI agents with web access to 55+ platforms via natural language, Chrome login reuse, and Rust CLI. | [GitHub](https://github.com/Respectful-judasiscariot925/autocli-skill) |
+| agerelated-clioquinol357/ACI | GitHub | Open protocol for structured, agent-ready app access enabling AI agents to interact with web and desktop software. | [GitHub](https://github.com/agerelated-clioquinol357/ACI) |
+| kographh/skillforge | GitHub | Generate production-ready AI agent skills through a verified 7-step process with automated auditing and packaging. | [GitHub](https://github.com/kographh/skillforge) |
+| Signpainterreverberation581/ux-collab | GitHub | Build AI-driven UI collaboration with agent-browser, Figma MCP, and Lucid to turn wireframes into code. | [GitHub](https://github.com/Signpainterreverberation581/ux-collab) |
+| boundarytaxidermist380/lanhu-mcp | GitHub | Connect AI coding tools to Lanhu to read designs, extract HTML/CSS, parse PRDs, and download assets via MCP. | [GitHub](https://github.com/boundarytaxidermist380/lanhu-mcp) |
+| laiyenju/figma-config-mcp | GitHub | Turn Figma Config conference data into LLM-friendly content for querying in Claude or exporting as Markdown. | [GitHub](https://github.com/laiyenju/figma-config-mcp) |
+| Enfluranehighbloodpressure470/v0-platform-mcp | GitHub | Enable rapid multi-screen UI prototyping using Vercel's Model Context Protocol. | [GitHub](https://github.com/Enfluranehighbloodpressure470/v0-platform-mcp) |
+| gaidenxx/Figma-Bob-IA | GitHub | POC using Figma MCP plus Bob IA to develop frontend projects. | [GitHub](https://github.com/gaidenxx/Figma-Bob-IA) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| alirezarezvani/claude-skills | GitHub | Collection of 337 Claude Code skills, agent skills, and plugins (30+ agents, 70+ custom commands) for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents. | [GitHub](https://news.google.com/rss/articles/CBMiW0FVX3lxTE55M0pPTGlvV2ZSN293YUZGSHNCOEp0MDdnTGpMN3hRS2txbXk1X3BuVS1PRURINmg4RW4zTm4xOWY0dWNIREhjNkEtZ3hGTHJ3dG9qTjhtTGpBS0U) |
+| Mistral Vibe (formerly Le Chat) | Product | Mistral's AI chat and agent for work and code; chat, think, search, write, code, and automate. | [Mistral](https://mistral.ai/products/vibe/) |
+| Claude Opus 4.8 | Product | Anthropic's upgraded Opus across coding, agentic tasks, and professional work. | [Anthropic](https://www.anthropic.com/) |
+| OpenAI Academy courses | Course | Three new courses for building practical AI skills, creating repeatable workflows, and applying agents in everyday work. | [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work) |
+| Amazon Bedrock AgentCore | Service | AWS service for hosting coding agents. | [AWS](https://news.google.com/rss/articles/CBMiygFBVV95cUxNakdCVnJZY2xKUkxYd2N0dUp1MVhZOG1taklXckFlMjJMdVg4MlVCQk1fWkppRUxEWUtoOVVqX2Nfc011aWk0ak93VDhwcXRsMjlaTzRJMWoyRWloaDg5Q2wxMVJRNzNoSzl6U2lOUHhZa2pJd2FlcHJseEU3TVJiUkVHS19uWW1VZm9UejFGdlAxQmZhUTdjZ01oOVM4cEZBRTdrVG1WY2VDZV91VlBza0QxdlZmb3F2aGRYajg5d3RMNWZ4ekw1OG53) |
+| Base MCP | Tool | Agent's gateway to Base blockchain via Model Context Protocol. | [Base.org](https://news.google.com/rss/articles/CBMiREFVX3lxTFAtU09wdVN0NS1tMnV3aGZnZG1obXFhcEk4N05TdVhzQjlPdTRab1lraENCamVqaUtqSThFeUZmYS1obzhT) |
+| Microsoft IQ and Rayfin | Product | Microsoft's answer to enterprise AI agent data silos, announced at Build 2026. | [Venturebeat](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTEdhd0tSZEJscXQyRVh4VTk0U29yVFhlRi1ibGhNaTZ6cmIxYjF5SXgzMjJSaThJSEFTYVBOMkk1SUROblN0NEp1WFFsYmUtdnVWcmJIWmktVmRsZkVHSDVRUkN4MGc1Q2J4d01jWXJMQy01dGVGR0dvNXUtOFpfZWJPVlc2cHJmRm9GMnAwYmFEN09NMThkMWFzaE85YkxJVkxrZWxRZkdyWmgySlZtNnhKZWxkN1R2Q3oyalAyakxsMmc) |
+| OpenEnv for Agentic RL | Open-source | Community-backed open environment for agentic reinforcement learning. | [Hugging Face](https://huggingface.co/blog/openenv-agentic-rl) |
+| NirDiamant/GenAI_Agents | GitHub | Comprehensive collection of GenAI agent resources and implementations. | [GitHub](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QZ0cydzNFVTJBZFhuWWg0aWJRaTFTaDdkQk9OcTlnc01OWF9tRnU5SWpmcVJhYVljYUVhRl9RcWlFOHdtRnZjLWR0a0swSTZOU0xmUA) |
+| deepseek-ai/awesome-deepseek-agent | GitHub | Curated list of DeepSeek agent resources. | [GitHub](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OdTdJLUNuSWFRYUprTWFHcnNMV1Q1aS1qTmhGNkRnRkI1d2h3SC0wRjh1WG53MFRhQ0J4WnVBUFJzdWtnOUJwSlMwOTl0MHRLdl9uODV6T0hLNWp3UmlZNGZrRQ) |
+| freestylefly/CodexGuide | GitHub | Practical Codex guide for global beginners, creators, developers, and teams. | [GitHub](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5INkxXWGdzMEloY1V5XzdpdXBFNUJjY0k0RU5uTUlsV3I1WmRsYzFGb25EZ0JPU0N4TmtGWDV2NnBmanR2RG4xVzI5QVJhLUNLOGRuUg) |
+| Claude SEO Skill | GitHub | SEO analysis skill for Claude Code. | [GitHub](https://news.google.com/rss/articles/CBMiVEFVX3lxTE01R3RwWWpwTWNCN3FkeTFJbXNDeDhhSXJUMldTd0xuM0pGNXNZS21PWVhXaXJCQmRqVS1vVzFPc1RhYk1HZzEtY3dld3ktZmhWYXBscA) |
+| claude_codex_bridge | GitHub | Bridge between Claude Code and Codex workflows. | [GitHub](https://news.google.com/rss/articles/CBMiekFVX3lxTFBPdk5pSFlRVE1oZDd1RlFsR2R5WThRSEhGS3BDMElXNk92ZndwOFBteHNoNk41b1lCQzc5aW9yM1ROWjJ3VThOc0w2OHpCaG4xVXQyVTBUTXlBeE0xcjR1TTdrZU85NldVWlpLeFBaU3FWdDhyYlEzd1JR) |
+| Superpowers Skill | Guide | Skill for making Claude Code and Codex follow engineering workflows. | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJdDh6MWZ3M3BiVDRqZHo4Mkt4QlExQkNWX0hRTkVMUDFiN1R6WUtWNFpNazZCQ0FabEVUMW5zVUZ1ZWJmcUtkWVo0bWFFZGJOSi15ZTNvVzdNcEpC) |

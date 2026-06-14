@@ -91,3 +91,63 @@
 | Google 搜索框 AI 改造 | 搜索引擎更新 | Google 将搜索框从关键词输入改造为动态 AI 对话界面 | [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) |
 | OpenAI 收购 Ona | 企业收购 | OpenAI 计划收购 Ona，为 Codex 扩展安全持久云环境，支持长期运行 AI Agent | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
 | scientific-agent-skills | 科学 Agent 技能库 | 140 个即用技能 + 100+ 科学数据库，将 AI Agent 转化为 AI 科学家 | [GitHub](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nS0lZYUhjYnFGN0NqSTdIdGpfekhSMmlsY3NhX1Atamk2RXpPNGwwOE1paXhUazRzWDlZYTdxcEs4OTBSZkhXT0xMTU82OHMyMEVBLVFuOGh6bmVjdVlKb05mQQ?oc=5) |
+
+## 资料更新（2026-06-14）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| GodotCoder | CLI 游戏开发 Agent | 面向 Godot 引擎的 CLI 优先 AI 开发代理，支持项目检查、运行时验证和未来编辑器集成 | [GitHub](https://github.com/reelmesh/GodotCoder) |
+| godot-mcp | Godot 编辑器 MCP 工具 | 为 AI 助手提供 Godot 编辑器的“眼睛和手”：场景编辑、输入注入、确定性测试和实时游戏状态 | [GitHub](https://github.com/satelliteoflove/godot-mcp) |
+| CivForge | 4X 游戏原型 | 基于 Godot 的模块化类《文明》4X 游戏原型，数据驱动、可扩展，使用 AI 编程代理构建 | [GitHub](https://github.com/mwd474747/CivForge) |
+| GPTGTA | 浏览器游戏原型 | 通过迭代 AI 辅助提示和 Vibe Coding 工作流开发的 GTA 风格浏览器游戏原型 | [GitHub](https://github.com/vw5hwbngy4-debug/gptgta) |
+| multi-agent-game-engine | 多智能体模拟引擎 | 构建多智能体模拟并可视化 LLM 驱动行为，内置地图编辑器和桌面工作空间 | [GitHub](https://github.com/Disarrayed-agglutination903/multi-agent-game-engine) |
+| mygamemaster | 桌游 AI 主持人 | 个性化 AI 游戏主持人，在 Discord 上运行 TRPG 战役，包含活世界、规则引擎和隔离容器 | [GitHub](https://github.com/tibs245/mygamemaster) |
+| mystery-agents | 推理游戏生成器 | 基于 LangGraph 和 LangChain 的 AI 驱动推理派对游戏生成器 | [GitHub](https://github.com/juanje/mystery-agents) |
+| mimo-gameforge | 程序化游戏内容生成器 | 基于 Hermes Agent 的 AI 驱动程序化游戏内容生成平台 | [GitHub](https://github.com/Deilvey/mimo-gameforge) |
+| game-discount-agent | 游戏折扣爬虫 Agent | Steam/Epic 游戏折扣爬虫 + AI 内容生成器 + 定时流水线 | [GitHub](https://github.com/Aiden-zht/game-discount-agent) |
+| ai_werewolf | 狼人杀游戏原型 | 多模型 AI 狼人杀游戏原型，用于策略推理和互动叙事 | [GitHub](https://github.com/rhyshammonds-bit/ai_werewolf) |
+| cricket-arena-ai | 板球游戏原型 | 带 AI 投球的浏览器板球游戏原型，支持多人游戏路线图 | [GitHub](https://github.com/HarishReddy9515/cricket-arena-ai) |
+| McCity | 3D 开放世界原型 | 受 GTA: Vice City 启发的浏览器 3D 开放世界游戏原型，含 NavMesh NPC AI | [GitHub](https://github.com/pvayeswanthsai/McCity) |
+| Procession | 活世界引擎 | 实验性活世界引擎，每个 NPC、派系和地点均为独立 OTP 进程，支持涌现叙事 | [GitHub](https://github.com/Allwrighty3/Procession) |
+| Kifu-Sensei | 围棋解说生成器 | 基于 LLM 的自动化围棋棋谱解说生成器 | [GitHub](https://github.com/YianXie/Kifu-Sensei) |
+| Game-Master | SillyTavern 预设 | 让 LLM 充当游戏主持人的预设，含骰子机制、关系引擎和随机事件生成器 | [GitHub](https://github.com/ZDOSt/Game-Master) |
+| AI-Game-Generator | HTML 教育游戏生成器 | 用 AI 创建 HTML 教育游戏，只需输入想法即可生成 | [GitHub](https://github.com/ipuntoo/AI-Game-Generator) |
+| agent-diplomacy | 道德框架实验 | 研究不同道德框架作为宪法时 Agent 的谈判行为，以桌游《外交》为基础 | [GitHub](https://github.com/brodye11-personal/agent-diplomacy) |
+| ash-kechaum | 集换式卡牌定价 Agent | 管理集换式卡牌定价和购买的 Agent，自动化价值追踪和购买决策 | [GitHub](https://github.com/SabbyMakerHub/ash-kechaum) |
+| summon-skill | 代码库 Agent 文件生成器 | 为你的代码库生成自定义 AI Agent 文件，可随时间自主学习和改进 | [GitHub](https://github.com/0rtez/summon-skill) |
+| HoloScript | 空间计算语义层 | 空间计算和 AI Agent 的语义层——一次编写，运行于 VR、机器人、Web 或游戏 | [GitHub](https://github.com/brianonbased-dev/HoloScript) |
+| paw-agents | 多 Agent 系统 | 构建和管理自主 AI Agent 的可扩展操作系统，支持多 Agent 系统和安全任务执行 | [GitHub](https://github.com/Lawabiding-longsleeve257/paw-agents) |
+| ReFrame | 游戏性能优化 Agent | 基于 GitHub Copilot 的 Agent，检测硬件并自动调整配置文件和注册表设置以优化游戏性能 | [GitHub](https://github.com/Yowspo/ReFrame) |
+| GLM-5.2 Pac-Man 一次性基准 | 游戏开发基准复现 | 使用 GLM-5.2 推理能力复现一次性 Pac-Man 游戏开发基准 | [GitHub](https://github.com/DominguesM/glm5.2-pacman-oneshot) |
+| BRASA Cognitive Runtime | 游戏开发认知架构 | 面向大规模游戏开发工作流的混合认知架构，含持久架构记忆和 AI 辅助软件推理 | [GitHub](https://github.com/Rafhael-Oliveira-IA/brasa-ai-core-engine) |
+| aquila | 游戏资产管理 | 模块化服务器简化游戏开发中的资产管理，支持 OAuth、CDN 和多文件后端 | [GitHub](https://github.com/manoharpb03/aquila) |
+| gamepad-ai-native | 手柄映射原型 | AI 原生 8BitDo 控制器映射原型，支持 macOS 和 Windows | [GitHub](https://github.com/infistteam-rgb/gamepad-ai-native) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| GENSTRAT: Toward a Science of Strategic Reasoning in LLMs | 论文 | 研究 LLM 作为经济 Agent 在拍卖、市场等场景中的战略推理能力，提出新基准 | [arXiv](https://arxiv.org/abs/2605.23238v1) |
+| To Nuke or Not to Nuke: LLMs' Ethical Reasoning in High-Stakes Simulation | 论文 | 在《文明 V》游戏中研究 LLM 在高风险决策中的伦理推理与行动差距 | [arXiv](https://arxiv.org/abs/2606.08310v1) |
+| Aligned but Not Partner-Specific: Multimodal LLM Agents in Reference Games | 论文 | 研究多模态 LLM Agent 在重复参考游戏中是否形成类似人类的伙伴特定约定 | [arXiv](https://arxiv.org/abs/2606.08081v1) |
+| smartness-eval | 评估框架 | 14 维度 AI Agent 智能评估框架，含置信区间、趋势追踪和反作弊探测 | [GitHub](https://github.com/Compound-epigraphy786/smartness-eval) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AI 工作流技巧—100% vibe coding 完成 gamejam | 教程 | 使用 Vibe Coding 工作流 100% 完成 Game Jam 的技巧分享 | [机核 GCORES](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZSlRfZ2tyclZxQ0ppWGt0Y2lHT3JZUzRhRklNMlpMN2I2ZDI2UXhHSnY1bHliSC1XNkJaYUZZQ3RtaWJ1NXluTk1IN2t3Zjg?oc=5) |
+| 零成本！用AI打造你的第一款游戏Demo（2026保姆级教程） | 教程 | 零成本使用 AI 开发游戏 Demo 的保姆级教程 | [CSDN](https://news.google.com/rss/articles/CBMibkFVX3lxTFBTQzBqaG5NQVpGOVgwZ3VSVml6RHRmSk84NHBER0xwZ2N5QU5jZE9UMlFaSmVfMUJQVWczNmo1TkxQZC1OOXJZY0F6WTV5TlVsN3ZLNy1wOGEyOUxiekVwaUNKVlJlRHh6Ym9zeXNB?oc=5) |
+| AI Agent在游戏NPC中的革新应用 | 媒体实测 | 探讨 AI Agent 在游戏 NPC 中的创新应用 | [CSDN](https://news.google.com/rss/articles/CBMibkFVX3lxTE9nckNxaGp4UjMwcWFOaTNjZVJ2MHJqQ3JRdFMyM3ByWE41alBaZFZ4S2ZMMnFxeWl1S1oyLUlyOXRpdmxGSWFBblE2SmpHcGtBc2NSQThuOW9WVHI2MVZDTlNMLTJuZXMwQ2J0OW9B?oc=5) |
+| Free AI Tools Every Unity Developer Should Use to Build Games Faster | 教程 | Unity 开发者可用的免费 AI 工具汇总，帮助加速游戏开发 | [DEV Community](https://news.google.com/rss/articles/CBMipAFBVV95cUxOOTFXVG1NUEFNWFpJVmpNekxfcmZaLXVZa21PTUs2Q3BQUWRSSkFqUmQzejBQRlV1RjFlMVhUVWotRjR6bktQNUV4U2VoMzFOeC1HdGM0LVV0a3RBN1dtM1ZWTjQwblhoeUJpUHZVNEpHMS1CN3VRelpKNnYtUTJja3NpVWxMUzZObmFDRWFxVm9GNk5KcTdmWk56amhDR3JPb25NTg?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| agency-agents-zh | 专家角色库 | 211 个即插即用的 AI 专家角色，支持 16 种工具，覆盖 18 个部门，含 46 个中国市场原创智能体 | [GitHub](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fMG1vVlVQMC1QWmRoeW9mcEEtWTZuVWJ0MW9EbjI3LURsMGNXNjVtR2NqNGlZV19VNl9VeDhKZ214bmwzZWZTOG9zVWdaZ3lDeVRCUlJZb1BQUQ?oc=5) |
+| GodeX 1.2.0 | API 网关 | OpenAI 兼容的 Responses API 网关，让 Codex、CLI 工具和开发者 Agent 接入任意模型（如 DeepSeek、智谱等） | [开源中国](https://www.oschina.net/news/458338) |
+| OpenEnv for Agentic RL | 强化学习环境 | 开源社区支持的 Agentic 强化学习环境 | [Hugging Face](https://huggingface.co/blog/openenv-agentic-rl) |
+| Holo3.1 | 本地计算机使用 Agent | 快速、本地的计算机使用 Agent | [Hugging Face](https://huggingface.co/blog/Hcompany/holo31) |

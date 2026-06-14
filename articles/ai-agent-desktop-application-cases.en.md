@@ -80,3 +80,63 @@ This section is divided into two categories: `7 Tutorials / Cases` and `15 Proje
 |------|------|---------------|------|
 | Google Search redesign | Product | Google announced a sweeping redesign of the search box, transforming it from a simple keyword input into a dynamic, AI-driven conversational interface. | [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) |
 | OpenAI acquires Ona | Acquisition | OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows. | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
+
+## Resource Update (2026-06-14)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| thewolffish/wolffish-extension | GitHub | Local-first, markdown-powered personal AI desktop app (Electron). Maps brain architecture onto a deterministic agentic pipeline with 15 runtime modules. | [GitHub](https://github.com/thewolffish/wolffish-extension) |
+| cocode-kuma/CocodeAI | GitHub | Local desktop AI coding assistant for developers (Tauri v2 + React 19 + Bun). Merges terminal AI Coding Agent with a modern GUI. | [GitHub](https://github.com/cocode-kuma/CocodeAI) |
+| agent-sh/agent-workspace-linux | GitHub | Isolated Linux desktop workspaces for AI agents — a hidden, agent-owned desktop and browser over MCP. | [GitHub](https://github.com/agent-sh/agent-workspace-linux) |
+| electron-stagewright/electron-stagewright | GitHub | MCP server for AI agents to drive Electron apps the way Playwright drives browsers. | [GitHub](https://github.com/electron-stagewright/electron-stagewright) |
+| wardian-app/Wardian | GitHub | Local desktop command center for supervising and shaping AI agent teams. | [GitHub](https://github.com/wardian-app/Wardian) |
+| oywq00008-cell/BroadlinkAC-For-Agent | GitHub | Multi-brand AC IR controller for AI agents via Broadlink RM devices. Headless Agent mode and desktop GUI share the same core. | [GitHub](https://github.com/oywq00008-cell/BroadlinkAC-For-Agent) |
+| junainfinity/VibeStudio | GitHub | Local-first AI coding agent for Apple Silicon (Tauri + React, mlx-mtp inference). Fully on-device, no cloud. | [GitHub](https://github.com/junainfinity/VibeStudio) |
+| ryantsai/KKTerm | GitHub | Windows-first AI-agent super-tool for vibe coders & system admins — terminals, SSH, SFTP, RDP/VNC, dashboards, and built-in AI assistant. | [GitHub](https://github.com/ryantsai/KKTerm) |
+| GCWing/BitFun | GitHub | Desktop-grade Agent runtime with built-in Code Agent, Cowork Agent, and Computer Use. Has memory, personality, and ability to evolve. | [GitHub](https://github.com/GCWing/BitFun) |
+| mblua/AgentsCommander | GitHub | Coordinate multiple teams of AI coding agents across workgroup instances with Root Agent routing and file-based handoffs. | [GitHub](https://github.com/mblua/AgentsCommander) |
+| MMinasyan/lightcode | GitHub | Model-agnostic coding agent supporting any OpenAI-compatible LLM provider. Desktop GUI, HTTP daemon, ACP stdio adapter. | [GitHub](https://github.com/MMinasyan/lightcode) |
+| zosmaai/zosma-cowork | GitHub | Desktop GUI for the pi coding agent — open-source Claude Cowork alternative. | [GitHub](https://github.com/zosmaai/zosma-cowork) |
+| Alien0013/aegis | GitHub | Self-improving, multi-provider, multi-channel terminal agent harness in Python. Includes MCP, skills marketplace, browser/computer-use. | [GitHub](https://github.com/Alien0013/aegis) |
+| IDanK0/CoworkLocal | GitHub | Self-hosted, local-first AI computer-use agent for Windows (Tauri + Rust + React). Model-agnostic, privacy-first. | [GitHub](https://github.com/IDanK0/CoworkLocal) |
+| imthegoodboy/Computer-use | GitHub | Computer use tool by which agent can control your computer visually, inspired by OpenAI Computer Use. | [GitHub](https://github.com/imthegoodboy/Computer-use) |
+| Empty-democritus307/AutoProber | GitHub | Automate hardware probing using computer vision and agents to map and test target pins on circuit boards. | [GitHub](https://github.com/Empty-democritus307/AutoProber) |
+| umarkhanif28/ApexUIBridge | GitHub | Bridge UI automation and AI with a customizable toolkit integrating LlamaSharp and FlaUI. | [GitHub](https://github.com/umarkhanif28/ApexUIBridge) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenAI Codex | Desktop App | Lightweight coding agent that runs locally on your computer. Available as CLI, VS Code extension, and desktop app. Supports Windows automation and locked-macOS operation. | [GitHub](https://github.com/openai/codex) / [Microsoft Store](https://apps.microsoft.com/detail/9plm9xgg6vks?hl=zh-CN&gl=CN) / [OpenAI](https://openai.com/zh-Hans-CN/codex/) |
+| MoonAgents | Desktop App | Desktop application from MoonPay connecting Claude and Codex. | [games.gg](https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdDBWUFBSREhNUUE0OUcyWVZNR0FkeUlfbUZONE1EOUxUMXEwUmhCbmpzME5icnBjbmF1bEYxQS00UFBSbkdyT0xzbkktTFBLYnYxWkY5d2k2NXhUaWRpSnJwa1FGSjBmbVdwbEp0UUIzWW1WSmVWeVc1RGhWdGN0eTJwQldPZHFFWHNyeHB3LTRxdE9CRk1VbGg2YU5OV20yMFBUOWEzSlFGVVVqMnk3TEpWdm9lT0FWMWhPVkx4NklGSWVxRFh3M2FEVEMyd0xxZ2k4Q3I4REVMVXlIaWN6WFR2NW84cXVjTXF3Vw?oc=5) |
+| DeepSeek Desktop App | Desktop App | 24/7 self-evolving AI agent desktop application. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EN3F6WUt4NGJxQWxnREl4S1pOcE9ab3JTNHpKYnExbjB6emx5S3diV1pvNE5QQXBIS3ZUZGozVjlDX24zU2h0RTVCd0ZUX1JwMFhwYnB3?oc=5) |
+| GitHub Copilot App | Desktop App | GitHub's new Copilot app taking aim at Claude Code and Codex. | [The New Stack](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uTWd1cjZxMVVLUm5DT0xnM3FRNFpiUjZkTHcwU1dvQmpudGJDNlVnX1dQNXA5RGx1Q3FrRUFpNWlJOGdhdklMbV80VWZtSzVlRE9XbXlZU2dPRFNkSmpr?oc=5) |
+| Microsoft Scout | Desktop Agent | Microsoft's always-on personal agent announced at Build 2026. | [Microsoft](https://news.google.com/rss/articles/CBMivAFBVV95cUxPV05vaTgybEpsRVBhZGFEai12SHFkYWZiZjRSR1VaMXFJckxYRnU5MHc2Q3QzTVFqVklRb21qck80M0I0VEZQQjBKS2tuQ2l6bURRQ2NhYkwwTnQya3d5OGsyMTU1V3gtd3ZtZ2F4b3JFTXdoY0N1YXJ4eUthalkyTUg3N2RaR3NzYVZyNEZlRkRMUUROMmV3c1ctN3htRklTdmdTeTVLOFQxNmhwOVNJU2k5WFNfbFNJWWhVSQ?oc=5) |
+| Snowflake CoCo | Desktop Tool | AI coding agent for the modern data stack. | [Snowflake](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ1VDaFg0QkNtLTF5bFY2NlZoNlhQX1R5TnMxVFpNa2xYWjZ6OGpQSHRFNk9jelY4OXd6YmtrZ21iY2VrODJHaG1YeDllXzFMaTh2Z095eVdMNlFtcUVPamJzZ2M0NzhCOWNHSC1hVVA2VGZwSjZUMlhHaGFydzlNR2NmTGNvd3haZHc4?oc=5) |
+| Google Antigravity 2.0 | Platform | Standalone agent-first platform with CLI, SDK, managed execution, and enterprise support. | [MarkTechPost](https://news.google.com/rss/articles/CBMiggJBVV95cUxNRXlEcnZScFZxUlZtSGtSUnB1LW5QZTlQNm42WXU2azJ2T1RnYnV6V1Eyei1VUlFVaUNFaU5MdElZU2ZGYlJkZ20zNEJORFZBZHo4bVR2Y1BteDhCYXA2NWdIMmxwX0NLblZDRmFILURzUnFXa3BZQ2NFNW9MUkZCY0RqWmVmcGx1aGJBQ1lDX056bHNyNXplQUtRUGc5NGIya21fWXdOdE1QVTBtSldGcXI2Ymg4ck93bml6elRDMFA0MVBkZ2Vqbk1vR0tmQWdlRWlDUWFtS3lDYlF4VWNRdGRKejg0c3RnRVR1MEZOS2hYcndBVkFvbXRNb2tVTFY2Vnc?oc=5) |
+| Microsoft MXC | OS-level Sandbox | OS-level sandbox for AI agents launched by Microsoft with OpenAI and Nvidia on board. | [Venturebeat](https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa0YzMkktV1RlNmZuNjdqTHdyZ2xxdnc1a0hQWEZUeEZ5eldkbThhUXdzUjlITGwtRUJvcldnd2twaWg0NnIzZUZpdW9zNUVsNjJEaU5yd2V6VVhXU0Z4UzE4NjVhM2NnZXgtTWJvV1h3MDh1T01LWGd6c0U2WHl3NC0wSEFPWEhQRXlFM1AxaUt2czBkMUJXdWpzYm9YcEJlREk3M3BXX1VPNjJiOWFkd1lYWUpiOXdxcUJFNDRpcTB5QzdtUE12dg?oc=5) |
+| Tencent Marvis | OS-level Agent | Operating system-level AI assistant with 6 agents collaborating for cross-device file management and remote control. | [smarthey.com](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wSl9uREJuYWhrdmR4bmdFYi0tdnVqT3I0Tkhtd0o4b295eTFTWTM5aUc1d2tSdlduTkxOQWNRYjJBcXZYbnJ4ejh3b0RSZ2sxTFk4d3MxZXlBM2ZoY0E?oc=5) |
+| cmux | macOS Terminal | Native macOS terminal built for running AI coding agents in parallel. | [DEV Community](https://news.google.com/rss/articles/CBMirgFBVV95cUxPRDROWFlYVDB1ZlFuaTE0OEhVb0J2SjJZNWQycHN5em5GVjB0T1hOUS1IeW5mVy1GcmdFeDBNWVdBMGl0d1RWTUpUMURzWjU2aEdidHdzNTBiNDNYQ0xsTDR0b1VWNkphQTNGazQ4S1FqZzlTQUtabmxsSnpXVU03YXJvaC1sLWVMZUFuSFpiNlRreW53MzdaVy1BUU9Uc01PeXh0ZEhEdm9zQjNNS1E?oc=5) |
+| Paseo | Cross-platform Tool | Control Claude Code / Codex from phone, tablet, and computer simultaneously. | [CSDN](https://news.google.com/rss/articles/CBMiZEFVX3lxTE44cWtDNjFlVER4OW1EYmtnNVZYckdGNkc4d2g1NU81MmFFRkhWQm84c3ZFdFUyOXBja2U3UkVqX3VKVFVNN1lrV2tsQ0VyVzJScDdxQmtzV0VtRU5ZSWItb05IT08?oc=5) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Fara1.5 | Model Family | A family of frontier computer use agent models from Microsoft. | [Microsoft](https://news.google.com/rss/articles/CBMigwFBVV95cUxQS0FIV2ZOZjZRdDdGMW5OUkZDaXlZU18yR2NXeFhCbHZaX2RpTEsxMFd0MWJVVmNsUEZtYlkyRkx1QXhNUVdOMEtzQlBQYTgwSVpWV00xR3VqTVZVa2s0WWw2SmhRY2M2YjduNnBsSVNvMlBLNWNDQlJURTBZdjA0dURhYw?oc=5) |
+| Holo3.1 | Model | Fast & local computer use agents. | [Hugging Face](https://huggingface.co/blog/Hcompany/holo31) |
+| OpenEnv for Agentic RL | Framework | Open-source community backing for agentic reinforcement learning environments. | [Hugging Face](https://huggingface.co/blog/openenv-agentic-rl) |
+| Multi-agent AI Safety Research | Research | Google DeepMind and partners announce $10M funding call for multi-agent safety research. | [DeepMind](https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| DeepSeek GUI: Moving Terminal AI Agent into Desktop Workbench | Tutorial | Guide on bringing DeepSeek terminal AI agent into a desktop workbench GUI. | [掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CY3NuRXRmdDBzcmxXT2UwZ2RJQU9aN3lFR244cjUwNndTMUcybDQwWklDcXFKTy1Sc1FRa1IwS1BaTnlmeDlQQ1VjSXdiV2hnR0twSQ?oc=5) |
+| Build a tiny MCP server in JavaScript | Tutorial | Build a tiny MCP server in JavaScript, Claude and Codex friendly. | [DEV Community](https://news.google.com/rss/articles/CBMikgFBVV95cUxOeHNQTVJ3Z0JCWnFKY2JFRFNBV2Y5alRPczhoMmZUX1QtOFZ2SFJTTXpycllpcUF5Uzg0eXphTlYyZmFLNkxMN29UNG5talV2LWFSVnFpcDhsQWRXcWVmREh3Y3lpdTVra1Z0VXc5NEJJaGNuUFozX0JTWUR0SEs1QXRCRFptNnN5WDRqU2hCOFc0Zw?oc=5) |
+| Claude Code vs Codex vs Cursor Comparison | Comparison | The best AI coding tool in 2026 comparison. | [DEV Community](https://news.google.com/rss/articles/CBMilwFBVV95cUxPenZHSXdkTXE3TUlQUWlZMExVZC0wX3BkdVVPd3dJQmpYYzVVY04tZjZlU19kMUtTVTFqcDFMbEZMb0xsLVQ4VmtUbG9rTHpYRVdNbnFDNW1LcGhJZE4yOHJFYm4zVXptN09IaEstYkxBVlhweDg2NnFkQS1DT0NIYVJZNTFzcmFWNk4weUpZY3pzaVRZSXcw?oc=5) |
+| How to Combine Claude Code and Codex | Tutorial | Guide for maximum coding power by combining Claude Code and Codex. | [Towards Data Science](https://news.google.com/rss/articles/CBMilgFBVV95cUxQYnZzNmsybm1vWGpCdjdUcFBwdzY4VEhaTkV3di1WNUpYLXNlSnY4WXFyZlVCVC04ejNaSVdrTnlQRmNFajdWWDU2a3pad0duMnFhNlNpck94ZmtSUVNXZTVqZDdON0JRM0ktWG90MEVkeWhUcnlYOFJXSTBYdFhQOHlCbUl0OUNHQXJKLXVyNDN1SVJKVVE?oc=5) |
+| Codex Installation Guide for China | Tutorial | Detailed Codex installation and usage guide for users in China. | [知乎](https://zhuanlan.zhihu.com/p/2011928155204645696) / [菜鸟教程](https://www.runoob.com/codex/codex-install.html) |
+| OpenAI Academy Courses | Courses | Three Academy courses for building practical AI skills, creating repeatable workflows, and applying agents in everyday work. | [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work) |

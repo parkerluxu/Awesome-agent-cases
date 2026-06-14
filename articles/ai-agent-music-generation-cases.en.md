@@ -88,3 +88,23 @@ This section is divided into two categories: `21 Tutorials / Cases` and `16 Proj
 |------|------|---------------|------|
 | Antigravity Awesome Skills | Skill Registry | Registry of 1,527+ agentic skills for Claude Code, Gemini CLI, Cursor, Copilot, and more. | [GitHub](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tNl9NbVNGU214YXktUlkyVU5SM24xdkdYeUtGS0pXcTNPM0g0VnNmOVB1alc3S2NQcUR2cFhrLWZMR0p0UV85TjFvME5lRUowWW4yNnZkeEZMZnpVbjBjdlNCNA?oc=5) |
 | Microsoft Rayfin | Backend Platform | New backend platform from Microsoft for AI agent development and app creation. | [Tech Times](https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3IxQXM3SVNacnJuUFk4NlhBc2VaUklKWnpOM294aXQwaFVwSTBKQ3J4NzFONUlHRUtBMGRteWdYZGdDS1dLSTdTdVBLckMxVlBYQVl2Z2V2RkxRRm9feHl3aWk3Q1p2STk1eWltdjJkS0lnSk5fakNTVmNPVlFKNG9rREFhc1FuVG9Hc3htZ1RhdjNhdlg2ZWNWUXJyOUNLc0ZibkFjOU8xaC1iYThJOVlfdFhuZVIyQlRkUXpTQWx2Ymx6U01JVXBXbUtNdw?oc=5) |
+
+## Resource Update (2026-06-14)
+
+### Papers
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| HAIM: Human-AI Music Datasets for AI Music Production Tracking Benchmark | Paper | Proposes a benchmark for detecting AI involvement across the full music production workflow (generation, vocal synthesis, arrangement, mastering), moving beyond binary AI-or-human classification. | [arXiv](https://arxiv.org/abs/2606.01686v1) |
+| JenBridge: Adaptive Long-Form Video Soundtracking across Scene Transitions | Paper | A modular Transformer-based framework for generating coherent, high-fidelity soundtracks for long-form video that maintain narrative continuity across scene transitions. | [arXiv](https://arxiv.org/abs/2606.01703v1) |
+| Cross-domain benchmarks reveal when coordinated AI agents improve scientific inference from partial evidence | Paper | Evaluates when coordinated AI agents add value over simpler workflows across four scientific tasks, including mapping molecular structure into musical representations. | [arXiv](https://arxiv.org/abs/2605.22300v1) |
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Sparkah/agentic-soundtracks | GitHub Project | Agentic music generation for LLM-built HTML5 games, built at Vercel Built in London 2026. | [GitHub](https://github.com/Sparkah/agentic-soundtracks) |
+| Mustard5/music_generation | GitHub Project | Agent Zero plugin for generating music from text prompts via Google Lyria / OpenRouter. | [GitHub](https://github.com/Mustard5/music_generation) |
+| sunpochin/music-release-agent | GitHub Project | AI-driven music tracker and social sharing service that automates Spotify scans, generates bilingual reviews via Gemini API, and orchestrates social posts. | [GitHub](https://github.com/sunpochin/music-release-agent) |
+| CMbunny/AI-agents | GitHub Project | Collection of AI agents built with Python, including music generation. | [GitHub](https://github.com/CMbunny/AI-agents) |
+| partme-ai/full-aigc-skills | GitHub Project | 34+ agent skills for AI content generation including audio, music, and multimodal. | [GitHub](https://github.com/partme-ai/full-aigc-skills) |

@@ -69,3 +69,44 @@ This section is divided into two categories: `2 Tutorials / Cases` and `13 Proje
 |------|------|---------------|------|
 | OpenAI to acquire Ona | OpenAI | Acquisition to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
 | New OpenAI Academy courses for the next era of work | OpenAI | Three Academy courses helping people build practical AI skills, create repeatable workflows, and apply agents in everyday work. | [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work) |
+
+## Resource Update (2026-06-14)
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| An LLM System for Autonomous Variational Quantum Circuit Design | Paper | Introduces an autonomous agentic framework using LLMs to iteratively design quantum circuits under explicit constraints, integrating exploration, generation, discussion, validation, storage, evaluation, and review components. | [arXiv](https://arxiv.org/abs/2606.13380v1) |
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Quilter Project Speedrun: AI-Designed Computer Boots Successfully | Project | Reports successful boot of an AI-designed computer with autonomous PCB layout validation. | [DEV Community](https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS0M3TEVUVVltNElnZjJLWUx3dzgyLUs3dnltQ2RlSXNxbndWeGg1bEliVk1NQXUyT09KSWNxRkR4d0o4SGZsQU12R09DY0pYUFhNcTJOWW1WQnZ2OHgtRUVXZlJ1T2E5SGNDUVVxdk41STlhZ2lYQUtVZnFoRnFYa095LTUyYngtV0ZVcGlib0EyTWUwYS03aEY0MGc5U3VTRVBndjNUUk1FTHJVNGxKU2tQcmplUUpKVERvMGVTXzcyX2U2eTA3NnVXbmdFcDNuaXRIT1Atcjc?oc=5) |
+| easyeda-documents | Project | Chinese tutorial for EasyEDA, an online PCB design tool. | [GitHub](https://news.google.com/rss/articles/CBMilAFBVV95cUxObzRKUWI0dmZ6OWV4SUg3eTdZTDVZZ3FMWm54TlIxcUVWb0hjUFV5ZG0tS0RxaEZIQlVwTmRWRUk3NW85b0YwTGtaaVFUODhENWVZamRSSHRtOFQxOFhfajZobnVUMEdrNWtZTDlOckNqODU4cmFhQkFBYlVOWmt1YlRjR09nNHQ1SnpOZzFNeDBHRzI3?oc=5) |
+| Rodert/awesome-mcp | Project | Curated list of MCP servers and related resources. | [GitHub](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGMXVZOFhVNk5aSjR3WFJ0Yl9tX1IxU296dTY3M1NOYnI1ZVhPTnJKNGphU2NibTJQX3BDYV91LXNPNkVPYWl5ZVM2MWRqdw?oc=5) |
+| YouMind-OpenLab/awesome-nano-banana-pro-prompts | Project | Collection of prompts for Nano Banana Pro. | [GitHub](https://news.google.com/rss/articles/CBMidEFVX3lxTE83N0ZLQ29rVGJVUGE3eGdEWFY5dy11MzJSVkU2ejRLcVh2RkdpS3FWVzFlLUktUG5EWVZSLWEyaFZ3UGtWNU0tZm1hN2tqWHNMTm1ILVRFMkdIRGJUZ01wZnQxdTlPNkNaX0FRcms1LWxaS3hp?oc=5) |
+| hashgraph-online/awesome-ai-plugins | Project | Curated list of AI plugins. | [GitHub](https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xVE01MTlDYVFYaWdJVm8wdy16MWpNeDhzWXIyRWFxdHF4YjdscEtFdzlhQnRHc0tVdklWYzFRUllkcmIzUll1QklVcnllU09vRDNyc21LNUVOaUZYQlFTVHJjMWg?oc=5) |
+| jherrodthomas/automotive-skills-suite | Project | Automotive skills suite for AI agents. | [GitHub](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByYlFpaXJReGdIRTdFSi03M3BKbE5pcmxTemoxVnlrS3FyUmtkYnZKZmo2SUxoeDZFeXVxOUdXT3FfdFZQZzBVeXp2aENmbmNjUHl1YXA2MXptZk5zaDFuN25ESVFEc1k?oc=5) |
+| Nano Banana Pro 提示词大全 | Project | Prompt collection for Nano Banana Pro. | [GitHub](https://news.google.com/rss/articles/CBMikwFBVV95cUxPb3p3Rlh2US16TGJlV1BiUXpDUXgyVG45aFdiLUFYR2Z4THdVdDU1Nms4Sl9mMEVUYU9KWFRlQmZaZlkwTWFLaVZXbm1hUDk3ZFBNRkdpU0NoN3ViMlpRbEd3TG9xOV9CQjZqazhqY1ZjSzVWVVZXR0lORktzU09CYjd3UTlQVlF4UFNpWl9tVVdaT2s?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| JuliaHub Dyad 3.0 | Product | General availability of Dyad 3.0, bringing agentic AI to physics-based engineering. | [PR Newswire](https://news.google.com/rss/articles/CBMi6AFBVV95cUxPblVQNVkxRk4xWVpEV0pmNnpMMktGR1Z1TWJ4OE4tbXgwdXpScEdUcy1xSjkxUDhuWERPajZEVDRFYTc5WHU2UXpxb0l6WjZuX0NEYkpqbmNiN0NZRkJXTF9XeWM1YVpKYW4zMnFwb1AwSHR3eV9qU3ZFWV9LdldLaFpCQkdrbV9NYzB0eHp6cTBrUXlFNWZGcTZNS1dDS1JMbkFRcDhWUEZyWmdjMXgyZkoyRTVHRVVFOTlwTlhkZEk5QktFdzNkMmxULVJ4MkRNTWdYa3BRb3pzdGtGb3RIbWpRMkRtTHJE?oc=5) |
+| KiCad 华秋 10.0 | Tool | AI-assisted PCB design tool based on KiCad. | [CSDN](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQR0tQc0xHQXJhRm93bTJKN05zcFZqaHg4NzlYcnJsbEk3Sm1venFDMDdETDVMR2JNaDU3ZzhDUjVvSzFtRUFuTVBaaVYxeERGdGtFTVhFbXBmYkVjSjNUSVVn?oc=5) |
+| 赛意信息 PCB行业工艺AI大模型 | Product | Self-developed PCB industry process AI large model now commercially deployed at scale. | [Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxNUWRLX25rYm8wcEZmbjU1OE5zNlB6TDlXWUF1N3ZWTUxyT0ZxeUFMNEZuYjZyOE84eFg0X2ZFcUVBLVFLUUxlOWpXdFRicUV5dEx3c1pua1JTTDlHeDEtZHIxZ2tqTEcxeDVjaGozeWZrZUIwYmVFUmIxNW9hSUV5RmlXV2oyQ1Z1RzlqWg?oc=5) |
+| 视源股份电路板布局专利 | Tool | Patent application for using reinforcement learning to optimize PCB layout and improve layout efficiency. | [新浪财经](https://news.google.com/rss/articles/CBMikwFBVV95cUxPNWZyV0lvdnVCR0tjX3dKalJCYnFwYlhpd1BpSDlVb0NCMmZueTltaGVCX0JqeUQ1UlQ3cVlWay1FNjktNTE5TUVWWUZHOHNIODNkcXFYWGRLWUxyMlRyUnh2U0ZXUl82clV2RWYtaFpWZzhaNm43Rlhqdjl0eFFBZTZ2dWV1bU9xbnM3bUk0N3FQRzQ?oc=5) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AI-Assisted KiCad–Codebeamer MCP Integration Demo | Video | Demonstrates AI-assisted integration between KiCad and Codebeamer using MCP. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Ja01fbHBZZUt1WjFfUl94S2JUX0N2a1p2ZklQbU1pc09lc2JmN1ZDNzdRWTZ3b05YTmt6UDhnVzdLUGlTVVNsSXh3bGtLaUEtWHBkTmFR?oc=5) |
+| AI PCB Autorouting: What's Real and What's Hype | Video | Analysis of current capabilities and limitations of AI PCB autorouting. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1TzBDQ3YxWks2V05Bbm5JMmtYWDJlUEl4RDVWcUFaejN3Zjg1X1VtelNGWURMRGt3MDZuYWVhU3BEWmVRYU55bU9HMXlBVFpIcTNlWDd3?oc=5) |
+| PCB Layout Finished 10x Faster with AI? Here’s How... | Video | Tutorial on accelerating PCB layout using AI tools. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BMU82UW5FOFA4Sy1DLTVxNFd5MFRQT0dXV0R2S21TS0wyUUVPSzlxVzBZa3VKS09aTkQ3dWpVNE5ad1QtcVhJZHlMdjFMYU1yMVgyRmN3?oc=5) |
+| Design for manufacturability refresher for engineers — Part 4: Digital tools and AI | Article | Part 4 of a series covering DFM digital tools and AI applications. | [Design World](https://news.google.com/rss/articles/CBMitgFBVV95cUxPOFRJQU8xdmFtRFI2NUtPNm1vUXV4dUV3b2tXVFhGZUN5dGc3QUhld3R1cnQ5RVpHMjlUeHFqa29mNUxlbGtFYjhiNnB0NFo4TDI3WG1lRkZFWjMwdEVFLUpjTlRqVHEwV05hVU1xNjNzclNpYVZybEtaVGhKWEpiUmRQZ2tqZVhDYUJIYnlkbTNHc3lBbEx2a3V6QzgzVUlBdnFMVV9JZnMtaDI4UmFZclVabVB3QQ?oc=5) |
+| 直播预约 \| 用世界模型打造EDA智能体 | Event | Live stream on building EDA agents using world models. | [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3ZmV5MzdtU2lDdEdvV19GUVI2Y0I4UG01Mjd1VlVvbVY4ZEFzUU54bzFRdFJoRm1DVEs4ekk4VmQ1bU12c2RjVnhzU3lZRW9rN3NF?oc=5) |
+| 还在熬夜画原理图？这个“数字搭档”把硬件方案设计卷到了新高度 | Article | Overview of a digital assistant for hardware schematic design. | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwdDhSVWthZmZ3Rk90SFc5QkxZUmF1YkJuOWR2cDl0azRydmQ4RXJNWENzSjNmcm9HaEk1QkpQZHlCRHVWdHpxSmN0X0N5VjhibzZNWWM3VmVBU1I3?oc=5) |
+| From Zero to Debug: A Software Engineer‘s Guide to Fixing Your First PCB | Article | Guide for software engineers debugging their first PCB. | [DEV Community](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT2Q4bDVNalVqUDVrSEFlMnZ6YXMzR21TTGFab1J6dnB1eVlmN3l6NTN5dXJUOUI4NEhVU0M1aDlWUXBpRGR1QzJYWndCMTN6UTBGbkhyMWxHMDJpTkRHN2w3SFFuN3FGamRVM0FjbnZOQW9DbVZfbjRuX3g5d3RLMGFFNUxWM2NDZ3NtX3p2cUdFbU80ZGdibUNId1hKczU4UWp3VnpmbUtFa1E?oc=5) |

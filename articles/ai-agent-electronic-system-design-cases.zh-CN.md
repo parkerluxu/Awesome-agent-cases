@@ -71,3 +71,37 @@
 | Google 搜索框重新设计 | 产品 | Google 将搜索框从简单关键词输入转变为 AI 驱动的对话式界面 | [VentureBeat](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) |
 | OpenAI 收购 Ona | 产品 | OpenAI 计划收购 Ona，扩展 Codex 以提供安全、持久的云端环境，支持企业工作流中的长时间运行 AI Agent | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
 | OpenAI Academy 新课程 | 产品 | OpenAI 推出三门 Academy 课程，帮助用户构建实用 AI 技能、创建可重复工作流并在日常工作中应用 Agent | [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work) |
+
+## 资料更新（2026-06-14）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Quilter Project Speedrun: AI-Designed Computer Boots Successfully — Autonomous PCB Layout Validated | 项目 | AI 自主设计的计算机成功启动，验证了自主 PCB 布局的可行性。 | [DEV Community](https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS0M3TEVUVVltNElnZjJLWUx3dzgyLUs3dnltQ2RlSXNxbndWeGg1bEliVk1NQXUyT09KSWNxRkR4d0o4SGZsQU12R09DY0pYUFhNcTJOWW1WQnZ2OHgtRUVXZlJ1T2E5SGNDUVVxdk41STlhZ2lYQUtVZnFoRnFYa095LTUyYngtV0ZVcGlib0EyTWUwYS03aEY0MGc5U3VTRVBndjNUUk1FTHJVNGxKU2tQcmplUUpKVERvMGVTXzcyX2U2eTA3NnVXbmdFcDNuaXRIT1Atcjc?oc=5) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| An LLM System for Autonomous Variational Quantum Circuit Design | 论文 | 提出一个自主智能体框架，利用大语言模型在显式设计约束下进行迭代量子电路设计。 | [arXiv](https://arxiv.org/abs/2606.13380v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| PCB界的AI工具试用-KiCad 华秋 10.0 | 教程 | 对 KiCad 华秋 10.0 版本中 AI 工具的试用与评测。 | [CSDN](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQR0tQc0xHQXJhRm93bTJKN05zcFZqaHg4NzlYcnJsbEk3Sm1venFDMDdETDVMR2JNaDU3ZzhDUjVvSzFtRUFuTVBaaVYxeERGdGtFTVhFbXBmYkVjSjNUSVVn?oc=5) |
+| AI-Assisted KiCad–Codebeamer MCP Integration Demo | 教程 | 演示 AI 辅助的 KiCad 与 Codebeamer 通过 MCP 协议集成。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Ja01fbHBZZUt1WjFfUl94S2JUX0N2a1p2ZklQbU1pc09lc2JmN1ZDNzdRWTZ3b05YTmt6UDhnVzdLUGlTVVNsSXh3bGtLaUEtWHBkTmFR?oc=5) |
+| AI PCB Autorouting: What's Real and What's Hype | 教程 | 分析 AI PCB 自动布线技术的现状，区分真实能力与炒作。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1TzBDQ3YxWks2V05Bbm5JMmtYWDJlUEl4RDVWcUFaejN3Zjg1X1VtelNGWURMRGt3MDZuYWVhU3BEWmVRYU55bU9HMXlBVFpIcTNlWDd3?oc=5) |
+| PCB Layout Finished 10x Faster with AI? Here’s How... | 教程 | 展示如何利用 AI 将 PCB 布局速度提升 10 倍。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BMU82UW5FOFA4Sy1DLTVxNFd5MFRQT0dXV0R2S21TS0wyUUVPSzlxVzBZa3VKS09aTkQ3dWpVNE5ad1QtcVhJZHlMdjFMYU1yMVgyRmN3?oc=5) |
+| 直播预约 \| 用世界模型打造EDA智能体 | 教程 | 预告直播，主题为使用世界模型构建 EDA 智能体。 | [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3ZmV5MzdtU2lDdEdvV19GUVI2Y0I4UG01Mjd1VlVvbVY4ZEFzUU54bzFRdFJoRm1DVEs4ekk4VmQ1bU12c2RjVnhzU3lZRW9rN3NF?oc=5) |
+| 还在熬夜画原理图？这个“数字搭档”把硬件方案设计卷到了新高度 | 教程 | 介绍一款辅助硬件方案设计的 AI “数字搭档”。 | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwdDhSVWthZmZ3Rk90SFc5QkxZUmF1YkJuOWR2cDl0azRydmQ4RXJNWENzSjNmcm9HaEk1QkpQZHlCRHVWdHpxSmN0X0N5VjhibzZNWWM3VmVBU1I3?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 赛意信息：自研PCB行业工艺AI大模型已实现规模化商用 | 产品 | 赛意信息宣布其自研的 PCB 行业工艺 AI 大模型已实现规模化商用。 | [Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxNUWRLX25rYm8wcEZmbjU1OE5zNlB6TDlXWUF1N3ZWTUxyT0ZxeUFMNEZuYjZyOE84eFg0X2ZFcUVBLVFLUUxlOWpXdFRicUV5dEx3c1pua1JTTDlHeDEtZHIxZ2tqTEcxeDVjaGozeWZrZUIwYmVFUmIxNW9hSUV5RmlXV2oyQ1Z1RzlqWg?oc=5) |
+| 视源股份、视源AI研究院申请电路板布局相关专利，利用强化学习优化电路板布局，提高布局效率 | 产品 | 视源股份与视源AI研究院申请专利，利用强化学习优化电路板布局。 | [新浪财经](https://news.google.com/rss/articles/CBMikwFBVV95cUxPNWZyV0lvdnVCR0tjX3dKalJCYnFwYlhpd1BpSDlVb0NCMmZueTltaGVCX0JqeUQ1UlQ3cVlWay1FNjktNTE5TUVWWUZHOHNIODNkcXFYWGRLWUxyMlRyUnh2U0ZXUl82clV2RWYtaFpWZzhaNm43Rlhqdjl0eFFBZTZ2dWV1bU9xbnM3bUk0N3FQRzQ?oc=5) |
+| JuliaHub Announces Dyad 3.0 General Availability, Bringing Agentic AI to Physics-Based Engineering | 产品 | JuliaHub 发布 Dyad 3.0，将智能体 AI 引入基于物理的工程领域。 | [PR Newswire](https://news.google.com/rss/articles/CBMi6AFBVV95cUxPblVQNVkxRk4xWVpEV0pmNnpMMktGR1Z1TWJ4OE4tbXgwdXpScEdUcy1xSjkxUDhuWERPajZEVDRFYTc5WHU2UXpxb0l6WjZuX0NEYkpqbmNiN0NZRkJXTF9XeWM1YVpKYW4zMnFwb1AwSHR3eV9qU3ZFWV9LdldLaFpCQkdrbV9NYzB0eHp6cTBrUXlFNWZGcTZNS1dDS1JMbkFRcDhWUEZyWmdjMXgyZkoyRTVHRVVFOTlwTlhkZEk5QktFdzNkMmxULVJ4MkRNTWdYa3BRb3pzdGtGb3RIbWpRMkRtTHJE?oc=5) |
+| Design for manufacturability refresher for engineers — Part 4: Digital tools and AI | 产品 | 面向工程师的可制造性设计系列文章第四部分，介绍数字工具与 AI。 | [Design World](https://news.google.com/rss/articles/CBMitgFBVV95cUxPOFRJQU8xdmFtRFI2NUtPNm1vUXV4dUV3b2tXVFhGZUN5dGc3QUhld3R1cnQ5RVpHMjlUeHFqa29mNUxlbGtFYjhiNnB0NFo4TDI3WG1lRkZFWjMwdEVFLUpjTlRqVHEwV05hVU1xNjNzclNpYVZybEtaVGhKWEpiUmRQZ2tqZVhDYUJIYnlkbTNHc3lBbEx2a3V6QzgzVUlBdnFMVV9JZnMtaDI4UmFZclVabVB3QQ?oc=5) |

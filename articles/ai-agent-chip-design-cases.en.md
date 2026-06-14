@@ -61,3 +61,44 @@ This section is divided into two categories: `Tutorials / Cases 0 items` and `Pr
 | Name | Type | Use / Summary | Link |
 |------|------|---------------|------|
 | ContextOS | GitHub | Unified context intelligence layer for AI agents with seamless integration in a single Python package. | [GitHub](https://github.com/armmammothermography417/ContextOS) |
+
+## Resource Update (2026-06-14)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| bjwanneng/veriflow-cc | GitHub | VeriFlow-CC: Claude Code-driven RTL design pipeline automating Chip-on-Chat from architecture to synthesis (iVerilog/Yosys) with sub-agent nesting for code gen and behavioral verification. | [Link](https://github.com/bjwanneng/veriflow-cc) |
+| advaitParanjpe/agentic-rtl-security | GitHub | Agentic RTL security discovery benchmark comparing directed tests, random fuzzing, and LLM-guided MMIO trace generation on a seeded SystemVerilog mini-SoC. | [Link](https://github.com/advaitParanjpe/agentic-rtl-security) |
+| seanoc5/claude-code-for-verilog | GitHub | Teaching sandbox: closed-loop agentic workflow on a small SystemVerilog UART receiver for hardware engineers transitioning from chat-LLM to Claude Code. | [Link](https://github.com/seanoc5/claude-code-for-verilog) |
+| Haden-Min/oh_my_rtl_claw | GitHub | Multi-agent AI system for converting natural language or reference software into Verilog RTL, testbenches, docs, and FPGA onboarding assets. | [Link](https://github.com/Haden-Min/oh_my_rtl_claw) |
+| qhy991/Awesome-LLM-Circuit-Agent | GitHub | Curated repository of academic works on LLM-based RTL generation and analog circuit generation. | [Link](https://github.com/qhy991/Awesome-LLM-Circuit-Agent) |
+| mak372/Verilog-Agent-Format | GitHub | LLM-based Verilog code converter using LoRA fine-tuning and GRPO with Yosys formal verification as reward signal; 95% functional equivalence pass rate. | [Link](https://github.com/mak372/Verilog-Agent-Format) |
+| wuhannus/lunarch | GitHub | Lunahan Architecture: open-source RISC-V cores from Python to GDS, AI-assisted agile design for agentic AI chips (v1 baseline, v1.1 SRAM, v2 Orion). | [Link](https://github.com/wuhannus/lunarch) |
+| harry37725/Verilog-Fault-Injection-Auto-Hardening-Workflow | GitHub | n8n workflow for automated hardware security auditing — single-bit fault injection on Verilog RTL, AI-driven TMR hardening, validation, and executive report generation. | [Link](https://github.com/harry37725/Verilog-Fault-Injection-Auto-Hardening-Workflow) |
+| brkbtmz/llm-riscv | GitHub | Prompts, RTL designs, verification files, and FPGA results for LLM-assisted RV32I/RV32IM/RV32IMC processor generation. | [Link](https://github.com/brkbtmz/llm-riscv) |
+| Sawaiz-zip/ResearchProject | GitHub | LLM-Driven Verilog Testbench Generation with Early Error Localization — LangGraph pipeline generating HDL testbenches from natural language with Pyverilog static analysis and automated repair. | [Link](https://github.com/Sawaiz-zip/ResearchProject) |
+| Yuexi66557/MLCAD-timing-opt | GitHub | Design-aware timing optimization using OpenROAD + Python + LLM. | [Link](https://github.com/Yuexi66557/MLCAD-timing-opt) |
+| The-OpenROAD-Project/ORAssistant | GitHub | OpenROAD's Chatbot Assistant for EDA flow interaction. | [Link](https://github.com/The-OpenROAD-Project/ORAssistant) |
+| Fuadulislam10/NeuroRV-Edge-AI | GitHub | NeuroRV Edge: open-source heterogeneous SoC combining RISC-V RV32IM CPU with 16-lane vector AI accelerator for ultra-low-power edge inference. | [Link](https://github.com/Fuadulislam10/NeuroRV-Edge-AI) |
+| vargasjr-dev/durium | GitHub | Space-native AI inference chip designed from first principles for orbital compute. | [Link](https://github.com/vargasjr-dev/durium) |
+| ai-hpc/ai-hardware-engineer-roadmap | GitHub | Roadmap for mastering AI inference, agent harness systems, and hardware engineering to design a physical AI chip. | [Link](https://github.com/ai-hpc/ai-hardware-engineer-roadmap) |
+| pccxai/pccx-v003 | GitHub | PCCX v003 IP-core planning package for LLM, Vision, Voice, and next-generation architecture tracks. | [Link](https://github.com/pccxai/pccx-v003) |
+| pandeybuilds/chip-journey | GitHub | From zero to AI-hardware engineer — built in public covering digital design, computer architecture, with RF/optical edge. | [Link](https://github.com/pandeybuilds/chip-journey) |
+| dhruvmittal41/chip-design-roadmap | GitHub | 60-day intensive study log of digital hardware design, computer architecture, ASIC flow, formal verification, and AI hardware. | [Link](https://github.com/dhruvmittal41/chip-design-roadmap) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Structured Testbench Generation for LLM-Driven HDL Design and Verification-Oriented Data Curation | arXiv | STG framework for automated testbench generation addressing token cost, reproducibility, and coverage gaps in LLM-driven RTL workflows. | [Link](https://arxiv.org/abs/2606.12983v1) |
+| LongRTL: Graph-Similarity-Guided LLM-driven Long Context RTL Optimization | arXiv | Scalable LLM-based RTL optimization framework with three collaborative agents (Partition, Optimization, Verification) for long, entangled designs. | [Link](https://arxiv.org/abs/2606.08944v1) |
+| Verilog-Evolve: Feedback-Driven and Skill-Evolving Verilog Generation | arXiv | Feedback-driven framework for versioned Verilog refinement and cross-session skill evolution targeting correct, synthesizable, timing-conscious RTL. | [Link](https://arxiv.org/abs/2605.26498v1) |
+| ROSUM-MCTS: Monte Carlo Tree Search-Inspired HDL Code Summarization with Structural Rewards | arXiv | LLM-guided approach using MCTS-inspired structured exploration and reinforcement-driven optimization for VHDL and Verilog summarization. | [Link](https://arxiv.org/abs/2606.07925v1) |
+| PALUTE: Processing-In-Memory Acceleration via Lookup Table for Edge LLM Inference | arXiv | LUT-based Processing-In-Memory accelerator for edge LLM inference, reducing dequantization and nonlinear operator overhead. | [Link](https://arxiv.org/abs/2606.08891v1) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ORAssistant | Tool | OpenROAD's chatbot assistant for EDA flow interaction and guidance. | [Link](https://github.com/The-OpenROAD-Project/ORAssistant) |

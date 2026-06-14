@@ -108,3 +108,67 @@
 | Playwright | 浏览器自动化工具 | 支持 Chromium、Firefox、WebKit 的可靠 Web 自动化工具，适用于测试、脚本和 AI Agent 工作流，支持 TypeScript、Python、.NET、Java | [Playwright](https://playwright.dev/) |
 | OpenAI 收购 Ona | 收购事件 | OpenAI 计划收购 Ona，为 Codex 扩展安全、持久的云端环境，支持企业工作流中的长期运行 AI Agent | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
 | Google DeepMind 关注多 Agent 交互风险 | 安全研究 | Google DeepMind 资助研究数百万 AI Agent 在线交互的潜在危险，关注无人类监督的 Agent 大规模部署风险 | [MIT Technology Review](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/) |
+
+## 资料更新（2026-06-14）
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AI Coding Agents Can Reproduce Social Science Findings | 论文 | 提出 SocSci-Repro-Bench，包含 221 个跨学科任务，系统评估 AI 编码代理复现社会科学发现的能力 | https://arxiv.org/abs/2606.11447v1 |
+| Agentic Agile-V: From Vibe Coding to Verified Engineering in Software and Hardware Development | 论文 | 分析代理式 AI 编码系统在软件和硬件开发中的实际收益与局限，指出自主代码生成并非自动改善工程产出 | https://arxiv.org/abs/2605.20456v1 |
+| AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility | 论文 | 提出 AAA（Agentified Agent Assessment）评估框架，由裁判代理通过标准化协议评估各类代理系统 | https://arxiv.org/abs/2606.13608v1 |
+| Frontier Coding Agents Use Metaprogramming to Adapt to Unfamiliar Programming Languages | 论文 | 在四种冷门编程语言上评估六个当代编码代理，揭示主流基准测试中隐藏的能力差异 | https://arxiv.org/abs/2606.10933v1 |
+| Mining Architectural Quality Under Agentic AI Adoption: A Causal Study of Java Repositories | 论文 | 对 151 个开源 Java 仓库进行因果分析，研究代理式 AI 采用对软件架构质量的影响 | https://arxiv.org/abs/2606.13298v1 |
+| Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks | 论文 | 提出多语言 SWE-bench 风格基准和适配器协议，使异构代理框架可在公平条件下比较 | https://arxiv.org/abs/2606.12344v1 |
+| MoCA-Agent: A Market-of-Claims Code Agent for Financial and Numerical Reasoning | 论文 | 引入基于声明级验证的市场机制代码代理，用于金融和表格问答中的精确推理 | https://arxiv.org/abs/2606.11537v1 |
+| CORE-Bench: A Comprehensive Benchmark for Code Retrieval in the Era of Agentic Coding | 论文 | 提出面向代理式编码的代码检索基准，评估代理在仓库中定位相关文件和函数的能力 | https://arxiv.org/abs/2606.11864v1 |
+| From Prompting to Verification: How Experience Shapes Vibe Coding Practices | 论文 | 通过 162 份问卷调研，分析不同经验水平的用户在 Vibe Coding 实践中的差异 | https://arxiv.org/abs/2605.24521v1 |
+| Human-in-the-Loop Swarms: A Bionic Swarm Approach to Real-World Soil Mapping | 论文 | 介绍“仿生蜂群”系统，通过智能手机 Web 应用实现人机协同的土壤测绘 | https://arxiv.org/abs/2605.29091v1 |
+| DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents | Benchmark | 面向深度研究代理的综合基准测试 | https://news.google.com/rss/articles/CBMieEFVX3lxTE1SWUVfWm1NQjlYak5mQnZlTzM3VkhmUE9mQjFnbS1KWV9PNXRWYkxQYTcycEZ6eThmSmRBVFVqSV8zNUxJRUFmb2dkaEd3Uy1EaVJXLWRuNkpmUWw3Y2hpVUhWYzRjSDBEWjYxSG9FdWl6RFBjNEYxYQ |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Open Design 免费替代 Claude Design！开源设计神器 | 视频教程 | 保姆级教程与多场景实战测评，支持 Codex/Claude Code/Antigravity | https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HR3hPVTR0X0RQblA3Wjhsa2ZlYnV4WUh3ZTMtNkVFeWNWMWJZelVHbmY5cDRyWWlYQ0ZoQ0tUVEs3Z0ZjLVViTjFuMXNJelV4NEFhMTBR |
+| AI Coding Agent 时代：Claude Code 已 100% 自编写代码 | 深度解析 | 开发者如何应对 AI 编码代理时代的深度分析与实战 | https://news.google.com/rss/articles/CBMiZEFVX3lxTFAycllsTVlMZ2xSUmFuXzBjS2FrMTlFa0FuT1FtdWY4WXJkdk5yZ3FWY0pHbFdOLXB6SjVaOFc2UDFhM3o1Z0x3TDlGMUJaNFlOT3lIYmdtNG0wcy1yRHdyUTl6YTQ |
+| Pi Agent：比 Claude Code 和 Codex 更适合普通人的 AI 工具 | 工具测评 | Bilibili 视频介绍 Pi Agent 的使用体验 | https://news.google.com/rss/articles/CBMiV0FVX3lxTE45OHlNWXptU28yT2dvZEMzZ1hwZGdGU2hmZVNObk1WVXc4a0JHRlR4VmZ6dmZqbEJsNXJZYWhVbHU0TEduNkF4elVHMDU1dmF3bDdNQmp6SQ |
+| AI 编程革命！Claude Code Workflow 自动生成 Harness | 视频教程 | 介绍 ultrawork 自动多 Agent 编程开发工作流 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE94VHFDMlVEVHluWjlQWm1ZMUxJRjAzSHdsaTVwVHJNRlFfck5HLTJGbXVnUTRJUXhYRUR5TGhiZXNLb1JVWHVReHZ5dHRORG1aOUMyeE1R |
+| 手机、平板、电脑同时控制 Claude Code / Codex？Paseo 实战指南 | 实战教程 | CSDN 专栏介绍跨设备控制编码代理的方法 | https://news.google.com/rss/articles/CBMiZEFVX3lxTE44cWtDNjFlVER4OW1EYmtnNVZYckdGNkc4d2g1NU81MmFFRkhWQm84c3ZFdFUyOXBja2U3UkVqX3VKVFVNN1lrV2tsQ0VyVzJScDdxQmtzV0VtRU5ZSWItb05IT08 |
+| Introducing Shortcuts Playground: Create Apple Shortcuts with Claude Code or Codex | 教程 | MacStories 介绍如何使用编码代理创建 Apple Shortcuts | https://news.google.com/rss/articles/CBMid0FVX3lxTE80STFYaERuaHRzeXQ5dUpGSFY3MDlIbXBVeU9VbmtLZkplRTZ3QU5LNFdCRHN3ZzNzX2dHdGZaSlpRem8wNXlVSl9obUZ3bndWQTNfOFNEVTgzM1p4WE5CZjdYYm9idE5Ib05lMGVSd2dfdFF1ZDNB |
+| Graphify + code-review-graph: Build a Self-Updating Knowledge Graph for Claude Code | 教程 | DEV Community 介绍为 AI 编码代理构建自更新知识图谱 | https://news.google.com/rss/articles/CBMiywFBVV95cUxQcnB3R0N1LXdHa2hjX1BiUVVMMm9fVDlVT0o2UXZmWGptbkFlLVZVU1dMSXppQlZ2ZDNPWlRJTC1LUXlhZURtQTVXT25tZkNVTWJVdGRzaDZjWkVVaXYyQTFLWFVYOWRuYndVSThLMlZ4LUlaczg0U043TzBDX0NYNHhfcDA1VjN6Y0NrU3NwczdVdDNQVHlabFMxdGZhVHRQbFUtZ3pnbkoxM05CZGVfMVpkZm8tZW81MWpBQ2o0aE1hc2EycDlGUm1lQQ |
+| Claude Code vs. Cursor vs. Codex vs. Antigravity — six months in | 对比评测 | The New Stack 对四大编码代理的六个月使用对比 | https://news.google.com/rss/articles/CBMif0FVX3lxTE1ERDBKWmlOMnI1ZXhXaEo2Yi13OGdaS1g1al9yRTIxampTdmpfbU5SZ0ZoSzZOaDQ5ZkFpcjVRbXNqb3hBd2c3UWFrX3NmR1ViZDlJSzFjQm5GYVZDLTVoeUJVaFB0eW9WYW5VTGpMMzJoMEpaa3JYbl9CVFlmQUk |
+| The Best LOCAL Agentic Coding Workflow (Complete Guide) | 视频教程 | YouTube 完整指南：本地代理式编码工作流 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE16TlNlSHRFaWxOdmQ2T2lEM2U3TEdUa2diZnluZUF6TlVqQ2NxbTNsQXp0eDJrT2FLTW9GZi1fTmVHak5kdHhZMTZaYVBRRVNaeXFYWGJR |
+| Supercharge your AI coding workflow with Chrome DevTools for agents | 视频教程 | 使用 Chrome DevTools 增强 AI 编码工作流 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zb3lZUUpQcFdJTVFrc0NwVFVmRGcwTVlXX0lmaFpscmJYTTJxaDRTc3VsbDNTMDZZS3AtcWhnZEFEZTlXLUNSM01HNVdycm8xSllCTmZn |
+| Codex 入门实战指南：从桌面端到 CLI 审批模式一次跑通 | 实战教程 | 知乎专栏的 Codex 入门与实战指南 | https://news.google.com/rss/articles/CBMiXEFVX3lxTE1LRUp4ODVrYzAydjh0LXAxcEZlMVJ4Rno4RnBoYVFUX3gxMmFwbnlxS25UaFR1VkVOTWFiWFFRUTVwRTJwTTlaZ3FBRFlZYW5QemNLS1A2VmMyWDZY |
+| Superpowers Skill - 让 Claude Code 和 Codex 按工程流程做开发 | 教程 | 知乎专栏介绍按工程流程开发的自定义技能 | https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJdDh6MWZ3M3BiVDRqZHo4Mkt4QlExQkNWX0hRTkVMUDFiN1R6WUtWNFpNazZCQ0FabEVUMW5zVUZ1ZWJmcUtkWVo0bWFFZGJOSi15ZTNvVzdNcEpC |
+| The Complete Claude /goal Guide for AI Agents (2026) | 教程 | Linas's Newsletter 的 Claude /goal 指令完整指南 | https://news.google.com/rss/articles/CBMia0FVX3lxTE05aFRqdWFGY0xpb3duTXkxSGR6SnVlZzl5RjFnSFVRbVNXOEVTbEh3ZzBGeEpaT2NadGhHbFM1Z253N21TUWdnalRpdWpwTU91NEZtQkU2ZzVLRGR1R0lMVlZvZkt6ZExZQktv |
+| WTF Is an "AI Agent Loop"? Genius or Hype? | 视频分析 | YouTube 视频分析 AI Agent 循环的概念与价值 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zWktqX2VrNnUwV29NeDdSUEdjUF9TZ1d4enZDR2Y3ZnBMbVhMYWctaEZKNmJLR3Exc2RfTkV5cnhEX3picVZQY1Bpa3ZCTkNHYWVVVDhn |
+| 从 0 到 1 带你速通 Codex，我整理的终极保姆教程来了 | 教程 | 投资界发布的 Codex 入门教程 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xUnh0NVBFaUtiaWxYSWMyeW5ROTA4ZTZFZk1ldWRIY004Rm9haUlkWVpiY19lMmdCd1V1XzFSaW5rR0FOZ0tKN3FERmQ3TzJJWWRiQUFB |
+| 外行式 Vibe Coding 正跟专业的 Agent 工程走向融合 | 深度分析 | Infoq.cn 分析 Vibe Coding 与专业 Agent 工程的融合趋势 | https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hYTdraDduVFE0aFZNRUJJeWZDczBVd0hlSDNUX2s4U3g2SW92RWdQcm8zNHY5T2pMUllMSTBpSkRKdmM5OXE5T2xYWFVTeTU1WkkxLWlMSXJ4N3NsZHc |
+| A practitioner's guide to getting more value out of AI coding | 实践指南 | DEV Community 关于代理质量与 Token 优化的实践指南 | https://news.google.com/rss/articles/CBMivwFBVV95cUxPYk5OZGpkLXpRYmJJOUpjRFgwdnlrUnZVbW9PTnRwSU5nalFzaHVJTm9xU1diN09MMFg1NldDQlhQbzBQUXh1R1RtbFRjamt5UVBUUmFKelFnUVNhZ2Z0QV9teHJPMkhvNEFWZDJ4UjRFaWhWWEdlZ213ZFhNUlFnZm5ZQ2xId29mV2VydWVPR2d6a1ZkRVB3dXA5ZnRmR3A3NE0tYnUxeVFyWWNUMTdNdzZGVi0zQVdVNUtiNTJsMA |
+| Claude vs. Codex isn't about code. It's about whether you steer or dispatch. | 观点分析 | Nate's Substack 对比 Claude 与 Codex 的设计哲学 | https://news.google.com/rss/articles/CBMidEFVX3lxTE15Tlh0MjFBTDhWSDBxclBVNXYtUENqdFdNcVYtOGVVUzdiT21qTmNmaUpleXFOR3ItRGhnQkZkdFZpQ3ZlMnFDSllTYXgyOFNrbEpjdzlYakNfODZuLWdtSXp1UmdxU1hEemp1MmN6a2JnLWtH |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| alirezarezvani/claude-skills | 技能集合 | 337 个 Claude Code 技能与插件，支持 30+ 代理、70+ 自定义命令，兼容 Claude Code、Codex、Gemini CLI、Cursor 等 8 种编码代理 | https://news.google.com/rss/articles/CBMiW0FVX3lxTE55M0pPTGlvV2ZSN293YUZGSHNCOEp0MDdnTGpMN3hRS2txbXk1X3BuVS1PRURINmg4RW4zTm4xOWY0dWNIREhjNkEtZ3hGTHJ3dG9qTjhtTGpBS0U |
+| hoangsonww/Claude-Code-Agent-Monitor | 监控仪表盘 | 基于 SQLite3、Node.js、React、WebSockets 的实时监控仪表盘，追踪 Claude Code 会话、代理活动、工具使用和子代理编排 | https://github.com/hoangsonww/Claude-Code-Agent-Monitor |
+| 0xb007ab1e/claude-analyzer | 本地 Web 应用 | 零依赖本地 Web 应用，浏览、读取和编辑 Claude Code 的 .claude 目录文件，含实时监视和关系图谱 | https://github.com/0xb007ab1e/claude-analyzer |
+| whiskfernlowdensitylipoprotein154/figma-console-mcp-skills | MCP 技能 | 通过可复用的 MCP 技能和预定义脚本自动化 Figma 设计系统工作流 | https://github.com/whiskfernlowdensitylipoprotein154/figma-console-mcp-skills |
+| kymostudio/kymostudio | 图表生成工具 | 从文本或编码代理通过 MCP 生成动画 SVG 图表，支持 PNG、WebP、Figma 和 Excalidraw 导出 | https://github.com/kymostudio/kymostudio |
+| sandorarthropodous723/groovy-web-ai-agents | 代理配置模板 | 构建可复用的 AI 代理配置和提示词，支持多代理编排和 TypeScript | https://github.com/sandorarthropodous723/groovy-web-ai-agents |
+| Respectful-judasiscariot925/autocli-skill | CLI 工具 | 通过自然语言解锁 55+ 平台的 Web 访问，支持 Chrome 登录复用和快速 Rust CLI | https://github.com/Respectful-judasiscariot925/autocli-skill |
+| agerelated-clioquinol357/ACI | 开放协议 | ACI 开放协议，使 AI 代理能够与 Web 和桌面软件进行结构化交互 | https://github.com/agerelated-clioquinol357/ACI |
+| kographh/skillforge | 技能生成平台 | 通过验证的 7 步流程生成生产级 AI 代理技能，含自动审计、优化和打包的完整 Web 应用 | https://github.com/kographh/skillforge |
+| CoWork-OS/CoWork-OS | 本地优先操作系统 | 本地优先的个人代理化操作系统，集编码、知识工作、Web 设计、自动化和工件于一体 | https://github.com/CoWork-OS/CoWork-OS |
+| magicpro97/vibeflow | 编排 CLI | 本地优先 CLI，编排 Claude Code、Codex 和 GitHub Copilot CLI，带安全护栏 | https://github.com/magicpro97/vibeflow |
+| Signpainterreverberation581/ux-collab | UI 协作工具 | 通过 agent-browser、Figma MCP 和 Lucid 构建 AI 驱动的 UI 协作，将线框图转换为匹配设计系统的代码 | https://github.com/Signpainterreverberation581/ux-collab |
+| PratikMahara/voice-agent | 面试练习应用 | AI 面试官 Web 应用，根据职位生成面试问题，以视频通话形式提问并给出评分反馈 | https://github.com/PratikMahara/voice-agent |
+| TwoApps/twoapps-website | 公司网站 | 基于 Next.js 的代理化 AI 软件公司网站，SEO 就绪 | https://github.com/TwoApps/twoapps-website |
+| nexu-io/open-design | 开源设计工具 | 本地优先、开源的 Claude Design 替代品，含 259+ 技能、142+ 设计系统，支持 Web/桌面/移动原型、幻灯片、图片、视频 | https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCam5FQ1ZTS2l4amc3MjFXelNhM0NBZ0k1aldCZkdGaUtxb1RmUnBHUkh3RTJKM0w5WkhzODFuVFJVeEUxX0w0NkRSOTE3TkU |
+| claude_codex_bridge | 桥接工具 | 在 Claude Code 和 Codex 之间建立桥接，实现协同工作 | https://news.google.com/rss/articles/CBMiekFVX3lxTFBPdk5pSFlRVE1oZDd1RlFsR2R5WThRSEhGS3BDMElXNk92ZndwOFBteHNoNk41b1lCQzc5aW9yM1ROWjJ3VThOc0w2OHpCaG4xVXQyVTBUTXlBeE0xcjR1TTdrZU85NldVWlpLeFBaU3FWdDhyYlEzd1JR |
+| Claude SEO: SEO Analysis Skill for Claude Code | SEO 技能 | 为 Claude Code 提供的 SEO 分析技能 | https://news.google.com/rss/articles/CBMiVEFVX3lxTE01R3RwWWpwTWNCN3FkeTFJbXNDeDhhSXJUMldTd0xuM0pGNXNZS21PWVhXaXJCQmRqVS1vVzFPc1RhYk1HZzEtY3dld3ktZmhWYXBscA |
+| deepseek-ai/awesome-deepseek-agent | 资源集合 | DeepSeek 代理相关资源汇总 | https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OdTdJLUNuSWFRYUprTWFHcnNMV1Q1aS1qTmhGNkRnRkI1d2h3SC0wRjh1WG53MFRhQ0J4WnVBUFJzdWtn

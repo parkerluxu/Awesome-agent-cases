@@ -111,3 +111,54 @@ This section is divided into two categories: `26 Tutorials / Cases` and `30 Proj
 | ECC | Agent harness optimization system | Performance optimization system for agent harnesses (Claude Code, Codex, Opencode, Cursor). Skills, instincts, memory, security, and research-first development. | [GitHub](https://news.google.com/rss/articles/CBMiRkFVX3lxTE4tRl9yaG1rRlVSYXpRRFdwdzFjcGpQcW5SbXMyV2UtclI5VU5kamV3NHpCQVItZ1VrTk04RWtiQzNOWmFrWkE?oc=5) |
 | OpenAI to acquire Ona | Acquisition | OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
 | Ex-Apple Marketer raises $10M | Startup funding | Raises $10M to scale AI agents that decode social video. | [ADWEEK](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOUNpNS1BRktBNlNEa093MUZtajFRTGt0M0tFT2ZpRm9uOFB1dFlNRVJfR01ReEY5dXZuQWJnZWFPaGNBMGFSak00MHdPcUJmcEs0Q3M1Vy1wX3VmZ1hlcGI3cFZyeGdObHBQWUdZSE5yd3lnY1dob1kxTEpVWmhRelE1TG9HSjUxWUk5SmRfX0NmdzBDeUJqVDhHNGVGY0d0dHYybHVuOHp6eDhPRGdzSEtndzRuWVlDaXRfWDNCZEk4Zw?oc=5) |
+
+## Resource Update (2026-06-14)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| gooseworks-ai/goose-video | GitHub | Video generation skills for AI agents (Claude Code, Cursor, Codex). Orchestrates Google Veo 3, Seedance, Higgsfield, ElevenLabs and other models to make short-form videos. | [GitHub](https://github.com/gooseworks-ai/goose-video) |
+| MakeMyClip/editor | GitHub | AI-native video editor — talk to make video. Trim, zoom, caption, and assemble clips from any AI agent. Delivered as an MCP server + agent skill. | [GitHub](https://github.com/MakeMyClip/editor) |
+| ArcReel/ArcReel | GitHub | AI Agent-driven open-source video workspace: novel → character/scene/prop design → script → storyboard → video, with cross-shot character and scene consistency. Powered by Nano Banana 2, Veo 3.1, Grok, Seedance, OpenAI. | [GitHub](https://github.com/ArcReel/ArcReel) |
+| KyaniteLabs/mcp-video | GitHub | Guardrailed video editing MCP server for AI agents. FFmpeg, Hyperframes, repurposing tools, Python client, and CLI. Local, fast, free. | [GitHub](https://github.com/KyaniteLabs/mcp-video) |
+| Cake-sweet/agents | GitHub | Claude Code Agents offering specialized AI agents for code, localization, architecture, and automation. Build and tailor agents for tasks. | [GitHub](https://github.com/Cake-sweet/agents) |
+| scowlsericulturist188/claude-auto-tok | GitHub | Automate TikTok video creation with six AI agents for trend research, scripts, voiceovers, B-roll, rendering, and QA. | [GitHub](https://github.com/scowlsericulturist188/claude-auto-tok) |
+| SethSkaff/YouTube-Generator | GitHub | Autonomous CLAUDE.md pipeline that turns a timestamped YouTube script into a finished video: AI agents write per-timestamp scene prompts, images generated via ChatGPT, vision agent QAs, ffmpeg assembles 1080p video with audio. | [GitHub](https://github.com/SethSkaff/YouTube-Generator) |
+| genevievesuperior757/carocut | GitHub | Build AI video workflows with multi-agent planning, Remotion rendering, and resume support for fast, automated video production. | [GitHub](https://github.com/genevievesuperior757/carocut) |
+| SaiSankeerth-dev/AI_Video_studio | GitHub | Multi-agent AI platform that automates video creation by researching topics, generating scripts, planning scenes, sourcing assets, and exporting editable CapCut projects or rendered videos. | [GitHub](https://github.com/SaiSankeerth-dev/AI_Video_studio) |
+| bchenner/ugc-content-pipeline | GitHub | Multi-agent AI content production system for UGC video creation (TikTok Shop, Amazon, Meta). | [GitHub](https://github.com/bchenner/ugc-content-pipeline) |
+| wanu54/code-teaching-video-agent | GitHub | AI-powered code teaching video generator — Trae skill for converting code into teaching videos. | [GitHub](https://github.com/wanuo54/code-teaching-video-agent) |
+| rs75/ai-video-generator-agent | GitHub | Create engaging short-form videos with AI in one minute. | [GitHub](https://github.com/rs75/ai-video-generator-agent) |
+| florianbuetow/agentic-news-generator | GitHub | Generate a custom newspaper with an AI agent based on your favorite YouTube channels. | [GitHub](https://github.com/florianbuetow/agentic-news-generator) |
+| huber1105/workshop-agents | GitHub | Explore Genkit agents for YouTube video searches and content generation. | [GitHub](https://github.com/huber1105/workshop-agents) |
+| MelonS/MelonS-Agents | GitHub | Agent that builds, plays, and verifies its own game; includes production media skills: music-video (60s 9:16 shorts, beat-aligned, genre-aware). | [GitHub](https://github.com/MelonS/MelonS-Agents) |
+| vishtechie07/ai-content-suite | GitHub | AI-powered content creation suite with 5 specialized agents: Podcast Creator, Video Script Generator, Brand Voice Analyzer, Study Plan Creator, Social Media Agent. | [GitHub](https://github.com/vishtechie07/ai-content-suite) |
+| leamsigc/ShortsGenerator | GitHub | Automate the creation of Shorts content locally with simple steps. | [GitHub](https://github.com/leamsigc/ShortsGenerator) |
+| andrzejpeanut439/ComfyUI-DaVinci-MagiHuman | GitHub | Build ComfyUI custom nodes for daVinci-MagiHuman fast audio-video generation with GPU memory savings and async prefetching. | [GitHub](https://github.com/andrzejpeanut439/ComfyUI-DaVinci-MagiHuman) |
+| Candilefthand269/shotfun-creator | GitHub | Automate AI content production for images, videos, and audio by orchestrating task workflows and custom skills via an agent-compatible interface. | [GitHub](https://github.com/Candilefthand269/shotfun-creator) |
+| heygen-com/hyperframes | GitHub | Write HTML. Render video. Built for agents. | [GitHub](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jX1VJZUtYYlBfWndCZEYtUlhhTUpNOEZrZks1U0VVVHpQYmFDZFNkUGJ1VzBZaEVES3hsNHVmbkhhQm5OVlVSSm9PYU53T1FzTzRZ?oc=5) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AgenticVBench | arXiv | Benchmark of 100 agentic tasks across 4 task families spanning real-world post-production workflow, constructed from real production workflows contributed by 20 industry experts. | [arXiv](https://arxiv.org/abs/2605.27705v1) |
+| EvalVerse | arXiv | Pipeline-aware and expert-calibrated benchmarking for professional cinematic video generation, evaluating cinematic quality, acting, and aesthetics. | [arXiv](https://arxiv.org/abs/2605.23271v1) |
+| MSAVBench | arXiv | First comprehensive benchmark and adaptive hybrid evaluation framework for multi-shot audio-video generation. | [arXiv](https://arxiv.org/abs/2605.20183v3) |
+| EgoBench | arXiv | Interactive egocentric multimodal benchmark for tool-using agents, jointly evaluating multimodal perception, tool invocation, and dynamic interaction. | [arXiv](https://arxiv.org/abs/2605.27820v1) |
+| SuperMemory-VQA | arXiv | Egocentric visual question-answering benchmark for long-horizon memory, moving beyond short-term video comprehension to address realistic human memory gaps. | [arXiv](https://arxiv.org/abs/2606.00825v1) |
+| The DeepSpeak-Agentic Dataset | arXiv | Dataset of 37+ hours of semi-structured conversations between a human and an embodied AI agent, for forensic identification and human-agent interaction study. | [arXiv](https://arxiv.org/abs/2606.03686v1) |
+| One Sentence, One Drama | arXiv | Personalized short-form drama generation via multi-agent systems, addressing narrative pacing, spatial consistency, and production-level quality control. | [arXiv](https://arxiv.org/abs/2605.22144v1) |
+| Soap2Soap | arXiv | Long cinematic video remaking via multi-agent collaboration, preserving narrative structure, motion choreography, and character identity across hundreds of shots. | [arXiv](https://arxiv.org/abs/2605.17423v1) |
+| Genflow Ad Studio | arXiv | Compound AI architecture for brand-aligned, self-correcting video generation, integrating retrieval-based brand memory with generative media production. | [arXiv](https://arxiv.org/abs/2605.16748v1) |
+| Prisma-World | arXiv | Camera-controllable multi-agent video world model that maintains consistent objects, layouts, and appearances across multiple agent views. | [arXiv](https://arxiv.org/abs/2606.09507v1) |
+| Resonant Minds | arXiv | Closed-loop dual-agent framework integrating perception, social reasoning, and expression for lifelike digital humans with genuine social intelligence. | [arXiv](https://arxiv.org/abs/2606.05896v1) |
+| Does Persona Make LLMs K-pop Fans? | arXiv | Pilot study of LLM-based online concert audience agents, using persona-conditioned multi-agent system to generate real-time fan chat alongside K-pop performance video. | [arXiv](https://arxiv.org/abs/2606.07837v1) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Hyperframes (by HeyGen) | Tool | Write HTML. Render video. Built for agents. | [GitHub](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jX1VJZUtYYlBfWndCZEYtUlhhTUpNOEZrZks1U0VVVHpQYmFDZFNkUGJ1VzBZaEVES3hsNHVmbkhhQm5OVlVSSm9PYU53T1FzTzRZ?oc=5) |
+| NVIDIA Agent Skills for Physical AI | Toolset | NVIDIA released a major collection of open source agent tools and skills for physical AI, including autonomous vehicles, robotics, and vision AI. | [NVIDIA Newsroom](https://news.google.com/rss/articles/CBMivgFBVV95cUxQaXh6M3BwdlF3a3VWWEhQSUdhQTR5WFk4UGJINUFwa0ZCQW0ybUljYWoxbzNETmViNGJpS2llXzV6R01iemV0QndtSzIzMmlwMXlhOTJmZUxrSGxWUlhGb0ZSRWJlcVhaMURQMHhzRjRIYzhnUl9OYzRaaWZOSjNPOVA1b25Gcm9PNXBCcnI3bG9ucThQRXBzUzExX3NWQ1VURjZxNXhLSWdMRXFhNUV2ajZoZnRieVc5dUQ3ZXBB?oc=5) |

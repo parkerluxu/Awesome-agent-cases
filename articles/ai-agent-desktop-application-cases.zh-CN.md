@@ -85,3 +85,59 @@
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
 | OpenAI 收购 Ona | 企业级 AI 代理 | OpenAI 计划收购 Ona，以扩展 Codex 的安全持久云端环境，支持企业工作流中的长周期 AI 代理。 | [OpenAI](https://openai.com/index/openai-to-acquire-ona) |
+
+## 资料更新（2026-06-14）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| thewolffish/wolffish-extension | GitHub | 本地优先、Markdown 驱动的个人 AI 桌面应用，基于 Electron，将人脑架构映射到确定性 Agent 软件流水线，含 15 个运行时模块。 | [https://github.com/thewolffish/wolffish-extension](https://github.com/thewolffish/wolffish-extension) |
+| cocode-kuma/CocodeAI | GitHub | 专为开发者设计的本地桌面 AI 编程助理，基于 Tauri v2 + React 19 + Bun，融合终端 AI Coding Agent 与图形界面。 | [https://github.com/cocode-kuma/CocodeAI](https://github.com/cocode-kuma/CocodeAI) |
+| agent-sh/agent-workspace-linux | GitHub | 为 AI 代理提供隔离的 Linux 桌面工作区，通过 MCP 提供隐藏的代理专属桌面和浏览器，不触及用户真实桌面。 | [https://github.com/agent-sh/agent-workspace-linux](https://github.com/agent-sh/agent-workspace-linux) |
+| electron-stagewright/electron-stagewright | GitHub | 像 Playwright 驱动浏览器一样驱动 Electron 应用，为 AI 代理提供 MCP 服务器。 | [https://github.com/electron-stagewright/electron-stagewright](https://github.com/electron-stagewright/electron-stagewright) |
+| wardian-app/Wardian | GitHub | 本地桌面指挥中心，用于监督和塑造 AI 代理团队。 | [https://github.com/wardian-app/Wardian](https://github.com/wardian-app/Wardian) |
+| openai/codex | GitHub | OpenAI 出品的轻量级终端编码代理，可本地运行，也支持 VS Code、Cursor、Windsurf 等 IDE 安装。 | [https://github.com/openai/codex](https://github.com/openai/codex) |
+| oywq00008-cell/BroadlinkAC-For-Agent | GitHub | 让 AI 接管空调的多品牌红外控制器，通过 Broadlink RM 设备控制 17 种空调品牌，支持无头代理模式和桌面 GUI。 | [https://github.com/oywq00008-cell/BroadlinkAC-For-Agent](https://github.com/oywq00008-cell/BroadlinkAC-For-Agent) |
+| junainfinity/VibeStudio | GitHub | 本地优先的 AI 编码代理，专为 Apple Silicon 设计，基于 Tauri + React，使用 mlx-mtp 推理，完全本地运行。 | [https://github.com/junainfinity/VibeStudio](https://github.com/junainfinity/VibeStudio) |
+| ryantsai/KKTerm | GitHub | Windows 优先的 AI 代理超级工具，集成终端、SSH、SFTP、RDP/VNC、仪表盘、安装助手和内置 AI 助手。 | [https://github.com/ryantsai/KKTerm](https://github.com/ryantsai/KKTerm) |
+| GCWing/BitFun | GitHub | 桌面级 Agent 运行时及桌面 Agent 应用套件，内置 Code Agent、Cowork Agent、Computer Use，具备记忆、个性和进化能力。 | [https://github.com/GCWing/BitFun](https://github.com/GCWing/BitFun) |
+| mblua/AgentsCommander | GitHub | 跨工作组实例协调多组 AI 编码代理，支持根代理路由、可见终端和基于文件的交接。 | [https://github.com/mblua/AgentsCommander](https://github.com/mblua/AgentsCommander) |
+| MMinasyan/lightcode | GitHub | 模型无关的编码代理，支持任意 OpenAI 兼容的 LLM 提供商，提供桌面 GUI、HTTP 守护进程和 ACP stdio 适配器。 | [https://github.com/MMinasyan/lightcode](https://github.com/MMinasyan/lightcode) |
+| zosmaai/zosma-cowork | GitHub | pi 编码代理的桌面 GUI，开源的 Claude Cowork 替代方案。 | [https://github.com/zosmaai/zosma-cowork](https://github.com/zosmaai/zosma-cowork) |
+| Alien0013/aegis | GitHub | 自改进、多提供商、多通道的终端代理工具集，包含有界代理循环、MCP、技能市场、浏览器/计算机使用等功能。 | [https://github.com/Alien0013/aegis](https://github.com/Alien0013/aegis) |
+| IDanK0/CoworkLocal | GitHub | 自托管、本地优先的 AI 计算机使用代理，适用于 Windows，基于 Tauri + Rust + React，模型无关、隐私优先。 | [https://github.com/IDanK0/CoworkLocal](https://github.com/IDanK0/CoworkLocal) |
+| imthegoodboy/Computer-use | GitHub | 计算机使用工具，代理可通过视觉控制电脑，受 OpenAI Computer Use 启发。 | [https://github.com/imthegoodboy/Computer-use](https://github.com/imthegoodboy/Computer-use) |
+| Empty-democritus307/AutoProber | GitHub | 利用计算机视觉和代理自动探测电路板上的目标引脚，实现硬件探测自动化。 | [https://github.com/Empty-democritus307/AutoProber](https://github.com/Empty-democritus307/AutoProber) |
+| umarkhanif28/ApexUIBridge | GitHub | 桥接 UI 自动化和 AI 的可定制工具包，集成 LlamaSharp 和 FlaUI。 | [https://github.com/umarkhanif28/ApexUIBridge](https://github.com/umarkhanif28/ApexUIBridge) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Fara1.5 – A family of frontier computer use agent models | 论文 | Microsoft 发布的计算机使用代理模型系列。 | [https://news.google.com/rss/articles/CBMigwJBVV95cUxQS0FIV2ZOZjZRdDdGMW5OUkZDaXlZU18yR2NXeFhCbHZaX2RpTEsxMFd0MWJVVmNsUEZtYlkyRkx1QXhNUVdOMEtzQlBQYTgwSVpWV00xR3VqTVZVa2s0WWw2SmhRY2M2YjduNnBsSVNvMlBLNWNDQlJURTBZdjA0dURhYw?oc=5](https://news.google.com/rss/articles/CBMigwJBVV95cUxQS0FIV2ZOZjZRdDdGMW5OUkZDaXlZU18yR2NXeFhCbHZaX2RpTEsxMFd0MWJVVmNsUEZtYlkyRkx1QXhNUVdOMEtzQlBQYTgwSVpWV00xR3VqTVZVa2s0WWw2SmhRY2M2YjduNnBsSVNvMlBLNWNDQlJURTBZdjA0dURhYw?oc=5) |
+| Holo3.1: Fast & Local Computer Use Agents | 论文 | 快速、本地的计算机使用代理。 | [https://huggingface.co/blog/Hcompany/holo31](https://huggingface.co/blog/Hcompany/holo31) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| DeepSeek NEW Desktop App - The 24/7 Self-Evolving AI Agent! | 视频 | DeepSeek 新桌面应用介绍，号称 24/7 自进化 AI 代理。 | [https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EN3F6WUt4NGJxQWxnREl4S1pOcE9ab3JTNHpKYnExbjB6emx5S3diV1pvNE5QQXBIS3ZUZGozVjlDX24zU2h0RTVCd0ZUX1JwMFhwYnB3?oc=5](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EN3F6WUt4NGJxQWxnREl4S1pOcE9ab3JTNHpKYnExbjB6emx5S3diV1pvNE5QQXBIS3ZUZGozVjlDX24zU2h0RTVCd0ZUX1JwMFhwYnB3?oc=5) |
+| 手机、平板、电脑同时控制Claude Code / Codex ?：Paseo实战指南 | 教程 | 跨设备控制 Claude Code 和 Codex 的实战指南。 | [https://news.google.com/rss/articles/CBMiZEFVX3lxTE44cWtDNjFlVER4OW1EYmtnNVZYckdGNkc4d2g1NU81MmFFRkhWQm84c3ZFdFUyOXBja2U3UkVqX3VKVFVNN1lrV2tsQ0VyVzJScDdxQmtzV0VtRU5ZSWItb05IT08?oc=5](https://news.google.com/rss/articles/CBMiZEFVX3lxTE44cWtDNjFlVER4OW1EYmtnNVZYckdGNkc4d2g1NU81MmFFRkhWQm84c3ZFdFUyOXBja2U3UkVqX3VKVFVNN1lrV2tsQ0VyVzJScDdxQmtzV0VtRU5ZSWItb05IT08?oc=5) |
+| 2 分钟，教你国内爽用 Claude Code + Codex！保姆级教程 | 教程 | 国内环境下使用 Claude Code 和 Codex 的保姆级教程。 | [https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MaWp3Q3FXR2NHMzlzTTBUbGV6N2pHX1UzZEs4NTAyVmRuSmxQYmJ1dzdvbERTM3NkNTluOFVyUHhwUkNyWmZjNmF2aTRiNFMxTFRLbUEyRi1JWU5h?oc=5](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MaWp3Q3FXR2NHMzlzTTBUbGV6N2pHX1UzZEs4NTAyVmRuSmxQYmJ1dzdvbERTM3NkNTluOFVyUHhwUkNyWmZjNmF2aTRiNFMxTFRLbUEyRi1JWU5h?oc=5) |
+| Claude Code vs Codex vs Cursor: The Best AI Coding Tool in 2026 | 评测 | 2026 年三大 AI 编码工具对比评测。 | [https://news.google.com/rss/articles/CBMilwFBVV95cUxPenZHSXdkTXE3TUlQUWlZMExVZC0wX3BkdVVPd3dJQmpYYzVVY04tZjZlU19kMUtTVTFqcDFMbEZMb0xsLVQ4VmtUbG9rTHpYRVdNbnFDNW1LcGhJZE4yOHJFYm4zVXptN09IaEstYkxBVlhweDg2NnFkQS1DT0NIYVJZNTFzcmFWNk4weUpZY3pzaVRZSXcw?oc=5](https://news.google.com/rss/articles/CBMilwFBVV95cUxPenZHSXdkTXE3TUlQUWlZMExVZC0wX3BkdVVPd3dJQmpYYzVVY04tZjZlU19kMUtTVTFqcDFMbEZMb0xsLVQ4VmtUbG9rTHpYRVdNbnFDNW1LcGhJZE4yOHJFYm4zVXptN09IaEstYkxBVlhweDg2NnFkQS1DT0NIYVJZNTFzcmFWNk4weUpZY3pzaVRZSXcw?oc=5) |
+| DeepSeek GUI：把终端里的 AI Agent 搬进桌面工作台 | 教程 | 将终端 AI Agent 迁移到桌面工作台的实践指南。 | [https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CY3NuRXRmdDBzcmxXT2UwZ2RJQU9aN3lFR244cjUwNndTMUcybDQwWklDcXFKTy1Sc1FRa1IwS1BaTnlmeDlQQ1VjSXdiV2hnR0twSQ?oc=5](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CY3NuRXRmdDBzcmxXT2UwZ2RJQU9aN3lFR244cjUwNndTMUcybDQwWklDcXFKTy1Sc1FRa1IwS1BaTnlmeDlQQ1VjSXdiV2hnR0twSQ?oc=5) |
+| How to Combine Claude Code and Codex for Maximum Coding Power | 教程 | 如何结合 Claude Code 和 Codex 实现最大编码效率。 | [https://news.google.com/rss/articles/CBMilgFBVV95cUxQYnZzNmsybm1vWGpCdjdUcFBwdzY4VEhaTkV3di1WNUpYLXNlSnY4WXFyZlVCVC04ejNaSVdrTnlQRmNFajdWWDU2a3pad0duMnFhNlNpck94ZmtSUVNXZTVqZDdON0JRM0ktWG90MEVkeWhUcnlYOFJXSTBYdFhQOHlCbUl0OUNHQXJKLXVyNDN1SVJKVVE?oc=5](https://news.google.com/rss/articles/CBMilgFBVV95cUxQYnZzNmsybm1vWGpCdjdUcFBwdzY4VEhaTkV3di1WNUpYLXNlSnY4WXFyZlVCVC04ejNaSVdrTnlQRmNFajdWWDU2a3pad0duMnFhNlNpck94ZmtSUVNXZTVqZDdON0JRM0ktWG90MEVkeWhUcnlYOFJXSTBYdFhQOHlCbUl0OUNHQXJKLXVyNDN1SVJKVVE?oc=5) |
+| Codex App实测：跟龙虾思路迥异，OpenAI终于挽回点颜面 | 评测 | Codex 应用实测，对比 Claude Code 的差异。 | [https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wMGFtYThPYTFFUnp3RmFzZEZUaHg1ZndUUTdWWGtpX3hRUzVkVl9neFBQSTVmRk9STVQxVDRqa2ZGSUwzOUxlQkRsWkdZV2c0aVI4MHk4aEluTEpRTHVkZQ?oc=5](https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wMGFtYThPYTFFUnp3RmFzZEZUaHg1ZndUUTdWWGtpX3hRUzVkVl9neFBQSTVmRk9STVQxVDRqa2ZGSUwzOUxlQkRsWkdZV2c0aVI4MHk4aEluTEpRTHVkZQ?oc=5) |
+| 终于来了！Hermes Agent 桌面版正式发布，支持 Windows、macOS、Linux | 视频 | Hermes Agent 桌面版发布介绍。 | [https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JV2RuU2Zabi1uRzZidFZ4bVB4STlsZzRWWHJhSS12dUpDNi02blFrYmtBVTdsQ3I4X1FtdHdmVzVRUWhMcFpjRlZkUnByN0hMSEM4RFVn?oc=5](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JV2RuU2Zabi1uRzZidFZ4bVB4STlsZzRWWHJhSS12dUpDNi02blFrYmtBVTdsQ3I4X1FtdHdmVzVRUWhMcFpjRlZkUnByN0hMSEM4RFVn?oc=5) |
+| 2026 年国内 Codex 安装与使用指南：GPT-5.3-Codex 完整实测流程 | 教程 | 国内环境下 Codex 的安装与使用完整流程。 | [https://zhuanlan.zhihu.com/p/2011928155204645696](https://zhuanlan.zhihu.com/p/2011928155204645696) |
+| Codex 安装与使用 | 教程 | Codex 安装与使用的基础教程。 | [https://www.runoob.com/codex/codex-install.html](https://www.runoob.com/codex/codex-install.html) |
+| 普通人能用 Codex 做什么：不会写代码也能上手的 9 种玩法 | 教程 | 面向非开发者的 Codex 使用指南。 | [https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pTi1SLXlFTW1ybHFHc25vSHJndm9PSjlIaXZEckRNY3NOS1prNDltMnVxZDJVZ3pFckNKZ0VvTDFQWnBQam1WYXJTNHBiOGtRRHhSYmN6V1h1QlFC?oc=5](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pTi1SLXlFTW1ybHFHc25vSHJndm9PSjlIaXZEckRNY3NOS1prNDltMnVxZDJVZ3pFckNKZ0VvTDFQWnBQam1WYXJTNHBiOGtRRHhSYmN6V1h1QlFC?oc=5) |
+| 实测真香！Claude Code 桌面端正式上线，开发体验直接拉满✨ | 评测 | Claude Code 桌面端上线实测。 | [https://news.google.com/rss/articles/CBMiXEFVX3lxTE03eEZrMVhPa2xlY3U3RTVIWDdvckJDRUVQeEtSUk52VFM0dzlMZFFIVV9rMGJxVy1Zd3pHelViLXVJTk5Nb1QxRVpONjhYbUdHM1VmMlFlUU02dmo3?oc=5](https://news.google.com/rss/articles/CBMiXEFVX3lxTE03eEZrMVhPa2xlY3U3RTVIWDdvckJDRUVQeEtSUk52VFM0dzlMZFFIVV9rMGJxVy1Zd3pHelViLXVJTk5Nb1QxRVpONjhYbUdHM1VmMlFlUU02dmo3?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Codex - Windows官方下载 | 应用 | OpenAI Codex 的官方 Windows 桌面应用，代理式软件开发的指挥中心。 | [https://apps.microsoft.com/detail/9plm9xgg6vks?hl=zh-CN&gl=CN](https://apps.microsoft.com/detail/9plm9xgg6vks?hl=zh-CN&gl=CN) |
+| MoonPay推出MoonAgents桌面应用 | 应用 | 连接 Claude 与 Codex 的桌面应用。 | [https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdDBWUFBSREhNUUE0OUcyWVZNR0FkeUlfbUZONE1EOUxUMXEwUmhCbmpzME5icnBjbmF1bEYxQS00UFBSbkdyT0xzbkktTFBLYnYxWkY5d2k2NXhUaWRpSnJwa1FGSjBmbVdwbEp0UUIzWW1WSmVWeVc1RGhWdGN0eTJwQldPZHFFWHNyeHB3LTRxdE9CRk1VbGg2YU5OV20yMFBUOWEzSlFGVVVqMnk3TEpWdm9lT0FWMWhPVkx4NklGSWVxRFh3M2FEVEMyd0xxZ2k4Q3I4REVMVXlIaWN6WFR2NW84cXVjTXF3Vw?oc=5](https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdDBWUFBSREhNUUE0OUcyWVZNR0FkeUlfbUZONE1EOUxUMXEwUmhCbmpzME5icnBjbmF1bEYxQS00UFBSbkdyT0xzbkktTFBLYnYxWkY5d2k2NXhUaWRpSnJwa1FGSj

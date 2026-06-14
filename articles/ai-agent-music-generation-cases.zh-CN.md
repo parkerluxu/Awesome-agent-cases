@@ -88,3 +88,23 @@
 |------|------|-----------|------|
 | ACI 协议 | 开放协议 | 使 AI Agent 能够通过结构化、Agent 就绪的应用程序接口与 Web 和桌面软件交互 | [GitHub](https://github.com/agerelated-clioquinol357/ACI) |
 | Antigravity Awesome Skills | 技能集合 | 收录 1,527+ 个 Agent 技能，适用于 Claude Code、Gemini CLI、Cursor、Copilot 等 | [GitHub](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tNl9NbVNGU214YXktUlkyVU5SM24xdkdYeUtGS0pXcTNPM0g0VnNmOVB1alc3S2NQcUR2cFhrLWZMR0p0UV85TjFvME5lRUowWW4yNnZkeEZMZnpVbjBjdlNCNA) |
+
+## 资料更新（2026-06-14）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Sparkah/agentic-soundtracks | GitHub 项目 | 为 LLM 构建的 HTML5 游戏生成配乐的 Agent 系统 | [https://github.com/Sparkah/agentic-soundtracks](https://github.com/Sparkah/agentic-soundtracks) |
+| Mustard5/music_generation | GitHub 项目 | Agent Zero 插件：通过文本提示经 Google Lyria / OpenRouter 生成音乐 | [https://github.com/Mustard5/music_generation](https://github.com/Mustard5/music_generation) |
+| sunpochin/music-release-agent | GitHub 项目 | AI 驱动的音乐追踪与社交分享服务，自动扫描 Spotify、生成双语评论并编排社交帖子 | [https://github.com/sunpochin/music-release-agent](https://github.com/sunpochin/music-release-agent) |
+| CMbunny/AI-agents | GitHub 项目 | 用 Python 构建的 AI Agent 合集，包含音乐生成功能 | [https://github.com/CMbunny/AI-agents](https://github.com/CMbunny/AI-agents) |
+| partme-ai/full-aigc-skills | GitHub 项目 | 34+ 个 AIGC Agent 技能，涵盖图像、视频、音频、音乐、文本、多模态生成 | [https://github.com/partme-ai/full-aigc-skills](https://github.com/partme-ai/full-aigc-skills) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| HAIM: Human-AI Music Datasets for AI Music Production Tracking Benchmark | 论文 | 针对 Suno、Udio 等平台达到人类级音频质量后，提出超越“AI 或人类”二分法的音乐制作追踪基准 | [https://arxiv.org/abs/2606.01686v1](https://arxiv.org/abs/2606.01686v1) |
+| JenBridge: Adaptive Long-Form Video Soundtracking across Scene Transitions | 论文 | 基于 Transformer 的模块化框架，用于生成长视频配乐并保持场景切换时的连贯性 | [https://arxiv.org/abs/2606.01703v1](https://arxiv.org/abs/2606.01703v1) |
+| Cross-domain benchmarks reveal when coordinated AI agents improve scientific inference from partial evidence | 论文 | 跨领域基准测试，评估协调式 AI Agent 在将分子结构映射为音乐表示等科学任务中的价值 | [https://arxiv.org/abs/2605.22300v1](https://arxiv.org/abs/2605.22300v1) |

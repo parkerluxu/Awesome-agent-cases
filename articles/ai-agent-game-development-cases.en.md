@@ -84,3 +84,63 @@ This section is divided into two categories: `3 Tutorials / Cases` and `25 Proje
 |------|------|---------------|------|
 | OpenAI to acquire Ona | News | OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows. | [Link](https://openai.com/index/openai-to-acquire-ona) |
 | Google search box redesign | News | Google announced a sweeping redesign of the search box at I/O 2026, transforming it from a keyword input into a dynamic, AI-driven conversational interface. | [Link](https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think) |
+
+## Resource Update (2026-06-14)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| GodotCoder | CLI tool | CLI-first AI development agent for building Godot games with native workflows, project inspection, runtime validation, and future editor integration. | [GitHub](https://github.com/reelmesh/GodotCoder) |
+| godot-mcp | MCP server | Gives AI assistants eyes and hands in the Godot editor: scene editing, input injection, deterministic playtesting, and live game state for agents. | [GitHub](https://github.com/satelliteoflove/godot-mcp) |
+| CivForge | Game prototype | Modular Civ-inspired 4X game prototype in Godot (data-driven, extensible, with sandbox backend). Built with AI coding agents. | [GitHub](https://github.com/mwd474747/CivForge) |
+| summon-skill | Agent generator | Generate custom AI agent files tailored to your codebase that learn and improve autonomously over time. | [GitHub](https://github.com/0rtez/summon-skill) |
+| smartness-eval | Evaluation framework | Measure AI agent smartness with a 14-dimension eval framework, confidence intervals, trend tracking, and anti-gaming probes. | [GitHub](https://github.com/Compound-epigraphy786/smartness-eval) |
+| HoloScript | Semantic layer | The semantic layer for spatial computing and AI agents — write once, run as VR, robotics, web, or game. | [GitHub](https://github.com/brianonbased-dev/HoloScript) |
+| paw-agents | Agent OS | Build and manage autonomous AI agents with an extensible operating system for multi-agent systems and safety-focused task execution. | [GitHub](https://github.com/Lawabiding-longsleeve257/paw-agents) |
+| multi-agent-game-engine | Game engine | Build multi-agent simulations and visualize LLM-driven behaviors with a local-first engine featuring a built-in map editor and desktop workspace. | [GitHub](https://github.com/Disarrayed-agglutination903/multi-agent-game-engine) |
+| agent-diplomacy | Research project | Examination of how agents negotiate with different moral frameworks as constitutions, using the board game Diplomacy as the basis. | [GitHub](https://github.com/brodye11-personal/agent-diplomacy) |
+| mygamemaster | Game master | A personalized AI Game Master for tabletop RPGs — runs live campaigns on Discord, with a living world, rules engine, and one isolated container per game. Built on the Hermes agent framework. | [GitHub](https://github.com/tibs245/mygamemaster) |
+| mystery-agents | Game generator | AI-powered mystery party game generator using LangGraph and LangChain. | [GitHub](https://github.com/juanje/mystery-agents) |
+| mimo-gameforge | Content generator | MiMo Procedural Game Content Generator — AI-powered platform with Hermes Agent. | [GitHub](https://github.com/Deilvey/mimo-gameforge) |
+| game-discount-agent | Scraper + generator | Steam/Epic game discount scraper + AI content generator + cron pipeline. | [GitHub](https://github.com/Aiden-zht/game-discount-agent) |
+| gptgta | Game prototype | GTA-style browser game prototype developed through iterative AI-assisted prompting and vibe-coded development workflows. | [GitHub](https://github.com/vw5hwbngy4-debug/gptgta) |
+| ReFrame | Performance tool | Optimize game performance with a GitHub Copilot agent that detects hardware and automatically tunes configuration files and registry settings. | [GitHub](https://github.com/Yowspo/ReFrame) |
+| ash-kechaum | Trading agent | Manage trading card game pricing and purchasing with an agent that automates value tracking and buying decisions. | [GitHub](https://github.com/SabbyMakerHub/ash-kechaum) |
+| AI-Game-Generator | Game generator | Create engaging HTML educational games effortlessly with AI. Just input your idea, no setup needed. | [GitHub](https://github.com/ipuntoo/AI-Game-Generator) |
+| Procession | World engine | An experimental living world engine where every NPC, faction, and location is an independent OTP process. Features emergent storytelling, hierarchical memory, and a procedural game generator powered by local LLMs (Ollama). | [GitHub](https://github.com/Allwrighty3/Procession) |
+| Kifu-Sensei | Commentary generator | An automated LLM-based Go game commentary generator. | [GitHub](https://github.com/YianXie/Kifu-Sensei) |
+| Game-Master | Preset | SillyTavern Preset for those who want to be a "player" while LLM acts as the Game Master. Complete with dice mechanics, relationship engine, and random event generator. | [GitHub](https://github.com/ZDOSt/Game-Master) |
+| glm5.2-pacman-oneshot | Benchmark replication | Replication of the one-shot Pac-Man game development benchmark using the reasoning capabilities of the GLM-5.2 LLM. | [GitHub](https://github.com/DominguesM/glm5.2-pacman-oneshot) |
+| agency-agents-zh | Agent library | 211 plug-and-play AI expert roles supporting 16 tools (Hermes Agent, Claude Code, Cursor, Copilot, etc.) across 18 departments. Includes 46 original Chinese market agents (Xiaohongshu, Douyin, WeChat, Feishu, DingTalk, etc.). | [GitHub](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fMG1vVlVQMC1QWmRoeW9mcEEtWTZuVWJ0MW9EbjI3LURsMGNXNjVtR2NqNGlZV19VNl9VeDhKZ214bmwzZWZTOG9zVWdaZ3lDeVRCUlJZb1BQUQ?oc=5) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| GENSTRAT: Toward a Science of Strategic Reasoning in LLMs | Paper | Studies LLMs deployed as economic agents in marketplaces, auctions, and bidding settings. Introduces a benchmark for strategic reasoning that goes beyond fixed canonical games. | [arXiv](https://arxiv.org/abs/2605.23238v1) |
+| To Nuke or Not to Nuke: LLMs' (Missing) Ethical Reasoning in High-Stakes Simulations | Paper | Studies LLM ethical reasoning gaps in Civilization V, a multiplayer game with complex decision-making. Analyzes 130 high-tension LLM self-play episodes. | [arXiv](https://arxiv.org/abs/2606.08310v1) |
+| Aligned but Not Partner-Specific: Multimodal LLM Agents in Reference Games | Paper | Distinguishes how multimodal LLM agents succeed in reference games without human-like partner-specific conventions. | [arXiv](https://arxiv.org/abs/2606.08081v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AI工作流技巧—100% vibe coding 完成 gamejam | Tutorial | Workflow tips for completing a game jam with 100% vibe coding. | [机核GCORES](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZSlRfZ2tyclZxQ0ppWGt0Y2lHT3JZUzRhRklNMlpMN2I2ZDI2UXhHSnY1bHliSC1XNkJaYUZZQ3RtaWJ1NXluTk1IN2t3Zjg?oc=5) |
+| 零成本！用AI打造你的第一款游戏Demo（2026保姆级教程） | Tutorial | Zero-cost tutorial for building your first game demo with AI (2026 edition). | [CSDN](https://news.google.com/rss/articles/CBMibkFVX3lxTFBTQzBqaG5NQVpGOVgwZ3VSVml6RHRmSk84NHBER0xwZ2N5QU5jZE9UMlFaSmVfMUJQVWczNmo1TkxQZC1OOXJZY0F6WTV5TlVsN3ZLNy1wOGEyOUxiekVwaUNKVlJlRHh6Ym9zeXNB?oc=5) |
+| Free AI Tools Every Unity Developer Should Use | Tutorial | Guide to free AI tools for Unity developers to build games faster. | [DEV Community](https://news.google.com/rss/articles/CBMipAFBVV95cUxOOTFXVG1NUEFNWFpJVmpNekxfcmZaLXVZa21PTUs2Q3BQUWRSSkFqUmQzejBQRlV1RjFlMVhUVWotRjR6bktQNUV4U2VoMzFOeC1HdGM0LVV0a3RBN1dtM1ZWTjQwblhoeUJpUHZVNEpHMS1CN3VRelpKNnYtUTJja3NpVWxMUzZObmFDRWFxVm9GNk5KcTdmWk56amhDR3JPb25NTg?oc=5) |
+| AI Agent在游戏NPC中的革新应用 | Article | Overview of innovative applications of AI agents in game NPCs. | [CSDN](https://news.google.com/rss/articles/CBMibkFVX3lxTE9nckNxaGp4UjMwcWFOaTNjZVJ2MHJqQ3JRdFMyM3ByWE41alBaZFZ4S2ZMMnFxeWl1S1oyLUlyOXRpdmxGSWFBblE2SmpHcGtBc2NSQThuOW9WVHI2MVZDTlNMLTJuZXMwQ2J0OW9B?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| GodeX 1.2.0 | API gateway | OpenAI-compatible Responses API gateway allowing Codex, CLI tools, and developer agents to access any model (DeepSeek, Xiaomi, MiniMax, Zhipu, etc.) via a local gateway. Now supports GLM-5.2. | [开源中国](https://www.oschina.net/news/458338) |
+| OpenEnv | RL environment | Open-source community-backed environment for Agentic Reinforcement Learning. | [Hugging Face](https://huggingface.co/blog/openenv-agentic-rl) |
+| Holo3.1 | Computer use agent | Fast & local computer use agents. | [Hugging Face](https://huggingface.co/blog/Hcompany/holo31) |
+| hf CLI (agent-optimized) | CLI tool | Designing the Hugging Face CLI as an agent-optimized way to work with the Hub. | [Hugging Face](https://huggingface.co/blog/hf-cli-for-agents) |
+| JiuwenSwarm | Agent swarm OS | Full-stack open-source Agent Swarm framework, positioning as the "operating system" for the agent era. | [CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wbkk3WURQZDZIUFdtSkZmVldGTmxiTGlHaVZtNEhaVWl5dTRRbVpON0VKQ2tkNXZfZ19pY2pfbzBUUjRpRVMyV3lwNmNpWFNSYXRXdXI5VDNzWUloSmc?oc=5) |
+| Graphify + code-review-graph | Knowledge graph tool | Build a self-updating knowledge graph for Claude Code and other AI coding agents. | [DEV Community](https://news.google.com/rss/articles/CBMiywFBVV95cUxQcnB3R0N1LXdHa2hjX1BiUVVMMm9fVDlVT0o2UXZmWGptbkFlLVZVU1dMSXppQlZ2ZDNPWlRJTC1LUXlhZURtQTVXT25tZkNVTWJVdGRzaDZjWkVVaXYyQTFLWFVYOWRuYndVSThLMlZ4LUlaczg0U043TzBDX0NYNHhfcDA1VjN6Y0NrU3NwczdVdDNQVHlabFMxdGZhVHRQbFUtZ3pnbkoxM05CZGVfMVpkZm8tZW81MWpBQ2o0aE1hc2EycDlGUm1lQQ?oc=5) |
+| WorkBuddy | AI agent office tool | Business data insight and automated response AI agent for operations, customer success, and management roles. | [Tencent](https://copilot.tencent.com/work/) |
+| Mistral Vibe (formerly Le Chat) | AI chat + coding agent | Mistral's AI chat and agent for work and code. Chat, think, search, write, code, and automate. | [Mistral](https://mistral.ai/products/vibe/) |
+| Cursor | AI coding IDE | AI-powered coding IDE with project rules support via `.cursorrules` and `.cursor/rules/` directory. | [Cursor](https://cursor.com/cn) |

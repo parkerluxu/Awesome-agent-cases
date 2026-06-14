@@ -69,3 +69,36 @@
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
 | ContextOS | 统一上下文智能层 | 为 AI 智能体提供统一的上下文智能层，支持无缝集成和完整功能。 | [GitHub](https://github.com/armmammothermography417/ContextOS) |
+
+## 资料更新（2026-06-14）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| bjwanneng/veriflow-cc | GitHub 项目 | VeriFlow-CC：基于 Claude Code 的 RTL 设计流水线，从架构到综合（iVerilog/Yosys）自动化 Chip-on-Chat，支持子代理嵌套进行代码生成和行为驱动验证。 | [https://github.com/bjwanneng/veriflow-cc](https://github.com/bjwanneng/veriflow-cc) |
+| advaitParanjpe/agentic-rtl-security | GitHub 项目 | Agentic RTL 安全发现基准，比较定向测试、随机模糊测试和 LLM 引导的 MMIO 跟踪生成在 seeded SystemVerilog mini-SoC 上的效果。 | [https://github.com/advaitParanjpe/agentic-rtl-security](https://github.com/advaitParanjpe/agentic-rtl-security) |
+| seanoc5/claude-code-for-verilog | GitHub 项目 | 教学沙盒：针对小型 SystemVerilog UART 接收器的闭环代理工作流，帮助硬件工程师从聊天式 LLM 升级到 Claude Code。 | [https://github.com/seanoc5/claude-code-for-verilog](https://github.com/seanoc5/claude-code-for-verilog) |
+| Haden-Min/oh_my_rtl_claw | GitHub 项目 | 多代理 AI 系统，将自然语言或参考软件转化为 Verilog RTL、测试台、文档和 FPGA 入门资产。 | [https://github.com/Haden-Min/oh_my_rtl_claw](https://github.com/Haden-Min/oh_my_rtl_claw) |
+| qhy991/Awesome-LLM-Circuit-Agent | GitHub 项目 | 基于 LLM 的 RTL 生成和模拟电路生成的学术论文合集。 | [https://github.com/qhy991/Awesome-LLM-Circuit-Agent](https://github.com/qhy991/Awesome-LLM-Circuit-Agent) |
+| mak372/Verilog-Agent-Format | GitHub 项目 | 使用 LoRA 微调和 GRPO 的 LLM 基 Verilog 代码转换器，以 Yosys 形式验证作为奖励信号，功能等价通过率达 95%。 | [https://github.com/mak372/Verilog-Agent-Format](https://github.com/mak372/Verilog-Agent-Format) |
+| wuhannus/lunarch | GitHub 项目 | Lunahan Architecture：从 Python 到 GDS 的开源 RISC-V 内核，AI 辅助敏捷设计，面向 agentic AI 芯片。 | [https://github.com/wuhannus/lunarch](https://github.com/wuhannus/lunarch) |
+| harry37725/Verilog-Fault-Injection-Auto-Hardening-Workflow | GitHub 项目 | 用于自动化硬件安全审计的 n8n 工作流：Verilog RTL 单比特故障注入、AI 驱动的 TMR 加固、验证及执行披露报告生成。 | [https://github.com/harry37725/Verilog-Fault-Injection-Auto-Hardening-Workflow](https://github.com/harry37725/Verilog-Fault-Injection-Auto-Hardening-Workflow) |
+| brkbtmz/llm-riscv | GitHub 项目 | LLM 辅助 RV32I/RV32IM/RV32IMC 处理器生成的提示词、RTL 设计、验证文件和 FPGA 结果。 | [https://github.com/brkbtmz/llm-riscv](https://github.com/brkbtmz/llm-riscv) |
+| Sawaiz-zip/ResearchProject | GitHub 项目 | LLM 驱动的 Verilog 测试台生成与早期错误定位——LangGraph 流水线，从自然语言生成 HDL 测试台，使用 Pyverilog 静态分析在仿真前检测错误，并反馈给 LLM 自动修复。 | [https://github.com/Sawaiz-zip/ResearchProject](https://github.com/Sawaiz-zip/ResearchProject) |
+| Yuexi66557/MLCAD-timing-opt | GitHub 项目 | 使用 OpenROAD + Python + LLM 的设计感知时序优化。 | [https://github.com/Yuexi66557/MLCAD-timing-opt](https://github.com/Yuexi66557/MLCAD-timing-opt) |
+| The-OpenROAD-Project/ORAssistant | GitHub 项目 | OpenROAD 的聊天机器人助手。 | [https://github.com/The-OpenROAD-Project/ORAssistant](https://github.com/The-OpenROAD-Project/ORAssistant) |
+| Fuadulislam10/NeuroRV-Edge-AI | GitHub 项目 | NeuroRV Edge：开源异构 SoC，结合 RISC-V RV32IM CPU 与 16 通道向量 AI 加速器，面向超低功耗边缘推理。 | [https://github.com/Fuadulislam10/NeuroRV-Edge-AI](https://github.com/Fuadulislam10/NeuroRV-Edge-AI) |
+| vargasjr-dev/durium | GitHub 项目 | 面向太空的原生 AI 推理芯片，从第一性原理为轨道计算设计。 | [https://github.com/vargasjr-dev/durium](https://github.com/vargasjr-dev/durium) |
+| ai-hpc/ai-hardware-engineer-roadmap | GitHub 项目 | 掌握 AI 推理、AI 代理系统与硬件工程，最终设计物理 AI 芯片的学习路线图。 | [https://github.com/ai-hpc/ai-hardware-engineer-roadmap](https://github.com/ai-hpc/ai-hardware-engineer-roadmap) |
+| pccxai/pccx-v003 | GitHub 项目 | PCCX™ v003 IP 核规划包，面向 LLM、视觉、语音及下一代架构。 | [https://github.com/pccxai/pccx-v003](https://github.com/pccxai/pccx-v003) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Structured Testbench Generation for LLM-Driven HDL Design and Verification-Oriented Data Curation | 论文 | 提出 STG（结构化测试台生成框架），解决 LLM 驱动 RTL 工作流中测试台生成随机、高 token 成本、低可复现性和覆盖不足的问题。 | [https://arxiv.org/abs/2606.12983v1](https://arxiv.org/abs/2606.12983v1) |
+| LongRTL: Graph-Similarity-Guided LLM-driven Long Context RTL Optimization | 论文 | 提出基于图相似性引导的可扩展 LLM RTL 优化框架，包含三个协作代理：分区代理、优化代理和验证代理，以处理长且模块化差的 RTL 设计。 | [https://arxiv.org/abs/2606.08944v1](https://arxiv.org/abs/2606.08944v1) |
+| Verilog-Evolve: Feedback-Driven and Skill-Evolving Verilog Generation | 论文 | 提出 Verilog-Evolve，一个反馈驱动的版本化 Verilog 精炼与跨会话技能演化框架，确保生成代码的正确性、可综合性、时序意识及下游硬件目标友好性。 | [https://arxiv.org/abs/2605.26498v1](https://arxiv.org/abs/2605.26498v1) |
+| ROSUM-MCTS: Monte Carlo Tree Search-Inspired HDL Code Summarization with Structural Rewards | 论文 | 提出 ROSUM-MCTS，一种受蒙特卡洛树搜索启发的 LLM 引导 HDL 代码摘要方法，通过结构化探索和强化驱动优化来改进 VHDL/Verilog 摘要。 | [https://arxiv.org/abs/2606.07925v1](https://arxiv.org/abs/2606.07925v1) |
+| PALUTE: Processing-In-Memory Acceleration via Lookup Table for Edge LLM Inference | 论文 | 提出 PALUTE，一种基于查找表的存内处理加速器，用于边缘 LLM 推理，降低反量化与非线性算子开销。 | [https://arxiv.org/abs/2606.08891v1](https://arxiv.org/abs/2606.08891v1) |
