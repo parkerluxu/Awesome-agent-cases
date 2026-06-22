@@ -35,6 +35,7 @@ Daily briefs are stored in [`daily_news/`](daily_news/).
 <!-- DAILY_BRIEFS_START -->
 | Date | Brief |
 |---|---|
+| 2026-06-22 | [AI News Digest](daily_news/2026-06-22-ai-news-digest.md) |
 | 2026-06-20 | [AI News Digest](daily_news/2026-06-20-ai-news-digest.md) |
 | 2026-06-19 | [AI News Digest](daily_news/2026-06-19-ai-news-digest.md) |
 | 2026-06-18 | [AI News Digest](daily_news/2026-06-18-ai-news-digest.md) |
