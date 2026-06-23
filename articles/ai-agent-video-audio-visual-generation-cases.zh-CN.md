@@ -169,3 +169,53 @@
 |------|------|-----------|------|
 | Higgsfield AI | 产品 | AI 营销视频工作流工具 | [链接](https://www.youtube.com/watch?v=example) |
 | MoneyPrinterTurbo | 开源工具 | 基于 AI 大模型的自动化短视频生成工具，一键主题到成片 | [链接](https://github.com/example) |
+
+## 资料更新（2026-06-23）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ProductVideoCreator | GitHub 项目 | 基于 Remotion、Playwright 和 edge-tts 的自动化产品介绍视频生成工具包 | [GitHub](https://github.com/MatrixReligio/ProductVideoCreator) |
+| teaching-style-skills | GitHub 项目 | 模拟 10 位知名教育者（李宏毅、Andrew Ng、3Blue1Brown 等）教学风格的 AI 视频脚本与制作管线 | [GitHub](https://github.com/speechlab0210/teaching-style-skills) |
+| ai-short-drama-studio | GitHub 项目 | 含多 Agent、多模型审核与视频生产任务管线的 AI 短剧工作流系统 | [GitHub](https://github.com/weeduon/ai-short-drama-studio) |
+| wind-comic | GitHub 项目 | 多 Agent AI 管线，从一句话文本到完整短剧：剧本、分镜、角色一致性视频，支持多种模型提供商 | [GitHub](https://github.com/ChrisChen667788/wind-comic) |
+| befriendsvideo | GitHub 项目 | 面向电商短视频脚本创作的多 Agent AI 平台，含编排器 + 5 个子 Agent + 13 个技能 | [GitHub](https://github.com/Danyangkk/befriendsvideo) |
+| TermSub | GitHub 项目 | AI 视频翻译与术语管理管线，支持多 Agent 翻译、RTL 和内置 Web UI | [GitHub](https://github.com/seaweedbeehive/TermSub) |
+| director | GitHub 项目 | 基于 TypeScript Agent 和 Neurolink 的 AI 视频生产管线 | [GitHub](https://github.com/juspay/director) |
+| manim-video-creator | GitHub 项目 | 本地 Web 应用，用于创建 3Blue1Brown/Manim 风格的 AI 讲解视频，支持无 API Key 运行 | [GitHub](https://github.com/Cohen-Shahar/manim-video-creator) |
+| clipforge | GitHub 项目 | 开源 AI 带货短视频生成器：上传商品图，自动提炼卖点、写脚本、配画面/配音/字幕，支持多平台 | [GitHub](https://github.com/xixihhhh/clipforge) |
+| opensource-clipping | GitHub 项目 | AI 自动剪辑与预告片生成器，将长视频转为短视频高光片段，支持人脸追踪、卡拉 OK 字幕等 | [GitHub](https://github.com/NaufalRizqullah/opensource-clipping) |
+| tts-video-generator | GitHub 项目 | 使用 Python、ElevenLabs TTS 和 FFmpeg 生成带同步字幕的 AI 配音短视频 | [GitHub](https://github.com/Fragrant-syllable859/tts-video-generator) |
+| AutoShorts-Studio | GitHub 项目 | AI TikTok 自动视频生成与编辑器 | [GitHub](https://github.com/sajid5669/AutoShorts-Studio) |
+| AutoVideo-RVC | GitHub 项目 | 自动化竖屏人像视频生成器，支持本地 Ollama LLM、Edge-TTS、RVC 变声和动态字幕 | [GitHub](https://github.com/brillianodhiya/AutoVideo-RVC) |
+| china_video_bot | GitHub 项目 | 自动化中国旅游/文化视频管线：Groq LLM + edge-tts + MoviePy + YouTube API | [GitHub](https://github.com/GitHub-Zho/china_video_bot) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| DirectorBench | 论文 | 长视频生成诊断基准，通过个性化多 Agent 评估叙事结构、镜头控制、音频与跨模态同步 | [arXiv](https://arxiv.org/abs/2605.30090v1) |
+| VideoAgent | 论文 | 面向视频理解与编辑的全能 Agent 框架，支持长视频理解与连贯叙事创作 | [arXiv](https://arxiv.org/abs/2606.23327v1) |
+| DataMagic | 论文 | 将表格数据自动转化为数据洞察视频，整合动态图表、语音旁白与同步动画 | [arXiv](https://arxiv.org/abs/2606.20388v1) |
+| LooseControlVideo | 论文 | 通过空间分块实现文本到视频生成中的直观 3D 空间编排控制 | [arXiv](https://arxiv.org/abs/2606.19495v1) |
+| CoTriSyGen | 论文 | 闭环视觉-文本-记忆协同的 Agent 框架，用于多镜头长视频生成，解决身份漂移问题 | [arXiv](https://arxiv.org/abs/2606.16184v1) |
+| GroundShot | 论文 | 基于实体锚定镜头调度的视觉一致性多镜头长视频生成方法 | [arXiv](https://arxiv.org/abs/2606.20799v1) |
+| CHIEF | 论文 | 创作者驱动的循环视频生成框架，通过 Agent 反馈循环弥合创意意图与视觉质量 | [arXiv](https://arxiv.org/abs/2606.18591v1) |
+| DRIVE-CHOREO | 论文 | LLM 编排的多 Agent 世界模型，用于多视角驾驶视频生成，统一语言、几何与像素 | [arXiv](https://arxiv.org/abs/2606.17536v1) |
+| Divide, Deliberate, Decide | 论文 | 用于细粒度自我中心动作识别的多 Agent 框架，集成异构 VLM 专家 | [arXiv](https://arxiv.org/abs/2606.17627v1) |
+| DataClaw0 | 论文 | 从原始多模态流中主动精炼与结构化数据的 Agent 数据裁剪范式 | [arXiv](https://arxiv.org/abs/2606.21337v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| MoneyPrinterTurbo 深度解析 | 教程 | 开源 AI 视频生成器 MoneyPrinterTurbo 的本地部署与远程访问教程 | [博客园](https://www.cnblogs.com/ljbguanli/p/20058282) |
+| MoneyPrinterTurbo 介绍 | 教程 | MoneyPrinterTurbo 免费开源 AI 短视频生成工具的功能与使用介绍 | [博客园](https://www.cnblogs.com/xiao987334176/p/18991935) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| MoneyPrinterTurbo | 开源工具 | 基于 AI 大模型的开源自动化短视频生成工具，输入主题即可自动生成文案、素材、字幕和背景音乐 | [GitHub](https://github.com/harry0703/MoneyPrinterTurbo) / [PyPI](https://pypi.org/project/MoneyPrinterTurbo/) |
+| 豆包 (Seedance 2.0) | 产品 | 字节跳动旗下 AI 智能助手，已接入 Seedance 2.0 视频生成模型 | [官网](https://www.doubao.com/) |

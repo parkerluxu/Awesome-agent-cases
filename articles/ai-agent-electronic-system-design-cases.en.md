@@ -110,3 +110,42 @@ This section is divided into two categories: `2 Tutorials / Cases` and `13 Proje
 | 直播预约 \| 用世界模型打造EDA智能体 | Event | Live stream on building EDA agents using world models. | [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3ZmV5MzdtU2lDdEdvV19GUVI2Y0I4UG01Mjd1VlVvbVY4ZEFzUU54bzFRdFJoRm1DVEs4ekk4VmQ1bU12c2RjVnhzU3lZRW9rN3NF?oc=5) |
 | 还在熬夜画原理图？这个“数字搭档”把硬件方案设计卷到了新高度 | Article | Overview of a digital assistant for hardware schematic design. | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwdDhSVWthZmZ3Rk90SFc5QkxZUmF1YkJuOWR2cDl0azRydmQ4RXJNWENzSjNmcm9HaEk1QkpQZHlCRHVWdHpxSmN0X0N5VjhibzZNWWM3VmVBU1I3?oc=5) |
 | From Zero to Debug: A Software Engineer‘s Guide to Fixing Your First PCB | Article | Guide for software engineers debugging their first PCB. | [DEV Community](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT2Q4bDVNalVqUDVrSEFlMnZ6YXMzR21TTGFab1J6dnB1eVlmN3l6NTN5dXJUOUI4NEhVU0M1aDlWUXBpRGR1QzJYWndCMTN6UTBGbkhyMWxHMDJpTkRHN2w3SFFuN3FGamRVM0FjbnZOQW9DbVZfbjRuX3g5d3RLMGFFNUxWM2NDZ3NtX3p2cUdFbU80ZGdibUNId1hKczU4UWp3VnpmbUtFa1E?oc=5) |
+
+## Resource Update (2026-06-23)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| aklofas/kicad-happy | GitHub | AI coding agent skills for KiCad electronics design. Works with Claude Code and OpenAI Codex. Analyze schematics, review PCB layouts, EMC pre-compliance, SPICE simulation, download datasheets, source components, and prep boards for fabrication. | [GitHub](https://github.com/aklofas/kicad-happy) |
+| mentasystems/fragua | GitHub | AI-native PCB design tool. The agent designs the board, the human watches and steers. Schematic → routing → fab-ready zip in one loop. | [GitHub](https://github.com/mentasystems/fragua) |
+| RID-Games/Xorics.ai | GitHub | Self-hosted agentic AI assistant on local hardware. A manager model delegates to a coder that writes firmware and designs PCBs as code, self-correcting against a real compiler and ERC. Plus datasheet RAG, vision, and voice. | [GitHub](https://github.com/RID-Games/Xorics.ai) |
+| Vvg1105/pcb-procurement | GitHub | AI-agent pipeline that turns vague hardware project descriptions into datasheet-grounded, safety-reviewed, priced BOMs. Includes LTspice simulation generation and interactive HTML BOM viewer. | [GitHub](https://github.com/Vvg1105/pcb-procurement) |
+| IntelligentElectron/pcb-lens | GitHub | Give AI agents the power to review PCB layouts. | [GitHub](https://github.com/IntelligentElectron/pcb-lens) |
+| tigerfan/HerKi | GitHub | AI design enhancement system for hardware engineers, using KiCad as design base, Hermes Agent as intelligent hub, and an evolvable knowledge base as design brain. | [GitHub](https://github.com/tigerfan/HerKi) |
+| SellenChen/kicad-ai-agent | GitHub | Windows KiCad AI Agent Beta with local side panel and CLI validation. | [GitHub](https://github.com/SellenChen/kicad-ai-agent) |
+| DeconBear/actoviq-circuit-agent | GitHub | AI-powered interactive circuit design workflow — from natural language requirements to verified SPICE netlists and schematics. | [GitHub](https://github.com/DeconBear/actoviq-circuit-agent) |
+| charlesmmorais/coppermind | GitHub | AI PCB-design copilot for KiCAD — an IPC-first, transactional, verified MCP server. Routing, native DRC/ERC, Freerouting autorouter, JLCPCB/LCSC, and a citable EE design-intelligence engine (IPC-2221). | [GitHub](https://github.com/charlesmmorais/coppermind) |
+| xz0831/openclaw-brain | GitHub | Engineering knowledge-graph + memory served over MCP — ingests semiconductor PDFs into a typed, grounded, citable Neo4j graph for an AI circuit-design mentor. | [GitHub](https://github.com/xz0831/openclaw-brain) |
+| atopile/atopile | GitHub | Design circuit boards with code! Get software-like design reuse, validation, version control and collaboration in hardware; starting with electronics. | [GitHub](https://github.com/atopile/atopile) |
+| tscircuit/runframe | GitHub | Runs tscircuit code inside a webworker, view PCBs, schematics and 3D previews. | [GitHub](https://github.com/tscircuit/runframe) |
+| palginpav/tracewise | GitHub | AI-assisted place & route for KiCad — datasheet-grounded schematic review, constraint generation for autorouting, analytical placement. | [GitHub](https://github.com/palginpav/tracewise) |
+| VittoriaLanzo/Ohmatic | GitHub | Natural-language circuit generation with deterministic electrical verification. | [GitHub](https://github.com/VittoriaLanzo/Ohmatic) |
+| oguzhan-canada/eda-copilot | GitHub | LLM-Powered Knowledge Graph for Electronic Design Automation — EDA Copilot. | [GitHub](https://github.com/oguzhan-canada/eda-copilot) |
+| easyeda/eext-docs-generator | GitHub | EasyEDA Pro Extension: A project document generation tool for Easy EDA Professional Edition based on general LLM models. | [GitHub](https://github.com/easyeda/eext-docs-generator) |
+| MaheedharBhamidipati/Artificial_Intelligence_Driven_Electronic_Design_Automation | GitHub | AI-powered EDA assistant that automates Verilog analysis, debugging, and simulation using a local LLM (Ollama) with a Flash-based backend pipeline. | [GitHub](https://github.com/MaheedharBhamidipati/Artificial_Intelligence_Driven_Electronic_Design_Automation) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| PDAGENT-BENCH: Characterizing, Grounding, and Architecting LLM Agents for VLSI Physical Design | arXiv | Benchmark for evaluating agentic physical design workflows requiring high-dimensional, multi-stage optimization under strict design constraints and coordinated interaction with diverse EDA tools. | [arXiv](https://arxiv.org/abs/2606.17253v1) |
+| Agentic Electronic Design Automation: A Handoff Perspective | arXiv | Examines how LLM-based agents invoke EDA tools directly, embed retrieved knowledge in executable scripts, and hand off state across sessions and stages in multi-stage, handoff-heavy EDA workflows. | [arXiv](https://arxiv.org/abs/2606.19795v1) |
+| SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations | Hugging Face | Paper on PCB schematic generation using semantic-grounded code representations. | [Hugging Face](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGU0dvYlV4VURDVl9jTkNOdEd3am5NZjBlc0pJLXN1SmpaYnF6cU5RcS1EbGFQUENENGhTNWtjalZhTkZmeDNWM3R5U3JWYnZQVHc?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| tscircuit | Web tool | Open-source electronics design tool that lets you create circuits using React components. Design schematics, generate PCB layouts, export and manufacture PCBs online. | [tscircuit.com](https://tscircuit.com/) |
+| salitronic/eda-agent | GitHub | EDA agent project. | [GitHub](https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WdVZOU09TZVJXZlo5TENnSTFDM3M4YzRRdUxuQlhlNEFVbmhyMEJpQmtuMUo3Vk5EU0h5NnM5UWdlMGx5aDA1ZE9WenNrR3BK?oc=5) |

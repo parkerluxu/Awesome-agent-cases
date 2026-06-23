@@ -162,3 +162,55 @@ This section is divided into two categories: `26 Tutorials / Cases` and `30 Proj
 |------|------|---------------|------|
 | Hyperframes (by HeyGen) | Tool | Write HTML. Render video. Built for agents. | [GitHub](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jX1VJZUtYYlBfWndCZEYtUlhhTUpNOEZrZks1U0VVVHpQYmFDZFNkUGJ1VzBZaEVES3hsNHVmbkhhQm5OVlVSSm9PYU53T1FzTzRZ?oc=5) |
 | NVIDIA Agent Skills for Physical AI | Toolset | NVIDIA released a major collection of open source agent tools and skills for physical AI, including autonomous vehicles, robotics, and vision AI. | [NVIDIA Newsroom](https://news.google.com/rss/articles/CBMivgFBVV95cUxQaXh6M3BwdlF3a3VWWEhQSUdhQTR5WFk4UGJINUFwa0ZCQW0ybUljYWoxbzNETmViNGJpS2llXzV6R01iemV0QndtSzIzMmlwMXlhOTJmZUxrSGxWUlhGb0ZSRWJlcVhaMURQMHhzRjRIYzhnUl9OYzRaaWZOSjNPOVA1b25Gcm9PNXBCcnI3bG9ucThQRXBzUzExX3NWQ1VURjZxNXhLSWdMRXFhNUV2ajZoZnRieVc5dUQ3ZXBB?oc=5) |
+
+## Resource Update (2026-06-23)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ProductVideoCreator | GitHub | AI Agent Skills toolkit for automated product introduction video generation with Remotion, Playwright, and edge-tts | [GitHub](https://github.com/MatrixReligio/ProductVideoCreator) |
+| teaching-style-skills | GitHub | Teaching-style skills for 10 well-known educators — lets an AI agent script & produce educational videos in each teacher's style. Includes a generic video-production pipeline | [GitHub](https://github.com/speechlab0210/teaching-style-skills) |
+| ai-short-drama-studio | GitHub | AI short drama workflow system with agents, multi-model review, and video production task pipeline | [GitHub](https://github.com/weeduon/ai-short-drama-studio) |
+| wind-comic | GitHub | Multi-agent AI pipeline that turns one line of text into a finished short-form drama: script, cinematic storyboards, character-consistent video. Provider-agnostic (OpenAI/Claude, MJ, Minimax, Veo/Sora, fal, ComfyUI). MIT | [GitHub](https://github.com/ChrisChen667788/wind-comic) |
+| befriendsvideo | GitHub | Multi-agent AI platform for e-commerce short-video script creation — orchestrator + 5 sub-agents + 13 skills, turning expert creators' methodology into system architecture | [GitHub](https://github.com/Danyangkk/befriendsvideo) |
+| TermSub | GitHub | AI-powered video translation and terminology management pipeline. Features multi-agent translation, RTL support, and a built-in web UI for consistent subtitles | [GitHub](https://github.com/seaweedbeehive/TermSub) |
+| director | GitHub | AI Video Production Pipeline — TypeScript agents powered by Neurolink | [GitHub](https://github.com/juspay/director) |
+| manim-video-creator | GitHub | Local web app for creating 3Blue1Brown/Manim-style AI explainer videos — FastAPI + agent pipeline + interactive editor. Runs with zero API keys (mock LLM/TTS) | [GitHub](https://github.com/Cohen-Shahar/manim-video-creator) |
+| ClipForge | GitHub | Open-source AI e-commerce/UGC short-video generator — upload a product image, AI auto-extracts selling points + writes script + locks original product image + adds visuals/voiceover/subtitles, one-click output for Douyin/Kuaishou/Xiaohongshu/TikTok Shop | [GitHub](https://github.com/xixihhhh/clipforge) |
+| opensource-clipping | GitHub | AI Auto-Clipper & Teaser Generator — Transform long-form videos into viral short-form highlights with face-tracking, karaoke subtitles, B-roll, BGM ducking, and auto-thumbnails. Powered by Whisper, Gemini AI & MediaPipe/YOLO | [GitHub](https://github.com/NaufalRizqullah/opensource-clipping) |
+| tts-video-generator | GitHub | Generate AI-voiced short videos with synced subtitles using Python, ElevenLabs TTS, and FFmpeg | [GitHub](https://github.com/Fragrant-syllable859/tts-video-generator) |
+| AutoShorts-Studio | GitHub | AI TikTok Maker 2026 - Auto Viral Video Generator & Editor | [GitHub](https://github.com/sajid5669/AutoShorts-Studio) |
+| AutoVideo-RVC | GitHub | Automated portrait (9:16) video generator for TikTok, Reels & Shorts. Powered by local Ollama LLMs, Edge-TTS, GPU-accelerated local RVC V2 voice conversion, Dynamic subtitles, and MoviePy smart B-roll stitching. 100% offline-ready with PySide6 Desktop GUI | [GitHub](https://github.com/brillianodhiya/AutoVideo-RVC) |
+| china_video_bot | GitHub | Automated China travel/culture video pipeline: Groq LLM + edge-tts + MoviePy + YouTube API. Runs daily on Oracle Cloud Free Tier | [GitHub](https://github.com/GitHub-Zho/china_video_bot) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| DirectorBench | Paper | Diagnosing long-form video generation with personalized multi-agent evaluation. Benchmark for minute-long, multi-shot creation with narrative structure, cinematic control, audio, and cross-modal synchronization | [arXiv](https://arxiv.org/abs/2605.30090v1) |
+| VideoAgent | Paper | All-in-one agentic framework for video understanding and editing. Addresses diverse video comprehension/editing operations and long-video understanding for coherent narrative creation | [arXiv](https://arxiv.org/abs/2606.23327v1) |
+| DataMagic | Paper | Transforming tabular data into data insight video. Agentic system integrating dynamic charts, voice narration, and synchronized animations | [arXiv](https://arxiv.org/abs/2606.20388v1) |
+| LooseControlVideo | Paper | Directorial video control using spatial blocking. Framework for intuitive 3D spatial orchestration in text-to-video generation using spatial blocking | [arXiv](https://arxiv.org/abs/2606.19495v1) |
+| CoTriSyGen | Paper | Closed-loop triplet synergistic generation for long-form video. Agentic framework formulating multi-shot long video generation as a closed-loop visual-text-memory synergy process | [arXiv](https://arxiv.org/abs/2606.16184v1) |
+| GroundShot | Paper | Visually consistent multi-shot long video generation via entity-grounded shot scheduling. Addresses identity drift and compounding inconsistencies across shots | [arXiv](https://arxiv.org/abs/2606.20799v1) |
+| CHIEF | Paper | Creator-driven recurrent video generation with agentic feedback loops. Bridges creative intent and visual quality through human-in-the-loop recurrent self-improvement | [arXiv](https://arxiv.org/abs/2606.18591v1) |
+| DRIVE-CHOREO | Paper | LLM-choreographed multi-agent world model with unified latent co-compression for multi-view driving video generation | [arXiv](https://arxiv.org/abs/2606.17536v1) |
+| Divide, Deliberate, Decide | Paper | Multi-agent framework for fine-grained egocentric action recognition. Fully-local, zero-shot framework with VLM orchestrator and heterogeneous VLM specialist ensemble | [arXiv](https://arxiv.org/abs/2606.17627v1) |
+| DataClaw0 | Paper | Agentic tailoring multimodal data from raw streams. Paradigm shift towards Agentic Data Tailoring for actively refining and structuring data from raw streams | [arXiv](https://arxiv.org/abs/2606.21337v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| MoneyPrinterTurbo (blog post) | Tutorial | Deep-dive article on MoneyPrinterTurbo open-source AI video generator — one-click topic to finished video, local deployment to remote access | [Blog](https://www.cnblogs.com/ljbguanli/p/20058282) |
+| MoneyPrinterTurbo (blog post) | Tutorial | Introduction to MoneyPrinterTurbo — free open-source AI short video generation tool with full automation workflow | [Blog](https://www.cnblogs.com/xiao987334176/p/18991935) |
+| MoneyPrinterTurbo (Gitee) | Tutorial | Custom video generation with MoneyPrinterTurbo — provide topic/keyword, auto-generate copy, materials, subtitles, background music, and synthesize HD short video | [Gitee](https://gitee.com/jing12312/MoneyPrinterTurbo) |
+| MoneyPrinterTurbo (GitHub README) | Tutorial | MoneyPrinterTurbo README with docker-compose deployment instructions | [GitHub](https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README-en.md) |
+| MoneyPrinterTurbo (PyPI) | Tutorial | MoneyPrinterTurbo PyPI package — WebUI and API service startup instructions | [PyPI](https://pypi.org/project/MoneyPrinterTurbo/) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| 豆包 (Doubao) | Product | ByteDance's AI assistant — Seedance 2.0 video generation model now fully integrated, free to use | [Website](https://www.doubao.com/) |

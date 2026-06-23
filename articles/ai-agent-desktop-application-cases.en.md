@@ -140,3 +140,53 @@ This section is divided into two categories: `7 Tutorials / Cases` and `15 Proje
 | How to Combine Claude Code and Codex | Tutorial | Guide for maximum coding power by combining Claude Code and Codex. | [Towards Data Science](https://news.google.com/rss/articles/CBMilgFBVV95cUxQYnZzNmsybm1vWGpCdjdUcFBwdzY4VEhaTkV3di1WNUpYLXNlSnY4WXFyZlVCVC04ejNaSVdrTnlQRmNFajdWWDU2a3pad0duMnFhNlNpck94ZmtSUVNXZTVqZDdON0JRM0ktWG90MEVkeWhUcnlYOFJXSTBYdFhQOHlCbUl0OUNHQXJKLXVyNDN1SVJKVVE?oc=5) |
 | Codex Installation Guide for China | Tutorial | Detailed Codex installation and usage guide for users in China. | [知乎](https://zhuanlan.zhihu.com/p/2011928155204645696) / [菜鸟教程](https://www.runoob.com/codex/codex-install.html) |
 | OpenAI Academy Courses | Courses | Three Academy courses for building practical AI skills, creating repeatable workflows, and applying agents in everyday work. | [OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work) |
+
+## Resource Update (2026-06-23)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| cpotech/yolium-desktop | Desktop orchestrator | Orchestrates AI coding agents (Claude Code, OpenCode, Codex, Yoli) in isolated Docker containers with kanban board and parallel git worktree branches. | [GitHub](https://github.com/cpotech/yolium-desktop) |
+| xintaofei/codeg | Collaborative workspace | Multi-agent AI coding workspace aggregating sessions from Claude Code, Codex, Gemini CLI, etc. Desktop app, self-hosted server, or Docker. | [GitHub](https://github.com/xintaofei/codeg) |
+| dduva2660/uiacli | Windows automation | Control Windows desktop applications with AI agents using JSON commands via Microsoft UI Automation framework. | [GitHub](https://github.com/dduva2660/uiacli) |
+| athasdev/athas | Code editor | Lightweight cross-platform code editor built with Tauri (Rust + React) featuring Git support, AI agents, and vim keybindings. | [GitHub](https://github.com/athasdev/athas) |
+| kawayiYokami/P-ai | Desktop assistant | Self-growing desktop AI assistant for long-running tasks, memory, agents, tool reviews, MCP, and high-concurrency workspace automation. | [GitHub](https://github.com/kawayiYokami/P-ai) |
+| Klc26/qwen3_computer_use | GUI agent driver | Control local mouse, keyboard, and capture screenshots with Qwen3 GUI agent driver on OpenAI-compatible endpoint. | [GitHub](https://github.com/Klc26/qwen3_computer_use) |
+| RyensX/OpenCodex | Middleware | Middleware layer for Codex Desktop enabling browser-based access from phone, tablet, or another computer for LAN AI coding. | [GitHub](https://github.com/RyensX/OpenCodex) |
+| screenpipe/screenpipe | Screen recording | Records everything you do, say, hear 24/7 locally; connects to OpenClaw, Hermes agent, and 100+ apps. | [GitHub](https://github.com/screenpipe/screenpipe) |
+| AppiumTestDistribution/AppClaw | Mobile automation | AI-powered mobile automation agent — describe in plain English, reads screen, reasons, and acts. LLM-agnostic, open-source. | [GitHub](https://github.com/AppiumTestDistribution/AppClaw) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| MacAgentBench | Benchmark | Benchmarking AI agents on real-world macOS desktop; captures framework capabilities and partial progress on long-horizon multi-application tasks. | [arXiv](https://arxiv.org/abs/2606.22557v1) |
+| Beyond Global Replanning | Paper | Hierarchical recovery for cross-device agent systems; models device-local strategy space for runtime failures. | [arXiv](https://arxiv.org/abs/2606.20487v1) |
+| MemGUI-Agent | Paper | End-to-end long-horizon mobile GUI agent with proactive context management to avoid prompt explosion. | [arXiv](https://arxiv.org/abs/2606.19926v1) |
+| OSGuard | Benchmark | Dual-granularity benchmark suite for evaluating safety in computer-use agents under benign instructions. | [arXiv](https://arxiv.org/abs/2606.15034v1) |
+| ENVS | Paper | Environment-Native Verified Search for long-horizon GUI agents; training-time search-and-filter pipeline using live environments. | [arXiv](https://arxiv.org/abs/2606.22948v1) |
+| PreAct | Paper | Computer-using agents that get faster on repeated tasks by compiling successful runs into state-machine programs. | [arXiv](https://arxiv.org/abs/2606.17929v1) |
+| LabOSBench | Benchmark | Benchmarking computer use agents for scientific instrument control in simulated testbeds. | [arXiv](https://arxiv.org/abs/2606.16802v1) |
+| Fara-1.5 | Paper | Scalable learning environments for computer use agents; data pipeline with environments, solvers, and verifiers. | [arXiv](https://arxiv.org/abs/2606.20785v1) |
+| Naive Visual Memory | Paper | Failure-mode study of GUI agents; identifies limitations of naive visual memory approaches. | [arXiv](https://arxiv.org/abs/2606.14106v1) |
+| ChainWorld | Paper | Composing long-horizon desktop workloads from atomic OSWorld tasks; 347 chains of length two to four. | [arXiv](https://arxiv.org/abs/2606.21654v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenAI Codex Windows 版完整安装指南 | Tutorial | Complete installation guide for OpenAI Codex on Windows with parallel agents and Computer Use. | [51CTO](https://news.google.com/rss/articles/CBMiTkFVX3lxTE84T0pzQ0ZsV1hfUHdKM3J5ODVzMVNQbXBLbDF6MzFzWS1XV1JEQm53QzhOTVpZWTVSczFoUy0wQ1ZVVVR6VENSeVdrV3VtQQ?oc=5) |
+| 为什么我觉得 Codex 更接近通用 AI Agent 的理想形态 | Opinion | Analysis of why Codex is closer to the ideal form of a general AI agent. | [少数派](https://news.google.com/rss/articles/CBMiSEFVX3lxTE14NEFZYlU3U1BCMUllX0w2dEI4SEtaZ2pBSUdGZmNzR09WSjZMdlR1Tkhsa1RPdmVIS1B0TW5VNEN0cko1RDNnUQ?oc=5) |
+| Computer Use技术原理全解析 | Technical comparison | Comparison of three technical routes: Codex, Claude, and Shizai Agent for Computer Use. | [blog.csdn.net](https://news.google.com/rss/articles/CBMiakFVX3lxTE9KR1czX1VNNGgwa1lIZTlxZU1QS09GcEpieDBfa3NabDItMHR3UjlPY3l5czBSbGpXUll2MGt6RU9yeDBwMkFwWFozdmY2Y0daUHJzdVVlQXhMVUktMTZlZkdGaEgtWHNhRFE?oc=5) |
+| stormzhang/ai-coding-guide | Tutorial collection | Comprehensive Chinese tutorial for AI coding CLI: Claude Code + Codex, 92 refined articles. | [GitHub](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtREFBSkdYcjRyXy1nR0c2RmcyRktLalE3VzVzYmgyX0toQ2EwcmtIazZJUlRSaVhpZ1FydndwYl96dWhacFcwS3NtS3pvWFpXWkxJeDcxRFE?oc=5) |
+| 百度智能云 DuMate 测评 | Review | Review of Baidu Smart Cloud DuMate office agent teaching Claude Code usage. | [雷峰网](https://news.google.com/rss/articles/CBMid0FVX3lxTFBDRlBQOXZ3bmVieGtwNXNkUnBCSW9NYi1yZ1dyTDdxaEdxbmZjMWh4QU9Ga3JQNnVEcEZmRzdMd2ZzQ0ZRMTVUVnA3SFNiVDd5cG9obFVyY0I2dHV5ZERMZVZySGlXQmg1ZVo5VHpoWm1pUHpfQkJr?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Hermes Desktop | Desktop app | Native cross-platform front end for Hermes Agent v0.15.2 with streaming tool output. | [Decrypt](https://news.google.com/rss/articles/CBMicEFVX3lxTE1mekk2aTJuYlpwNW9NeWNOWG5zUnB0YkkwQ051aF9iS2VEd1hTT3ZFUGhXUkJYa045VTVfaWxHSFlfM2FQSWJCYlVkRlp3NF8ycDlMQmNVSlBaLXp6ZUM1cnRhRVB1SGI5TEdUQTNYN2HSAXhBVV95cUxNMGF0STRuZFBJQkdMV2xveFpLMFRscXRVMTdzOEkyalBpblU0Ty11V0psUWhDWjBpXzE2OGowRzNIb1hWZVBMenBSWVJNblB5NzU4NGRXY2hCT0ZhUDJ5anpYaHdUWVVoZEVUNUVQSkVXWnAzV1lZSTc?oc=5), [MarkTechPost](https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRVpzOFlHTkVTT1lrU19RYjhLMDVOTmdhcHJHU2lzbGxlalpPVUVhOWE3ZlAzb1hLMUVlSWg2LVJaZUZENTYwTlBoaTFxTTdZU0FhcUUyeW03Y2FER05hME96RnFJS1UwdW5DVkFaVHhUMzVxV2lKaXFkYWhDWW5Rdk1yWEo0ME9HZ291YU5tZkhMcHhoNEtKNDh4QnlQRkFrc2h1VFZYbWFVakZReTRkWTBVdW8wb1NoRlEzZmYyVzhId0pjUE5zeUJlZFpIZDBBX2JDVkRXcEE3ejIzM2hlaW1TQ2N0OG5UMWVNTG90dmJyREJ1RWdR?oc=5) |
+| OpenAI Codex | AI coding partner | Accelerates engineering work from planning to releases; now with Computer Use on Windows (foreground takeover). | [OpenAI](https://openai.com/codex/), [Tech Times](https://news.google.com/rss/articles/CBMixwFBVV95cUxPMU5oMHd0b0NBZ1g5NVNZWFdEaFhMUVNROGxnVGFBdUhLMjhsWVpyTUZIeDd5dnNDYndXMWt4enJFY3kzVFFHMi1GMWN3dnJVTV9aSDBvZFc2UHdQMEdhT3BiNUEtTVFNMS1QbnMyMU4ydzZpclB5Mm9LNVFhUW1PWlcwNTlUU0ttNkVmMElnTFlTWlRMRjdkNll4YmY2X250S3RuMlI4eldzTUJYRTFEcnhySHNrUHRWaUtFbk5fbXdISHBoaG13?oc=5) |
+| 扣子 3.0 | Platform | Supports Claude Code and Codex CLI local agent integration. | [Jiemian.com](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iTWRnMFJ0LXFvdzg2OG52MUpvdU9TTkVVZDRFSGg2cFpfTGt1Z3Q2MF9tWm4tXzNTME9KSmp2QlNVVnZEdEgyVi1ZWm9IZXM2WXBsVzlB?oc=5) |
+| Windows as OS for AI Agents | Platform | Microsoft Build 2026 announcement positioning Windows as an OS for AI agents. | [Visual Studio Magazine](https://news.google.com/rss/articles/CBMivAFBVV95cUxNNHBqWWRfWTdjdkVhcUFuSGdROU9TY0htWk4xVDdiX0hxV0k2WmJXREhqREFXTVVJS3BwZUY1WS1SNktCUE5EeDBMVHJIRXNidmV2aXB1eTdGNFRaVUROVXlnVVJ2YnJidUNSY2FGNU01WnphYzFFU2JHYmZmYS1RNGU1akFrR1oxUEkyS29Oa1J4NW91V0tGU3hzbDFkMGp5dmN1b29JaElwTDBhT3RYb3hoYTF1dW1rcm5pbA?oc=5) |

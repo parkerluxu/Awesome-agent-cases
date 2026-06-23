@@ -141,3 +141,54 @@
 |------|------|-----------|------|
 | Codex - Windows官方下载 | 应用 | OpenAI Codex 的官方 Windows 桌面应用，代理式软件开发的指挥中心。 | [https://apps.microsoft.com/detail/9plm9xgg6vks?hl=zh-CN&gl=CN](https://apps.microsoft.com/detail/9plm9xgg6vks?hl=zh-CN&gl=CN) |
 | MoonPay推出MoonAgents桌面应用 | 应用 | 连接 Claude 与 Codex 的桌面应用。 | [https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdDBWUFBSREhNUUE0OUcyWVZNR0FkeUlfbUZONE1EOUxUMXEwUmhCbmpzME5icnBjbmF1bEYxQS00UFBSbkdyT0xzbkktTFBLYnYxWkY5d2k2NXhUaWRpSnJwa1FGSjBmbVdwbEp0UUIzWW1WSmVWeVc1RGhWdGN0eTJwQldPZHFFWHNyeHB3LTRxdE9CRk1VbGg2YU5OV20yMFBUOWEzSlFGVVVqMnk3TEpWdm9lT0FWMWhPVkx4NklGSWVxRFh3M2FEVEMyd0xxZ2k4Q3I4REVMVXlIaWN6WFR2NW84cXVjTXF3Vw?oc=5](https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdDBWUFBSREhNUUE0OUcyWVZNR0FkeUlfbUZONE1EOUxUMXEwUmhCbmpzME5icnBjbmF1bEYxQS00UFBSbkdyT0xzbkktTFBLYnYxWkY5d2k2NXhUaWRpSnJwa1FGSj
+
+## 资料更新（2026-06-23）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| cpotech/yolium-desktop | 桌面应用 | 在隔离 Docker 容器中编排 AI 编码 Agent（Claude Code、OpenCode、Codex、Yoli），支持看板管理和并行运行 | [GitHub](https://github.com/cpotech/yolium-desktop) |
+| xintaofei/codeg | 桌面应用 | 协作式多 Agent AI 编码工作区，聚合 Claude Code、Codex、Gemini CLI 等会话，支持桌面应用、自托管服务器或 Docker | [GitHub](https://github.com/xintaofei/codeg) |
+| dduva2660/uiacli | 工具 | 通过 Microsoft UI Automation 框架使用 JSON 命令控制 Windows 桌面应用 | [GitHub](https://github.com/dduva2660/uiacli) |
+| athasdev/athas | 编辑器 | 基于 Tauri（Rust + React）的轻量级跨平台代码编辑器，集成 Git、AI Agent、Vim 键绑定 | [GitHub](https://github.com/athasdev/athas) |
+| kawayiYokami/P-ai | 桌面助手 | 开箱即用的自我成长型桌面 AI 助理，支持长期任务、记忆、MCP 与高并发工作区自动化 | [GitHub](https://github.com/kawayiYokami/P-ai) |
+| Klc26/qwen3_computer_use | 驱动 | 使用 Qwen3 GUI Agent 驱动控制本地鼠标、键盘和截图，兼容 OpenAI 端点 | [GitHub](https://github.com/Klc26/qwen3_computer_use) |
+| RyensX/OpenCodex | 中间件 | Codex Desktop 的中间层，允许通过手机、平板或另一台电脑在浏览器中远程操作 Codex | [GitHub](https://github.com/RyensX/OpenCodex) |
+| screenpipe/screenpipe | 记录工具 | 24/7 记录屏幕、语音和音频，本地私有安全，可连接 OpenClaw、Hermes Agent 等 100+ 应用 | [GitHub](https://github.com/screenpipe/screenpipe) |
+| AppiumTestDistribution/AppClaw | 移动自动化 | AI 驱动的移动自动化 Agent，用自然语言描述操作，LLM 无关、开源、零遥测 | [GitHub](https://github.com/AppiumTestDistribution/AppClaw) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| MacAgentBench | Benchmark | 针对 macOS 桌面 AI Agent 的基准测试，评估框架增强能力和长程多应用任务的部分进展 | [arXiv](https://arxiv.org/abs/2606.22557v1) |
+| Beyond Global Replanning | 论文 | 跨设备 Agent 系统的分层恢复策略，建模设备本地策略空间以应对运行时故障 | [arXiv](https://arxiv.org/abs/2606.20487v1) |
+| MemGUI-Agent | 论文 | 端到端长程移动 GUI Agent，通过主动上下文管理解决长任务中的提示爆炸和关键信息稀释问题 | [arXiv](https://arxiv.org/abs/2606.19926v1) |
+| OSGuard | Benchmark | 计算机使用 Agent 的安全性基准测试，包含动作级和端到端评估套件 | [arXiv](https://arxiv.org/abs/2606.15034v1) |
+| ENVS | 论文 | 环境原生验证搜索，用于长程 GUI Agent 在真实桌面环境中发现成功轨迹 | [arXiv](https://arxiv.org/abs/2606.22948v1) |
+| PreAct | 论文 | 让计算机使用 Agent 在重复任务上加速，将成功运行编译为状态机程序直接回放 | [arXiv](https://arxiv.org/abs/2606.17929v1) |
+| LabOSBench | Benchmark | 针对科学仪器控制的计算机使用 Agent 基准测试，模拟高精度仪器操作场景 | [arXiv](https://arxiv.org/abs/2606.16802v1) |
+| Fara-1.5 | 论文 | 可扩展的计算机使用 Agent 学习环境数据管线，包含环境、求解器和验证器三模块 | [arXiv](https://arxiv.org/abs/2606.20785v1) |
+| ChainWorld | 论文 | 将原子 OSWorld 任务组合成长程桌面工作负载，生成 347 条任务链 | [arXiv](https://arxiv.org/abs/2606.21654v1) |
+| Naive Visual Memory Is Not Enough | 论文 | GUI Agent 视觉记忆的失败模式研究，分析简单截图存储与检索的局限性 | [arXiv](https://arxiv.org/abs/2606.14106v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| OpenAI Codex Windows 版完整安装指南 | 教程 | 并行 Agent 与 Computer Use 实战安装指南 | [51CTO](https://news.google.com/rss/articles/CBMiTkFVX3lxTE84T0pzQ0ZsV1hfUHdKM3J5ODVzMVNQbXBLbDF6MzFzWS1XV1JEQm53QzhOTVpZWTVSczFoUy0wQ1ZVVVR6VENSeVdrV3VtQQ?oc=5) |
+| 为什么我觉得 Codex 更接近通用 AI Agent 的理想形态 | 评测 | 对 Codex 作为通用 AI Agent 的深度分析 | [少数派](https://news.google.com/rss/articles/CBMiSEFVX3lxTE14NEFZYlU3U1BCMUllX0w2dEI4SEtaZ2pBSUdGZmNzR09WSjZMdlR1Tkhsa1RPdmVIS1B0TW5VNEN0cko1RDNnUQ?oc=5) |
+| Computer Use技术原理全解析 | 教程 | Codex、Claude、实在Agent 三大技术路线对比分析 | [blog.csdn.net](https://news.google.com/rss/articles/CBMiakFVX3lxTE9KR1czX1VNNGgwa1lIZTlxZU1QS09GcEpieDBfa3NabDItMHR3UjlPY3l5czBSbGpXUll2MGt6RU9yeDBwMkFwWFozdmY2Y0daUHJzdVVlQXhMVUktMTZlZkdGaEgtWHNhRFE?oc=5) |
+| 百度智能云 DuMate 测评 | 评测 | 办公 Agent 结合 Claude Code 的使用效果实测 | [雷峰网](https://news.google.com/rss/articles/CBMid0FVX3lxTFBDRlBQOXZ3bmVieGtwNXNkUnBCSW9NYi1yZ1dyTDdxaEdxbmZjMWh4QU9Ga3JQNnVEcEZmRzdMd2ZzQ0ZRMTVUVnA3SFNiVDd5cG9obFVyY0I2dHV5ZERMZVZySGlXQmg1ZVo5VHpoWm1pUHpfQkJr?oc=5) |
+| stormzhang/ai-coding-guide | 教程 | 面向小白的 AI 编程 CLI 中文教程，涵盖 Claude Code + Codex 共 92 篇精修文章 | [GitHub](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtREFBSkdYcjRyXy1nR0c2RmcyRktLalE3VzVzYmgyX0toQ2EwcmtIazZJUlRSaVhpZ1FydndwYl96dWhacFcwS3NtS3pvWFpXWkxJeDcxRFE?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 扣子 3.0 | 平台 | 支持 Claude Code、Codex CLI 本地 Agent 接入 | [Jiemian.com](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iTWRnMFJ0LXFvdzg2OG52MUpvdU9TTkVVZDRFSGg2cFpfTGt1Z3Q2MF9tWm4tXzNTME9KSmp2QlNVVnZEdEgyVi1ZWm9IZXM2WXBsVzlB?oc=5) |
+| Hermes Desktop | 桌面应用 | Nous Research 发布的 Hermes Agent v0.15.2 原生跨平台前端，支持流式工具输出 | [MarkTechPost](https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRVpzOFlHTkVTT1lrU19RYjhLMDVOTmdhcHJHU2lzbGxlalpPVUVhOWE3ZlAzb1hLMUVlSWg2LVJaZUZENTYwTlBoaTFxTTdZU0FhcUUyeW03Y2FER05hME96RnFJS1UwdW5DVkFaVHhUMzVxV2lKaXFkYWhDWW5Rdk1yWEo0ME9HZ291YU5tZkhMcHhoNEtKNDh4QnlQRkFrc2h1VFZYbWFVakZReTRkWTBVdW8wb1NoRlEzZmYyVzhId0pjUE5zeUJlZFpIZDBBX2JDVkRXcEE3ejIzM2hlaW1TQ2N0OG5UMWVNTG90dmJyREJ1RWdR?oc=5) |
+| OpenAI Codex Windows 版 | 桌面应用 | Codex Computer Use 正式支持 Windows，支持前台接管 | [Tech Times](https://news.google.com/rss/articles/CBMixwFBVV95cUxPMU5oMHd0b0NBZ1g5NVNZWFdEaFhMUVNROGxnVGFBdUhLMjhsWVpyTUZIeDd5dnNDYndXMWt4enJFY3kzVFFHMi1GMWN3dnJVTV9aSDBvZFc2UHdQMEdhT3BiNUEtTVFNMS1QbnMyMU4ydzZpclB5Mm9LNVFhUW1PWlcwNTlUU0ttNkVmMElnTFlTWlRMRjdkNll4YmY2X250S3RuMlI4eldzTUJYRTFEcnhySHNrUHRWaUtFbk5fbXdISHBoaG13?oc=5) |
+| Codex 官方页面 | 产品 | OpenAI Codex 官方介绍：AI 编码伙伴，支持规划、构建、重构、审查和发布 | [OpenAI](https://openai.com/codex/) |
+| Microsoft Build 2026 | 平台 | 微软将 Windows 定位为 AI Agent 操作系统 | [Visual Studio Magazine](https://news.google.com/rss/articles/CBMivAFBVV95cUxNNHBqWWRfWTdjdkVhcUFuSGdROU9TY0htWk4xVDdiX0hxV0k2WmJXREhqREFXTVVJS3BwZUY1WS1SNktCUE5EeDBMVHJIRXNidmV2aXB1eTdGNFRaVUROVXlnVVJ2YnJidUNSY2FGNU01WnphYzFFU2JHYmZmYS1RNGU1akFrR1oxUEkyS29Oa1J4NW91V0tGU3hzbDFkMGp5dmN1b29JaElwTDBhT3RYb3hoYTF1dW1rcm5pbA?oc=5) |

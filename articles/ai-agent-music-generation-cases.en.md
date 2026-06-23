@@ -108,3 +108,25 @@ This section is divided into two categories: `21 Tutorials / Cases` and `16 Proj
 | sunpochin/music-release-agent | GitHub Project | AI-driven music tracker and social sharing service that automates Spotify scans, generates bilingual reviews via Gemini API, and orchestrates social posts. | [GitHub](https://github.com/sunpochin/music-release-agent) |
 | CMbunny/AI-agents | GitHub Project | Collection of AI agents built with Python, including music generation. | [GitHub](https://github.com/CMbunny/AI-agents) |
 | partme-ai/full-aigc-skills | GitHub Project | 34+ agent skills for AI content generation including audio, music, and multimodal. | [GitHub](https://github.com/partme-ai/full-aigc-skills) |
+
+## Resource Update (2026-06-23)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| mood-playlist-agent | GitHub | AI agent that generates personalized playlists based on mood, weather, and listening history. | [https://github.com/niravpatidar37/mood-playlist-agent](https://github.com/niravpatidar37/mood-playlist-agent) |
+| vesper | GitHub | A text-first A2A/MCP music control agent for the Cider Apple Music client, with adaptive sessions, natural-language playback control, and a local CLI. | [https://github.com/randileeharper/vesper](https://github.com/randileeharper/vesper) |
+| SoulTuner-Agent | GitHub | LLM-powered music recommendation agent with Hybrid RAG, Neo4j, and long-term memory. | [https://github.com/hgsanyang/SoulTuner-Agent](https://github.com/hgsanyang/SoulTuner-Agent) |
+| FADE-Director | GitHub | Locally-hosted agentic service that directs and renders music videos from an uploaded song via a conversational LLM agent. | [https://github.com/ckinpdx/FADE-Director](https://github.com/ckinpdx/FADE-Director) |
+| FrameFusion | GitHub | AI-assisted short-form video creation with specialist agents, Pexels b-roll tools, music generation, and MP4 rendering. | [https://github.com/barkerbg001/FrameFusion](https://github.com/barkerbg001/FrameFusion) |
+| bony-agent | GitHub | Full-stack AI content production & distribution platform with 27+ specialized agents for chat, image/video/music generation, and smart editing. | [https://github.com/phuhao00/bony-agent](https://github.com/phuhao00/bony-agent) |
+| roon-mcp | GitHub | MCP server to control Roon music player via AI agents. | [https://github.com/bestimmaa/roon-mcp](https://github.com/bestimmaa/roon-mcp) |
+| Aria-Agent | GitHub | AI character agent majoring in piano performance, focusing on the connection between music and human memories. | [https://github.com/1667699722-dotcom/Aria-Agent](https://github.com/1667699722-dotcom/Aria-Agent) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| Libretto: Giving LLM Agents a Sense of Musical Structure | arXiv paper | Introduces an agent-facing framework for symbolic music generation and revision using an LLM-native grammar with explicit onset slots, voices, and bar-level organization. | [https://arxiv.org/abs/2606.22708v1](https://arxiv.org/abs/2606.22708v1) |
+| Audio-Mind: An Auditable Agentic Framework for Audio Understanding | arXiv paper | Proposes a pluggable framework for conditional evidence acquisition in audio understanding, dynamically combining a strong frontend with agentic reasoning. | [https://arxiv.org/abs/2605.28480v1](https://arxiv.org/abs/2605.28480v1) |

@@ -172,3 +172,55 @@
 | claude_codex_bridge | 桥接工具 | 在 Claude Code 和 Codex 之间建立桥接，实现协同工作 | https://news.google.com/rss/articles/CBMiekFVX3lxTFBPdk5pSFlRVE1oZDd1RlFsR2R5WThRSEhGS3BDMElXNk92ZndwOFBteHNoNk41b1lCQzc5aW9yM1ROWjJ3VThOc0w2OHpCaG4xVXQyVTBUTXlBeE0xcjR1TTdrZU85NldVWlpLeFBaU3FWdDhyYlEzd1JR |
 | Claude SEO: SEO Analysis Skill for Claude Code | SEO 技能 | 为 Claude Code 提供的 SEO 分析技能 | https://news.google.com/rss/articles/CBMiVEFVX3lxTE01R3RwWWpwTWNCN3FkeTFJbXNDeDhhSXJUMldTd0xuM0pGNXNZS21PWVhXaXJCQmRqVS1vVzFPc1RhYk1HZzEtY3dld3ktZmhWYXBscA |
 | deepseek-ai/awesome-deepseek-agent | 资源集合 | DeepSeek 代理相关资源汇总 | https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OdTdJLUNuSWFRYUprTWFHcnNMV1Q1aS1qTmhGNkRnRkI1d2h3SC0wRjh1WG53MFRhQ0J4WnVBUFJzdWtn
+
+## 资料更新（2026-06-23）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| CloudBase-MCP | 开源项目 | 腾讯云 CloudBase MCP 服务，连接 AI Agent 实现从提示词到上线应用 | [GitHub](https://github.com/TencentCloudBase/CloudBase-MCP) |
+| agentic-kanban | 开源项目 | 自托管 AI Agent 任务中心，含 MCP 端点、角色权限控制与状态机，单二进制 SQLite 后端，提供实时 Web UI | [GitHub](https://github.com/codehand/agentic-kanban) |
+| three.ws | 开源项目 | 开源 3D AI Agent 框架，支持 GLB/glTF 虚拟人、LLM 大脑、记忆、情感与自主支付，MCP 服务器，可嵌入为 Web Component | [GitHub](https://github.com/nirholas/three.ws) |
+| taOS | 开源项目 | 自托管 AI Agent 操作系统，离线记忆、多框架群聊、完整 Web 桌面与应用商店，支持消费级硬件自动集群 | [GitHub](https://github.com/jaylfc/taOS) |
+| agency-orchestrator | 开源项目 | 一句话调度多 AI 角色协作，基于 216+ 专家角色库，零代码 YAML 配置，含 Web Studio 与桌面应用 | [GitHub](https://github.com/jnMetaCode/agency-orchestrator) |
+| june | 开源项目 | Agent 就绪的 React 框架，同一定义同时服务人类（流式 HTML）和 Agent（Markdown、JSON、MCP），部署于 Cloudflare Workers | [GitHub](https://github.com/junebuild/june) |
+| figma-mcp-loop | 开源项目 | Figma → Claude Code → 无头浏览器 → 像素对比，AI 生成前端完整验证循环 | [GitHub](https://github.com/kripy/figma-mcp-loop) |
+| search_evals | 开源项目 | 评估 Web 搜索 API 的框架，测试多个 AI Agent 的准确性与相关性 | [GitHub](https://github.com/Omg1221/search_evals) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AgentCyberRange | Benchmark | 在真实网络靶场中评估前沿 AI 系统的代码库检查、漏洞检测与利用能力 | [arXiv](https://arxiv.org/abs/2606.14295v2) |
+| Meta-Agent | 论文 | 从自然语言任务描述自动构建并执行专用多 Agent 系统的两阶段框架 | [arXiv](https://arxiv.org/abs/2605.25233v1) |
+| FraudSMSWalker | Benchmark | 面向短信到网页跨渠道诈骗检测的 Agent 大模型基准，URL 屏蔽下判断短信与网页内容一致性 | [arXiv](https://arxiv.org/abs/2606.16659v1) |
+| Who Pays the Price? | 论文 | 面向真实 Web Agent 的提示注入基准，从利益相关者视角评估攻击影响 | [arXiv](https://arxiv.org/abs/2606.13385v1) |
+| Mellum2 Technical Report | 论文 | 12B 参数 MoE 开源模型，专精软件工程：代码生成、编辑、调试、多步推理、工具调用与 Agent 编程 | [arXiv](https://arxiv.org/abs/2605.31268v1) |
+| Beyond Domains | 论文 | 通过可迁移交互模式复用 Web 技能，将重复交互片段封装为可调用工具，降低 LLM Web Agent 延迟与成本 | [arXiv](https://arxiv.org/abs/2606.17645v1) |
+| RunAgent SuperBrowser | 论文 | 模拟人类浏览行为的自主 Web 导航 Agent，基于视觉优先的边界框标注与感知-认知-行动三元机制 | [arXiv](https://arxiv.org/abs/2606.09399v1) |
+| Benchmarking Multimodal LLMs on Code Generation for Complex Interactive Webpages | 论文 | 评估多模态大模型将视觉设计转化为可执行代码的能力，聚焦动态交互网页 | [arXiv](https://arxiv.org/abs/2606.00154v1) |
+| When Web Agents Finish but Still Fail | 论文 | 研究长周期 Web Agent 在并行探索中的隐性失败模式，提出 Parallel WebBench 基准与轨迹诊断方法 | [arXiv](https://arxiv.org/abs/2606.20724v1) |
+| Self-Distillation Policy Optimization via Visual Feedback | 论文 | 通过视觉反馈自蒸馏优化代码生成模型，修复图表、网页等视觉产物中的重叠、截断、对齐等缺陷 | [arXiv](https://arxiv.org/abs/2606.10334v1) |
+| AliyunConsoleAgent | 论文 | 基于蒸馏与强化学习在真实云控制台环境中训练 Web Agent，用于自动化文档验证 | [arXiv](https://arxiv.org/abs/2606.09447v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| The Complete Playwright End-to-End Story | 教程 | 介绍 Playwright MCP 如何让 AI Agent 探索应用、建议测试用例、通过自然语言生成新测试 | [Microsoft Blog](https://developer.microsoft.com/blog/the-complete-playwright-end-to-end-story-tools-ai-and-real-world-workflows) |
+| Omnigent 实战 | 教程 | 使用 Omnigent 框架编排 Claude Code、Codex、Cursor 等所有 AI 编程 Agent | [AI编程社区](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxTDlyaExGMVB3Rndia3p6dXBzZ1pvTkZnSTNZenJ2ZHFhWWhSNVJXWTMwMDZxLTR6dUprRnZDYnFRTUZDQjFsbVlLdUo3WUVGX0VSczJTQjRzSWNoNlAySWt5NUJRQQ?oc=5) |
+| DeepSeek 桌面智能体应用全解析 | 教程 | 开源 AI Agent 平台实战部署与 API 调用指南 | [CSDN](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yUWJGMHptZHlUZXBYcmZYMHFnYmJHcEVueWR4U3RZdDlabFBBeXhNcEs4SXlxbjU2YWZzRzVad2txczNkazkyejFGRTY3UEF4Z3F3WmZVLTFLY1J6dll2RUhKdms?oc=5) |
+| Beyond chatbots: How AI agents built a full OS, web apps, and more | 视频 | AI Agent 构建完整操作系统与 Web 应用的实测演示 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSXlMa0dlX0V6ZGNKSmJjMlRBclhHWThac0txSEpwVFg0ZWpfa0RhNFppU1NRcHJBYzJWcDRDRkR0QVdsSnI2TWNCb284dlZFRXA1QUt3?oc=5) |
+| 深度拆解：Claude Code、Codex、Cursor、OpenCode 的 Harness 设计与实战差异 | 教程 | 对比主流 AI 编程 Agent 的 Harness 架构与实战差异 | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1GNVhiUnllWlljc2tFTExPalVkWnJSaVIteDNwVkVFU19YZjZLQ3pnWXJ3M3daS29JdVNRY3BYRy1pMjlDamp6N2JzTS10aXFTV3Z6V0c3QzVFeWlE?oc=5) |
+| 用 Codex + iLink Bot API 给 Agent 接入微信 | 教程 | 基于开源 Skill 为 AI Agent 接入微信的实战指南 | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CTnpKQTRBM3NUR1I5OTkzQ0VMeENqcjBnU0d2MmYwWXBwMjBNOTY0dXhPajZ0TVdhV2QxSGtNSHprekEtUERwWXlBN3k5U0lkM21uT2FTUEJHeHVf?oc=5) |
+| Web MCP: give some tools to your agent | 教程 | 为 AI Agent 提供 Web MCP 工具的实践指南 | [DEV Community](https://news.google.com/rss/articles/CBMiggFBVV95cUxPYlNoSS1JQjhkZDBmTmN0RTduT1AxWFdpY0lXZVdiX2ttVFJfVTc1Z2ZMenAxYnMtcVdlTVhKeW9fLXFROVNRNzRaOTNtUW1ueHNnUGRDTUxfYXkzbjl6QTFITkNXV0ZtVHlKcEFJcnlpLWdhQm8tNjJhS1ZuUHRmeXlR?oc=5) |
+| 扣子 3.0 上线，支持 Claude Code、Codex CLI 本地 Agent 接入 | 新闻 | 扣子平台 3.0 版本新增对本地 AI 编程 Agent 的接入支持 | [51CTO](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4NkRBYm1wR3FWcFc5c3prMkQ4WDBLUUtHeDVWWDN2bFJVekxERGNiZi1mZmZlaTU0X2N6czVSVlJqcTExS245ekk0VXZZV2dSeFQ0?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ai-coding-guide | 教程合集 | 「可能是全网最全的」AI 编程 CLI 中文教程，涵盖 Claude Code + Codex 共 92 篇精修文章 | [GitHub](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtREFBSkdYcjRyXy1nR0c2RmcyRktLalE3VzVzYmgyX0toQ2EwcmtIazZJUlRSaVhpZ1FydndwYl96dWhacFcwS3NtS3pvWFpXWkxJeDcxRFE?oc=5) |
+| codex-orange-book | 教程 | Codex 橙皮书：从安装到实战案例的全链路使用指南（非官方开源，含可下载 PDF） | [GitHub](https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2aGhtc0JDY1F4cEVWX0dna0xRa0FPYW5UeU1mUko2Y1I0ZDdBbjFpSmRMUzNSUEc5TUs1NVBvdmhZb2RHd3diT2JXS2FieWF5RzhLMm5LMFg3dw?oc=5) |
+| deepagents-in-action | 教程 | 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain/LangGraph 生态，从零构建生产级 AI Agent | [GitHub](https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Y1FjUHg1c2dQWHd2MmZGZzlvMW50SXdvbWV5Z0JERWlXMU1NOGZxc2FsT2FYaGJ0SXJ2OUloZEIyM0pqcnhnMHdmQjF2YXVLYV9DLTYtN3Ytc3lrajROaUswM0o?oc=5) |

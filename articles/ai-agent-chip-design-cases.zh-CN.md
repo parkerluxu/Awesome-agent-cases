@@ -102,3 +102,38 @@
 | Verilog-Evolve: Feedback-Driven and Skill-Evolving Verilog Generation | 论文 | 提出 Verilog-Evolve，一个反馈驱动的版本化 Verilog 精炼与跨会话技能演化框架，确保生成代码的正确性、可综合性、时序意识及下游硬件目标友好性。 | [https://arxiv.org/abs/2605.26498v1](https://arxiv.org/abs/2605.26498v1) |
 | ROSUM-MCTS: Monte Carlo Tree Search-Inspired HDL Code Summarization with Structural Rewards | 论文 | 提出 ROSUM-MCTS，一种受蒙特卡洛树搜索启发的 LLM 引导 HDL 代码摘要方法，通过结构化探索和强化驱动优化来改进 VHDL/Verilog 摘要。 | [https://arxiv.org/abs/2606.07925v1](https://arxiv.org/abs/2606.07925v1) |
 | PALUTE: Processing-In-Memory Acceleration via Lookup Table for Edge LLM Inference | 论文 | 提出 PALUTE，一种基于查找表的存内处理加速器，用于边缘 LLM 推理，降低反量化与非线性算子开销。 | [https://arxiv.org/abs/2606.08891v1](https://arxiv.org/abs/2606.08891v1) |
+
+## 资料更新（2026-06-23）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AI-Driven-RTL-Generation | 多智能体框架 | 集成 RAG 与 MCP 的闭环多智能体框架，将高级硬件规格编译为可综合 SystemVerilog RTL，在 3 级 RISC-V 核上验证 | [GitHub](https://github.com/thanghuynhwinno123-svg/AI-Driven-RTL-Generation) |
+| VeriForge | AI Agent 沙箱 | 自动生成、调试和验证 Verilog RTL 设计，并将智能体轨迹导出为 SFT/DPO 训练数据集 | [GitHub](https://github.com/JannieUwU/VeriForge) |
+| ai-chip-design-platform | 多智能体验证框架 | 面向 RISC-V 的多智能体验证与测试生成框架，支持 AI 辅助 RTL、ISS、合规性、覆盖率和调试 | [GitHub](https://github.com/HUNT-001/ai-chip-design-platform) |
+| rtl_agent | 智能体 RTL 生成管线 | 文本/PDF/音频/视频 → Spec IR → 双 Oracle 智能体 → 已验证 SystemVerilog（GLSVLSI 2026） | [GitHub](https://github.com/srijavuppala/rtl_agent) |
+| digital-chip-design-agents | 数字 HDL 全栈智能体 | 数字 HDL 设计全栈智能体 | [GitHub](https://github.com/chuanseng-ng/digital-chip-design-agents) |
+| rtl_lm_verification_assistant | 验证辅助原型 | 笔记本级研究原型，用于 AI 辅助 RTL 生成与验证感知评估 | [GitHub](https://github.com/hjzhang-ops/rtl_lm_verification_assistant) |
+| Design-Verification-AI-Tool-DEV | 验证平台 | 基于 GUI 的验证平台，通过拖拽设计自动生成 UVM 环境和 RTL | [GitHub](https://github.com/Karan-nevage/Design-Verification-AI-Tool-DEV) |
+| verilog-tb-pipeline | 测试平台生成管线 | 基于 LangGraph 的 LLM 驱动 Verilog 测试平台生成管线，集成 Pyverilog 早期错误定位 | [GitHub](https://github.com/Sawaiz-zip/verilog-tb-pipeline) |
+| fragua | AI 原生 PCB 设计工具 | 智能体设计电路板，人类观察和引导：原理图 → 布线 → 可制造 ZIP | [GitHub](https://github.com/mentasystems/fragua) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| PDAGENT-BENCH | Benchmark | 面向 VLSI 物理设计的 LLM 智能体基准，评估高维多阶段优化与 EDA 工具交互 | [arXiv](https://arxiv.org/abs/2606.17253v1) |
+| HierSVA | 数据集 + Benchmark | LLM 驱动的层次化硬件形式验证数据合成管线、数据集与基准，含 342 个模块及层次元数据 | [arXiv](https://arxiv.org/abs/2606.13706v1) |
+| Interpretable and Verifiable Hardware Generation | 框架 | 结合 LLM 与可解释性的逐步精化硬件生成框架，缓解 RTL 生成中的幻觉问题 | [arXiv](https://arxiv.org/abs/2606.19387v1) |
+| Agentic Electronic Design Automation | 视角论文 | 从交接（handoff）视角分析 LLM 智能体在 EDA 多阶段流程中的角色与挑战 | [arXiv](https://arxiv.org/abs/2606.19795v1) |
+| LLM4RTL | 工具辅助生成 | 工具辅助 LLM 进行 RTL 生成，聚焦开放 Verilog/RTL 代码生成的高质量训练样本 | [arXiv](https://arxiv.org/abs/2606.15500v1) |
+| RTLScout | 自主优化系统 | 结合 LLM 智能体设计与电路级综合优化的自主系统，基于 Yosys/OpenROAD 的 PPA 反馈迭代 | [arXiv](https://arxiv.org/abs/2606.06530v2) |
+| VHDLSuite | 统一管线 | 面向 VHDL 的 LLM 生成、数据合成与评估统一管线，填补 VHDL 评估空白 | [arXiv](https://arxiv.org/abs/2606.13735v1) |
+| StepPRM-RTL | 微调框架 | 结合逐步轨迹建模、过程奖励模型与检索增强微调，提升 LLM 的 RTL 生成正确性 | [arXiv](https://arxiv.org/abs/2606.04246v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 豆包 2.1 发布：Agent 自己跑 18 个小时搞定芯片设计代码 | 媒体实测 | 报道豆包 2.1 模型驱动的智能体连续运行 18 小时完成芯片设计代码生成 | [量子位](https://www.qbitai.com/2026/06/437503.html) |

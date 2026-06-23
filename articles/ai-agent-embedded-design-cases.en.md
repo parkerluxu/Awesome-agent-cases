@@ -107,3 +107,50 @@ The following resources were discovered after the original article was published
 |------|------|---------------|------|
 | Anthropic's open-source Claude Desktop Buddy | CNX Software | Turns ESP32-S3 devices into interactive AI desk companions. | [CNX Software](https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRU9vdW91bV9tUmV6VHZEVUNUa2RPeGJaSEZUcE5KbzNGbzN3MTdBdS0yUXE4UjV5STlzRFFoUzZGeVhiWXZENnFHSFZsZ3ZnMFRkbjRJcEVVeHpGVGltenpmMXF3RDB3bzhNb0lLcVJNLVBaS2Z1Y1lsUmV6Zm00X2hFXzJSN2dLSUhmM2doLVdfWWwyQVFMbWtmWVpKUjk3VFRqdVBPam9oa2UyNVpmRnE1Rm1CVGhRRWxydlBZV2xzRXpUa05kdFd2WGY0WmVSWGVzcms0b1l1NzTSAeMBQVVfeXFMTlNaMFUzNUdGbzBFNU8yOG5YOXIxcF8wU2hTaVdfSXJQejdNWmJWMVZVbGFVSElYelJORUo5RlZtd3hYajM5MXc5UklFSFFFRFdZcmpmWDVKUW9uQk5jUXgzSkdLb2hYNEUtbzBfOTg2bnZCLTd5eVpuSE9KNWc4MENfdWhjYnhhdVRVNDNvZlBCNVlBMlI3Z0Vmb0lVQWJYby1nSHp0TjVZWk80cGs4UDJuLUdaZ2wwWGF1SXI2dC0teV85OXd2NEY3SlROcnFlZk9ISE93QXJsTzlIVllzSVFlZ2c?oc=5) |
 | Advancing AI Infrastructure for Agentic AI with NVIDIA DOCA In-Silicon Security | NVIDIA Technical Blog | NVIDIA's infrastructure for agentic AI with in-silicon security via DOCA. | [NVIDIA Developer](https://news.google.com/rss/articles/CBMitAFBVV95cUxOcVZYR1lPd1NtcTg0c0I0Rl9pX3ZtWEd4VlJ3em5ULWFpX0RzUDF1aHY3bkFHOFpGelZPNUNNTnhDbHBHY3NqV1p0MUdsaU10aGE0a0phdDljNW4xMWx1Y2JsdzNWRHVwbW8tQlBiMHRJd2JjbEFwWm5DVHdkVTZyd3lnbTJidmxPRW82UDRnUWF4WkxVY0RKV1dpY1RhR0JLNzFxTlNiTGlodjNKOTlXclNsZGQ?oc=5) |
+
+## Resource Update (2026-06-23)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| FirmwareForge | GitHub | Autonomous AI agent generating ESP32/Arduino firmware from plain-English descriptions using LangChain and Claude. | [Link](https://github.com/BrianSeungwooShin/FirmwareForge) |
+| ESPer-Chan | GitHub | AI agent using local LLM for Xiao ESP32S3 Sense and other boards, Arduino IDE compatible. | [Link](https://github.com/mochimochi-man/ESPer-Chan) |
+| AI_Systems_Architect_Lab | GitHub | Hands-on lab covering RAG, agents, MCP, Edge AI, production deployment, Docker, and cloud. | [Link](https://github.com/pacificpatel165/AI_Systems_Architect_Lab) |
+| thesis-iot-monitoring | GitHub | Autonomous closed-loop IoT visual monitoring: LLM agent translates goals into capture schedules over MQTT to STM32U5, analyzes frames with cloud/self-hosted VLMs. Bachelor thesis (Maastricht University). | [Link](https://github.com/WhitehatD/thesis-iot-monitoring) |
+| ShuFu | GitHub | Minimal open-source LLM runtime and invocation layer for Windows/Linux, Android, and ESP32. | [Link](https://github.com/yuhaven/ShuFu) |
+| Smart-Energy-Management-System-SEMS- | GitHub | AI agent trained with PPO on 100K smart home energy records to minimize electricity costs; integrates with Arduino UNO via pySerial for live LED feedback. | [Link](https://github.com/Lujain32/Smart-Energy-Management-System-SEMS-) |
+| YoMo | GitHub | Serverless AI agent framework with geo-distributed edge AI infrastructure. | [Link](https://github.com/yomorun/yomo) |
+| Agent.cpp | GitHub | High-performance C++ inference engine for Tiny-MoA on CPU, optimized for multi-agent orchestration. | [Link](https://github.com/muhzars/Agent.cpp) |
+| LUNAR-MINT | GitHub | Autonomous, communication-aware multi-agent swarm simulation (rovers + drone) in MuJoCo & ROS 2 with DTN network degradation and distributed edge-AI perception. | [Link](https://github.com/spabhut/LUNAR-MINT) |
+| moumantai | GitHub | Self-hosted runtime for personal apps combining reliable code with LLM agents, adaptable across screens. | [Link](https://github.com/xiang-deng/moumantai) |
+| espidf-lowfat-skill | GitHub | Portable lowfat ESP-IDF filters and skill package for LLM coding agents. | [Link](https://github.com/npwh/espidf-lowfat-skill) |
+| floating-island-environmental-monitoring | GitHub | STM32F407 edge node with sensors, STM32 bird-call CNN node, Raspberry Pi 5 + Hailo-8 NPU vision, and LangGraph LLM agent over local Ollama. | [Link](https://github.com/Pigbr/floating-island-environmental-monitoring) |
+| STM32CubeMX-Automator | GitHub | Lets an LLM agent configure STM32CubeMX projects. | [Link](https://github.com/fangdhonghong/STM32CubeMX-Automator) |
+| tokymaker-mcp | GitHub | MCP server to author, compile, and flash programs for the Tokymaker ESP32 STEM robotics board from any AI assistant. | [Link](https://github.com/tokylabs/tokymaker-mcp) |
+| embed-ai-tool | GitHub | Embedded development skill set for AI coding assistants, covering MCU firmware workflows (Keil/IAR/CMake/PlatformIO), flashing, GDB debugging, serial monitor, Modbus/CAN/VISA protocols, peripheral drivers, and pipeline orchestration. | [Link](https://github.com/LeoKemp223/embed-ai-tool) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory | arXiv | Novel embedding model generating evolvable representations for retrieval, tailored for long-context scenarios with dynamic, sequential information and continuous state tracking. | [Link](https://arxiv.org/abs/2606.21649v1) |
+| DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams | arXiv | Proposes a paradigm shift toward Agentic Data Tailoring, actively refining and structuring data from raw multimodal streams. | [Link](https://arxiv.org/abs/2606.21337v1) |
+| AutoPass: Evidence-Guided LLM Agents for Compiler Performance Tuning | arXiv | Multi-agent framework for compiler performance tuning using compiler and runtime evidence to guide LLM-generated optimization decisions. | [Link](https://arxiv.org/abs/2606.20373v1) |
+| SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills | arXiv | Benchmarks and defends against cross-modal attacks on LLM agent skills that pair natural-language specifications with executable scripts. | [Link](https://arxiv.org/abs/2606.14154v1) |
+| Library-Aware Doubles and Iterative Repair for LLM-Generated Unit Tests in OpenSIL Firmware | arXiv | Automated unit test authoring workflow for low-level C firmware (openSIL by AMD) using LLM-guided multi-agent repair. | [Link](https://arxiv.org/abs/2606.19725v2) |
+| SoK: AI-Augmented Binary Reversing | arXiv | Systematization of knowledge on AI-augmented binary reversing, covering firmware auditing, malware investigation, and agentic AI systems. | [Link](https://arxiv.org/abs/2606.17398v1) |
+| Embedded Arena: Iterative Optimization via Hardware Feedback | arXiv | LLM agent autonomously optimizes models for heterogeneous MCUs under hard physical constraints (memory, power, temperature) while preserving accuracy. | [Link](https://arxiv.org/abs/2606.16190v1) |
+| Nous: A Predictive World Model for Long-Term Agent Memory | arXiv | Novel agent memory architecture using predictive world models (categorical probability distributions) rather than database records or vector embeddings. | [Link](https://arxiv.org/abs/2606.22030v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Securing the future of AI agents | Google DeepMind Blog | Discusses an AI Control Roadmap combining traditional safeguards and real-time monitoring for securing internal systems. | [Link](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |
+| Is it agentic enough? Benchmarking open models on your own tooling | Hugging Face Blog | Guide on benchmarking open models for agentic tasks with custom tooling. | [Link](https://huggingface.co/blog/is-it-agentic-enough) |
+| Build real agentic apps using CUGA: two dozen working examples on a lightweight harness | Hugging Face Blog (IBM Research) | Provides two dozen working examples of agentic applications built on the CUGA lightweight harness. | [Link](https://huggingface.co/blog/ibm-research/cuga-apps) |
+| From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot | Hugging Face Blog (Amazon) | Demonstrates deploying agents from the Hugging Face Hub to robot hardware using Strands Agents and LeRobot. | [Link](https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware) |
+| Agentic Resource Discovery: Let agents search | Hugging Face Blog | Introduces agentic resource discovery, enabling agents to search for relevant resources autonomously. | [Link](https://huggingface.co/blog/agentic-resource-discovery-launch) |
+| The AI world is getting ‘loopy’ | TechCrunch | Discusses the "loop" paradigm where swarms of agents work continuously in the background. | [Link](https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/) |
+| 刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码 | QbitAI | Reports on Doubao 2.1, an agent that autonomously runs for 18 hours to complete chip design code. | [Link](https://www.qbitai.com/2026/06/437503.html) |

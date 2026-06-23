@@ -144,3 +144,53 @@ This section is divided into two categories: `3 Tutorials / Cases` and `25 Proje
 | WorkBuddy | AI agent office tool | Business data insight and automated response AI agent for operations, customer success, and management roles. | [Tencent](https://copilot.tencent.com/work/) |
 | Mistral Vibe (formerly Le Chat) | AI chat + coding agent | Mistral's AI chat and agent for work and code. Chat, think, search, write, code, and automate. | [Mistral](https://mistral.ai/products/vibe/) |
 | Cursor | AI coding IDE | AI-powered coding IDE with project rules support via `.cursorrules` and `.cursor/rules/` directory. | [Cursor](https://cursor.com/cn) |
+
+## Resource Update (2026-06-23)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| wellingfeng/UltraGameStudio | GitHub | AI coding agent for game development: engine workflows, gameplay code, and asset generation. | [GitHub](https://github.com/wellingfeng/UltraGameStudio) |
+| keigotak/casual-game-creation | GitHub | Claude Code-based multi-agent workflow for iterative small web game development. | [GitHub](https://github.com/keigotak/casual-game-creation) |
+| trzz333/sight | GitHub | Local-first AI game-agent lab with custom Godot micro-games, open-source games, and Gymnasium benchmarks. | [GitHub](https://github.com/trzz333/sight) |
+| yksorez/defold-agent-config | GitHub | AI agent configurations and skills for Defold engine game development workflows. | [GitHub](https://github.com/yksorez/defold-agent-config) |
+| rkibistu/godot-ai-igloo | GitHub | Sandboxed environment integrating agentic AI + MCP + Godot. | [GitHub](https://github.com/rkibistu/godot-ai-igloo) |
+| Redgoatfishwhittler671/AgentZet | GitHub | Automate Unreal Engine game development: build projects, edit C++ source, manage Blueprints via AI agent. | [GitHub](https://github.com/Redgoatfishwhittler671/AgentZet) |
+| agustinrbeltran/game-dev-agent-package | GitHub | APM package providing a Game Developer role for AI coding agents (Unity/Unreal, 60+ FPS budget). | [GitHub](https://github.com/agustinrbeltran/game-dev-agent-package) |
+| vitordepaula/pong | GitHub | Minimalist retro-style Pong built with HTML5 Canvas/CSS3 as a study on agentic coding. | [GitHub](https://github.com/vitordepaula/pong) |
+| projectkraenk/Awesome-AI-Game-Dev-Tools | GitHub | Curated list of AI tools, agents, frameworks, asset generators, and automation for game developers. | [GitHub](https://github.com/projectkraenk/Awesome-AI-Game-Dev-Tools) |
+| Yuan-ManX/ai-game-devtools | GitHub | Hub for AI-powered game development tools: LLMs, World Models, Agents, Code, Image, 3D, Audio, etc. | [GitHub](https://github.com/Yuan-ManX/ai-game-devtools) |
+| dreamteam-hq/brigid | GitHub | Godot 4.6 MMO game dev agent. | [GitHub](https://github.com/dreamteam-hq/brigid) |
+| Yuki001/game-dev-skills | GitHub | Personal agent skill repository focused on game development. | [GitHub](https://github.com/Yuki001/game-dev-skills) |
+| ShahmeerAftab/ai-snake-game | GitHub | AI-assisted Snake Game built via iterative LLM prompting. | [GitHub](https://github.com/ShahmeerAftab/ai-snake-game) |
+| brandonbirchwork-hash/God-sim | GitHub | 2D civilization simulation with evolving agents (WorldBox-style). | [GitHub](https://github.com/brandonbirchwork-hash/God-sim) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| 3DCodeBench: Benchmarking Agentic Procedural 3D Modeling Via Code | arXiv | Benchmark for evaluating VLM agents on procedural 3D generation in modeling software. | [arXiv](https://arxiv.org/abs/2606.01057v1) |
+| Beyond the Current Observation: Evaluating Multimodal LLMs in Controllable Non-Markov Games | arXiv | RNG-Bench benchmark suite for testing multimodal LLMs' ability to reconstruct past observations and act on them. | [arXiv](https://arxiv.org/abs/2606.19338v1) |
+| Hierarchical Control in Multi-Agent Games: LLM-based Planning and RL Execution | arXiv | Hierarchical architecture using LLM as strategic controller selecting RL skill policies for multi-agent teams. | [arXiv](https://arxiv.org/abs/2606.20014v1) |
+| Enhancing Decision-Making with LLMs through Multi-Agent Fictitious Play | arXiv | Multi-agent system using fictitious play for decision-making tasks with interdependent stakeholders. | [arXiv](https://arxiv.org/abs/2606.19308v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Cline for VS Code: Free AI Coding Agent Setup Guide (2026) | Guide | Setup guide for Cline AI coding agent with custom instructions and rules. | [deployhq.com](https://www.deployhq.com/guides/cline) |
+| Is it agentic enough? Benchmarking open models on your own tooling | Blog | Hugging Face blog on benchmarking open models for agentic tasks. | [huggingface.co](https://huggingface.co/blog/is-it-agentic-enough) |
+| Build real agentic apps using CUGA | Blog | Working examples of agentic applications on a lightweight harness. | [huggingface.co](https://huggingface.co/blog/ibm-research/cuga-apps) |
+| Codex-maxxing for long-running work | Blog | How to use Codex to preserve context and manage complex projects. | [openai.com](https://openai.com/index/codex-maxxing-long-running-work) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Cursor (company) | Wikipedia | AI coding agent and software development environment with multi-step programming capabilities. | [Wikipedia](https://en.wikipedia.org/wiki/Cursor_(company)) |
+| Cline (AI coding agent) | GitHub / AI Wiki | Open-source autonomous coding agent (VS Code extension, 5M+ installs). | [GitHub](https://github.com/cline/cline) / [AI Wiki](https://aiwiki.ai/wiki/cline) |
+| Securing the future of AI agents | Blog | Google DeepMind's AI Control Roadmap for securing internal systems. | [deepmind.google](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |
+| The AI world is getting 'loopy' | TechCrunch | Article on continuous agent swarms working in the background. | [techcrunch.com](https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/) |
+| Agentic Resource Discovery | Blog | Hugging Face launch of agentic resource discovery. | [huggingface.co](https://huggingface.co/blog/agentic-resource-discovery-launch) |
+| Investing in multi-agent AI safety research | Blog | Google DeepMind $10M funding call for multi-agent safety research. | [deepmind.google](https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/) |

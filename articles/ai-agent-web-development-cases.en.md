@@ -161,3 +161,55 @@ This section is divided into two categories: `32 Tutorials / Cases` and `15 Proj
 | Claude SEO Skill | GitHub | SEO analysis skill for Claude Code. | [GitHub](https://news.google.com/rss/articles/CBMiVEFVX3lxTE01R3RwWWpwTWNCN3FkeTFJbXNDeDhhSXJUMldTd0xuM0pGNXNZS21PWVhXaXJCQmRqVS1vVzFPc1RhYk1HZzEtY3dld3ktZmhWYXBscA) |
 | claude_codex_bridge | GitHub | Bridge between Claude Code and Codex workflows. | [GitHub](https://news.google.com/rss/articles/CBMiekFVX3lxTFBPdk5pSFlRVE1oZDd1RlFsR2R5WThRSEhGS3BDMElXNk92ZndwOFBteHNoNk41b1lCQzc5aW9yM1ROWjJ3VThOc0w2OHpCaG4xVXQyVTBUTXlBeE0xcjR1TTdrZU85NldVWlpLeFBaU3FWdDhyYlEzd1JR) |
 | Superpowers Skill | Guide | Skill for making Claude Code and Codex follow engineering workflows. | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJdDh6MWZ3M3BiVDRqZHo4Mkt4QlExQkNWX0hRTkVMUDFiN1R6WUtWNFpNazZCQ0FabEVUMW5zVUZ1ZWJmcUtkWVo0bWFFZGJOSi15ZTNvVzdNcEpC) |
+
+## Resource Update (2026-06-23)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| CloudBase-MCP | GitHub | Connect CloudBase to your AI Agent; go from AI prompt to live app. 1,036 stars. | [GitHub](https://github.com/TencentCloudBase/CloudBase-MCP) |
+| agentic-kanban | GitHub | Self-hosted Task Hub for AI agent workflows with MCP endpoint, role-based access control, and a no-self-certification state machine. Single binary, SQLite-backed, live web UI. | [GitHub](https://github.com/codehand/agentic-kanban) |
+| three.ws | GitHub | Open-source 3D AI agent framework — GLB/glTF avatars with LLM brains, memory, emotions, and autonomous payments. MCP server, x402, Solana/EVM, Three.js. Embed anywhere as a web component. 68 stars. | [GitHub](https://github.com/nirholas/three.ws) |
+| taOS | GitHub | Self-hosted AI agent OS. Offline AI memory, self-hosted multi-framework group chat, full web desktop + app store, auto-clustering across consumer hardware. 252 stars. | [GitHub](https://github.com/jaylfc/taOS) |
+| search_evals | GitHub | Framework to evaluate web search APIs, testing accuracy and relevance across multiple AI agents and benchmarks. | [GitHub](https://github.com/Omg1221/search_evals) |
+| agency-orchestrator | GitHub | One sentence → multi-AI-role collaboration → complete plan in minutes. Built on the agency-agents role library (216+ experts), zero-code YAML, web Studio + desktop app, 10 LLM providers. 1,456 stars. | [GitHub](https://github.com/jnMetaCode/agency-orchestrator) |
+| june | GitHub | The agent-ready React framework — serves humans (streamed HTML, zero client JS) and agents (markdown, JSON, MCP) from one definition. Web-standards core, deploys to Cloudflare Workers. | [GitHub](https://github.com/junebuild/june) |
+| figma-mcp-loop | GitHub | Figma → Claude Code → headless browser → pixel diff. A complete verification loop for AI-generated frontends. | [GitHub](https://github.com/kripy/figma-mcp-loop) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AgentCyberRange | Paper | Benchmarking frontier AI systems in realistic cyber ranges — codebase inspection, vulnerability detection, and exploitation across multi-host environments. | [arXiv](https://arxiv.org/abs/2606.14295v2) |
+| Meta-Agent | Paper | Two-phase framework that automatically constructs and executes specialized multi-agent systems from natural-language task descriptions. | [arXiv](https://arxiv.org/abs/2605.25233v1) |
+| FraudSMSWalker | Paper | Controlled benchmark for URL-masked SMS-to-webpage fraud judgment, evaluating agentic LLMs on cross-channel SMS fraud detection. | [arXiv](https://arxiv.org/abs/2606.16659v1) |
+| Who Pays the Price? | Paper | Stakeholder-centric prompt injection benchmarking for real-world web agents, moving beyond attack-centric perspectives. | [arXiv](https://arxiv.org/abs/2606.13385v1) |
+| Mellum2 Technical Report | Paper | Open-weight 12B MoE language model specialized in software engineering — code generation, debugging, multi-step reasoning, tool use, and agentic coding. | [arXiv](https://arxiv.org/abs/2605.31268v1) |
+| Beyond Domains | Paper | Reusing web skills via transferable interaction patterns to reduce LLM completion costs on benchmarks like Mind2Web and WebArena. | [arXiv](https://arxiv.org/abs/2606.17645v1) |
+| RunAgent SuperBrowser | Paper | Autonomous web-navigation agent grounded in human browsing behaviour — vision-first bounding-box pipeline, perception-cognition-action triad. | [arXiv](https://arxiv.org/abs/2606.09399v1) |
+| Benchmarking Multimodal LLMs on Code Generation for Complex Interactive Webpages | Paper | Benchmark evaluating MLLMs on transforming visual designs into executable code for dynamic, interactive web applications. | [arXiv](https://arxiv.org/abs/2606.00154v1) |
+| When Web Agents Finish but Still Fail | Paper | Parallel WebBench benchmark (1,679 records) and trace diagnostics for long-horizon web agents that fail in ways hidden by final-answer evaluation. | [arXiv](https://arxiv.org/abs/2606.20724v1) |
+| Self-Distillation Policy Optimization via Visual Feedback | Paper | Visual-feedback self-distillation for code-generated visual artifacts (charts, web pages, slides) to fix overlapping elements, clipped text, broken alignment. | [arXiv](https://arxiv.org/abs/2606.10334v1) |
+| AliyunConsoleAgent | Paper | Web agent framework for automated documentation verification in real-world cloud consoles, using distillation and reinforcement learning. | [arXiv](https://arxiv.org/abs/2606.09447v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| The Complete Playwright End-to-End Story, Tools, AI, and Real-World Workflows | Blog | With Playwright MCP, AI agents can explore your app, suggest new test cases, and generate tests from natural language after interacting with the app. | [Microsoft Developer Blog](https://developer.microsoft.com/blog/the-complete-playwright-end-to-end-story-tools-ai-and-real-world-workflows) |
+| Beyond chatbots: How AI agents built a full OS, web apps, and more | YouTube | Video demonstration of AI agents building a full OS, web apps, and more. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wSXlMa0dlX0V6ZGNKSmJjMlRBclhHWThac0txSEpwVFg0ZWpfa0RhNFppU1NRcHJBYzJWcDRDRkR0QVdsSnI2TWNCb284dlZFRXA1QUt3?oc=5) |
+| Web MCP: give some tools to your agent | DEV Community | Guide on using Web MCP to provide tools to your AI agent. | [DEV Community](https://news.google.com/rss/articles/CBMiggFBVV95cUxPYlNoSS1JQjhkZDBmTmN0RTduT1AxWFdpY0lXZVdiX2ttVFJfVTc1Z2ZMenAxYnMtcVdlTVhKeW9fLXFROVNRNzRaOTNtUW1ueHNnUGRDTUxfYXkzbjl6QTFITkNXV0ZtVHlKcEFJcnlpLWdhQm8tNjJhS1ZuUHRmeXlR?oc=5) |
+| Deep Agents 实战 | GitHub Book | LangChain/LangGraph-based guide to building production-grade AI agents from scratch. | [GitHub](https://github.com/datawhalechina/deepagents-in-action) |
+| AI 编程 CLI 中文教程 | GitHub Guide | Chinese tutorial covering Claude Code + Codex with 92 refined articles. | [GitHub](https://github.com/stormzhang/ai-coding-guide) |
+| Codex 橙皮书 | GitHub Guide | Full-chain Codex usage guide from installation to practical cases (unofficial open source, includes downloadable PDF). | [GitHub](https://github.com/bozhouDev/codex-orange-book) |
+| 深度拆解：Claude Code、Codex、Cursor、OpenCode的Harness设计与实战差异 | Zhihu Column | In-depth analysis of harness design and practical differences among Claude Code, Codex, Cursor, and OpenCode. | [Zhihu](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1GNVhiUnllWlljc2tFTExPalVkWnJSaVIteDNwVkVFU19YZjZLQ3pnWXJ3M3daS29JdVNRY3BYRy1pMjlDamp6N2JzTS10aXFTV3Z6V0c3QzVFeWlE?oc=5) |
+| Omnigent 实战 | AI编程社区 | Practical guide to orchestrating Claude Code, Codex, Cursor, and other AI coding agents with the Omnigent framework. | [AI编程社区](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxTDlyaExGMVB3Rndia3p6dXBzZ1pvTkZnSTNZenJ2ZHFhWWhSNVJXWTMwMDZxLTR6dUprRnZDYnFRTUZDQjFsbVlLdUo3WUVGX0VSczJTQjRzSWNoNlAySWt5NUJRQQ?oc=5) |
+| 用Codex+iLink Bot API给Agent接入微信 | Zhihu Column | Guide on connecting agents to WeChat using Codex and the iLink Bot API. | [Zhihu](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CTnpKQTRBM3NUR1I5OTkzQ0VMeENqcjBnU0d2MmYwWXBwMjBNOTY0dXhPajZ0TVdhV2QxSGtNSHprekEtUERwWXlBN3k5U0lkM21uT2FTUEJHeHVf?oc=5) |
+| DeepSeek 桌面智能体应用全解析 | CSDN | Comprehensive guide to deploying open-source AI agent platforms and API calls with DeepSeek desktop agents. | [CSDN](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yUWJGMHptZHlUZXBYcmZYMHFnYmJHcEVueWR4U3RZdDlabFBBeXhNcEs4SXlxbjU2YWZzRzVad2txczNkazkyejFGRTY3UEF4Z3F3WmZVLTFLY1J6dll2RUhKdms?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| 扣子 3.0 | Platform | Supports Claude Code and Codex CLI local agent access. | [51CTO](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4NkRBYm1wR3FWcFc5c3prMkQ4WDBLUUtHeDVWWDN2bFJVekxERGNiZi1mZmZlaTU0X2N6czVSVlJqcTExS245ekk0VXZZV2dSeFQ0?oc=5) |

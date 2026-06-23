@@ -102,3 +102,32 @@ This section is divided into two categories: `Tutorials / Cases 0 items` and `Pr
 | Name | Type | Use / Summary | Link |
 |------|------|---------------|------|
 | ORAssistant | Tool | OpenROAD's chatbot assistant for EDA flow interaction and guidance. | [Link](https://github.com/The-OpenROAD-Project/ORAssistant) |
+
+## Resource Update (2026-06-23)
+
+### Papers
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| PDAGENT-BENCH: Characterizing, Grounding, and Architecting LLM Agents for VLSI Physical Design | Benchmark / Paper | Standardized benchmark for evaluating LLM agents on VLSI physical design workflows with multi-stage optimization and EDA tool interaction. | [arXiv](https://arxiv.org/abs/2606.17253v1) |
+| HierSVA: A Data Synthesis Pipeline, Dataset, and Benchmark for LLM-Driven Hierarchical Hardware Formal Verification | Dataset / Paper | Pipeline, dataset (342 modules), and benchmark for LLM-driven hierarchical SystemVerilog Assertion generation and formal verification. | [arXiv](https://arxiv.org/abs/2606.13706v1) |
+| Interpretable and Verifiable Hardware Generation with LLM-Driven Stepwise Refinement | Paper | Framework combining LLM creativity with stepwise refinement for explainable, verifiable RTL generation. | [arXiv](https://arxiv.org/abs/2606.19387v1) |
+| Agentic Electronic Design Automation: A Handoff Perspective | Paper | Analyzes LLM agent handoffs across multi-stage EDA flows, covering tool invocation, state transfer, and cross-stage requirements. | [arXiv](https://arxiv.org/abs/2606.19795v1) |
+| LLM4RTL: Tool-Assisted LLM for RTL Generation | Paper | Tool-assisted LLM approach for open Verilog/RTL code generation with high-quality training samples. | [arXiv](https://arxiv.org/abs/2606.15500v1) |
+| RTLScout: Joint Agentic Code and Synthesis Optimization for Efficient Digital Circuits | Paper | Autonomous system combining LLM agentic design with synthesis optimization and PPA feedback from Yosys/OpenROAD. | [arXiv](https://arxiv.org/abs/2606.06530v2) |
+| VHDLSuite: Unified Pipeline for LLM VHDL Generation with Data Synthesis and Evaluation | Paper | Pipeline and evaluation framework for LLM-based VHDL generation, addressing gaps beyond Verilog. | [arXiv](https://arxiv.org/abs/2606.13735v1) |
+| StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis | Paper | Framework combining stepwise trajectory modeling, process-reward modeling, and retrieval-augmented fine-tuning for RTL code generation. | [arXiv](https://arxiv.org/abs/2606.04246v1) |
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AI-Driven-RTL-Generation | Multi-agent framework | Closed-loop multi-agent framework with RAG and MCP to compile hardware specs into synthesizable SystemVerilog RTL, benchmarked on a RISC-V CPU core. | [GitHub](https://github.com/thanghuynhwinno123-svg/AI-Driven-RTL-Generation) |
+| VeriForge | AI agent sandbox | Sandbox for automatic Verilog RTL generation, debugging, and validation; exports agent trajectories as SFT/DPO training datasets. | [GitHub](https://github.com/JannieUwU/VeriForge) |
+| ai-chip-design-platform | Multi-agent framework | Multi-agent RISC-V verification and test-generation framework for AI-assisted RTL, ISS, compliance, coverage, and debug workflows. | [GitHub](https://github.com/HUNT-001/ai-chip-design-platform) |
+| rtl_agent | Agentic pipeline | Agentic RTL generation pipeline: text/PDF/audio/video → Spec IR → Two-Oracle agent → verified SystemVerilog (GLSVLSI 2026). | [GitHub](https://github.com/srijavuppala/rtl_agent) |
+| fragua | AI-native PCB design tool | AI-native PCB design tool: agent designs board from schematic to routing to fab-ready zip in one loop. | [GitHub](https://github.com/mentasystems/fragua) |
+| digital-chip-design-agents | Agent framework | Digital HDL Design Full-stack Agents (154 stars). | [GitHub](https://github.com/chuanseng-ng/digital-chip-design-agents) |
+| rtl_lm_verification_assistant | Research prototype | Laptop-scale research prototype for AI-assisted RTL code generation and verification-aware evaluation. | [GitHub](https://github.com/hjzhang-ops/rtl_lm_verification_assistant) |
+| Design-Verification-AI-Tool-DEV | GUI verification platform | GUI-based verification platform automating UVM environment and RTL generation with drag-and-drop architecture design. | [GitHub](https://github.com/Karan-nevage/Design-Verification-AI-Tool-DEV) |
+| verilog-tb-pipeline | LangGraph pipeline | LangGraph pipeline for LLM-driven Verilog testbench generation with Pyverilog-based early error localization. | [GitHub](https://github.com/Sawaiz-zip/verilog-tb-pipeline) |

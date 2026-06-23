@@ -109,3 +109,50 @@
 | How to use NIST and ISO frameworks to govern AI agents | 治理框架指南 | 如何使用 NIST 和 ISO 框架治理 AI Agent | [Help Net Security](https://news.google.com/rss/articles/CBMihwFBVV95cUxOOVp4NFcydW5WcG5RaC1vb1RVSzJYVFR2U3Y4T1JVcmdzZ01ZbHFOekwycFBuSlNqR0h3aEZmQTRKTi1EZDF5SWdWR0E0SGtvQVhOM2VvTks2Z1hHdDdpb0hYVjgta29UNlJ3ak1mNUFtRGlkUmVwXzFvaFdEeVVDUmtZSmZsX0k?oc=5) |
 | 30+ Industrial AI Agents to Watch | 行业报告 | 值得关注的 30+ 工业 AI Agent | [AIMultiple](https://news.google.com/rss/articles/CBMiVkFVX3lxTE16WndndUhzVUtXRDNRZ1BqSzZFTE1zSEtkckZqYlg1cWxFUnNqMmxBMUhTQlptVjhJa09JOUNhYUlTNlBmSnNKVXYtS3o2Qks0VnhLZHln?oc=5) |
 | Advancing AI Infrastructure for Agentic AI with NVIDIA DOCA In-Silicon Security | 技术博客 | 使用 NVIDIA DOCA 硅内安全技术推进 Agentic AI 基础设施 | [NVIDIA Developer](https://news.google.com/rss/articles/CBMitAFBVV95cUxOcVZYR1lPd1NtcTg0c0I0Rl9pX3ZtWEd4VlJ3em5ULWFpX0RzUDF1aHY3bkFHOFpGelZPNUNNTnhDbHBHY3NqV1p0MUdsaU10aGE0a0phdDljNW4xMWx1Y2JsdzNWRHVwbW8tQlBiMHRJd2JjbEFwWm5DVHdkVTZyd3lnbTJidmxPRW82UDRnUWF4WkxVY0RKV1dpY1RhR0JLNzFxTlNiTGlodjNKOTlXclNsZGQ?oc=5) |
+
+## 资料更新（2026-06-23）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| FirmwareForge | 开源项目 | 基于 LangChain 和 Claude 的自主 AI Agent，从自然语言描述生成 ESP32/Arduino 固件 | [GitHub](https://github.com/BrianSeungwooShin/FirmwareForge) |
+| ESPer-Chan | 开源项目 | 面向 Xiao ESP32S3 Sense 等硬件的本地 LLM AI Agent，支持 Arduino IDE | [GitHub](https://github.com/mochimochi-man/ESPer-Chan) |
+| AI_Systems_Architect_Lab | 开源项目 | 涵盖 RAG、Agent、MCP、Edge AI、生产部署、Docker 和云的动手实验 | [GitHub](https://github.com/pacificpatel165/AI_Systems_Architect_Lab) |
+| thesis-iot-monitoring | 开源项目 | 自主闭环 IoT 视觉监控：LLM Agent 将自然语言目标转为采集计划，通过 MQTT 发送至裸机 STM32U5，并分析帧（学士论文） | [GitHub](https://github.com/WhitehatD/thesis-iot-monitoring) |
+| ShuFu（鼠符） | 开源项目 | 面向 Windows/Linux、Android 与 ESP32 的极简开源大模型运行与调用层 | [GitHub](https://github.com/yuhaven/ShuFu) |
+| Smart-Energy-Management-System | 开源项目 | 基于 PPO 训练的 AI Agent，利用 10 万条智能家居能耗数据实时最小化电费，集成 Arduino UNO 通过 pySerial 反馈 LED 指示 | [GitHub](https://github.com/Lujain32/Smart-Energy-Management-System-SEMS-) |
+| YoMo | 开源项目 | 无服务器 AI Agent 框架，支持地理分布式边缘 AI 基础设施 | [GitHub](https://github.com/yomorun/yomo) |
+| Agent.cpp | 开源项目 | 专为 Tiny-MoA 在 CPU 上运行而设计的高性能 C++ 推理引擎，优化多 Agent 编排 | [GitHub](https://github.com/muhzars/Agent.cpp) |
+| LUNAR-MINT | 开源项目 | 自主、通信感知的多 Agent 集群仿真（3 辆漫游车 + 1 架无人机），在 MuJoCo 和 ROS 2 中探索月球南极环境，含 DTN 网络退化、分布式边缘 AI 感知（YOLO）和分层地图 | [GitHub](https://github.com/spabhut/LUNAR-MINT) |
+| moumantai | 开源项目 | 自托管运行时，将可靠代码与 LLM Agent 结合，适配各种屏幕 | [GitHub](https://github.com/xiang-deng/moumantai) |
+| espidf-lowfat-skill | 开源项目 | 面向 LLM 编程 Agent 的便携式低内存 ESP-IDF 过滤器和技能包 | [GitHub](https://github.com/npwh/espidf-lowfat-skill) |
+| floating-island-environmental-monitoring | 开源项目 | STM32F407 边缘节点（BME280 + BH1750 + PMS7003 + PIR + ESP8266 + 动态规则引擎）、独立 STM32 鸟鸣 CNN 节点、树莓派 5 + Hailo-8 NPU 视觉、EMQX 代理、FastAPI 设备注册表及基于 LangGraph 的本地 Ollama LLM Agent | [GitHub](https://github.com/Pigbr/floating-island-environmental-monitoring) |
+| STM32CubeMX-Automator | 开源项目 | 让 LLM Agent 配置 STM32CubeMX | [GitHub](https://github.com/fangdhonghong/STM32CubeMX-Automator) |
+| tokymaker-mcp | 开源项目 | MCP 服务器，可从任意 AI 助手编写、编译和烧录 Tokymaker ESP32 STEM 机器人板程序 | [GitHub](https://github.com/tokylabs/tokymaker-mcp) |
+| embed-ai-tool | 开源项目 | 面向 AI 编程助手的嵌入式开发技能集，为 LLM 提供 MCU 固件开发全流程能力（Keil/IAR/CMake/PlatformIO 构建、烧录、GDB 调试、串口监视、Modbus/CAN/VISA 协议调试、外设驱动适配及流水线编排） | [GitHub](https://github.com/LeoKemp223/embed-ai-tool) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| EvoEmbedding | 论文 | 面向长上下文检索和 Agent 记忆的可演化表示嵌入模型，维护持续更新的隐式记忆 | [arXiv](https://arxiv.org/abs/2606.21649v1) |
+| DataClaw0 | 论文 | 从原始流中主动精炼和结构化多模态数据的 Agent 数据裁剪范式 | [arXiv](https://arxiv.org/abs/2606.21337v1) |
+| AutoPass | 论文 | 基于证据引导的 LLM Agent 多 Agent 框架，用于编译器性能调优 | [arXiv](https://arxiv.org/abs/2606.20373v1) |
+| SkillMutator | 论文 | 针对 LLM Agent 技能的语言与代码跨模态攻击的基准测试与防御 | [arXiv](https://arxiv.org/abs/2606.14154v1) |
+| Library-Aware Doubles and Iterative Repair | 论文 | 面向 openSIL 固件（AMD）的 LLM 引导多 Agent 单元测试自动生成工作流 | [arXiv](https://arxiv.org/abs/2606.19725v2) |
+| SoK: AI-Augmented Binary Reversing | 论文 | 系统化梳理 AI（含 Agentic AI）在二进制逆向（含固件审计）中的应用 | [arXiv](https://arxiv.org/abs/2606.17398v1) |
+| Embedded Arena | 论文 | 通过硬件反馈迭代优化：LLM Agent 自主导航异构 MCU 的多维优化（内存、功耗、温度、精度） | [arXiv](https://arxiv.org/abs/2606.16190v1) |
+| Nous | 论文 | 基于预测世界模型的长期 Agent 记忆架构，以信息论惊喜度替代持久化存储 | [arXiv](https://arxiv.org/abs/2606.22030v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Securing the future of AI agents | 博客/教程 | 结合传统防护和实时监控的 AI 控制路线图，保护内部系统 | [DeepMind](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |
+| Is it agentic enough? | 博客/教程 | 在自有工具上对开源模型进行 Agent 能力基准测试 | [Hugging Face](https://huggingface.co/blog/is-it-agentic-enough) |
+| Build real agentic apps using CUGA | 博客/教程 | 基于轻量框架的 20 多个 Agent 应用工作示例 | [Hugging Face](https://huggingface.co/blog/ibm-research/cuga-apps) |
+| 豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码 | 媒体报道 | 编程能力比肩 Opus 4.7，Agent 自主完成芯片设计代码 | [量子位](https://www.qbitai.com/2026/06/437503.html) |
+| The AI world is getting ‘loopy’ | 媒体报道 | 授权 Agent 集群在后台持续工作的循环式 Agentic AI | [TechCrunch](https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/) |
+| From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot | 博客/教程 | 从 Hugging Face Hub 到机器人硬件的端到端 Agent 部署 | [Hugging Face](https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware) |
+| Agentic Resource Discovery | 博客/教程 | 让 Agent 自主搜索和发现资源 | [Hugging Face](https://huggingface.co/blog/agentic-resource-discovery-launch) |

@@ -151,3 +151,52 @@
 | GodeX 1.2.0 | API 网关 | OpenAI 兼容的 Responses API 网关，让 Codex、CLI 工具和开发者 Agent 接入任意模型（如 DeepSeek、智谱等） | [开源中国](https://www.oschina.net/news/458338) |
 | OpenEnv for Agentic RL | 强化学习环境 | 开源社区支持的 Agentic 强化学习环境 | [Hugging Face](https://huggingface.co/blog/openenv-agentic-rl) |
 | Holo3.1 | 本地计算机使用 Agent | 快速、本地的计算机使用 Agent | [Hugging Face](https://huggingface.co/blog/Hcompany/holo31) |
+
+## 资料更新（2026-06-23）
+
+### 资料更新（2026-06-23）
+
+#### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| wellingfeng/UltraGameStudio | GitHub 项目 | AI 编码智能体，用于游戏开发中的引擎工作流、游戏逻辑代码和资源生成。 | [https://github.com/wellingfeng/UltraGameStudio](https://github.com/wellingfeng/UltraGameStudio) |
+| keigotak/casual-game-creation | GitHub 项目 | 基于 Claude Code 的多智能体工作流，用于迭代开发小型网页游戏。 | [https://github.com/keigotak/casual-game-creation](https://github.com/keigotak/casual-game-creation) |
+| trzz333/sight | GitHub 项目 | 本地优先的 AI 游戏智能体实验室，支持自定义 Godot 微游戏、开源游戏和 Gymnasium 基准测试。 | [https://github.com/trzz333/sight](https://github.com/trzz333/sight) |
+| yksorez/defold-agent-config | GitHub 项目 | 为 Defold 引擎提供 AI 智能体配置和技能，以增强游戏开发工作流。 | [https://github.com/yksorez/defold-agent-config](https://github.com/yksorez/defold-agent-config) |
+| rkibistu/godot-ai-igloo | GitHub 项目 | 集成智能体 AI、MCP 和 Godot 的沙盒环境。 | [https://github.com/rkibistu/godot-ai-igloo](https://github.com/rkibistu/godot-ai-igloo) |
+| Redgoatfishwhittler671/AgentZet | GitHub 项目 | 使用 AI 智能体在 Unreal Engine 中自动化游戏开发，包括构建项目、编辑 C++ 源文件和管理蓝图。 | [https://github.com/Redgoatfishwhittler671/AgentZet](https://github.com/Redgoatfishwhittler671/AgentZet) |
+| agustinrbeltran/game-dev-agent-package | GitHub 项目 | 为 AI 编码智能体提供的游戏开发者角色包，涵盖 Unity/Unreal 架构、游戏玩法、物理、AI、着色器、网络等。 | [https://github.com/agustinrbeltran/game-dev-agent-package](https://github.com/agustinrbeltran/game-dev-agent-package) |
+| vitordepaula/pong | GitHub 项目 | 使用 HTML5 Canvas 和 CSS3 构建的极简复古风格 Pong 游戏，作为智能体编码的研究案例。 | [https://github.com/vitordepaula/pong](https://github.com/vitordepaula/pong) |
+| projectkraenk/Awesome-AI-Game-Dev-Tools | GitHub 项目 | 精选的 AI 游戏开发工具列表，包括智能体、框架、资源生成器、NPC 系统、测试平台等。 | [https://github.com/projectkraenk/Awesome-AI-Game-Dev-Tools](https://github.com/projectkraenk/Awesome-AI-Game-Dev-Tools) |
+| Yuan-ManX/ai-game-devtools | GitHub 项目 | AI 游戏开发工具中心，涵盖 LLM、世界模型、智能体、代码、图像、3D 模型、动画、音频等资源。 | [https://github.com/Yuan-ManX/ai-game-devtools](https://github.com/Yuan-ManX/ai-game-devtools) |
+| dreamteam-hq/brigid | GitHub 项目 | Godot 4.6 MMO 游戏开发智能体。 | [https://github.com/dreamteam-hq/brigid](https://github.com/dreamteam-hq/brigid) |
+| Yuki001/game-dev-skills | GitHub 项目 | 个人智能体技能仓库，主要专注于游戏开发。 | [https://github.com/Yuki001/game-dev-skills](https://github.com/Yuki001/game-dev-skills) |
+| ShahmeerAftab/ai-snake-game | GitHub 项目 | 通过 LLM 迭代提示、测试和优化开发的 AI 辅助贪吃蛇游戏。 | [https://github.com/ShahmeerAftab/ai-snake-game](https://github.com/ShahmeerAftab/ai-snake-game) |
+| brandonbirchwork-hash/God-sim | GitHub 项目 | 像素风格的神明模拟世界，包含进化智能体的 2D 文明模拟游戏。 | [https://github.com/brandonbirchwork-hash/God-sim](https://github.com/brandonbirchwork-hash/God-sim) |
+
+#### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| 3DCodeBench: Benchmarking Agentic Procedural 3D Modeling Via Code | 论文 | 评估视觉语言模型智能体在 3D 建模软件中进行程序化 3D 生成的系统基准。 | [https://arxiv.org/abs/2606.01057v1](https://arxiv.org/abs/2606.01057v1) |
+| Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games | 论文 | 引入 RNG-Bench 基准套件，用于评估多模态大模型在非马尔可夫游戏中重建过去观察并据此行动的能力。 | [https://arxiv.org/abs/2606.19338v1](https://arxiv.org/abs/2606.19338v1) |
+| Hierarchical Control in Multi-Agent Games: LLM-based Planning and RL Execution | 论文 | 提出一种分层架构，使用 LLM 作为中央策略控制器，为团队中的智能体选择专门的 RL 技能策略。 | [https://arxiv.org/abs/2606.20014v1](https://arxiv.org/abs/2606.20014v1) |
+| Enhancing Decision-Making with Large Language Models through Multi-Agent Fictitious Play | 论文 | 通过多智能体虚拟博弈增强 LLM 在决策任务中的表现，解决利益相关者决策相互依赖的问题。 | [https://arxiv.org/abs/2606.19308v1](https://arxiv.org/abs/2606.19308v1) |
+
+#### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| Cline for VS Code: Free AI Coding Agent Setup Guide (2026) | 教程 | 介绍 Cline 的安装与自定义指令设置，包括使用 Cline Rules 进行版本控制。 | [https://www.deployhq.com/guides/cline](https://www.deployhq.com/guides/cline) |
+| Codex-maxxing for long-running work | 教程 | 学习 Jason Liu 如何使用 Codex 保持上下文、管理复杂项目并支持超长工作。 | [https://openai.com/index/codex-maxxing-long-running-work](https://openai.com/index/codex-maxxing-long-running-work) |
+| Is it agentic enough? Benchmarking open models on your own tooling | 教程 | 关于如何使用自有工具对开放模型进行智能体能力基准测试的指南。 | [https://huggingface.co/blog/is-it-agentic-enough](https://huggingface.co/blog/is-it-agentic-enough) |
+| Build real agentic apps using CUGA | 教程 | 使用 CUGA 轻量级框架构建真实智能体应用的二十多个工作示例。 | [https://huggingface.co/blog/ibm-research/cuga-apps](https://huggingface.co/blog/ibm-research/cuga-apps) |
+
+#### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| Cursor (company) | 产品 | AI 编码智能体和软件开发环境，支持跨代码库搜索、编辑文件、运行终端命令和多步编程任务。 | [https://en.wikipedia.org/wiki/Cursor_(company)](https://en.wikipedia.org/wiki/Cursor_(company)) |
+| cline/cline | 工具 | 开源自主编码智能体，可作为 SDK 和 IDE 扩展运行，能理解项目结构并协调跨文件更改。 | [https://github.com/cline/cline](https://github.com/cline/cline) |
+| Cline (AI coding agent) - AI Wiki | 工具 | Cline 的维基百科条目，介绍其作为 VS Code 扩展的开源自主编码智能体。 | [https://aiwiki.ai/wiki/cline](https://aiwiki.ai/wiki/cline) |

@@ -108,3 +108,32 @@
 | HAIM: Human-AI Music Datasets for AI Music Production Tracking Benchmark | 论文 | 针对 Suno、Udio 等平台达到人类级音频质量后，提出超越“AI 或人类”二分法的音乐制作追踪基准 | [https://arxiv.org/abs/2606.01686v1](https://arxiv.org/abs/2606.01686v1) |
 | JenBridge: Adaptive Long-Form Video Soundtracking across Scene Transitions | 论文 | 基于 Transformer 的模块化框架，用于生成长视频配乐并保持场景切换时的连贯性 | [https://arxiv.org/abs/2606.01703v1](https://arxiv.org/abs/2606.01703v1) |
 | Cross-domain benchmarks reveal when coordinated AI agents improve scientific inference from partial evidence | 论文 | 跨领域基准测试，评估协调式 AI Agent 在将分子结构映射为音乐表示等科学任务中的价值 | [https://arxiv.org/abs/2605.22300v1](https://arxiv.org/abs/2605.22300v1) |
+
+## 资料更新（2026-06-23）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| mood-playlist-agent | GitHub 项目 | 根据情绪、天气和收听历史生成个性化播放列表的 AI Agent | [https://github.com/niravpatidar37/mood-playlist-agent](https://github.com/niravpatidar37/mood-playlist-agent) |
+| vesper | GitHub 项目 | 面向 Cider Apple Music 客户端的文本优先 A2A/MCP 音乐控制 Agent，支持自适应会话、自然语言播放控制和本地 CLI | [https://github.com/randileeharper/vesper](https://github.com/randileeharper/vesper) |
+| SoulTuner-Agent | GitHub 项目 | 基于大模型 + 知识图谱 + 双模型声学向量的本地智能音乐推荐 Agent，具备混合 RAG、Neo4j 和长期记忆 | [https://github.com/hgsanyang/SoulTuner-Agent](https://github.com/hgsanyang/SoulTuner-Agent) |
+| FADE-Director | GitHub 项目 | 本地托管的 Agent 服务，从上传歌曲出发，通过对话式 LLM Agent 引导创意流程，分析音乐、规划场景、生成提示词并编排图像/视频生成 | [https://github.com/ckinpdx/FADE-Director](https://github.com/ckinpdx/FADE-Director) |
+| FrameFusion | GitHub 项目 | AI 辅助短视频创作工具，通过聊天界面调用专业 Agent、Pexels B-roll 工具、音乐生成和 MP4 渲染 | [https://github.com/barkerbg001/FrameFusion](https://github.com/barkerbg001/FrameFusion) |
+| bony-agent | GitHub 项目 | 全栈 AI 内容生产与分发平台，集成聊天、图像/视频/音乐生成、智能编辑、多平台定时发布，含 27+ 专业 Agent | [https://github.com/phuhao00/bony-agent](https://github.com/phuhao00/bony-agent) |
+| roon-mcp | GitHub 项目 | 通过 AI Agent 控制 Roon 音乐播放器的 MCP 服务器 | [https://github.com/bestimmaa/roon-mcp](https://github.com/bestimmaa/roon-mcp) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Libretto: Giving LLM Agents a Sense of Musical Structure | arXiv 论文 | 提出面向 Agent 的符号音乐生成与修订框架，使用 LLM 原生语法（显式起始槽、声部、小节组织），并在节奏、和声、旋律、织体、形式与变奏的统计空间中评估作品 | [https://arxiv.org/abs/2606.22708v1](https://arxiv.org/abs/2606.22708v1) |
+| Audio-Mind: An Auditable Agentic Framework for Audio Understanding | arXiv 论文 | 提出可审计、可插拔的音频理解 Agent 框架，动态结合强前端模型与条件证据获取，判断何时 Agent 的证据收集真正有益于音频理解 | [https://arxiv.org/abs/2605.28480v1](https://arxiv.org/abs/2605.28480v1) |
+
+### 教程 / 媒体实测
+
+（无新增资料）
+
+### 产品 / 工具
+
+（无新增资料）
