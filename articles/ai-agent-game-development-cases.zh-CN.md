@@ -200,3 +200,54 @@
 | Cursor (company) | 产品 | AI 编码智能体和软件开发环境，支持跨代码库搜索、编辑文件、运行终端命令和多步编程任务。 | [https://en.wikipedia.org/wiki/Cursor_(company)](https://en.wikipedia.org/wiki/Cursor_(company)) |
 | cline/cline | 工具 | 开源自主编码智能体，可作为 SDK 和 IDE 扩展运行，能理解项目结构并协调跨文件更改。 | [https://github.com/cline/cline](https://github.com/cline/cline) |
 | Cline (AI coding agent) - AI Wiki | 工具 | Cline 的维基百科条目，介绍其作为 VS Code 扩展的开源自主编码智能体。 | [https://aiwiki.ai/wiki/cline](https://aiwiki.ai/wiki/cline) |
+
+## 资料更新（2026-07-05）
+
+### 项目
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| gamedev-skills/awesome-gamedev-agent-skills | 技能库 | 面向 AI 编码代理的游戏开发技能集，包含 66 个版本固定的 SKILL.md 技能与主路由器，支持 Godot、Unity、Unreal 等引擎，可跨 Claude Code、Cursor、Codex 等工具使用。 | https://github.com/gamedev-skills/awesome-gamedev-agent-skills |
+| beckettlab/beckett-godot-mcp | MCP 服务器 | 内置于 Godot 编辑器的零边车 MCP 服务器，AI 代理可检查、编写、运行并查看游戏，支持 GDScript 与 C#，具备写前验证，无需 Node.js。 | https://github.com/beckettlab/beckett-godot-mcp |
+| ovbslaught/NOMADZ-0 | 游戏项目 | Godot 4 3D 基底 + OCEAN 2D 层，包含 NPC AI、群体代理与 ML 管线的 Signalverse 宇宙项目。 | https://github.com/ovbslaught/NOMADZ-0 |
+| lyethar/GitHub-Secure-Code-Games---Agentic-AI-Security | 安全实验 | 部署并记录 GitHub Secure Code Game 在代理式 AI 上的实践，聚焦可执行命令、浏览网页、使用工具并协调其他代理的安全 AI 代理。 | https://github.com/lyethar/GitHub-Secure-Code-Games---Agentic-AI-Security |
+| krysjak/game-projects | 游戏项目 | 包含“2d war”（通过 AI 代理生成历史视频）与“other world”（星座/生命树艺术游戏）的 Python 游戏集。 | https://github.com/krysjak/game-projects |
+| anatomy08/Tag-Game-Web-Ai | 实验项目 | 测试使用代理以“vibe coding”方式生成的小型网页项目。 | https://github.com/anatomy08/Tag-Game-Web-Ai |
+| venkat212121/tic-tac-toe-app | 网页游戏 | 借助生成式 AI 编码代理构建的井字棋网页应用，包含游戏逻辑、胜负检测与计分。 | https://github.com/venkat212121/tic-tac-toe-app |
+| espetro/mcp-sim | MCP 服务器 | 用于在远程 macOS 主机上管理 iOS 模拟器与 Android 模拟器生命周期的 MCP 服务器，支持代理驱动的模拟器操作。 | https://github.com/espetro/mcp-sim |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| Agentic Knowledge Tracing: A Multi-Agent LLM Architecture for Stealth Assessment of Financial Literacy in Serious Games | 论文 | 提出多代理 LLM 架构 Agentic BKT 流水线，在严肃游戏中基于 OECD/INFE 框架对金融素养进行无干扰评估。 | https://arxiv.org/abs/2606.25358v1 |
+| Triadic Werewolf: A Jester Role for Multi-Hop Theory of Mind in LLMs | 论文 | 在狼人杀中加入第三方“小丑”角色，要求模型推理三种对立效用函数，用于评估 LLM 的多跳心智理论能力。 | https://arxiv.org/abs/2606.27909v1 |
+| A Lifecycle and Application-Stack Survey of Large Language Model Vulnerabilities | 论文 | 综述 LLM 在全生命周期与应用栈中的安全风险，涵盖检索管线、企业助手、编码环境、自主代理等场景的攻击与防御。 | https://arxiv.org/abs/2606.31639v1 |
+| LLM Semantic Signaling Game and Mechanism Design | 论文 | 构建语义信号博弈模型，研究 LLM 在策略交互中的语义控制、意识塑造与心态动态。 | https://arxiv.org/abs/2606.29113v1 |
+| Persona-Trained Monte Carlo: Estimating Market-Outcome Distributions via Swarms of Persona-Conditioned Neural Policy Bots | 论文 | 提出 PTMC 方法，通过大量人格条件化的神经策略机器人在限价订单簿中交互，估计市场结果分布。 | https://arxiv.org/abs/2606.29556v1 |
+| ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | Benchmark | IBM Research 发布的基准，用于评估 AI 代理在企业级 Java 框架迁移中的表现。 | https://huggingface.co/blog/ibm-research/scarfbench |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| Experimental Case Study: Quickly Re-Developing Pandemic Space Game by Claude | 案例研究 | 使用 Claude 快速重新开发 Pandemic 太空游戏的实验性案例。 | https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNGpKNGx2eUhOUUNka3Z1Y2JLcTVZUEkxR2NqbzQycG5zZFF6ckdfV2hMVmhtSzVfVTBHOHQtZGt4MTVta0dxeEZPMlFjOUFxZWlmQTZ0SmcySHJrd04zcWVaVW55NXVBMUo2aFJYb2NkZGJYbmN4WkN1MUtDWjBaRTR2Mi1vZWo2QmNWTUsyRmUwU0Q0YUVCbHkxMmJiRG55M2tYcmZmNU1fcnJTYjF5VUZZT2h2b2NuMm9rWHRac0U?oc=5 |
+| 干了四年开发，接触Agent才半年，他拿下了24k游戏AI的Offer | 经验分享 | 知乎专栏文章，讲述开发者接触 Agent 半年后获得游戏 AI 岗位 Offer 的经历。 | https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qWnNnQjMtUGIxYnFSaGJLUzg5d1hkNVpmZ0hySmZDSjRfZzVZUFRKYlNrMjVhVXVoVlF4dFJRcWNIWjhaV2dmMzR3UUJGc3BBbmNTN1kzV1d0X0lr?oc=5 |
+| 多智能体协作开源神器：涵盖266个AI Agent角色，20个部门 | 工具介绍 | 知乎专栏介绍涵盖 266 个 AI Agent 角色与 20 个部门的多智能体协作开源项目。 | https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DRmo3dDFYVDRyb0E5dnpfcnZONm5PT2NVanhyUmZIUU1BRHM5MnZ4bDRvWmRNWDlHSWVPZDJxVzN4SDc1UUg1YVBiQkdjWHAyNGNrN0lzRkx4TUZn?oc=5 |
+| ReActAgent 使用指南：构建会思考、能行动的 AI Agent | 教程 | 基于 Solon AI 4.0 的 ReActAgent 构建生产级 AI Agent 的指南，涵盖推理、工具调用与反馈调整。 | https://www.oschina.net/news/471482 |
+| 收藏！小白程序员必看：一文搞懂AI Agent核心原理与实战代码 | 教程 | CSDN 文章，面向初学者讲解 AI Agent 核心原理并提供实战代码。 | https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PQzNkclc3TVR3M2w1UjVjVG00VVZBN0ZENkp5VHdOOXRQTlo2dUxxOWN0cndodEs4eFhhWGF0RmZOSE9yTjFXMVo4SzhjaHRxX0Jvd1BjSURMczUyNk1j?oc=5 |
+| 国产版Codex？阿里QoderWork有点东西 | 工具实测 | 掘金文章介绍阿里 QoderWork，并展示其结合 Codex 与 Claude Code 设计的学习网站。 | https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OOUJQR0FrUkpIM01SSVBVNHBjOWwyUGxuUGpka09VWnZmN1FJM2h1Ykg5NmktRDl6YXE0X0lUU0tYNkVmX1VWUTdSSGxTSTBPT185UQ?oc=5 |
+| 大语言模型基础（LLM） | 教程 | 菜鸟教程的 AI Agent 系列，讲解 LLM 作为 Agent 大脑的基础知识。 | https://www.runoob.com/ai-agent/ai-agent-llm.html |
+| How agents are transforming work | 研究报告 | OpenAI 研究论文，展示 AI 代理如何改变工作方式，支持更长、更复杂的任务并扩展生产力。 | https://openai.com/index/how-agents-are-transforming-work |
+| How to automate workflows using open-source AI agents | 教程 | TechRadar 文章，介绍如何使用开源 AI 代理自动化工作流。 | https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb2dOaEItUXY0dDhlaC1XVTc4TDlNTzFwVnpja1BnOEg2bkM4WUd2X2RjRGhvREgtSnpidGdTa2FZYUZJdWpnWnhGM2ZrcC1hVmlEb2pRU2QtY3VYSm1neGI5Y25sZ1ZjNXIyUndESTIwcFhZY19rYTkzRkNEZ2pyc211cUltdHZ0aGhj?oc=5 |
+| Octo: Giving AI Agents a Desk, an Identity, and a Performance Review | 工具介绍 | DEV Community 文章，介绍为 AI 代理提供工作台、身份与绩效评估的 Octo 系统。 | https://news.google.com/rss/articles/CBMimwFBVV95cUxNREw0dGhEWnpWWGc4dU12bU5adTVQajRnM3h0Y3hiT0FNNmI4ZGVud0NjRlV6SkRDOGVHbjdjSGhjRWMyWVFUeFNwV3JrNVFoblloaGNVSUFtb0FBb0U5TWpXQUFUUGxtTDJoNWJyMXc3WjMzb1h5d0VMOU9CWXRnLWRXcTE1ZVEwNVBhWVR1aVBkcE5PZHBZa3RHUQ?oc=5 |
+| Dwsy/agent: Enterprise-grade AI Agent system | 项目介绍 | GitHub 项目介绍，面向代码生成、分析与编排的企业级 AI Agent 系统。 | https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBudzdTOTR1QmxvVm5fVDFCTktOZWFieVlycEU4b2x4TzdTS0o0NHJJajNhMWxMMzBocHV1enRPeXNkQ0U?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| Meta Pocket | 产品 | Meta 推出的实验性 AI 应用，用户可通过文本提示生成并分享交互式迷你游戏。 | https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/ |
+| General Intuition | 公司动态 | General Intuition 以 23 亿美元估值押注用电子游戏训练面向真实世界的 AI 代理。 | https://news.google.com/rss/articles/CBMiugFBVV95cUxQeXlXM1plbHgxeFhXemotRzFvY2M2MEs1Vmk3RU1EZjQzZC02a3JYR0Ewa3g0Rkx3Y01pSlA2RjNjbU9NME1oOE5oRExoU0xNeU5xVlczVmtHS01WRThseTNhelhldFMyMXB2Y2l5bkdGM0RNbFRQOFdRcEV1bjlzLS1teEVtV01iUWxhYUxNX1dPbUVKaGJjYkxod3d1TzhWUDNjOHBfS2ZjVjk1eUhIaGNpM1dlQW0xNEE?oc=5 |
+| Godot 禁止 AI 生成贡献 | 社区政策 | Godot 禁止涉及“自主 AI 代理使用或 vibe coded”的代码贡献。 | https://news.google.com/rss/articles/CBMilwFBVV95cUxPeE9TWFZJV2tiN2F4MjU5V3FvYXhqUkJDUWlMX1RKLV9HS0w4Q3BOSHJNQTdLSzdEcVFROHBZSDRsWS1CRHl3WU1qZnZ0LWZFeWhnbXF3LVU0Q2lidjVsOUpwMHZIZndMMmZ4SjdhZklPN3hOOXVVeVFkbVdGNTZjUGsxZkJCVkVRWjVHZHpNWDV5aTRieVlB?oc=5 |
+| Mark Zuckerberg 称 AI 代理进展不及预期 | 行业动态 | Meta CEO 在内部会议上表示 AI 代理的开发进展未达预期。 | https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/ |

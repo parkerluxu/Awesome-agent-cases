@@ -137,3 +137,47 @@
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
 | 豆包 2.1 发布：Agent 自己跑 18 个小时搞定芯片设计代码 | 媒体实测 | 报道豆包 2.1 模型驱动的智能体连续运行 18 小时完成芯片设计代码生成 | [量子位](https://www.qbitai.com/2026/06/437503.html) |
+
+## 资料更新（2026-07-05）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|----------|------|
+| mingyo186/partreel | 开源项目 | 面向人类与 AI Agent 的开放、免登录 KiCad 元件库，提供经验证的封装、符号与 3D 模型（STEP/GLB），含数据手册溯源、静态 JSON API 及 MCP 服务器。 | https://github.com/mingyo186/partreel |
+| shuvamk/openbench | 开源项目 | 电子开放工作台，支持浏览器内完成原理图→仿真→固件流程；底层集成 KiCad、ngspice、Renode、PlatformIO 等开放引擎，通过 MCP 由 AI Agent 驱动。 | https://github.com/shuvamk/openbench |
+| pxf0797/agent-verify-skill | 开源项目 | 基于芯片设计验证方法论的 AI Agent 断言式验证框架，提供 7 条命令、6 种断言类型与三级 LLM 评判器。 | https://github.com/pxf0797/agent-verify-skill |
+| weiber2002/ICRTL-Benchmark | 开源项目 | 面向工业级 RTL 设计挑战的基准，用于评估 PPA 优化、代码生成及 LLM 在 EDA 中的应用。 | https://github.com/weiber2002/ICRTL-Benchmark |
+| yuhongtanghyh-create/mini-agentic-eda | 开源项目 | 面向 LLM 生成 Verilog 的微型 Agentic EDA 流程，涵盖仿真、综合、修复与实验报告。 | https://github.com/yuhongtanghyh-create/mini-agentic-eda |
+| gatlinggunhuy/ClaudeVerilogEval | 开源项目 | 基于 VerilogEval 数据集的评估项目，用于考察 Claude 系列 LLM 部署模式在 RISC-V RTL 协同设计中的表现。 | https://github.com/gatlinggunhuy/ClaudeVerilogEval |
+| VaibhavSaran/FlowForge_AI | 开源项目 | 用于在芯片设计软件中集成 Agentic AI 的沙盒测试项目。 | https://github.com/VaibhavSaran/FlowForge_AI |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|----------|------|
+| CHIA: An open-source framework for principled, agentic AI-driven hardware/software co-design research | 论文 | 提出开源框架 CHIA，用于在计算机架构、系统、编译器与 VLSI 等领域开展有原则的、Agentic AI 驱动的软硬件协同设计研究。 | https://arxiv.org/abs/2606.27350v2 |
+| Agentic Hardware Design as Repository-Level Code Evolution | 论文 | 提出自演化 Agent 框架 HORIZON，将硬件设计视为仓库级代码演化，通过 Markdown 装配文件与 git 工作树实现免人工干预的 Agent 循环。 | https://arxiv.org/abs/2606.28279v1 |
+| VeriChat: An Agentic Conversational AI Assistant for Hardware Security Verification | 论文 | 提出面向硬件安全验证的 Agentic 对话式 AI 助手 VeriChat，旨在为工程师提供结构化的安全指导。 | https://arxiv.org/abs/2607.01668v1 |
+| PDAGENT-BENCH: Characterizing, Grounding, and Architecting LLM/VLM Agents for VLSI Physical Design | 论文 | 构建面向 VLSI 物理设计的标准化基准 PDAGENT-BENCH，用于评估 LLM/VLM Agent 在高维、多阶段优化与 EDA 工具协同中的能力。 | https://arxiv.org/abs/2606.17253v2 |
+| SafeGen: LLM-Driven Assertion Generation and Fault Criticality Evaluation for Functional Safety | 论文 | 提出 LLM 驱动、形式验证辅助的功能安全框架 SafeGen，用于面向汽车芯片的故障关键性评估。 | https://arxiv.org/abs/2606.25296v1 |
+| VeriPilot: An LLM-Powered Verilog Debugging Framework | 论文 | 提出 LLM 驱动的 Verilog 调试框架 VeriPilot，针对复杂错误中根因与可观测输出相距较远的问题进行改进。 | https://arxiv.org/abs/2606.23759v1 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|----------|------|
+| HORIZON Hits 100% on Chip Design Benchmarks Without a Human in the Loop | 视频 | YouTube 视频介绍 HORIZON 框架在芯片设计基准上实现 100% 自动化，无需人类介入。 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MMG80amROTW9VQTViem1mNVFGVlFtRERBWjgtRlI0WElrbURJcDg2T25vb2ZPQUxOajdZcWk4T1I1RDdRS2lPampUNzd5YWFJZlo0aVdR?oc=5 |
+| Doubao-Seed-2.1 重磅发布：18 小时跑通芯片设计 RTL 代码全流程 | 文章 | 知乎专栏文章介绍 Doubao-Seed-2.1 在 18 小时内完成芯片设计 RTL 代码全流程。 | https://news.google.com/rss/articles/CBMiXEFVX3lxTE96TXh0aW5RTWVyWnlDenE0ZnRScDEwY1V4SmtuRi1IZ1pSbnhmZi0xVlBPWGhwNVpxV3pMWll1OW9pdVQ2by0zQ3JsTnhPdzEzSXRzdnNHUEY3ZUFI?oc=5 |
+| 自研Agentic AI EDA平台助力芯片设计迈入新阶段 | 文章 | 来自 content.foshanplus.com 的报道，介绍自研 Agentic AI EDA 平台。 | https://news.google.com/rss/articles/CBMiekFVX3lxTE9LSktIVEkyandXcTVncHA3bVBWRlUyc2RIVWd5UXdyS1RGT25NT0dzVUNrZmo4OEd0RkRkOWZIeWVaQ2NNNUtrS3I1ZWdkVzkwWHZwRDFTVG5UWVlVNW5oTnhhWE9HTEdlTldkY2tqaWl5QkxFWWw3MVJ3?oc=5 |
+| How Agentic AI Will Transform IC Design Productivity | 文章 | EE Times India 文章探讨 Agentic AI 如何变革 IC 设计生产力。 | https://news.google.com/rss/articles/CBMihwFBVV95cUxNSUpBdmNGZU1qNkY1YlZGdjhwUGZCd004aUNIOVA5endpZ2RnVHRqX3FnR1I5S2I5ZFZkYk1KYWllLWJIWlZzRmMycWVRWDVFX0JheTJHQmpsZjVoVGlUWVJmbE5PUjZVRTRIY0FaaE8yUG5SSUVSLVFLcC1pclNKU29TTUhmVjQ?oc=5 |
+| Why Cadence Sees AI Super Agents as the Next Semiconductor Productivity Engine | 文章 | EE Times Asia 报道 Cadence 将 AI 超级 Agent 视为下一代半导体生产力引擎的观点。 | https://news.google.com/rss/articles/CBMitwFBVV95cUxPNGYxQWUxZ3IyNHFOM1hRVzZld2I3eUl3aG1MZnV1NU55Qm1Qa0dNVW9BZzFnZFp3cjNacU5LZTlHWERmMzhWV0xjTHQ5T3FFVlZVV281ZVd3bHdYUWhYLVcxNkUtLTY5d0VobktNNEdtUDJva1JPTFkyQV9odUp5Z2JPRGJWcVppME9JSHJKSlZfRmpXZFh0c0JNV0dvRVJ1TWdaY2xBQ0NHWU14a2lxTWhsMy1IRTQ?oc=5 |
+| When AI No Longer Just Assists but Controls EDA Workflows | 文章 | All-About-Industries 文章讨论 AI 从辅助走向控制 EDA 工作流的趋势。 | https://news.google.com/rss/articles/CBMiygFBVV95cUxObTF6UmRiYmlacktibThVbVJjclNqRWtZSFgzNTB6U21vTktocE5BUzYwekc4Q3lPNHZxb2hpdTR4Y3d6LXJZM0xEZFBWQ0MzS0xwVHl2ZkF5TjdiWU9YY1pWZlZyb2JIcF9yY1pGZWZ4REp1a2owei1sb3JvQWdQcllyLUo5ajI4UjNpdTk2MjFuWEtkZjJCMkRKaUwxeHA2VDhUbEJhTTA4RDN4TEN6b3NJeFVpRGpHSE1nTnFEZTM0YVNnZlJmRXV3?oc=5 |
+| Cadence Autonomous AI Design Engineer Accelerates Chip Verification and Development | 文章 | EE Times Asia 报道 Cadence 自主 AI 设计工程师加速芯片验证与开发。 | https://news.google.com/rss/articles/CBMirAFBVV95cUxQa1JLdnZTci1QYnpBbnpiUzJHX1VBN1QyT0dmenNYY0owVmllbV8tdjBwb1FyU2VxRVMzaWk2UlYwR2VCZHlpOFl0RUd6TXFsUTdGN1BnclM5ajRfdDhaT3FNT3NtdTI3eWZ5V1k0ZkJuQXNubEctNGw3MUUxUFVkQWFMY3Y5YUpSelhCa3psN2Y5bHk0eDNuUGM1UVN3TVhiMnQwLWR5dFc0c1BL?oc=5 |
+| 40倍提速！全球首款EDA全自主AI工程师来了，百万年薪工程师会被取代吗？ | 文章 | 电子工程专辑报道全球首款 EDA 全自主 AI 工程师，宣称实现 40 倍提速。 | https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuV25zQWJHcFJPdTYtTlQydG9JRW1TMVVfWGtSS1QtVG1feG1UQUM5amNraG1EMXczVnVXNl9Nd09ubXN0V0NmdjFWSWY2dTBrSDE4?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|----------|------|
+| chuanseng-ng/digital-chip-design-agents | 工具/仓库 | 数字 HDL 设计全栈 Agent 仓库。 | https://news.google.com/rss/articles/CBMiakFVX3lxTE1PS1lrbXFXSXBNWHlUN3g3NDNTTUR0QzhLakl4WUNQcjczQlV6TldyRUJJWFdveGwxOVlCV2xZczdKWEYwcFYyUUVoS2pzOU5kWDd4ckw1bUxsUDd2VGFWeUpLQlY2ak1xb1E?oc=5 |

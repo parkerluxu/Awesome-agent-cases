@@ -213,3 +213,55 @@ This section is divided into two categories: `32 Tutorials / Cases` and `15 Proj
 | Name | Type | Use / Summary | Link |
 |------|------|---------------|------|
 | 扣子 3.0 | Platform | Supports Claude Code and Codex CLI local agent access. | [51CTO](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4NkRBYm1wR3FWcFc5c3prMkQ4WDBLUUtHeDVWWDN2bFJVekxERGNiZi1mZmZlaTU0X2N6czVSVlJqcTExS245ekk0VXZZV2dSeFQ0?oc=5) |
+
+## Resource Update (2026-07-05)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| zhikunqingtao/zhikuncode | Open-source alternative | Claude Code / Cursor 开源替代。Self-hosted, CLI & Web UI, Multi-Agent collaboration, native support for Qwen/DeepSeek. SWE-bench Lite 56%. Docker one-click deploy, MIT license. | [github.com/zhikunqingtao/zhikuncode](https://github.com/zhikunqingtao/zhikuncode) |
+| Clouderavine/Bolt-New-Web-Development-Agent-Professional-Complete-Edition | AI dev environment | Bolt.new: AI-assisted web development environment that generates, previews, and iterates full-stack apps from natural language prompts. | [github.com/Clouderavine/Bolt-New-Web-Development-Agent-Professional-Complete-Edition](https://github.com/Clouderavine/Bolt-New-Web-Development-Agent-Professional-Complete-Edition) |
+| as9978/designfit | Design validation tool | Validate AI-built front-ends against Figma designs via deterministic token + geometry conformance. MCP server + Claude Code skill. | [github.com/as9978/designfit](https://github.com/as9978/designfit) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| SoK: AI Secure Code Generation: Progress, Pitfalls, and Paths Forward | Survey / SoK | Systematic analysis of prompting, fine-tuning, RL, and agentic workflows for secure code generation — where they improve security and why substantial failures persist. | [arxiv.org/abs/2606.25195v1](https://arxiv.org/abs/2606.25195v1) |
+| NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers? | Benchmark | 90 cross-discipline tasks from Nature-family publications; evaluates whether coding agents can move beyond reproduction toward discovery on real scientific problems. Uses NatureGym for standardized per-task containerized environments. | [arxiv.org/abs/2606.24530v1](https://arxiv.org/abs/2606.24530v1) |
+| Distributed Attacks in Persistent-State AI Control | Security / AI Control | Introduces Iterative VibeCoding: a setting where misaligned agents distribute attacks across PRs and time payloads for the PR with best natural cover, exploiting persistent codebases. | [arxiv.org/abs/2607.02514v1](https://arxiv.org/abs/2607.02514v1) |
+| JAMER: Project-Level Code Framework Dataset and Benchmark on Professional Game Engines | Dataset + Benchmark | JamSet and JamBench: first project-level game code framework dataset and benchmark built on a professional game engine, sourced from Game Jam competitions. | [arxiv.org/abs/2606.19830v2](https://arxiv.org/abs/2606.19830v2) |
+| Animation2Code: Evaluating Temporal Visual Reasoning in Video-to-Code Generation | Benchmark | 1,069 web animation videos testing whether VLMs can recover temporal dynamics and reconstruct executable web animation code from videos. | [arxiv.org/abs/2606.28593v1](https://arxiv.org/abs/2606.28593v1) |
+| The Verification Horizon: No Silver Bullet for Coding Agent Rewards | Position paper | Argues that for today's coding agents, verification — not generation — has become the harder problem; every verifier is only a proxy for human intent. | [arxiv.org/abs/2606.26300v2](https://arxiv.org/abs/2606.26300v2) |
+| ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | Benchmark | IBM Research benchmark for evaluating AI agents on enterprise Java framework migration tasks. | [huggingface.co/blog/ibm-research/scarfbench](https://huggingface.co/blog/ibm-research/scarfbench) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| SWE-Benchmark 综合指南 | Guide | Comprehensive guide to the SWE-bench ecosystem including SWE-agent, SWE-rex, and SWE-bench CLI for agent development and evaluation. | [zhuanlan.zhihu.com/p/1914663162680181121](https://zhuanlan.zhihu.com/p/1914663162680181121) |
+| ReActAgent 使用指南：构建会思考、能行动的 AI Agent | Tutorial | Build production-grade AI agents with Solon AI 4.0's ReActAgent — reasoning, tool use, and feedback-driven behavior adjustment. | [oschina.net/news/471482](https://www.oschina.net/news/471482) |
+| Cursor 教程 | Tutorial | Cursor tutorial covering AI-assisted programming features built on VS Code with GPT-4 and Claude 3.5 integration. | [runoob.com/cursor/cursor-tutorial.html](https://www.runoob.com/cursor/cursor-tutorial.html) |
+| Vibe Coding 入门教程 | Tutorial | Introduction to Vibe Coding — a paradigm where developers describe intent in natural language and AI writes the code. | [runoob.com/ai-agent/vibe-coding-start.html](https://www.runoob.com/ai-agent/vibe-coding-start.html) |
+| Harness Engineering 实践案例：给编码 Agent 写行为规范教程 | Tutorial | Practical guide on writing behavioral specifications for coding agents. | [zhuanlan.zhihu.com](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XM05rak5jT01RenhIaGdvNkl5cTYtNVhfSnB0UmtnVVBVU2lVcE9CQm9ETzIyenVOSEdZOUxRUWtmYVRvR21KejRwUms1VVdzQ3FJd3VlVmhNa2t4?oc=5) |
+| How agents are transforming work | Research summary | OpenAI research paper on how AI agents enable longer, more complex tasks and expand productivity across roles. | [openai.com/index/how-agents-are-transforming-work](https://openai.com/index/how-agents-are-transforming-work) |
+| Vercel's Andrew Qu on why agents are a new kind of software | Interview / Podcast | Vercel Chief of Software on the creation of the eve agent framework and why skills, sandboxes, and agent-readable websites matter. | [latent.space/p/vercel-agents-new-software](https://www.latent.space/p/vercel-agents-new-software) |
+| The website of the future may assemble itself for every visitor | Article | Adobe experiments with "agentic sites" that generate pages around individual user intent. | [latent.space/p/the-website-of-the-future](https://www.latent.space/p/the-website-of-the-future) |
+| How Cursor deploys AI inside the enterprise | Article | Cursor's Forward Deployed Engineers help organizations implement agents as software factories. | [latent.space/p/cursor-forward-deployed-engineers](https://www.latent.space/p/cursor-forward-deployed-engineers) |
+| Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks | Evaluation report | GitHub's evaluation of Copilot's agentic harness performance and efficiency across different models and tasks. | [github.blog](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTFF2R252NjNzX0stNDFHSTA5X2NaVlBmdHl2bjBPMFhjWmNZb0dJZWxXT0V0ZFZwVWVWZWszNkZRN2NaRk9qb2tOSWY3RW0xbndQV1drOXpFRlpWR2xTT3FrRUFjOGlraHhnM1pmdzdaaUlBbmpfN1Y1Q3V4Z1drUWZzUXBVLXBjNVp3dEs3enA2SWF2QWVhWlQ1b3U4QUpIWkFjbUxCYW1WSk1HdFZrNWdKMFpKUjZjenpCZzRrVHBHSVNtNHVjTGdwSGhrRllLYmRER19BbnVBZXIwREE?oc=5) |
+| Top AI Coding Agents and Development Platforms in 2026 | Comparison | Comparison of Atoms, Devin, Windsurf, Cursor, Warp, and more. | [marktechpost.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxOUFRXU1lETzA5Mm5DWU1RY2RLS3Y0N1RjZnJ6SjJWYnVPQ2tVekhPa0hma3VHZy15VnBjYUNWSVN5OWVNT0NxRGZlRnM4VFE2NjBBZkFaY05SdUxvaVlDRWFoMjlFXzlfVmtPUzhUN3A3Q29yWTZuU2MwMkh0VlhUTlVFNnFweHJYRmxGdA?oc=5) |
+| Claude Code × DeepSeek × 积木报表：AI 报表到底有多智能？ | Case study | Real-world case study on AI-powered reporting with Claude Code, DeepSeek, and JimuReport. | [oschina.net](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Ud2dFYkljSlJhbmlhQ2poM1hpY1lzdlJGajlqQkdTM2VQTnRPWUJxRGtsZlNGcHBCVGk4RWJwV0JtdjF0ak1PNWZZNA?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| A2UI + MCP Apps | Framework / Platform | Combining declarative and custom agentic UIs with A2UI and MCP. | [blog.google](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MYThqNlIycmg5NmN4bE5GX0c3RUZidkNVMW5xeUM5cG50M3pvdjh6M1RUVUNmY0RCUkVBYV92SGc0QlNva05pOGNZb3RmMXdaenRNNGQ3ZzY0Qi04QTVpYWxB?oc=5) |
+| Agent-EvalKit (AWS) | Evaluation toolkit | Systematic evaluation of AI agents with Amazon's Agent-EvalKit. | [aws.amazon.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxQeldfMDFMWnNrN3oxZFJsMjVWSEtWaGtWdzRDR2pZVGxaWDlsb0otVEtTQ0dzR2R6blZjUENETm9WZGQ1R0xpUU03MGlyS0swTjlIWU5PRV9RcXd4UDlGSnZBVUw4NFR4N2hqNjFOdzVyQVhRaXdZdWVpMXhVU2hsUlAwWU1RZWpyQzgwZ2JjaHc5TGE4RzE2c1Z2RVFWWVRz?oc=5) |
+| 阿里 QoderWork | Learning platform | Alibaba's QoderWork — a Codex + Claude Code learning site with tutorials. | [juejin.cn](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OOUJQR0FrUkpIM01SSVBVNHBjOWwyUGxuUGpka09VWnZmN1FJM2h1Ykg5NmktRDl6YXE0X0lUU0tYNkVmX1VWUTdSSGxTSTBPT185UQ?oc=5) |
+| Cursor | AI coding agent | AI code editor with Desktop and CLI interfaces, built on VS Code with advanced LLM integration. | [cursor.com](https://cursor.com/) |
+| Microsoft 365 Copilot (Copilot Studio agent builder) | Agent builder | Create your own web-based AI assistant with a lite experience of Copilot Studio. | [microsoft.com](https://news.google.com/rss/articles/CBMibEFVX3lxTE9fTnZDcVExdHd6SGExY203dU55VVVHSDc5VllJN0xNS3hqeHp6UmZXWVVLanZpU2Y5TkhNZTQtc3poWlFPTGNSX3NMSmZJa1dEYm1KSWpMX3JQc3ZmSkZRR2NGcDVXVUJNOHp4Zw?oc=5) |
+| ADK Go 2.0 | Agent framework | Google's graph-based workflow engine for multi-agent applications with built-in human-in-the-loop and dynamic orchestration. | [blog.google](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EeFJFaWhEM3V4UjlyZFo3S0dtRTJSOHA4MUZMX1FmbmppWXdyVjZtQWg1QjBqRUdlRXlUUTAzdFRMcTZWRWxESUpxQUtMeVdhallBSEthWDFZalozdTN6dDhyZHpTUQ?oc=5) |
+| AutoJack (Microsoft security research) | Security research | Demonstrates how a single page can achieve RCE on the host running an AI agent. | [microsoft.com](https://news.google.com/rss/articles/CBMipwFBVV95cUxQWkJCU0tFankzSmVreVVycHBQc3UtcUJIWmxnZzVzaVhCeTdCSXdXbFBhN2w3aXJTNzhQZ21SQW9DT1IySkNKSWZxR3lrOFd6dGFIdENSdElGUGl3Q2NEZHdscXpNVDg3eDYwY3Y3Q1pNQmhIRWltRmhUb2x4bVJsSFp5bjRGdmxGOVNuTkk4NWc1S0F1Q1FaV3BMYWI3WGY2MXNQdVJXYw?oc=5) |
+| Cursor Design Mode | Feature | Direct agents with visual prompts in Design Mode. | [cursor.com](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1hSTYzV2psYzFmbW9tZTFKelFVQm9LbmpjZjRUT1pfZlBRdUgzUVJFcldyS2ZuUEpxQUJRanUtTkhyb0hZSnNRODRaNA?oc=5) |

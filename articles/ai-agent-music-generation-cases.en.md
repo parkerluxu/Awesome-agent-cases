@@ -130,3 +130,40 @@ This section is divided into two categories: `21 Tutorials / Cases` and `16 Proj
 | :--- | :--- | :--- | :--- |
 | Libretto: Giving LLM Agents a Sense of Musical Structure | arXiv paper | Introduces an agent-facing framework for symbolic music generation and revision using an LLM-native grammar with explicit onset slots, voices, and bar-level organization. | [https://arxiv.org/abs/2606.22708v1](https://arxiv.org/abs/2606.22708v1) |
 | Audio-Mind: An Auditable Agentic Framework for Audio Understanding | arXiv paper | Proposes a pluggable framework for conditional evidence acquisition in audio understanding, dynamically combining a strong frontend with agentic reasoning. | [https://arxiv.org/abs/2605.28480v1](https://arxiv.org/abs/2605.28480v1) |
+
+## Resource Update (2026-07-05)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| vibemusic | Multi-agent music curator | AI concierge that analyzes mood, activity, and vibe to generate custom 5-song playlists; integrates secure multi-agent workflow, local MCP server lookup, and human-in-the-loop approval | [GitHub](https://github.com/nngandhi96/vibemusic) |
+| ai-video-bgm-benchmark | Benchmark / evaluation | Benchmark study on AI music generation tools (Suno, Udio, Stable Audio) for short video BGM — includes scene tagging and tool comparison | [GitHub](https://github.com/H-Lab-Works/ai-video-bgm-benchmark) |
+| suno-api | API wrapper | Suno AI music API wrapper pinned to a pre-2Captcha commit for Hollywood South MCP Agent Nation State | [GitHub](https://github.com/Producer007/suno-api) |
+| agentic-filmmaker | Music video pipeline | AI-powered music video pipeline — vision, narrative, and video generation agents chain-generate clips from a seed image | [GitHub](https://github.com/thegoodtailor/agentic-filmmaker) |
+| kimusic-demo | LLM music agent | Public demo repository for Kimusic, an LLM-based guided imagery and music agent | [GitHub](https://github.com/ruijiahuang2006-collab/kimusic-demo) |
+| multi-agent-viral-video-maker | Multi-agent video + music | Create longform HD videos with music and voiceover via a multi-agent pipeline for viral content production | [GitHub](https://github.com/RhythrosaLabs/multi-agent-viral-video-maker) |
+| music-agent | LLM arrangement pipeline | LLM-assisted arrangement pipeline that turns a LilyPond melody into piano, bass, and drums accompaniment | [GitHub](https://github.com/tsjyma/music-agent) |
+| tourmaster-ai | Multi-agent tour management | Production-grade multi-agent orchestration system for music tour management (Booking, Logistics, Marketing, Weather agents) with LangGraph, ChromaDB RAG, and Langfuse observability | [GitHub](https://github.com/Pulpoide/tourmaster-ai) |
+| claude-ai-music-skills | Human + AI music production | Human + AI music production workflow for Suno — skills, templates, and tools | [GitHub](https://news.google.com/rss/articles/CBMib0FVX3lxTFA2bnlaaEdyX1RPdTc4QWw5UTQ3QlZCeFFjeUpBdFExUVFCSzZOU2xVLU9qOHZSX3dVaDVzZDhTSmowT29MLTJqMHI3aC1BQmdET3l5VGE0SVphd09LMlpqd2hvRUR6a2hnZnRyNzZ5MA?oc=5) |
+| Unlimited-AI-Music-Generation | SMS verification bypass | Examines SMS-MAN as an SMS verification platform for developers building AI-powered applications, with focus on bypassing daily credits on Suno and Udio | [GitHub](https://github.com/Mania4rta/Unlimited-AI-Music-Generation-Bypassing-Daily-Credits-on-Suno-and-Udio-via-SMS-MAN) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Hermes AI Music Agent | Video demo | "Music creation just got an upgrade! Meet the Hermes AI Music Agent" — YouTube walkthrough | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zU19hU0dQTUU1LTFIaGk2NXpReFRUZWtOMGUtLUQtVmdaMkFIcjB3WmdXazJ6M3lVcDFTeWYwMWxjZzJKMnoxdDRlZ2ZoWkdNTWZiRktB?oc=5) |
+| AI Music Video Generation: 10 Tools | Roundup article | "10 Tools That Automate Your Creative Workflow in 2026" — Robotics & Automation News | [Robotics & Automation News](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaW5uSU9UcEdsNkxTUlBRVWk1ZTR1Q2JqTWVRLXhwN0xjaHdVSXpvNHk0elNIeHNIV2F2MEtSSENwMEVTUjU0ZDNxWDRIX0NoV195c1U4LV80SWxXcV9FYm5JeFAzeWstR2J6LXdrV0F1Uy0weHpreWplZzYwbE9ZdVgtUlRjRzI3V0l6MWZ0RUF2U0RuMXE5aWRqYldCa1pvaWkxMGxUdDZRRVZRNU02cTNUbWZzRTB1Z1VLbWl1MzdUaXFEV2hvV0E4Rlh3SG9JU2c?oc=5) |
+| 302.AI CLI Skill 实测 | Tutorial | One-line command to call image, video, and music models — productivity walkthrough on 302.AI | [302.AI](https://news.google.com/rss/articles/CBMieEFVX3lxTFAwd3djN2FLMUZMZy1zUS1raVNLT2pUZTB5dUtuRlkwUmdLWXRiOGJld0I1ekQxeVV2ZzZSMDJSaUJDOEp1alhkTkgtU0V6UlNIZE9QRVprS0t2WjFtRWJxYVU5d1dKRHNWR3BFSXdXS2FtdXczN1d4YQ?oc=5) |
+| From Zero Budget to Full Soundtrack | Indie dev guide | "An Indie Dev’s Guide to AI Music" — exposedmagazine.co.uk | [exposedmagazine.co.uk](https://news.google.com/rss/articles/CBMivAFBVV95cUxQajFqc0Nqd2ZqLTlOek5fMWpDVjlzT3A3akVMX3lReGd2bVo5ajhmWExMelRvNHd3bGZ0Z0ZHVXdza0RSa2VlUkdaWDR0cThYVHJhSkpLSE5GdndsYmN1ZElTV1NLUjdfVUNaV3JHdDgxeUdUWHF4dDFKOVNFZDYtcmt1aEgwVi1JUy00M3NxS3ljalZJbHZwZURVLTJCa2ctdUNIdHpDaWJ3TERyZTNwdEJTUEJLc0xjekJxNw?oc=5) |
+| AI vibe coding tools turning prompts into plugins | Article | MusicRadar piece on the new wave of AI vibe coding tools for music production | [MusicRadar](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UU2dvV0haQmFyc0FCNkNWZjRGck41Y2ZSLUVxQ1Q0TlVmOFNmMHJaeDVseUpPMFpQaWtvTW1wNFo3MnljRG5nOUNoV3pqdkdCcUdtQ0RuNE1lYmNmZ3l0Wm1ucndXdw?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Suno AI Music App | Product landing | AI music app for creators of all skill levels to make music and grow their sound without limits | [suno.com](https://suno.com/l/ai-music-app) |
+| Suno AI Music Generator | Product landing | Create complete, original songs (vocals, lyrics, full production) from a single text prompt in under a minute, across every genre | [suno.com](https://suno.com/) |
+| Top 10 Suno API Platforms for Full-Track Music Generation in 2026 | Roundup | NewZimbabwe.com overview of Suno API platforms | [NewZimbabwe.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxOR29uUV8ySFZYQ3FiVFJHUG85TXJGeFd4RWxjTHlsaHNYalJOZV96U3Z0ZGpnMGpOSUkzVFhBbVFKckQxWGJsTWNwdFhuQ1BkSW9DWEc4Yk1DZUJWMEVFUWR5Z2Q5Rzg3RWVia0Z2c3dtSlZUQ0hEb3RqRU5EeU13bFdyVHp3TEExejJ0SDlwQUt1SDViZ2ktUk5R?oc=5) |
+| AI音乐混战，谁能成为“中国版Suno”？ | Article | thepaper.cn analysis of the AI music landscape and contenders for a "Chinese Suno" | [thepaper.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QUlBhQ0t0UlZLR1c1aExWMEN5dU9jdnJ6am9CVW1McFlUMzFEcjZuLWprSFJBZW10THZwRGRWdVNOMGNqUXZQUGRKTHJ5ekluQzNza2EtM2VGRk4ySmc?oc=5) |
+| The Millions of Songs Mashed Into AI-Generated Music | Article | The Atlantic piece on the training data behind AI-generated music | [The Atlantic](https://news.google.com/rss/articles/CBMilgFBVV95cUxNMlplTmkza1NXTDNpWWFLaUdPa2xXdWw0ZkZqbVdlRWZ2QW8tS2xfU2QyMFF0ZzJ0c2phRjBRWUw3NksxTlh3cktRajI0Vzl0MjNTX0ZrYnpXclFtUlF0S2dmTkVzaC1JVWREcEMzaEt2aXJHZVFoem1PWjViSk84cWlTS0xsUFQ4WG9ENmFwX2tBVzRqREE?oc=5) |

@@ -157,3 +157,55 @@
 | PCB界的AI工具试用-KiCad 华秋 10.0 | CSDN 博客 | KiCad 华秋 10.0 的 AI 工具试用体验。 | https://news.google.com/rss/articles/CBMibEFVX3lxTE8ySDRzOW5pZGZBTmdQREhtVUxEQTVYcVduRmNYa3lFdDJVb0JsNlRZdERTUGtGNnkydzI0S1NhZE5ZbUl4ODVHd3JlemhRYmtzV3JTb0ItRkJfZGVudlZPUGxyRzhnSFVwUDBUdA?oc=5 |
 | 重构工程创新：新思科技开启智能体AI设计范式革命 | 电子工程专辑 | 新思科技关于智能体 AI 设计范式的报道。 | https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxbnJPRHZOX0NTRmNmc3hLemtYV3BONDhaVmVhekpnOTB6U2ZFZ3YxZjJhS3ZDdkphNm5sbklwZFA0ZUpKX1M2V3V3WWE2TVNmUHowUC1xSy1xVXB0?oc=5 |
 | Cadence embraces AI to accelerate PCB and system development | New Electronics 报道 | Cadence 利用 AI 加速 PCB 和系统开发。 | https://news.google.com/rss/articles/CBMirwFBVV95cUxQcGV2OS0xeW40R2R3LTJYTmRFRXlWT2NtdkJ1Z2xYY0E0dTBvdGZCZXhBTkh3RE4zU0hRSTRWOV9KUUdwS0h0OTBycG1Ib3ZBZW9lWDJwcXhWUmprNU5JWVlHVkxBZW9qbmZlaTQ0eWZpMWRubk9JUE9YdFllNUV0aGxIX1N5QU9SME1SaDRpQThDTnVSa1QxcVY0OXlsMWdYVEtlQ3IyaXBjMTZ6NHBR?oc=5 |
+
+## 资料更新（2026-07-05）
+
+### 项目
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| piyushbag/awesome-pcb-workflow | GitHub 项目 | 覆盖完整 PCB 设计流程的开源工具集：AI 辅助 EDA、原理图捕获、SPICE 仿真、信号完整性、布局自动化、DFM 与制造 CI/CD、硬件测试 Agent，兼容 OrCAD 与 KiCad。 | [GitHub](https://github.com/piyushbag/awesome-pcb-workflow) |
+| laofahai/vibe-lamp | GitHub 项目 | 为 AI 编程 Agent 设计的物理 ESP32 状态灯，内置 Claude Code/Codex 钩子与通用事件 API。 | [GitHub](https://github.com/laofahai/vibe-lamp) |
+| shuvamk/openbench | GitHub 项目 | 面向电子设计的开放工作台，在浏览器中实现原理图→仿真→固件流程，通过 MCP 由 AI Agent 驱动，底层集成 KiCad、ngspice、Renode、PlatformIO 等引擎。 | [GitHub](https://github.com/shuvamk/openbench) |
+| mingyo186/partreel | GitHub 项目 | 面向人类与 AI Agent 的开放、免登录 KiCad 元件注册库，提供经验证的封装、符号与 3D 模型（STEP/GLB），附带数据手册溯源、静态 JSON API 与 MCP 服务器。 | [GitHub](https://github.com/mingyo186/partreel) |
+| sharmaaditya5655/synapcircuit-ai | GitHub 项目 | 基于多 Agent 编排的 AI 驱动 PCB 设计平台。 | [GitHub](https://github.com/sharmaaditya5655/synapcircuit-ai) |
+| vrosuits/eCircuit | GitHub 项目 | AI 驱动的电子电路设计工具包：支持文本到原理图/BOM/网表、PCB 自动布线、SPICE 仿真。 | [GitHub](https://github.com/vrosuits/eCircuit) |
+| muhammadmapkar/KiCad_AI_LoRA | GitHub 项目 | 用于 KiCad PCB 设计审查助手的 LoRA 微调数据集。 | [GitHub](https://github.com/muhammadmapkar/KiCad_AI_LoRA) |
+| Be-bibek/neuroboard | GitHub 项目 | AI 驱动的 PCB 编译器，面向自动化高速硬件设计。 | [GitHub](https://github.com/Be-bibek/neuroboard) |
+| oaslananka/zaptrace | GitHub 项目 | AI 原生、验证优先的 EDA 内核，实现从提示词到制造的电子设计流程：ERC/DRC、布线、KiCad/Gerber 导出、MCP 服务器、SDK 与证明包。 | [GitHub](https://github.com/oaslananka/zaptrace) |
+| Zero-inadequateness813/amux | GitHub 项目 | 管理为 AI Agent 和人类命名的持久化 tmux 面板，支持在后台会话中运行命令并跟踪输出。 | [GitHub](https://github.com/Zero-inadequateness813/amux) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| PowerAgentBench-Dyn: A Benchmark for Agentic AI in Power System Dynamic Studies | 论文 | 面向电力系统动态研究中 Agentic AI 的基准测试，评估 LLM Agent 在模型参数校准、工程判断与决策等动态研究任务中的表现。 | [arXiv](https://arxiv.org/abs/2606.20401v1) |
+| PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset | 论文 | 提出首个 PCB 设计问答数据集 PCB-QA，用于评估 LLM 在 PCB 设计与分析任务中的能力，并探索不同 PCB 设计文件的提示方法。 | [arXiv](https://arxiv.org/abs/2606.23704v1) |
+| PDAGENT-BENCH: Characterizing, Grounding, and Architecting LLM/VLM Agents for VLSI Physical Design | 论文 | 面向 VLSI 物理设计的 LLM/VLM Agent 基准，用于评估在高维、多阶段优化与严格设计约束下的 Agentic 物理设计工作流。 | [arXiv](https://arxiv.org/abs/2606.17253v2) |
+| SINA: A Fully Automated Circuit Schematic Image to Netlist Generator Using Artificial Intelligence | 论文 | 利用 AI 将电路原理图图像自动转换为网表的生成器，旨在将文献、教材与网站中的模拟/混合信号设计知识转化为机器可读形式。 | [arXiv](https://arxiv.org/abs/2607.01609v1) |
+| VeriPilot: An LLM-Powered Verilog Debugging Framework | 论文 | 基于 LLM 的 Verilog 调试框架，通过追踪长依赖链来解决复杂错误，克服仅依赖测试输出与编译器反馈的端到端方法的局限。 | [arXiv](https://arxiv.org/abs/2606.23759v1) |
+| LLM-Guided Test-Time Discovery of Quantum-Chemical Approximation Algorithms | 论文 | 利用 LLM Agent 在测试时自动发现量子化学近似算法，展示 Agentic AI 在科学仿真流程自动化中的潜力。 | [arXiv](https://arxiv.org/abs/2606.20729v1) |
+| Can Language Model Agents be Helpful Circuit Explainers in Mechanistic Interpretability? | 论文 | 引入 AgenticInterpBench 基准，研究 LM Agent 在已定位电路后辅助解释电路组件的可行性。 | [arXiv](https://arxiv.org/abs/2606.24026v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| CADY webinar - Design Smarter, Build Faster: AI for Modern PCB Engineering Teams | 视频 | CADY 网络研讨会，探讨面向现代 PCB 工程团队的 AI 应用。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE56Nk8ySEMxQ05MOWEzWlBHWTduY2ZOTDE0NzFVRW5UMHpaSU9TSUQ5T1Z4Y1NiQ29uQXhfcWVIWnhCclVFWXJVWHhTOHpDR1FaU3BvV2JR?oc=5) |
+| Code-Based PCB Design with AI: Inside atopile | 视频 | 介绍基于代码的 PCB 设计工具 atopile 及其 AI 能力的视频。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4T0lFSWZjMTV2M0wxbk1UWDJST3RPdENPeWw0NndXWk5wR056OUJGWjRRZGNfNFhmY1JfTHBMQnlyeW5iT2xYTlFhUmxNb08tNVNFZ09n?oc=5) |
+| I Let an AI Code My ESP32 Sensor... Designing a Low-Power IoT Capacitive Soil Sensor (Part 2) | 视频 | 使用 AI 编写 ESP32 传感器代码的实测，展示低功耗 IoT 电容式土壤传感器的设计过程。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EYVBHbmdLMDlNeUtvUUNLZnpoczZGaE4wRUM1dnRPZHFranhlRE5oeHB0SVZtNnRLNktUUjF6dGhqdTN5cTJEOFBGLTlSbF9kN192M3FR?oc=5) |
+| 有人用AI设计出“花一样”的PCB，美轮美奂，赏心悦目，但是能用吗？ | 文章 | 探讨 AI 生成的艺术化 PCB 设计的实用性与可用性。 | [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBucDdRNml0WW9XcDNtZFJYVFQtMFZLYWIxMjBXV0RvcXFBSWlWY2pLWE4tNW5LUHFtcXd5aTFRT1R2a0tEME9QTmpRcFRCeE5yRmxJ?oc=5) |
+| ReActAgent 使用指南：构建会思考、能行动的 AI Agent | 文章 | 基于 Solon AI 4.0 的 ReActAgent 构建生产级 AI Agent 的教程，涵盖推理、工具调用与行为调整。 | [oschina](https://www.oschina.net/news/471482) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| Why Cadence Sees AI Super Agents as the Next Semiconductor Productivity Engine | 报道 | Cadence 将 AI 超级 Agent 视为下一代半导体生产力引擎的观点报道。 | [EE Times Asia](https://news.google.com/rss/articles/CBMitwFBVV95cUxPNGYxQWUxZ3IyNHFOM1hRVzZld2I3eUl3aG1MZnV1NU55Qm1Qa0dNVW9BZzFnZFp3cjNacU5LZTlHWERmMzhWV0xjTHQ5T3FFVlZVV281ZVd3bHdYUWhYLVcxNkUtLTY5d0VobktNNEdtUDJva1JPTFkyQV9odUp5Z2JPRGJWcVppME9JSHJKSlZfRmpXZFh0c0JNV0dvRVJ1TWdaY2xBQ0NHWU14a2lxTWhsMy1IRTQ?oc=5) |
+| Si2 Announces Public Release of AI for EDA Ontology to Accelerate Industry Collaboration and Agentic EDA Innovation | 报道 | Si2 公开发布 AI for EDA 本体，旨在加速行业协作与 Agentic EDA 创新。 | [Business Wire](https://news.google.com/rss/articles/CBMiggJBVV95cUxOMnJXLU9aM1Ewd19Pdmo5T3lURFRZRTl4N0d3UkZFbW5QV1liaEY0UGJHMXFTeFlLeTNVZjlnNXB0aG42dFJ4cWJpTFNPc0pldFV0ZG05dWRfSG5HWldGWERXdXF0Wm5mdmM4enRyUjhfS25MM0Q2bFhRZjRtbWNXdEpvVVpjV1hRWGR0S0pkVGY0cjVjNUdWdlVBaGRzRy1zWVBva0JpSE1GQ2FwczlLY05HVXlZb2tOOHk1QWVPbTdoWElkOHBtcE9QMzB3ekp6dEc4WGxXSGZRVjhVQ3U4S2ZCYnRjV1plSVhMeDhQTXVsdmhReExyaXZQRXVBajN4NVE?oc=5) |
+| 自研Agentic AI EDA平台助力芯片设计迈入新阶段 | 报道 | 介绍自研 Agentic AI EDA 平台在芯片设计中的应用进展。 | [content.foshanplus.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE9LSktIVEkyandXcTVncHA3bVBWRlUyc2RIVWd5UXdyS1RGT25NT0dzVUNrZmo4OEd0RkRkOWZIeWVaQ2NNNUtrS3I1ZWdkVzkwWHZwRDFTVG5UWVlVNW5oTnhhWE9HTEdlTldkY2tqaWl5QkxFWWw3MVJ3?oc=5) |
+| Cadence expands ChipStack for autonomous design workflows | 报道 | Cadence 扩展 ChipStack 以支持自主设计工作流。 | [Engineering.com](https://news.google.com/rss/articles/CBMijwFBVV95cUxPV1BJbnBYTzBvTzVsTWE1UGgtN1VmVC1VUzRzTVRmSTlna0RuUHZaalRYQ3NMTjJpTmhvQ19fUjQxRm11VW01TGg4dHp2UHlsRnNyN1BQMVlPVWFwaFZLTjRtTk9pTnFDZ2w4ZkJLTTJTNDBwMWdWLTdWNXYtN2lNdndnVXRqemgzSmJnemNfUQ?oc=5) |
+| When AI No Longer Just Assists but Controls EDA Workflows | 报道 | 探讨 AI 从辅助角色转向控制 EDA 工作流的趋势。 | [All-About-Industries](https://news.google.com/rss/articles/CBMiygFBVV95cUxObTF6UmRiYmlacktibThVbVJjclNqRWtZSFgzNTB6U21vTktocE5BUzYwekc4Q3lPNHZxb2hpdTR4Y3d6LXJZM0xEZFBWQ0MzS0xwVHl2ZkF5TjdiWU9YY1pWZlZyb2JIcF9yY1pGZWZ4REp1a2owei1sb3JvQWdQcllyLUo5ajI4UjNpdTk2MjFuWEtkZjJCMkRKaUwxeHA2VDhUbEJhTTA4RDN4TEN6b3NJeFVpRGpHSE1nTnFEZTM0YVNnZlJmRXV3?oc=5) |
+| AI in Sync: Graser TECHTALKS 2026 Highlights Electronic Design Paradigm | 报道 | Graser TECHTALKS 2026 中关于 AI 与电子设计范式同步的亮点报道。 | [digitimes](https://news.google.com/rss/articles/CBMihgFBVV95cUxPYURITnZQblZydFpLWGU1RVlmMXlpQ0hTUU5maEJJdENna2ppSnVUR0I2VU16Zm5xaWhEQWg4d1FuT1NOLTRNdXZETWtlakZmU1M4WHhjWmtKbXdadnpxZ0pvcVphNWJqMDZmNDhRUERXMjNSUGlGY2NHUDNERzdoX200WFhOQQ?oc=5) |
+| Cadence unveils fully autonomous virtual engineer for chip design | 报道 | Cadence 发布用于芯片设计的全自主虚拟工程师。 | [Evertiq](https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjVwcTNnTDhvd21TSkZadFhjQVdmT19Wa2ZZbmFzWi1CeVVKdklLMWlUUWMyQUd2OHRLRGpXZ2xKUTN5blkwWUlDUDNiTC0zTzI4aW96bG14QTFPVXlxOUpSVkg3QUl1dkhaZzFQZmNIMEd3OVZYMGhjNHp1MldGVlQtdThoVnNJdTM5VjhsOFRRdnB3STlTSFQyc1BwZ3dQOVlF?oc=5) |
+| Cadence Autonomous AI Design Engineer Accelerates Chip Verification and Development | 报道 | Cadence 自主 AI 设计工程师加速芯片验证与开发的报道。 | [EE Times Asia](https://news.google.com/rss/articles/CBMirAFBVV95cUxQa1JLdnZTci1QYnpBbnpiUzJHX1VBN1QyT0dmenNYY0owVmllbV8tdjBwb1FyU2VxRVMzaWk2UlYwR2VCZHlpOFl0RUd6TXFsUTdGN1BnclM5ajRfdDhaT3FNT3NtdTI3eWZ5V1k0ZkJuQXNubEctNGw3MUUxUFVkQWFMY3Y5YUpSelhCa3psN2Y5bHk0eDNuUGM1UVN3TVhiMnQwLWR5dFc0c1BL?oc=5) |

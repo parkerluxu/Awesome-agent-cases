@@ -192,3 +192,50 @@
 | OpenAI Codex Windows 版 | 桌面应用 | Codex Computer Use 正式支持 Windows，支持前台接管 | [Tech Times](https://news.google.com/rss/articles/CBMixwFBVV95cUxPMU5oMHd0b0NBZ1g5NVNZWFdEaFhMUVNROGxnVGFBdUhLMjhsWVpyTUZIeDd5dnNDYndXMWt4enJFY3kzVFFHMi1GMWN3dnJVTV9aSDBvZFc2UHdQMEdhT3BiNUEtTVFNMS1QbnMyMU4ydzZpclB5Mm9LNVFhUW1PWlcwNTlUU0ttNkVmMElnTFlTWlRMRjdkNll4YmY2X250S3RuMlI4eldzTUJYRTFEcnhySHNrUHRWaUtFbk5fbXdISHBoaG13?oc=5) |
 | Codex 官方页面 | 产品 | OpenAI Codex 官方介绍：AI 编码伙伴，支持规划、构建、重构、审查和发布 | [OpenAI](https://openai.com/codex/) |
 | Microsoft Build 2026 | 平台 | 微软将 Windows 定位为 AI Agent 操作系统 | [Visual Studio Magazine](https://news.google.com/rss/articles/CBMivAFBVV95cUxNNHBqWWRfWTdjdkVhcUFuSGdROU9TY0htWk4xVDdiX0hxV0k2WmJXREhqREFXTVVJS3BwZUY1WS1SNktCUE5EeDBMVHJIRXNidmV2aXB1eTdGNFRaVUROVXlnVVJ2YnJidUNSY2FGNU01WnphYzFFU2JHYmZmYS1RNGU1akFrR1oxUEkyS29Oa1J4NW91V0tGU3hzbDFkMGp5dmN1b29JaElwTDBhT3RYb3hoYTF1dW1rcm5pbA?oc=5) |
+
+## 资料更新（2026-07-05）
+
+### 项目
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| karimbabasf/WARDEN | macOS Tauri 守护程序 | 读取 AI 编程 Agent（Claude Code、Codex）的对话记录，诊断 Agent 工作流中的泄漏点，并以战争房间风格叠加层展示。 | https://github.com/karimbabasf/WARDEN |
+| bigduu/Zenith | 桌面 AI Agent 单体仓库 | Bodhi AI 的本地优先桌面 Agent，整合 Bamboo（Rust 运行时）、Lotus（React UI）、Bodhi（Tauri 外壳）、Bodhi Server（Go 后端）、Pavilion（网站/文档）和 Nova（macOS Computer-Use MCP）。 | https://github.com/bigduu/Zenith |
+| op7418/CodePilot | 多模型 AI Agent 桌面客户端 | 可接入任意 AI 供应商，通过 MCP 与技能扩展，支持手机控制，基于 Electron + Next.js 构建。 | https://github.com/op7418/CodePilot |
+| ilyafainberg/TotalControl-MCP-Server | MCP 服务器 | 为 AI Agent 提供 Windows 桌面硬件级控制：鼠标、键盘、屏幕捕获和 UI Automation，面向 Microsoft Scout 及兼容 MCP 的主机。 | https://github.com/ilyafainberg/TotalControl-MCP-Server |
+| abkmystery/local-agent-studio | 本地 AI Agent 构建器 | 开源 Windows 本地 AI Agent 构建与可视化多 Agent 工作流应用，支持 llama.cpp、Ollama、LM Studio 和 Gemini，无需 Docker。 | https://github.com/abkmystery/local-agent-studio |
+| hxddh/pagewise | 本地桌面文档 Agent | 本地桌面文档 Agent，支持 PDF、OCR 和逐页分析（Tauri + AI SDK）。 | https://github.com/hxddh/pagewise |
+| CHAMARA1989/prismos-ai | 本地优先 AI 操作系统 | 使用 Ollama 语言模型在 Windows、macOS 和 Linux 上安全运行个人 Agent。 | https://github.com/CHAMARA1989/prismos-ai |
+| jaylfc/taOS | 自托管 AI Agent OS | 自托管 AI Agent 操作系统，包含离线 AI 记忆、自托管多框架群聊、完整 Web 桌面与应用商店，支持在消费级硬件上自动集群。 | https://github.com/jaylfc/taOS |
+| sjweiler/focal-agent | C# AI Agent 框架 | 面向 Windows 的可扩展 C# AI Agent 框架，支持插件、本地与云端 LLM、语音交互及安全桌面自动化。 | https://github.com/sjweiler/focal-agent |
+| xiayukun/agent-sight-windows | Windows AI Agent 工具包 | 面向 Windows AI Agent 的像素级观察、人类等价鼠标键盘控制、证据链与回放工具。 | https://github.com/xiayukun/agent-sight-windows |
+| chuancyzhang/deepseek-cowork | Windows 桌面 Agent 框架 | 基于 DeepSeek-V3.2 交错思维链的 Windows 桌面 Agent 框架，结合推理与工具使用，在安全桌面环境中跨文件、应用和工作流进行规划、执行与优化。 | https://github.com/chuancyzhang/deepseek-cowork |
+| gtt116/enikk | GUI Agent | 自改进的桌面自动化 GUI Agent，具备渐进式感知、自然语言示教能力，100% 开源，由 Hermes Agent 驱动。 | https://github.com/gtt116/enikk |
+| geek-fun/dockit | 桌面 GUI 客户端 | 面向 Elasticsearch、OpenSearch、DynamoDB、MongoDB 和 EasySearch 的 Agentic 桌面 GUI 客户端，支持自然语言查询、可视化管理和监控，隐私优先。 | https://github.com/geek-fun/dockit |
+| gnanam1990/argus | 计算机使用 Agent | 用 Go 编写的供应商无关计算机使用 Agent，遵循“观察 → 思考 → 行动”循环，具有可替换的标记集定位和单二进制驱动。 | https://github.com/gnanam1990/argus |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| LUMOS: A Semantic Operating-System Layer for Accessibility-Grounded AI Agents | 论文 | 提出面向 AI Agent 的语义操作系统层，解决当前操作系统接口对人类友好但对 Agent 不友好的问题，降低对截图、OCR 的依赖及由此带来的高 Token 成本与延迟。 | https://arxiv.org/abs/2606.30697v1 |
+| TUA-Bench: A Benchmark for General-Purpose Terminal-Use Agents | Benchmark | 针对通用终端使用 Agent 的评测基准，弥补现有基准偏重 GUI 或编程中心化终端任务的不足。 | https://arxiv.org/abs/2606.28480v1 |
+| GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents | 论文 | 在 440 个桌面任务上对比纯屏幕 GUI Agent 与技能中介 CLI Agent 的执行瓶颈，控制任务目标、初始状态和验证器一致。 | https://arxiv.org/abs/2606.24551v1 |
+| OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks | Benchmark | 包含 108 个长周期真实计算机使用工作流的评测基准，每个任务人类完成时间中位数约 1.6 小时，旨在揭示前沿 Agent 的局限性。 | https://arxiv.org/abs/2606.29537v1 |
+| What Memory Do GUI Agents Really Need? From Passive Records to Active Task-Driving States | 论文 | 研究移动 GUI Agent 在长周期任务中所需的记忆机制，提出从被动记录转向主动任务驱动状态。 | https://arxiv.org/abs/2606.31612v2 |
+| PPT-Eval: A Benchmark for Computer-Use Agents on PowerPoint Tasks | Benchmark | 包含 120 个 PowerPoint 任务的评测基准，覆盖内容创作与演示编辑场景，按难度组织。 | https://arxiv.org/abs/2606.31154v1 |
+| Learning from Failure: Inference-Time Self-Improvement for Computer-Use Agents | 论文 | 提出利用失败轨迹在推理时进行自我改进的方法，解决计算机使用 Agent 高质量训练数据难以获取的问题。 | https://arxiv.org/abs/2606.31270v1 |
+| Reinforcement Learning for Computer-Use Agents with Autonomous Evaluation | 论文 | 提出使用自主视觉-语言评估作为可扩展奖励信号的强化学习微调框架，用于计算机使用 Agent。 | https://arxiv.org/abs/2606.24515v1 |
+| Xiaomi-GUI-0 Technical Report | 技术报告 | 介绍小米 GUI Agent，强调在真实应用中进行训练和评估，以解决现有方法在界面布局、交互逻辑和异常状态分布上与真实环境的差异。 | https://arxiv.org/abs/2606.31410v2 |
+| Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning | 论文 | 提出规划经验探索与利用方法，通过自主探索环境和利用事后经验来增强小型开源多模态模型的 GUI 任务规划与跨网站泛化能力。 | https://arxiv.org/abs/2606.27330v1 |
+| A Task-State Representation for Long-Horizon Mobile GUI Agents | 论文 | 提出任务状态表示框架，将持久任务状态与瞬时屏幕观察解耦，以缓解长周期移动 GUI Agent 的上下文负担和幻觉问题。 | https://arxiv.org/abs/2607.00502v1 |
+| GUICrafter: Weakly-Supervised GUI Agent Leveraging Massive Unannotated Screenshots | 论文 | 提出利用大规模未标注截图进行弱监督训练的 GUI Agent 方法，以降低数据采集成本并改善跨设备泛化与视觉定位能力。 | https://arxiv.org/abs/2606.29705v1 |
+| Agent-Computer Observation Interfaces Enable Dynamic Computer Use | 论文 | 提出 Agent-计算机观察接口，使计算机使用 Agent 能感知视频、动画、瞬态 UI 事件和音频，突破当前仅依赖截图的限制。 | https://arxiv.org/abs/2606.29472v1 |
+| DigitalCoach: Communication and Grounding Gaps in Human and Agentic Computer Use Coaching | 论文 | 发布包含 72 次人类专家-新手计算机使用辅导对话的多模态数据集，并评估当前模型在教人类使用计算机方面的能力。 | https://arxiv.org/abs/2606.31980v1 |
+| WinDOM: Self-Family Distillation for Small-Model GUI Grounding | 论文 | 提出通过自家族蒸馏获取边界框训练数据的方法，并探索监督微调与强化学习的结合，以提升小型 GUI 定位模型性能。 | https://arxiv.org/abs/2606.25964v1 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| 为什么我觉得 Codex 更接近通用 AI Agent 的理想形态 | 媒体文章 | 少数派文章，探讨 Codex 作为通用 AI Agent 理想形态的原因。 | https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBiSkQ0c3RYM2xpVWQ5Z0hmY3lrekh1em9tZjZCN1dxdjNfWXNkYlVNX3h5SDZXMm5NZ0x1TXVqRW1CZXM?oc=5 |

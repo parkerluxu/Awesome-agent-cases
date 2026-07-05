@@ -131,3 +131,43 @@ This section is divided into two categories: `Tutorials / Cases 0 items` and `Pr
 | rtl_lm_verification_assistant | Research prototype | Laptop-scale research prototype for AI-assisted RTL code generation and verification-aware evaluation. | [GitHub](https://github.com/hjzhang-ops/rtl_lm_verification_assistant) |
 | Design-Verification-AI-Tool-DEV | GUI verification platform | GUI-based verification platform automating UVM environment and RTL generation with drag-and-drop architecture design. | [GitHub](https://github.com/Karan-nevage/Design-Verification-AI-Tool-DEV) |
 | verilog-tb-pipeline | LangGraph pipeline | LangGraph pipeline for LLM-driven Verilog testbench generation with Pyverilog-based early error localization. | [GitHub](https://github.com/Sawaiz-zip/verilog-tb-pipeline) |
+
+## Resource Update (2026-07-05)
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| CHIA | Paper | Open-source framework for principled, agentic AI-driven hardware/software co-design research across architecture, systems, compilers, and VLSI. | https://arxiv.org/abs/2606.27350v2 |
+| HORIZON | Paper | Self-evolving agent framework treating hardware design as repository-level code evolution; uses a Markdown harness compiled into a project pack with domain knowledge, evaluator, acceptance predicate, and git/runtime policy. | https://arxiv.org/abs/2606.28279v1 |
+| VeriChat | Paper | Agentic conversational AI assistant for hardware security verification, addressing hallucination risks of general-purpose chatbots by providing structured, security-focused guidance. | https://arxiv.org/abs/2607.01668v1 |
+| PDAGENT-BENCH | Benchmark | Standardized benchmark for evaluating LLM/VLM agents on VLSI physical design tasks requiring multi-stage optimization, EDA tool interaction, and constraint handling. | https://arxiv.org/abs/2606.17253v2 |
+| SafeGen | Paper | LLM-driven, formal-verification-assisted framework for functional-safety-oriented fault criticality assessment in automotive chip design. | https://arxiv.org/abs/2606.25296v1 |
+| VeriPilot | Paper | LLM-powered Verilog debugging framework that traces long dependency chains beyond end-to-end compiler feedback to address complex bugs. | https://arxiv.org/abs/2606.23759v1 |
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| partreel | Registry | Open, no-login KiCad parts registry for humans & AI agents — verified footprints, symbols & 3D models (STEP/GLB) with datasheet provenance, static JSON API, and MCP server. | https://github.com/mingyo186/partreel |
+| openbench | Workbench | Open workbench for electronics — schematic → simulation → firmware in the browser, using KiCad, ngspice, Renode, PlatformIO behind one interchange format, driven by AI agents via MCP. | https://github.com/shuvamk/openbench |
+| agent-verify-skill | Verification Framework | AI Agent assertion-based verification framework inspired by chip design verification methodology — 7 commands, 6 assertion types, 3-tier LLM judge. | https://github.com/pxf0797/agent-verify-skill |
+| ICRTL-Benchmark | Benchmark | Industrial-level RTL design challenges for evaluating PPA optimization, code generation, and LLM applications in EDA. | https://github.com/weiber2002/ICRTL-Benchmark |
+| mini-agentic-eda | EDA Flow | Mini agentic EDA flow for LLM-generated Verilog, simulation, synthesis, repair, and experiment reporting. | https://github.com/yuhongtanghyh-create/mini-agentic-eda |
+| ClaudeVerilogEval | Evaluation | Evaluation of Claude-family LLM deployment modes for RISC-V RTL co-design, measuring token cost, generation time, and multi-design statistical analysis on the VerilogEval dataset. | https://github.com/gatlinggunhuy/ClaudeVerilogEval |
+| FlowForge_AI | Sandbox | Sandbox testing environment for integrating agentic AI in chip design software. | https://github.com/VaibhavSaran/FlowForge_AI |
+| digital-chip-design-agents | Agent Stack | Digital HDL Design Full-stack Agents — a curated collection of agent-based approaches for end-to-end digital chip design. | https://github.com/chuanseng-ng/digital-chip-design-agents |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| HORIZON Hits 100% on Chip Design Benchmarks | Video | YouTube coverage of the HORIZON agent achieving 100% on chip design benchmarks without human intervention. | https://www.youtube.com/watch?v=related (see source) |
+| Doubao-Seed-2.1 RTL Full Flow | Article | Report on Doubao-Seed-2.1 completing a full chip design RTL code flow in 18 hours. | https://zhuanlan.zhihu.com/p/related (see source) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Cadence Autonomous AI Design Engineer | Product | Cadence's autonomous AI agent for accelerating chip verification and development, positioned as a "super agent" for semiconductor productivity. | https://www.eetasia.com/related (see source) |
+| Self-developed Agentic AI EDA Platform | Product | A proprietary agentic AI EDA platform aimed at advancing chip design into a new stage of automation. | https://content.foshanplus.com/related (see source) |

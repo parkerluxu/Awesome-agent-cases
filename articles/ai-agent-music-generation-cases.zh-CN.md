@@ -137,3 +137,45 @@
 ### 产品 / 工具
 
 （无新增资料）
+
+## 资料更新（2026-07-05）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|----------|------|
+| nngandhi96/vibemusic | 多智能体音乐策展 | 分析用户情绪、活动与氛围，生成定制 5 首歌曲播放列表；集成安全多智能体工作流、本地 MCP 服务查找与人在回路审批 | https://github.com/nngandhi96/vibemusic |
+| thegoodtailor/agentic-filmmaker | 音乐视频生成流水线 | 基于种子图像，通过视觉、叙事和视频生成智能体链式生成音乐视频片段 | https://github.com/thegoodtailor/agentic-filmmaker |
+| ruijiahuang2006-collab/kimusic-demo | LLM 音乐引导想象 | Kimusic 公开演示仓库，基于 LLM 的引导式意象与音乐智能体 | https://github.com/ruijiahuang2006-collab/kimusic-demo |
+| RhythrosaLabs/multi-agent-viral-video-maker | 多智能体视频制作 | 生成带音乐和旁白的长视频，面向病毒式内容制作的多智能体流水线 | https://github.com/RhythrosaLabs/multi-agent-viral-video-maker |
+| tsjyma/music-agent | LLM 辅助编曲 | 将 LilyPond 旋律转化为钢琴、贝斯和鼓伴奏的 LLM 辅助编曲流水线 | https://github.com/tsjyma/music-agent |
+| Pulpoide/tourmaster-ai | 多智能体巡演管理 | 面向音乐巡演管理的生产级多智能体编排系统，包含预订、物流、营销和天气等专用智能体，集成 RAG、实时工具调用与企业级可观测性 | https://github.com/Pulpoide/tourmaster-ai |
+| Producer007/suno-api | Suno API 封装 | Suno AI 音乐 API 封装，固定于 pre-2Captcha 提交版本，用于 Hollywood South MCP Agent Nation State | https://github.com/Producer007/suno-api |
+| bitwize-music-studio/claude-ai-music-skills | 人机协作音乐制作 | 面向 Suno 的人 + AI 音乐制作工作流，包含技能、模板与工具 | https://news.google.com/rss/articles/CBMib0FVX3lxTFA2bnlaaEdyX1RPdTc4QWw5UTQ3QlZCeFFjeUpBdFExUVFCSzZOU2xVLU9qOHZSX3dVaDVzZDhTSmowT29MLTJqMHI3aC1BQmdET3l5VGE0SVphd09LMlpqd2hvRUR6a2hnZnRyNzZ5MA?oc=5 |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|----------|------|
+| H-Lab-Works/ai-video-bgm-benchmark | 工具横评 | AI 视频配乐场景标签与音乐生成工具横评，对比 Suno、Udio、Stable Audio 在短视频 BGM 场景的表现 | https://github.com/H-Lab-Works/ai-video-bgm-benchmark |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|----------|------|
+| Hermes AI Music Agent 介绍 | 视频演示 | “Music creation just got an upgrade! Meet the Hermes AI Music Agent 🎵” | https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zU19hU0dQTUU1LTFIaGk2NXpReFRUZWtOMGUtLUQtVmdaMkFIcjB3WmdXazJ6M3lVcDFTeWYwMWxjZzJKMnoxdDRlZ2ZoWkdNTWZiRktB?oc=5 |
+| 302.AI CLI Skill 实测 | 中文教程 | 一行命令调用图片、视频、音乐全模型，解放生产力 | https://news.google.com/rss/articles/CBMieEFVX3lxTFAwd3djN2FLMUZMZy1zUS1raVNLT2pUZTB5dUtuRlkwUmdLWXRiOGJld0I1ekQxeVV2ZzZSMDJSaUJDOEp1alhkTkgtU0V6UlNIZE9QRVprS0t2WjFtRWJxYVU5d1dKRHNWR3BFSXdXS2FtdXczN1d4YQ?oc=5 |
+| AI 音乐视频生成工具盘点 | 媒体文章 | “AI Music Video Generation: 10 Tools That Automate Your Creative Workflow in 2026” | https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaW5uSU9UcEdsNkxTUlBRVWk1ZTR1Q2JqTWVRLXhwN0xjaHdVSXpvNHk0elNIeHNIV2F2MEtSSENwMEVTUjU0ZDNxWDRIX0NoV195c1U4LV80SWxXcV9FYm5JeFAzeWstR2J6LXdrV0F1Uy0weHpreWplZzYwbE9ZdVgtUlRjRzI3V0l6MWZ0RUF2U0RuMXE5aWRqYldCa1pvaWkxMGxUdDZRRVZRNU02cTNUbWZzRTB1Z1VLbWl1MzdUaXFEV2hvV0E4Rlh3SG9JU2c?oc=5 |
+| AI 音乐混战分析 | 中文媒体 | “AI音乐混战，谁能成为‘中国版Suno’？” | https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QUlBhQ0t0UlZLR1c1aExWMEN5dU9jdnJ6am9CVW1McFlUMzFEcjZuLWprSFJBZW10THZwRGRWdVNOMGNqUXZQUGRKTHJ5ekluQzNza2EtM2VGRk4ySmc?oc=5 |
+| 独立开发者 AI 音乐指南 | 媒体文章 | “From Zero Budget to Full Soundtrack: An Indie Dev’s Guide to AI Music” | https://news.google.com/rss/articles/CBMivAFBVV95cUxQajFqc0Nqd2ZqLTlOek5fMWpDVjlzT3A3akVMX3lReGd2bVo5ajhmWExMelRvNHd3bGZ0Z0ZHVXdza0RSa2VlUkdaWDR0cThYVHJhSkpLSE5GdndsYmN1ZElTV1NLUjdfVUNaV3JHdDgxeUdUWHF4dDFKOVNFZDYtcmt1aEgwVi1JUy00M3NxS3ljalZJbHZwZURVLTJCa2ctdUNIdHpDaWJ3TERyZTNwdEJTUEJLc0xjekJxNw?oc=5 |
+| AI 生成音乐版权讨论 | 媒体文章 | “The Millions of Songs Mashed Into AI-Generated Music” | https://news.google.com/rss/articles/CBMilgFBVV95cUxNMlplTmkza1NXTDNpWWFLaUdPa2xXdWw0ZkZqbVdlRWZ2QW8tS2xfU2QyMFF0ZzJ0c2phRjBRWUw3NksxTlh3cktRajI0Vzl0MjNTX0ZrYnpXclFtUlF0S2dmTkVzaC1JVWREcEMzaEt2aXJHZVFoem1PWjViSk84cWlTS0xsUFQ4WG9ENmFwX2tBVzRqREE?oc=5 |
+| AI 氛围编程与音乐工具 | 媒体文章 | “Inside the new wave of AI vibe coding tools turning prompts into plugins” | https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UU2dvV0haQmFyc0FCNkNWZjRGck41Y2ZSLUVxQ1Q0TlVmOFNmMHJaeDVseUpPMFpQaWtvTW1wNFo3MnljRG5nOUNoV3pqdkdCcUdtQ0RuNE1lYmNmZ3l0Wm1ucndXdw?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|----------|------|
+| Suno | AI 音乐生成应用 | 面向所有技能水平的创作者，通过文本提示在 1 分钟内生成包含人声、歌词和完整制作的原创歌曲 | https://suno.com/ |
+| Suno AI Music App | AI 音乐应用 | 帮助创作者制作音乐并发展个人风格，无限制创作 | https://suno.com/l/ai-music-app |
+| Suno API 平台盘点 | 工具列表 | “Top 10 Suno API Platforms for Full-Track Music Generation in 2026” | https://news.google.com/rss/articles/CBMimgFBVV95cUxOR29uUV8ySFZYQ3FiVFJHUG85TXJGeFd4RWxjTHlsaHNYalJOZV96U3Z0ZGpnMGpOSUkzVFhBbVFKckQxWGJsTWNwdFhuQ1BkSW9DWEc4Yk1DZUJWMEVFUWR5Z2Q5Rzg3RWVia0Z2c3dtSlZUQ0hEb3RqRU5EeU13bFdyVHp3TEExejJ0SDlwQUt1SDViZ2ktUk5R?oc=5 |
+| Unlimited-AI-Music-Generation | 验证工具 | 通过 SMS-MAN 绕过 Suno 和 Udio 每日额度限制的方案 | https://github.com/Mania4rta/Unlimited-AI-Music-Generation-Bypassing-Daily-Credits-on-Suno-and-Udio-via-SMS-MAN |

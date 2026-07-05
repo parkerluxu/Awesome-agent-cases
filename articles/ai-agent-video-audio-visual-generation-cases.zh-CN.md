@@ -219,3 +219,57 @@
 |------|------|-----------|------|
 | MoneyPrinterTurbo | 开源工具 | 基于 AI 大模型的开源自动化短视频生成工具，输入主题即可自动生成文案、素材、字幕和背景音乐 | [GitHub](https://github.com/harry0703/MoneyPrinterTurbo) / [PyPI](https://pypi.org/project/MoneyPrinterTurbo/) |
 | 豆包 (Seedance 2.0) | 产品 | 字节跳动旗下 AI 智能助手，已接入 Seedance 2.0 视频生成模型 | [官网](https://www.doubao.com/) |
+
+## 资料更新（2026-07-05）
+
+### 项目
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| HiAPIAI/hiapi-video-prompt-generator-skill | 工具 / Skill | 将摘要、链接和研究主题转换为面向 Seedance 2.0 与 HappyHorse 1.0 的定向视频提示词，供 Claude Code、Codex、OpenClaw、Cursor 等 Agent 使用。 | [GitHub](https://github.com/HiAPIAI/hiapi-video-prompt-generator-skill) |
+| n24q02m/imagine-mcp | MCP 工具 | 为 AI Agent 提供跨 Gemini、OpenAI 和 Grok 的图像与视频理解及生成能力。 | [GitHub](https://github.com/n24q02m/imagine-mcp) |
+| andr5579/ai-agent-faceless-video-generator | 自动化流水线 | 自主 AI Agent，可进行视频创意头脑风暴并端到端生成无出镜人视频，并通过 Blotato 分发至 9 个社交平台。 | [GitHub](https://github.com/andr5579/ai-agent-faceless-video-generator) |
+| ARTHUR-BBU/framepack | 工具 | 面向 HyperFrames 工作流的 Agent 原生视频项目编译器。 | [GitHub](https://github.com/ARTHUR-BBU/framepack) |
+| AwaisKhan-01/genai-research-radar | 自动化 Agent | 基于 GitHub Actions 与 Gemini 的自主每日 Agent，用于追踪、分析并聚合 Generative AI 与图像到视频流水线的最新 arXiv 研究。 | [GitHub](https://github.com/AwaisKhan-01/genai-research-radar) |
+| snow884/agentic-short-video-generation | 视频生成 | 一个 Agentic 短视频生成项目（摘要未提供细节）。 | [GitHub](https://github.com/snow884/agentic-short-video-generation) |
+| mahshid1378/Open-AI-Micro-Drama-Generator | 自动化流水线 | 利用多 Agent 流水线（编剧→故事板→帧→视频）将任意想法转化为完整短剧，支持 Seedance 2 VIP、Kling 3.0 Pro、Veo 3.1、Sora 2。 | [GitHub](https://github.com/mahshid1378/Open-AI-Micro-Drama-Generator) |
+| okbeng03/vimax_web | 视频生成 | ViMax Web：集导演、编剧、制片人、视频生成器于一体的 Agentic 视频生成工具。 | [GitHub](https://github.com/okbeng03/vimax_web) |
+| HKUDS/ViMax | 视频生成框架 | ViMax：集导演、编剧、制片人、视频生成器于一体的 Agentic 视频生成（Stars: 10900）。 | [GitHub](https://github.com/HKUDS/ViMax) |
+| mb13180035511/LongVideoAgent | 视频理解框架 | 通过 LongVideoAgent 框架与 LongTVQA+ 数据集，实现基于多 Agent 推理的长视频理解。 | [GitHub](https://github.com/mb13180035511/LongVideoAgent) |
+| kasbsquall/digital-farm-showrunner | 自动化流水线 | 自主 AI Showrunner：4 个 AI Agent 每日生成农场主题微短剧（剧本→视频→QA→发布），为 Qwen Cloud Hackathon 2026 项目。 | [GitHub](https://github.com/kasbsquall/digital-farm-showrunner) |
+| yl365/MoneyPrinterTurboEasy | 视频生成工具 | 利用 AI 大模型一键生成高清短视频的工具，复刻 MoneyPrinter/MoneyPrinterTurbo。 | [GitHub](https://github.com/yl365/MoneyPrinterTurboEasy) |
+| PaulBratslavsky/roughcut-ai-local-first-editor | 视频编辑工具 | 开源、本地优先的 AI 视频编辑器：支持设备端转录、本地 LLM 粗剪、基于文本的编辑、NLE 导出，并提供可被 Claude 驱动的 MCP 工具接口。 | [GitHub](https://github.com/PaulBratslavsky/roughcut-ai-local-first-editor) |
+| Supan-Roy/director-desk | 自动化流水线 | 面向 Qwen Cloud Global AI Hackathon 2026 的 AI Showrunner 平台，自动化从剧本生成到故事板与视频编排的电影制作流程。 | [GitHub](https://github.com/Supan-Roy/director-desk) |
+| mohit231007/omnireel-ai | 视频生成流水线 | 高性能、多语言（Python + Rust）的 AI 视频生成流水线，强调 100% 本地、去中心化与完全自主的故事创作。 | [GitHub](https://github.com/mohit231007/omnireel-ai) |
+| oktaydbk54/vibeclip | 视频编辑工具 | 开源、自托管的 AI 视频编辑器：可将长视频转化为带字幕的 9:16 短视频，并支持通过聊天进行编辑。 | [GitHub](https://github.com/oktaydbk54/vibeclip) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| SimWorlds: A Multi-Agent System for Dynamic 3D Scene Creation | 论文 | 提出一个多 Agent 系统，用于从文本生成包含流体、粒子、刚体与铰接机构运动的动态 4D 场景，弥补了现有系统仅输出静态场景的不足。 | [arXiv](https://arxiv.org/abs/2607.01766v1) |
+| DramaDirector: Geometry-Guided Short Drama Generation | 论文 | 提出几何引导的剧情到多镜头短视频生成框架，通过借鉴真实短剧镜头的电影摄影几何，解决提示词级或纯文本视频生成在节奏、焦点与镜头语言上的不足。 | [arXiv](https://arxiv.org/abs/2606.24107v1) |
+| MAVIN: Multi-Shot Audio-Visual Generation with Narrative Control | 论文 | 提出首个支持自定义叙事控制的多镜头音视频生成框架，通过边界感知注意力解决时间错位问题，实现连贯的多镜头生成。 | [arXiv](https://arxiv.org/abs/2606.29473v1) |
+| Autonomous Video Generation with Counterfactual Controllability for Self-Evolving World Models | 论文 | 探讨视频生成与世界模型的关系，指出仅靠扩展视觉预测无法自动产生物理 Agent，并研究反事实可控性在自进化世界模型中的作用。 | [arXiv](https://arxiv.org/abs/2606.24152v1) |
+| Recommendation as Generation: Unifying Personalized Video Generation and Recommendation at Industrial Scale | 论文 | 提出“推荐即生成”范式，通过共享语义 ID 统一生成式推荐与视频生成，实现基于用户兴趣的按需个性化视频生成。 | [arXiv](https://arxiv.org/abs/2606.25496v1) |
+| World Narrative Model for Highly Controllable Video Generation | 论文 | 针对现有视频生成缺乏可控性的问题，提出从像素采样转向显式 4D 物理世界编排的范式，使创作者能定量指定几何、运动、相机与光照参数。 | [arXiv](https://arxiv.org/abs/2606.31946v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| Neural4D Launches AI 3D Agent, a Unified Panel for 3D, Image, and Video Generation | 媒体报道 | Kitsap Sun 报道 Neural4D 推出的 AI 3D Agent，一个统一的 3D、图像与视频生成面板。 | [Kitsap Sun](https://news.google.com/rss/articles/CBMizgFBVV95cUxQT0tNUC1QNWJIdHM3RXc3a194eGx4SnEtYjRoOHJmdHBmMUI1elcwZ3pNLUJ2Qll1c2Vldnh3ODVNN195QTNkdzZfSC1QckZhUkVxMFVvakFtZzAtYVI5YnRnXzRqX0hkbkVuNWNfSVNsZ1NKOFpRbzV2VEx2U3ZZR2c2WjlVa0w0eEVqSF9BVHBxZDFPUzNEMVBiZGI4WGdwc2NuS2pIclRTdEllc093aHVCd3l1N0diVGJTWmdnVkNBOFBMY25wTHJ3dGJlQQ?oc=5) |
+| 时述智能马睿：多Agent协同重构文娱内容生产体系 | 媒体报道 | 21 世纪经济报道（ZAKER 新闻）关于时述智能利用多 Agent 协同重构文娱内容生产体系的报道。 | [ZAKER新闻](https://news.google.com/rss/articles/CBMifEFVX3lxTE9oYkhybXJKeFZkRmRCTE9mRDRLaXIwNUprTmN3M0hwa1FGV3FqQXBmZjRBQVlybmUwdXVlYmY5WHFfM2VXSVJlRjhiN19xR3p0ejliTHRhUDhheHVzcDFCX2lWSlN5RnJYOW5XeUVET3FzQWhjWC1US0pEbkg?oc=5) |
+| 从生成到交付，音视频 Agent 要有生产级开发套件 | 媒体报道 | InfoQ 关于音视频 Agent 需要从生成到交付的生产级开发套件的报道。 | [Infoq.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5eVB5TS1jbVlrRGc5czF2NTJ5NnpBVUhhN2dmNk51bUpBM3BPNWJyYnBuSVpCVEEzU2NRWUhQVDd2ZFR4M0tRZ3NCcTVlVEk2cHpHMC1nbERxYW8zbkE?oc=5) |
+| I Built an AI Drawing Butler in Rust: Gliding Horse Powers media_agent for Fully Automated ComfyUI… | 媒体实测 / 教程 | Medium 上关于使用 Rust 构建 AI 绘图管家，驱动 media_agent 实现全自动 ComfyUI 工作流的实践分享。 | [Medium](https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdm4wbzRRdFpQZF9NQkhUdUJQdWFCNXk2TnkyQ2JLcHBFZDdZa240VldzUmY2UnlmeVVINzRBM0czODNvODhXMFdzWFFmQ0pnRHU3S1Y3YlUxTXR2MVJRaWt0Q0ZFWWY0TnBORkEtNG9EX042UDdkZlpWRi1qcnhPTzdyaUEzalBXZC1wRTVXWWNUekE2NE5IWDhMT1U0WHdsX1dLVE5Qa1RjV0RCaElzb1Z2V2VEVmdzeGpRc2JPT0xaaGFEQUdPRXVTWmVpOXVoZG1wQ0ZqdlZhZw?oc=5) |
+| AI Music Video Generation: 10 Tools That Automate Your Creative Workflow in 2026 | 媒体实测 / 盘点 | Robotics & Automation News 盘点了 2026 年可自动化创意工作流的 10 款 AI 音乐视频生成工具。 | [Robotics & Automation News](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaW5uSU9UcEdsNkxTUlBRVWk1ZTR1Q2JqTWVRLXhwN0xjaHdVSXpvNHk0elNIeHNIV2F2MEtSSENwMEVTUjU0ZDNxWDRIX0NoV195c1U4LV80SWxXcV9FYm5JeFAzeWstR2J6LXdrV0F1Uy0weHpreWplZzYwbE9ZdVgtUlRjRzI3V0l6MWZ0RUF2U0RuMXE5aWRqYldCa1pvaWkxMGxUdDZRRVZRNU02cTNUbWZzRTB1Z1VLbWl1MzdUaXFEV2hvV0E4Rlh3SG9JU2c?oc=5) |
+| Adobe creative agents are expanding | 媒体报道 | gfxspeak.com 关于 Adobe 创意 Agent 扩展的报道。 | [gfxspeak.com](https://news.google.com/rss/articles/CBMidEFVX3lxTE84ejhYcFBxdjF4ekxRaGZGR0x2WkhvT0pKaHZnMnBUd1Npc1Y5dThHVDY1WXdGbUlFYnBvZTQzWUpSOWJubFMwNjBEWm9UTzFUWTlXV280Y0thNkdfRFRGajEyYjNhZE1keHYzYkFaRmZIM2Zn?oc=5) |
+| Adobe Unveils Major Expansion of Creative Agent Across Firefly and Creative Cloud Apps Including Photoshop and Premiere | 媒体报道 | Adobe 官方新闻室关于 Creative Agent 在 Firefly 及包括 Photoshop、Premiere 在内的 Creative Cloud 应用中重大扩展的公告。 | [Adobe Newsroom](https://news.google.com/rss/articles/CBMic0FVX3lxTE1iM1dHcDBrc01VNWxESDBlN08tZ2UwQ2lJdENLU0ljeDhnaVdkaGltdW4tT0p5ZEFVSkRjYXRLUFdORGk3UWx4Z2xrVUFPMTl1NFlIVFhCemRjTXdzRXFkYjdmQ2pTbDh0UHNpQ2l0Y3JTXzA?oc=5) |
+| 智绘秀番与腾讯云达成战略合作，推动 AI 动漫生产进入 Agent 协同时代 | 媒体报道 | 中华网关于智绘秀番与腾讯云战略合作，推动 AI 动漫生产进入 Agent 协同时代的报道。 | [中华网](https://news.google.com/rss/articles/CBMibEFVX3lxTE1CYkpXNmNIQWVOM3p5bW84MzM5d2swNFl1WHBaRGVPYzB6V296UFhwbFFaV0YwWnMtUmJrMGJFdlJaNWpqak1qZDlQc1V2aXF1aVBSMXJSa25XSzI2b0k0SlBibmpOdEZMem1PUA?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| Neural4D AI 3D Agent | 产品 | Neural4D 推出的统一面板，用于 3D、图像与视频生成。 | 参见教程/媒体实测对应条目 |
+| Adobe Creative Agent (扩展) | 产品 / 功能 | Adobe 在 Firefly 及 Creative Cloud 应用（含 Photoshop、Premiere）中扩展的创意 Agent 功能。 | 参见教程/媒体实测对应条目 |

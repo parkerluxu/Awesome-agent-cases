@@ -224,3 +224,55 @@
 | ai-coding-guide | 教程合集 | 「可能是全网最全的」AI 编程 CLI 中文教程，涵盖 Claude Code + Codex 共 92 篇精修文章 | [GitHub](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtREFBSkdYcjRyXy1nR0c2RmcyRktLalE3VzVzYmgyX0toQ2EwcmtIazZJUlRSaVhpZ1FydndwYl96dWhacFcwS3NtS3pvWFpXWkxJeDcxRFE?oc=5) |
 | codex-orange-book | 教程 | Codex 橙皮书：从安装到实战案例的全链路使用指南（非官方开源，含可下载 PDF） | [GitHub](https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2aGhtc0JDY1F4cEVWX0dna0xRa0FPYW5UeU1mUko2Y1I0ZDdBbjFpSmRMUzNSUEc5TUs1NVBvdmhZb2RHd3diT2JXS2FieWF5RzhLMm5LMFg3dw?oc=5) |
 | deepagents-in-action | 教程 | 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain/LangGraph 生态，从零构建生产级 AI Agent | [GitHub](https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Y1FjUHg1c2dQWHd2MmZGZzlvMW50SXdvbWV5Z0JERWlXMU1NOGZxc2FsT2FYaGJ0SXJ2OUloZEIyM0pqcnhnMHdmQjF2YXVLYV9DLTYtN3Ytc3lrajROaUswM0o?oc=5) |
+
+## 资料更新（2026-07-05）
+
+### 项目
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| zhikunqingtao/zhikuncode | 开源项目 | Claude Code / Cursor 的开源替代方案，支持 CLI 与 Web UI 双入口、Multi-Agent 协作，可直接连接千问、DeepSeek 等国产大模型，SWE-bench Lite 得分 56%。 | https://github.com/zhikunqingtao/zhikuncode |
+| Clouderavine/Bolt-New-Web-Development-Agent-Professional-Complete-Edition | 开源项目 | Bolt.new 的 AI 辅助 Web 开发环境，可通过自然语言提示生成、预览和迭代全栈应用。 | https://github.com/Clouderavine/Bolt-New-Web-Development-Agent-Professional-Complete-Edition |
+| as9978/designfit | 开源项目 | 用于验证 AI 构建的前端是否与 Figma 设计一致的工具，基于确定性 Token 与几何结构比对，提供 MCP 服务器与 Claude Code 技能。 | https://github.com/as9978/designfit |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| SoK: AI Secure Code Generation: Progress, Pitfalls, and Paths Forward | 论文 | 系统化梳理 AI 安全代码生成领域的进展、缺陷与未来方向，涵盖提示、微调、强化学习及 Agent 工作流等技术。 | https://arxiv.org/abs/2606.25195v1 |
+| NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers? | Benchmark | 基于 Nature 系列期刊论文构建的跨学科基准，包含 90 个任务，用于评估 AI 编码 Agent 在真实科学问题上的发现能力。 | https://arxiv.org/abs/2606.24530v1 |
+| Distributed Attacks in Persistent-State AI Control | 论文 | 研究 AI 编码 Agent 在持续状态下的分布式攻击面，提出 Iterative VibeCoding 设定以分析跨 PR 的隐蔽攻击行为。 | https://arxiv.org/abs/2607.02514v1 |
+| JAMER: Project-Level Code Framework Dataset and Benchmark on Professional Game Engines | Benchmark | 首个基于专业游戏引擎的项目级游戏代码框架数据集与基准 JamSet/JamBench，源自 Game Jam 社区活动。 | https://arxiv.org/abs/2606.19830v2 |
+| Animation2Code: Evaluating Temporal Visual Reasoning in Video-to-Code Generation | Benchmark | 用于评估视频到代码生成中时序视觉推理能力的基准，包含 1,069 个 Web 动画视频。 | https://arxiv.org/abs/2606.28593v1 |
+| The Verification Horizon: No Silver Bullet for Coding Agent Rewards | 论文 | 探讨编码 Agent 奖励验证的局限性，指出验证器只是人类意图的代理，无法完全消除奖励黑客问题。 | https://arxiv.org/abs/2606.26300v2 |
+| ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | Benchmark | 用于评估 AI Agent 在企业级 Java 框架迁移中表现的基准。 | https://huggingface.co/blog/ibm-research/scarfbench |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| SWE-Benchmark 综合指南：评估 AI 智能体在真实世界软件工程任务中的表现 | 教程 | 介绍 SWE-bench 生态系统，包括 SWE-agent、SWE-rex 和 SWE-bench CLI 等工具。 | https://zhuanlan.zhihu.com/p/1914663162680181121 |
+| ReActAgent 使用指南：构建会思考、能行动的 AI Agent | 教程 | 基于 Solon AI 4.0 的 ReActAgent 构建生产级 AI Agent 的指南。 | https://www.oschina.net/news/471482 |
+| A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs | 教程 | 介绍如何结合声明式 UI 与自定义 Agent UI 构建应用。 | https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MYThqNlIycmg5NmN4bE5GX0c3RUZidkNVMW5xeUM5cG50M3pvdjh6M1RUVUNmY0RCUkVBYV92SGc0QlNva05pOGNZb3RmMXdaenRNNGQ3ZzY0Qi04QTVpYWxB?oc=5 |
+| Evaluate AI agents systematically with Agent-EvalKit | 教程 | AWS 提供的使用 Agent-EvalKit 系统化评估 AI Agent 的方法。 | https://news.google.com/rss/articles/CBMioAFBVV95cUxQeldfMDFMWnNrN3oxZFJsMjVWSEtWaGtWdzRDR2pZVGxaWDlsb0otVEtTQ0dzR2R6blZjUENETm9WZGQ1R0xpUU03MGlyS0swTjlIWU5PRV9RcXd4UDlGSnZBVUw4NFR4N2hqNjFOdzVyQVhRaXdZdWVpMXhVU2hsUlAwWU1RZWpyQzgwZ2JjaHc5TGE4RzE2c1Z2RVFWWVRz?oc=5 |
+| 国产版Codex？阿里QoderWork有点东西 | 媒体实测 | 介绍阿里 QoderWork 并附使用教程。 | https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OOUJQR0FrUkpIM01SSVBVNHBjOWwyUGxuUGpka09VWnZmN1FJM2h1Ykg5NmktRDl6YXE0X0lUU0tYNkVmX1VWUTdSSGxTSTBPT185UQ?oc=5 |
+| How agents are transforming work | 媒体实测 | OpenAI 研究论文解读，展示 AI Agent 如何改变工作方式，支持更长、更复杂的任务。 | https://openai.com/index/how-agents-are-transforming-work |
+| Harness Engineering 实践案例：给编码 Agent 写行为规范教程 | 教程 | 介绍如何为编码 Agent 编写行为规范的实践案例。 | https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XM05rak5jT01RenhIaGdvNkl5cTYtNVhfSnB0UmtnVVBVU2lVcE9CQm9ETzIyenVOSEdZOUxRUWtmYVRvR21KejRwUms1VVdzQ3FJd3VlVmhNa2t4?oc=5 |
+| Create your own web-based AI assistant with lite experience of Copilot Studio | 教程 | 微软提供的在 Microsoft 365 Copilot 中构建 Web 端 AI 助手的教程。 | https://news.google.com/rss/articles/CBMibEFVX3lxTE9fTnZDcVExdHd6SGExY203dU55VVVHSDc5VllJN0xNS3hqeHp6UmZXWVVLanZpU2Y5TkhNZTQtc3poWlFPTGNSX3NMSmZJa1dEYm1KSWpMX3JQc3ZmSkZRR2NGcDVXVUJNOHp4Zw?oc=5 |
+| Build reliable multi-agent applications with ADK Go 2.0 | 教程 | 介绍 ADK Go 2.0 的图工作流引擎、人机协同与动态编排能力。 | https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EeFJFaWhEM3V4UjlyZFo3S0dtRTJSOHA4MUZMX1FmbmppWXdyVjZtQWg1QjBqRUdlRXlUUTAzdFRMcTZWRWxESUpxQUtMeVdhallBSEthWDFZalozdTN6dDhyZHpTUQ?oc=5 |
+| Claude Code × DeepSeek × 积木报表：AI 报表到底有多智能？ | 媒体实测 | 结合 Claude Code、DeepSeek 与积木报表的 AI 报表落地案例。 | https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Ud2dFYkljSlJhbmlhQ2poM1hpY1lzdlJGajlqQkdTM2VQTnRPWUJxRGtsZlNGcHBCVGk4RWJwV0JtdjF0ak1PNWZZNA?oc=5 |
+| Cursor 教程 | 教程 | 菜鸟教程提供的 Cursor 编辑器使用教程。 | https://www.runoob.com/cursor/cursor-tutorial.html |
+| AutoJack: How a single page can RCE the host running your AI agent | 媒体实测 | 微软披露的通过单个页面远程代码执行攻击 AI Agent 宿主的案例。 | https://news.google.com/rss/articles/CBMipwFBVV95cUxQWkJCU0tFankzSmVreVVycHBQc3UtcUJIWmxnZzVzaVhCeTdCSXdXbFBhN2w3aXJTNzhQZ21SQW9DT1IySkNKSWZxR3lrOFd6dGFIdENSdElGUGl3Q2NEZHdscXpNVDg3eDYwY3Y3Q1pNQmhIRWltRmhUb2x4bVJsSFp5bjRGdmxGOVNuTkk4NWc1S0F1Q1FaV3BMYWI3WGY2MXNQdVJXYw?oc=5 |
+| Top AI Coding Agents and Development Platforms in 2026 | 媒体实测 | 对比 Atoms、Devin、Windsurf、Cursor、Warp 等主流 AI 编码 Agent 与开发平台。 | https://news.google.com/rss/articles/CBMijAFBVV95cUxOUFRXU1lETzA5Mm5DWU1RY2RLS3Y0N1RjZnJ6SjJWYnVPQ2tVekhPa0hma3VHZy15VnBjYUNWSVN5OWVNT0NxRGZlRnM4VFE2NjBBZkFaY05SdUxvaVlDRWFoMjlFXzlfVmtPUzhUN3A3Q29yWTZuU2MwMkh0VlhUTlVFNnFweHJYRmxGdA?oc=5 |
+| Vercel's Andrew Qu on why agents are a new kind of software | 媒体实测 | Vercel 首席软件官解释其 Agent 框架 eve 的创建背景，以及技能、沙箱和 Agent 可读网站的重要性。 | https://www.latent.space/p/vercel-agents-new-software |
+| The website of the future may assemble itself for every visitor | 媒体实测 | Adobe 正在实验“Agent 化网站”，可根据用户意图动态生成页面。 | https://www.latent.space/p/the-website-of-the-future |
+| Vibe Coding 入门教程 | 教程 | 菜鸟教程提供的 Vibe Coding 入门指南。 | https://www.runoob.com/ai-agent/vibe-coding-start.html |
+| Direct agents with visual prompts in Design Mode | 教程 | Cursor 设计模式中使用视觉提示引导 Agent 的方法。 | https://news.google.com/rss/articles/CBMiS0FVX3lxTE1hSTYzV2psYzFmbW9tZTFKelFVQm9LbmpjZjRUT1pfZlBRdUgzUVJFcldyS2ZuUEpxQUJRanUtTkhyb0hZSnNRODRaNA?oc=5 |
+| How Cursor deploys AI inside the enterprise | 媒体实测 | Cursor 的 Forward Deployed Engineers 团队如何帮助企业落地 AI Agent。 | https://www.latent.space/p/cursor-forward-deployed-engineers |
+| Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks | 媒体实测 | GitHub 博客对 Copilot Agent 框架在不同模型与任务上的性能与效率评估。 | https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTFF2R252NjNzX0stNDFHSTA5X2NaVlBmdHl2bjBPMFhjWmNZb0dJZWxXT0V0ZFZwVWVWZWszNkZRN2NaRk9qb2tOSWY3RW0xbndQV1drOXpFRlpWR2xTT3FrRUFjOGlraHhnM1pmdzdaaUlBbmpfN1Y1Q3V4Z1drUWZzUXBVLXBjNVp3dEs3enA2SWF2QWVhWlQ1b3U4QUpIWkFjbUxCYW1WSk1HdFZrNWdKMFpKUjZjenpCZzRrVHBHSVNtNHVjTGdwSGhrRllLYmRER19BbnVBZXIwREE?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| Cursor: AI coding agent | 产品 | 提供桌面版与 CLI 界面的 AI 编码 Agent。 | https://cursor.com/ |

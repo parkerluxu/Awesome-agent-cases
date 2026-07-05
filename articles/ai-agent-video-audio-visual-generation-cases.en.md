@@ -214,3 +214,55 @@ This section is divided into two categories: `26 Tutorials / Cases` and `30 Proj
 | Name | Type | Use / Summary | Link |
 |------|------|---------------|------|
 | 豆包 (Doubao) | Product | ByteDance's AI assistant — Seedance 2.0 video generation model now fully integrated, free to use | [Website](https://www.doubao.com/) |
+
+## Resource Update (2026-07-05)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| HKUDS/ViMax | Agentic Video Generation | Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One). Stars: 10900. | [github.com/HKUDS/ViMax](https://github.com/HKUDS/ViMax) |
+| okbeng03/vimax_web | Agentic Video Generation | ViMax Web: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One). Stars: 0. | [github.com/okbeng03/vimax_web](https://github.com/okbeng03/vimax_web) |
+| mahshid1378/Open-AI-Micro-Drama-Generator | Agentic Video Generation | AI short drama & micro-drama video generator — turns any idea into a complete short-form drama using multi-agent AI pipeline (screenwriter → storyboard → frames → video). Seedance 2 VIP, Kling 3.0 Pro, Veo 3.1, Sora 2. Stars: 0. | [github.com/mahshid1378/Open-AI-Micro-Drama-Generator](https://github.com/mahshid1378/Open-AI-Micro-Drama-Generator) |
+| andr5579/ai-agent-faceless-video-generator | Agentic Video Generation | Autonomous AI agent that brainstorms video ideas with structured output parsing, generates faceless video content end-to-end (no on-camera presenter), and publishes the result across 9 social platforms via Blotato. Stars: 0. | [github.com/andr5579/ai-agent-faceless-video-generator](https://github.com/andr5579/ai-agent-faceless-video-generator) |
+| snow884/agentic-short-video-generation | Agentic Video Generation | Agentic short video generation. Stars: 0. | [github.com/snow884/agentic-short-video-generation](https://github.com/snow884/agentic-short-video-generation) |
+| kasbsquall/digital-farm-showrunner | Agentic Video Generation | AI Showrunner autónomo: 4 agentes de IA generan micro-dramas de granja diarios (guion→video→QA→publicación). Qwen Cloud Hackathon 2026 · Track 2. Stars: 0. | [github.com/kasbsquall/digital-farm-showrunner](https://github.com/kasbsquall/digital-farm-showrunner) |
+| Supan-Roy/director-desk | Agentic Video Generation | Director Desk is an AI showrunner platform built for the Qwen Cloud Global AI Hackathon 2026, automating the filmmaking pipeline from script generation to storyboard and video orchestration. Stars: 0. | [github.com/Supan-Roy/director-desk](https://github.com/Supan-Roy/director-desk) |
+| mb13180035511/LongVideoAgent | Video Understanding Agent | Enable multi-agent reasoning with long videos through the LongVideoAgent framework, featuring the LongTVQA+ dataset and upcoming code releases. Stars: 2. | [github.com/mb13180035511/LongVideoAgent](https://github.com/mb13180035511/LongVideoAgent) |
+| n24q02m/imagine-mcp | MCP Tool | Image and video understanding + generation for AI agents — across Gemini, OpenAI, and Grok. Stars: 4. | [github.com/n24q02m/imagine-mcp](https://github.com/n24q02m/imagine-mcp) |
+| HiAPIAI/hiapi-video-prompt-generator-skill | Prompt Skill | Turn briefs, links, and research topics into directed video prompts for Seedance 2.0 and HappyHorse 1.0. For Claude Code, Codex, OpenClaw, and Cursor agents. Stars: 0. | [github.com/HiAPIAI/hiapi-video-prompt-generator-skill](https://github.com/HiAPIAI/hiapi-video-prompt-generator-skill) |
+| ARTHUR-BBU/framepack | Workflow Compiler | Agent-native video project compiler for HyperFrames workflows. Stars: 2. | [github.com/ARTHUR-BBU/framepack](https://github.com/ARTHUR-BBU/framepack) |
+| AwaisKhan-01/genai-research-radar | Research Agent | An autonomous daily agent that tracks, analyzes, and aggregates the latest ArXiv research on Generative AI and image-to-video pipelines using GitHub Actions and Gemini. Stars: 0. | [github.com/AwaisKhan-01/genai-research-radar](https://github.com/AwaisKhan-01/genai-research-radar) |
+| mohit231007/omnireel-ai | Video Pipeline | A high-performance, polyglot (Python + Rust) AI video generation pipeline. 100% local, decentralized, and completely sovereign storytelling without cloud boundaries or API filters. Stars: 0. | [github.com/mohit231007/omnireel-ai](https://github.com/mohit231007/omnireel-ai) |
+| yl365/MoneyPrinterTurboEasy | Video Generator | 利用AI大模型，一键生成高清短视频。AI音视频生成器：一句话生成高质量音视频！专业爆款短视频创作利器！绿色版，下载直接用，完美复刻 MoneyPrinter / MoneyPrinterTurbo！ Stars: 193. | [github.com/yl365/MoneyPrinterTurboEasy](https://github.com/yl365/MoneyPrinterTurboEasy) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| SimWorlds: A Multi-Agent System for Dynamic 3D Scene Creation | Paper | LLM agents translate natural language into dynamic 4D scenes with liquids, particles, rigid bodies, and articulated mechanisms, addressing challenges beyond static text-to-scene work. | [arxiv.org/abs/2607.01766v1](https://arxiv.org/abs/2607.01766v1) |
+| DramaDirector: Geometry-Guided Short Drama Generation | Paper | A geometry-grounded framework for plot-to-short-drama generation that borrows cinematographic geometry from real short-drama shots to produce visually grounded multi-shot videos. | [arxiv.org/abs/2606.24107v1](https://arxiv.org/abs/2606.24107v1) |
+| MAVIN: Multi-Shot Audio-Visual Generation with Narrative Control | Paper | The first framework for multi-shot audio-visual generation with customized narrative control, using boundary-aware attention and hierarchical cascading to resolve temporal misalignment. | [arxiv.org/abs/2606.29473v1](https://arxiv.org/abs/2606.29473v1) |
+| Autonomous Video Generation with Counterfactual Controllability for Self-Evolving World Models | Paper | Argues that video generation models learn a partial, implicit spatiotemporal world model but not a fully grounded one, and explores counterfactual controllability for self-evolving world models. | [arxiv.org/abs/2606.24152v1](https://arxiv.org/abs/2606.24152v1) |
+| Recommendation as Generation: Unifying Personalized Video Generation and Recommendation at Industrial Scale | Paper | Proposes Recommendation-as-Generation (RaG), a paradigm that generates personalized videos on demand from inferred user interest using shared semantic IDs (SIDs). | [arxiv.org/abs/2606.25496v1](https://arxiv.org/abs/2606.25496v1) |
+| World Narrative Model for Highly Controllable Video Generation | Paper | Proposes a paradigm shift from pixel sampling to physical world orchestration, enabling deterministic, quantitative control over geometry, motion, camera parameters, and lighting. | [arxiv.org/abs/2606.31946v1](https://arxiv.org/abs/2606.31946v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Neural4D Launches AI 3D Agent, a Unified Panel for 3D, Image, and Video Generation | News | Coverage of Neural4D's unified panel for 3D, image, and video generation. | [Kitsap Sun](https://news.google.com/rss/articles/CBMizgFBVV95cUxQT0tNUC1QNWJIdHM3RXc3a194eGx4SnEtYjRoOHJmdHBmMUI1elcwZ3pNLUJ2Qll1c2Vldnh3ODVNN195QTNkdzZfSC1QckZhUkVxMFVvakFtZzAtYVI5YnRnXzRqX0hkbkVuNWNfSVNsZ1NKOFpRbzV2VEx2U3ZZR2c2WjlVa0w0eEVqSF9BVHBxZDFPUzNEMVBiZGI4WGdwc2NuS2pIclRTdEllc093aHVCd3l1N0diVGJTWmdnVkNBOFBMY25wTHJ3dGJlQQ?oc=5) |
+| 时述智能马睿：多Agent协同重构文娱内容生产体系 | News | Coverage of multi-agent collaboration restructuring entertainment content production systems. | [ZAKER新闻](https://news.google.com/rss/articles/CBMifEFVX3lxTE9oYkhybXJKeFZkRmRCTE9mRDRLaXIwNUprTmN3M0hwa1FGV3FqQXBmZjRBQVlybmUwdXVlYmY5WHFfM2VXSVJlRjhiN19xR3p0ejliTHRhUDhheHVzcDFCX2lWSlN5RnJYOW5XeUVET3FzQWhjWC1US0pEbkg?oc=5) |
+| 从生成到交付，音视频 Agent 要有生产级开发套件 | News | Coverage of production-grade development kits for audio/video agents from generation to delivery. | [Infoq.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5eVB5TS1jbVlrRGc5czF2NTJ5NnpBVUhhN2dmNk51bUpBM3BPNWJyYnBuSVpCVEEzU2NRWUhQVDd2ZFR4M0tRZ3NCcTVlVEk2cHpHMC1nbERxYW8zbkE?oc=5) |
+| I Built an AI Drawing Butler in Rust: Gliding Horse Powers media_agent for Fully Automated ComfyUI… | Tutorial | A Rust-based AI drawing butler powering media_agent for fully automated ComfyUI workflows. | [Medium](https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdm4wbzRRdFpQZF9NQkhUdUJQdWFCNXk2TnkyQ2JLcHBFZDdZa240VldzUmY2UnlmeVVINzRBM0czODNvODhXMFdzWFFmQ0pnRHU3S1Y3YlUxTXR2MVJRaWt0Q0ZFWWY0TnBORkEtNG9EX042UDdkZlpWRi1qcnhPTzdyaUEzalBXZC1wRTVXWWNUekE2NE5IWDhMT1U0WHdsX1dLVE5Qa1RjV0RCaElzb1Z2V2VEVmdzeGpRc2JPT0xaaGFEQUdPRXVTWmVpOXVoZG1wQ0ZqdlZhZw?oc=5) |
+| AI Music Video Generation: 10 Tools That Automate Your Creative Workflow in 2026 | Roundup | Overview of 10 tools that automate AI music video generation workflows in 2026. | [Robotics & Automation News](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaW5uSU9UcEdsNkxTUlBRVWk1ZTR1Q2JqTWVRLXhwN0xjaHdVSXpvNHk0elNIeHNIV2F2MEtSSENwMEVTUjU0ZDNxWDRIX0NoV195c1U4LV80SWxXcV9FYm5JeFAzeWstR2J6LXdrV0F1Uy0weHpreWplZzYwbE9ZdVgtUlRjRzI3V0l6MWZ0RUF2U0RuMXE5aWRqYldCa1pvaWkxMGxUdDZRRVZRNU02cTNUbWZzRTB1Z1VLbWl1MzdUaXFEV2hvV0E4Rlh3SG9JU2c?oc=5) |
+| Adobe creative agents are expanding | News | Coverage of Adobe's expansion of creative agents. | [gfxspeak.com](https://news.google.com/rss/articles/CBMidEFVX3lxTE84ejhYcFBxdjF4ekxRaGZGR0x2WkhvT0pKaHZnMnBUd1Npc1Y5dThHVDY1WXdGbUlFYnBvZTQzWUpSOWJubFMwNjBEWm9UTzFUWTlXV280Y0thNkdfRFRGajEyYjNhZE1keHYzYkFaRmZIM2Zn?oc=5) |
+| Adobe Unveils Major Expansion of Creative Agent Across Firefly and Creative Cloud Apps Including Photoshop and Premiere | News | Adobe's major expansion of Creative Agent across Firefly and Creative Cloud apps including Photoshop and Premiere. | [Adobe Newsroom](https://news.google.com/rss/articles/CBMic0FVX3lxTE1iM1dHcDBrc01VNWxESDBlN08tZ2UwQ2lJdENLU0ljeDhnaVdkaGltdW4tT0p5ZEFVSkRjYXRLUFdORGk3UWx4Z2xrVUFPMTl1NFlIVFhCemRjTXdzRXFkYjdmQ2pTbDh0UHNpQ2l0Y3JTXzA?oc=5) |
+| 智绘秀番与腾讯云达成战略合作，推动 AI 动漫生产进入 Agent 协同时代 | News | Coverage of a strategic partnership pushing AI anime production into the agent collaboration era. | [中华网](https://news.google.com/rss/articles/CBMibEFVX3lxTE1CYkpXNmNIQWVOM3p5bW84MzM5d2swNFl1WHBaRGVPYzB6V296UFhwbFFaV0YwWnMtUmJrMGJFdlJaNWpqak1qZDlQc1V2cXF1aVBSMXJSa25XSzI2b0k0SlBibmpOdEZMem1PUA?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| PaulBratslavsky/roughcut-ai-local-first-editor | AI Video Editor | Open-source, local-first AI video editor: on-device transcription (whisper.cpp), local LLM rough cuts (Gemma via Ollama), transcript-based editing, NLE export, and an MCP tool surface Claude can drive. GPL-3.0. Stars: 0. | [github.com/PaulBratslavsky/roughcut-ai-local-first-editor](https://github.com/PaulBratslavsky/roughcut-ai-local-first-editor) |
+| oktaydbk54/vibeclip | AI Video Editor | Open-source, self-hosted AI video editor: turn long videos into captioned 9:16 shorts — and edit by chatting. BYO LLM key. AGPL-3.0. Stars: 32. | [github.com/oktaydbk54/vibeclip](https://github.com/oktaydbk54/vibeclip) |

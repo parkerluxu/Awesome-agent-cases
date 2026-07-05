@@ -149,3 +149,55 @@ This section is divided into two categories: `2 Tutorials / Cases` and `13 Proje
 |------|------|---------------|------|
 | tscircuit | Web tool | Open-source electronics design tool that lets you create circuits using React components. Design schematics, generate PCB layouts, export and manufacture PCBs online. | [tscircuit.com](https://tscircuit.com/) |
 | salitronic/eda-agent | GitHub | EDA agent project. | [GitHub](https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WdVZOU09TZVJXZlo5TENnSTFDM3M4YzRRdUxuQlhlNEFVbmhyMEJpQmtuMUo3Vk5EU0h5NnM5UWdlMGx5aDA1ZE9WenNrR3BK?oc=5) |
+
+## Resource Update (2026-07-05)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| piyushbag/awesome-pcb-workflow | Curated list | Open-source tools for the complete PCB design workflow: AI-assisted EDA, schematic capture, SPICE simulation, signal integrity, layout automation, DFM & fabrication CI/CD, hardware testing agents. OrCAD & KiCad compatible. | [GitHub](https://github.com/piyushbag/awesome-pcb-workflow) |
+| shuvamk/openbench | Web workbench | The open workbench for electronics — schematic → simulation → firmware in the browser. Open engines (KiCad, ngspice, Renode, PlatformIO) behind one interchange format, driven by AI agents via MCP. | [GitHub](https://github.com/shuvamk/openbench) |
+| mingyo186/partreel | Parts registry | Open, no-login KiCad parts registry for humans & AI agents — verified footprints, symbols & 3D models (STEP/GLB) with datasheet provenance + static JSON API + MCP server. | [GitHub](https://github.com/mingyo186/partreel) |
+| laofahai/vibe-lamp | Hardware agent indicator | Physical ESP32 status lamp for AI coding agents, with built-in Claude Code/Codex hooks and a generic event API. | [GitHub](https://github.com/laofahai/vibe-lamp) |
+| sharmaaditya5655/synapcircuit-ai | PCB design platform | AI-powered PCB design platform with multi-agent orchestration. | [GitHub](https://github.com/sharmaaditya5655/synapcircuit-ai) |
+| vrosuits/eCircuit | Circuit design toolkit | AI-powered electronic circuit design toolkit: text-to-schematic/BOM/netlist, PCB autorouting, SPICE simulation. | [GitHub](https://github.com/vrosuits/eCircuit) |
+| Be-bibek/neuroboard | PCB compiler | AI-driven PCB compiler for automated high-speed hardware design. | [GitHub](https://github.com/Be-bibek/neuroboard) |
+| oaslananka/zaptrace | EDA kernel | AI-native, verification-first EDA kernel for prompt-to-fab electronics: ERC/DRC, routing, KiCad/Gerber export, MCP server, SDK, proof packs. | [GitHub](https://github.com/oaslananka/zaptrace) |
+| muhammadmapkar/KiCad_AI_LoRA | Fine-tuning dataset | LoRA fine-tuning dataset for a KiCad PCB design review assistant. | [GitHub](https://github.com/muhammadmapkar/KiCad_AI_LoRA) |
+| Zero-inadequateness813/amux | Agent session manager | Manage persistent tmux panels named for AI agents and humans, run commands in background sessions, and track output without losing data. | [GitHub](https://github.com/Zero-inadequateness813/amux) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| PowerAgentBench-Dyn | Benchmark | A benchmark for agentic AI in power system dynamic studies, evaluating LLM-based agents that automate multi-step engineering workflows by interacting with software tools, interpreting intermediate results, and autonomously planning subsequent actions. | [arXiv](https://arxiv.org/abs/2606.20401v1) |
+| PCB-QA | Dataset / Evaluation | A manually created questionnaire dataset for evaluating LLMs over printed circuit board design and analysis tasks, addressing the lack of text-based PCB datasets and prompting methodologies for different PCB design file types. | [arXiv](https://arxiv.org/abs/2606.23704v1) |
+| PDAGENT-BENCH | Benchmark | Characterizing, grounding, and architecting LLM/VLM agents for VLSI physical design, providing standardized benchmarks for agentic physical design workflows with high-dimensional, multi-stage optimization under strict design constraints. | [arXiv](https://arxiv.org/abs/2606.17253v2) |
+| SINA | Tool / Method | A fully automated circuit schematic image to netlist generator using AI, converting circuit schematic images from research manuscripts, textbooks, and websites into machine-readable representations for analog and mixed-signal domains. | [arXiv](https://arxiv.org/abs/2607.01609v1) |
+| VeriPilot | Framework | An LLM-powered Verilog debugging framework that addresses the challenge of tracing long dependency chains where root causes may be far removed from observable outputs, going beyond end-to-end test-output and compiler-feedback approaches. | [arXiv](https://arxiv.org/abs/2606.23759v1) |
+| LLM-Guided Test-Time Discovery of Quantum-Chemical Approximation Algorithms | Method | Agentic AI systems that automate existing simulation pipelines for quantum chemistry, discovering approximation algorithms at test time without reliance on large-scale pretraining. | [arXiv](https://arxiv.org/abs/2606.20729v1) |
+| Can Language Model Agents be Helpful Circuit Explainers in Mechanistic Interpretability? | Benchmark | Introduces AgenticInterpBench, a benchmark for circuit explanation built from 84 semi-synthetic transformer circuits with 163 component-level annotations, studying whether LM agents can assist in explaining localized circuit components. | [arXiv](https://arxiv.org/abs/2606.24026v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| CADY webinar - Design Smarter, Build Faster: AI for Modern PCB Engineering Teams | Webinar | CADY webinar on AI for modern PCB engineering teams. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE56Nk8ySEMxQ05MOWEzWlBHWTduY2ZOTDE0NzFVRW5UMHpaSU9TSUQ5T1Z4Y1NiQ29uQXhfcWVIWnhCclVFWXJVWHhTOHpDR1FaU3BvV2JR?oc=5) |
+| Code-Based PCB Design with AI: Inside atopile | Video | Code-based PCB design with AI, featuring atopile. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4T0lFSWZjMTV2M0wxbk1UWDJST3RPdENPeWw0NndXWk5wR056OUJGWjRRZGNfNFhmY1JfTHBMQnlyeW5iT2xYTlFhUmxNb08tNVNFZ09n?oc=5) |
+| I Let an AI Code My ESP32 Sensor... Designing a Low-Power IoT Capacitive Soil Sensor (Part 2) | Video | Hands-on test of AI coding an ESP32 sensor for a low-power IoT capacitive soil sensor. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EYVBHbmdLMDlNeUtvUUNLZnpoczZGaE4wRUM1dnRPZHFranhlRE5oeHB0SVZtNnRLNktUUjF6dGhqdTN5cTJEOFBGLTlSbF9kN192M3FR?oc=5) |
+| 有人用AI设计出“花一样”的PCB，美轮美奂，赏心悦目，但是能用吗？ | Article | Explores AI-designed artistic PCBs and questions their practical usability. | [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBucDdRNml0WW9XcDNtZFJYVFQtMFZLYWIxMjBXV0RvcXFBSWlWY2pLWE4tNW5LUHFtcXd5aTFRT1R2a0tEME9QTmpRcFRCeE5yRmxJ?oc=5) |
+| ReActAgent 使用指南：构建会思考、能行动的 AI Agent | Tutorial | Guide to building production-grade AI agents with Solon AI 4.0's ReActAgent that can reason, use external tools, and adjust behavior based on feedback. | [oschina.net](https://www.oschina.net/news/471482) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Si2 AI for EDA Ontology | Industry standard | Public release of an AI for EDA ontology to accelerate industry collaboration and agentic EDA innovation. | [Business Wire](https://news.google.com/rss/articles/CBMiggJBVV95cUxOMnJXLU9aM1Ewd19Pdmo5T3lURFRZRTl4N0d3UkZFbW5QV1liaEY0UGJHMXFTeFlLeTNVZjlnNXB0aG42dFJ4cWJpTFNPc0pldFV0ZG05dWRfSG5HWldGWERXdXF0Wm5mdmM4enRyUjhfS25MM0Q2bFhRZjRtbWNXdEpvVVpjV1hRWGR0S0pkVGY0cjVjNUdWdlVBaGRzRy1zWVBva0JpSE1GQ2FwczlLY05HVXlZb2tOOHk1QWVPbTdoWElkOHBtcE9QMzB3ekp6dEc4WGxXSGZRVjhVQ3U4S2ZCYnRjV1plSVhMeDhQTXVsdmhReExyaXZQRXVBajN4NVE?oc=5) |
+| Cadence AI Super Agents | Product vision | Cadence sees AI super agents as the next semiconductor productivity engine. | [EE Times Asia](https://news.google.com/rss/articles/CBMitwFBVV95cUxPNGYxQWUxZ3IyNHFOM1hRVzZld2I3eUl3aG1MZnV1NU55Qm1Qa0dNVW9BZzFnZFp3cjNacU5LZTlHWERmMzhWV0xjTHQ5T3FFVlZVV281ZVd3bHdYUWhYLVcxNkUtLTY5d0VobktNNEdtUDJva1JPTFkyQV9odUp5Z2JPRGJWcVppME9JSHJKSlZfRmpXZFh0c0JNV0dvRVJ1TWdaY2xBQ0NHWU14a2lxTWhsMy1IRTQ?oc=5) |
+| Cadence ChipStack | Product expansion | Cadence expands ChipStack for autonomous design workflows. | [Engineering.com](https://news.google.com/rss/articles/CBMijwFBVV95cUxPV1BJbnBYTzBvTzVsTWE1UGgtN1VmVC1VUzRzTVRmSTlna0RuUHZaalRYQ3NMTjJpTmhvQ19fUjQxRm11VW01TGg4dHp2UHlsRnNyN1BQMVlPVWFwaFZLTjRtTk9pTnFDZ2w4ZkJLTTJTNDBwMWdWLTdWNXYtN2lNdndnVXRqemgzSmJnemNfUQ?oc=5) |
+| Cadence Autonomous Virtual Engineer | Product | Cadence unveils fully autonomous virtual engineer for chip design. | [Evertiq](https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjVwcTNnTDhvd21TSkZadFhjQVdmT19Wa2ZZbmFzWi1CeVVKdklLMWlUUWMyQUd2OHRLRGpXZ2xKUTN5blkwWUlDUDNiTC0zTzI4aW96bG14QTFPVXlxOUpSVkg3QUl1dkhaZzFQZmNIMEd3OVZYMGhjNHp1MldGVlQtdThoVnNJdTM5VjhsOFRRdnB3STlTSFQyc1BwZ3dQOVlF?oc=5) |
+| Cadence Autonomous AI Design Engineer | Product | Cadence autonomous AI design engineer accelerates chip verification and development. | [EE Times Asia](https://news.google.com/rss/articles/CBMirAFBVV95cUxQa1JLdnZTci1QYnpBbnpiUzJHX1VBN1QyT0dmenNYY0owVmllbV8tdjBwb1FyU2VxRVMzaWk2UlYwR2VCZHlpOFl0RUd6TXFsUTdGN1BnclM5ajRfdDhaT3FNT3NtdTI3eWZ5V1k0ZkJuQXNubEctNGw3MUUxUFVkQWFMY3Y5YUpSelhCa3psN2Y5bHk0eDNuUGM1UVN3TVhiMnQwLWR5dFc0c1BL?oc=5) |
+| 自研Agentic AI EDA平台 | Product | Self-developed agentic AI EDA platform helping chip design enter a new stage. | [content.foshanplus.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE9LSktIVEkyandXcTVncHA3bVBWRlUyc2RIVWd5UXdyS1RGT25NT0dzVUNrZmo4OEd0RkRkOWZIeWVaQ2NNNUtrS3I1ZWdkVzkwWHZwRDFTVG5UWVlVNW5oTnhhWE9HTEdlTldkY2tqaWl5QkxFWWw3MVJ3?oc=5) |
+| Graser TECHTALKS 2026 | Industry event | AI in Sync: Graser TECHTALKS 2026 highlights electronic design paradigm. | [digitimes](https://news.google.com/rss/articles/CBMihgFBVV95cUxPYURITnZQblZydFpLWGU1RVlmMXlpQ0hTUU5maEJJdENna2ppSnVUR0I2VU16Zm5xaWhEQWg4d1FuT1NOLTRNdXZETWtlakZmU1M4WHhjWmtKbXdadnpxZ0pvcVphNWJqMDZmNDhRUERXMjNSUGlGY2NHUDNERzdoX200WFhOQQ?oc=5) |
+| When AI No Longer Just Assists but Controls EDA Workflows | Industry analysis | Analysis of the shift from AI-assisted to AI-controlled EDA workflows. | [All-About-Industries](https://news.google.com/rss/articles/CBMiygFBVV95cUxObTF6UmRiYmlacktibThVbVJjclNqRWtZSFgzNTB6U21vTktocE5BUzYwekc4Q3lPNHZxb2hpdTR4Y3d6LXJZM0xEZFBWQ0MzS0xwVHl2ZkF5TjdiWU9YY1pWZlZyb2JIcF9yY1pGZWZ4REp1a2owei1sb3JvQWdQcllyLUo5ajI4UjNpdTk2MjFuWEtkZjJCMkRKaUwxeHA2VDhUbEJhTTA4RDN4TEN6b3NJeFVpRGpHSE1nTnFEZTM0YVNnZlJmRXV3?oc=5) |

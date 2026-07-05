@@ -154,3 +154,50 @@ The following resources were discovered after the original article was published
 | Agentic Resource Discovery: Let agents search | Hugging Face Blog | Introduces agentic resource discovery, enabling agents to search for relevant resources autonomously. | [Link](https://huggingface.co/blog/agentic-resource-discovery-launch) |
 | The AI world is getting ‘loopy’ | TechCrunch | Discusses the "loop" paradigm where swarms of agents work continuously in the background. | [Link](https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/) |
 | 刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码 | QbitAI | Reports on Doubao 2.1, an agent that autonomously runs for 18 hours to complete chip design code. | [Link](https://www.qbitai.com/2026/06/437503.html) |
+
+## Resource Update (2026-07-05)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| agent-infrastructure-landscape | Landscape catalog | Comparative catalog of 912 systems × 68 columns covering memory layers, agent frameworks, runtimes, vector stores, knowledge graphs, MCP servers, benchmarks. Searchable with typed edges, lineages, citations. | [GitHub](https://github.com/MrPeppersDev/agent-infrastructure-landscape) |
+| openbench | Electronics workbench | Schematic → simulation → firmware in the browser. Open engines (KiCad, ngspice, Renode, PlatformIO) behind one interchange format, driven by AI agents via MCP. | [GitHub](https://github.com/shuvamk/openbench) |
+| agent-usage-dashboard | Embedded dashboard | Real-time Claude/Codex/Bedrock usage dashboard on M5Stack CORE S3. | [GitHub](https://github.com/LOUEY233/agent-usage-dashboard) |
+| kids-points-v2 | Embedded + LLM | Children's points management tool — natural language bookkeeping (LLM semantic analysis) + SQLite + Feishu Bot + ESP32 LED dashboard (100% AI Agent full-stack authored). | [GitHub](https://github.com/cowboy231/kids-points-v2) |
+| capacitor-mobile-claw | On-device agent | Run a full AI agent on mobile with local LLM calls, on-device memory, code execution, and native HTTP support in Capacitor apps. | [GitHub](https://github.com/sernnee/capacitor-mobile-claw) |
+| oneclaw | Edge runtime | Lightweight, secure Rust runtime for AI agents on resource-limited edge devices, enabling fast, real-time IoT processing and analytics. | [GitHub](https://github.com/manuel-97/oneclaw) |
+| ganglio | Arduino agent bridge | Bridges an AI agent to a physical body via Arduino, turning it from a conversational assistant into an autonomous system capable of acting in the real world. | [GitHub](https://github.com/AlessandroBernini/ganglio) |
+| Sysag-AI-Siumbot | Voice + vision robot | Voice-controlled, vision AI robot on a Raspberry Pi 5 powered by Hermes Agent (Gemini 3.1 Flash Lite APIs). | [GitHub](https://github.com/Siumsag/Sysag-AI-Siumbot) |
+| Tantalum-IDE | Arduino IDE | Local-first Electron Arduino IDE with board detection, OTA deployment, cloud sync, snapshot recovery, and an agentic AI assistant. | [GitHub](https://github.com/rkvishwa/Tantalum-IDE) |
+| AIOS | On-device Android agent | System-level AI agents on Android devices with on-device LLMs, secure tool control, and a conversational shell replacing the launcher. | [GitHub](https://github.com/khaled4123e/AIOS) |
+| esp32-harness | Embedded LLM agent | A complete LLM agent in ~200 lines of C++ on an ESP32-S3. | [GitHub](https://github.com/lubluniky/esp32-harness) |
+| RisalDash | ESP32 dashboard | Real-time web dashboards for ESP32 / ESP8266 in a few lines of C++ — offline-first AP + captive portal, WebSocket, 26 widgets, i18n, and AI control via MCP. | [GitHub](https://github.com/ziyarago/RisalDash) |
+| cardputer-ai | Offline LLM on ESP32 | Fully offline tiny LLM chatbot on the ESP32-S3 Cardputer ADV — 8M params, Q4 weights baked into firmware, ~5 tok/s. | [GitHub](https://github.com/therezor/cardputer-ai) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Copewell | Paper | Multi-agent swarm architecture for equitable mental wellness support, addressing workforce shortages and cost barriers in low- and middle-income countries. | [arXiv](https://arxiv.org/abs/2607.02245v1) |
+| Adversarial Pragmatics for AI Safety Evaluation | Paper / Benchmark | Benchmark for instruction conflict, embedded commands, and policy ambiguity in language model safety evaluations, distinguishing capability limits from policy ambiguity and scaffold failure. | [arXiv](https://arxiv.org/abs/2607.01153v1) |
+| ProtoPilot | Paper / System | Self-evolving multi-agent system for automated generation and execution of biological protocols, with an expert-grounded benchmark spanning 294 synthetic-biology and molecular protocols. | [arXiv](https://arxiv.org/abs/2606.31763v2) |
+| ScarfBench | Benchmark | Benchmarking AI agents for enterprise Java framework migration. | [Hugging Face Blog](https://huggingface.co/blog/ibm-research/scarfbench) |
+| SLM, LLM or Agentic AI? Toward Intelligent UAV-Enabled WPT Systems | Paper | Investigates language models for UAV-enabled Wireless Power Transfer systems, comparing lightweight SLM, LLM, and agentic AI approaches under resource-constrained dynamic environments. | [arXiv](https://arxiv.org/abs/2607.00255v1) |
+| Overthink-Triggered Slowdown Attacks on LVLM-Based Robotic Systems | Paper | Identifies overthinking-induced slowdown attacks where adversaries deliberately trigger excessive reasoning traces in LVLM-based robotic systems, causing safety issues. | [arXiv](https://arxiv.org/abs/2607.01518v1) |
+| Xiaomi-GUI-0 Technical Report | Paper / System | GUI agent built on vision-language models for end-to-end user tasks in real applications, addressing gaps between offline benchmarks and real-world interface layouts and interaction logic. | [arXiv](https://arxiv.org/abs/2606.31410v2) |
+| COHORT | Paper / Framework | End-to-end framework automating adversary mitigation in enterprise networks using role-decomposed multi-agent LLM workflows for candidate mitigations. | [arXiv](https://arxiv.org/abs/2606.30479v1) |
+| Traceable Fault Diagnosis for Battery Energy Storage Systems | Paper | Retrieval-augmented multi-agent O&M assistant for BESS fault diagnosis, combining alarms, cell-level measurements, device topology, and historical cases. | [arXiv](https://arxiv.org/abs/2607.01992v1) |
+| Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous Systems | Paper | Proposes hardware-enforced coordination for bounded and verifiable interaction among heterogeneous components in safety-critical autonomous systems. | [arXiv](https://arxiv.org/abs/2607.02376v1) |
+| (A)I Sees What You Don't | Paper | Explores new attack surfaces in third-party mobile agents powered by VLMs, where benign interfaces become exploitable through screenshot-based perception and VLM reasoning. | [arXiv](https://arxiv.org/abs/2607.00333v1) |
+| SHACR | Paper / Framework | Graph-augmented semi-autonomous framework for multi-class conflict resolution in smart home IoT automation, detecting hidden cross-rule interactions via shared devices and physical topology. | [arXiv](https://arxiv.org/abs/2606.22312v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ReActAgent 使用指南 | Tutorial | Guide to building production-grade AI agents with Solon AI 4.0's ReActAgent — reasoning, tool use, and feedback-based adjustment. | [oschina.net](https://www.oschina.net/news/471482) |
+| How agents are transforming work | Research summary | OpenAI research paper showing how AI agents enable longer, more complex tasks and expand productivity across roles. | [OpenAI](https://openai.com/index/how-agents-are-transforming-work) |
+| Skill engineering and the case against one-shot AI design | Interview / Article | Paul Bakaus on Impeccable, human judgment in a "loopmaxxing" era, and why agents still need people to steer them. | [Latent Space](https://www.latent.space/p/skill-engineering-design) |
+| How Cursor deploys AI inside the enterprise | Interview / Article | Cursor's Pauline Brunet on how Forward Deployed Engineers help organizations implement agents as software factories. | [Latent Space](https://www.latent.space/p/cursor-forward-deployed-engineers) |
+| I tested Claude Code, Codex, and Antigravity on a real electronics project | Media test | Hands-on comparison of Claude Code, Codex, and Antigravity on a real electronics project — only one completed the task. | [MakeUseOf](https://news.google.com/rss/articles/CBMinAFBVV95cUxPY3V3b1RkVTlpdVNVNXhaSFlUOUhmMGcxT1dxUHlzamxxTzRyY2dUN0FGdWhKZ3FkZElvcUxqVURCQjFGOWlFNEpvMldPNUZiQkdYaUs5RGNtSU9MWTJOeUY1UWd4YUFYNjYtbm8tS3FsWUU5dGRqaHN5VkFMQnBDS3pGSWR2Mkx0MGQzQUdBTDRoQUxQRTRYMDFja3Q?oc=5) |

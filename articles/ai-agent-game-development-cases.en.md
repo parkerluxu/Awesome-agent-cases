@@ -194,3 +194,47 @@ This section is divided into two categories: `3 Tutorials / Cases` and `25 Proje
 | The AI world is getting 'loopy' | TechCrunch | Article on continuous agent swarms working in the background. | [techcrunch.com](https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/) |
 | Agentic Resource Discovery | Blog | Hugging Face launch of agentic resource discovery. | [huggingface.co](https://huggingface.co/blog/agentic-resource-discovery-launch) |
 | Investing in multi-agent AI safety research | Blog | Google DeepMind $10M funding call for multi-agent safety research. | [deepmind.google](https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/) |
+
+## Resource Update (2026-07-05)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| gamedev-skills/awesome-gamedev-agent-skills | Agent skill library | 66 version-pinned SKILL.md skills + master router for Godot, Unity, Unreal, and web; runs across Claude Code, Cursor, Codex, Copilot, Gemini CLI | [GitHub](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
+| beckettlab/beckett-godot-mcp | MCP server | Zero-sidecar MCP inside the Godot editor for AI agents to inspect, author, run, and see your game (GDScript + C#, validate-before-write, Godot 4.2+) | [GitHub](https://github.com/beckettlab/beckett-godot-mcp) |
+| ovbslaught/NOMADZ-0 | Game substrate | Godot 4 3D + OCEAN 2D layer with NPC AI, swarm agents, and ML pipeline for the Signalverse universe | [GitHub](https://github.com/ovbslaught/NOMADZ-0) |
+| lyethar/GitHub-Secure-Code-Games---Agentic-AI-Security | Security deployment | Deployment and write-up of GitHub’s Secure Code Game on Agentic AI; secure agents that execute commands, browse the web, and coordinate other agents | [GitHub](https://github.com/lyethar/GitHub-Secure-Code-Games---Agentic-AI-Security) |
+| krysjak/game-projects | Game generator | Python games: ‘2d war’ (historical video via AI agent) and ‘other world’ (constellation/tree-of-life art game) | [GitHub](https://github.com/krysjak/game-projects) |
+| anatomy08/Tag-Game-Web-Ai | Vibe-code test | Test of an agent vibe-coding a small web project | [GitHub](https://github.com/anatomy08/Tag-Game-Web-Ai) |
+| venkat212121/tic-tac-toe-app | Web game | Tic-Tac-Toe built with HTML/CSS/JS via a generative AI coding agent; includes game logic, win detection, score tracking | [GitHub](https://github.com/venkat212121/tic-tac-toe-app) |
+| espetro/mcp-sim | Agent-driven emulator | MCP server for iOS Simulator and Android Emulator lifecycle on a remote macOS host; boot, query, wipe, deep-link with pluggable platform adapters | [GitHub](https://github.com/espetro/mcp-sim) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Agentic Knowledge Tracing | Paper | Multi-agent LLM architecture for stealth assessment of financial literacy in a 2D platformer serious game aligned with OECD/INFE framework | [arXiv](https://arxiv.org/abs/2606.25358v1) |
+| Triadic Werewolf | Paper | Extends Werewolf with a Jester role requiring multi-hop theory-of-mind across three opposing utility functions; evaluated on GPT-4.1 across 60 games | [arXiv](https://arxiv.org/abs/2606.27909v1) |
+| LLM Semantic Signaling Game and Mechanism Design | Paper | Semantic signaling game where an LLM generates stochastic messages and a receiver evaluates them with awareness-dependent scoring; models deception and control | [arXiv](https://arxiv.org/abs/2606.29113v1) |
+| Persona-Trained Monte Carlo | Paper | Estimates market-outcome distributions by simulating limit-order-book interaction among swarms of persona-conditioned neural-policy trading bots | [arXiv](https://arxiv.org/abs/2606.29556v1) |
+| LLM Vulnerabilities Lifecycle Survey | Paper | Survey of LLM risks across the full application stack, including coding environments, autonomous agents, tool-calling, and file/code execution | [arXiv](https://arxiv.org/abs/2606.31639v1) |
+| ScarfBench | Benchmark | Benchmarks AI agents for enterprise Java framework migration | [Hugging Face](https://huggingface.co/blog/ibm-research/scarfbench) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Experimental Case Study: Re-Developing Pandemic Space Game by Claude | Case study | Quickly re-developing a pandemic space game using Claude | [Medium](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNGpKNGx2eUhOUUNka3Z1Y2JLcTVZUEkxR2NqbzQycG5zZFF6ckdfV2hMVmhtSzVfVTBHOHQtZGt4MTVta0dxeEZPMlFjOUFxZWlmQTZ0SmcySHJrd04zcWVaVW55NXVBMUo2aFJYb2NkZGJYbmN4WkN1MUtDWjBaRTR2Mi1vZWo2QmNWTUsyRmUwU0Q0YUVCbHkxMmJiRG55M2tYcmZmNU1fcnJTYjF5VUZZT2h2b2NuMm9rWHRac0U?oc=5) |
+| ReActAgent 使用指南 | Tutorial | Build production-grade AI agents with Solon AI 4.0’s ReActAgent that reason, use tools, and learn from feedback | [oschina](https://www.oschina.net/news/471482) |
+| How agents are transforming work | Research report | OpenAI paper on how AI agents enable longer, more complex tasks and expand productivity across roles | [OpenAI](https://openai.com/index/how-agents-are-transforming-work) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Meta Pocket | Product | Experimental AI app that lets users generate and share interactive mini games using text prompts | [TechCrunch](https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/) |
+| Dwsy/agent | Enterprise system | Enterprise-grade AI Agent system for code generation, analysis, and orchestration | [GitHub](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBudzdTOTR1QmxvVm5fVDFCTktOZWFieVlycEU4b2x4TzdTS0o0NHJJajNhMWxMMzBocHV1enRPeXNkQ0U?oc=5) |
+| Octo | Agent platform | Gives AI agents a desk, an identity, and a performance review | [DEV Community](https://news.google.com/rss/articles/CBMimwFBVV95cUxNREw0dGhEWnpWWGc4dU12bU5adTVQajRnM3h0Y3hiT0FNNmI4ZGVud0NjRlV6SkRDOGVHbjdjSGhjRWMyWVFUeFNwV3JrNVFoblloaGNVSUFtb0FBb0U5TWpXQUFUUGxtTDJoNWJyMXc3WjMzb1h5d0VMOU9CWXRnLWRXcTE1ZVEwNVBhWVR1aVBkcE5PZHBZa3RHUQ?oc=5) |
+| General Intuition | Industry bet | $2.3B investment in using video games to train AI agents for the real world | [TechCrunch](https://news.google.com/rss/articles/CBMiugFBVV95cUxQeXlXM1plbHgxeFhXemotRzFvY2M2MEs1Vmk3RU1EZjQzZC02a3JYR0Ewa3g0Rkx3Y01pSlA2RjNjbU9NME1oOE5oRExoU0xNeU5xVlczVmtHS01WRThseTNhelhldFMyMXB2Y2l5bkdGM0RNbFRQOFdRcEV1bjlzLS1teEVtV01iUWxhYUxNX1dPbUVKaGJjYkxod3d1TzhWUDNjOHBfS2ZjVjk1eUhIaGNpM1dlQW0xNEE?oc=5) |
+| Godot AI contribution ban | Policy | Godot bans contributions involving “autonomous AI agent use or vibe coded” elements | [GamesIndustry.biz](https://news.google.com/rss/articles/CBMilwFBVV95cUxPeE9TWFZJV2tiN2F4MjU5V3FvYXhqUkJDUWlMX1RKLV9HS0w4Q3BOSHJNQTdLSzdEcVFROHBZSDRsWS1CRHl3WU1qZnZ0LWZFeWhnbXF3LVU0Q2lidjVsOUpwMHZIZndMMmZ4SjdhZklPN3hOOXVVeVFkbVdGNTZjUGsxZkJCVkVRWjVHZHpNWDV5aTRieVlB?oc=5) |

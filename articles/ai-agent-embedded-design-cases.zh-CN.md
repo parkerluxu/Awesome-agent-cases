@@ -156,3 +156,58 @@
 | The AI world is getting ‘loopy’ | 媒体报道 | 授权 Agent 集群在后台持续工作的循环式 Agentic AI | [TechCrunch](https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/) |
 | From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot | 博客/教程 | 从 Hugging Face Hub 到机器人硬件的端到端 Agent 部署 | [Hugging Face](https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware) |
 | Agentic Resource Discovery | 博客/教程 | 让 Agent 自主搜索和发现资源 | [Hugging Face](https://huggingface.co/blog/agentic-resource-discovery-launch) |
+
+## 资料更新（2026-07-05）
+
+### 项目
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| MrPeppersDev/agent-infrastructure-landscape | 资源清单 | AI Agent 基础设施全景图：覆盖 912 个系统 × 68 列的对比目录，含记忆层、Agent 框架、运行时、向量存储、知识图谱、MCP 服务器、基准等，支持带类型边、谱系与引用的搜索。 | [GitHub](https://github.com/MrPeppersDev/agent-infrastructure-landscape) |
+| shuvamk/openbench | 工具 | 面向电子工程的开源工作台：浏览器内完成原理图→仿真→固件流程，底层对接 KiCad/ngspice/Renode/PlatformIO 等开源引擎，通过 MCP 由 AI Agent 驱动。 | [GitHub](https://github.com/shuvamk/openbench) |
+| LOUEY233/agent-usage-dashboard | 仪表盘 | 在 M5Stack CORE S3 上运行的 Claude/Codex/Bedrock 实时用量仪表盘。 | [GitHub](https://github.com/LOUEY233/agent-usage-dashboard) |
+| cowboy231/kids-points-v2 | 应用 | 儿童积分管理工具 V2：自然语言记账（LLM 语义分析）+ SQLite + 飞书 Bot + ESP32 LED 看板，100% 由 AI Agent 全栈编写。 | [GitHub](https://github.com/cowboy231/kids-points-v2) |
+| sernnee/capacitor-mobile-claw | 运行时 | 在移动端 Capacitor 应用中运行完整 AI Agent，支持本地 LLM 调用、设备端记忆、代码执行与原生 HTTP。 | [GitHub](https://github.com/sernnee/capacitor-mobile-claw) |
+| manuel-97/oneclaw | 运行时 | 面向资源受限边缘设备的轻量、安全 Rust AI Agent 运行时，用于快速实时物联网处理与分析。 | [GitHub](https://github.com/manuel-97/oneclaw) |
+| AlessandroBernini/ganglio | 框架 | 通过 Arduino 将 AI Agent 连接到物理实体，使其从对话助手转变为能在真实世界中行动的自主系统。 | [GitHub](https://github.com/AlessandroBernini/ganglio) |
+| Siumsag/Sysag-AI-Siumbot | 机器人 | 基于树莓派 5 的语音控制视觉 AI 机器人，由 Hermes Agent（Gemini 3.1 Flash Lite API）驱动。 | [GitHub](https://github.com/Siumsag/Sysag-AI-Siumbot) |
+| rkvishwa/Tantalum-IDE | 工具 | 本地优先的 Electron Arduino IDE，具备板卡检测、OTA 部署、云同步、快照恢复及 Agentic AI 助手功能。 | [GitHub](https://github.com/rkvishwa/Tantalum-IDE) |
+| khaled4123e/AIOS | 系统 | 在 Android 设备上启用系统级 AI Agent，支持设备端 LLM、安全工具控制，以及替代启动器的对话式 Shell。 | [GitHub](https://github.com/khaled4123e/AIOS) |
+| lubluniky/esp32-harness | 库 | 在 ESP32-S3 上用约 200 行 C++ 实现的完整 LLM Agent。 | [GitHub](https://github.com/lubluniky/esp32-harness) |
+| ziyarago/RisalDash | 仪表盘 | 面向 ESP32/ESP8266 的实时 Web 仪表盘库，支持离线优先 AP + 强制门户、WebSocket、26 种控件、国际化及通过 MCP 的 AI 控制。 | [GitHub](https://github.com/ziyarago/RisalDash) |
+| therezor/cardputer-ai | 固件 | ESP32-S3 Cardputer ADV 上的全离线小型 LLM 聊天机器人：8M 参数，Q4 权重量化并固化在固件中，约 5 tok/s。 | [GitHub](https://github.com/therezor/cardputer-ai) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| Copewell: A Multi-Agent Swarm Architecture for Equitable Mental Wellness Support | 论文 | 提出 Copewell，一种多 Agent 群体系统设计，旨在为心理健康支持提供可衡量的即时缓解，以应对传统单模式对话接口的高放弃率问题。 | [arXiv](https://arxiv.org/abs/2607.02245v1) |
+| Adversarial Pragmatics for AI Safety Evaluation | 论文 / Benchmark | 针对 AI 安全评估中指令冲突、嵌入式命令与策略模糊性问题的基准，旨在区分能力限制、策略歧义、指令冲突或评估器不稳定等不同失败原因。 | [arXiv](https://arxiv.org/abs/2607.01153v1) |
+| A Self-Evolving Agentic System for Automated Generation and Execution of Biological Protocols | 论文 | 提出 ProtoPilot，一种自进化多 Agent 系统及配套基准，用于将生物学意图与定量流程自动转化为可执行的湿实验方案。 | [arXiv](https://arxiv.org/abs/2606.31763v2) |
+| ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | Benchmark | 用于评估 AI Agent 在企业级 Java 框架迁移中表现的基准。 | [Hugging Face Blog](https://huggingface.co/blog/ibm-research/scarfbench) |
+| SLM, LLM or Agentic AI? Toward Intelligent UAV-Enabled WPT Systems in Low-Altitude Economy Networks | 论文 | 研究语言模型在无人机无线电力传输系统中的应用，提出基于轻量级小语言模型的解决方案。 | [arXiv](https://arxiv.org/abs/2607.00255v1) |
+| Overthink-Triggered Slowdown Attacks on LVLM-Based Robotic Systems | 论文 | 揭示大视觉语言模型在机器人系统中的过度思考行为可被攻击者利用，引发推理延迟并导致安全风险。 | [arXiv](https://arxiv.org/abs/2607.01518v1) |
+| Xiaomi-GUI-0 Technical Report | 技术报告 | 介绍小米 GUI Agent，强调其在真实应用环境中与离线轨迹、模拟环境及标准化基准的差异。 | [arXiv](https://arxiv.org/abs/2606.31410v2) |
+| COHORT: Collaborative Orchestration for Hardening via Offensive Replay on Emulated Topologies | 论文 | 提出首个端到端自动化框架 COHORT，利用角色分解的多 Agent LLM 工作流为企业网络生成并验证可部署的缓解措施。 | [arXiv](https://arxiv.org/abs/2606.30479v1) |
+| Traceable Fault Diagnosis for Battery Energy Storage Systems via Retrieval-Augmented Multi-Agent O&M Assistant | 论文 | 提出一种基于检索增强多 Agent 的电池储能系统运维助手，可对电压不一致、电阻漂移、短路风险等故障进行可追溯诊断。 | [arXiv](https://arxiv.org/abs/2607.01992v1) |
+| Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous Systems | 论文 | 针对安全关键实时自主系统，提出硬件强制语义协调方法，以在异构组件并发运行且存在不确定性时提供有界且可验证的协调。 | [arXiv](https://arxiv.org/abs/2607.02376v1) |
+| (A)I Sees What You Don't: Exploiting New Attack Surfaces in Third-Party Mobile Agents | 论文 | 分析第三方移动端 VLM Agent 引入的新攻击面，揭示原本无害的接口如何转变为可被利用的漏洞。 | [arXiv](https://arxiv.org/abs/2607.00333v1) |
+| SHACR: A Graph-Augmented Semi-Autonomous Framework for Multi-Class Conflict Resolution in Smart Home IoT Automation | 论文 | 提出图增强半自主框架 SHACR，用于解决智能家居物联网自动化中因设备共享、环境变量与物理拓扑引发的多类规则冲突。 | [arXiv](https://arxiv.org/abs/2606.22312v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| ReActAgent 使用指南：构建会思考、能行动的 AI Agent | 教程 | 基于 Solon AI 4.0 的 ReActAgent 构建生产级 AI Agent 的指南，涵盖推理、工具使用与反馈学习。 | [OSCHINA](https://www.oschina.net/news/471482) |
+| I tested Claude Code, Codex, and Antigravity on a real electronics project — only one actually finished | 媒体实测 | 在真实电子项目上对比测试 Claude Code、Codex 与 Antigravity，仅一个工具最终完成项目。 | [MakeUseOf](https://news.google.com/rss/articles/CBMinAFBVV95cUxPY3V3b1RkVTlpdVNVNXhaSFlUOUhmMGcxT1dxUHlzamxxTzRyY2dUN0FGdWhKZ3FkZElvcUxqVURCQjFGOWlFNEpvMldPNUZiQkdYaUs5RGNtSU9MWTJOeUY1UWd4YUFYNjYtbm8tS3FsWUU5dGRqaHN5VkFMQnBDS3pGSWR2Mkx0MGQzQUdBTDRoQUxQRTRYMDFja3Q?oc=5) |
+| How agents are transforming work | 研究报告 | OpenAI 研究论文，展示 AI Agent 如何通过支持更长、更复杂的任务来改变工作方式并提升跨角色生产力。 | [OpenAI](https://openai.com/index/how-agents-are-transforming-work) |
+| Skill engineering and the case against one-shot AI design | 播客 / 访谈 | Paul Bakaus 讨论 Impeccable、人类判断在“loopmaxxing”时代的作用，以及为何 Agent 仍需人类引导。 | [Latent Space](https://www.latent.space/p/skill-engineering-design) |
+| How Cursor deploys AI inside the enterprise | 播客 / 访谈 | Cursor 的 Pauline Brunet 解释其 Forward Deployed Engineers 团队如何帮助企业落地 Agent，本质上是建立软件工厂。 | [Latent Space](https://www.latent.space/p/cursor-forward-deployed-engineers) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途 / 摘要 | 链接 |
+|------|------|-------------|------|
+| Copewell | 系统设计 | 面向公平心理健康支持的多 Agent 群体架构，旨在提供可衡量的即时情绪缓解。 | [arXiv](https://arxiv.org/abs/2607.02245v1) |
+| ProtoPilot | 系统 | 自进化多 Agent 系统，用于自动生成和执行生物学实验方案，覆盖从方案设计到物理执行的完整流程。 | [arXiv](https://arxiv.org/abs/2606.31763v2) |
+| COHORT | 框架 | 首个端到端自动化框架，利用多 Agent LLM 工作流为企业网络生成并验证可部署的缓解措施。 | [arXiv](https://arxiv.org/abs/2606.30479v1) |
