@@ -68,7 +68,6 @@
 
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
-| ContextOS | 统一上下文智能层 | 为 AI 智能体提供统一的上下文智能层，支持无缝集成和完整功能。 | [GitHub](https://github.com/armmammothermography417/ContextOS) |
 
 ## 资料更新（2026-06-14）
 
@@ -150,7 +149,6 @@
 | weiber2002/ICRTL-Benchmark | 开源项目 | 面向工业级 RTL 设计挑战的基准，用于评估 PPA 优化、代码生成及 LLM 在 EDA 中的应用。 | https://github.com/weiber2002/ICRTL-Benchmark |
 | yuhongtanghyh-create/mini-agentic-eda | 开源项目 | 面向 LLM 生成 Verilog 的微型 Agentic EDA 流程，涵盖仿真、综合、修复与实验报告。 | https://github.com/yuhongtanghyh-create/mini-agentic-eda |
 | gatlinggunhuy/ClaudeVerilogEval | 开源项目 | 基于 VerilogEval 数据集的评估项目，用于考察 Claude 系列 LLM 部署模式在 RISC-V RTL 协同设计中的表现。 | https://github.com/gatlinggunhuy/ClaudeVerilogEval |
-| VaibhavSaran/FlowForge_AI | 开源项目 | 用于在芯片设计软件中集成 Agentic AI 的沙盒测试项目。 | https://github.com/VaibhavSaran/FlowForge_AI |
 
 ### 论文 / Benchmark
 

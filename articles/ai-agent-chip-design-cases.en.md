@@ -60,7 +60,6 @@ This section is divided into two categories: `Tutorials / Cases 0 items` and `Pr
 
 | Name | Type | Use / Summary | Link |
 |------|------|---------------|------|
-| ContextOS | GitHub | Unified context intelligence layer for AI agents with seamless integration in a single Python package. | [GitHub](https://github.com/armmammothermography417/ContextOS) |
 
 ## Resource Update (2026-06-14)
 
@@ -155,7 +154,6 @@ This section is divided into two categories: `Tutorials / Cases 0 items` and `Pr
 | ICRTL-Benchmark | Benchmark | Industrial-level RTL design challenges for evaluating PPA optimization, code generation, and LLM applications in EDA. | https://github.com/weiber2002/ICRTL-Benchmark |
 | mini-agentic-eda | EDA Flow | Mini agentic EDA flow for LLM-generated Verilog, simulation, synthesis, repair, and experiment reporting. | https://github.com/yuhongtanghyh-create/mini-agentic-eda |
 | ClaudeVerilogEval | Evaluation | Evaluation of Claude-family LLM deployment modes for RISC-V RTL co-design, measuring token cost, generation time, and multi-design statistical analysis on the VerilogEval dataset. | https://github.com/gatlinggunhuy/ClaudeVerilogEval |
-| FlowForge_AI | Sandbox | Sandbox testing environment for integrating agentic AI in chip design software. | https://github.com/VaibhavSaran/FlowForge_AI |
 | digital-chip-design-agents | Agent Stack | Digital HDL Design Full-stack Agents — a curated collection of agent-based approaches for end-to-end digital chip design. | https://github.com/chuanseng-ng/digital-chip-design-agents |
 
 ### Tutorials / Media Tests
