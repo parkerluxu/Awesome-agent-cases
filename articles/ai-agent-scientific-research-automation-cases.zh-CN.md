@@ -18,31 +18,32 @@
 
 > 说明：本页专注「长效精选资源」，与 AI 日报中零散提到的科研 Agent 新闻互为补充，不重复。
 
+
 ## 资料更新（2026-07-08）
 
 ### 项目
 
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
-| K-Dense-AI/scientific-agent-skills | GitHub 项目 | 将任意 AI 智能体转化为 AI 科学家，提供 140 个即用型技能和 100+ 科学数据库，覆盖生物、化学、医学和药物发现，兼容 Cursor、Claude Code、Codex 等。 | [https://github.com/K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
-| K-Dense-AI/k-dense-byok | GitHub 项目 | 基于 Scientific Agent Skills 的桌面端 AI 联合科学家。 | [https://github.com/K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) |
-| HolobiomicsLab/Mimosa-AI | GitHub 项目 | 自我进化的自主科学研究（ASR）框架，可编写、运行并改进自身多智能体工作流，基于 MCP 工具发现和达尔文进化。 | [https://github.com/HolobiomicsLab/Mimosa-AI](https://github.com/HolobiomicsLab/Mimosa-AI) |
-| ai4s-research/open-science | GitHub 项目 | 面向科学家的开源 AI 工作台，Claude Science 的开源替代，本地优先、模型无关、可复现，基于 Tauri + MCP + Agent Skills。 | [https://github.com/ai4s-research/open-science](https://github.com/ai4s-research/open-science) |
-| FellypeMelo/OpenScientific-Workbench | GitHub 项目 | 面向计算生物学和药物发现的开源智能体 AI 工作台，编排多智能体管道，集成 60+ 科学数据库，支持 Evo 2、Boltz-2、DeepSeek-V3 等模型。 | [https://github.com/FellypeMelo/OpenScientific-Workbench](https://github.com/FellypeMelo/OpenScientific-Workbench) |
-| Usaid22/swarm-factory | GitHub 项目 | 2026 年实验室实验用自主研究多智能体系统。 | [https://github.com/Usaid22/swarm-factory](https://github.com/Usaid22/swarm-factory) |
+| Awesome-Vibe-Research | 开源仓库 | 面向 AI 辅助科研的开放共建仓库，收集和沉淀科研全流程中的 agents、skills、workflows、tools 与最佳实践 | [GitHub](https://github.com/modelscope/Awesome-Vibe-Research) |
+| PaperGuru | 开源项目 | 面向严肃学术研究的 AI Research Agent（开源自荐） | [GitHub Issue](https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxdzhkbFhJTGVwc0t2aFlKcjhNUG11Y3g0VWRvUlBRVEpPRVowQi1zYmRpYjZXbUZpV1lQbXFIM053VFdBbTRhbWQ5T09ETG1QYlROUFY1dnM?oc=5) |
 
 ### 论文 / Benchmark
 
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
-| Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark | 论文 | 提出 PhySciBench，包含 200 个专家精选的物理与化学问题，用于评估深度研究智能体在物理科学中的能力。 | [https://arxiv.org/abs/2606.18648v3](https://arxiv.org/abs/2606.18648v3) |
-| InquiTree: Evaluating AI Agents in the Scientific Inquiry Loop with Paper-Derived Research Trees | 论文 | 提出 InquiTree 诊断环境，将科学探究形式化为交互式研究树（有向无环图），评估智能体在假设形成、研究设计、结果解释等环节的表现。 | [https://arxiv.org/abs/2606.09550v1](https://arxiv.org/abs/2606.09550v1) |
-| Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration | 论文 | 提出 Clarus 协作基础设施，协调项目、智能体、数字与物理资源，实现从代码执行到研究导向协作的转变。 | [https://arxiv.org/abs/2606.30246v1](https://arxiv.org/abs/2606.30246v1) |
-| One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution | 论文 | 提出 SAGE 框架，通过多假设失败归因实现自主研究智能体的自我纠正，避免单一反思导致的局部试错或硬转向。 | [https://arxiv.org/abs/2606.31478v1](https://arxiv.org/abs/2606.31478v1) |
-| Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents | 论文 | 针对 AI 科学家系统的自动化构思问题，提出训练 Agentic LLM 以生成灵活推理轨迹的方法。 | [https://arxiv.org/abs/2606.31229v1](https://arxiv.org/abs/2606.31229v1) |
+| The Calibration Turn in AI-Assisted Research | 论文 | 提出 AI 辅助研究中“证据许可声明”的概念与方法框架，关注科学主张是否与支撑证据校准 | [arXiv](https://arxiv.org/abs/2606.31273v1) |
+| Fantastic Scientific Agents and How to Build Them: AgentBuild for Rietveld Refinement | 论文 | 提出 AgentBuild 框架，将智能体构建视为工作流阶段，通过科学家编写的合约（含评分标准、课程、知识库）构建科学智能体 | [arXiv](https://arxiv.org/abs/2606.12834v1) |
+| TerraBench: Can Agents Reason Over Heterogeneous Earth-System Data? | Benchmark | 评估智能体在异构地球系统数据（网格物理数据、卫星影像、地理空间上下文、模拟器输出）上的推理能力 | [arXiv](https://arxiv.org/abs/2606.13148v2) |
+| Autonomous discovery of traffic laws with AI traffic scientists | 论文 | 展示 AI 智能体自主发现交通拥堵、出行行为等普适交通规律的能力 | [arXiv](https://arxiv.org/abs/2607.01639v1) |
+| FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents | 论文 | 提出可审计的研究问题形成框架，核心产物为结构化“研究问题证书”，提升 LLM 科学发现智能体的可审计性 | [arXiv](https://arxiv.org/abs/2607.05682v1) |
+| Rethinking Scientific Discovery in the Agentic Era | 论文 | 提出 SCION 智能体科学操作系统，作为组织枢纽协调问题制定、文献基础、模型使用、模拟、验证和知识复用 | [arXiv](https://arxiv.org/abs/2607.03863v2) |
+| Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics | 论文 | 面向前沿计算物理的端到端容错自主研究管线，从语料库到手稿，强调外部文献锚定校准 | [arXiv](https://arxiv.org/abs/2607.02329v1) |
+| From Specification to Execution: AI Assisted Scientific Workflow Management | 论文 | 提出 AI 辅助的科学工作流管理方法，从自然语言规范到可执行工作流，提升透明度和可复现性 | [arXiv](https://arxiv.org/abs/2606.18425v1) |
 
 ### 产品 / 工具
 
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
-| NVIDIA BioNeMo Agent Toolkit | 产品/工具 | NVIDIA 发布的加速科学发现的智能体工具包。 | [https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb2VhdWloTE1XSnlrd1dVanpQYTMwVWhhYjE1OFZrSG1vaWJEZXlKaWljQXZSZHlxbVlyS3E3SkpaaTJCSU8tZGJaNFFTQ245YlktU1Y1RHQ4b3FnTk5ZMDZuTzJUYWlyaWFfbGRwZkxRNF85UXN6aEdFbE5uQUozeEZMQW96dzNpTkp3aHJ0WEpyNkZDOVVjN0NxcldZYkdUc0JQM0tjYjlyNG14RlIyYUQtRkRJSjFZWk1rVS1YNDR3RWVZOVJ4ZA?oc=5](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb2VhdWloTE1XSnlrd1dVanpQYTMwVWhhYjE1OFZrSG1vaWJEZXlKaWljQXZSZHlxbVlyS3E3SkpaaTJCSU8tZGJaNFFTQ245YlktU1Y1RHQ4b3FnTk5ZMDZuTzJUYWlyaWFfbGRwZkxRNF85UXN6aEdFbE5uQUozeEZMQW96dzNpTkp3aHJ0WEpyNkZDOVVjN0NxcldZYkdUc0JQM0tjYjlyNG14RlIyYUQtRkRJSjFZWk1rVS1YNDR3RWVZOVJ4ZA?oc=5) |
+| BioNeMo Agent Toolkit | 工具包 | NVIDIA 发布的用于加速科学发现的智能体工具包 | [NVIDIA Newsroom](https://news.google.com/rss/articles/CBMizwFBVV95cUxQZUoycWRkekFhdURRelBmYWtMdXk3UjVDaTFjeUF2bmJTOVNmSmk0TEoxZVNWZ29Qd2dPaVg2Sk4xb0tKUDJqaTZYTms0N3FFVnNka0J6S0c3NDRKOUFkeC14ZmhrWEJ6UkFIdjNXZjFzSU5vd09CUFV6TGdUa1FENUFKdFRSZG1DZHNtdDNwOTkzbWdYaGtKRURUT09COUxmcTlVTkVZcWpBS042MFJLdlZUTFl1Qlh1VHpxYkt0YlRjZkwwNmcxWV9FOG85RTg?oc=5) |
+| Managing autonomous materials labs with multi-agent AI | 研究 | 多智能体 AI 管理自主材料实验室及其对科学科学的影响 | [Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBM1BxYnE5TjhIQ3NVaUJQY2FkMmg0cktxOUFORlBqbHNkMXFxMFEtT3Foc05YNFY4Z0ZwVEpDbnl6TFBYRnRKYXpscHFVWHFKa2pWR3N2LWJBUHpTNFFJ?oc=5) |
