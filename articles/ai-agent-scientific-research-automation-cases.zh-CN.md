@@ -47,3 +47,52 @@
 |------|------|-----------|------|
 | BioNeMo Agent Toolkit | 工具包 | NVIDIA 发布的用于加速科学发现的智能体工具包 | [NVIDIA Newsroom](https://news.google.com/rss/articles/CBMizwFBVV95cUxQZUoycWRkekFhdURRelBmYWtMdXk3UjVDaTFjeUF2bmJTOVNmSmk0TEoxZVNWZ29Qd2dPaVg2Sk4xb0tKUDJqaTZYTms0N3FFVnNka0J6S0c3NDRKOUFkeC14ZmhrWEJ6UkFIdjNXZjFzSU5vd09CUFV6TGdUa1FENUFKdFRSZG1DZHNtdDNwOTkzbWdYaGtKRURUT09COUxmcTlVTkVZcWpBS042MFJLdlZUTFl1Qlh1VHpxYkt0YlRjZkwwNmcxWV9FOG85RTg?oc=5) |
 | Managing autonomous materials labs with multi-agent AI | 研究 | 多智能体 AI 管理自主材料实验室及其对科学科学的影响 | [Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBM1BxYnE5TjhIQ3NVaUJQY2FkMmg0cktxOUFORlBqbHNkMXFxMFEtT3Foc05YNFY4Z0ZwVEpDbnl6TFBYRnRKYXpscHFVWHFKa2pWR3N2LWJBUHpTNFFJ?oc=5) |
+
+## 资料更新（2026-07-09）
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ArchEval | Benchmark | 评估 LLM Agent 在计算机体系结构设计与优化上的基准测试与平台 | [arXiv 2607.03601](https://arxiv.org/abs/2607.03601v1) |
+| Clarus | 论文 | 协调自主研究 Agent 实现网络规模科学协作的基础设施 | [arXiv 2606.30246](https://arxiv.org/abs/2606.30246v1) |
+| Ensemble QSP | 论文 | 三层分层记忆架构，解决长周期多 Agent 计算建模中的上下文限制 | [arXiv 2607.07666](https://arxiv.org/abs/2607.07666v1) |
+| SAGE | 论文 | 基于多假设失败归因的自主研究自纠正框架 | [arXiv 2606.31478](https://arxiv.org/abs/2606.31478v1) |
+| Bibby AI | 论文 | 编辑器原生的 Agent 平台，覆盖学术研究、写作与出版全流程 | [arXiv 2607.05435](https://arxiv.org/abs/2607.05435v1) |
+| CausalGame | Benchmark | 在游戏场景中评估 LLM Agent 因果推理能力的基准 | [arXiv 2607.04293](https://arxiv.org/abs/2607.04293v1) |
+| ShannonProver | 论文 | 自动化形式化密码学证明的 Agent 框架 | [arXiv 2607.02847](https://arxiv.org/abs/2607.02847v1) |
+| Auto-FL-Research (AFR) | 论文 | 面向联邦学习算法搜索的约束编码 Agent 工作流 | [arXiv 2607.01366](https://arxiv.org/abs/2607.01366v1) |
+| EO-Agents | 论文 | 基于 NASA 地球观测知识图谱的三 Agent 假设生成管线 | [arXiv 2607.01584](https://arxiv.org/abs/2607.01584v1) |
+| Compressing the Validation Bottleneck | 论文 | 结合先验感知 DOE 的自主驾驶实验室，压缩科学验证瓶颈 | [arXiv 2607.04508](https://arxiv.org/abs/2607.04508v1) |
+| GeneBench-Pro | Benchmark | OpenAI 推出的基因组学与生物学 AI 性能基准 | [OpenAI 官方](https://openai.com/index/introducing-genebench-pro) |
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| scientific-agent-skills | GitHub 项目 | 面向科学家的 Agent 技能库，含 140 个即用技能与 100+ 科学数据库 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
+| Mimosa-AI | GitHub 项目 | 自进化 AI 框架，可自主编写、运行并改进多 Agent 工作流 | [HolobiomicsLab/Mimosa-AI](https://github.com/HolobiomicsLab/Mimosa-AI) |
+| awesome-ai-for-science | GitHub 项目 | AI 自动化科学研究项目精选列表 | [yenanjing/awesome-ai-for-science](https://github.com/yenanjing/awesome-ai-for-science) |
+| Awesome-Scientific-LLM-Benchmarks | GitHub 项目 | 科学推理 LLM 基准测试精选列表 | [subinium/Awesome-Scientific-LLM-Benchmarks](https://github.com/subinium/Awesome-Scientific-LLM-Benchmarks) |
+| OpenScientific-Workbench | GitHub 项目 | 面向计算生物学与药物发现的开源 Agent 工作台 | [FellypeMelo/OpenScientific-Workbench](https://github.com/FellypeMelo/OpenScientific-Workbench) |
+| E2SA-SPADE | GitHub 项目 | 端到端科学 Agent 框架，首个应用为阿拉斯加永久冻土制图 | [jingtao-lbl/E2SA-SPADE](https://github.com/jingtao-lbl/E2SA-SPADE) |
+| awesome-academic-skills | GitHub 项目 | Claude 与 Agent 学术技能索引，覆盖研究全生命周期 | [O0000-code/awesome-academic-skills](https://github.com/O0000-code/awesome-academic-skills) |
+| DATAGEN | GitHub 项目 | AI 驱动的多 Agent 研究助手，自动化假设生成、数据分析与报告撰写 | [starpig1129/DATAGEN](https://github.com/starpig1129/DATAGEN) |
+| The-Library-of-AI-Scientist | GitHub 项目 | AI Scientist Agent 论文检索与组织系统 | [FengxianJi/The-Library-of-AI-Scientist](https://github.com/FengxianJi/The-Library-of-AI-Scientist) |
+| hypothesis-engine | GitHub 项目 | 受 Google Co-Scientist 启发的开源多 Agent 假设生成系统 | [sumner-harris/hypothesis-engine](https://github.com/sumner-harris/hypothesis-engine) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Anthropic, NVIDIA Move AI Agents Deeper into Scientific Workflows | 媒体报道 | Anthropic 与 NVIDIA 推动 AI Agent 深入科学工作流 | [Campus Technology](https://news.google.com/rss/articles/CBMiugFBVV95cUxQSkFxczdtdlJVbU1VOUNqRDF3WnZQeEZfYlczMnpPRkE3endKT29MbTNJc1pzYmZlTzhGcFZ2NmIyWjdhWXVyaVh4SEdrX0Uzd1hLUUcxSXh4ZS1OMUg5VEktcE9fQlFUZlNxUkp6UDBBUlQtRGFmZVNfZ21JdUVwZlZ0UWIyNktTZXhfZ0N3bEZlQllxSHB5cjBvTTZ5NFh2SjdwODAxZVdFXzVHU3pUY1RZa05SZHNGTWc?oc=5) |
+| Can AI Agents Automate Scientific Discovery? | 学术评论 | 探讨 AI Agent 能否自动化科学发现 | [Sage Journals](https://news.google.com/rss/articles/CBMiakFVX3lxTFBJTkRPNHNPRGhrVFNyMzlKZFBaUks1TjVQZjJKOEVzU2pzM3pIQnAwaWVrT2NIc2FNWTQySjV1amJlYnVUOUIxTlB5bF9uTjZmVlJKaHE4NTRTZWlOek5Bak1MOG1kYl96T2c?oc=5) |
+| Stanford deploys AI scientist agents to accelerate drug discovery | 媒体报道 | 斯坦福部署 AI Scientist Agent，将药物发现从数月缩短至数天 | [Crypto Briefing](https://news.google.com/rss/articles/CBMibkFVX3lxTFBuVENhTkVlWFYxbjBpOTA3VU04MHNjSURqNW9fRGtlTzNFRUdsX1pFbEExUWFzSXZIVTJlTFJDeFVfcm9QUXhHUm0xdS1SbHpOem90aldBSGdWMmNtYjB2Wk1ub0NhN082ZnpHNzhR?oc=5) |
+| Build an AI Scientist for Life Science Discovery with NVIDIA BioNeMo Agent Toolkit | 技术博客 | 使用 NVIDIA BioNeMo Agent 工具包构建生命科学 AI Scientist | [NVIDIA Developer](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNFRCVUQ4TTVKeXVtWS1yWlhONDdGWDRDLXdOZUY2QlNpT1IzanpCVHFuWk91OWp4OXMxVjJPeVZrOVdRZll0S2FKZU1GUTZSZXVmSFpzQlhKaFoxd01UODRLaGY4SlpFT25Mczg2N2szVVh2ZXI4NmlKRmtwSk5ic3lrUEVUSDdJT2F4d1ZBZ0xNbUtOVXpUdzlIdUUxZlgtejc2bS0zM1ZlR0pnLXRUdXliR3RhYWZC?oc=5) |
+| Microsoft Discovery Aims To Advance The Era Of Agentic Science | 媒体报道 | Microsoft Discovery 推动 Agentic Science 时代 | [Forbes](https://news.google.com/rss/articles/CBMitwFBVV95cUxOMTJnZm9mblBHejFwZFczN3hfZDNGMktWdzNBd050ZkE5Q3kyTEZGVTBJdUNVbUpSaUJBSzZPSThlUUJodU9RTXZZT0Ffa0I3M09xeE1sZjhLTmxaZHY1Q1hHcE1FYXZUV2RwdDdIRW9Pdno3TDAwbVVMTURaWDkwNTFlU2xGQXBtbUhOajh0dldNLVN2X1BQdzFXbFJTSnF3eElQVjAxS244YTVNRFQzT2dvWDhSQWs?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| K-Dense BYOK | 桌面工具 | 基于 Scientific Agent Skills 的 AI 合作科学家，可在桌面运行 | [GitHub](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YTFhSb1F4Y0J2TjhadFpoeURmMGxZbWR5S2RYSWYwbzBOZ0cwaE56N2NranVyamJ4Q1pxd3RockdZcFN3eHd6YUJ2bS1DSUVkLWJoSw?oc=5) |
