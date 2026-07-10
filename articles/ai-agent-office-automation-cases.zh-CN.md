@@ -100,3 +100,42 @@
 | Snowflake CoWork | 企业工具 | 面向知识工作者的专属工作 Agent | [Infoq.cn](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQdmN6NlRHLUdVMlNTemUxR0hGeEJwM245aHlncmp0UmRXOXZ4RzVPZzRTVWRRYXk4aFZIMTFkN3c3R055T2l6UnppN2xIYlBmRllaVEQ5blFqQQ?oc=5) |
 | Oracle Agentic AI in ERP | 企业功能 | ERP 中可立即使用的四种 AI Agent | [Oracle Blogs](https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnBTeFZ3T0d5SnJVOGgyak1IUXM2NXJJNjZ4dkExMGhmM1ZvMi1WWEFrNU1FcEpNYlVfelhQSll2QUZ6dFZJYnpoUVBuUVlhVm5XUnN1cXI0ejVjVEpvYV9hMDlWbFBycGZWaVNmUlY0LW1PcEM0Zzl6WUpydEl4TzNqZ2Y3NGE0Um1nMkc1cw?oc=5) |
 | MoonBit Skills Marketplace | 工具市场 | 可发布、可运行、可被 Agent 调用的工具市场 | [开源中国](https://www.oschina.net/news/471616) |
+
+## 资料更新（2026-07-10）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| foot8319/openclaw-n8n-stack | GitHub 项目 | 一键部署 OpenClaw 和 n8n Docker 栈，用于 AI Agent、MCP 和工作流自动化 | [https://github.com/foot8319/openclaw-n8n-stack](https://github.com/foot8319/openclaw-n8n-stack) |
+| avarose57/ai-agent-wikipedia-n8n | GitHub 项目 | 使用本地 AI Agent 集成 Wikipedia 和 n8n 工作流，结合 LangChain 和 Ollama 模型自动回答问题 | [https://github.com/avarose57/ai-agent-wikipedia-n8n](https://github.com/avarose57/ai-agent-wikipedia-n8n) |
+| hack2ai/personal-ai-agent-n8n | GitHub 项目 | 基于 n8n 构建的个人 AI 助手，支持聊天触发、记忆和 Gmail 工具调用，可自主发送邮件 | [https://github.com/hack2ai/personal-ai-agent-n8n](https://github.com/hack2ai/personal-ai-agent-n8n) |
+| ComPDF/docslight | GitHub 项目 | 文档解析、OCR 和数据提取工具，可将 PDF、扫描件、图片和 Office 文件转为结构化输出，适用于 RAG 流水线和企业文档自动化 | [https://github.com/ComPDF/docslight](https://github.com/ComPDF/docslight) |
+| elie222/inbox-zero | GitHub 项目 | 开源 AI 邮件个人助手，帮助快速实现收件箱归零（Stars: 11583） | [https://github.com/elie222/inbox-zero](https://github.com/elie222/inbox-zero) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AI agent testing, explained | IBM 文章 | 解释 AI Agent 测试方法与实践 | [https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wNXF4Y29ULUFOYUUtZHBVWkJQTmNfV1pHaEpoSlZ2LUlWcURRUi1NcGE1TUdnakFpTjRSQW42RGRCbmw4V3AwUXpnLU82YzcwNDQ0eEZIMlN5MGxITVE](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wNXF4Y29ULUFOYUUtZHBVWkJQTmNfV1pHaEpoSlZ2LUlWcURRUi1NcGE1TUdnakFpTjRSQW42RGRCbmw4V3AwUXpnLU82YzcwNDQ0eEZIMlN5MGxITVE) |
+| Securing the future of AI agents | Google DeepMind 博客 | 提出 AI 控制路线图，结合传统安全防护和实时监控来保障内部系统安全 | [https://deepmind.google/blog/securing-the-future-of-ai-agents/](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |
+| Data for Agents | Hugging Face 博客（NVIDIA） | 探讨面向 Agent 的数据构建方法 | [https://huggingface.co/blog/nvidia/open-data-for-agents](https://huggingface.co/blog/nvidia/open-data-for-agents) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 实战教程：从0到1带你速通WorkBuddy，最适合国内普通人用的Agent 产品 | 掘金教程 | 面向国内用户的 WorkBuddy 产品上手教程 | [https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KMndORkhUdFpJSnZtNUZ6SE9jUEFZQ2ZkU2RhWXFzTW5xcDdpRUJwSzFURkRDYlhndzdZMmhVcXJpcVZGRHdmZGlRcC1HaXFtOEt0SQ](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KMndORkhUdFpJSnZtNUZ6SE9jUEFZQ2ZkU2RhWXFzTW5xcDdpRUJwSzFURkRDYlhndzdZMmhVcXJpcVZGRHdmZGlRcC1HaXFtOEt0SQ) |
+| I Built an AI Chief of Staff That Runs My Inbox for $5/Month | AI Action Letter 教程 | 使用 Hermes Agent 搭建月费 5 美元的 AI 收件箱助手 | [https://news.google.com/rss/articles/CBMie0FVX3lxTE5sLXhrWjkwVDlLRlNYclQtSk1lcHloWk5STFN2NHlnd3ZXN3hVZXZ2QlBPSGp3UER1UkVEOUhJSExqdlR0aXMzSHJJdFVrZE41WUppSGVEWWVMSVNMV2wxR3Y2SlNYdjZmT1Z4ZE9lYzFBbWVYYUk3Q2dndw](https://news.google.com/rss/articles/CBMie0FVX3lxTE5sLXhrWjkwVDlLRlNYclQtSk1lcHloWk5STFN2NHlnd3ZXN3hVZXZ2QlBPSGp3UER1UkVEOUhJSExqdlR0aXMzSHJJdFVrZE41WUppSGVEWWVMSVNMV2wxR3Y2SlNYdjZmT1Z4ZE9lYzFBbWVYYUk3Q2dndw) |
+| How to Build LangChain Agents for Autonomous Workflows: A Complete Guide | appinventiv.com 教程 | LangChain Agent 自主工作流构建完整指南 | [https://news.google.com/rss/articles/CBMibEFVX3lxTE1YYWdHaGJMVzRTU1JSNFkxQXVGUEJ3OWtoRVdwQmpyZDUzOWEzV19RMFBFWUY0dlVsRWlTNThGVG1FcjdZNnBGVXYzUHZRYngzTDhYMHRSNjFVai1NVVpLVlFBMWgzRTNzTnNQbw](https://news.google.com/rss/articles/CBMibEFVX3lxTE1YYWdHaGJMVzRTU1JSNFkxQXVGUEJ3OWtoRVdwQmpyZDUzOWEzV19RMFBFWUY0dlVsRWlTNThGVG1FcjdZNnBGVXYzUHZRYngzTDhYMHRSNjFVai1NVVpLVlFBMWgzRTNzTnNQbw) |
+| Codex零基础小白保姆级教程 | YouTube 视频 | 涵盖 15 个核心功能、21 个落地用法、10 大自动化实操案例和 3 个省钱技巧 | [https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvM2tjNWJabzNpM0VGTFBVRWRjdTIyX3lZT21yOFAxVHd3T1pWR3ZyX2EwaEpiNDE1aW05QlFGbEdaVlJMOVlGYk12M3ZyeHFLcE1WeEpR](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvM2tjNWJabzNpM0VGTFBVRWRjdTIyX3lZT21yOFAxVHd3T1pWR3ZyX2EwaEpiNDE1aW05QlFGbEdaVlJMOVlGYk12M3ZyeHFLcE1WeEpR) |
+| Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers | AWS 教程 | 使用 Amazon Quick 和 Cisco Webex MCP 服务器构建会议准备与跟进助手 | [https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNUpZdnVraVF5LTRtOFFvak0xd2NMYmNTRjFxUUEyZzNpbXpvRTdKYWMyUFR2U2dmdktlVzAwUkl0U0NuT2F3UzBQOU1QQnV1ZndNNFZxYjExYjdCZklGT2syNkdkVUNNNmJabzFHMHVLUGUxMUE3OENRWk8yUVZ2MUlvQWV0dGd3SmZVSDRxQnEydVlJQ2FJSkt2cUtiMnhXZFpXQ29YV19FdjE1azU5UWJIN2R3SC1ic0NPTzFNYXFiQ0lXOWJlUXdTZnlYOVR4RnBV](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNUpZdnVraVF5LTRtOFFvak0xd2NMYmNTRjFxUUEyZzNpbXpvRTdKYWMyUFR2U2dmdktlVzAwUkl0U0NuT2F3UzBQOU1QQnV1ZndNNFZxYjExYjdCZklGT2syNkdkVUNNNmJabzFHMHVLUGUxMUE3OENRWk8yUVZ2MUlvQWV0dGd3SmZVSDRxQnEydVlJQ2FJSkt2cUtiMnhXZFpXQ29YV19FdjE1azU5UWJIN2R3SC1ic0NPTzFNYXFiQ0lXOWJlUXdTZnlYOVR4RnBV) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Agentforce in Slack | Salesforce 产品 | 在 Slack 中集成 AI Agent，使其成为团队协作成员 | [https://news.google.com/rss/articles/CBMifkFVX3lxTFBuSTVfb3FQclJBaEtYcTAtczRlWTFnWE5zR3d2MkFEUjlBVkk2OTlvbFVoeFZ5UXduMDl2MHdSOE1haGg5MFZDMzUtNzRWVEtjRThpcGVxNUwteHNnMXNTNzIwcjhPek1EZlhfR0h1cE82dy1fRXBXTFpGUllnZw](https://news.google.com/rss/articles/CBMifkFVX3lxTFBuSTVfb3FQclJBaEtYcTAtczRlWTFnWE5zR3d2MkFEUjlBVkk2OTlvbFVoeFZ5UXduMDl2MHdSOE1haGg5MFZDMzUtNzRWVEtjRThpcGVxNUwteHNnMXNTNzIwcjhPek1EZlhfR0h1cE82dy1fRXBXTFpGUllnZw) |
+| Gemini Spark | Google 产品 | Google 的 Agent 助手现已支持 Mac 平台 | [https://news.google.com/rss/articles/CBMingFBVV95cUxNTDVKblBucGxXMUtkNXZjWk5raElhdjZsUUE5SFZqcGVsU1k0RDJHd1lMZjQ2YTIyeEFWT2l2dmV5UDY0TFB3RmZwWm02X00ySm5iSFlJSUxGbUFweGdEX3FwTjRlNUJsU0tORERWUTRtSmlQVzBLakFLX2FabGJtRUdaWFhxX1RZYzFBdlJtd2ZUOXQzX3dGcV9vT1REQQ](https://news.google.com/rss/articles/CBMingFBVV95cUxNTDVKblBucGxXMUtkNXZjWk5raElhdjZsUUE5SFZqcGVsU1k0RDJHd1lMZjQ2YTIyeEFWT2l2dmV5UDY0TFB3RmZwWm02X00ySm5iSFlJSUxGbUFweGdEX3FwTjRlNUJsU0tORERWUTRtSmlQVzBLakFLX2FabGJtRUdaWFhxX1RZYzFBdlJtd2ZUOXQzX3dGcV9vT1REQQ) |
+| ChatGPT Work | OpenAI 产品 | 可在多个应用和文件中执行操作的 Agent，支持长时间跟踪项目并产出完整成果 | [https://openai.com/index/chatgpt-for-your-most-ambitious-work](https://openai.com/index/chatgpt-for-your-most-ambitious-work) |
+| Microsoft Copilot Studio + Docusign MCP | Microsoft 开源集成 | 将 DocuSign MCP 集成到 Copilot Studio 中，实现文档签署自动化 | [https://news.google.com/rss/articles/CBMidkFVX3lxTE1vVnhIS19BYVFiaGFfWXNFX2ZHSkx2T1pVSkJ2YktJcUl6Tm92T0xIR1BhNUZBWGM3ejRsdEhYclVpVklhd1htVWNtVzJUZ3FaZHNiOHM1X3hWSW1Ra1Y2dmhndXRDRUNKd2t1SFg1MjNaMmkzWGc](https://news.google.com/rss/articles/CBMidkFVX3lxTE1vVnhIS19BYVFiaGFfWXNFX2ZHSkx2T1pVSkJ2YktJcUl6Tm92T0xIR1BhNUZBWGM3ejRsdEhYclVpVklhd1htVWNtVzJUZ3FaZHNiOHM1X3hWSW1Ra1Y2dmhndXRDRUNKd2t1SFg1MjNaMmkzWGc) |

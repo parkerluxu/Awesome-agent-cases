@@ -96,3 +96,52 @@
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
 | K-Dense BYOK | 桌面工具 | 基于 Scientific Agent Skills 的 AI 合作科学家，可在桌面运行 | [GitHub](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YTFhSb1F4Y0J2TjhadFpoeURmMGxZbWR5S2RYSWYwbzBOZ0cwaE56N2NranVyamJ4Q1pxd3RockdZcFN3eHd6YUJ2bS1DSUVkLWJoSw?oc=5) |
+
+## 资料更新（2026-07-10）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ARIS (Auto-Research-In-Sleep) | 项目 | 轻量级 Markdown 技能集，支持跨模型评审循环、想法发现和实验自动化，兼容 Claude Code、Codex 等任意 LLM 智能体 | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) |
+| autonomous-physics-lab | 项目 | 开放智能体网络，AI 智能体通过代码、证伪、评审和科学记忆进行可重复研究 | [GitHub](https://github.com/open-agent-science/autonomous-physics-lab) |
+| AgentDeck | 项目 | 模块化多智能体框架，提供智能体编排、角色协作、工具调用和可复现执行流水线，加速科研自动化 | [GitHub](https://github.com/Jiawang1209/AgentDeck) |
+| Perspicacite-AI | 项目 | 面向科学家的智能体 AI 助手，帮助查找和理解学术文献 | [GitHub](https://github.com/HolobiomicsLab/Perspicacite-AI) |
+| ai4s-skills | 项目 | 开源 AI for Science 智能体技能集：主题探索、文献调研、实验、论文写作和完整性审计 | [GitHub](https://github.com/ai4s-research/ai4s-skills) |
+| Open Science Desktop | 项目 | 本地优先、模型无关的 AI 科研工作台，基于 Tauri + MCP + 智能体技能构建 | [GitHub](https://github.com/ai4s-research/open-science) |
+| scholar-rag-agent | 项目 | 生产级科学文献 Agentic RAG，支持多跳推理、GraphRAG 和多 LLM 路由 | [GitHub](https://github.com/Francis1998/scholar-rag-agent) |
+| Rumi | 项目 | 自主科学发现引擎，含 82 个发现模块、16 阶段流水线，支持 GFlowNet 假设竞赛、对抗性评审、多智能体辩论、因果推理和知识图谱 | [GitHub](https://github.com/subhansh-dev/rumi) |
+| swarm-factory | 项目 | 2026 年实验室实验用自主研究多智能体系统 | [GitHub](https://github.com/Usaid22/swarm-factory) |
+| autonomous-agentic-research-swarm | 项目 | 基于文件的自主智能体研究集群（操作员/规划员/工人/评审员），含合约、工作流和确定性质量门 | [GitHub](https://github.com/AysajanE/autonomous-agentic-research-swarm) |
+| virtual-biotech-scientist | 项目 | 闭环多智能体 AI 科学家，用于药物-靶点发现，基于 ToolUniverse 构建 | [GitHub](https://github.com/jackysiupuichung/virtual-biotech-scientist) |
+| ai-lab-codex-workbench | 项目 | 面向 Windows 的 AI 智能体编码和提示工作台，支持 Codex、Claude Code、Cursor 等 | [GitHub](https://github.com/Yaked1/ai-lab-codex-workbench) |
+| skills (kashmirscien3399) | 项目 | 自动化文献综述技能，支持获取 arXiv 论文、提取技术细节和跟踪引用 | [GitHub](https://github.com/kashmirscien3399/skills) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark | 论文 | 提出 PhySciBench 基准，包含 200 个专家精选的物理和化学问题，评估深度研究智能体在物理科学中的能力 | [arXiv](https://arxiv.org/abs/2606.18648v3) |
+| Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents | 论文 | 针对科学构思智能体的高效智能体轨迹合成方法，训练 Agentic LLM 以增强科研推理灵活性 | [arXiv](https://arxiv.org/abs/2606.31229v1) |
+| Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop | 论文 | 通用编码智能体在 MatBench 带隙基准（>10 万晶体）上自主构建了最准确的预测模型 | [arXiv](https://arxiv.org/abs/2606.29717v1) |
+| Playing ZendoWorld: Challenging AI Agents on Active Visual Concept Induction | 论文 | 提出 ZendoWorld 交互环境，测试智能体在视觉观察中推断隐藏规则并设计实验的能力 | [arXiv](https://arxiv.org/abs/2607.08233v1) |
+| From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier | 论文 | 探讨 LLM 驱动的定理证明器在前沿数学研究（发现新定理、解决开放猜想）中的局限与方向 | [arXiv](https://arxiv.org/abs/2607.07779v1) |
+| Under What Conditions Can a Machine Be Called Genuinely Creative? | 论文 | 从设计学角度提出机器真正创造力的判定框架，探讨人机共享认知环境中的自主性 | [arXiv](https://arxiv.org/abs/2606.13196v3) |
+| Agents All the Way Down; A Methodology for Building Custom AI Agents from Substrate to Production | 论文 | 提供从底层到生产构建定制 AI 智能体的端到端方法论 | [arXiv](https://arxiv.org/abs/2606.11869v1) |
+| The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators | 论文 | 提出红皇后哥德尔机器，将评估纳入自我改进过程，实现智能体与评估标准的共同进化 | [arXiv](https://arxiv.org/abs/2606.26294v2) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Codex+Skills：AI智能体驱动的自动化科研工作流实战指南 | 教程 | CSDN 发布的 AI 智能体驱动自动化科研工作流实战指南 | [CSDN](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TSGt0WlZWanNYSHlIR2VnWmplYVN1S1dFQm12dkFJMUFRSWRxV1V0OVFjUkR2SVFSc3piN2RKeTYxelNwenNFNzJiLVR4Wm1iemZiNDhibDdQRnZ2dHQzbEZR?oc=5) |
+| 登上Science！华人科学家推出通用生物医学AI Agent，真实科研表现接近人类专家 | 媒体报道 | 华人科学家在 Science 发表通用生物医学 AI 智能体，真实科研表现接近人类专家（36Kr、新浪网等多家报道） | [36Kr](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzUUVNS29lbExQWjJsbkd4UUV6VUtxSlhaWVNJUjNQQVNncllsRV9vSWw1eFJxRWNxYlBOZklwZnpQUzc4djBIbGlEVnNFbEN3WDVZ?oc=5) / [新浪网](https://news.google.com/rss/articles/CBMigwFBVV95cUxNcGN3YURrX240QkRwTjkwTmdBT1U5cEN5cjFKNExQUVlCak10MGh3SF9PdDAxTHl1ZTBCNTFvbjJqRjVQcm56UExjeUt0eDBXS3d0ejczeVhmTHlFcXpEQTFSZnoxbFVvSXVKN3FZR1dXN2FOV0ZRYUNCQWVIZWtLc25wYw?oc=5) |
+| Sakana AI launches Sakana Marlin, an autonomous deep research agent that thinks for 8 hours straight | 媒体报道 | Sakana AI 发布自主深度研究智能体 Sakana Marlin，可连续思考 8 小时 | [Crypto Briefing](https://news.google.com/rss/articles/CBMifkFVX3lxTE5UVFFQQ2taVEI3M1hsNllEV1drLXR3V1V6Tmk0d05BZHRRS09NME9WYjZyaW9YalBscEEyeDlHa3hOZmlfRXZPZWNvVUozS05Qd1ZKTk4xNmplVGRzOUZBTnNzbVZMMDczYkNMbm0ycGlCLXdIOVp4T2plTHk2dw?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| NVIDIA BioNeMo Agent Toolkit | 产品 | NVIDIA 发布的加速科学发现的智能体工具包 | [NVIDIA](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb2VhdWloTE1XSnlrd1dVanpQYTMwVWhhYjE1OFZrSG1vaWJEZXlKaWljQXZSZHlxbVlyS3E3SkpaaTJCSU8tZGJaNFFTQ245YlktU1Y1RHQ4b3FnTk5ZMDZuTzJUYWlyaWFfbGRwZkxRNF85UXN6aEdFbE5uQUozeEZMQW96dzNpTkp3aHJ0WEpyNkZDOVVjN0NxcldZYkdUc0JQM0tjYjlyNG14RlIyYUQtRkRJSjFZWk1rVS1YNDR3RWVZOVJ4ZA?oc=5) |
+| PromptBio Agentic AI Platform | 产品 | 加速科学发现的智能体 AI 平台 | [BioPharma APAC](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeHhZQ3BwUVVMbHVBa1RmNlcxR2dKakhSVkk5ZTZBd01wOHBjQzJaZ2tnYjBqVlF2My1kSlp4ai02U3BJQ3hEbHVQX0ZkU01zTjdBMGZFQk1mN2pSNm1fbnJodnVYdTRVVk52REEwM0gwMkEwZkZFWnYtTGJBWTVwODc3c19VeEFfU2trekZVOEhUb3dRZEZyc1ppaXhleXF2LVJzdDFrSklLckNZT3lMTkpnbWE1RU1Z?oc=5) |
+| Agent-EvalKit | 工具 | AWS 发布的系统性 AI 智能体评估工具包 | [AWS](https://news.google.com/rss/articles/CBMioAFBVV95cUxQeldfMDFMWnNrN3oxZFJsMjVWSEtWaGtWdzRDR2pZVGxaWDlsb0otVEtTQ0dzR2R6blZjUENETm9WZGQ1R0xpUU03MGlyS0swTjlIWU5PRV9RcXd4UDlGSnZBVUw4NFR4N2hqNjFOdzVyQVhRaXdZdWVpMXhVU2hsUlAwWU1RZWpyQzgwZ2JjaHc5TGE4RzE2c1Z2RVFWWVRz?oc=5) |

@@ -95,3 +95,46 @@ The "Resource Update" blocks below are appended automatically by the script from
 | Name | Type | Use / Summary | Link |
 |------|------|---------------|------|
 | K-Dense-AI/k-dense-byok | GitHub | AI co-scientist powered by Scientific Agent Skills running on your desktop. | [Link](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YTFhSb1F4Y0J2TjhadFpoeURmMGxZbWR5S2RYSWYwbzBOZ0cwaE56N2NranVyamJ4Q1pxd3RockdZcFN3eHd6YUJ2bS1DSUVkLWJoSw?oc=5) |
+
+## Resource Update (2026-07-10)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ARIS (Auto-Research-In-Sleep) | GitHub | Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. Works with Claude Code, Codex, OpenClaw, or any LLM agent. | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) |
+| autonomous-physics-lab | GitHub | Open agent network for reproducible research: AI agents test hypotheses through code, falsification, review, and scientific memory. | [GitHub](https://github.com/open-agent-science/autonomous-physics-lab) |
+| AgentDeck | GitHub | Modular multi-agent framework for AI-driven scientific workflows: agent orchestration, role-based collaboration, tool calling, and reproducible execution pipelines. | [GitHub](https://github.com/Jiawang1209/AgentDeck) |
+| Perspicacite-AI | GitHub | Agentic AI assistant for scientists and researchers to find and understand academic literature without getting lost in hundreds of papers. | [GitHub](https://github.com/HolobiomicsLab/Perspicacite-AI) |
+| ai4s-skills | GitHub | Open-source agent skills for AI for Science: topic exploration, literature survey, experiments, paper writing, and integrity audit — driven by any coding agent. | [GitHub](https://github.com/ai4s-research/ai4s-skills) |
+| Open Science Desktop | GitHub | Local-first, model-agnostic AI research workbench for macOS, Windows & Linux. Open-source Claude Science desktop alternative built on Tauri + MCP + agent skills. | [GitHub](https://github.com/ai4s-research/open-science) |
+| scholar-rag-agent | GitHub | Production-grade Agentic RAG for scientific literature — multi-hop reasoning, GraphRAG, and multi-LLM routing. | [GitHub](https://github.com/Francis1998/scholar-rag-agent) |
+| Rumi | GitHub | Autonomous scientific discovery engine with 82 discovery modules, 16-phase pipeline, GFlowNet hypothesis tournaments, adversarial skeptic review, multi-agent debate, causal reasoning, and knowledge graphs. | [GitHub](https://github.com/subhansh-dev/rumi) |
+| swarm-factory | GitHub | Top autonomous research multi-agent system for 2026 lab experiments. | [GitHub](https://github.com/Usaid22/swarm-factory) |
+| autonomous-agentic-research-swarm | GitHub | File-based autonomous agentic research swarm (Operator/Planner/Worker/Judge) with contracts, workstreams, and deterministic quality gates. | [GitHub](https://github.com/AysajanE/autonomous-agentic-research-swarm) |
+| virtual-biotech-scientist | GitHub | Closed-loop multi-agent AI scientist for drug-target discovery, built on ToolUniverse. | [GitHub](https://github.com/jackysiupuichung/virtual-biotech-scientist) |
+| ai-lab-codex-workbench | GitHub | Windows-friendly AI agent coding and prompting workbench for Codex, Claude Code, Cursor, Antigravity, Copilot, MCP, safe GitHub workflows, and student-friendly agentic coding experiments. | [GitHub](https://github.com/Yaked1/ai-lab-codex-workbench) |
+| skills (kashmirscien3399) | GitHub | Automate literature reviews with research skills for fetching arXiv papers, extracting technical details, and tracking citations for agent workflows. | [GitHub](https://github.com/kashmirscien3399/skills) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark | arXiv | Introduces PhySciBench, a benchmark of 200 expert-curated questions (physics and chemistry) for evaluating deep research agents in physical sciences. | [arXiv](https://arxiv.org/abs/2606.18648v3) |
+| Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents | arXiv | Proposes training Agentic LLMs for flexible scientific ideation, moving beyond pre-defined agentic workflows to navigate the vast search space of scientific literature. | [arXiv](https://arxiv.org/abs/2606.31229v1) |
+| Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop | arXiv | A general-purpose coding agent autonomously built the most accurate model on the MatBench band-gap benchmark (>100k crystals) using an autonomous research loop. | [arXiv](https://arxiv.org/abs/2606.29717v1) |
+| Playing ZendoWorld: Challenging AI Agents on Active Visual Concept Induction | arXiv | Proposes ZendoWorld, a controlled interactive environment where agents must infer logical rules about visual observations, design informative experiments, and refine hypotheses. | [arXiv](https://arxiv.org/abs/2607.08233v1) |
+| From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier | arXiv | Examines limitations of current LLM-driven theorem provers for frontier research mathematics and proposes directions for discovering new theorems or resolving open conjectures. | [arXiv](https://arxiv.org/abs/2607.07779v1) |
+| Under What Conditions Can a Machine Be Called Genuinely Creative? | arXiv | Develops a requirement framework from Designics for defining genuine machine creativity, arguing it should not be defined by output novelty alone. | [arXiv](https://arxiv.org/abs/2606.13196v3) |
+| Agents All the Way Down; A Methodology for Building Custom AI Agents from Substrate to Production | arXiv | Presents a methodology for building custom AI agents end-to-end, covering function-calling APIs, Model Context Protocol, and code agents. | [arXiv](https://arxiv.org/abs/2606.11869v1) |
+| The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators | arXiv | Proposes making evaluation part of the improvement process for self-improving agents, bringing evolutionary principles to recursive self-improvement. | [arXiv](https://arxiv.org/abs/2606.26294v2) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| BioNeMo Agent Toolkit | NVIDIA | Toolkit for accelerating scientific discovery with AI agents in biomedical research. | [NVIDIA](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb2VhdWloTE1XSnlrd1dVanpQYTMwVWhhYjE1OFZrSG1vaWJEZXlKaWljQXZSZHlxbVlyS3E3SkpaaTJCSU8tZGJaNFFTQ245YlktU1Y1RHQ4b3FnTk5ZMDZuTzJUYWlyaWFfbGRwZkxRNF85UXN6aEdFbE5uQUozeEZMQW96dzNpTkp3aHJ0WEpyNkZDOVVjN0NxcldZYkdUc0JQM0tjYjlyNG14RlIyYUQtRkRJSjFZWk1rVS1YNDR3RWVZOVJ4ZA?oc=5) |
+| Sakana Marlin | Sakana AI | Autonomous deep research agent that thinks for 8 hours straight. | [Crypto Briefing](https://news.google.com/rss/articles/CBMifkFVX3lxTE5UVFFQQ2taVEI3M1hsNllEV1drLXR3V1V6Tmk0d05BZHRRS09NME9WYjZyaW9YalBscEEyeDlHa3hOZmlfRXZPZWNvVUozS05Qd1ZKTk4xNmplVGRzOUZBTnNzbVZMMDczYkNMbm0ycGlCLXdIOVp4T2plTHk2dw?oc=5) |
+| PromptBio Agentic AI Platform | PromptBio | Agentic AI platform to accelerate scientific discovery. | [BioPharma APAC](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeHhZQ3BwUVVMbHVBa1RmNlcxR2dKakhSVkk5ZTZBd01wOHBjQzJaZ2tnYjBqVlF2My1kSlp4ai02U3BJQ3hEbHVQX0ZkU01zTjdBMGZFQk1mN2pSNm1fbnJodnVYdTRVVk52REEwM0gwMkEwZkZFWnYtTGJBWTVwODc3c19VeEFfU2trekZVOEhUb3dRZEZyc1ppaXhleXF2LVJzdDFrSklLckNZT3lMTkpnbWE1RU1Z?oc=5) |
+| Agent-EvalKit | AWS | Systematic evaluation framework for AI agents. | [AWS](https://news.google.com/rss/articles/CBMioAFBVV95cUxQeldfMDFMWnNrN3oxZFJsMjVWSEtWaGtWdzRDR2pZVGxaWDlsb0otVEtTQ0dzR2R6blZjUENETm9WZGQ1R0xpUU03MGlyS0swTjlIWU5PRV9RcXd4UDlGSnZBVUw4NFR4N2hqNjFOdzVyQVhRaXdZdWVpMXhVU2hsUlAwWU1RZWpyQzgwZ2JjaHc5TGE4RzE2c1Z2RVFWWVRz?oc=5) |
+| Universal Biomedical AI Agent | Research | Groundbreaking universal biomedical AI agent achieving real-world research performance near human experts, published in Science. | [36 Kr](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzUUVNS29lbExQWjJsbkd4UUV6VUtxSlhaWVNJUjNQQVNncllsRV9vSWw1eFJxRWNxYlBOZklwZnpQUzc4djBIbGlEVnNFbEN3WDVZ?oc=5) |

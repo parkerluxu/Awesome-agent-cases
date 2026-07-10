@@ -100,3 +100,45 @@ The "Resource Update" blocks below are appended automatically by the script from
 | Snowflake CoWork | Product | Dedicated work agent for knowledge workers. | [Infoq.cn](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQdmN6NlRHLUdVMlNTemUxR0hGeEJwM245aHlncmp0UmRXOXZ4RzVPZzRTVWRRYXk4aFZIMTFkN3c3R055T2l6UnppN2xIYlBmRllaVEQ5blFqQQ?oc=5) |
 | Agentic AI in ERP—four agents you can use today | Oracle Blogs | Four ready-to-use AI agents for ERP workflows. | [Oracle Blogs](https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnBTeFZ3T0d5SnJVOGgyak1IUXM2NXJJNjZ4dkExMGhmM1ZvMi1WWEFrNU1FcEpNYlVfelhQSll2QUZ6dFZJYnpoUVBuUVlhVm5XUnN1cXI0ejVjVEpvYV9hMDlWbFBycGZWaVNmUlY0LW1PcEM0Zzl6WUpydEl4TzNqZ2Y3NGE0Um1nMkc1cw?oc=5) |
 | MoonBit Skills Marketplace | Platform | Tool distribution marketplace where developers publish WebAssembly-compiled tools discoverable and callable by agents. | [oschina.net](https://www.oschina.net/news/471616) |
+
+## Resource Update (2026-07-10)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| foot8319/openclaw-n8n-stack | GitHub | Deploy an OpenClaw and n8n Docker stack for AI agents, MCP, and workflow automation in one setup | [GitHub](https://github.com/foot8319/openclaw-n8n-stack) |
+| avarose57/ai-agent-wikipedia-n8n | GitHub | Automate answering questions using a local AI agent that integrates Wikipedia and n8n workflows with LangChain and Ollama models | [GitHub](https://github.com/avarose57/ai-agent-wikipedia-n8n) |
+| hack2ai/personal-ai-agent-n8n | GitHub | A personal AI assistant built with n8n — chat-triggered AI Agent with memory and Gmail tool-calling to autonomously send emails | [GitHub](https://github.com/hack2ai/personal-ai-agent-n8n) |
+| ComPDF/docslight | GitHub | Part of the KDAN ecosystem, DocSlight offers document parsing, OCR, and data extraction that turn PDFs, scans, images, and Office files into structured outputs for RAG pipelines, AI agents, and enterprise document automation | [GitHub](https://github.com/ComPDF/docslight) |
+| elie222/inbox-zero | GitHub | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast | [GitHub](https://github.com/elie222/inbox-zero) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Data for Agents | Blog | NVIDIA discusses open data for agents on Hugging Face | [Hugging Face](https://huggingface.co/blog/nvidia/open-data-for-agents) |
+| AI agent testing, explained | Article | IBM explains approaches and best practices for testing AI agents | [IBM](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wNXF4Y29ULUFOYUUtZHBVWkJQTmNfV1pHaEpoSlZ2LUlWcURRUi1NcGE1TUdnakFpTjRSQW42RGRCbmw4V3AwUXpnLU82YzcwNDQ0eEZIMlN5MGxITVE?oc=5) |
+| Securing the future of AI agents | Blog | Google DeepMind's AI Control Roadmap combining traditional safeguards and real-time monitoring for securing internal systems | [DeepMind](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |
+| Skill engineering and the case against one-shot AI design | Article | Paul Bakaus on Impeccable, human judgment in a 'loopmaxxing' era, and why agents still need people to steer them | [Latent Space](https://www.latent.space/p/skill-engineering-design) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Building AI Agents That Actually Work | Article | Lessons from Jason Lemkin, Jeanne DeWitt Grosser (Vercel), Amelia Lerutte & Amjad Masad (Replit) | [saastr.com](https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaktTMWhTNnk3NHZNRmg4dGxZZDdFb2xjRk85aFo3ZHVaSXBVbWhJTzBHaVZOamxFbGVEdlA1ZF9iblp4SUxueThxWEstdERiRWZDWUJibkg1ejRKVWc3RmxEbmY5V09uYkR6NUJaWU9zdm5yZXJpdEJkYjZWenN1OWVQSEVleUxzUU5qbEQ3XzN6MW42d2k0Q2lPZGxoM21Wb3N5blFUVDBSM1Z4UkV5NFFnTlRKa0d0MGFYSEwwUG8tZXp3LS1ScFZXc3JSS3VNcndMYXlaanZLQnBIeWRqSEljWWE?oc=5) |
+| How to Build LangChain Agents for Autonomous Workflows | Guide | A complete guide to building LangChain agents for autonomous workflows | [appinventiv.com](https://news.google.com/rss/articles/CBMibEFVX3lxTE1YYWdHaGJMVzRTU1JSNFkxQXVGUEJ3OWtoRVdwQmpyZDUzOWEzV19RMFBFWUY0dlVsRWlTNThGVG1FcjdZNnBGVXYzUHZRYngzTDhYMHRSNjFVai1NVVpLVlFBMWgzRTNzTnNQbw?oc=5) |
+| Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers | Tutorial | AWS tutorial for building meeting assistants using MCP servers | [AWS](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNUpZdnVraVF5LTRtOFFvak0xd2NMYmNTRjFxUUEyZzNpbXpvRTdKYWMyUFR2U2dmdktlVzAwUkl0U0NuT2F3UzBQOU1QQnV1ZndNNFZxYjExYjdCZklGT2syNkdkVUNNNmJabzFHMHVLUGUxMUE3OENRWk8yUVZ2MUlvQWV0dGd3SmZVSDRxQnEydVlJQ2FJSkt2cUtiMnhXZFpXQ29YV19FdjE1azU5UWJIN2R3SC1ic0NPTzFNYXFiQ0lXOWJlUXdTZnlYOVR4RnBV?oc=5) |
+| I Built an AI Chief of Staff That Runs My Inbox for $5/Month | Tutorial | Hermes Agent tutorial for building an AI email assistant | [AI Action Letter](https://news.google.com/rss/articles/CBMie0FVX3lxTE5sLXhrWjkwVDlLRlNYclQtSk1lcHloWk5STFN2NHlnd3ZXN3hVZXZ2QlBPSGp3UER1UkVEOUhJSExqdlR0aXMzSHJJdFVrZE41WUppSGVEWWVMSVNMV2wxR3Y2SlNYdjZmT1Z4ZE9lYzFBbWVYYUk3Q2dndw?oc=5) |
+| Codex零基础小白保姆级教程 | YouTube | Comprehensive Codex tutorial covering 15 core features, 21 use cases, 10 automation cases, and money-saving tips | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvM2tjNWJabzNpM0VGTFBVRWRjdTIyX3lZT21yOFAxVHd3T1pWR3ZyX2EwaEpiNDE1aW05QlFGbEdaVlJMOVlGYk12M3ZyeHFLcE1WeEpR?oc=5) |
+| OpenAI Codex全路线图 | Article | Zero-to-automation roadmap for OpenAI Codex covering core capabilities | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTFByRDJvb0NrLWRlYXZqYzZja0tjQzFQeG1yUHJtZi1pb1BhTTI3UXVRdjQ1aFVTUnVqX1MyUzZDZm5KNm1SbEFISGFndExld2xvREp0MkxDMjVzdnQ5?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ChatGPT Work | Product | OpenAI's agent that can take action across your apps and files, stay with a project for hours, and turn a goal into finished work | [OpenAI](https://openai.com/index/chatgpt-for-your-most-ambitious-work) |
+| Gemini Spark | Product | Google's agentic assistant now available on Mac | [TechCrunch](https://news.google.com/rss/articles/CBMingFBVV95cUxNTDVKblBucGxXMUtkNXZjWk5raElhdjZsUUE5SFZqcGVsU1k0RDJHd1lMZjQ2YTIyeEFWT2l2dmV5UDY0TFB3RmZwWm02X00ySm5iSFlJSUxGbUFweGdEX3FwTjRlNUJsU0tORERWUTRtSmlQVzBLakFLX2FabGJtRUdaWFhxX1RZYzFBdlJtd2ZUOXQzX3dGcV9vT1REQQ?oc=5) |
+| Agentforce in Slack | Product | Salesforce's AI agents integrated as teammates in Slack | [Salesforce](https://news.google.com/rss/articles/CBMifkFVX3lxTFBuSTVfb3FQclJBaEtYcTAtczRlWTFnWE5zR3d2MkFEUjlBVkk2OTlvbFVoeFZ5UXduMDl2MHdSOE1haGg5MFZDMzUtNzRWVEtjRThpcGVxNUwteHNnMXNTNzIwcjhPek1EZlhfR0h1cE82dy1fRXBXTFpGUllnZw?oc=5) |
+| Microsoft Copilot Studio + Docusign MCP | Integration | Microsoft's Copilot Studio integration with Docusign via MCP | [Microsoft Open Source](https://news.google.com/rss/articles/CBMidkFVX3lxTE1vVnhIS19BYVFiaGFfWXNFX2ZHSkx2T1pVSkJ2YktJcUl6Tm92T0xIR1BhNUZBWGM3ejRsdEhYclVpVklhd1htVWNtVzJUZ3FaZHNiOHM1X3hWSW1Ra1Y2dmhndXRDRUNKd2t1SFg1MjNaMmkzWGc?oc=5) |
+| Lyzr AI Agent Fundraise | News | Startup used its own AI agent to raise a $100 million round | [TechCrunch](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) |
