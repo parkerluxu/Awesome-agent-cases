@@ -16,7 +16,7 @@
    - **值得继续跟踪**：GPT-5.6 在真实企业场景中的 Agent 任务表现，以及 ChatGPT Work 对现有办公自动化工具的替代效应。
 
 2. **Meta 发布 Muse Spark 1.1 多模态推理模型，以激进定价进入编码 Agent 市场**
-![配图：Meta 发布 Muse Spark 1.1 多模态推理模型，以激进定价进入编码 Agent 市场](assets/2026-07-10-ai-news-digest/02-meta-发布-muse-spark-1-1-多模态推理模型-以激进定价进入编码-agent-市场.png)
+![配图：Meta 发布 Muse Spark 1.1 多模态推理模型，以激进定价进入编码 Agent 市场](../../assets/2026-07-10-ai-news-digest/02-meta-发布-muse-spark-1-1-多模态推理模型-以激进定价进入编码-agent-市场.png)
    - **来源网站**：MarkTechPost / TechCrunch / The Decoder / cnBeta.COM
    - **原链接**：[MarkTechPost 报道](https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/) | [cnBeta 中文报道](https://www.cnbeta.com.tw/articles/tech/1568476.htm) | [The Decoder 报道](https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/)
    - **摘要**：Meta 超级智能实验室于 7 月 9 日发布 Muse Spark 1.1，这是一款专为 Agent 任务构建的多模态推理模型，拥有 100 万 token 上下文窗口，支持零样本泛化到新工具和 MCP 服务器，以及跨并行子 Agent 的多 Agent 委派。Meta 同时开放了 Meta Model API 的公开预览。在定价方面，Muse Spark 1.1 输出 token 价格为每百万 $4.25，远低于 OpenAI 和 Anthropic 的定价，甚至低于刚发布的 Grok 4.5。Meta 的基准测试显示其在工具使用方面领先，但在编码方面落后于 Opus 4.8 和 GPT-5.5。扎克伯格时隔三年重返 X 平台亲自宣布这一消息，并称将采取“激进”价格策略。
@@ -24,7 +24,7 @@
    - **值得继续跟踪**：Muse Spark 1.1 在真实编码 Agent 任务中的表现，以及 Meta 的 API 定价策略对 OpenAI 和 Anthropic 市场份额的影响。
 
 3. **SpaceXAI 发布 Grok 4.5，以“90% 能力、10% 成本”策略冲击编码 Agent 市场**
-![配图：SpaceXAI 发布 Grok 4.5，以“90% 能力、10% 成本”策略冲击编码 Agent 市场](assets/2026-07-10-ai-news-digest/03-spacexai-发布-grok-4-5-以-90-能力-10-成本-策略冲击编码-agent-市场.webp)
+![配图：SpaceXAI 发布 Grok 4.5，以“90% 能力、10% 成本”策略冲击编码 Agent 市场](../../assets/2026-07-10-ai-news-digest/03-spacexai-发布-grok-4-5-以-90-能力-10-成本-策略冲击编码-agent-市场.webp)
    - **来源网站**：MarkTechPost / The Decoder / 开源中国 / 新浪财经
    - **原链接**：[MarkTechPost 报道](https://www.marktechpost.com/2026/07/08/spacexai-releases-grok-4-5/) | [开源中国中文报道](https://www.oschina.net/news/471588/grok-4-5) | [The Decoder 报道](https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/)
    - **摘要**：SpaceXAI 于 7 月 8 日发布 Grok 4.5，这是其上市后首个重要产品更新，也是首个使用 Cursor 训练的模型。该模型专注于编码、Agent 任务和知识工作，定价为 $2/$6 每百万 token，在 Harvey 法律 Agent 基准上排名第一。在 SWE Bench Pro 任务中，Grok 4.5 平均仅用 15,954 个 token 完成任务，而 Opus 4.8 需要 67,020 个，token 效率是竞品的 4.2 倍。马斯克称其为“Opus 级”模型，但基准测试显示其在编码方面仍落后于 Fable 5 和 GPT-5.5。欧盟地区预计 7 月中旬可用。
@@ -60,7 +60,7 @@
    - **值得继续跟踪**：该攻击所使用的具体 Agent 技术和模型，以及安全厂商将如何开发针对 Agent 攻击的防御方案。
 
 8. **Databricks 将中国开源模型 GLM 5.2 设为默认编码引擎**
-![配图：Databricks 将中国开源模型 GLM 5.2 设为默认编码引擎](assets/2026-07-10-ai-news-digest/08-databricks-将中国开源模型-glm-5-2-设为默认编码引擎.png)
+![配图：Databricks 将中国开源模型 GLM 5.2 设为默认编码引擎](../../assets/2026-07-10-ai-news-digest/08-databricks-将中国开源模型-glm-5-2-设为默认编码引擎.png)
    - **来源网站**：The Decoder
    - **原链接**：[The Decoder 报道](https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/)
    - **摘要**：Databricks 在其数百万行代码的代码库上对编码 Agent 进行了基准测试，发现中国开源模型 GLM 5.2 在性能上匹配 Anthropic 的 Opus 4.8，但每任务成本仅为 $1.28 对比 $1.94。Databricks 计划将其作为日常编码的主力模型推广使用。Databricks 的结论是：没有单一供应商能主导市场，企业应建立自己的基准测试而非依赖公开基准。Perplexity 也报告称通过微调 GLM 5.2 以三分之一的成本达到了 Claude Opus 的水平。
@@ -75,7 +75,7 @@
    - **值得继续跟踪**：这一趋势是否会导致 OpenAI 和 Anthropic 进一步降价，以及中国模型在质量上能否持续缩小与前沿模型的差距。
 
 10. **Anthropic 发现 Claude 内部“隐藏空间”，揭示模型推理过程**
-![配图：Anthropic 发现 Claude 内部“隐藏空间”，揭示模型推理过程](assets/2026-07-10-ai-news-digest/10-anthropic-发现-claude-内部-隐藏空间-揭示模型推理过程.jpg)
+![配图：Anthropic 发现 Claude 内部“隐藏空间”，揭示模型推理过程](../../assets/2026-07-10-ai-news-digest/10-anthropic-发现-claude-内部-隐藏空间-揭示模型推理过程.jpg)
     - **来源网站**：MIT Technology Review
     - **原链接**：[MIT Technology Review 报道](https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/)
     - **摘要**：Anthropic 开发了一种名为 Jacobian Lens 的技术，首次清晰地揭示了大型语言模型在回答问题或执行任务时内部真正发生的过程。研究人员发现 Claude 在推理时存在一个“隐藏空间”，模型在其中对概念进行推敲和思考。这一发现从“平凡到令人不安”不等，为理解 AI 模型的内部工作机制提供了前所未有的视角。有报道将此称为 AI 开始发展“意识”的迹象，但 Anthropic 更倾向于将其视为模型推理过程的内部表征。
@@ -127,7 +127,7 @@
    - **值得继续跟踪**：各模型在 DeepSWE 上的得分情况，以及该基准是否会成为编码 Agent 评估的新标准。
 
 2. **open-multi-agent/open-multi-agent: TypeScript 多 Agent 编排框架**
-![配图：open-multi-agent/open-multi-agent: TypeScript 多 Agent 编排框架](assets/2026-07-10-ai-news-digest/17-open-multi-agent-open-multi-agent-typescript-多-agent-编排框架.png)
+![配图：open-multi-agent/open-multi-agent: TypeScript 多 Agent 编排框架](../../assets/2026-07-10-ai-news-digest/17-open-multi-agent-open-multi-agent-typescript-多-agent-编排框架.png)
    - **来源网站**：GitHub
    - **原链接**：[GitHub 仓库](https://github.com/open-multi-agent/open-multi-agent)
    - **摘要**：这是一个 TypeScript 实现的多 Agent 编排框架。用户描述一个目标后，协调器会将其分解为任务 DAG（有向无环图），可在任何 LLM 上运行，包括 Claude、ChatGPT、Gemini、DeepSeek 或本地模型。该项目拥有 6554 颗星，最近一次推送在 7 月 10 日。
@@ -163,7 +163,7 @@
    - **值得继续跟踪**：OpenCode 在编码基准测试中的表现，以及其与商业编码 Agent 的功能差距。
 
 7. **headroomlabs-ai/headroom: Token 压缩工具，减少 Agent 成本**
-![配图：headroomlabs-ai/headroom: Token 压缩工具，减少 Agent 成本](assets/2026-07-10-ai-news-digest/22-headroomlabs-ai-headroom-token-压缩工具-减少-agent-成本.png)
+![配图：headroomlabs-ai/headroom: Token 压缩工具，减少 Agent 成本](../../assets/2026-07-10-ai-news-digest/22-headroomlabs-ai-headroom-token-压缩工具-减少-agent-成本.png)
    - **来源网站**：GitHub
    - **原链接**：[GitHub 仓库](https://github.com/headroomlabs-ai/headroom)
    - **摘要**：Headroom 是一个工具输出、日志、文件和 RAG 块的压缩工具，可在到达 LLM 之前减少 60-95% 的 token 数量，同时保持答案质量不变。它提供库、代理和 MCP 服务器三种使用方式，使用 Python 编写，拥有 58313 颗星。

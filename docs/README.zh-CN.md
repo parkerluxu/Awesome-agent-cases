@@ -1,179 +1,58 @@
 # Awesome Agent Cases
 
-一个持续更新的 AI Agent 内容库，收录每日新闻稿、真实案例、论文、开源项目和实践笔记。
+一个持续更新的 AI Agent 知识库，面向构建、评估和应用 AI Agent 的开发者、研究者与实践者。
 
 [English](../README.md) | [中文](README.zh-CN.md)
 
-![AI Agents](https://img.shields.io/badge/Focus-AI_Agents-blue)
-![Daily Updates](https://img.shields.io/badge/Updates-Daily-green)
-![Research](https://img.shields.io/badge/Covers-Papers%20%26%20Projects-purple)
-![Language](https://img.shields.io/badge/Language-ZH%20%7C%20EN-orange)
+## 从这里开始
 
----
+| 想找什么 | 推荐入口 |
+|---|---|
+| 今日动态 | [最新日报](../daily_news/2026/07/2026-07-10-ai-news-digest.md) |
+| 某个具体领域 | [按主题浏览](../indexes/by-topic.md) |
+| 案例、项目、教程或论文 | [按内容类型浏览](../indexes/by-content-type.md) |
+| 按时间阅读 | [按日期浏览](../indexes/by-date.md) |
+| 全部日报 | [日报归档](../daily_news/README.md) |
 
-## 这个仓库收录什么
+## 最近日报
 
-**Awesome Agent Cases** 是一个面向 AI Agent 构建者、研究者和应用者的每日知识库。
-
-这里会持续收录和整理：
-
-- 每日 AI Agent 新闻稿
-- 会影响 Agent 设计的模型能力更新
-- Coding Agent、Research Agent、Workflow Agent、多智能体实践
-- Agent 工具调用、规划、评测、自主任务完成相关论文
-- GitHub、Gitee 和开发者生态中的开源项目
-- 与 Agent 应用有关的长文、案例分析和实践笔记
-
-这个仓库的目标很直接：
-
-> 帮助 Agent 构建者快速找到 AI Agent 生态中真正值得读的内容。
-
-## 最新每日简报
-
-每日简报保存在 [`daily_news/`](../daily_news/)。
-
-<!-- DAILY_BRIEFS_START -->
 | 日期 | 简报 |
 |---|---|
-| 2026-07-10 | [AI 新闻简报](../daily_news/2026-07-10-ai-news-digest.md) |
-| 2026-07-09 | [AI 新闻简报](../daily_news/2026-07-09-ai-news-digest.md) |
-| 2026-07-07 | [AI 新闻简报](../daily_news/2026-07-07-ai-news-digest.md) |
-| 2026-07-06 | [AI 新闻简报](../daily_news/2026-07-06-ai-news-digest.md) |
-| 2026-07-05 | [AI 新闻简报](../daily_news/2026-07-05-ai-news-digest.md) |
-| 2026-07-04 | [AI 新闻简报](../daily_news/2026-07-04-ai-news-digest.md) |
-| 2026-07-03 | [AI 新闻简报](../daily_news/2026-07-03-ai-news-digest.md) |
-| 2026-07-01 | [AI 新闻简报](../daily_news/2026-07-01-ai-news-digest.md) |
-| 2026-06-30 | [AI 新闻简报](../daily_news/2026-06-30-ai-news-digest.md) |
-| 2026-06-29 | [AI 新闻简报](../daily_news/2026-06-29-ai-news-digest.md) |
-| 2026-06-26 | [AI 新闻简报](../daily_news/2026-06-26-ai-news-digest.md) |
-| 2026-06-25 | [AI 新闻简报](../daily_news/2026-06-25-ai-news-digest.md) |
-| 2026-06-24 | [AI 新闻简报](../daily_news/2026-06-24-ai-news-digest.md) |
-| 2026-06-23 | [AI 新闻简报](../daily_news/2026-06-23-ai-news-digest.md) |
-| 2026-06-22 | [AI 新闻简报](../daily_news/2026-06-22-ai-news-digest.md) |
-| 2026-06-20 | [AI 新闻简报](../daily_news/2026-06-20-ai-news-digest.md) |
-| 2026-06-19 | [AI 新闻简报](../daily_news/2026-06-19-ai-news-digest.md) |
-| 2026-06-18 | [AI 新闻简报](../daily_news/2026-06-18-ai-news-digest.md) |
-| 2026-06-17 | [AI 新闻简报](../daily_news/2026-06-17-ai-news-digest.md) |
-| 2026-06-16 | [AI 新闻简报](../daily_news/2026-06-16-ai-news-digest.md) |
-| 2026-06-15 | [AI 新闻简报](../daily_news/2026-06-15-ai-news-digest.md) |
-| 2026-06-14 | [AI 新闻简报](../daily_news/2026-06-14-ai-news-digest.md) |
-| 2026-06-13 | [AI 新闻简报](../daily_news/2026-06-13-ai-news-digest.md) |
-| 2026-06-12 | [AI 新闻简报](../daily_news/2026-06-12-ai-news-digest.md) |
-| 2026-06-11 | [AI 新闻简报](../daily_news/2026-06-11-ai-news-digest.md) |
-| 2026-06-10 | [AI 新闻简报](../daily_news/2026-06-10-ai-news-digest.md) |
-<!-- DAILY_BRIEFS_END -->
+| 2026-07-10 | [AI 日报](../daily_news/2026/07/2026-07-10-ai-news-digest.md) |
+| 2026-07-09 | [AI 日报](../daily_news/2026/07/2026-07-09-ai-news-digest.md) |
+| 2026-07-07 | [AI 日报](../daily_news/2026/07/2026-07-07-ai-news-digest.md) |
+| 2026-07-06 | [AI 日报](../daily_news/2026/07/2026-07-06-ai-news-digest.md) |
+| 2026-07-05 | [AI 日报](../daily_news/2026/07/2026-07-05-ai-news-digest.md) |
+| 2026-07-04 | [AI 日报](../daily_news/2026/07/2026-07-04-ai-news-digest.md) |
+| 2026-07-03 | [AI 日报](../daily_news/2026/07/2026-07-03-ai-news-digest.md) |
 
-后续会按日期持续增加。
+更早的内容请看[日报归档](../daily_news/README.md)。
 
-## 重点索引
+## 专题资料包
 
-| 主题 | 链接 |
+长期维护的内容按任务领域组织。一篇专题常会同时收录案例、教程、项目与论文，因此这些资源类型通过索引交叉浏览，而不再拆成相互竞争的目录。
+
+| 专题 | 范围 |
 |---|---|
-| AI Agent 工具、案例、教程、项目和论文总索引 | [articles/ai-agent-tools-cases-tutorials-projects-papers.md](../articles/ai-agent-tools-cases-tutorials-projects-papers.md) |
+| [工程开发](../collections/engineering/README.md) | Web、桌面与游戏开发 |
+| [行业与科研](../collections/industry/README.md) | 跨行业落地、办公自动化与科研自动化 |
+| [硬件系统](../collections/hardware/README.md) | 电子系统、嵌入式与芯片设计 |
+| [创意生产](../collections/creative/README.md) | 音频、视频、视觉与音乐生成 |
+| [生态总览](../collections/ecosystem/README.md) | 框架、重点项目与跨主题资源地图 |
 
-## 内容地图
+## 仓库组织方式
 
-| 目录 | 内容 |
-|---|---|
-| `daily_news/` | 每日 AI 新闻简报，包含来源链接、摘要和价值判断 |
-| `cases/` | Agent 实际应用案例和使用经验 |
-| `papers/` | Agent、工具调用、规划、评测相关重要论文 |
-| `projects/` | 开源项目、Agent 框架和开发者工具 |
-| `articles/` | 更长的分析文章、专题笔记和主题集合 |
+- `daily_news/YYYY/MM/`：按日期归档的新闻日报；配图集中放在 `daily_news/assets/`，避免在月目录中重复。
+- `collections/<domain>/`：按应用领域维护的长期专题资料包。
+- `indexes/`：按主题、内容类型和时间提供同一批内容的不同入口。
+- `docs/`：维护规范和多语言入口文档。
 
-部分目录会随着内容增长逐步出现。
+新增或调整内容前，请阅读[内容维护规范](content-guide.md)。
 
-## 重点关注方向
+## 贡献
 
-这个仓库优先关注：
+欢迎补充高信号案例、具备实践价值的论文、开源项目、链接修正或专题资料包。请附上标题、来源链接、内容类型、所属主题，以及简短的“为什么值得关注”。
 
-- AI Agent 完成具体任务的案例
-- Coding Agent 和软件工程自动化
-- 科研 Agent，包括文献综述、实验设计、科学发现等
-- IC 设计、EDA、芯片工作流和工程自动化
-- 工具调用、浏览器操作、MCP、工作流编排和类 RPA Agent
-- 多智能体协作和 Agent 间通信
-- Benchmark、评测、可靠性和安全
-- Prompt injection、数据泄露、供应链攻击等安全风险
-- 开源 Agent 框架和开发者工具
-- 国内外 AI 产品、公司和生态变化
+## 许可
 
-## 筛选原则
-
-这个仓库追求信息密度，而不是数量。
-
-值得收录的内容通常至少满足以下一点：
-
-- 展示了真实的能力提升
-- 说明了 Agent 如何完成某个具体任务
-- 包含可复用的工程经验
-- 揭示了新的风险、限制或失败模式
-- 介绍了有价值的开源项目
-- 能把产品更新和实际 Agent 工作流联系起来
-
-纯营销、重复报道和缺少实质信息的内容会降低优先级。
-
-## 如何使用这个仓库
-
-如果你正在构建 AI Agent：
-
-- 从最新每日简报开始
-- 重点看“为什么重要”部分
-- 顺着原链接阅读实现细节
-- 关注 `projects/` 和 `papers/` 中可复用的设计思路
-
-如果你在研究 Agent 趋势：
-
-- 对比不同日期的每日简报
-- 跟踪 Coding Agent、工具调用、安全、评测等高频主题
-- 把这里当成一个长期阅读队列
-
-如果你在寻找实践案例：
-
-- 后续重点查看 `cases/` 和 `articles/`
-- 优先看任务导向的案例，而不是单纯产品发布
-
-## 当前结构
-
-```text
-.
-├── daily_news/
-│   └── YYYY-MM-DD-ai-news-digest.md
-├── cases/
-├── papers/
-├── projects/
-├── articles/
-├── docs/
-│   └── README.zh-CN.md
-└── README.md
-```
-
-## 贡献内容
-
-欢迎提交建议。
-
-适合贡献的内容包括：
-
-- 高质量 AI Agent 案例
-- 有实践价值的论文
-- 开源 Agent 项目
-- 链接、来源或摘要修正
-- 围绕 Coding Agent、Research Agent、工具调用、安全、评测等方向的主题集合
-
-建议内容时，请尽量包含：
-
-- 标题
-- 来源链接
-- 为什么值得关注
-- 分类，例如 news、case、paper、project、article
-
-## 注意事项
-
-- 会尽可能保留原始来源链接。
-- 部分新闻链接可能来自聚合器跳转。
-- 摘要用于辅助阅读，不能替代原文。
-- 涉及图片、图表或引用内容时，请以原始来源的版权和许可为准。
-
-## License
-
-除非另有说明，本仓库的整理内容和原创笔记使用 MIT License。原始文章、论文和链接项目仍归各自权利方所有。
+除非另有说明，仓库整理内容与原创笔记采用 MIT License；原始文章、论文和外部项目仍归各自权利人所有。
