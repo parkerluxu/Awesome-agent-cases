@@ -20,6 +20,14 @@ A curated, continuously updated knowledge base for people building, evaluating, 
 
 [English](README.md) | [中文](docs/README.zh-CN.md)
 
+## Explore the Online Knowledge Base
+
+> **Want to go beyond the repository?** [Agent Case Share](https://agentcaseshare.cn/) is the searchable, continuously updated home for AI Agent cases, daily news, open-source projects, papers, and reusable assets.
+>
+> [Explore cases](https://agentcaseshare.cn/tasks) · [Browse the latest AI news](https://agentcaseshare.cn/news) · [Share your own Agent case](https://agentcaseshare.cn/publish)
+>
+> **在线浏览与分享：** 前往 [Agent Case Share](https://agentcaseshare.cn/) 检索 AI Agent 案例、每日资讯、开源项目、论文及可复用资产；也欢迎发布你的真实实践与工作流。
+
 ## Start Here
 
 | Looking for | Start with |
