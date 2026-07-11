@@ -20,6 +20,14 @@
 
 [English](../README.md) | [中文](README.zh-CN.md)
 
+## 在线浏览与分享
+
+> **想获得仓库以外的体验？** [Agent Case Share](https://agentcaseshare.cn/) 是一个可检索、持续更新的 AI Agent 知识库，汇集案例、每日资讯、开源项目、论文及可复用资产。
+>
+> [浏览案例](https://agentcaseshare.cn/tasks) · [查看最新 AI 新闻](https://agentcaseshare.cn/news) · [发布你的 Agent 案例](https://agentcaseshare.cn/publish)
+>
+> 把真实实践、工作流和可复用资源分享给更多 AI Agent 开发者与实践者。
+
 ## 从这里开始
 
 | 想找什么 | 推荐入口 |
