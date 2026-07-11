@@ -2,6 +2,22 @@
 
 一个持续更新的 AI Agent 知识库，面向构建、评估和应用 AI Agent 的开发者、研究者与实践者。
 
+<p align="center">
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/stargazers"><img src="https://img.shields.io/github/stars/parkerluxu/Awesome-agent-cases?style=flat-square&logo=github&label=Stars" alt="GitHub stars" /></a>
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/network/members"><img src="https://img.shields.io/github/forks/parkerluxu/Awesome-agent-cases?style=flat-square&logo=github&label=Forks" alt="GitHub forks" /></a>
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/commits/main"><img src="https://img.shields.io/github/last-commit/parkerluxu/Awesome-agent-cases?style=flat-square&logo=git&label=Updated" alt="Last commit" /></a>
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/graphs/commit-activity"><img src="https://img.shields.io/github/commit-activity/m/parkerluxu/Awesome-agent-cases?style=flat-square&label=Commits%20per%20month" alt="Monthly commit activity" /></a>
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases"><img src="https://img.shields.io/github/repo-size/parkerluxu/Awesome-agent-cases?style=flat-square&label=Repository" alt="Repository size" /></a>
+  <a href="../LICENSE"><img src="https://img.shields.io/badge/License-MIT-0f766e?style=flat-square" alt="MIT License" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-AI%20Agents-0f766e?style=flat-square" alt="Focus: AI Agents" />
+  <img src="https://img.shields.io/badge/Content-News%20%7C%20Cases%20%7C%20Projects%20%7C%20Papers-2563eb?style=flat-square" alt="Content: News, cases, projects, and papers" />
+  <img src="https://img.shields.io/badge/Languages-EN%20%7C%20ZH--CN-7c3aed?style=flat-square" alt="Languages: English and Chinese" />
+  <img src="https://img.shields.io/badge/Format-Markdown-111827?style=flat-square&logo=markdown" alt="Markdown" />
+</p>
+
 [English](../README.md) | [中文](README.zh-CN.md)
 
 ## 从这里开始
