@@ -238,3 +238,55 @@ This section is divided into two categories: `3 Tutorials / Cases` and `25 Proje
 | Octo | Agent platform | Gives AI agents a desk, an identity, and a performance review | [DEV Community](https://news.google.com/rss/articles/CBMimwFBVV95cUxNREw0dGhEWnpWWGc4dU12bU5adTVQajRnM3h0Y3hiT0FNNmI4ZGVud0NjRlV6SkRDOGVHbjdjSGhjRWMyWVFUeFNwV3JrNVFoblloaGNVSUFtb0FBb0U5TWpXQUFUUGxtTDJoNWJyMXc3WjMzb1h5d0VMOU9CWXRnLWRXcTE1ZVEwNVBhWVR1aVBkcE5PZHBZa3RHUQ?oc=5) |
 | General Intuition | Industry bet | $2.3B investment in using video games to train AI agents for the real world | [TechCrunch](https://news.google.com/rss/articles/CBMiugFBVV95cUxQeXlXM1plbHgxeFhXemotRzFvY2M2MEs1Vmk3RU1EZjQzZC02a3JYR0Ewa3g0Rkx3Y01pSlA2RjNjbU9NME1oOE5oRExoU0xNeU5xVlczVmtHS01WRThseTNhelhldFMyMXB2Y2l5bkdGM0RNbFRQOFdRcEV1bjlzLS1teEVtV01iUWxhYUxNX1dPbUVKaGJjYkxod3d1TzhWUDNjOHBfS2ZjVjk1eUhIaGNpM1dlQW0xNEE?oc=5) |
 | Godot AI contribution ban | Policy | Godot bans contributions involving “autonomous AI agent use or vibe coded” elements | [GamesIndustry.biz](https://news.google.com/rss/articles/CBMilwFBVV95cUxPeE9TWFZJV2tiN2F4MjU5V3FvYXhqUkJDUWlMX1RKLV9HS0w4Q3BOSHJNQTdLSzdEcVFROHBZSDRsWS1CRHl3WU1qZnZ0LWZFeWhnbXF3LVU0Q2lidjVsOUpwMHZIZndMMmZ4SjdhZklPN3hOOXVVeVFkbVdGNTZjUGsxZkJCVkVRWjVHZHpNWDV5aTRieVlB?oc=5) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| witness-skill | GitHub | Agentic QA for Codex and Claude Code — tests web, CLI, API, desktop and game projects through real actions, visual inspection, reasoning, evidence-based reports and automated fixes. | [brutalstein/witness-skill](https://github.com/brutalstein/witness-skill) |
+| StarCode | GitHub | MCP aggregator connecting AI chat agents to Roblox Studio & Godot Engine for LLM-driven game development: scene editing, scripting, and play-testing through a local WebSocket bridge. | [starcode-devs/StarCode](https://github.com/starcode-devs/StarCode) |
+| agentic-fc | GitHub | Open-source football management simulation played by AI agents through MCP and watched through a TUI console. | [gaemi/agentic-fc](https://github.com/gaemi/agentic-fc) |
+| orkige | GitHub | A C++20 game engine with an AI-native editor — AI agents create, run, test and debug games over MCP. Full 3D + first-class 2D, Lua scripting, dual OGRE renderers, desktop and mobile. | [orkitec/orkige](https://github.com/orkitec/orkige) |
+| cultivation-world-simulator | GitHub | An open-source Cultivation World Simulator using Agentic Workflow to create a dynamic, emerging Xianxia world. | [4thfever/cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator) |
+| pixel-office | GitHub | Spin up an AI company you can watch: a game-like dashboard where every AI/LLM/CLI agent, subagent and workflow shows up as an avatar that moves and shows what it's doing. Local-first, telemetry-driven. | [jutalik/pixel-office](https://github.com/jutalik/pixel-office) |
+| 3d-JRPG-adventure-pc-game | GitHub | Build 3d JRPG adventure pc game by using Cursor 3.0 ai agent. | [vivivieri/3d-JRPG-adventure-pc-game](https://github.com/vivivieri/3d-JRPG-adventure-pc-game) |
+| godot-mcp | GitHub | MCP server bridging AI agents to the Godot 4 engine over stdio, with a real write to verify feedback loop. Clean-room rebuild: registry+zod tools, hardened paths, read-back tools. | [heichan2000/godot-mcp](https://github.com/heichan2000/godot-mcp) |
+| fennara-godot-ai | GitHub | AI chat and agent tooling for Godot, with both MCP support and in-built native chat window. | [fennaraOfficial/fennara-godot-ai](https://github.com/fennaraOfficial/fennara-godot-ai) |
+| studio | GitHub | Multi-agent game-development framework for Claude Code — Brave Bunny is the first game built with it. | [OmerYasirOnal/studio](https://github.com/OmerYasirOnal/studio) |
+| opencraft1 | GitHub | Half game, half experiment. World built out of GitHub issues — describe an idea, AI agents ship it live. | [MishaMgla/opencraft1](https://github.com/MishaMgla/opencraft1) |
+| gamedev-ai-assistant | GitHub | An AI-powered multi-agent platform that transforms game ideas into structured game design documents, technical plans, and playable Unity prototypes. | [akshaygumma/gamedev-ai-assistant](https://github.com/akshaygumma/gamedev-ai-assistant) |
+| The-Last-Arrow | GitHub | PvP arena game in Unity/C# (TowerFall-style) — sandbox for real-time gameplay and AI playtesting, including LLM-driven bots bridged from Codex CLI into Unity. | [LucasOl1337/The-Last-Arrow](https://github.com/LucasOl1337/The-Last-Arrow) |
+| MelonS-Agents | GitHub | An agent that builds, plays, and verifies its own game — a colony-sim prototype gated by 15-scenario input-level repro tests + isolated-grader rubric verdicts. | [MelonS/MelonS-Agents](https://github.com/MelonS/MelonS-Agents) |
+| gamePocGen | GitHub | Agentic game prototype generator — overnight generation of browser-playable incremental games. | [J-Gierend/gamePocGen](https://github.com/J-Gierend/gamePocGen) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery | arXiv paper | Proposes an experimental design and analysis framework for systematically evaluating autonomous model discovery behavior of LLM coding agents, quantifying variability, and identifying important factors. | [arXiv:2607.06413](https://arxiv.org/abs/2607.06413v1) |
+| Seduced by the Narrative: Assessing Rule Adherence in Semi-Open Textual Sandboxes | arXiv paper | Investigates Rhetorical Injection attacks where adversarial users exploit narrative framing to bypass LLM adjudication logic in semi-open textual game environments. | [arXiv:2607.02802](https://arxiv.org/abs/2607.02802v1) |
+| Is Lying an Emergent Behaviour in LLMs? Evidence from Gaslighting AI agents in a Sustainability Game | arXiv paper | Investigates whether lying can emerge among LLM agents in a competitive sustainability game where agents are misinformed about resource regeneration. | [arXiv:2606.28456](https://arxiv.org/abs/2606.28456v1) |
+| Game Theory Driven Multi-Agent Framework Mitigates Language Model Hallucination | arXiv paper | Introduces G-Frame, an adaptive multi-agent framework integrating Bayesian and team game principles to establish automated closed-loop for high-quality data synthesis and model training. | [arXiv:2607.08403](https://arxiv.org/abs/2607.08403v1) |
+| ClassicLogic: A Knowledge-Driven Benchmark of Classic Puzzle Games for Evaluating Compositional Generalization | arXiv paper | Introduces ClassicLogic benchmark suite consisting of four classic logic puzzles (Sudoku, KenKen, Kakuro, etc.) to evaluate an agent's ability to learn and compose problem-solving strategies. | [arXiv:2607.05185](https://arxiv.org/abs/2607.05185v1) |
+| CausalGame: Benchmarking Causal Thinking of LLM Agents in Games | arXiv paper | Benchmark for evaluating causal thinking capabilities of LLM agents, incorporating challenges from selection bias, measurement error, and hidden confounders. | [arXiv:2607.04293](https://arxiv.org/abs/2607.04293v1) |
+| SAGA: Scene-Aware, Goal-Evolving Agents for Long-Horizon CivRealm Strategy Planning | arXiv paper | LLM multi-agent framework for long-horizon strategic planning in complex strategy games, addressing scene blindness, context overflow, and domain coupling. | [arXiv:2606.29932](https://arxiv.org/abs/2606.29932v2) |
+| An Exploratory Case Study of LLM-Assisted Refactoring and Gameplay Feature Generation in an Endless Runner Game | arXiv paper | Empirical case study of GPT-4o in a custom Python/Pygame endless runner, examining six selected development tasks including refactoring and gameplay feature generation. | [arXiv:2606.21171](https://arxiv.org/abs/2606.21171v1) |
+| A Gold-Standard Study of What Makes a Lightweight Game-Playing Agent Strong | arXiv paper | Builds a strong, fixed rule-based expert for Gin Rummy used as a yardstick to isolate what makes a lightweight agent strong across more than a hundred runs. | [arXiv:2607.06854](https://arxiv.org/abs/2607.06854v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Claude Code for Game Development | Medium article | Guide on using Claude Code for game development. | [chierhu.medium.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE9mNWlqRm85RnY4OGtiU0NUNUZpbFBOMVFMTkY5RFJXaHV1Wk90bXZQUnJaenlzS01xSHhZa3RKSWVNT0Rib3RsVXNvM3A2SlZnSFkwTE1XeWRCR3k3R2RSMkFWcG9iRDhYQk9rTWFQekRRbTJFY2NOSkFic2M?oc=5) |
+| Vibe coding 三个游戏，需要掌握什么技术知识吗？ | CSDN blog | Discussion on technical knowledge needed for vibe coding three games. | [blog.csdn.net](https://news.google.com/rss/articles/CBMibkFVX3lxTE82MDBBcnlSOTY3V3U3dWFRU2huMXkyQ1QyR0MwQmFXN3YwVXhScE8wdEpTYU9aZ185OU1EV2drRnNCOHRmSmNzTE5NOEo0ZjNfX3FfeXZNVTR0UTUwUFhhSEQ3cmVBcHFDMmR6Mm5R?oc=5) |
+| Claude Code Guide 2026: 25 Features with Examples + Demo | MarkTechPost | Comprehensive guide covering 25 features of Claude Code with examples and demo. | [MarkTechPost](https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWtsZVJ6WFNiam41bkJjOWM1d2N5U1YtNkg1U1JtNTlsd0NUYTZMWGZJM2diS1pMcDFiWUFselFaZFh5MF8tb2I2NGRHT2RvOExaWFQ0LVlwRlFkSVJMVl9SVnBRSHlKeUQ2NVU3Y1l1Sk4xUTBQelBJSVp5Nlh1V3lDTGZIZmlnNXlZUk41d01mUkdHUWVPRXJn?oc=5) |
+| I went looking for the most useful things people built with Claude Code, and I found 6 worth stealing | XDA | Collection of six notable projects built with Claude Code. | [XDA](https://news.google.com/rss/articles/CBMihwFBVV95cUxQVUprMXF3SDIwWGFFRUJwbWdwUUdrWkNJR1RhQTZpX0hON3FJVHRDTVl6U3ZBVndISDRmQlhxb0Q4VHBYNGxBWnhwSkhRenlPMXFjOXNfams3Qy1ObjRwS19TYnkyOEFTSWRFcWdwaThpazdjeXJWVk5VRThsYnRjU1F4US1kWTg?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| NVIDIA ACE Game Agent SDK Beta | SDK | AI teammate SDK now in beta testing, integrated with Unreal Engine 5. | [新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTE92TFEtV3hScHktTnNYRVc4dDJYZllGdlFkZFp1S05EVDRBc2FjSnpHUGRSVndDMF85X0JUYmh1cXZnQzQ5WFQ2WDhqY3V3Y1hJUk5LN3B2Z3k2X0NIV05KWnhjOHdlR0NoTExZRHI0SlhncWxXLURTYjM4TlY4RVE?oc=5) |
+| vibecode.game | Platform | YGG launches vibecode.game, teams up with Minds by Animoca Brands for debut game jam. | [Crypto News Australia](https://news.google.com/rss/articles/CBMivwFBVV95cUxNXzlMLUk4cEtvWE51aEFxUmtzamZmZ2lDZkxQMzd4TlZLUFBMbXFfc3FaMDVMamF0eTVIdGhSMW1Uci01VjFENzdabXY3RmhiLS1qa1JvZE9MSjJGMlgxdUMyRFR5WEFmWEVvLVhUVGZHVFBjT3cwM3lNRVg5TTcwMVJZcG85dW1IZ2VZVW05UWZNcFY0a1MtNVBzdUhMVVhRYmQwRUY4MzVhSjMzZm1aRlVjR2pxc3VQQ1hYVEhvVQ?oc=5) |

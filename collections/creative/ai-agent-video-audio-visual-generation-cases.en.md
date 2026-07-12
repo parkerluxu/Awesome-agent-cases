@@ -266,3 +266,51 @@ This section is divided into two categories: `26 Tutorials / Cases` and `30 Proj
 |------|------|---------------|------|
 | PaulBratslavsky/roughcut-ai-local-first-editor | AI Video Editor | Open-source, local-first AI video editor: on-device transcription (whisper.cpp), local LLM rough cuts (Gemma via Ollama), transcript-based editing, NLE export, and an MCP tool surface Claude can drive. GPL-3.0. Stars: 0. | [github.com/PaulBratslavsky/roughcut-ai-local-first-editor](https://github.com/PaulBratslavsky/roughcut-ai-local-first-editor) |
 | oktaydbk54/vibeclip | AI Video Editor | Open-source, self-hosted AI video editor: turn long videos into captioned 9:16 shorts — and edit by chatting. BYO LLM key. AGPL-3.0. Stars: 32. | [github.com/oktaydbk54/vibeclip](https://github.com/oktaydbk54/vibeclip) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| MAKEITFREE/MCP-X-web | GitHub | Enterprise AI agent development with integrated chat, video, image editing, and secure multi-tenant workflows. | [GitHub](https://github.com/MAKEITFREE/MCP-X-web) |
+| starai-platform/starai | GitHub | Open-source AI model aggregation platform with web/admin dashboard, agents, image/video/audio generation, OpenAI-compatible API, wallet billing, and Docker deployment. | [GitHub](https://github.com/starai-platform/starai) |
+| elderithm/demomotion-ai | GitHub | Open-source AI agent that turns a web app URL into a narrated product demo video. | [GitHub](https://github.com/elderithm/demomotion-ai) |
+| kenleung05hk/ComfyUI_Viewer_OpenReel_Extension | GitHub | Embed and edit videos directly within ComfyUI workflows using the OpenReel extension with timeline, effects, and server-side rendering. | [GitHub](https://github.com/kenleung05hk/ComfyUI_Viewer_OpenReel_Extension) |
+| meta-xucong/alchemy-media-agent | GitHub | Custom image/video generation agent docs, FastAPI runtime, provider adapters, and Apple-inspired frontend. | [GitHub](https://github.com/meta-xucong/alchemy-media-agent) |
+| lora-sys/hermes-minimax-media | GitHub | MiniMax (海螺) image + video generation backends for Hermes Agent — image-01 + Hailuo-2.3/02/S2V-01. | [GitHub](https://github.com/lora-sys/hermes-minimax-media) |
+| iamadoctorforreal/video-agent-suite | GitHub | AI-powered video creation and editing agent suite with dual rendering (Remotion + Hyperframes). | [GitHub](https://github.com/iamadoctorforreal/video-agent-suite) |
+| MrityunjayBhardwaj/TheBasher | GitHub | Director-first, agent-native, procedural AI video platform. | [GitHub](https://github.com/MrityunjayBhardwaj/TheBasher) |
+| AugmentedValueAcceleration/ava-supernova | GitHub | Open-source AI coding agent — 61 tools, 6 modes, 24 personas, 20+ models from 8 providers. Creative Studio for images, video, music, voice. | [GitHub](https://github.com/AugmentedValueAcceleration/ava-supernova) |
+| Tshah-95/vean | GitHub | Agent-native video editing core: a typed document, edit algebra, and diagnostics layer on top of MLT. | [GitHub](https://github.com/Tshah-95/vean) |
+| calesthio/OpenMontage | GitHub | First open-source agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. | [GitHub](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CWmttWmtmdE12Qmx5YVhXZHJFRFhWdW8wSkZwMjl0NXQxYlh6Zlpjajh3ZDU1T0l1dUFyR09BbGQ3VEtxb2VUdXFwN0ozdTI0TXpXWHd6azFxajFq?oc=5) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| DramaDirector: Geometry-Guided Short Drama Generation | arXiv | Geometry-grounded framework for plot-to-short-drama generation, borrowing cinematographic geometry from real drama shots. | [arXiv](https://arxiv.org/abs/2606.24107v2) |
+| VideoAgent: All-in-One Framework for Video Understanding and Editing | arXiv | All-in-one agentic framework for diverse video comprehension and editing operations, with automated video shot detection for long-video narrative creation. | [arXiv](https://arxiv.org/abs/2606.23327v2) |
+| HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales | arXiv | Unified, large-scale benchmark for human-centric deepfake video detection, covering human-object and human-human interactions. | [arXiv](https://arxiv.org/abs/2607.08705v1) |
+| SafeGuard: A Multi-Agent Perception-Reasoning Framework for Social-Risk AI-Generated Video Detection | arXiv | Multi-agent framework for detecting AI-generated videos that violate physical laws, structural coherence, or social logic. | [arXiv](https://arxiv.org/abs/2607.03069v1) |
+| MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model | arXiv | Prototype social world model for real-time audio-visual generation tailored to social platforms. | [arXiv](https://arxiv.org/abs/2606.17800v1) |
+| Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation | arXiv | Constructs SearchGen-20K and SearchGen-Bench with 20,839 prompts across 12 failure categories and 22 domains for agentic visual generation. | [arXiv](https://arxiv.org/abs/2607.05382v3) |
+| Wan-Streamer v0.2: Higher Resolution, Same Latency | arXiv | Latency-preserving upgrade of the native-streaming audio-visual interaction model, raising output resolution to 640x368 while preserving ~200ms latency. | [arXiv](https://arxiv.org/abs/2607.04443v3) |
+| Unified Audio Intelligence Without Regressing on Text Intelligence | arXiv | Unified audio-text LLM (Audex) built on Nemotron-Cascade-2, supporting audio understanding, reasoning, and generation. | [arXiv](https://arxiv.org/abs/2607.05196v2) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Automate VFX workflows with AI agents | Griptape | Foundry | YouTube | Tutorial on automating VFX workflows using AI agents with Griptape and Foundry. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Ub2hVblFna3ZabGdmenZwYlRpTDktVXhsV2dzT1EzMkpjMWRVdzBXTXQ0VWxmS2FBYUU4UXg4RHRXNjd4VUdpVlRLM044TlFMUEpDdEdn?oc=5) |
+| AI视频Agent最新3种副业玩法！Anijam零门槛启动赚钱项目 | YouTube | Tutorial on three side-business methods using AI video agents with Anijam for zero-barrier monetization. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVcUc4TzBEd1FNeS00SXhwNDdxdmdjUlFST29WLTBXeHQ3aV9KN2ppcUN4MkY5NldWQ0pOUXFmN3V5QVlyZ3Q5R0ZWYjFwRlJJQUc4cXdB?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning | NVIDIA Blog | Workflows for improving vision AI agent accuracy using synthetic data and fine-tuning in NVIDIA Omniverse. | [NVIDIA Blog](https://news.google.com/rss/articles/CBMif0FVX3lxTFBMM29ZVGNGR0lpRFg1OFlnRDYyZ1RKSzVzV0g1MlpPUmxSNm54MFBHSVVlY3JTNnhURWNUWENNRFJEbHZyc3Rxa2ZibHU0dlFpb1A3bUNRUTdfNS1LWGNubXcwcktfY2V3MHRtQ29ZREVVTHMxcFhrb1c1Y19RczA?oc=5) |
+| NVIDIA/skills: AI agent skills published by NVIDIA | GitHub | Collection of AI agent skills published by NVIDIA. | [GitHub](https://news.google.com/rss/articles/CBMiR0FVX3lxTE5sTlJJZVZJQWFUd3kwLW1tQ2JCU1ZfN2RjY2hkRlZiSVZZZUdpLXBnUmF5SUU1SVJDUzJOT05MUnJVbnJwUkk4?oc=5) |
+| Mininglamp Technology Officially Open-Sources Octo | DEV Community | New-generation platform for human-AI agent collaboration, open-sourced by Mininglamp Technology. | [DEV Community](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWXRuaGV4c25Cemdqc1g2TW1obXdkcHlhc1h2bHVHMkZFUkJldDZ1c2xobnBKOElBWmRsQTBCSmh0ekJ1bHJHRVc2S2pYUjRLdDJaa3BCOVotdlVVR3lodjVsN2tfM3NWTWNhTm9vc3lFZmw4Wkl3dUNrR2RrM1JHcm9HZW9hSlRKTTM5VGNQV293bFA0d0dFVEdTRjlaaF9GTm1Bc2pZc0R4RVd3dGY4Zl83eURDOHBUQ0dfSGVNcGwxRnBkcUZ1LQ?oc=5) |
+| Adobe expands Creative Agent across Firefly, Photoshop, Premiere and Creative Cloud apps | Storyboard18 | Adobe expands its Creative Agent capabilities across multiple creative applications. | [Storyboard18](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQanFITXc3WXpFRTJ3S2FfVUlHWERHSGZ3WE81QXYzV0gtRklNZy1tU2tlUEhQTml1SS1PWVM4SWJxREtFdllUREQ1cFY4SHBybDQtdUp4SEFLazB0eVdZdXJVNVdJcG1BR09yeHdpUGpMNm5DNjc2N2RYS3hucUFtRk1IWG92MmN3Vzl0N0ZFdVZzQ19MS1d5UEJWUWVaV3JvdHFqY0stWFJfa3poUWVQQ1Q3azQxNjZUNHVvTGpIZEVXOFROR0VXY3UyaENBRkJ3RzlMNklISjBEQdIB3wFBVV95cUxOYmhXZFdiaXp3ek9JTFRTUzhQQVhleFgyMjhUWkhFMUhSaTJKZm1fMGwwUGJ4SHBUZDZ2V1I4d2xNZkhUeG9XQzlsQ0lEeTAzanhOb0lHelptWU8xbDZQYWFzRkRwc1JlVUozdm1iZllYNnJXMTlKMlNUSkdxdGg2WkpfbjV4SXM4VGNZXzZBVnA4SDdQOTk1YTVmaG5rTVY5REhOT0JFeDNBWHE1dmhLaGdBTkJBbC0wUjY5Z2hScXdta0ZmMU5hN25JeDR4Vkd3QmNicDZFZUt4TUxsdHVF?oc=5) |
+| WPP Media Developing Video Buyer Agent | Radio & Television Business Report | WPP Media developing an AI agent for video buying. | [Radio & Television Business Report](https://news.google.com/rss/articles/CBMiZkFVX3lxTFByQXp4WnotSXJmVW5jelgwS2FMM1hBOGlpMU9wNlU3VFo5ejBYTUY5d2RCcFJHR3pQRnh4anliSU0xUjd4R3lXaGtKLUdEMjlYVXdUcXVzdnhSeEw5R011NFFSc1lsUQ?oc=5) |

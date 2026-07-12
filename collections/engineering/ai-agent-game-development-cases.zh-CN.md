@@ -251,3 +251,55 @@
 | General Intuition | 公司动态 | General Intuition 以 23 亿美元估值押注用电子游戏训练面向真实世界的 AI 代理。 | https://news.google.com/rss/articles/CBMiugFBVV95cUxQeXlXM1plbHgxeFhXemotRzFvY2M2MEs1Vmk3RU1EZjQzZC02a3JYR0Ewa3g0Rkx3Y01pSlA2RjNjbU9NME1oOE5oRExoU0xNeU5xVlczVmtHS01WRThseTNhelhldFMyMXB2Y2l5bkdGM0RNbFRQOFdRcEV1bjlzLS1teEVtV01iUWxhYUxNX1dPbUVKaGJjYkxod3d1TzhWUDNjOHBfS2ZjVjk1eUhIaGNpM1dlQW0xNEE?oc=5 |
 | Godot 禁止 AI 生成贡献 | 社区政策 | Godot 禁止涉及“自主 AI 代理使用或 vibe coded”的代码贡献。 | https://news.google.com/rss/articles/CBMilwFBVV95cUxPeE9TWFZJV2tiN2F4MjU5V3FvYXhqUkJDUWlMX1RKLV9HS0w4Q3BOSHJNQTdLSzdEcVFROHBZSDRsWS1CRHl3WU1qZnZ0LWZFeWhnbXF3LVU0Q2lidjVsOUpwMHZIZndMMmZ4SjdhZklPN3hOOXVVeVFkbVdGNTZjUGsxZkJCVkVRWjVHZHpNWDV5aTRieVlB?oc=5 |
 | Mark Zuckerberg 称 AI 代理进展不及预期 | 行业动态 | Meta CEO 在内部会议上表示 AI 代理的开发进展未达预期。 | https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/ |
+
+## 资料更新（2026-07-12）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| cultivation-world-simulator | 开源项目 | 基于 AI Agent 工作流的修仙世界模拟器，还原智能、开放的仙侠世界（⭐1924） | [GitHub](https://github.com/4thfever/cultivation-world-simulator) |
+| fennara-godot-ai | 开源项目 | Godot 引擎的 AI 聊天与 Agent 工具，支持 MCP 及内置原生聊天窗口（⭐207） | [GitHub](https://github.com/fennaraOfficial/fennara-godot-ai) |
+| StarCode | 开源项目 | MCP 聚合器，连接 AI 聊天 Agent 到 Roblox Studio 与 Godot Engine，实现 LLM 驱动的游戏开发（场景编辑、脚本编写、试玩） | [GitHub](https://github.com/starcode-devs/StarCode) |
+| orkige | 开源项目 | C++20 游戏引擎，内置 AI 原生编辑器——AI Agent 通过 MCP 创建、运行、测试和调试游戏 | [GitHub](https://github.com/orkitec/orkige) |
+| godot-mcp | 开源项目 | 通过 stdio 桥接 AI Agent 到 Godot 4 引擎的 MCP 服务器，含写入-验证反馈循环 | [GitHub](https://github.com/heichan2000/godot-mcp) |
+| witness-skill | 开源项目 | 面向 Codex 和 Claude Code 的 Agentic QA 工具，通过真实操作、视觉检查、推理和自动化修复测试 Web、CLI、API、桌面及游戏项目 | [GitHub](https://github.com/brutalstein/witness-skill) |
+| agentic-fc | 开源项目 | 开源足球管理模拟游戏，AI Agent 通过 MCP 进行游戏，通过 TUI 控制台观看 | [GitHub](https://github.com/gaemi/agentic-fc) |
+| studio | 开源项目 | 多 Agent 游戏开发框架（基于 Claude Code），首个游戏 Brave Bunny 已用其构建 | [GitHub](https://github.com/OmerYasirOnal/studio) |
+| pixel-office | 开源项目 | 类游戏仪表盘，将每个 AI/LLM/CLI Agent、子 Agent 和工作流显示为可移动的虚拟形象 | [GitHub](https://github.com/jutalik/pixel-office) |
+| opencraft1 | 开源项目 | 半游戏半实验——世界由 GitHub Issue 构成，描述想法后 AI Agent 将其实时发布 | [GitHub](https://github.com/MishaMgla/opencraft1) |
+| 3d-JRPG-adventure-pc-game | 开源项目 | 使用 Cursor 3.0 AI Agent 构建 3D JRPG 冒险 PC 游戏 | [GitHub](https://github.com/vivivieri/3d-jrpg-adventure-pc-game) |
+| gamedev-ai-assistant | 开源项目 | AI 驱动的多 Agent 平台，将游戏创意转化为结构化设计文档、技术方案和可玩的 Unity 原型 | [GitHub](https://github.com/akshaygumma/gamedev-ai-assistant) |
+| MelonS-Agents | 开源项目 | 能构建、游玩并验证自己游戏的 Agent（殖民地模拟原型），含 15 场景输入级回归测试和隔离评分裁决 | [GitHub](https://github.com/MelonS/MelonS-Agents) |
+| The-Last-Arrow | 开源项目 | Unity/C# PvP 竞技场游戏，含 LLM 驱动的机器人（通过 Codex CLI 桥接至 Unity）进行 AI 试玩 | [GitHub](https://github.com/LucasOl1337/The-Last-Arrow) |
+| gamePocGen | 开源项目 | Agentic 游戏原型生成器——可过夜生成浏览器可玩的增量游戏 | [GitHub](https://github.com/J-Gierend/gamePocGen) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery | 论文 | 提出实验设计与分析框架，系统评估 LLM 编码 Agent 在开放式数据建模中的自主发现行为及其变异性 | [arXiv](https://arxiv.org/abs/2607.06413v1) |
+| Seduced by the Narrative: Assessing Rule Adherence in Semi-Open Textual Sandboxes | 论文 | 研究 LLM 在半开放文本游戏环境中作为自主裁判时的规则遵循问题，提出“修辞注入”攻击方法 | [arXiv](https://arxiv.org/abs/2607.02802v1) |
+| Is Lying an Emergent Behaviour in LLMs? Evidence from Gaslighting AI agents in a Sustainability Game | 论文 | 在多 Agent 可持续性游戏中研究 LLM Agent 的撒谎行为是否属于涌现特性 | [arXiv](https://arxiv.org/abs/2606.28456v1) |
+| Game Theory Driven Multi-Agent Framework Mitigates Language Model Hallucination | 论文 | 提出 G-Frame 多 Agent 框架，结合贝叶斯与团队博弈原理，自动闭环合成高质量数据并缓解幻觉 | [arXiv](https://arxiv.org/abs/2607.08403v1) |
+| ClassicLogic: A Knowledge-Driven Benchmark of Classic Puzzle Games for Evaluating Compositional Generalization | Benchmark | 基于四款经典逻辑谜题（数独、KenKen、Kakuro 等）的基准测试，评估 Agent 的组合泛化能力 | [arXiv](https://arxiv.org/abs/2607.05185v1) |
+| CausalGame: Benchmarking Causal Thinking of LLM Agents in Games | Benchmark | 在游戏环境中评估 LLM Agent 的因果推理能力，涵盖选择偏差、测量误差和隐藏混杂因素 | [arXiv](https://arxiv.org/abs/2607.04293v1) |
+| SAGA: Scene-Aware, Goal-Evolving Agents for Long-Horizon CivRealm Strategy Planning | 论文 | 面向复杂策略游戏的长时域规划多 Agent 框架，解决场景盲视、上下文溢出和领域耦合问题 | [arXiv](https://arxiv.org/abs/2606.29932v2) |
+| An Exploratory Case Study of LLM-Assisted Refactoring and Gameplay Feature Generation in an Endless Runner Game | 论文 | 在 Python/Pygame 跑酷游戏中，GPT-4o 辅助代码重构与玩法功能生成的实证案例研究 | [arXiv](https://arxiv.org/abs/2606.21171v1) |
+| A Gold-Standard Study of What Makes a Lightweight Game-Playing Agent Strong | 论文 | 通过构建 Gin Rummy 规则专家作为标尺，隔离分析轻量级游戏 Agent 的强度来源 | [arXiv](https://arxiv.org/abs/2607.06854v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Claude Code for Game Development | 教程 | 使用 Claude Code 进行游戏开发的实践指南 | [chierhu.medium.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE9mNWlqRm85RnY4OGtiU0NUNUZpbFBOMVFMTkY5RFJXaHV1Wk90bXZQUnJaenlzS01xSHhZa3RKSWVNT0Rib3RsVXNvM3A2SlZnSFkwTE1XeWRCR3k3R2RSMkFWcG9iRDhYQk9rTWFQekRRbTJFY2NOSkFic2M?oc=5) |
+| Vibe coding 三个游戏，需要掌握什么技术知识吗？ | 教程 | 使用 Vibe coding 方式开发三款游戏的技术知识分享 | [blog.csdn.net](https://news.google.com/rss/articles/CBMibkFVX3lxTE82MDBBcnlSOTY3V3U3dWFRU2huMXkyQ1QyR0MwQmFXN3YwVXhScE8wdEpTYU9aZ185OU1EV2drRnNCOHRmSmNzTE5NOEo0ZjNfX3FfeXZNVTR0UTUwUFhhSEQ3cmVBcHFDMmR6Mm5R?oc=5) |
+| I went looking for the most useful things people built with Claude Code | 媒体实测 | 盘点 Claude Code 构建的 6 个最有用的项目（含游戏相关） | [XDA](https://news.google.com/rss/articles/CBMihwFBVV95cUxQVUprMXF3SDIwWGFFRUJwbWdwUUdrWkNJR1RhQTZpX0hON3FJVHRDTVl6U3ZBVndISDRmQlhxb0Q4VHBYNGxBWnhwSkhRenlPMXFjOXNfams3Qy1ObjRwS19TYnkyOEFTSWRFcWdwaThpazdjeXJWVk5VRThsYnRjU1F4US1kWTg?oc=5) |
+| Claude Code Guide 2026: 25 Features with Examples + Demo | 教程 | Claude Code 2026 年 25 项功能详解与演示 | [MarkTechPost](https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWtsZVJ6WFNiam41bkJjOWM1d2N5U1YtNkg1U1JtNTlsd0NUYTZMWGZJM2diS1pMcDFiWUFselFaZFh5MF8tb2I2NGRHT2RvOExaWFQ0LVlwRlFkSVJMVl9SVnBRSHlKeUQ2NVU3Y1l1Sk4xUTBQelBJSVp5Nlh1V3lDTGZIZmlnNXlZUk41d01mUkdHUWVPRXJn?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 英伟达 ACE Game Agent SDK | 产品 | 无需旗舰显卡即可体验 AI 队友的 SDK，已接入虚幻引擎 5，开启 Beta 测试 | [新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTE92TFEtV3hScHktTnNYRVc4dDJYZllGdlFkZFp1S05EVDRBc2FjSnpHUGRSVndDMF85X0JUYmh1cXZnQzQ5WFQ2WDhqY3V3Y1hJUk5LN3B2Z3k2X0NIV05KWnhjOHdlR0NoTExZRHI0SlhncWxXLURTYjM4TlY4RVE?oc=5) |
+| vibecode.game | 产品 | YGG 推出的 Vibe Coding 游戏平台，与 Minds by Animoca Brands 合作举办首届 Game Jam | [Crypto News Australia](https://news.google.com/rss/articles/CBMivwFBVV95cUxNXzlMLUk4cEtvWE51aEFxUmtzamZmZ2lDZkxQMzd4TlZLUFBMbXFfc3FaMDVMamF0eTVIdGhSMW1Uci01VjFENzdabXY3RmhiLS1qa1JvZE9MSjJGMlgxdUMyRFR5WEFmWEVvLVhUVGZHVFBjT3cwM3lNRVg5TTcwMVJZcG85dW1IZ2VZVW05UWZNcFY0a1MtNVBzdUhMVVhRYmQwRUY4MzVhSjMzZm1aRlVjR2pxc3VQQ1hYVEhvVQ?oc=5) |

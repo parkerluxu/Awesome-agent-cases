@@ -273,3 +273,52 @@
 |------|------|-------------|------|
 | Neural4D AI 3D Agent | 产品 | Neural4D 推出的统一面板，用于 3D、图像与视频生成。 | 参见教程/媒体实测对应条目 |
 | Adobe Creative Agent (扩展) | 产品 / 功能 | Adobe 在 Firefly 及 Creative Cloud 应用（含 Photoshop、Premiere）中扩展的创意 Agent 功能。 | 参见教程/媒体实测对应条目 |
+
+## 资料更新（2026-07-12）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| MAKEITFREE/MCP-X-web | 开源项目 | 开发企业级 AI Agent，集成聊天、视频、图像编辑及安全多租户工作流 | [GitHub](https://github.com/MAKEITFREE/MCP-X-web) |
+| starai-platform/starai | 开源项目 | 开源 AI 聚合平台，支持智能体、图片/视频/音频生成、OpenAI 兼容 API 及 Docker 部署 | [GitHub](https://github.com/starai-platform/starai) |
+| elderithm/demomotion-ai | 开源项目 | 将网页 URL 转化为带旁白的产品演示视频的 AI Agent | [GitHub](https://github.com/elderithm/demomotion-ai) |
+| kenleung05hk/ComfyUI_Viewer_OpenReel_Extension | 开源项目 | 在 ComfyUI 工作流中直接嵌入和编辑视频，支持时间线、特效及服务端渲染 | [GitHub](https://github.com/kenleung05hk/ComfyUI_Viewer_OpenReel_Extension) |
+| meta-xucong/alchemy-media-agent | 开源项目 | 自定义图像/视频生成 Agent 文档、FastAPI 运行时及适配器 | [GitHub](https://github.com/meta-xucong/alchemy-media-agent) |
+| lora-sys/hermes-minimax-media | 开源项目 | 为 Hermes Agent 提供 MiniMax（海螺）图像+视频生成后端 | [GitHub](https://github.com/lora-sys/hermes-minimax-media) |
+| iamadoctorforreal/video-agent-suite | 开源项目 | 基于 Remotion + Hyperframes 双渲染引擎的 AI 视频创建与编辑 Agent 套件 | [GitHub](https://github.com/iamadoctorforreal/video-agent-suite) |
+| MrityunjayBhardwaj/TheBasher | 开源项目 | 导演优先、Agent 原生、程序化 AI 视频平台 | [GitHub](https://github.com/MrityunjayBhardwaj/TheBasher) |
+| AugmentedValueAcceleration/ava-supernova | 开源项目 | 开源 AI 编码 Agent，含 61 个工具、6 种模式、24 种人格，支持图像/视频/音乐/语音创作 | [GitHub](https://github.com/AugmentedValueAcceleration/ava-supernova) |
+| Tshah-95/vean | 开源项目 | Agent 原生视频编辑核心：类型化文档、编辑代数及诊断层（视频的“语言服务器”） | [GitHub](https://github.com/Tshah-95/vean) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| DramaDirector: Geometry-Guided Short Drama Generation | 论文 | 基于几何引导的短剧生成框架，将全局剧情和局部上下文转化为多镜头视频 | [arXiv](https://arxiv.org/abs/2606.24107v2) |
+| VideoAgent: All-in-One Framework for Video Understanding and Editing | 论文 | 全能 Agent 框架，支持长视频理解与编辑，含自动镜头分割与叙事生成 | [arXiv](https://arxiv.org/abs/2606.23327v2) |
+| HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales | 论文/Benchmark | 以人为中心的深度伪造视频基准，覆盖人-物/人-人交互及多模态对齐 | [arXiv](https://arxiv.org/abs/2607.08705v1) |
+| SafeGuard: A Multi-Agent Perception-Reasoning Framework for Social-Risk AI-Generated Video Detection | 论文 | 多 Agent 感知-推理框架，检测 AI 生成视频中的社会风险（违反物理规律、结构连贯性等） | [arXiv](https://arxiv.org/abs/2607.03069v1) |
+| MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model | 论文 | 面向社交平台的实时音视频世界模型原型 | [arXiv](https://arxiv.org/abs/2606.17800v1) |
+| Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation | 论文/Benchmark | 构建 SearchGen-20K 基准，覆盖 12 类失败场景，推动 Agent 视觉生成的知识边界 | [arXiv](https://arxiv.org/abs/2607.05382v3) |
+| Wan-Streamer v0.2: Higher Resolution, Same Latency | 论文 | 端到端音视频交互模型升级版，输出分辨率提升至 640×368，延迟保持约 200ms | [arXiv](https://arxiv.org/abs/2607.04443v3) |
+| Unified Audio Intelligence Without Regressing on Text Intelligence | 论文 | 统一音频-文本大语言模型 Audex，支持音频理解、推理与生成 | [arXiv](https://arxiv.org/abs/2607.05196v2) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Automate VFX workflows with AI agents | Griptape | Foundry | 视频教程 | 使用 AI Agent 自动化 VFX 工作流 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Ub2hVblFna3ZabGdmenZwYlRpTDktVXhsV2dzT1EzMkpjMWRVdzBXTXQ0VWxmS2FBYUU4UXg4RHRXNjd4VUdpVlRLM044TlFMUEpDdEdn?oc=5) |
+| AI视频Agent最新3种副业玩法！Anijam零门槛启动赚钱项目 | 视频教程 | AI 视频 Agent 的三种副业玩法与自动化工作流 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVcUc4TzBEd1FNeS00SXhwNDdxdmdjUlFST29WLTBXeHQ3aV9KN2ppcUN4MkY5NldWQ0pOUXFmN3V5QVlyZ3Q5R0ZWYjFwRlJJQUc4cXdB?oc=5) |
+| 成本降低98%，还能自进化：VisualClaw让流式视频Agent真正可用 | 媒体实测 | VisualClaw 流式视频 Agent 的成本优化与自进化能力分析 | [智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9kUXF2cUhLWExVZjkyUDBmaHFhVmUtSlY1blMwcmFkVndqRERQbnhLOEM4Mk5HbTFUZmZwNG5uaWEwODJFa3MyeA?oc=5) |
+| 小云雀vs万镜一刻，聊聊字节与阿里的内容Agent一番战 | 媒体实测 | 字节跳动与阿里巴巴内容 Agent 产品对比分析 | [thepaper.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTE95WEk0T1dkUzNIakxjMTFGVFVGSkp4S19DcTBqM2pCZWwzQ0w0MDdyUEx1N2lnZmVNUzA3aUZVRnIyY0E5V1hRYll3VnMxUHB4QnIxUnNqdDQ5YVhUT1E?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| OpenMontage | 开源工具 | 世界首个开源智能体视频生产系统，含 12 条 pipeline、52 个 tool、500+ agent skill | [GitHub](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CWmttWmtmdE12Qmx5YVhXZHJFRFhWdW8wSkZwMjl0NXQxYlh6Zlpjajh3ZDU1T0l1dUFyR09BbGQ3VEtxb2VUdXFwN0ozdTI0TXpXWHd6azFxajFq?oc=5) |
+| NVIDIA/skills | 工具集 | NVIDIA 发布的 AI Agent 技能集合 | [GitHub](https://news.google.com/rss/articles/CBMiR0FVX3lxTE5sTlJJZVZJQWFUd3kwLW1tQ2JCU1ZfN2RjY2hkRlZiSVZZZUdpLXBnUmF5SUU1SVJDUzJOT05MUnJVbnJwUkk4?oc=5) |
+| Octo（Mininglamp Technology） | 开源平台 | 新一代人-AI Agent 协作平台 | [DEV Community](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWXRuaGV4c25Cemdqc1g2TW1obXdkcHlhc1h2bHVHMkZFUkJldDZ1c2xobnBKOElBWmRsQTBCSmh0ekJ1bHJHRVc2S2pYUjRLdDJaa3BCOVotdlVVR3lodjVsN2tfM3NWTWNhTm9vc3lFZmw4Wkl3dUNrR2RrM1JHcm9HZW9hSlRKTTM5VGNQV293bFA0d0dFVEdTRjlaaF9GTm1Bc2pZc0R4RVd3dGY4Zl83eURDOHBUQ0dfSGVNcGwxRnBkcUZ1LQ?oc=5) |
+| Adobe Creative Agent | 商业产品 | Adobe 将 Creative Agent 扩展至 Firefly、Photoshop、Premiere 及 Creative Cloud 应用 | [Storyboard18](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQanFITXc3WXpFRTJ3S2FfVUlHWERHSGZ3WE81QXYzV0gtRklNZy1tU2tlUEhQTml1SS1PWVM4SWJxREtFdllUREQ1cFY4SHBybDQtdUp4SEFLazB0eVdZdXJVNVdJcG1BR09yeHdpUGpMNm5DNjc2N2RYS3hucUFtRk1IWG92MmN3Vzl0N0ZFdVZzQ19MS1d5UEJWUWVaV3JvdHFqY0stWFJfa3poUWVQQ1Q3azQxNjZUNHVvTGpIZEVXOFROR0VXY3UyaENBRkJ3RzlMNklISjBEQdIB3wFBVV95cUxOYmhXZFdiaXp3ek9JTFRTUzhQQVhleFgyMjhUWkhFMUhSaTJKZm1fMGwwUGJ4SHBUZDZ2V1I4d2xNZkhUeG9XQzlsQ0lEeTAzanhOb0lHelptWU8xbDZQYWFzRkRwc1JlVUozdm1iZllYNnJXMTlKMlNUSkdxdGg2WkpfbjV4SXM4VGNZXzZBVnA4SDdQOTk1YTVmaG5rTVY5REhOT0JFeDNBWHE1dmhLaGdBTkJBbC0wUjY5Z2hScXdta0ZmMU5hN25JeDR4Vkd3QmNicDZFZUt4TUxsdHVF?oc=5) |
+| WPP Media Video Buyer Agent | 商业工具 | WPP 媒体正在开发的视频购买 Agent | [Radio & Television Business Report](https://news.google.com/rss/articles/CBMiZkFVX3lxTFByQXp4WnotSXJmVW5jelgwS2FMM1hBOGlpMU9wNlU3VFo5ejBYTUY5d2RCcFJHR3pQRnh4anliSU0xUjd4R3lXaGtKLUdEMjlYVXdUcXVzdnhSeEw5R011NFFSc1lsUQ?oc=5) |

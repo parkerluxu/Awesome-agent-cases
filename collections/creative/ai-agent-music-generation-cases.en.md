@@ -167,3 +167,45 @@ This section is divided into two categories: `21 Tutorials / Cases` and `16 Proj
 | Top 10 Suno API Platforms for Full-Track Music Generation in 2026 | Roundup | NewZimbabwe.com overview of Suno API platforms | [NewZimbabwe.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxOR29uUV8ySFZYQ3FiVFJHUG85TXJGeFd4RWxjTHlsaHNYalJOZV96U3Z0ZGpnMGpOSUkzVFhBbVFKckQxWGJsTWNwdFhuQ1BkSW9DWEc4Yk1DZUJWMEVFUWR5Z2Q5Rzg3RWVia0Z2c3dtSlZUQ0hEb3RqRU5EeU13bFdyVHp3TEExejJ0SDlwQUt1SDViZ2ktUk5R?oc=5) |
 | AI音乐混战，谁能成为“中国版Suno”？ | Article | thepaper.cn analysis of the AI music landscape and contenders for a "Chinese Suno" | [thepaper.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QUlBhQ0t0UlZLR1c1aExWMEN5dU9jdnJ6am9CVW1McFlUMzFEcjZuLWprSFJBZW10THZwRGRWdVNOMGNqUXZQUGRKTHJ5ekluQzNza2EtM2VGRk4ySmc?oc=5) |
 | The Millions of Songs Mashed Into AI-Generated Music | Article | The Atlantic piece on the training data behind AI-generated music | [The Atlantic](https://news.google.com/rss/articles/CBMilgFBVV95cUxNMlplTmkza1NXTDNpWWFLaUdPa2xXdWw0ZkZqbVdlRWZ2QW8tS2xfU2QyMFF0ZzJ0c2phRjBRWUw3NksxTlh3cktRajI0Vzl0MjNTX0ZrYnpXclFtUlF0S2dmTkVzaC1JVWREcEMzaEt2aXJHZVFoem1PWjViSk84cWlTS0xsUFQ4WG9ENmFwX2tBVzRqREE?oc=5) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| vargHQ/skills | GitHub | AI agent skills for video, image, speech & music generation. Works with Claude Code, Cursor, Windsurf, OpenCode, ClawHub. | [Link](https://github.com/vargHQ/skills) |
+| wassermanproductions/unofficial-davinci-mcp | GitHub | MCP server letting any AI agent run DaVinci Resolve — beat-aware music cuts, dialogue tightening, broadcast-loudness mixes. Apache-2.0. | [Link](https://github.com/wassermanproductions/unofficial-davinci-mcp) |
+| afghanfansmedia-ai/songcheck-mcp | GitHub | MCP server to detect AI-generated music (Suno, Udio, and more) from any AI agent. | [Link](https://github.com/afghanfansmedia-ai/songcheck-mcp) |
+| verticalrectangle/pop-maker-studio | GitHub | Agent-native video editor for music & shortform: voice conversion, lyric & karaoke videos, auto-subtitles, full FX stack over MCP. Linux-native C++/ImGui. | [Link](https://github.com/verticalrectangle/pop-maker-studio) |
+| puntorigen/skills | GitHub | Local-first agent skills for Cursor — Apple-Silicon-tuned (MLX/Metal): local image generation, voice cloning, background music, talking-head video. | [Link](https://github.com/puntorigen/skills) |
+| AugmentedValueAcceleration/ava-supernova | GitHub | Open-source AI coding agent with Creative Studio for images, video, music, voice. 61 tools, 6 modes, 24 personas. | [Link](https://github.com/AugmentedValueAcceleration/ava-supernova) |
+| MCERQUA/OpenVoiceUI | GitHub | Voice-powered AI assistant platform — connect any LLM, any TTS, with live web canvas, music generation, and agent orchestration. | [Link](https://github.com/MCERQUA/OpenVoiceUI) |
+| SuperInstance/fleet-midi-rand | GitHub | Aleatoric music generation from agent randomness. | [Link](https://github.com/SuperInstance/fleet-midi-rand) |
+| SuperInstance/fleet-midi-emergent | GitHub | Emergent pattern generation — music emerges from agent interaction without centralized control. | [Link](https://github.com/SuperInstance/fleet-midi-emergent) |
+| suno-ai-farm/awesome-ai-music-tools | GitHub | Curated directory of AI music tools — generation, analysis, lyrics, stems, mastering. Compare Suno, Udio, MusicGen, and more. | [Link](https://github.com/suno-ai-farm/awesome-ai-music-tools) |
+| jhawaritvik/suno-songsmith | GitHub | Agent Skill that turns a song idea into a copy-paste-ready Suno (and Udio/Riffusion) prompt. | [Link](https://github.com/jhawaritvik/suno-songsmith) |
+| vegekyd-sys/ai-image-editor | GitHub | AI creative studio for images, videos, music, and agent-native media workflows. | [Link](https://github.com/vegekyd-sys/ai-image-editor) |
+| kaseymallette/wax | GitHub | Listening journal for your music library. Mood playlist generation in development, with agent-powered workflow planned. | [Link](https://github.com/kaseymallette/wax) |
+| curbmarketjotter656/ppt-agent-workflow-san | GitHub | Generate PPT workflow slides from agent chat for Ssuiqi Music research, with ready-made deck mockups. | [Link](https://github.com/curbmarketjotter656/ppt-agent-workflow-san) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | Blog / Benchmark | Benchmark for AI agents in enterprise migration contexts. | [Link](https://huggingface.co/blog/ibm-research/scarfbench) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| kostyk348/NeuroSchool-Profkom-LETI | GitHub | AI content generation course (10 modules) covering image, music, video, storytelling, AI agents, and ethics. For NeuroSchool at LETI university. | [Link](https://github.com/kostyk348/NeuroSchool-Profkom-LETI) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Suno AI使用教程：从入门到进阶 (超详细) - 知乎 | Article | Chinese tutorial on Suno AI music generation, covering editing features and workflow improvements. | [Link](https://zhuanlan.zhihu.com/p/1887930075674048214) |
+| Suno | AI 音乐生成平台 - Suno 中文版 | Product | Chinese-language Suno AI music generation platform. | [Link](https://suno.hk/zh-cn/) |
+| 苏诺之音 Suno AI创作平台 | Product | Chinese Suno AI music creation platform with AI-assisted melody, harmony, and rhythm design. | [Link](https://www.suno.cn/home/?from=xmcts) |
+| Suno AI 音乐创作平台 — 人声克隆与自定义模型 | Product | Suno V5.5 platform supporting voice cloning, custom models, and up to 8-minute songs. | [Link](https://suno.ing/zh-cn/) |

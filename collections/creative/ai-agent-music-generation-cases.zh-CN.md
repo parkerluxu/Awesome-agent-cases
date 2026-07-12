@@ -179,3 +179,31 @@
 | Suno AI Music App | AI 音乐应用 | 帮助创作者制作音乐并发展个人风格，无限制创作 | https://suno.com/l/ai-music-app |
 | Suno API 平台盘点 | 工具列表 | “Top 10 Suno API Platforms for Full-Track Music Generation in 2026” | https://news.google.com/rss/articles/CBMimgFBVV95cUxOR29uUV8ySFZYQ3FiVFJHUG85TXJGeFd4RWxjTHlsaHNYalJOZV96U3Z0ZGpnMGpOSUkzVFhBbVFKckQxWGJsTWNwdFhuQ1BkSW9DWEc4Yk1DZUJWMEVFUWR5Z2Q5Rzg3RWVia0Z2c3dtSlZUQ0hEb3RqRU5EeU13bFdyVHp3TEExejJ0SDlwQUt1SDViZ2ktUk5R?oc=5 |
 | Unlimited-AI-Music-Generation | 验证工具 | 通过 SMS-MAN 绕过 Suno 和 Udio 每日额度限制的方案 | https://github.com/Mania4rta/Unlimited-AI-Music-Generation-Bypassing-Daily-Credits-on-Suno-and-Udio-via-SMS-MAN |
+
+## 资料更新（2026-07-12）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| vargHQ/skills | GitHub 项目 | AI agent skills，支持视频、图像、语音及音乐生成，兼容 Claude Code、Cursor 等工具 | [GitHub](https://github.com/vargHQ/skills) |
+| wassermanproductions/unofficial-davinci-mcp | GitHub 项目 | MCP 服务器，让 AI agent 控制 DaVinci Resolve，支持节拍感知音乐剪辑、对话收紧等功能 | [GitHub](https://github.com/wassermanproductions/unofficial-davinci-mcp) |
+| afghanfansmedia-ai/songcheck-mcp | GitHub 项目 | MCP 服务器，用于从 AI agent 检测 AI 生成音乐（Suno、Udio 等） | [GitHub](https://github.com/afghanfansmedia-ai/songcheck-mcp) |
+| verticalrectangle/pop-maker-studio | GitHub 项目 | Agent 原生视频编辑器，面向音乐与短视频，支持语音转换、歌词/卡拉OK视频、自动字幕 | [GitHub](https://github.com/verticalrectangle/pop-maker-studio) |
+| puntorigen/skills | GitHub 项目 | 本地优先的 agent skills，针对 Apple Silicon 优化，支持背景音乐、语音克隆等 | [GitHub](https://github.com/puntorigen/skills) |
+| AugmentedValueAcceleration/ava-supernova | GitHub 项目 | 开源 AI 编码 agent，含 Creative Studio 支持图像、视频、音乐、语音生成 | [GitHub](https://github.com/AugmentedValueAcceleration/ava-supernova) |
+| MCERQUA/OpenVoiceUI | GitHub 项目 | 语音驱动 AI 助手平台，连接任意 LLM 与 TTS，支持音乐生成与 agent 编排 | [GitHub](https://github.com/MCERQUA/OpenVoiceUI) |
+| SuperInstance/fleet-midi-rand | GitHub 项目 | 基于 agent 随机性的偶然音乐生成 | [GitHub](https://github.com/SuperInstance/fleet-midi-rand) |
+| SuperInstance/fleet-midi-emergent | GitHub 项目 | 涌现模式生成——音乐从 agent 交互中产生，无需集中控制 | [GitHub](https://github.com/SuperInstance/fleet-midi-emergent) |
+| suno-ai-farm/awesome-ai-music-tools | GitHub 项目 | AI 音乐工具精选目录，涵盖生成、分析、歌词、分轨、母带等 | [GitHub](https://github.com/suno-ai-farm/awesome-ai-music-tools) |
+| jhawaritvik/suno-songsmith | GitHub 项目 | Agent Skill，将歌曲创意转化为可直接用于 Suno/Udio/Riffusion 的提示词 | [GitHub](https://github.com/jhawaritvik/suno-songsmith) |
+| vegekyd-sys/ai-image-editor | GitHub 项目 | AI 创意工作室，支持图像、视频、音乐及 agent 原生媒体工作流 | [GitHub](https://github.com/vegekyd-sys/ai-image-editor) |
+| kaseymallette/wax | GitHub 项目 | 音乐库收听日志，支持上传、随机播放、播放记录追踪，计划开发 mood 播放列表生成 | [GitHub](https://github.com/kaseymallette/wax) |
+| curbmarketjotter656/ppt-agent-workflow-san | GitHub 项目 | 从 agent 对话生成 PPT 工作流幻灯片，用于 Ssuiqi Music 研究 | [GitHub](https://github.com/curbmarketjotter656/ppt-agent-workflow-san) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Suno AI使用教程：从入门到进阶 (超详细) - 知乎 | 教程 | Suno 详细使用教程，涵盖编辑功能与高效制作精品歌曲的方法 | [知乎](https://zhuanlan.zhihu.com/p/1887930075674048214) |
+| NeuroSchool-Profkom-LETI | GitHub 项目 | AI 内容生成课程（10 模块），涵盖图像、音乐、视频、AI agent 等 | [GitHub](https://github.com/kostyk348/NeuroSchool-Profkom-LETI) |
