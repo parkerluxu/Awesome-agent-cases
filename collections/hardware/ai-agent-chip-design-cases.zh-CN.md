@@ -179,3 +179,45 @@
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|----------|------|
 | chuanseng-ng/digital-chip-design-agents | 工具/仓库 | 数字 HDL 设计全栈 Agent 仓库。 | https://news.google.com/rss/articles/CBMiakFVX3lxTE1PS1lrbXFXSXBNWHlUN3g3NDNTTUR0QzhLakl4WUNQcjczQlV6TldyRUJJWFdveGwxOVlCV2xZczdKWEYwcFYyUUVoS2pzOU5kWDd4ckw1bUxsUDd2VGFWeUpLQlY2ak1xb1E?oc=5 |
+
+## 资料更新（2026-07-12）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| xenon | 开源项目 | Agentic 硅编译器：将 Markdown 芯片规格转换为经过验证、布局布线的硅设计，基于 OSS EDA 工具链，由 Claude Code 编排。包含检查点流水线和 MCP 支持。 | [GitHub](https://github.com/Kiransekar/xenon) |
+| verilog-code-agent | 开源项目 | AI 驱动的 Verilog 硬件设计代理，集成 Monaco 编辑器、iVerilog 仿真、RTL 查看器、FPGA 综合和 AI 代码生成。 | [GitHub](https://github.com/ghdokkk/verilog-code-agent) |
+| duck-rtl | 开源项目 | 确定性 RTL 构建与验证循环，专为 AI 编码代理设计，支持 LLM 编写、测试和提取 Verilog 状态机，低幻觉率。 | [GitHub](https://github.com/oniondas/duck-rtl) |
+| agent-r2g | 开源项目 | Agent skill R2G，初始版本用于调用 OpenRoad 进行物理设计。 | [GitHub](https://github.com/ShenShan123/agent-r2g) |
+| RTLCopilot | 开源项目 | AI 辅助 RTL 设计工具，包含画布设计器、AI 电路生成、仿真和完整 RTL-to-GDS 流程。 | [GitHub](https://github.com/rtlcopilot/RTLCopilot) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| PDAGENT-BENCH | 论文 | 首个面向 VLSI 物理设计的 LLM/VLM Agent 基准，评估多阶段优化、EDA 工具协调等能力。 | [arXiv](https://arxiv.org/abs/2606.17253v4) |
+| OmniLayout | 论文 | 面向 PCB 布局的约束感知几何推理多模态基准，评估 LLM 在密集元件放置下的空间推理能力。 | [arXiv](https://arxiv.org/abs/2607.03261v2) |
+| PCBWorld | 论文 | 基于 KiCad EDA 引擎的开源 PCB 布线环境，Agent 可通过原生操作交互布线并利用 DRC 反馈。 | [arXiv](https://arxiv.org/abs/2607.05915v1) |
+| Evidence-Driven LLM Agent for C-to-Synthesizable-C Conversion | 论文 | 基于证据的 LLM Agent，用于将 C 程序转换为可综合的 HLS-C，并完成编译、仿真、综合和协同仿真全流程。 | [arXiv](https://arxiv.org/abs/2606.28409v1) |
+| AgenticPD | 论文 | 阶段感知的物理设计 QoR 优化框架，按阶段边界组织优化，避免全流程重跑。 | [arXiv](https://arxiv.org/abs/2607.04758v2) |
+| MultModLM | 论文 | 多模态 LLM 硬件原理图生成基准，评估从 RTL 描述生成硬件原理图的能力。 | [arXiv](https://arxiv.org/abs/2606.27666v1) |
+| LLM Assisted Verification Assertion Generation | 论文 | 综述 LLM 辅助生成 SystemVerilog 断言（SVA）的挑战与未来方向。 | [arXiv](https://arxiv.org/abs/2607.07444v1) |
+| Closing the Loop on LLM-Generated RTL Assertions | 论文 | 轻量级开源框架，结合突变引导精炼与形式验证，提升 LLM 生成断言的正确性和可解释性。 | [arXiv](https://arxiv.org/abs/2606.21451v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| NVIDIA HORIZON Explained | 视频 | 介绍 NVIDIA HORIZON——自动设计硬件的 AI Agent。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tY3B3NmhTb3J5LTNGMnZXUFpkMU5fSFh1NGZINmI4UXZpblB2UG5aTUF2anJqUVZ0YnFva1RIRUVZa2tjcWxISUN2aUx2UHVTQ1htb0xB?oc=5) |
+| AVerify: An AI Agent That Writes, Runs & Repairs Cocotb Testbenches | 视频 | 展示 AVerify Agent 自动编写、运行和修复 Cocotb 测试平台。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE03U1Zib1hMbWtZbU94NXNfaTk3VlcxbGp2d2k4MlFpeUNidFEwenNKZkl5dVhvREgxcHJSTndPeHcwVWI0MXJHejdYMEVhUll4VVBWZW13?oc=5) |
+| The Architecture Decisions Behind A Production-Ready EDA AI Agent | 文章 | 半导体工程报道：生产级 EDA AI Agent 的架构决策。 | [Semiconductor Engineering](https://news.google.com/rss/articles/CBMimgFBVV95cUxNRW13dTd1VFJ6WDJEWlNVTGEtbmtUZlNyU0lzQUM4QWRjajZjc0JHOUx5NG9GMXF0R25JYVNvSFpPR3dYTjRTT0hWQ3k5cWlXZzJmNVdSVHBaRG1DMWVCaVlYYk4yU3JlbTVqLXFVb0dWMFhMS1JMUVdoRkZBRmFqd05sT2VsUVJMaklKNm1WZ2R1RVBkQzA4Vi1R?oc=5) |
+| 豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码 | 文章 | 智源社区报道：豆包 2.1 模型驱动的 Agent 连续运行 18 小时完成芯片设计代码。 | [智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTE05dUFpSm9mSWRIblVySXJ0QW9PUVNscEh4ZHc5ZEtpbC1CTi03MVdzdnJRNUNZT1JpdHppXzlSOFY0XzVFVWQ0bA?oc=5) |
+| HWE-Bench：首个面向真实硬件Bug修复的LLM智能体评测基准 | 文章 | CSDN 博客介绍 HWE-Bench，首个针对真实硬件 Bug 修复的 LLM Agent 评测基准。 | [blog.csdn.net](https://news.google.com/rss/articles/CBMicEFVX3lxTFBlQk44dEFlRFNaRERaMzN6VFpkM1RQMUtiRDNZbFQ1NGF6UkNHY0U4Y1o0Z0xoR29XUjM1YTd6eEY0aXR3ZjRsZk44b3Z6cUtsck01Q1gxR0EzQUlxNlU2UzYwdHYtSDhZZEt3cVdQUVI?oc=5) |
+| 启芯宸光陈文超：半导体数据不出域，38个智能体如何打通芯片设计“黑盒” | 文章 | 智东西报道：启芯宸光利用 38 个智能体在数据不出域条件下打通芯片设计流程。 | [智东西](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1tdEg3aGxYZFg2ZzhnS3NaUTltWVJMSDRGMTFfdy1GcUQtSC1Qcm12S3k5NmdjeVhhajhxNmxaMUtpTUNuLUtSOQ?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ChipStack AI Super Agent | 产品报道 | Embedded Week 报道：ChipStack AI Super Agent 用于芯片设计自动化。 | [embedded.com](https://news.google.com/rss/articles/CBMixgFBVV95cUxPNlNLdDNDZ2hWV1Q4ZmpPN3RVb25UZm1TTkF3SFpjUThyT0xFMXdkZU1QSVhXX21FaVREWTU2LUZLTE5Mc2p6X1NnYXpRaFNjM2hxcEpkSmkySF9RX2dNaDdFLXhDUU9NNTN6d3dtcUlKMkJtakF6aVpfc0pJZTFLUVVQMGRjekJDZ3JZNXpKOTdEZGhqYzhnd2dYUE1vRFJ6QVZJOHk1ZU83SXdER3gzOW9FYnUwTG5KaHB2QmR5b2k4Njh2QUE?oc=5) |

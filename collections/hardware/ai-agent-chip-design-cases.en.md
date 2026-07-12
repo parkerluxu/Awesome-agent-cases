@@ -169,3 +169,44 @@ This section is divided into two categories: `Tutorials / Cases 0 items` and `Pr
 |------|------|---------------|------|
 | Cadence Autonomous AI Design Engineer | Product | Cadence's autonomous AI agent for accelerating chip verification and development, positioned as a "super agent" for semiconductor productivity. | https://www.eetasia.com/related (see source) |
 | Self-developed Agentic AI EDA Platform | Product | A proprietary agentic AI EDA platform aimed at advancing chip design into a new stage of automation. | https://content.foshanplus.com/related (see source) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| xenon | GitHub | Agentic silicon compiler: turns Markdown chip spec into verified, place-and-routed silicon on OSS EDA stack, orchestrated by Claude Code. Checkpointed step pipeline + MCP for agentic IDEs. | [GitHub](https://github.com/Kiransekar/xenon) |
+| verilog-code-agent | GitHub | AI-powered Verilog hardware design agent with Monaco editor, iVerilog simulation, RTL viewer, FPGA synthesis, AI code generation. | [GitHub](https://github.com/ghdokkk/verilog-code-agent) |
+| duck-rtl | GitHub | Deterministic RTL build and verify loop for AI coding agents. Enables LLMs to write, test, and extract state machines from Verilog with low hallucinations. | [GitHub](https://github.com/oniondas/duck-rtl) |
+| agent-r2g | GitHub | Agent skill R2G. Initial version for leveraging OpenRoad. | [GitHub](https://github.com/ShenShan123/agent-r2g) |
+| RTLCopilot | GitHub | Open source AI-assisted RTL design tool. Canvas designer, AI circuit generation, simulation, and full RTL-to-GDS flow. | [GitHub](https://github.com/rtlcopilot/RTLCopilot) |
+| ContextOS | GitHub | Unified context intelligence layer for AI agents with seamless integration and full capability in a single Python package. | [GitHub](https://github.com/armmammothermography417/ContextOS) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| PDAGENT-BENCH | arXiv paper | Benchmark for characterizing, grounding, and architecting LLM/VLM agents for VLSI physical design. | [arXiv](https://arxiv.org/abs/2606.17253v4) |
+| OmniLayout | arXiv paper | Schematic-coupled multimodal benchmark for constraint-aware geometric reasoning in PCB layout. | [arXiv](https://arxiv.org/abs/2607.03261v2) |
+| PCBWorld | arXiv paper | Open-source engine-grounded PCB routing environment built on KiCad EDA engine for agentic PCB design automation. | [arXiv](https://arxiv.org/abs/2607.05915v1) |
+| Evidence-Driven LLM Agent for C-to-Synthesizable-C Conversion | arXiv paper | LLM agent for converting C to HLS-C and verification across full HLS toolchain pipeline. | [arXiv](https://arxiv.org/abs/2606.28409v1) |
+| AgenticPD | arXiv paper | Stage-aware agentic framework for physical design QoR optimization. | [arXiv](https://arxiv.org/abs/2607.04758v2) |
+| MultModLM | arXiv paper | Multi-modal benchmark for LLM-based hardware schematic generation from RTL descriptions. | [arXiv](https://arxiv.org/abs/2606.27666v1) |
+| LLM Assisted Verification Assertion Generation | arXiv paper | Survey of challenges and future directions for LLM-assisted SystemVerilog Assertion generation. | [arXiv](https://arxiv.org/abs/2607.07444v1) |
+| Closing the Loop on LLM-Generated RTL Assertions | arXiv paper | Lightweight, open-source framework combining mutation-guided refinement with formal verification for LLM-generated assertions. | [arXiv](https://arxiv.org/abs/2606.21451v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| NVIDIA HORIZON Explained | YouTube | Explanation of NVIDIA HORIZON, an AI agent that designs hardware automatically. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tY3B3NmhTb3J5LTNGMnZXUFpkMU5fSFh1NGZINmI4UXZpblB2UG5aTUF2anJqUVZ0YnFva1RIRUVZa2tjcWxISUN2aUx2UHVTQ1htb0xB?oc=5) |
+| AVerify: An AI Agent That Writes, Runs & Repairs Cocotb Testbenches | YouTube | Demonstration of AVerify, an AI agent for Cocotb testbench generation and repair. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE03U1Zib1hMbWtZbU94NXNfaTk3VlcxbGp2d2k4MlFpeUNidFEwenNKZkl5dVhvREgxcHJSTndPeHcwVWI0MXJHejdYMEVhUll4VVBWZW13?oc=5) |
+| HWE-Bench | Blog post | First benchmark for LLM agent evaluation on real hardware bug fixing. | [blog.csdn.net](https://news.google.com/rss/articles/CBMicEFVX3lxTFBlQk44dEFlRFNaRERaMzN6VFpkM1RQMUtiRDNZbFQ1NGF6UkNHY0U4Y1o0Z0xoR29XUjM1YTd6eEY0aXR3ZjRsZk44b3Z6cUtsck01Q1gxR0EzQUlxNlU2UzYwdHYtSDhZZEt3cVdQUVI?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| The Architecture Decisions Behind A Production-Ready EDA AI Agent | Article | Semiconductor Engineering article on architecture decisions for production-ready EDA AI agents. | [Semiconductor Engineering](https://news.google.com/rss/articles/CBMimgFBVV95cUxNRW13dTd1VFJ6WDJEWlNVTGEtbmtUZlNyU0lzQUM4QWRjajZjc0JHOUx5NG9GMXF0R25JYVNvSFpPR3dYTjRTT0hWQ3k5cWlXZzJmNVdSVHBaRG1DMWVCaVlYYk4yU3JlbTVqLXFVb0dWMFhMS1JMUVdoRkZBRmFqd05sT2VsUVJMaklKNm1WZ2R1RVBkQzA4Vi1R?oc=5) |
+| ChipStack AI Super Agent | Article | Embedded Week insights on ChipStack AI Super Agent for building Simulink models with agentic AI. | [embedded.com](https://news.google.com/rss/articles/CBMixgFBVV95cUxPNlNLdDNDZ2hWV1Q4ZmpPN3RVb25UZm1TTkF3SFpjUThyT0xFMXdkZU1QSVhXX21FaVREWTU2LUZLTE5Mc2p6X1NnYXpRaFNjM2hxcEpkSmkySF9RX2dNaDdFLXhDUU9NNTN6d3dtcUlKMkJtakF6aVpfc0pJZTFLUVVQMGRjekJDZ3JZNXpKOTdEZGhqYzhnd2dYUE1vRFJ6QVZJOHk1ZU83SXdER3gzOW9FYnUwTG5KaHB2QmR5b2k4Njh2QUE?oc=5) |

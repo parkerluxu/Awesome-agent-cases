@@ -211,3 +211,54 @@
 | Copewell | 系统设计 | 面向公平心理健康支持的多 Agent 群体架构，旨在提供可衡量的即时情绪缓解。 | [arXiv](https://arxiv.org/abs/2607.02245v1) |
 | ProtoPilot | 系统 | 自进化多 Agent 系统，用于自动生成和执行生物学实验方案，覆盖从方案设计到物理执行的完整流程。 | [arXiv](https://arxiv.org/abs/2606.31763v2) |
 | COHORT | 框架 | 首个端到端自动化框架，利用多 Agent LLM 工作流为企业网络生成并验证可部署的缓解措施。 | [arXiv](https://arxiv.org/abs/2606.30479v1) |
+
+## 资料更新（2026-07-12）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| klarlabs-studio/mnemos | 自托管记忆层 | 为 AI Agent（Claude Code、Codex、Hermes 等）提供嵌入式 Go 库，支持 MCP/HTTP/CLI，证据回溯、双时态召回，axi-go 执行内核，JSONL 审计与令牌预算，cosign 签名与 SLSA L3 可溯源。无供应商云、无按次计费。 | [GitHub](https://github.com/klarlabs-studio/mnemos) |
+| AstroiLL/esp32-ai-agents | ESP32-S3 边缘 Agent | MicroPython 与 Arduino 固件，支持 MQTT 控制与摄像头。 | [GitHub](https://github.com/AstroiLL/esp32-ai-agents) |
+| Narcissus0520/AI-Outdoor-Agent-Platform-Based-on-STM32MP157-STM32F407ZG | 嵌入式 Linux GNSS 平台 | 基于 STM32MP157 与 STM32F407 的户外 AI Agent 开发平台。 | [GitHub](https://github.com/Narcissus0520/AI-Outdoor-Agent-Platform-Based-on-STM32MP157-STM32F407ZG) |
+| SamuelAlexander/clawrophyll | Arduino UNO Q 盆栽 Agent | 在 Arduino UNO Q 上运行自主 AI Agent 的室内植物项目。 | [GitHub](https://github.com/SamuelAlexander/clawrophyll) |
+| aaryangupta/agentic-iot-local-llm | 本地 IoT 控制 Agent | 使用 ESP32、MQTT 和 Ollama 的可解释本地优先 IoT 控制 Agent。 | [GitHub](https://github.com/aaryangupta/agentic-iot-local-llm) |
+| ThAce-code/caresense_pro | ESP32-S3 居家守护系统 | 基于 Wi-Fi CSI 感知、端侧边缘推理与云端 LLM Agent 的低成本高隐私独居老人守护方案。 | [GitHub](https://github.com/ThAce-code/caresense_pro) |
+| ByTaymur/embedded-software-skills | 嵌入式固件开发 Agent | 为 STM32 固件开发提供 AI 技能、斜杠命令与 Agent。 | [GitHub](https://github.com/ByTaymur/embedded-software-skills) |
+| ionalpha/flynn | 安全自改进 Agent 操作系统 | 单一 Go 二进制文件，可嵌入或独立运行，支持任意模型、本地模型管理、沙箱执行与可验证审计记录。 | [GitHub](https://github.com/ionalpha/flynn) |
+| Kavi-Cs/aiot-agentic-digital-twin | 工业 AIoT 数字孪生 | 结合 TinyML 边缘计算（RS-485/Modbus）与 Agentic LLM 数字孪生，实现自主预测性维护。 | [GitHub](https://github.com/Kavi-Cs/aiot-agentic-digital-twin) |
+| mm-black65/AI-Powered-IoT-Cybersecurity-Threat-Detection-System | IoT 网络安全检测 | 监控 ESP32 遥测，使用机器学习检测网络攻击，SHAP 可解释 AI，LLM 与 RAG 提供实时安全指导。 | [GitHub](https://github.com/mm-black65/AI-Powered-IoT-Cybersecurity-Threat-Detection-System) |
+| PeterkoCZ91/DFR1154-ai-camera | ESP32-S3 AI 安防摄像头 | DFRobot FireBeetle 2 固件，FOMO+ByteTrack 人员检测，MJPEG/RTSP 推流，Home Assistant MQTT，Telegram 告警，可选 YOLOv11n+人脸识别。 | [GitHub](https://github.com/PeterkoCZ91/DFR1154-ai-camera) |
+| thingino/teacup-neo | 通用 Ingenic SoC 开发平台 | 单载板+各 SoC 转接模块，DDR4 金手指，ESP32-S3 BMC 支持自主 LLM 驱动开发。 | [GitHub](https://github.com/thingino/teacup-neo) |
+| Xinyuan-LilyGO/lilygo-skills | LilyGO 板开发技能运行时 | 为 AI 辅助的 LilyGO 板开发提供技能运行时。 | [GitHub](https://github.com/Xinyuan-LilyGO/lilygo-skills) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Learning social norms enhances compatibility in dynamic human-AI coordination | 论文 | 研究 AI Agent（包括 LLM）嵌入日常交互时，学习社会规范以提升人机协调兼容性。 | [arXiv](https://arxiv.org/abs/2607.07021v1) |
+| Reliable and Developer-Aligned Evaluation of Agents for Software Engineering | 论文 | 针对嵌入协作开发环境的自主 Agent，提出可靠且对齐开发者的评估方法。 | [arXiv](https://arxiv.org/abs/2607.06713v1) |
+| TopoBrick: Agentic Topology Sampling of Exogenous Variables for Zero-Shot Building IoT Forecasting | 论文 | 利用建筑知识图谱与 Agentic 拓扑采样，实现零样本建筑 IoT 预测。 | [arXiv](https://arxiv.org/abs/2607.06349v1) |
+| TRACE: A Two-Channel Robust Attribution Watermark via Complementary Embeddings for LLM-Agent Trajectories | 论文 | 为 LLM Agent 轨迹日志提供双通道鲁棒归属水印，抵御重贴牌与模型替换。 | [arXiv](https://arxiv.org/abs/2607.08400v1) |
+| Detecting Architectural Drift in Safety-Critical Firmware through Runtime Trace Analysis | 论文 | 通过硬件辅助执行轨迹分析，检测 ISO 26262 安全关键固件的架构漂移。 | [arXiv](https://arxiv.org/abs/2607.03135v1) |
+| Enabling Cloud-Level Accuracy in Edge AI through IoT Data Preprocessing | 论文 | 研究提示侧预处理如何改善边缘端 LLM 对 IoT 传感器数据的数值推理精度-延迟权衡。 | [arXiv](https://arxiv.org/abs/2606.22496v1) |
+| Cascaded Multi-Granularity Pruning for On-Device LLM Inference in Industrial IoT | 论文 | 提出级联多粒度剪枝框架，实现工业 IoT 边缘设备上的 LLM 极端压缩推理。 | [arXiv](https://arxiv.org/abs/2606.26861v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AI编程工作流实战地图：嵌入式到智能体的10大能力节点 | 教程 | CSDN 文章，梳理从嵌入式到智能体的 AI 编程工作流关键能力节点。 | [CSDN](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mWVRXemlVd1RPTXAwMHBDQ3NkY2I3RF9kdzNPcU9VWFpDVzZYcnZOcE5ValYxLVJvbmE5ZXFxbnM2eWEtVkNjTWpES1FhcG1qaHBwcFYzbFhiaGI5emh0bVV3?oc=5) |
+| How Claude Code is used in practice | 媒体实测 | Anthropic 官方文章，介绍 Claude Code 在实际中的使用方式。 | [Anthropic](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lM0p2cGtZWWJ4aE9Ocy05NEU1SXFraWl1V1gwNmxwdGpMWkg3N2Z3WGF6eFFMZXlWMGZEeGZZVGxmcGJyVlBSLXlCUXhma0lWRm1SNllTSVlmNXlTMFEzLTZIMFIwSDA?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Lyzr AI Agent 完成 1 亿美元融资 | 产品 | Lyzr 使用自家 AI Agent 完成 1 亿美元融资，验证产品实际能力。 | [TechCrunch](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) |
+| 碳阻迹碳管理 Agent | 产品 | 可追溯可复核的碳管理 Agent，破解碳核算“黑盒”难题。 | [中国日报网](https://news.google.com/rss/articles/CBMifEFVX3lxTE5hbGEwMER2OGE0ZElLbHRDU21XRk5OOUQ3eU11TjNTSV9ad2NjeWUyeHlDZTlEOUM5ZjR0S1Jab2t4Y3ZYRjExSFNOVThzU3RUV1c2Q2FjVlVCSTR3NTRLOHRaZldyT0dXWVJzcE5FSDhDQ0hKX1lBc3RqTFQ?oc=5) |
+| Airbnb Sitar-agent 动态配置 Sidecar | 产品 | Airbnb 分享 Kubernetes 动态配置 Sidecar Agent 架构。 | [InfoQ](https://www.infoq.cn/article/fO5byVPuZwwlBPosijBV?utm_source=rss&utm_medium=article) |
+| NVIDIA Data for Agents | 工具 | Hugging Face 博客，探讨为 Agent 提供开放数据。 | [Hugging Face](https://huggingface.co/blog/nvidia/open-data-for-agents) |
+| Modal CTO 谈 Agent Experience 基础设施 | 产品 | Modal 联合创始人讨论为何 Agent Experience 正在奏效，以及构建新 Agent 云的教训。 | [Latent Space](https://www.latent.space/p/modal2026) |
+| Vercel 的 Andrew Qu 谈 Agent 是新软件形态 | 产品 | Vercel 软件主管解释其 Agent 框架 eve 的创建过程，以及技能、沙箱和 Agent 可读网站的重要性。 | [Latent Space](https://www.latent.space/p/vercel-agents-new-software) |
+| Microsoft 代理可观测性 | 产品 | 微软博客探讨 AI 驱动与自主 Agent 时代下的云运维新挑战。 | [Microsoft Blog](https://blogs.microsoft.com/blog/2026/06/23/rethinking-cloud-operations-with-agentic-observability/) |

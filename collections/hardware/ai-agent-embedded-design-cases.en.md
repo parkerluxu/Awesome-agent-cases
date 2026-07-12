@@ -201,3 +201,55 @@ The following resources were discovered after the original article was published
 | Skill engineering and the case against one-shot AI design | Interview / Article | Paul Bakaus on Impeccable, human judgment in a "loopmaxxing" era, and why agents still need people to steer them. | [Latent Space](https://www.latent.space/p/skill-engineering-design) |
 | How Cursor deploys AI inside the enterprise | Interview / Article | Cursor's Pauline Brunet on how Forward Deployed Engineers help organizations implement agents as software factories. | [Latent Space](https://www.latent.space/p/cursor-forward-deployed-engineers) |
 | I tested Claude Code, Codex, and Antigravity on a real electronics project | Media test | Hands-on comparison of Claude Code, Codex, and Antigravity on a real electronics project — only one completed the task. | [MakeUseOf](https://news.google.com/rss/articles/CBMinAFBVV95cUxPY3V3b1RkVTlpdVNVNXhaSFlUOUhmMGcxT1dxUHlzamxxTzRyY2dUN0FGdWhKZ3FkZElvcUxqVURCQjFGOWlFNEpvMldPNUZiQkdYaUs5RGNtSU9MWTJOeUY1UWd4YUFYNjYtbm8tS3FsWUU5dGRqaHN5VkFMQnBDS3pGSWR2Mkx0MGQzQUdBTDRoQUxQRTRYMDFja3Q?oc=5) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| klarlabs-studio/mnemos | Go library | Self-hosted memory + evidence layer for AI agents; embeddable, MCP/HTTP/CLI, evidence-backed claims, bitemporal recall, JSONL audit, SLSA L3 provenance | [GitHub](https://github.com/klarlabs-studio/mnemos) |
+| ionalpha/flynn | Go binary | Secure, self-improving agent OS; sandboxed actions, tamper-evident records, embeddable in own systems | [GitHub](https://github.com/ionalpha/flynn) |
+| AstroiLL/esp32-ai-agents | Firmware | ESP32-S3 AI edge agent with MicroPython/Arduino firmware, MQTT control, camera support | [GitHub](https://github.com/AstroiLL/esp32-ai-agents) |
+| aaryangupta/agentic-iot-local-llm | Firmware | Explainable local-first IoT control agent using ESP32, MQTT, and Ollama | [GitHub](https://github.com/aaryangupta/agentic-iot-local-llm) |
+| ThAce-code/caresense_pro | Firmware | ESP32-S3 active AI home care system using Wi-Fi CSI sensing, edge inference, cloud LLM agent | [GitHub](https://github.com/ThAce-code/caresense_pro) |
+| Kavi-Cs/aiot-agentic-digital-twin | Platform | Industrial AIoT ecosystem combining TinyML edge computing (RS-485/Modbus) with agentic LLM digital twin for prescriptive maintenance | [GitHub](https://github.com/Kavi-Cs/aiot-agentic-digital-twin) |
+| Narcissus0520/AI-Outdoor-Agent-Platform-Based-on-STM32MP157-STM32F407ZG | Platform | Embedded Linux GNSS sensor platform for outdoor AI agent development with STM32MP157 and STM32F407 | [GitHub](https://github.com/Narcissus0520/AI-Outdoor-Agent-Platform-Based-on-STM32MP157-STM32F407ZG) |
+| ByTaymur/embedded-software-skills | Tooling | AI skills, slash commands & agents for embedded software / STM32 firmware development | [GitHub](https://github.com/ByTaymur/embedded-software-skills) |
+| SamuelAlexander/clawrophyll | Hardware | Houseplant running its own AI agent on an Arduino UNO Q | [GitHub](https://github.com/SamuelAlexander/clawrophyll) |
+| mm-black65/AI-Powered-IoT-Cybersecurity-Threat-Detection-System | Platform | IoT security platform monitoring ESP32 telemetry, ML-based attack detection, SHAP explainability, LLM-powered RAG assistant | [GitHub](https://github.com/mm-black65/AI-Powered-IoT-Cybersecurity-Threat-Detection-System) |
+| PeterkoCZ91/DFR1154-ai-camera | Firmware | Self-hosted AI security camera firmware for DFRobot FireBeetle 2 ESP32-S3; on-device person detection, MJPEG/RTSP, Home Assistant MQTT, Telegram alerts | [GitHub](https://github.com/PeterkoCZ91/DFR1154-ai-camera) |
+| thingino/teacup-neo | Hardware | Universal Ingenic SoC development platform with ESP32-S3 BMC for autonomous LLM-driven development | [GitHub](https://github.com/thingino/teacup-neo) |
+| Xinyuan-LilyGO/lilygo-skills | Tooling | Skill runtime for AI-assisted LilyGO board development | [GitHub](https://github.com/Xinyuan-LilyGO/lilygo-skills) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Learning social norms enhances compatibility in dynamic human-AI coordination | Paper | Investigates how LLM agents can learn implicit social norms to improve coordination with humans in dynamic interactions | [arXiv](https://arxiv.org/abs/2607.07021v1) |
+| Reliable and Developer-Aligned Evaluation of Agents for Software Engineering | Paper | Comprehensive evaluation framework for autonomous software engineering agents embedded in collaborative development environments | [arXiv](https://arxiv.org/abs/2607.06713v1) |
+| TopoBrick: Agentic Topology Sampling of Exogenous Variables for Zero-Shot Building IoT Forecasting | Paper | Training-free framework using building knowledge graphs and agentic topology sampling for zero-shot IoT forecasting | [arXiv](https://arxiv.org/abs/2607.06349v1) |
+| TRACE: A Two-Channel Robust Attribution Watermark via Complementary Embeddings for LLM-Agent Trajectories | Paper | Watermarking method for LLM agent trajectory logs that survives adversary with full read/write access | [arXiv](https://arxiv.org/abs/2607.08400v1) |
+| Detecting Architectural Drift in Safety-Critical Firmware through Runtime Trace Analysis | Paper | Runtime-informed methodology for detecting architectural drift in ISO 26262-compliant firmware using hardware-assisted execution traces | [arXiv](https://arxiv.org/abs/2607.03135v1) |
+| Enabling Cloud-Level Accuracy in Edge AI through IoT Data Preprocessing | Paper | Investigates prompt-side preprocessing to improve accuracy-latency trade-off of local LLMs for IoT sensor data interpretation | [arXiv](https://arxiv.org/abs/2606.22496v1) |
+| Cascaded Multi-Granularity Pruning for On-Device LLM Inference in Industrial IoT | Paper | Structured pruning framework for deploying LLMs on IIoT edge devices with coarse-to-fine removal of layers, heads, and channels | [arXiv](https://arxiv.org/abs/2606.26861v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AI编程工作流实战地图：嵌入式到智能体的10大能力节点 | Article | Practical workflow map covering 10 capability nodes from embedded to agent | [CSDN](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mWVRXemlVd1RPTXAwMHBDQ3NkY2I3RF9kdzNPcU9VWFpDVzZYcnZOcE5ValYxLVJvbmE5ZXFxbnM2eWEtVkNjTWpES1FhcG1qaHBwcFYzbFhiaGI5emh0bVV3?oc=5) |
+| agency-agents-zh/AGENT-LIST.md | List | Curated list of AI agents in Chinese | [GitHub](https://news.google.com/rss/articles/CBMiekFVX3lxTFBIUHZoQ0VXRjExejR5S3dfRkJkc0RKeVgwVmFyaVB3dVdKVVdKNzFOelF6MGNKaXJBS3JkbTMxbGMxWTVuYkt3UjB1bVFDRzQ4VHUyRVEtT3R3b1JfcE0tTnFMX05oMmRYM0ZQQ2dPbm5PT0R1ekZDOUJn?oc=5) |
+| How Claude Code is used in practice | Article | Anthropic's practical guide on Claude Code usage patterns | [Anthropic](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lM0p2cGtZWWJ4aE9Ocy05NEU1SXFraWl1V1gwNmxwdGpMWkg3N2Z3WGF6eFFMZXlWMGZEeGZZVGxmcGJyVlBSLXlCUXhma0lWRm1SNllTSVlmNXlTMFEzLTZIMFIwSDA?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Lyzr AI agent fundraising | Startup | AI agent startup used its own agent to raise $100M round | [TechCrunch](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) |
+| Rethinking cloud operations with agentic observability | Blog | Microsoft on AI-driven and autonomous agents transforming cloud operations | [Microsoft Blog](https://blogs.microsoft.com/blog/2026/06/23/rethinking-cloud-operations-with-agentic-observability/) |
+| Data for Agents | Blog | NVIDIA's open data initiative for AI agents | [Hugging Face](https://huggingface.co/blog/nvidia/open-data-for-agents) |
+| Why AI Infrastructure must evolve for Agent Experience | Podcast | Modal CTO on building the new agent cloud | [Latent Space](https://www.latent.space/p/modal2026) |
+| Vercel's Andrew Qu on why agents are a new kind of software | Podcast | Vercel's agent framework eve and skills/sandboxes for agent-readable websites | [Latent Space](https://www.latent.space/p/vercel-agents-new-software) |
+| Airbnb Kubernetes dynamic configuration Sidecar Sitar-agent | Architecture | Airbnb's architecture for dynamic configuration sidecar agent | [InfoQ](https://www.infoq.cn/article/fO5byVPuZwwlBPosijBV?utm_source=rss&utm_medium=article) |
+| 破解碳核算"黑盒"难题：碳阻迹发布可追溯可复核的碳管理Agent | Product | Traceable and verifiable carbon management agent | [中国日报网](https://news.google.com/rss/articles/CBMifEFVX3lxTE5hbGEwMER2OGE0ZElLbHRDU21XRk5OOUQ3eU11TjNTSV9ad2NjeWUyeHlDZTlEOUM5ZjR0S1Jab2t4Y3ZYRjExSFNOVThzU3RUV1c2Q2FjVlVCSTR3NTRLOHRaZldyT0dXWVJzcE5FSDhDQ0hKX1lBc3RqTFQ?oc=5) |
