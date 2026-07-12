@@ -139,3 +139,82 @@
 | Gemini Spark | Google 产品 | Google 的 Agent 助手现已支持 Mac 平台 | [https://news.google.com/rss/articles/CBMingFBVV95cUxNTDVKblBucGxXMUtkNXZjWk5raElhdjZsUUE5SFZqcGVsU1k0RDJHd1lMZjQ2YTIyeEFWT2l2dmV5UDY0TFB3RmZwWm02X00ySm5iSFlJSUxGbUFweGdEX3FwTjRlNUJsU0tORERWUTRtSmlQVzBLakFLX2FabGJtRUdaWFhxX1RZYzFBdlJtd2ZUOXQzX3dGcV9vT1REQQ](https://news.google.com/rss/articles/CBMingFBVV95cUxNTDVKblBucGxXMUtkNXZjWk5raElhdjZsUUE5SFZqcGVsU1k0RDJHd1lMZjQ2YTIyeEFWT2l2dmV5UDY0TFB3RmZwWm02X00ySm5iSFlJSUxGbUFweGdEX3FwTjRlNUJsU0tORERWUTRtSmlQVzBLakFLX2FabGJtRUdaWFhxX1RZYzFBdlJtd2ZUOXQzX3dGcV9vT1REQQ) |
 | ChatGPT Work | OpenAI 产品 | 可在多个应用和文件中执行操作的 Agent，支持长时间跟踪项目并产出完整成果 | [https://openai.com/index/chatgpt-for-your-most-ambitious-work](https://openai.com/index/chatgpt-for-your-most-ambitious-work) |
 | Microsoft Copilot Studio + Docusign MCP | Microsoft 开源集成 | 将 DocuSign MCP 集成到 Copilot Studio 中，实现文档签署自动化 | [https://news.google.com/rss/articles/CBMidkFVX3lxTE1vVnhIS19BYVFiaGFfWXNFX2ZHSkx2T1pVSkJ2YktJcUl6Tm92T0xIR1BhNUZBWGM3ejRsdEhYclVpVklhd1htVWNtVzJUZ3FaZHNiOHM1X3hWSW1Ra1Y2dmhndXRDRUNKd2t1SFg1MjNaMmkzWGc](https://news.google.com/rss/articles/CBMidkFVX3lxTE1vVnhIS19BYVFiaGFfWXNFX2ZHSkx2T1pVSkJ2YktJcUl6Tm92T0xIR1BhNUZBWGM3ejRsdEhYclVpVklhd1htVWNtVzJUZ3FaZHNiOHM1X3hWSW1Ra1Y2dmhndXRDRUNKd2t1SFg1MjNaMmkzWGc) |
+
+## 资料更新（2026-07-12）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| harishu652/Class-AI-Agent | GitHub 项目 | 为 Claude Code 构建生产级 AI Agent 配置，包含结构化工作流、专用 Agent 和清晰规则 | [链接](https://github.com/harishu652/Class-AI-Agent) |
+| majiayu000/spellbook | GitHub 项目 | 跨运行时技能，支持 Claude Code、Codex 和多 Agent 工作流 | [链接](https://github.com/majiayu000/spellbook) |
+| mingqian94/RPA-Everything | GitHub 项目 | 将重复的浏览器、桌面、Android 和办公工作流转化为由 AI Agent 审核的确定性技能 | [链接](https://github.com/mingqian94/RPA-Everything) |
+| fkpathan88-debug/n8n-ai-automation-portfolio | GitHub 项目 | 基于 n8n、AI Agent、LLM、RAG 和工作流编排的端到端 AI 自动化方案合集 | [链接](https://github.com/fkpathan88-debug/n8n-ai-automation-portfolio) |
+| monoplegiaunappetisingness288/disp8ch | GitHub 项目 | 从统一命令中心构建自动化工作流、运行本地 AI Agent 和管理任务 | [链接](https://github.com/monoplegiaunappetisingness288/disp8ch) |
+| modulemineralwool546/obaa-chatbot | GitHub 项目 | 面向加纳企业的 AI 商业顾问聊天机器人，具备完整记忆、用户画像和每日使用限制 | [链接](https://github.com/modulemineralwool546/obaa-chatbot) |
+| JakobDK7/Message-Auto-Forwarding-AI-Agent | GitHub 项目 | 跨平台自动转发消息的 AI Agent，简化沟通并提升工作流效率 | [链接](https://github.com/JakobDK7/Message-Auto-Forwarding-AI-Agent) |
+| parasar0810/Live-meeting-transcript | GitHub 项目 | 实时会议 AI 副驾驶，通过四个并发 Agent（事实核查、行动项、RAG、摘要）提供实时洞察 | [链接](https://github.com/parasar0810/Live-meeting-transcript) |
+| Naturejackofalltrades252/brain-tree-os | GitHub 项目 | 为 AI Agent 构建本地优先的项目管理系统，包含结构化知识库、执行计划、角色和斜杠命令 | [链接](https://github.com/Naturejackofalltrades252/brain-tree-os) |
+| MasayukiTa/m365-copilot-companion-mcp | GitHub 项目 | 个人用 MCP 服务器，为 Microsoft 365 Copilot 提供文件、Python、Office、SQL、Web 等 100+ 工具 | [链接](https://github.com/MasayukiTa/m365-copilot-companion-mcp) |
+| techspireinnovation/MindAct | GitHub 项目 | 通过集成 Claude、Obsidian 和 RAG 的 AI Agent 自动化本地知识管理 | [链接](https://github.com/techspireinnovation/MindAct) |
+| chef5531/kian | GitHub 项目 | 支持多 Agent 工作流，内置文档管理、任务自动化和应用开发 | [链接](https://github.com/chef5531/kian) |
+| rillmd/rill | GitHub 项目 | 个人知识管理（PKM），支持语音日记、Claude Code 技能和 AI 知识蒸馏 | [链接](https://github.com/rillmd/rill) |
+| quietpublish/skills | GitHub 项目 | 可安装的 Claude Code Agent 技能：会议总结、视频文档等 | [链接](https://github.com/quietpublish/skills) |
+| nori72ny/myAIspecials | GitHub 项目 | 工作流自动化 Agent | [链接](https://github.com/nori72ny/myAIspecials) |
+| aangtriastanto/agentic-drop-zones | GitHub 项目 | 通过监控目录并在文件放入时触发 Agent，实现灵活的文件处理工作流 | [链接](https://github.com/aangtriastanto/agentic-drop-zones) |
+| owen4sure/agent-hub | GitHub 项目 | 本地自建的可视化工作流自动化平台，用自然语言创建、修改和修复流程 | [链接](https://github.com/owen4sure/agent-hub) |
+| jay9parmar/exec-meeting-prep-agent | GitHub 项目 | AI 驱动的业务节奏自动化工具，跟踪高管会议准备情况并生成发言人摘要 | [链接](https://github.com/jay9parmar/exec-meeting-prep-agent) |
+| ITSpecialist111/Offline-Neural-Facilitator-ONF-Foundry-Local---Poc | GitHub 项目 | 完全离线的会议促进 Agent，提供详细 AI 摘要，注重安全 | [链接](https://github.com/ITSpecialist111/Offline-Neural-Facilitator-ONF-Foundry-Local---Poc) |
+| joanmarcriera/Home-office-automations | GitHub 项目 | Agent 维护的知识中心，用于隐私优先的家庭办公自动化栈 | [链接](https://github.com/joanmarcriera/Home-office-automations) |
+| duffiewiccan103/dingtalk-wukong-skills | GitHub 项目 | 为钉钉提供悟空 Agent 技能，涵盖办公、差旅和专业文档处理 | [链接](https://github.com/duffiewiccan103/dingtalk-wukong-skills) |
+| aydan79/Pokemon-Claw-Monitor | GitHub 项目 | 以宝可梦为主题的仪表盘，在像素艺术办公空间中可视化 OpenClaw Agent | [链接](https://github.com/aydan79/Pokemon-Claw-Monitor) |
+| VrajaDev/Gmail-Agent | GitHub 项目 | AI 驱动的 Gmail 和日历助手，支持邮件摘要、自动回复和日历事件创建 | [链接](https://github.com/VrajaDev/Gmail-Agent) |
+| theTwoCubes/Backoffice-Automation-System | GitHub 项目 | 后台办公自动化的 Agent 框架 | [链接](https://github.com/theTwoCubes/Backoffice-Automation-System) |
+| Favoritchannel/ie-office-starter | GitHub 项目 | 面向本地企业的可治理、可组合 AI 劳动力，基于零依赖 Node 引擎 | [链接](https://github.com/Favoritchannel/ie-office-starter) |
+| Peuqui/AIfred-Intelligence | GitHub 项目 | 自托管多 Agent 助手，支持辩论模式、语音、RAG、长期记忆和工具调用 | [链接](https://github.com/Peuqui/AIfred-Intelligence) |
+| bill051403/jarvis-ai-assistant | GitHub 项目 | 多 Agent AI 助手，支持邮件、任务、联系人和日历管理 | [链接](https://github.com/bill051403/jarvis-ai-assistant) |
+| jadelaglace/Compass | GitHub 项目 | 个人知识操作系统，通过三维评分引擎自然呈现高价值内容 | [链接](https://github.com/jadelaglace/Compass) |
+| promptalchemistlabs/pal-agent-scribe | GitHub 项目 | 内容创作、混编和知识管理工具 | [链接](https://github.com/promptalchemistlabs/pal-agent-scribe) |
+| SuperInstance/plato-shell | GitHub 项目 | Agent 运行时环境，支持命令执行、上下文管理和模块加载 | [链接](https://github.com/SuperInstance/plato-shell) |
+| SuperInstance/plato-fleet | GitHub 项目 | Plato Shell 的舰队管理，支持多 Agent 编排、扩展和协调 | [链接](https://github.com/SuperInstance/plato-fleet) |
+| MarcosHBlanco/email-agent | GitHub 项目 | 由 Claude 驱动的 Gmail Agent 邮件助手 | [链接](https://github.com/MarcosHBlanco/email-agent) |
+| vubes44/AI-email-agent | GitHub 项目 | 面向 DJI 无人机商店的 AI 邮件助手 | [链接](https://github.com/vubes44/AI-email-agent) |
+| wang2653/email-assistant-agent | GitHub 项目 | AI 邮件助手，使用 CrewAI 分类、优先级排序和草拟回复，并通过 LangGraph 暂停人工审核 | [链接](https://github.com/wang2653/email-assistant-agent) |
+| juemimgcd/Reminder | GitHub 项目 | 个人知识和文档管理后端服务，支持智能索引和 RAG 问答 | [链接](https://github.com/juemimgcd/Reminder) |
+| saisanket232/meeting-notes-ai-agent | GitHub 项目 | 将会议记录转化为摘要、关键决策和行动项的 Streamlit 应用 | [链接](https://github.com/saisanket232/meeting-notes-ai-agent) |
+| praveen11singh/MSFoundryMeetingSummaryAgent | GitHub 项目 | 会议摘要 Agent | [链接](https://github.com/praveen11singh/MSFoundryMeetingSummaryAgent) |
+| akash1304zzzz/treemind-ai | GitHub 项目 | 本地优先、Agent 驱动的个人知识管理工具 | [链接](https://github.com/akash1304zzzz/treemind-ai) |
+| Anis-h-coder/ContentMind-AI-Intelligent-Personal-Knowledge-Management-Agent | GitHub 项目 | 智能个人知识管理 Agent | [链接](https://github.com/Anis-h-coder/ContentMind-AI-Intelligent-Personal-Knowledge-Management-Agent) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Progressive Crystallization: Turning Agent Exploration into Deterministic, Lower-Cost Workflows in Production | 论文 | 提出“渐进结晶”生命周期，将 Agent 探索转化为确定性、低成本的 IT 运维工作流 | [链接](https://arxiv.org/abs/2607.07052v1) |
+| Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting | 论文 | 探讨 LLM、RAG 和多 Agent 系统在精算承保中的架构设计 | [链接](https://arxiv.org/abs/2607.07858v1) |
+| Evaluating SageMath-Augmented LLM Agents for Computational and Experimental Mathematics | 论文 | 提出结合 LLM 推理与 SageMath 验证的 ReAct 风格 Agent 设置，用于解决研究级数学问题 | [链接](https://arxiv.org/abs/2607.06820v1) |
+| SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis | 论文 | 自主 LLM 多 Agent 框架，自动化空间和单细胞转录组学的端到端轨迹推断分析 | [链接](https://arxiv.org/abs/2607.07467v1) |
+| Physics-Audited Agentic Discovery in Scientific Machine Learning | 论文 | 引入物理审计的 Agent 科学机器学习工作流，确保预测场满足边界条件等物理约束 | [链接](https://arxiv.org/abs/2607.07379v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型 | 媒体实测 | Anthropic 官方澄清 Claude Code 中模型选择与努力度的区别，解释“变笨”误区的根源 | [链接](https://36kr.com/p/3892222176574211?f=rss) |
+| 当写作遇上AI Agent：六阶段工作流设计实践 | 教程 | 介绍 AI Agent 辅助写作的六阶段工作流设计 | [链接](https://news.google.com/rss/articles/CBMilAFBVV95cUxNYWxYek1HallYYU40UFNiZFd4SmpTR3R2SFl1Q2ZOVjZOTE9mQ25VZFFyQ2pITjdtYk1hV04xRllzWE1nTWdQcFpZWGd1NE9rX2FWTHNaN3VpVFJxc1ZRT2N2VUNHM2ttZVNlRExFLTFiSXFDLXBHb1FGVGhkcHFDVlh4eHNycUlWWXRjRTRSRjJMbm5B?oc=5) |
+| AI Agent 的底层原理、架构与应用实践 | 教程 | 系统讲解 AI Agent 的底层原理、架构设计及实际应用 | [链接](https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3dHhla2dzQ05ZY09yekw4ZTNwRnRlYUxmMElZZmZOUEdZdDl1bTZDZWphckVrZzFNWTVTbk9RQ0tMZmRQMHdkN25aUXc3ZFV4TFdUZw?oc=5) |
+| Agent、Skill、MCP 到底是什么关系？零基础小白也能看懂的三层拆解 | 教程 | 零基础解读 Agent、Skill 和 MCP 三者之间的关系 | [链接](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9oZFhHX3VpM1ktVTdUTTJEUFNaVnJzRHQzWUg0SnJ2bW9vWHZ5MFhha3FNZklFVjZWV29DVVdqRy1wMjVadzA2WGFwczl4ODZMTzNHbFRVai03UDVt?oc=5) |
+| 从零搭建Agent自动化评估体系 | 教程 | 视频教程，讲解如何从零开始搭建 Agent 自动化评估体系 | [链接](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QTk9EVE1fYU0zQmJGeUtUZXUtYl9qVnlsQnEwM0JKS0lCbWRNRnVtVWN2ZEtpOENiMUhVZ09TaTlOdktTWlZCMUI3MXNFQWZ2WF82Tnp3?oc=5) |
+| 我同时用了Claude Code、Cursor 和 Codex，说说三个工具的真实差距 | 媒体实测 | 对比 Claude Code、Cursor 和 Codex 三款 AI 编程工具的实际使用体验和差距 | [链接](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nUHFPNnhSekVLemtQd2tJV255OHR5R1RYSVJPMW5lVTVfX1hkS0g0LVhySFBYTzhpSEdIVzFVdXdBU1BfLWJFZ2NIYUZBTVpadmhMZQ?oc=5) |
+| AI 写小说不再崩：一套让 Agent 稳定输出百万字的工作流 | 教程 | 分享一套让 AI Agent 稳定输出长篇小说的写作工作流 | [链接](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rOXpCak1CWW80Z2lTXzhKanZzUmZNZEtNLUhIemRRbWo1YWIxaUNmTS1ENDFSMUJhbjJTRGwwN085QkNxcXg5QnRsd2J6d25QRmdxZ3ZfU1FYbXFv?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| OpenAI 案例：Choco 用 AI Agent 自动化食品分销 | 产品案例 | OpenAI 官网展示 Choco 使用 AI Agent 实现食品分销自动化 | [链接](https://openai.com/) |
+| 15 best AI agent builder tools in 2026 | 工具评测 | Hostinger 评选的 2026 年 15 款最佳 AI Agent 构建工具 | [链接](https://news.google.com/rss/articles/CBMibkFVX3lxTE80WHNfRkpFY3hSS21lbDVTR2F6aVpOVEFNVm10a0xucXNPckFiOGFPNndRMmZZenJHRkU5Tnd4aF9hRHJBSjR5aHlnRDB5STdXeFZfTkMwWFp2OTlReVR4MzVwemltY3Z3c2hqUGdB?oc=5) |
+| NVIDIA XR AI 开发套件 | 产品发布 | 英伟达推出 XR AI 开发套件，支持 AI Agent 落地工业、医疗、科研等多场景 | [链接](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1NVDBRMmRiRkFMTDQxdFoyQmNOTHZ3WmR5aU1ScWduZ0FvWE5vMkFIVVh2TVRjd1R3R0tpWG05S0llMFJnbGhnSFlERQ?oc=5) |
+| open-note —— 跨平台智能笔记 Agent 应用 | 开源工具 | 具有长期记忆和自我进化能力的跨平台智能笔记 Agent | [链接](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sdDdRREtRdGZZU29GQXdCZC1FVVJCZUdqbXdFMko4eS1Hb0pYT3dmLXJPUnBfdUdSWVQ3NFFwR2pFOVprMUwzTUNid2U3VkNFQmxKcGNqR2w?oc=5) |
+| agentscope-ai/QwenPaw | 开源工具 | 基于 Qwen 的 Agent 工具 | [链接](https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5Y240azh3bnBVb2xrVXQ5TWIxUmpNYUZaYXNPYkJJeHgzX1VXN2wwQVh4VGN0MFlBREZPdUdVNXlINi1jY2twbGVWUmRrZ0VKQkE?oc=5) |
+| Natively — 免费开源 AI 会议助手 | 开源工具 | 免费开源的 AI 会议助手，支持实时转录、AI 会议记录和面试副驾驶 | [链接](https://news.google.com/rss/articles/CBMieEFVX3lxTE9sa1FQRDJCX0RLd2habWZwazZiaTB2LWRUZTN3ZGFJUFVFcnFNMk9iOGdNWFB1VS1tdTZfenExdHFQcTlGWDlvSGVmcEpLWVUyNnljeEl0Rm1JWmJWdC1TLWRBMTVjYUdqMXVxd0VmUVVjM2tHTWZUaw?oc=5) |

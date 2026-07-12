@@ -142,3 +142,80 @@ The "Resource Update" blocks below are appended automatically by the script from
 | Agentforce in Slack | Product | Salesforce's AI agents integrated as teammates in Slack | [Salesforce](https://news.google.com/rss/articles/CBMifkFVX3lxTFBuSTVfb3FQclJBaEtYcTAtczRlWTFnWE5zR3d2MkFEUjlBVkk2OTlvbFVoeFZ5UXduMDl2MHdSOE1haGg5MFZDMzUtNzRWVEtjRThpcGVxNUwteHNnMXNTNzIwcjhPek1EZlhfR0h1cE82dy1fRXBXTFpGUllnZw?oc=5) |
 | Microsoft Copilot Studio + Docusign MCP | Integration | Microsoft's Copilot Studio integration with Docusign via MCP | [Microsoft Open Source](https://news.google.com/rss/articles/CBMidkFVX3lxTE1vVnhIS19BYVFiaGFfWXNFX2ZHSkx2T1pVSkJ2YktJcUl6Tm92T0xIR1BhNUZBWGM3ejRsdEhYclVpVklhd1htVWNtVzJUZ3FaZHNiOHM1X3hWSW1Ra1Y2dmhndXRDRUNKd2t1SFg1MjNaMmkzWGc?oc=5) |
 | Lyzr AI Agent Fundraise | News | Startup used its own AI agent to raise a $100 million round | [TechCrunch](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| spellbook | GitHub | Cross-runtime skills for Claude Code, Codex, and multi-agent workflows (234 stars) | [GitHub](https://github.com/majiayu000/spellbook) |
+| Class-AI-Agent | GitHub | Build production-ready AI agent configs for Claude Code with structured workflows, special agents, and clear rules | [GitHub](https://github.com/harishu652/Class-AI-Agent) |
+| RPA-Everything | GitHub | Turn repeated browser, desktop, Android, and office workflows into reviewed deterministic Skills with AI agents | [GitHub](https://github.com/mingqian94/RPA-Everything) |
+| n8n-ai-automation-portfolio | GitHub | Portfolio of end-to-end AI automation solutions built with n8n, AI Agents, LLMs, RAG, and workflow orchestration | [GitHub](https://github.com/fkpathan88-debug/n8n-ai-automation-portfolio) |
+| disp8ch | GitHub | Build automated workflows, run local AI agents, and manage tasks from a unified command center | [GitHub](https://github.com/monoplegiaunappetisingness288/disp8ch) |
+| obaa-chatbot | GitHub | Run an AI business consultant chatbot with full memory, user profiles, and daily usage limits for Ghanaian businesses | [GitHub](https://github.com/modulemineralwool546/obaa-chatbot) |
+| Message-Auto-Forwarding-AI-Agent | GitHub | Automate message forwarding across platforms with an AI agent that streamlines communication | [GitHub](https://github.com/JakobDK7/Message-Auto-Forwarding-AI-Agent) |
+| Live-meeting-transcript | GitHub | Real-time AI copilot for live meetings with four concurrent AI agents (fact-checking, action items, RAG, summaries) | [GitHub](https://github.com/parasar0810/Live-meeting-transcript) |
+| brain-tree-os | GitHub | Local-first project management system for AI agents with structured knowledge bases, execution plans, personas, and slash commands | [GitHub](https://github.com/Naturejackofalltrades252/brain-tree-os) |
+| m365-copilot-companion-mcp | GitHub | Personal MCP server giving Microsoft 365 Copilot hands-on access to files, Python, Office, SQL, Web (100+ tools) | [GitHub](https://github.com/MasayukiTa/m365-copilot-companion-mcp) |
+| MindAct | GitHub | Automate local knowledge management with an AI agent integrating Claude, Obsidian, and RAG for personal knowledge graphs | [GitHub](https://github.com/techspireinnovation/MindAct) |
+| kian | GitHub | Multi-agent workflows with built-in document management, task automation, and app development | [GitHub](https://github.com/chef5531/kian) |
+| rill | GitHub | Personal Knowledge Management (PKM) with voice journaling, Claude Code skills, and AI-powered knowledge distillation | [GitHub](https://github.com/rillmd/rill) |
+| skills | GitHub | Installable Claude Code Agent Skills — meeting-wrapup, meeting-summary, documenting-video | [GitHub](https://github.com/quietpublish/skills) |
+| agentic-drop-zones | GitHub | Automate file processing by monitoring directories and triggering agents when files are dropped | [GitHub](https://github.com/aangtriastanto/agentic-drop-zones) |
+| agent-hub | GitHub | Local-first visual workflow automation platform with natural language for building, modifying, and repairing flows | [GitHub](https://github.com/owen4sure/agent-hub) |
+| exec-meeting-prep-agent | GitHub | AI-powered Rhythm of Business (ROB) automation tool that tracks executive meeting readiness and generates Summary by Speaker documents | [GitHub](https://github.com/jay9parmar/exec-meeting-prep-agent) |
+| Offline-Neural-Facilitator | GitHub | Fully offline Facilitator Agent that listens in meetings, providing detailed AI summaries locally | [GitHub](https://github.com/ITSpecialist111/Offline-Neural-Facilitator-ONF-Foundry-Local---Poc) |
+| Home-office-automations | GitHub | Agent-maintained knowledge hub for a privacy-first home-office automation stack | [GitHub](https://github.com/joanmarcriera/Home-office-automations) |
+| dingtalk-wukong-skills | GitHub | Power DingTalk automation with curated Wukong agent skills for office work, travel help, and document processing | [GitHub](https://github.com/duffiewiccan103/dingtalk-wukong-skills) |
+| Pokemon-Claw-Monitor | GitHub | Real-time monitoring with a Pokemon-themed dashboard visualizing OpenClaw agents in a customizable pixel-art office space | [GitHub](https://github.com/aydan79/Pokemon-Claw-Monitor) |
+| Gmail-Agent | GitHub | AI-powered Gmail & Calendar assistant that reads/summarizes emails, auto-replies, and creates Calendar events from plain English | [GitHub](https://github.com/VrajaDev/Gmail-Agent) |
+| Backoffice-Automation-System | GitHub | Agentic Framework for Back-Office Automation | [GitHub](https://github.com/theTwoCubes/Backoffice-Automation-System) |
+| ie-office-starter | GitHub | Governed, composable AI workforce for local businesses — grounded, integrity-checked agents on a zero-dependency Node engine | [GitHub](https://github.com/Favoritchannel/ie-office-starter) |
+| AIfred-Intelligence | GitHub | Self-hosted Multi-Agent Assistant with Debate Modes, Voice, RAG with Long-Term Memory, Web Research, and Tool-Calling (33 stars) | [GitHub](https://github.com/Peuqui/AIfred-Intelligence) |
+| jarvis-ai-assistant | GitHub | Multi-agent AI assistant for email, tasks, contacts & calendar — FastAPI, React, OpenAI, LangChain (bilingual EN/中文) | [GitHub](https://github.com/bill051403/jarvis-ai-assistant) |
+| Compass | GitHub | Personal Knowledge OS with three-dimensional scoring engine, Feishu Bot interface, and Agent-native architecture | [GitHub](https://github.com/jadelaglace/Compass) |
+| pal-agent-scribe | GitHub | Scribe — content creation, remixing and knowledge management for Kingdom of PAL | [GitHub](https://github.com/promptalchemistlabs/pal-agent-scribe) |
+| plato-shell | GitHub | Plato Shell — agent runtime environment with command execution, context management, and module loading | [GitHub](https://github.com/SuperInstance/plato-shell) |
+| plato-fleet | GitHub | Fleet management for Plato Shell — multi-agent orchestration, scaling, and coordination | [GitHub](https://github.com/SuperInstance/plato-fleet) |
+| email-agent | GitHub | Agentic email assistant for Gmail powered by Claude | [GitHub](https://github.com/MarcosHBlanco/email-agent) |
+| AI-email-agent | GitHub | AI-powered email assistant for DJI drone store | [GitHub](https://github.com/vubes44/AI-email-agent) |
+| email-assistant-agent | GitHub | AI email assistant that triages, prioritizes, drafts responses with CrewAI, and pauses for human review with LangGraph | [GitHub](https://github.com/wang2653/email-assistant-agent) |
+| Reminder | GitHub | Backend service for organizing personal knowledge and documents with smart indexing and RAG Q&A | [GitHub](https://github.com/juemimgcd/Reminder) |
+| meeting-notes-ai-agent | GitHub | Streamlit app turning meeting transcripts into clean summaries, key decisions, action items, and downloadable JSON reports | [GitHub](https://github.com/saisanket232/meeting-notes-ai-agent) |
+| MSFoundryMeetingSummaryAgent | GitHub | Meeting summary agent | [GitHub](https://github.com/praveen11singh/MSFoundryMeetingSummaryAgent) |
+| treemind-ai | GitHub | TreeMind AI — local-first, agent-driven Personal Knowledge Management (PKM) tool | [GitHub](https://github.com/akash1304zzzz/treemind-ai) |
+| ContentMind-AI | GitHub | Intelligent Personal Knowledge Management Agent | [GitHub](https://github.com/Anis-h-coder/ContentMind-AI-Intelligent-Personal-Knowledge-Management-Agent) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Progressive Crystallization: Turning Agent Exploration into Deterministic, Lower-Cost Workflows in Production | arXiv | Introduces a lifecycle that treats agent exploration as discovery, defining three-stage execution taxonomy from fully agent-orchestrated to fully deterministic workflows | [arXiv](https://arxiv.org/abs/2607.07052v1) |
+| Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting | arXiv | Examines how LLMs, RAG, and multi-agent systems reshape actuarial practice for reasoning over unstructured documents and regulated decision workflows | [arXiv](https://arxiv.org/abs/2607.07858v1) |
+| Evaluating SageMath-Augmented LLM Agents for Computational and Experimental Mathematics | arXiv | Proposes ReAct-style agentic setup combining LLM reasoning with verifiable SageMath feedback for solving research-level mathematical problems | [arXiv](https://arxiv.org/abs/2607.06820v1) |
+| SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis | arXiv | Autonomous LLM multi-agent framework that automates end-to-end spatial and single-cell transcriptomics trajectory inference | [arXiv](https://arxiv.org/abs/2607.07467v1) |
+| Physics-Audited Agentic Discovery in Scientific Machine Learning | arXiv | Verification-first workflow for agentic SciML discovery that audits predicted fields for physical constraints beyond error metrics | [arXiv](https://arxiv.org/abs/2607.07379v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| 全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型 | 36氪 | Anthropic clarifies confusion between model selection and effort settings in Claude Code, explaining why bigger models don't always mean smarter results | [36氪](https://36kr.com/p/3892222176574211?f=rss) |
+| The foundational elements of AI architecture that IT leaders need to scale | MIT Technology Review | Covers foundational AI architecture elements for scaling agentic systems and managing risk in evolving use cases | [MIT Technology Review](https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/) |
+| Rethinking cloud operations with agentic observability | Microsoft Blog | Discusses new era of cloud operations as AI-driven and autonomous agents become larger part of modern software systems | [Microsoft Blog](https://blogs.microsoft.com/blog/2026/06/23/rethinking-cloud-operations-with-agentic-observability/) |
+| Why AI Infrastructure must evolve for Agent Experience | Latent Space | Modal CTO explores why Agent Experience is working now and lessons learned building the new agent cloud | [Latent Space](https://www.latent.space/p/modal2026) |
+| Vercel's Andrew Qu on why agents are a new kind of software | Latent Space | Explains how Vercel's agent framework eve was created and why skills, sandboxes, and agent-readable websites matter | [Latent Space](https://www.latent.space/p/vercel-agents-new-software) |
+| The website of the future may assemble itself for every visitor | Latent Space | Adobe experiments with "agentic sites" that generate pages around individual user intent | [Latent Space](https://www.latent.space/p/the-website-of-the-future) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenAI Research & Deployment | Product | Choco automates food distribution with AI agents; CyberAgent moves faster with ChatGPT Enterprise and Codex | [OpenAI](https://openai.com/) |
+| 15 best AI agent builder tools in 2026 | Hostinger | Curated list of top AI agent builder tools for 2026 | [Hostinger](https://news.google.com/rss/articles/CBMibkFVX3lxTE80WHNfRkpFY3hSS21lbDVTR2F6aVpOVEFNVm10a0xucXNPckFiOGFPNndRMmZZenJHRkU5Tnd4aF9hRHJBSjR5aHlnRDB5STdXeFZfTkMwWFp2OTlReVR4MzVwemltY3Z3c2hqUGdB) |
+| Building AI Agents for AR Glasses and XR Devices with NVIDIA XR AI | NVIDIA Developer | Guide for building AI agents for AR glasses and XR devices using NVIDIA's XR AI development kit | [NVIDIA Developer](https://news.google.com/rss/articles/CBMiowFBVV95cUxQa1NxS2JyNmkxZmtSdWsxTnNnX19lNE52YTN3aTdRdmhyRmFnOFBBZFJ0dmtwaVlldkZocEg4SERpY21ZQ0FkMVJMUHhXRmdTZzRlZnNBMndvYVFlYXNhOXBNVk5XVFZnenBvTkFvalAxSnpkNlBHUkZPb0d6X3I0YWs4YksyVnRhS1dHNEdvalo4RXNhbTlHSktvUlNMaDdBLVBz) |
+| Advancing agentic AI for productivity and intelligent automation on IBM Z | IBM | IBM's approach to agentic AI for productivity and intelligent automation on mainframe systems | [IBM](https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHlnVkpVZXZwdjJEUFp0bmJtODlwSDFiWGw5d3V2NG5PcWRGMlBreW14Wm1naWYtbVlVRjVDbzBDN3ZURHFNbm9nbmZLaWdMYzlGZjFOWlBWX0d2QVgxRm8waFlybnpDT3A0Q1BRZm1RS1ZrSXBRRjBzM05HeEVfZ1QyYmhFVzNMOVRuSWpIcXFVN0VnSmVxd0dPSWlfVmtJWEpoMlhHcTNISGpjRG5kTA) |
+| The Agentic Stack: Discover the Gemini Enterprise Agent Platform | DEV Community | Overview of Google's Gemini Enterprise Agent Platform | [DEV Community](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVVpTMHRlbkk5M2xuVFJISnVqUlo1SjVZMFBOSGZCSkxtMkxxRG1OcjVSNGpLTWhCcVZmM3pmVXdjMWlhWFFQSFdYaEplYjVZZndNbWZyTGVhTXo1UV9GMUFnbjBQSjlnZW9HMEJMUzhHWVFBX0V4MFlUTkxKX1JNMmdyemZSa1ljVThQdFU2N2IxLUlxZVlrUGZnYkNSMmlTdVZCTHRYVy1Qa3JjcFRrbnBXUFpEaG1h) |
+| Natively — Free open-source AI meeting assistant | GitHub | Open-source alternative to Cluely, Otter, Granola, Fireflies with real-time transcription and AI meeting notes | [GitHub](https://news.google.com/rss/articles/CBMieEFVX3lxTE9sa1FQRDJCX0RLd2habWZwazZiaTB2LWRUZTN3ZGFJUFVFcnFNMk9iOGdNWFB1VS1tdTZfenExdHFQcTlGWDlvSGVmcEpLWVUyNnljeEl0Rm1JWmJWdC1TLWRBMTVjYUdqMXVxd0VmUVVjM2tHTWZUaw) |
