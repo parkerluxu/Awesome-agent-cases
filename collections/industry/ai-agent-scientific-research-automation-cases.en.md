@@ -138,3 +138,82 @@ The "Resource Update" blocks below are appended automatically by the script from
 | PromptBio Agentic AI Platform | PromptBio | Agentic AI platform to accelerate scientific discovery. | [BioPharma APAC](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeHhZQ3BwUVVMbHVBa1RmNlcxR2dKakhSVkk5ZTZBd01wOHBjQzJaZ2tnYjBqVlF2My1kSlp4ai02U3BJQ3hEbHVQX0ZkU01zTjdBMGZFQk1mN2pSNm1fbnJodnVYdTRVVk52REEwM0gwMkEwZkZFWnYtTGJBWTVwODc3c19VeEFfU2trekZVOEhUb3dRZEZyc1ppaXhleXF2LVJzdDFrSklLckNZT3lMTkpnbWE1RU1Z?oc=5) |
 | Agent-EvalKit | AWS | Systematic evaluation framework for AI agents. | [AWS](https://news.google.com/rss/articles/CBMioAFBVV95cUxQeldfMDFMWnNrN3oxZFJsMjVWSEtWaGtWdzRDR2pZVGxaWDlsb0otVEtTQ0dzR2R6blZjUENETm9WZGQ1R0xpUU03MGlyS0swTjlIWU5PRV9RcXd4UDlGSnZBVUw4NFR4N2hqNjFOdzVyQVhRaXdZdWVpMXhVU2hsUlAwWU1RZWpyQzgwZ2JjaHc5TGE4RzE2c1Z2RVFWWVRz?oc=5) |
 | Universal Biomedical AI Agent | Research | Groundbreaking universal biomedical AI agent achieving real-world research performance near human experts, published in Science. | [36 Kr](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzUUVNS29lbExQWjJsbkd4UUV6VUtxSlhaWVNJUjNQQVNncllsRV9vSWw1eFJxRWNxYlBOZklwZnpQUzc4djBIbGlEVnNFbEN3WDVZ?oc=5) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| MathModel-Skill | GitHub | Agent-native mathematical modeling workflow skills for Trae, Claude Code, and Codex, covering problem parsing, modeling, code generation, evidence checks, paper writing, and Word delivery. | [GitHub](https://github.com/yushui2022/MathModel-Skill) |
+| content-generator-agent | GitHub | Autonomous AI agent that turns Arxiv research papers and news feeds into professional LinkedIn posts. | [GitHub](https://github.com/rishabhpatre/content-generator-agent) |
+| awesome-auto-research-hub | GitHub | Curated hub for AI systems that automate scientific research: literature review, survey synthesis, experiment design, paper writing, AI scientists, and autonomous research agents. | [GitHub](https://github.com/jin-s13/awesome-auto-research-hub) |
+| consensusmind | GitHub | Autonomous AI agent for literature review, simulations, and academic writing on blockchain consensus mechanisms. | [GitHub](https://github.com/rehbel/consensusmind) |
+| awesome-scientific-ai-tools | GitHub | Discover AI tools, MCP servers, and agent skills for scientific research across literature, data, writing, and lab work. | [GitHub](https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools) |
+| Multi-Agent-AI-Literature-Review-System | GitHub | Python-based multi-agent research assistant that ingests academic sources, parses citations, filters relevance, and synthesizes literature insights using LLM-driven query planning. | [GitHub](https://github.com/DeepthiDayanand/Multi-Agent-AI-Literature-Review-System) |
+| Plato-Scientific-Research-Autonomous-Agent | GitHub | Multi-agent AI scientist that turns experimental data into publication-ready research papers. | [GitHub](https://github.com/Eldergenix/Plato-Scientific-Research-Autonomous-Agent) |
+| scientific-thinking-general | GitHub | Apply structured scientific reasoning to AI agents to decompose questions, verify claim provenance, and rank explanations by evidence strength. | [GitHub](https://github.com/felipedeso7za4444/scientific-thinking-general) |
+| awesome-researchclaw | GitHub | Curated ResearchClaw tools, agents, and papers for AI-powered academic research, workflows, and paper writing. | [GitHub](https://github.com/Audiedashed559/awesome-researchclaw) |
+| daily-research | GitHub | Repository for daily research using AI agent harness. | [GitHub](https://github.com/shiwangi27/daily-research) |
+| sciweon | GitHub | AI-Driven Scientific Discovery platform — compound intelligence platform for AI Agents. | [GitHub](https://github.com/mosesy5688-cell/sciweon) |
+| deep-researcher | GitHub | Search Google Scholar, enrich papers with OpenAlex, and build structured literature reviews locally. | [GitHub](https://github.com/zebulensharedout782/deep-researcher) |
+| agent-aireadyy | GitHub | AI-agent experiments for biomedical reading, research assistance, and workflow automation. | [GitHub](https://github.com/Jyx0208/agent-aireadyy) |
+| PaperOrchestra | GitHub | Automate research paper writing with multi-agent skill pack for coding agents; convert unstructured data into LaTeX papers. | [GitHub](https://github.com/Aukexecutivedepartment5152/PaperOrchestra) |
+| FinSightAI-Antigravity-MCP | GitHub | Multi-Agent Equity Research Assistant built with Google ADK 2.0, MCP, Flask, and Gemini. | [GitHub](https://github.com/PoojaKuniyal/FinSightAI-Antigravity-MCP) |
+| rumi | GitHub | Build autonomous scientific research agents with this terminal-native framework for machine intelligence. | [GitHub](https://github.com/josemanuelm9203/rumi) |
+| SciLink | GitHub | LLM-powered agents for scientific research automation. | [GitHub](https://github.com/ziatdinovmax/SciLink) |
+| sisyphus-academica-902 | GitHub | Automate research paper writing with specialized agents, novelty engines, and adversarial reviewers. | [GitHub](https://github.com/Lateripening-ritual19/sisyphus-academica-902) |
+| research-english-academic-paper-writing-guide | GitHub | Course-grounded Agent Skill and full Markdown reconstruction for research and English academic paper writing. | [GitHub](https://github.com/1235357/research-english-academic-paper-writing-guide) |
+| template_autoscientists | GitHub | AutoScientists: deterministic multi-agent scientific-discovery coordination harness with ≥90% test coverage. | [GitHub](https://github.com/docxology/template_autoscientists) |
+| llm-agent-research-extractions | GitHub | Prompt, logic, flow, and Mermaid graph extractions for AI Scientist v2, Self-Refine, and Reflexion. | [GitHub](https://github.com/faresrafat3/llm-agent-research-extractions) |
+| MEP | GitHub | Miao Exchange Protocol — AI-to-AI Economy for Autonomous Agents; research in distributed compute allocation, federated data markets, and agent-to-agent communication. | [GitHub](https://github.com/WUAIBING/MEP) |
+| AutoResearch | GitHub | Self-improving AI research: LLM agent loop that optimizes MLP language model. | [GitHub](https://github.com/eniompw/AutoResearch) |
+| Alphamoo | GitHub | Bayesian scientific discovery agent for ARC-AGI-3. | [GitHub](https://github.com/0xKunalsharma/Alphamoo) |
+| ai-junior-data_scientist | GitHub | Analyze fintech data with an AI Junior Data Scientist Agent performing EDA and churn modeling via local LLM and FastAPI. | [GitHub](https://github.com/Maranh0/ai-junior-data_scientist) |
+| terraqore-studio | GitHub | Meta-Agentic AI Orchestration Platform for developing full-cycle AI projects. | [GitHub](https://github.com/terramentis-ai/terraqore-studio) |
+| open-science | GitHub | Open-source, model-agnostic AI workbench for scientific discovery. | [GitHub](https://github.com/aipoch/open-science) |
+| My-LangGraph-Journey | GitHub | Learning, experiments, and practice with LangGraph and Agentic AI development. | [GitHub](https://github.com/waleedkhattakjj-glitch/My-LangGraph-Journey) |
+| multi-agent-literature-review-system | GitHub | Multi-agent literature review system. | [GitHub](https://github.com/DavidZ05/multi-agent-literature-review-system) |
+| arsenal-unified-master-pipeline | GitHub | ARSENAL — Unified master LLM agent pipeline combining AI Scientist v2, Self-Refine, Reflexion, Meta-Prompting, LATS, APE, and The Prompt Report. | [GitHub](https://github.com/faresrafat3/arsenal-unified-master-pipeline) |
+| sea-ad-jepa-agent | GitHub | Graph-JEPA framework for SEA-AD Alzheimer microglia: pathology-grounded representation learning and counterfactual gene-network hypothesis generation. | [GitHub](https://github.com/dushyant-mishra/sea-ad-jepa-agent) |
+| coscientist | GitHub | Open reimplementation of an AI co-scientist on Claude: multi-agent hypothesis generation with dynamic-weighting supervisor and eval harness. | [GitHub](https://github.com/manu-tej/coscientist) |
+| CausalOps | GitHub | Kafka-native multi-agent cyber decision system separating LLM hypothesis generation from evidence-backed causal inference. | [GitHub](https://github.com/darshgarg7/CausalOps) |
+| agentscan | GitHub | Open experiment in detecting automation patterns on GitHub. | [GitHub](https://github.com/MatteoGabriele/agentscan) |
+| computer_Agent | GitHub | Automation and trading experiments built on Agent S2 open-source computer-use agent framework. | [GitHub](https://github.com/GeneralTradingSarl/computer_Agent) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Towards Automating Scientific Review with Google's Paper Assistant Tool | arXiv | Proposes a taxonomy for deploying AI to accelerate verification and review processes in scientific peer review. | [arXiv](https://arxiv.org/abs/2606.28277v1) |
+| AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions | arXiv | Argues that multi-agent systems may evolve from passive tools into "AI scientists" expanding hypothesis generation and verification capacities. | [arXiv](https://arxiv.org/abs/2606.22859v1) |
+| Configuration Smells in AGENTS.md Files | arXiv | First catalog of smells for coding-agent configuration files, analyzing common mistakes in AGENTS.md/CLAUDE.md files. | [arXiv](https://arxiv.org/abs/2606.15828v4) |
+| Can Language Model Agents be Helpful Circuit Explainers in Mechanistic Interpretability? | arXiv | Introduces AgenticInterpBench, a benchmark for circuit explanation built from 84 semi-synthetic transformer circuits. | [arXiv](https://arxiv.org/abs/2606.24026v1) |
+| SwarmFly: A simulation platform for UAV swarm experiment design and validation | arXiv | MATLAB-based simulation and test platform for multi-UAV swarms combining real-time operational map and modular design. | [arXiv](https://arxiv.org/abs/2606.25146v1) |
+| MetaResearcher: Scaling Deep Research via Self-Reflective Reinforcement Learning | arXiv | Framework scaling deep research agent training across four dimensions including Evolving Virtual World and adversarial environments. | [arXiv](https://arxiv.org/abs/2606.19893v1) |
+| From Anatomy to Smells: An Empirical Study of SKILL.md in Agent Skills | arXiv | First systematic study of SKILL.md files in Agent Skills, analyzing authoring practices and guideline adherence. | [arXiv](https://arxiv.org/abs/2607.01456v2) |
+| FORGE: Research-Trajectory Hijacking Attacks on Deep Research Agents | arXiv | Presents FORGE, a two-level attack combining intra-document reasoning fabrication with planning-layer poisoning for deep research agents. | [arXiv](https://arxiv.org/abs/2607.04718v1) |
+| Evolution Fine-Tuning: Learning to Discover Across 371 Optimization Tasks | arXiv | LLMs integrated into evolutionary search producing state-of-the-art solutions on optimization tasks including mathematical conjectures and GPU kernel design. | [arXiv](https://arxiv.org/abs/2606.29082v1) |
+| Closing the Loop to Discover Psychological Theories with an Automated Cognitive Scientist | arXiv | Applies closed-loop discovery to cognitive science, automating theory generation and experiment design. | [arXiv](https://arxiv.org/abs/2606.26448v1) |
+| EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments | arXiv | First evidence that performance during environment learning follows a log-sigmoid scaling law across 134 real-world tasks. | [arXiv](https://arxiv.org/abs/2607.05155v1) |
+| ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | Hugging Face Blog | Benchmark for AI agents performing enterprise Java framework migration tasks. | [Blog](https://huggingface.co/blog/ibm-research/scarfbench) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| An AI agent startup just let its agent run its $100M fundraise | TechCrunch | Lyzr used its own AI agent to raise a $100 million round. | [Article](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) |
+| Securing the future of AI agents | DeepMind Blog | AI Control Roadmap combining traditional safeguards and real-time monitoring for internal systems. | [Blog](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |
+| Data for Agents | Hugging Face Blog | NVIDIA's open data for agents initiative. | [Blog](https://huggingface.co/blog/nvidia/open-data-for-agents) |
+| The foundational elements of AI architecture that IT leaders need to scale | MIT Technology Review | Foundational AI architecture elements for scaling agentic systems. | [Article](https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/) |
+| ChatGPT is now a partner for your most ambitious work | OpenAI Blog | ChatGPT Work agent that can take action across apps and files, staying with projects for hours. | [Blog](https://openai.com/index/chatgpt-for-your-most-ambitious-work) |
+| Why AI Infrastructure must evolve for Agent Experience | Latent Space | Modal CTO on why Agent Experience is working now and lessons building the new agent cloud. | [Article](https://www.latent.space/p/modal2026) |
+| Skill engineering and the case against one-shot AI design | Latent Space | Paul Bakaus on Impeccable, human judgment in a 'loopmaxxing' era, and why agents still need people. | [Article](https://www.latent.space/p/skill-engineering-design) |
+| Rethinking cloud operations with agentic observability | Microsoft Blog | AI-driven and autonomous agents for cloud operations management. | [Blog](https://blogs.microsoft.com/blog/2026/06/23/rethinking-cloud-operations-with-agentic-observability/) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Elsevier LeapSpace™ | Product | New agentic capabilities for tasks across the complete research workflow. | [PR Newswire](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTkR5eG1KNEdza2hMNEdpT0M2d1MyMlhMYmE5aVRaVUt3OVVNSVZLTmNUZWFWa0c3UGtkbjdUNjhsaW9TenhlRFgxYjFFSUpoLUhvU0xjU3Q5Yy13LS1OUzNtVVp1LVMwXzlTNkF6YTNhZDlDZnRpU21hNWtvb1M4TTF0NHJZR0dCNmVKQVlCUTNhbnF2NFVtb3EwRVVTN19qNF9QblhMdG50XzU1VWpDeTY5X3YzXzVZQ2F4dTVaX0p3RnZMRmdVQWMtc3dOaVJ6UXJtWERNcFR3SzNrVjlfXzZtckhOazhzZHI5OGlSemxTdw?oc=5) |
+| Oracle Data Science Agent | Product | Conversational machine learning in autonomous AI database. | [Oracle Blogs](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZkVZZmNNREs3dXBfaDloMXdIMXFDb3J5SlpxUnY4S1RjX2haWUNpeE0tQTdraGJpN1h4VEhyRURpZkJWYjZLZ0ZFVlBIUTNsQVhVTFZOc3JDVldjTV92Qkd2VFl4TG9jREFMdWU3OG14RFoxWUZDckJCM2hFenJ4WDFyblRrcnJCajFqMmI5V3c2bndBSjNDUjhRMEtBb2xxUktPMGN1Ym50eDZnU0ljMkpiZDd1WHZHaldyS3JtR000dw?oc=5) |
