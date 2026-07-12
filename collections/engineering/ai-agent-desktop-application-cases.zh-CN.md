@@ -239,3 +239,54 @@
 | 名称 | 类型 | 用途 / 摘要 | 链接 |
 |------|------|-------------|------|
 | 为什么我觉得 Codex 更接近通用 AI Agent 的理想形态 | 媒体文章 | 少数派文章，探讨 Codex 作为通用 AI Agent 理想形态的原因。 | https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBiSkQ0c3RYM2xpVWQ5Z0hmY3lrekh1em9tZjZCN1dxdjNfWXNkYlVNX3h5SDZXMm5NZ0x1TXVqRW1CZXM?oc=5 |
+
+## 资料更新（2026-07-12）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| OpenCoworkAI/open-cowork | 开源桌面应用 | 开源 AI Agent 桌面应用，支持 Windows/macOS，一键安装 Claude Code、MCP 工具和 Skills，具备沙箱隔离、多模型支持及飞书/Slack 集成 | [GitHub](https://github.com/OpenCoworkAI/open-cowork) |
+| nexu-io/open-design | 开源桌面应用 | 开源 Claude Design 替代方案，本地优先桌面应用，将编码 Agent 变为设计引擎，支持原型、落地页、仪表盘、幻灯片、图片及视频生成，导出 HTML/PDF/PPTX/MP4，兼容 Claude Code / Codex / Cursor / Gemini 等 20+ CLI | [GitHub](https://github.com/nexu-io/open-design) |
+| getpaseo/paseo | 开源桌面/移动应用 | 从桌面和移动端编排多个编码 Agent | [GitHub](https://github.com/getpaseo/paseo) |
+| cuga-project/cuga-agent | 开源 Agent 框架 | 面向企业的通用 Agent 框架，支持 Web 和 API 上的复杂任务执行、OpenAPI/MCP 集成、可组合架构、推理模式及策略感知功能 | [GitHub](https://github.com/cuga-project/cuga-agent) |
+| nomifun/nomifun-tauri | 开源桌面应用 | 完全开源、本地优先的超级 AI 工作站，基于 Tauri | [GitHub](https://github.com/nomifun/nomifun-tauri) |
+| GeronimoDiClemente/raven-nest | 开源桌面应用 | 面向 Claude Code、Codex 和 Gemini 的多 Agent 终端，基于 Electron + React，支持并行运行多个 AI Agent | [GitHub](https://github.com/GeronimoDiClemente/raven-nest) |
+| MadBlast0/Cli-launcher | 开源桌面启动器 | 跨平台桌面启动器，统一安装、更新、卸载和启动 17 种终端 AI Agent（Claude Code、OpenCode、Gemini CLI、GitHub Copilot、Aider 等），macOS 风格面板 | [GitHub](https://github.com/MadBlast0/Cli-launcher) |
+| DorShaer/Husk | 开源桌面应用 | 为 CLI Agent 提供桌面外壳，将 claude / copilot / codex / aider 封装在 Electron 窗口中，支持 PTY、MCP、拖拽上下文、会话、语音和实时状态面板 | [GitHub](https://github.com/DorShaer/Husk) |
+| ai-creed/ai-14all | 开源桌面应用 | 任务控制桌面应用，跨 Git 工作树并行运行 AI 编码 Agent | [GitHub](https://github.com/ai-creed/ai-14all) |
+| Fzkuji/GUI-Agent-Harness | 开源 GUI Agent | 自主 GUI Agent，给定任务即可操作桌面，具备视觉记忆和一次性 UI 学习能力 | [GitHub](https://github.com/Fzkuji/GUI-Agent-Harness) |
+| Nex-Z/openEagle | 开源桌面 Agent | 桌面 AI Agent，可查看屏幕并代表用户操作，结合聊天、工具和 GUI 自动化，配备三层安全模型 | [GitHub](https://github.com/Nex-Z/openEagle) |
+| drewnekota/cetus | 开源桌面 Agent | 基于 DeepSeek V4.1 的 macOS 桌面 Agent，可观察屏幕、记忆重要信息并代表用户行动 | [GitHub](https://github.com/drewnekota/cetus) |
+| 24kHandsome1201/tunara | 开源侧栏终端 | 轻量美观的 AI 原生侧栏终端，基于 Tauri + React + xterm.js，支持多会话侧栏，识别 12 种 AI Agent CLI，提供只读 Git diff review 面板 | [GitHub](https://github.com/24kHandsome1201/tunara) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| SovereignPA-Bench | 论文/Benchmark | 评估用户拥有的个人 Agent 在意图演变、平台中介和同意约束下的主权保持能力 | [arXiv](https://arxiv.org/abs/2607.05363v1) |
+| EvoAgentBench | 论文/Benchmark | 通过能力迁移评估 Agent 自我进化能力的基准 | [arXiv](https://arxiv.org/abs/2607.05202v1) |
+| AgentGym2 | 论文/Benchmark | 在去理想化的真实世界环境中评估 LLM Agent 的基准 | [arXiv](https://arxiv.org/abs/2607.05174v1) |
+| Do GUI Agents Believe Their Eyes? | 论文 | 诊断 GUI Agent 对像素与结构的状态信念依赖 | [arXiv](https://arxiv.org/abs/2607.04334v1) |
+| ProCUA-SFT Technical Report | 论文/数据集 | 面向计算机使用 Agent 的 310 万步监督微调数据集，解决 AgentNet 负迁移问题 | [arXiv](https://arxiv.org/abs/2606.17321v1) |
+| ScarfBench | Benchmark | 用于企业 Java 框架迁移的 AI Agent 基准 | [Hugging Face](https://huggingface.co/blog/ibm-research/scarfbench) |
+| UniClawBench | Benchmark | 面向真实世界任务中主动 Agent 的通用基准 | [Hugging Face](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uaHFfUzFRT19GY1NtR0hXNnpBS3FoMUFVQTVyMlpqalU2dS1HSGhmMkNiSGYyWDRtVWRUR3E5SUlac0pJV0lYZ285TzRZSmVNLXc?oc=5) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Codex 下载、安装、配置保姆级教程（2026 最新版图解） | 教程 | Codex 多平台安装配置图解教程 | [知乎](https://zhuanlan.zhihu.com/p/2053527979850986310) |
+| Claude Desktop Windows 版一周上手 | 教程 | 从安装到 Claude Code 实战开发的 Windows 版上手体验 | [CSDN](https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xbVlCQXIySk00anVLRjBuX0VBb1JiSWxBaDJoU0Z3OGwybXZWdlBwc2tPdmJaUWdWa0thMWhSSDhkY3dTTVR5amREck1wdV9LMFhwblpsRG5jMERxellrNFJR?oc=5) |
+| 2.8 万 Star！这个开源 AI 桌面应用，把 Claude Code、Codex 全装进了同一个界面 | 媒体实测 | 介绍某开源 AI 桌面应用（推测为 open-cowork 或类似项目）的实测文章 | [devpress.csdn.net](https://news.google.com/rss/articles/CBMiY0FVX3lxTE11WmdXQ3V4OW1hTkYzZW9lVnBHRXhrZ2tIWGtTQ1FpNzBqMTRLRnFlcm1wa3M0cjdXcjJDWlByZDVaQ3lSSXVQM05PQVFpcUFUczJaUmc1Y2tLQk1DaFMybTlvcw?oc=5) |
+| OpenAI Codex 周活跃用户 5 个月从 60 万猛增至 500 万 | 行业报道 | Codex 用户增长数据及 AI Agent 赛道分析 | [虎嗅网](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEenB0V2dvMzhTYnFJWi1ReUIxVk1GNjZPQkU2UWxtTUQ4TnFIUUdxR18yRGFyTEYtemNsRlRQT0pUd3JxV1l4bEx2NHIyT3VuZFE?oc=5) |
+| Claude、Cursor、OpenClaw 集体上手机，Agent 成最卷打工人 | 行业报道 | Agent 移动化趋势及 007 全勤工作模式报道 | [36 Kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBXaExkY0FPR01Ma21ZSjJPbkx0eUczYm8wSDJURU9QcTlmMGdrTWZtbVI5M2dGOVRWbUZMbERMYndPUnJ5YlYwMnlpOG82dw?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ChatGPT Work + GPT-5.6 | 产品更新 | OpenAI 将 Codex 合并到桌面应用，推出 ChatGPT Work，支持业务工作流中的 AI Agent | [AppleInsider](https://news.google.com/rss/articles/CBMiswFBVV95cUxPa0g3SnhYSHM2MXg5NkcxRHdMQUthTFNyWU45ck01a1ZWTWwwUm5uWk5SaXFKaGEtTmJiTEpqbkpoMXd2dzBJbkZaVzhvaDdpb1NseUNCY3FYUHlKcWZBZm1rYlJGNHlFbXBwR2VvcHZJdTA3am9LTWZsVDVjZFhJV29veElNdVVzdUp2TnBQRjRjRHh6U24xdUZlakpiN3ZlRjR2cTc2UGJocTRGZHhXNGRvSQ?oc=5) |
+| GitHub Copilot 桌面应用 | 产品发布 | GitHub 推出 Copilot 桌面应用，支持并行 Agent 开发工作流 | [Infoq.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WemJtZDlleTNFZVZ3V3NrS091S1lZZmhvWXhVQnlYSEVsY3U1MGpDRzdDbzBucWF6emVaLXkzLXNmZTJJQjVvSjNPZnhPQ3FBb1FCUHJWZzJPSlB0T0E?oc=5) |
+| AWS 推出桌面 Agent 服务 | 产品发布 | AWS 发布面向 Agent 的桌面产品 | [The New Stack](https://news.google.com/rss/articles/CBMiakFVX3lxTE4xaDUxQ19DcHdDZEJfNG0xczc1M3oyLXFPZ0ZWV3dGQW5wcUg5WmcwSWZETEVaa0NXTkliTG9NcjdDNlhBQ205eXprNjlMbXNkenRsSThtZUFYOTRpVFR5ZHhHVDRWNm1BM3c?oc=5) |
+| headroom-desktop | 工具 | 解锁 2 倍 Claude Code 和 Codex 使用量的桌面工具 | [GitHub](https://news.google.com/rss/articles/CBMiV0FVX3lxTE50S3VRbDBrOEROWTlwc3ZPTkZMTG1wNC1rdER4dG9DVno0MFYyMkdQVmk0QXVyejJaQVNGV29QSXRlOFJYNkhzSC1nRk0wOXlUYU1CWXF4OA?oc=5) |

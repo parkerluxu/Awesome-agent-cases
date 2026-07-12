@@ -201,3 +201,50 @@ This section is divided into two categories: `2 Tutorials / Cases` and `13 Proje
 | 自研Agentic AI EDA平台 | Product | Self-developed agentic AI EDA platform helping chip design enter a new stage. | [content.foshanplus.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE9LSktIVEkyandXcTVncHA3bVBWRlUyc2RIVWd5UXdyS1RGT25NT0dzVUNrZmo4OEd0RkRkOWZIeWVaQ2NNNUtrS3I1ZWdkVzkwWHZwRDFTVG5UWVlVNW5oTnhhWE9HTEdlTldkY2tqaWl5QkxFWWw3MVJ3?oc=5) |
 | Graser TECHTALKS 2026 | Industry event | AI in Sync: Graser TECHTALKS 2026 highlights electronic design paradigm. | [digitimes](https://news.google.com/rss/articles/CBMihgFBVV95cUxPYURITnZQblZydFpLWGU1RVlmMXlpQ0hTUU5maEJJdENna2ppSnVUR0I2VU16Zm5xaWhEQWg4d1FuT1NOLTRNdXZETWtlakZmU1M4WHhjWmtKbXdadnpxZ0pvcVphNWJqMDZmNDhRUERXMjNSUGlGY2NHUDNERzdoX200WFhOQQ?oc=5) |
 | When AI No Longer Just Assists but Controls EDA Workflows | Industry analysis | Analysis of the shift from AI-assisted to AI-controlled EDA workflows. | [All-About-Industries](https://news.google.com/rss/articles/CBMiygFBVV95cUxObTF6UmRiYmlacktibThVbVJjclNqRWtZSFgzNTB6U21vTktocE5BUzYwekc4Q3lPNHZxb2hpdTR4Y3d6LXJZM0xEZFBWQ0MzS0xwVHl2ZkF5TjdiWU9YY1pWZlZyb2JIcF9yY1pGZWZ4REp1a2owei1sb3JvQWdQcllyLUo5ajI4UjNpdTk2MjFuWEtkZjJCMkRKaUwxeHA2VDhUbEJhTTA4RDN4TEN6b3NJeFVpRGpHSE1nTnFEZTM0YVNnZlJmRXV3?oc=5) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| tipoLi5890/altium-kicad-cli | CLI + Claude Code plugin | Zero-dependency Python tool to read Altium and KiCad files, run ERC/power/BOM/diff/pinmap checks, and draw KiCad schematics. Built for AI coding agents. | [GitHub](https://github.com/tipoLi5890/altium-kicad-cli) |
+| tylerdotai/nic-pcb-agent | KiCad assistant | OpenClaw PCB design assistant for KiCad — schematic generation, headless PCB layout, DRC validation, board inspection, BOM, and manufacturing documentation. | [GitHub](https://github.com/tylerdotai/nic-pcb-agent) |
+| HiwarkhedePrasad/CircuitBot | AI design tool | AI-assisted electronics design from natural-language intent to KiCad-compatible schematic and PCB files. | [GitHub](https://github.com/HiwarkhedePrasad/CircuitBot) |
+| mixelpixx/Konnect | KiCad plugin | AI-assisted PCB design for KiCAD 10. Native plugin — a single Rust binary exposing 171 schematic, layout, routing, design-review, and manufacturing tools to Claude or other LLMs. | [GitHub](https://github.com/mixelpixx/Konnect) |
+| eigencore-org/tracewise-kicad | KiCad plugin | AI-powered PCB and schematic review plugin for KiCad. One-click DFM analysis, component verification, and design recommendations. | [GitHub](https://github.com/eigencore-org/tracewise-kicad) |
+| tscircuit/circuit-to-svg | Conversion tool | Convert Circuit JSON into Schematic/PCB/Assembly SVGs. | [GitHub](https://github.com/tscircuit/circuit-to-svg) |
+| alplabai/signex | EDA tool | Open-source, AI-first EDA tool — KiCad-compatible schematic and PCB editor built in Rust. | [GitHub](https://github.com/alplabai/signex) |
+| biosshot/easyeda-copilot | EasyEDA assistant | AI-powered assistant for EasyEDA — generate schematics from natural language, browse LCSC components, design PCBs with custom DRC configurations, and get interactive circuit design help. | [GitHub](https://github.com/biosshot/easyeda-copilot) |
+| tscircuit/tscircuit.com | Web platform | Main website, playground and online development environment for tscircuit (React Electronics). | [GitHub](https://github.com/tscircuit/tscircuit.com) |
+| freudenthal/skidl-eda | AI harness | AI circuit-design loop harness on the skidl stack. | [GitHub](https://github.com/freudenthal/skidl-eda) |
+| QuantumLogicsLabs/DigitalLogicsStudio | Web design tool | Digital Logics Studio — AI meets web to design, simulate, and simplify digital circuits. | [GitHub](https://github.com/QuantumLogicsLabs/DigitalLogicsStudio) |
+| VoltAgent/awesome-openclaw-skills | Resource list | Curated list of OpenClaw skills. | [GitHub](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvUjMwZnhqbzFFN3FROXdMVE9wNnpjWDFvQjQwMTRfWVJ0SXZNTlpxVG9EcDl3NllJN19SLWZRbDhvc1lxQlJWTEs0NDRGT2Rjaklub2NiWXZUay1SWEdEdzZn?oc=5) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout | Benchmark | First benchmark designed to evaluate LLMs on constraint-aware geometric reasoning for PCB layout. | [arXiv](https://arxiv.org/abs/2607.03261v2) |
+| PDAGENT-BENCH: Characterizing, Grounding, and Architecting LLM/VLM Agents for VLSI Physical Design | Benchmark | Standardized benchmark for evaluating agentic physical design workflows in VLSI. | [arXiv](https://arxiv.org/abs/2606.17253v4) |
+| Can AI Draw Science? A Benchmark for Evaluating Scientific Figure Generation by Text-to-Image and Multimodal Models | Benchmark | Evaluates scientific figure generation including circuit schematics and diagrams. | [arXiv](https://arxiv.org/abs/2606.28406v1) |
+| Weave: Verified Netlist-to-Schematic Conversion via Layered Graph Layout | Paper | Deterministic approach for converting SPICE netlists into human-readable schematics with connectivity guarantees. | [arXiv](https://arxiv.org/abs/2607.03835v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ESIm – Democratizing Electronic Design Automation Through Open Source | Video | Talk on open-source EDA democratization. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zdmFRMWluTmNvX21fYmFRSFVLbUZJMU8zYUduMndQN2otRjVwUUhmaHV3Vm5FRjQ1NzhsdW82eS1zS3BEYlZMcGY1MXloRWdxYWtNbVRR?oc=5) |
+| Browser-based tool helps to streamline PCB test jig design | Article | Browser-based tool for PCB test jig design. | [New Electronics](https://news.google.com/rss/articles/CBMipwFBVV95cUxQVWtmcjZKWVJlUWNMd1hneDc5Z2ptZWJ4ZUZ2N0tkNy1lZTU0NEo1eG5VWnRGZW13YWRXbjB1ZkNYRFhZd3ROX2RwaF9KeGs3a1V4clVuSFVVTUNTLUMwYi11b0d4R0hKbkx6eDRMdUVXcFRaSHBtZ3pRZDVNaFIxcFJNbzRvd0FVcTZHRUpRU3VReDhJd1hZVkN3a1VmbkJfZEtkaVo3OA?oc=5) |
+| The Dawn of Agentic AI Super-Agents | Article | Discussion of agentic AI in EDA context. | [EEJournal](https://news.google.com/rss/articles/CBMiekFVX3lxTE51RmFOOUNHLWk1elVWRU5sd3J0MHVIaXcyQTlkQ0R6S0JUaGpXY2hLUGs4UGlwdGlFc25wRmxyOXpGVUJ1N0NzZ21yTkhBeTdKeTFQUUY4OWlHOWNSbm9KZGU1eU1XV3d5Rng4Y3hKbUtkeUZ0TkZDVGVB?oc=5) |
+| PCB 电路板热设计仿真分析与 AI 大模型深度学习交叉研究 | Article | Cross-study of PCB thermal simulation and AI deep learning. | [blog.csdn.net](https://news.google.com/rss/articles/CBMia0FVX3lxTE40RG43TGpGTUtYdjlWaG5xSXhjSnA1TmltbmJXVE8xcmo5SjhJWEVKV09RX21rLWt2bkVHWEFNR0hnYWxEWl9NbkhremdQVmdaODliTzNuVl9YTTFGTENEclIxOWtiXzdzUjhr?oc=5) |
+| 启芯宸光陈文超：半导体数据不出域，38个智能体如何打通芯片设计“黑盒” | Article | How 38 AI agents break open the chip design black box. | [智东西](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1tdEg3aGxYZFg2ZzhnS3NaUTltWVJMSDRGMTFfdy1GcUQtSC1Qcm12S3k5NmdjeVhhajhxNmxaMUtpTUNuLUtSOQ?oc=5) |
+| 18张图看懂 PCB AI 算力底层革命 | Article | Visual guide to PCB AI computing revolution from GB200 to Rubin. | [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WbTczZ1VlallwS1VMZjlhak9QcU1sam9jVjhuU3VoR0E4YnFnMk5EdVJYU0JidFJ6SHpMMVVCck5zREZ0ODYwZU1HVk9lWWRiWDZF?oc=5) |
+| A Practical Guide to Spec-Driven Development With AI | Article | Guide to spec-driven development with AI. | [Design News](https://news.google.com/rss/articles/CBMinAFBVV95cUxOZGRJSGdGM3o2clN3VDBhbUR3V0duUHZsQW9LSW94RHMzMl90R2p4WkZ5U2pENEVrT0prbFl0SjhXR25maHVfX3BiVzR5Mi1QRWtYOVhFVGQwQnZ4cjJNX1g4NkM5SXd2cFNzbkdPSVBEZmJ4R0xUZFc4Vl9SWl9temRSY3dGaUx3bmZ0S3JMckt4T3RHS2laWFBFOWg?oc=5) |
+| What Level 5 Autonomy Could Mean for Chip Design Engineers | Article | Discussion of full autonomy in chip design. | [embedded.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHhtQkZueERMelRUNEc0dGIzYmU1VWhMbmZtQ19TYTdMZm9LNG5fY2M3TW5lUnZFbGZPQnlEUzBQRGZqbUZUZC00LVpnVDd3d1J0OHVqMUhqTFYtdk5qVnFfeVJqX3JwOWhRVUxQd2R1RE5Cc1NLejJ0RzNlNGJrMVVIY0piUlpLLWlfUA?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ScarfBench | Benchmark | Benchmarking AI agents for enterprise Java framework migration. | [Hugging Face](https://huggingface.co/blog/ibm-research/scarfbench) |

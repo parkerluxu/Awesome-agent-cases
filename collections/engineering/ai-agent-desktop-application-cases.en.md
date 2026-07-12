@@ -237,3 +237,53 @@ This section is divided into two categories: `7 Tutorials / Cases` and `15 Proje
 | Name | Type | Use / Summary | Link |
 |------|------|---------------|------|
 | 为什么我觉得 Codex 更接近通用 AI Agent 的理想形态 | Article | Opinion piece on why Codex is closer to the ideal form of a general AI agent. | [少数派](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBiSkQ0c3RYM2xpVWQ5Z0hmY3lrekh1em9tZjZCN1dxdjNfWXNkYlVNX3h5SDZXMm5NZ0x1TXVqRW1CZXM?oc=5) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenCoworkAI/open-cowork | GitHub | Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration. Stars: 1813. | [GitHub](https://github.com/OpenCoworkAI/open-cowork) |
+| nexu-io/open-design | GitHub | Open-source Claude Design alternative. Local-first desktop app; coding agent becomes design engine for prototypes, landing pages, dashboards, slides, images & video with HTML/PDF/PPTX/MP4 export. Supports Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs. Stars: 77427. | [GitHub](https://github.com/nexu-io/open-design) |
+| getpaseo/paseo | GitHub | Orchestrate multiple coding agents from desktop and mobile. Stars: 10242. | [GitHub](https://github.com/getpaseo/paseo) |
+| cuga-project/cuga-agent | GitHub | Open-source generalist agent harness for enterprise, supporting complex task execution on web and APIs, OpenAPI/MCP integrations, composable architecture, reasoning modes, and policy-aware features. Stars: 859. | [GitHub](https://github.com/cuga-project/cuga-agent) |
+| nomifun/nomifun-tauri | GitHub | No-holds-barred, fully open-source, local-first AI workstation built with Tauri. Stars: 115. | [GitHub](https://github.com/nomifun/nomifun-tauri) |
+| GeronimoDiClemente/raven-nest | GitHub | Multi-agent terminal for Claude Code, Codex & Gemini. Electron + React desktop app for running multiple AI agents in parallel. Stars: 30. | [GitHub](https://github.com/GeronimoDiClemente/raven-nest) |
+| ai-creed/ai-14all | GitHub | Mission-control desktop app for running AI coding agents in parallel across Git worktrees. Stars: 30. | [GitHub](https://github.com/ai-creed/ai-14all) |
+| Fzkuji/GUI-Agent-Harness | GitHub | Autonomous GUI agent — give it a task, it operates the desktop. Visual memory, one-shot UI learning. Stars: 38. | [GitHub](https://github.com/Fzkuji/GUI-Agent-Harness) |
+| MadBlast0/Cli-launcher | GitHub | Cross-platform desktop launcher for AI coding CLIs. Install, update, uninstall, and launch 17 terminal AI agents from one mac-style panel. Electron + React + TypeScript + Vite + Tailwind CSS. Stars: 10. | [GitHub](https://github.com/MadBlast0/Cli-launcher) |
+| DorShaer/Husk | GitHub | Desktop home for your CLI agent. Wraps claude / copilot / codex / aider in a clean Electron window with PTY, MCP, drag-drop context, sessions, voice, and live status panel. Stars: 8. | [GitHub](https://github.com/DorShaer/Husk) |
+| drewnekota/cetus | GitHub | Desktop agent for macOS, built on DeepSeek V4.1 — watches your screen, remembers what matters, and can act on your behalf. Stars: 7. | [GitHub](https://github.com/drewnekota/cetus) |
+| Nex-Z/openEagle | GitHub | Desktop AI agent that sees your screen and acts on your behalf — combining chat, tools, and hands-on GUI automation with a three-tier safety model. Stars: 2. | [GitHub](https://github.com/Nex-Z/openEagle) |
+| 24kHandsome1201/tunara | GitHub | Lightweight AI-native sidebar terminal built with Tauri + React + xterm.js. Multi-session sidebar, recognizes 12 AI Agent CLIs, read-only Git diff review panel. Stars: 2. | [GitHub](https://github.com/24kHandsome1201/tunara) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| SovereignPA-Bench | arXiv | Evaluates user-owned personal agents under evolving intent, platform mediation, and consent constraints. Tests whether agents preserve user sovereignty. | [arXiv](https://arxiv.org/abs/2607.05363v1) |
+| Do GUI Agents Believe Their Eyes? | arXiv | Diagnoses state-belief reliance on pixels versus structure in multimodal GUI agents. Formalizes visual state reliance attribution. | [arXiv](https://arxiv.org/abs/2607.04334v1) |
+| ProCUA-SFT Technical Report | arXiv | Training dataset of 3.1M steps for computer-use agents. Addresses negative transfer from AgentNet when fine-tuning UI-TARS 7B. | [arXiv](https://arxiv.org/abs/2606.17321v1) |
+| EvoAgentBench | arXiv | Benchmark for agent self-evolution via ability transfer across four agentic domains. | [arXiv](https://arxiv.org/abs/2607.05202v1) |
+| AgentGym2 | arXiv | Benchmarks LLM agents in de-idealized real-world environments with uncertainty and noise. | [arXiv](https://arxiv.org/abs/2607.05174v1) |
+| ScarfBench | Hugging Face | Benchmark for AI agents migrating enterprise Java frameworks. | [Hugging Face](https://huggingface.co/blog/ibm-research/scarfbench) |
+| UniClawBench | Hugging Face | Universal benchmark for proactive agents on real-world tasks. | [Hugging Face](https://huggingface.co/blog/feed.xml) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Codex下载、安装、配置保姆级教程（2026最新版图解） | 知乎 | Step-by-step guide for downloading, installing, and configuring Codex (OpenAI AI coding agent) with multi-platform support. | [知乎](https://zhuanlan.zhihu.com/p/2053527979850986310) |
+| Claude Desktop Windows版一周上手：从安装到Claude Code实战开发 | CSDN | Hands-on review of Claude Desktop for Windows, from installation to practical Claude Code development. | [CSDN](https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xbVlCQXIySk00anVLRjBuX0VBb1JiSWxBaDJoU0Z3OGwybXZWdlBwc2tPdmJaUWdWa0thMWhSSDhkY3dTTVR5amREck1wdV9LMFhwblpsRG5jMERxellrNFJR?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenAI Codex周活跃用户5个月从60万猛增至500万 | News | OpenAI Codex weekly active users grew from 600K to 5M in 5 months. | [虎嗅网](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEenB0V2dvMzhTYnFJWi1ReUIxVk1GNjZPQkU2UWxtTUQ4TnFIUUdxR18yRGFyTEYtemNsRlRQT0pUd3JxV1l4bEx2NHIyT3VuZFE?oc=5) |
+| AI agents move deeper into business workflows with ChatGPT Work & GPT-5.6 | AppleInsider | ChatGPT Work and GPT-5.6 bring AI agents deeper into business workflows. | [AppleInsider](https://news.google.com/rss/articles/CBMiswFBVV95cUxPa0g3SnhYSHM2MXg5NkcxRHdMQUthTFNyWU45ck01a1ZWTWwwUm5uWk5SaXFKaGEtTmJiTEpqbkpoMXd2dzBJbkZaVzhvaDdpb1NseUNCY3FYUHlKcWZBZm1rYlJGNHlFbXBwR2VvcHZJdTA3am9LTWZsVDVjZFhJV29veElNdVVzdUp2TnBQRjRjRHh6U24xdUZlakpiN3ZlRjR2cTc2UGJocTRGZHhXNGRvSQ?oc=5) |
+| ChatGPT Work launches with GPT-5.6 as OpenAI merges Codex into desktop app | Crypto Briefing | OpenAI merges Codex into desktop app alongside ChatGPT Work launch with GPT-5.6. | [Crypto Briefing](https://news.google.com/rss/articles/CBMipAFBVV95cUxQZERDbTJBM0JZMnFfNHFwSVRBWDI0YWJ5cjJ3eFRzcU01czF5SUJBUlJ3Q3NXTTdWZzVBZEh3ZGU5TDFIc2pPMmVTUmdvRXpvTnZpZEdsLXQ0LUNLUWJtekloYmhZMkY3TEVucE5EdkdpRUlsRm5oX0g4ZTZZM1hJWW5lb0dkQm16MU5UYi1INk1DUzJBc1plT3U3cHZtOHFLS0pCcg?oc=5) |
+| GitHub 推出 Copilot 桌面应用，支持并行 Agent 开发工作流 | Infoq.cn | GitHub launches Copilot desktop app with parallel agent development workflows. | [Infoq.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WemJtZDlleTNFZVZ3V3NrS091S1lZZmhvWXhVQnlYSEVsY3U1MGpDRzdDbzBucWF6emVaLXkzLXNmZTJJQjVvSjNPZnhPQ3FBb1FCUHJWZzJPSlB0T0E?oc=5) |
+| AWS launches a desktop for agents | The New Stack | AWS introduces a desktop environment for agents. | [The New Stack](https://news.google.com/rss/articles/CBMiakFVX3lxTE4xaDUxQ19DcHdDZEJfNG0xczc1M3oyLXFPZ0ZWV3dGQW5wcUg5WmcwSWZETEVaa0NXTkliTG9NcjdDNlhBQ205eXprNjlMbXNkenRsSThtZUFYOTRpVFR5ZHhHVDRWNm1BM3c?oc=5) |
+| headroom-desktop | GitHub | Unlock 2x more Claude Code and Codex usage. | [GitHub](https://news.google.com/rss/articles/CBMiV0FVX3lxTE50S3VRbDBrOEROWTlwc3ZPTkZMTG1wNC1rdER4dG9DVno0MFYyMkdQVmk0QXVyejJaQVNGV29QSXRlOFJYNkhzSC1nRk0wOXlUYU1CWXF4OA?oc=5) |

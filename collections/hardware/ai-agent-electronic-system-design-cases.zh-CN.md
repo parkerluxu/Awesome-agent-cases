@@ -209,3 +209,52 @@
 | AI in Sync: Graser TECHTALKS 2026 Highlights Electronic Design Paradigm | 报道 | Graser TECHTALKS 2026 中关于 AI 与电子设计范式同步的亮点报道。 | [digitimes](https://news.google.com/rss/articles/CBMihgFBVV95cUxPYURITnZQblZydFpLWGU1RVlmMXlpQ0hTUU5maEJJdENna2ppSnVUR0I2VU16Zm5xaWhEQWg4d1FuT1NOLTRNdXZETWtlakZmU1M4WHhjWmtKbXdadnpxZ0pvcVphNWJqMDZmNDhRUERXMjNSUGlGY2NHUDNERzdoX200WFhOQQ?oc=5) |
 | Cadence unveils fully autonomous virtual engineer for chip design | 报道 | Cadence 发布用于芯片设计的全自主虚拟工程师。 | [Evertiq](https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjVwcTNnTDhvd21TSkZadFhjQVdmT19Wa2ZZbmFzWi1CeVVKdklLMWlUUWMyQUd2OHRLRGpXZ2xKUTN5blkwWUlDUDNiTC0zTzI4aW96bG14QTFPVXlxOUpSVkg3QUl1dkhaZzFQZmNIMEd3OVZYMGhjNHp1MldGVlQtdThoVnNJdTM5VjhsOFRRdnB3STlTSFQyc1BwZ3dQOVlF?oc=5) |
 | Cadence Autonomous AI Design Engineer Accelerates Chip Verification and Development | 报道 | Cadence 自主 AI 设计工程师加速芯片验证与开发的报道。 | [EE Times Asia](https://news.google.com/rss/articles/CBMirAFBVV95cUxQa1JLdnZTci1QYnpBbnpiUzJHX1VBN1QyT0dmenNYY0owVmllbV8tdjBwb1FyU2VxRVMzaWk2UlYwR2VCZHlpOFl0RUd6TXFsUTdGN1BnclM5ajRfdDhaT3FNT3NtdTI3eWZ5V1k0ZkJuQXNubEctNGw3MUUxUFVkQWFMY3Y5YUpSelhCa3psN2Y5bHk0eDNuUGM1UVN3TVhiMnQwLWR5dFc0c1BL?oc=5) |
+
+## 资料更新（2026-07-12）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| tipoLi5890/altium-kicad-cli | 开源工具 | Zero-dependency Python CLI + Claude Code 插件，可读取 Altium .SchDoc/.SchLib/.PcbDoc 和 KiCad .kicad_sch 文件（无需安装 Altium/KiCad），执行 ERC/电源/BOM/差异/引脚映射检查，并绘制 KiCad 原理图。专为 AI 编码代理构建。 | [GitHub](https://github.com/tipoLi5890/altium-kicad-cli) |
+| tylerdotai/nic-pcb-agent | 开源工具 | OpenClaw PCB 设计助手，支持 KiCad 原理图生成、无头 PCB 布局、DRC 验证、板卡检查、BOM 和制造文档。 | [GitHub](https://github.com/tylerdotai/nic-pcb-agent) |
+| HiwarkhedePrasad/CircuitBot | 开源工具 | 从自然语言意图到 KiCad 兼容原理图和 PCB 文件的 AI 辅助电子设计。 | [GitHub](https://github.com/HiwarkhedePrasad/CircuitBot) |
+| mixelpixx/Konnect | 开源插件 | AI 辅助 PCB 设计插件，原生 KiCAD 10 插件，单个 Rust 二进制文件向 Claude 或任意 LLM 暴露 171 个原理图、布局、布线、设计审查和制造工具。 | [GitHub](https://github.com/mixelpixx/Konnect) |
+| eigencore-org/tracewise-kicad | 开源插件 | KiCad 的 AI 驱动 PCB 和原理图审查插件，一键 DFM 分析、元件验证和设计建议。 | [GitHub](https://github.com/eigencore-org/tracewise-kicad) |
+| tscircuit/circuit-to-svg | 开源工具 | 将 Circuit JSON 转换为原理图/PCB/装配 SVG。 | [GitHub](https://github.com/tscircuit/circuit-to-svg) |
+| alplabai/signex | 开源 EDA 工具 | 开源、AI 优先的 EDA 工具，基于 Rust 构建的 KiCad 兼容原理图和 PCB 编辑器。 | [GitHub](https://github.com/alplabai/signex) |
+| biosshot/easyeda-copilot | 开源插件 | EasyEDA 的 AI 驱动助手，支持从自然语言生成原理图、浏览 LCSC 元件、使用自定义 DRC 配置设计 PCB 以及交互式电路设计帮助。 | [GitHub](https://github.com/biosshot/easyeda-copilot) |
+| freudenthal/skidl-eda | 开源工具 | 基于 skidl 栈的 AI 电路设计循环工具。 | [GitHub](https://github.com/freudenthal/skidl-eda) |
+| QuantumLogicsLabs/DigitalLogicsStudio | 开源工具 | 数字逻辑工作室，AI 与 Web 结合，用于设计、仿真和简化数字电路。 | [GitHub](https://github.com/QuantumLogicsLabs/DigitalLogicsStudio) |
+| tscircuit/tscircuit.com | 在线平台 | tscircuit（React Electronics）的主网站、在线游乐场和开发环境。 | [GitHub](https://github.com/tscircuit/tscircuit.com) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout | 论文/Benchmark | 首个评估 LLM 在 PCB 布局中约束感知几何推理能力的基准，涉及原理图耦合的多模态评估。 | [arXiv](https://arxiv.org/abs/2607.03261v2) |
+| PDAGENT-BENCH: Characterizing, Grounding, and Architecting LLM/VLM Agents for VLSI Physical Design | 论文/Benchmark | 用于评估 VLSI 物理设计中 LLM/VLM 代理能力的标准化基准，涵盖高维、多阶段优化和 EDA 工具协调。 | [arXiv](https://arxiv.org/abs/2606.17253v4) |
+| Can AI Draw Science? A Benchmark for Evaluating Scientific Figure Generation by Text-to-Image and Multimodal Models | 论文/Benchmark | 评估文本到图像和多模态模型生成科学图表（如机制图、实验设计原理图）的基准，关注文本标签正确性和领域忠实度。 | [arXiv](https://arxiv.org/abs/2606.28406v1) |
+| Weave: Verified Netlist-to-Schematic Conversion via Layered Graph Layout | 论文 | 确定性方法，将 SPICE 网表转换为可读原理图，保证保持原始连接性，克服了学习方法的退化问题。 | [arXiv](https://arxiv.org/abs/2607.03835v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| VoltAgent/awesome-openclaw-skills | 资源列表 | OpenClaw 技能集合，用于 AI 代理的电子设计自动化。 | [GitHub](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvUjMwZnhqbzFFN3FROXdMVE9wNnpjWDFvQjQwMTRfWVJ0SXZNTlpxVG9EcDl3NllJN19SLWZRbDhvc1lxQlJWTEs0NDRGT2Rjaklub2NiWXZUay1SWEdEdzZn?oc=5) |
+| PCB 电路板热设计仿真分析与 AI 大模型深度学习交叉研究 | 技术文章 | 探讨 PCB 热设计仿真与 AI 大模型深度学习的交叉研究。 | [CSDN](https://news.google.com/rss/articles/CBMia0FVX3lxTE40RG43TGpGTUtYdjlWaG5xSXhjSnA1TmltbmJXVE8xcmo5SjhJWEVKV09RX21rLWt2bkVHWEFNR0hnYWxEWl9NbkhremdQVmdaODliTzNuVl9YTTFGTENEclIxOWtiXzdzUjhr?oc=5) |
+| 启芯宸光陈文超：半导体数据不出域，38个智能体如何打通芯片设计“黑盒” | 行业报道 | 介绍使用 38 个智能体在数据不出域条件下打通芯片设计流程的实践。 | [智东西](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1tdEg3aGxYZFg2ZzhnS3NaUTltWVJMSDRGMTFfdy1GcUQtSC1Qcm12S3k5NmdjeVhhajhxNmxaMUtpTUNuLUtSOQ?oc=5) |
+| ESim – Democratizing Electronic Design Automation Through Open Source | 视频/演讲 | 关于通过开源实现 EDA 民主化的演讲。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zdmFRMWluTmNvX21fYmFRSFVLbUZJMU8zYUduMndQN2otRjVwUUhmaHV3Vm5FRjQ1NzhsdW82eS1zS3BEYlZMcGY1MXloRWdxYWtNbVRR?oc=5) |
+| 18张图看懂 PCB AI 算力底层革命：从 GB200 到 Rubin 聊聊PCB是如何改变AI 算力发展的？ | 行业分析 | 分析 PCB 在 AI 算力发展中的底层革命作用。 | [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WbTczZ1VlallwS1VMZjlhak9QcU1sam9jVjhuU3VoR0E4YnFnMk5EdVJYU0JidFJ6SHpMMVVCck5zREZ0ODYwZU1HVk9lWWRiWDZF?oc=5) |
+| 【翻译】一台电脑、五个领域、六位获奖者：Claude Code 黑客松把Opus 4.7 玩出了什么新花样 | 活动报道 | Claude Code 黑客松中涉及电子设计等领域的 AI 代理应用案例。 | [掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVU2FMQ2h4bkgybDlRbWZ0eWVoeVVBeEpwcHphZ2FRVzhXemE2RE1fUHlzb3FsbUhjYi13UHV3c25hdG12Z2FnMHVFT1Bkd0JkM3I2YQ?oc=5) |
+| A Practical Guide to Spec-Driven Development With AI | 实践指南 | 关于使用 AI 进行规范驱动开发的实用指南。 | [Design News](https://news.google.com/rss/articles/CBMinAFBVV95cUxOZGRJSGdGM3o2clN3VDBhbUR3V0duUHZsQW9LSW94RHMzMl90R2p4WkZ5U2pENEVrT0prbFl0SjhXR25maHVfX3BiVzR5Mi1QRWtYOVhFVGQwQnZ4cjJNX1g4NkM5SXd2cFNzbkdPSVBEZmJ4R0xUZFc4Vl9SWl9temRSY3dGaUx3bmZ0S3JMckt4T3RHS2laWFBFOWg?oc=5) |
+| What Level 5 Autonomy Could Mean for Chip Design Engineers | 行业观点 | 探讨 L5 级自主性对芯片设计工程师的影响。 | [embedded.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHhtQkZueERMelRUNEc0dGIzYmU1VWhMbmZtQ19TYTdMZm9LNG5fY2M3TW5lUnZFbGZPQnlEUzBQRGZqbUZUZC00LVpnVDd3d1J0OHVqMUhqTFYtdk5qVnFfeVJqX3JwOWhRVUxQd2R1RE5Cc1NLejJ0RzNlNGJrMVVIY0piUlpLLWlfUA?oc=5) |
+| AI Agent上车元年：上天容易入地难 | 行业分析 | 分析 AI Agent 在汽车电子领域的应用现状与挑战。 | [电子工程专辑](https://news.google.com/rss/articles/CBMiU0FVX3lxTE82VDdtenJqbnZSbllMSnRvTjBfWHpqN2lhR0RqVnZaZVczZ1kzX2xWNzFwdm1jTktmb0Y5dHo1d3ZnUHVxWGM2Y0RvdmhCTGhJbWE0?oc=5) |
+| Browser-based tool helps to streamline PCB test jig design | 工具介绍 | 基于浏览器的工具，用于简化 PCB 测试夹具设计。 | [New Electronics](https://news.google.com/rss/articles/CBMipwFBVV95cUxQVWtmcjZKWVJlUWNMd1hneDc5Z2ptZWJ4ZUZ2N0tkNy1lZTU0NEo1eG5VWnRGZW13YWRXbjB1ZkNYRFhZd3ROX2RwaF9KeGs3a1V4clVuSFVVTUNTLUMwYi11b0d4R0hKbkx6eDRMdUVXcFRaSHBtZ3pRZDVNaFIxcFJNbzRvd0FVcTZHRUpRU3VReDhJd1hZVkN3a1VmbkJfZEtkaVo3OA?oc=5) |
+| The Dawn of Agentic AI Super-Agents | 行业观点 | 探讨 AI 超级代理的兴起及其对 EDA 等领域的影响。 | [EEJournal](https://news.google.com/rss/articles/CBMiekFVX3lxTE51RmFOOUNHLWk1elVWRU5sd3J0MHVIaXcyQTlkQ0R6S0JUaGpXY2hLUGs4UGlwdGlFc25wRmxyOXpGVUJ1N0NzZ21yTkhBeTdKeTFQUUY4OWlHOWNSbm9KZGU1eU1XV3d5Rng4Y3hKbUtkeUZ0TkZDVGVB?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | Benchmark 工具 | 用于评估 AI 代理在企业 Java 框架迁移中能力的基准，间接涉及 EDA 工具链的 AI 集成。 | [Hugging Face](https://huggingface.co/blog/ibm-research/scarfbench) |
