@@ -265,3 +265,52 @@ This section is divided into two categories: `32 Tutorials / Cases` and `15 Proj
 | ADK Go 2.0 | Agent framework | Google's graph-based workflow engine for multi-agent applications with built-in human-in-the-loop and dynamic orchestration. | [blog.google](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EeFJFaWhEM3V4UjlyZFo3S0dtRTJSOHA4MUZMX1FmbmppWXdyVjZtQWg1QjBqRUdlRXlUUTAzdFRMcTZWRWxESUpxQUtMeVdhallBSEthWDFZalozdTN6dDhyZHpTUQ?oc=5) |
 | AutoJack (Microsoft security research) | Security research | Demonstrates how a single page can achieve RCE on the host running an AI agent. | [microsoft.com](https://news.google.com/rss/articles/CBMipwFBVV95cUxQWkJCU0tFankzSmVreVVycHBQc3UtcUJIWmxnZzVzaVhCeTdCSXdXbFBhN2w3aXJTNzhQZ21SQW9DT1IySkNKSWZxR3lrOFd6dGFIdENSdElGUGl3Q2NEZHdscXpNVDg3eDYwY3Y3Q1pNQmhIRWltRmhUb2x4bVJsSFp5bjRGdmxGOVNuTkk4NWc1S0F1Q1FaV3BMYWI3WGY2MXNQdVJXYw?oc=5) |
 | Cursor Design Mode | Feature | Direct agents with visual prompts in Design Mode. | [cursor.com](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1hSTYzV2psYzFmbW9tZTFKelFVQm9LbmpjZjRUT1pfZlBRdUgzUVJFcldyS2ZuUEpxQUJRanUtTkhyb0hZSnNRODRaNA?oc=5) |
+
+## Resource Update (2026-07-12)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| conduit | GitHub | Self-hosted web app for managing and running AI CLI agents (Claude Code, Amp, Cursor) | [GitHub](https://github.com/dougrathbone/conduit) |
+| vybe-intelligence-vault | GitHub | Auto-updating open-source vault for AI agents, RAG systems, MCP servers, prompts, tools, templates, and next-generation web development | [GitHub](https://github.com/sairaman436/vybe-intelligence-vault) |
+| claude-code-web-embed-skill | GitHub | Embed a locally running Claude Code into any existing web app — Local Agent (Node/Python) + xterm.js, with session persistence across reloads | [GitHub](https://github.com/santa-monica-johnson/claude-code-web-embed-skill) |
+| webdev-skills | GitHub | Collection of web development skills tailored for AI coding agents, enhancing workflows with modern CLI tools and project organization | [GitHub](https://github.com/ZayZay1nonly/webdev-skills) |
+| agentforge-web-agent-framework | GitHub | Browser-based AI agent orchestration framework for multi-agent software development workflows (planning, code generation, review, testing, deployment) | [GitHub](https://github.com/westcaleb2005/agentforge-web-agent-framework) |
+| nuncio | GitHub | Self-hosted, mobile-first web app for delegating tasks to AI coding agents (Pi, Cursor) — provider-neutral alternative to Devin | [GitHub](https://github.com/oscarlehuu/nuncio) |
+| Multi-Agent-AI-Research-Code-Intelligence-Platform | GitHub | Web app where users enter research questions or upload repos; creates agents (Orchestrator → Research → Code → Critic) for summarized reports with citations | [GitHub](https://github.com/Adhithyaa1/Multi-Agent-AI-Research-Code-Intelligence-Platform) |
+| autonomous-web3-ai-agent | GitHub | AI-driven multi-agent system for automating smart contract creation and Web3 development | [GitHub](https://github.com/omarmedaoui-pixel/autonomous-web3-ai-agent) |
+| figma-to-product | GitHub | Codex skill for turning Figma Desktop MCP exports into polished frontend projects | [GitHub](https://github.com/wdcodecn/figma-to-product) |
+| podium-app | GitHub | Infinite spatial canvas for terminal windows running AI coding agents; wire agents together, pipe prompts, capture output to notes (Tauri + React) | [GitHub](https://github.com/abrahao-dev/podium-app) |
+| figma-ai-bridge | GitHub | Local Figma Desktop plugin and localhost bridge for AI-ready design handoff bundles, without Figma API, Dev Mode MCP, or access tokens | [GitHub](https://github.com/Kacep91/figma-ai-bridge) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Agent Data Injection Attacks are Realistic Threats to AI Agents | arXiv paper | Introduces a new category of indirect prompt injection — agent data injection — beyond instruction injection attacks | [arXiv](https://arxiv.org/abs/2607.05120v1) |
+| NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers? | arXiv paper | Cross-discipline benchmark of 90 tasks from peer-reviewed Nature-family publications; evaluates coding agents on real scientific problems | [arXiv](https://arxiv.org/abs/2606.24530v2) |
+| WebRetriever: A Large-Scale Comprehensive Benchmark for Efficient Web Agent Evaluation | arXiv paper | Large-scale benchmark for evaluating web agent navigation and task completion, addressing scale, domain diversity, and LLM-as-Judge limitations | [arXiv](https://arxiv.org/abs/2607.06118v1) |
+| When Web Agents Finish but Still Fail: Reproducible Triggers and Trace Diagnostics for Parallel Web Exploration | arXiv paper | Parallel WebBench benchmark (1,679 records) studying hidden failures in long-horizon web agents; trains WebExplore diagnostic model | [arXiv](https://arxiv.org/abs/2606.20724v2) |
+| Ko-WideSearch: A Korean Breadth-Search Benchmark for Exhaustive Set Enumeration by Web Agents | arXiv paper | Korean breadth-search benchmark for exhaustive set enumeration by web agents, built via automated synthesize-and-verify pipeline | [arXiv](https://arxiv.org/abs/2606.27595v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Build generative UI for AI agents on Amazon Bedrock AgentCore with the AG-UI protocol | AWS blog | Tutorial on building generative UI for AI agents using the AG-UI protocol on Amazon Bedrock AgentCore | [AWS](https://news.google.com/rss/articles/CBMizAFBVV95cUxOeldlSjhNSmVsVk1rLUZoS21panB3NzVsa1d0aVl0SGVTSmwwX21wWHJ5Ukk5bHdkcExVT1cxNVdMdUJyMnhYSC0xOUtpUjEwSXlWM21JdUN1YS1Hc05ENkhGTFFMLTJZT244Z1ExQXZDcWRrNjZkaloxS3oyN0FaUzlQbk9zOUNmaWJsbGhnRHluaHRoNXN5RWJ4a1VEWHhWaV9meFZzTlhIcmFFRkNsV0tNbnpnQ0pTOWhHcWZmcVZBSXFwNW9lWnRkd28?oc=5) |
+| Chrome 推出 WebMCP 标准提案（Origin Trial） | Infoq.cn | Chrome's WebMCP standard proposal (Origin Trial) providing native web operation capabilities for agents | [Infoq.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTE12MnlORzI0eE1xUG8wRS1OVU9sMGpWUWlmb09XeGZ3WWdpcjkzVE5PYlNzNjJrWE1GUnpvcXY4M0xDZk42Z21aV3RSQXdxTzAxelZzTU1NVEpWOHk3QlE?oc=5) |
+| Building a Self-Healing Playwright MCP Multi Agent Framework with Integrating Angular Dashboard | Medium | Tutorial on building a self-healing Playwright MCP multi-agent framework integrated with an Angular dashboard | [Medium](https://news.google.com/rss/articles/CBMizAFBVV95cUxORnRvRFZQZVgydlBfanN0U2ZhblFKMWxpSU03YThKMmtrcjJsZVdhWEIzWVBBcWhURTRpdHlUYUFSUnhwc2RzTnQxdGZhdEZVc0JHM3NiVTlPRTNvSkxCTzQ2ZERHRFRqalFSeFJyRjlNaHZ4c2dLLVM3R1Q5Tmpld0FrdDlSTkNwOVVFbUhaMVROTXR6Y0gxMkpoVy14eGZMcDJ5QzNSb3ZKYXViTUNUaWZZNElPX2tybzQ4UE9VQ1Vycl9OOEctb2ZLQU8?oc=5) |
+| Benchmarking Coding Agents on Databricks’ Multi-Million Line Codebase | Databricks blog | Benchmarking coding agents against a multi-million line production codebase | [Databricks](https://news.google.com/rss/articles/CBMingFBVV95cUxPYlk4RktXSHFjZDZTUjQ0U05MODVoY1FxMGhjZUdhN3RETWJuTEZNcTA5cS1iRnFiVWZ5aDJNelhkWk1fRjExaTVvVXlEWmh3OUdPcEdSWEp2V3BsU3plajhnYXVJWE9xRmpQNnVtdXF3Y1ZoLTV6RDdVWElQUTlUUEdGTlBoMmJ4bk5qNHpJWGF3ZWpGQlRlQ2RCRVFWZw?oc=5) |
+| Devin 评测 2026：AI 工程师真能替代初级开发吗 | vibecoding.app | Review of Devin's real-world performance in 2026, comparing it to Cursor, Copilot, and other tools | [vibecoding.app](https://vibecoding.app/blog/zh/devin-pingce-2026) |
+| Build agentic full-stack apps with Genkit | blog.google | Guide to building agentic full-stack applications using Google's Genkit framework | [blog.google](https://news.google.com/rss/articles/CBMiggFBVV95cUxNU0VWZExGR0s2RjRZV2hueG9za2FDWlFXSUFiV2p0ZUs2NzVTMlNjdnRvR0ZBSS1PZktSTnJCb0hYT1BfYUM4YU8xcFBWWFotaUsweGwxR2twbVBONEVZcnRfaXMyZko4OThzdk9kX0s3eG00MENmRl9LZFhYSXNfUjJn?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| APM - Agent Package Manager | Microsoft Open Source | Package manager for AI agents | [Microsoft Open Source](https://news.google.com/rss/articles/CBMiR0FVX3lxTE5FR1hGb1dybFNqNUNuOFBqZjlWRkR4UTlOd3RVYTd5SmY2UUxzWmZPM0dwRm9fQnR5QVlnQjRDdVUxc3lzMW00?oc=5) |
+| Audit & Compliance - Agent Governance Toolkit | Microsoft Open Source | Governance toolkit for audit and compliance of AI agents | [Microsoft Open Source](https://news.google.com/rss/articles/CBMikAFBVV95cUxQU25MYTdSUjhQblQ1TFBac2dIRl9ja2xuVkdWN2R5UUZKcFJVRExOb0RfQzA1anBvaDd0bXFLaG5OZkd0Zjh3b19YemNGV1JreklGMDFSUk9XNHdBQy1XRWprLXE4eFdIaUZ6UENhV1lLMUVRUlpWTmVHT3l1N1IyM1pYQUNlOFg3OUh0OEdhdDI?oc=5) |
+| ChatGPT Work | OpenAI | Agent that can take action across apps and files, staying with projects for hours | [OpenAI](https://openai.com/index/chatgpt-for-your-most-ambitious-work) |
+| Lyzr AI agent fundraise | TechCrunch | Startup used its own AI agent to raise a $100 million round | [TechCrunch](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) |
+| Securing the future of AI agents | Google DeepMind | AI Control Roadmap combining traditional safeguards and real-time monitoring | [DeepMind](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |

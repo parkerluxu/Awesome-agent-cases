@@ -276,3 +276,55 @@
 | 名称 | 类型 | 用途 / 摘要 | 链接 |
 |------|------|-------------|------|
 | Cursor: AI coding agent | 产品 | 提供桌面版与 CLI 界面的 AI 编码 Agent。 | https://cursor.com/ |
+
+## 资料更新（2026-07-12）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| conduit | 自托管 Web 应用 | 管理和运行 AI CLI 代理（Claude Code、Amp、Cursor）的 Web 界面 | [GitHub](https://github.com/dougrathbone/conduit) |
+| vybe-intelligence-vault | 开源知识库 | 面向 AI 代理、RAG 系统、MCP 服务器、提示词、工具、模板和下一代 Web 开发的自动更新知识库 | [GitHub](https://github.com/sairaman436/vybe-intelligence-vault) |
+| claude-code-web-embed-skill | 嵌入组件 | 将本地运行的 Claude Code 嵌入到任意现有 Web 应用中，支持会话持久化和可移动终端面板 | [GitHub](https://github.com/santa-monica-johnson/claude-code-web-embed-skill) |
+| webdev-skills | 技能集合 | 为 AI 编码代理量身定制的 Web 开发技能集合，增强现代命令行工具和工作流 | [GitHub](https://github.com/ZayZay1nonly/webdev-skills) |
+| agentforge-web-agent-framework | 浏览器端代理编排框架 | 基于浏览器的多代理软件开发工作流框架，支持规划、代码生成、审查、测试和部署（v2.4.1） | [GitHub](https://github.com/westcaleb2005/agentforge-web-agent-framework) |
+| nuncio | 自托管移动优先 Web 应用 | 将任务委派给 AI 编码代理（Pi、Cursor）的自托管应用，类似 Devin 但提供商中立 | [GitHub](https://github.com/oscarlehuu/nuncio) |
+| Multi-Agent-AI-Research-Code-Intelligence-Platform | 多代理研究平台 | 用户输入研究问题或 GitHub 仓库后，系统创建编排代理、研究代理、代码代理、评论代理等，生成总结报告和引用 | [GitHub](https://github.com/Adhithyaa1/Multi-Agent-AI-Research-Code-Intelligence-Platform) |
+| autonomous-web3-ai-agent | Web3 多代理系统 | 利用 AI 驱动的多代理系统自动化智能合约创建和 Web3 开发部署 | [GitHub](https://github.com/omarmedaoui-pixel/autonomous-web3-ai-agent) |
+| figma-to-product | Codex 技能 | 将 Figma Desktop MCP 导出转换为前端项目的 Codex 技能 | [GitHub](https://github.com/wdcodecn/figma-to-product) |
+| podium-app | 无限空间画布 | 为 AI 编码代理的终端窗口提供无限空间画布，可连接代理、传递提示词、捕获输出到笔记（Tauri + React） | [GitHub](https://github.com/abrahao-dev/podium-app) |
+| figma-ai-bridge | Figma 插件与桥接 | 本地 Figma 插件和 localhost 桥接，用于 AI 就绪的设计交接包，无需 Figma API 或 Dev Mode MCP | [GitHub](https://github.com/Kacep91/figma-ai-bridge) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Agent Data Injection Attacks are Realistic Threats to AI Agents | 论文 | 提出一种新的间接提示注入类别——代理数据注入，揭示 AI 代理在处理外部数据时面临的安全威胁 | [arXiv](https://arxiv.org/abs/2607.05120v1) |
+| NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers? | Benchmark | 跨学科基准，包含 90 个来自 Nature 系列论文的任务，评估 AI 编码代理在真实科学问题上的表现 | [arXiv](https://arxiv.org/abs/2606.24530v2) |
+| WebRetriever: A Large-Scale Comprehensive Benchmark for Efficient Web Agent Evaluation | Benchmark | 大规模 Web 代理评估基准，解决现有基准规模不足、领域多样性有限以及 LLM 评估方法偏差的问题 | [arXiv](https://arxiv.org/abs/2607.06118v1) |
+| When Web Agents Finish but Still Fail: Reproducible Triggers and Trace Diagnostics for Parallel Web Exploration | 论文 | 研究长周期 Web 代理在最终答案评估中隐藏的失败模式，提出 Parallel WebBench 基准和 WebExplorer 诊断工具 | [arXiv](https://arxiv.org/abs/2606.20724v2) |
+| Ko-WideSearch: A Korean Breadth-Search Benchmark for Exhaustive Set Enumeration by Web Agents | Benchmark | 韩语广度搜索基准，评估 Web 代理在非英语环境下穷举枚举封闭集合并填充属性值的能力 | [arXiv](https://arxiv.org/abs/2606.27595v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Build generative UI for AI agents on Amazon Bedrock AgentCore with the AG-UI protocol | 教程 | AWS 官方教程，介绍如何在 Bedrock AgentCore 上使用 AG-UI 协议构建生成式 UI | [AWS](https://news.google.com/rss/articles/CBMizAFBVV95cUxOeldlSjhNSmVsVk1rLUZoS21panB3NzVsa1d0aVl0SGVTSmwwX21wWHJ5Ukk5bHdkcExVT1cxNVdMdUJyMnhYSC0xOUtpUjEwSXlWM21JdUN1YS1Hc05ENkhGTFFMLTJZT244Z1ExQXZDcWRrNjZkaloxS3oyN0FaUzlQbk9zOUNmaWJsbGhnRHluaHRoNXN5RWJ4a1VEWHhWaV9meFZzTlhIcmFFRkNsV0tNbnpnQ0pTOWhHcWZmcVZBSXFwNW9lWnRkd28?oc=5) |
+| Chrome 推出 WebMCP 标准提案（Origin Trial） | 媒体报道 | Chrome 为智能体提供原生 Web 操作能力的 WebMCP 标准提案进入 Origin Trial 阶段 | [Infoq.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTE12MnlORzI0eE1xUG8wRS1OVU9sMGpWUWlmb09XeGZ3WWdpcjkzVE5PYlNzNjJrWE1GUnpvcXY4M0xDZk42Z21aV3RSQXdxTzAxelZzTU1NVEpWOHk3QlE?oc=5) |
+| Building a Self-Healing Playwright MCP Multi Agent Framework with Integrating Angular Dashboard | 教程 | 使用 Playwright MCP 构建自愈多代理框架并与 Angular 仪表盘集成的实践教程 | [Medium](https://news.google.com/rss/articles/CBMizAFBVV95cUxORnRvRFZQZVgydlBfanN0U2ZhblFKMWxpSU03YThKMmtrcjJsZVdhWEIzWVBBcWhURTRpdHlUYUFSUnhwc2RzTnQxdGZhdEZVc0JHM3NiVTlPRTNvSkxCTzQ2ZERHRFRqalFSeFJyRjlNaHZ4c2dLLVM3R1Q5Tmpld0FrdDlSTkNwOVVFbUhaMVROTXR6Y0gxMkpoVy14eGZMcDJ5QzNSb3ZKYXViTUNUaWZZNElPX2tybzQ4UE9VQ1Vycl9OOEctb2ZLQU8?oc=5) |
+| Benchmarking Coding Agents on Databricks’ Multi-Million Line Codebase | 实测报告 | Databricks 在数百万行代码库上对编码代理进行基准测试的实践报告 | [Databricks](https://news.google.com/rss/articles/CBMingFBVV95cUxPYlk4RktXSHFjZDZTUjQ0U05MODVoY1FxMGhjZUdhN3RETWJuTEZNcTA5cS1iRnFiVWZ5aDJNelhkWk1fRjExaTVvVXlEWmh3OUdPcEdSWEp2V3BsU3plajhnYXVJWE9xRmpQNnVtdXF3Y1ZoLTV6RDdVWElQUTlUUEdGTlBoMmJ4bk5qNHpJWGF3ZWpGQlRlQ2RCRVFWZw?oc=5) |
+| Devin 评测 2026：AI 工程师真能替代初级开发吗 | 媒体实测 | 对 Cognition 公司全自主 AI 软件工程师 Devin 在 2026 年的真实表现进行实测 | [vibecoding.app](https://vibecoding.app/blog/zh/devin-pingce-2026) |
+| The Rise of AI Website Builders: Where Bezier AI Fits Among Cursor, Lovable, Bolt.new, v0, Replit, and GitHub | 行业分析 | 分析 AI 网站构建工具生态，比较 Bezier AI 与 Cursor、Lovable、Bolt.new、v0、Replit 和 GitHub 的定位 | [EIN News](https://news.google.com/rss/articles/CBMi7gFBVV95cUxNczFyVkRxVXY2ekRrSk0yc1d6akp5QU83QVdkNV9heUNTZklVSWJReGN0aG5LNkRwZ1M5SV8tdXhmWlBlZUdBT2dScWJJRmZWY3JaUExvcXR0YjY1MTFNZ0E4SXVmWUlVS1N0ejBmMVdKcjdaeUhpTlRldnFzS01oejNMUzRuZFR0WEJkZm5WVmNLNUZMSWlzUjd5MEw3R0VUb3dGV0hfWlhxVW40dEo2VWhBTnl3b1pFSnM0LXRTVTNETkROcThOVVhkQ0VTSmNCZ3ZpWnpMcHpzTENnc2RoR1ZjSUd5RjVzWHFERXh30gHuAUFVX3lxTE1zMXJWRHFVdjZ6RGtKTTJzV3pqSnlBTzdBV2Q1X2F5Q1NmSVVJYlF4Y3Robks2RHBnUzlJXy11eGZaUGVlR0FPZ1JxYklGZlZjclpQTG9xdHRiNjUxMU1nQThJdWZZSVVLU3R6MGYxV0pyN1p5SGlOVGV2cXNLTWh6M0xTNG5kVHRYQmRmblZWY0s1RkxJaXNSN3kwTDdHRVRvd0ZXSF9aWHFVbjR0SjZVaEFOeXdvWkVKczQtdFNVM0RORE5xOE5VWGRDRVNKY0JndmlaekxwenNMQ2dzZGhHVmNJR3lGNXNYcURFeHc?oc=5) |
+| Build agentic full-stack apps with Genkit | 教程 | Google 官方教程，介绍如何使用 Genkit 构建代理式全栈应用 | [blog.google](https://news.google.com/rss/articles/CBMiggFBVV95cUxNU0VWZExGR0s2RjRZV2hueG9za2FDWlFXSUFiV2p0ZUs2NzVTMlNjdnRvR0ZBSS1PZktSTnJCb0hYT1BfYUM4YU8xcFBWWFotaUsweGwxR2twbVBONEVZcnRfaXMyZko4OThzdk9kX0s3eG00MENmRl9LZFhYSXNfUjJn?oc=5) |
+| Why Terminal AI Coding Agents Are Beating IDE Extensions | 技术分析 | 分析终端 AI 编码代理为何在效率上超越 IDE 扩展 | [DEV Community](https://news.google.com/rss/articles/CBMilwFBVV95cUxNbm5jOUlLWFFmX0wtOFNfaW1mSHp2WDFLRzdSaklocjVOWlVxQjk3ZldRNjZzVzg5Y05wMmlDb05hRUZKRDh0S0F3WE9zZDZ5a0lwUVpzZlZrNm9aQ19wMmRWWFo3dGRrTkRvY0puNEd3elU2bU9GQ2NxZi1CTm9ZNzkzSFdhZmFwXzhQd3NoS082cGFHU1l3?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ChatGPT Work | 代理产品 | OpenAI 推出的代理产品，可在应用和文件间执行操作，持续跟踪项目数小时，将目标转化为完成的工作 | [OpenAI](https://openai.com/index/chatgpt-for-your-most-ambitious-work) |
+| APM - Agent Package Manager | 包管理工具 | 微软开源的代理包管理器，用于管理 AI 代理的依赖和包 | [Microsoft Open Source](https://news.google.com/rss/articles/CBMiR0FVX3lxTE5FR1hGb1dybFNqNUNuOFBqZjlWRkR4UTlOd3RVYTd5SmY2UUxzWmZPM0dwRm9fQnR5QVlnQjRDdVUxc3lzMW00?oc=5) |
+| Audit & Compliance - Agent Governance Toolkit | 治理工具 | 微软开源的代理治理工具包，提供审计与合规功能 | [Microsoft Open Source](https://news.google.com/rss/articles/CBMikAFBVV95cUxQU25MYTdSUjhQblQ1TFBac2dIRl9ja2xuVkdWN2R5UUZKcFJVRExOb0RfQzA1anBvaDd0bXFLaG5OZkd0Zjh3b19YemNGV1JreklGMDFSUk9XNHdBQy1XRWprLXE4eFdIaUZ6UENhV1lLMUVRUlpWTmVHT3l1N1IyM1pYQUNlOFg3OUh0OEdhdDI?oc=5) |
+| Lyzr AI Agent | 企业代理 | Lyzr 公司使用自己的 AI 代理完成了 1 亿美元融资，证明产品实际可用 | [TechCrunch](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) |
+| Securing the future of AI agents | 安全框架 | Google DeepMind 发布的 AI 代理安全控制路线图，结合传统防护和实时监控 | [DeepMind](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |
+| OpenAI Atlas（已关闭） | 浏览器产品 | OpenAI 关闭其 AI 浏览器 Atlas，但将部分代理浏览功能迁移至桌面应用和 Chrome 扩展 | [TechCrunch](https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/) |
