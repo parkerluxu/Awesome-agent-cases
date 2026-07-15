@@ -43,6 +43,7 @@ A curated, continuously updated knowledge base for people building, evaluating, 
 <!-- DAILY_BRIEFS_START -->
 | Date | Brief |
 |---|---|
+| 2026-07-15 | [AI News Digest](daily_news/2026/07/2026-07-15-ai-news-digest.md) |
 | 2026-07-14 | [AI News Digest](daily_news/2026/07/2026-07-14-ai-news-digest.md) |
 | 2026-07-13 | [AI News Digest](daily_news/2026/07/2026-07-13-ai-news-digest.md) |
 | 2026-07-12 | [AI News Digest](daily_news/2026/07/2026-07-12-ai-news-digest.md) |
@@ -68,7 +69,6 @@ A curated, continuously updated knowledge base for people building, evaluating, 
 | 2026-06-17 | [AI News Digest](daily_news/2026/06/2026-06-17-ai-news-digest.md) |
 | 2026-06-16 | [AI News Digest](daily_news/2026/06/2026-06-16-ai-news-digest.md) |
 | 2026-06-15 | [AI News Digest](daily_news/2026/06/2026-06-15-ai-news-digest.md) |
-| 2026-06-14 | [AI News Digest](daily_news/2026/06/2026-06-14-ai-news-digest.md) |
 <!-- DAILY_BRIEFS_END -->
 
 Older issues are available in the [daily-news archive](daily_news/README.md).
