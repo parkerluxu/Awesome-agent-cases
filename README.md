@@ -1,6 +1,6 @@
 # Awesome Agent Cases
 
-A curated, continuously updated knowledge base for people building, evaluating, and applying AI agents.
+A bilingual, continuously updated knowledge base of AI agent cases, daily news, open-source projects, papers, and reusable resources for builders, researchers, and practitioners.
 
 <p align="center">
   <a href="https://github.com/parkerluxu/Awesome-agent-cases/stargazers"><img src="https://img.shields.io/github/stars/parkerluxu/Awesome-agent-cases?style=flat-square&logo=github&label=Stars" alt="GitHub stars" /></a>
@@ -20,6 +20,14 @@ A curated, continuously updated knowledge base for people building, evaluating, 
 
 [English](README.md) | [中文](docs/README.zh-CN.md)
 
+<p align="center">
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/discussions"><img src="https://img.shields.io/badge/Discussions-Join%20the%20community-58a6ff?style=flat-square&logo=github-discussions" alt="GitHub Discussions" /></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions Welcome" /></a>
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/graphs/contributors"><img src="https://img.shields.io/github/contributors/parkerluxu/Awesome-agent-cases?style=flat-square&logo=github" alt="Contributors" /></a>
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/issues"><img src="https://img.shields.io/github/issues/parkerluxu/Awesome-agent-cases?style=flat-square&logo=github" alt="Open Issues" /></a>
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/pulls"><img src="https://img.shields.io/github/issues-pr/parkerluxu/Awesome-agent-cases?style=flat-square&logo=github" alt="Open PRs" /></a>
+</p>
+
 ## Explore the Online Knowledge Base
 
 > **Want to go beyond the repository?** [Agent Case Share](https://agentcaseshare.cn/) is the searchable, continuously updated home for AI Agent cases, daily news, open-source projects, papers, and reusable assets.
@@ -32,7 +40,7 @@ A curated, continuously updated knowledge base for people building, evaluating, 
 
 | Looking for | Start with |
 |---|---|
-| Today's developments | [Latest daily brief](daily_news/2026/07/2026-07-10-ai-news-digest.md) |
+| Today's developments | [Latest daily brief](daily_news/2026/07/2026-07-17-ai-news-digest.md) |
 | A specific domain | [Topic index](indexes/by-topic.md) |
 | Cases, projects, tutorials, or papers | [Content-type index](indexes/by-content-type.md) |
 | A time-based reading path | [Date index](indexes/by-date.md) |
@@ -94,9 +102,31 @@ Long-lived research is organized by the task domain it serves. A collection can 
 
 See the [content guide](docs/content-guide.md) before adding or restructuring content.
 
-## Contributing
+## Community & Contributing
+
+This is a community-driven project — we welcome contributions of all kinds! Whether you're adding a case, fixing a broken link, or starting a new collection, your input makes this resource better for everyone.
+
+| Resource | Link |
+|---|---|
+| 📖 Contributing Guide | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| 💬 Discussions | [GitHub Discussions](https://github.com/parkerluxu/Awesome-agent-cases/discussions) |
+| 🐛 Report an Issue | [GitHub Issues](https://github.com/parkerluxu/Awesome-agent-cases/issues) |
+| 📜 Code of Conduct | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
+| 🌐 Online Knowledge Base | [Agent Case Share](https://agentcaseshare.cn/) |
 
 Useful contributions include a high-signal case, a practical paper, an open-source project, a correction, or a focused topic collection. Include the title, source link, resource type, relevant topic, and a concise explanation of why it matters.
+
+### Our Contributors
+
+<a href="https://github.com/parkerluxu/Awesome-agent-cases/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=parkerluxu/Awesome-agent-cases&max=24" alt="Contributors" />
+</a>
+
+## Star History
+
+<a href="https://github.com/parkerluxu/Awesome-agent-cases/stargazers">
+  <img src="https://starchart.cc/parkerluxu/Awesome-agent-cases.svg" alt="Star History Chart" />
+</a>
 
 ## License
 

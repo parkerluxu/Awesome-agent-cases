@@ -20,6 +20,12 @@
 
 [English](../README.md) | [中文](README.zh-CN.md)
 
+<p align="center">
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/discussions"><img src="https://img.shields.io/badge/Discussions-加入社区-58a6ff?style=flat-square&logo=github-discussions" alt="GitHub Discussions" /></a>
+  <a href="../CONTRIBUTING.md"><img src="https://img.shields.io/badge/贡献-欢迎-brightgreen?style=flat-square" alt="Contributions Welcome" /></a>
+  <a href="https://github.com/parkerluxu/Awesome-agent-cases/graphs/contributors"><img src="https://img.shields.io/github/contributors/parkerluxu/Awesome-agent-cases?style=flat-square&logo=github" alt="Contributors" /></a>
+</p>
+
 ## 在线浏览与分享
 
 > **想获得仓库以外的体验？** [Agent Case Share](https://agentcaseshare.cn/) 是一个可检索、持续更新的 AI Agent 知识库，汇集案例、每日资讯、开源项目、论文及可复用资产。
@@ -32,7 +38,7 @@
 
 | 想找什么 | 推荐入口 |
 |---|---|
-| 今日动态 | [最新日报](../daily_news/2026/07/2026-07-10-ai-news-digest.md) |
+| 今日动态 | [最新日报](../daily_news/2026/07/2026-07-17-ai-news-digest.md) |
 | 某个具体领域 | [按主题浏览](../indexes/by-topic.md) |
 | 案例、项目、教程或论文 | [按内容类型浏览](../indexes/by-content-type.md) |
 | 按时间阅读 | [按日期浏览](../indexes/by-date.md) |
@@ -94,9 +100,31 @@
 
 新增或调整内容前，请阅读[内容维护规范](content-guide.md)。
 
-## 贡献
+## 社区与贡献
 
-欢迎补充高信号案例、具备实践价值的论文、开源项目、链接修正或专题资料包。请附上标题、来源链接、内容类型、所属主题，以及简短的“为什么值得关注”。
+这是一个社区驱动的项目——我们欢迎各种形式的贡献！无论是添加一个案例、修正一个失效链接，还是开启一个新的专题资料包，你的参与都会让这个资源变得更好。
+
+| 资源 | 链接 |
+|---|---|
+| 📖 贡献指南 | [CONTRIBUTING.md](../CONTRIBUTING.md) |
+| 💬 讨论 | [GitHub Discussions](https://github.com/parkerluxu/Awesome-agent-cases/discussions) |
+| 🐛 反馈问题 | [GitHub Issues](https://github.com/parkerluxu/Awesome-agent-cases/issues) |
+| 📜 行为准则 | [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md) |
+| 🌐 在线知识库 | [Agent Case Share](https://agentcaseshare.cn/) |
+
+欢迎补充高信号案例、具备实践价值的论文、开源项目、链接修正或专题资料包。请附上标题、来源链接、内容类型、所属主题，以及简短的"为什么值得关注"。
+
+### 贡献者
+
+<a href="https://github.com/parkerluxu/Awesome-agent-cases/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=parkerluxu/Awesome-agent-cases&max=24" alt="Contributors" />
+</a>
+
+## Star 趋势
+
+<a href="https://github.com/parkerluxu/Awesome-agent-cases/stargazers">
+  <img src="https://starchart.cc/parkerluxu/Awesome-agent-cases.svg" alt="Star History Chart" />
+</a>
 
 ## 许可
 
