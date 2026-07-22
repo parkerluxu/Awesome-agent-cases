@@ -49,6 +49,7 @@
 <!-- DAILY_BRIEFS_START -->
 | 日期 | 简报 |
 |---|---|
+| 2026-07-22 | [AI 新闻简报](../daily_news/2026/07/2026-07-22-ai-news-digest.md) |
 | 2026-07-21 | [AI 新闻简报](../daily_news/2026/07/2026-07-21-ai-news-digest.md) |
 | 2026-07-20 | [AI 新闻简报](../daily_news/2026/07/2026-07-20-ai-news-digest.md) |
 | 2026-07-19 | [AI 新闻简报](../daily_news/2026/07/2026-07-19-ai-news-digest.md) |

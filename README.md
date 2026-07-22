@@ -51,6 +51,7 @@ A bilingual, continuously updated knowledge base of AI agent cases, daily news, 
 <!-- DAILY_BRIEFS_START -->
 | Date | Brief |
 |---|---|
+| 2026-07-22 | [AI News Digest](daily_news/2026/07/2026-07-22-ai-news-digest.md) |
 | 2026-07-21 | [AI News Digest](daily_news/2026/07/2026-07-21-ai-news-digest.md) |
 | 2026-07-20 | [AI News Digest](daily_news/2026/07/2026-07-20-ai-news-digest.md) |
 | 2026-07-19 | [AI News Digest](daily_news/2026/07/2026-07-19-ai-news-digest.md) |
