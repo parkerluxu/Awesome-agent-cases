@@ -322,3 +322,55 @@
 | Octo（Mininglamp Technology） | 开源平台 | 新一代人-AI Agent 协作平台 | [DEV Community](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWXRuaGV4c25Cemdqc1g2TW1obXdkcHlhc1h2bHVHMkZFUkJldDZ1c2xobnBKOElBWmRsQTBCSmh0ekJ1bHJHRVc2S2pYUjRLdDJaa3BCOVotdlVVR3lodjVsN2tfM3NWTWNhTm9vc3lFZmw4Wkl3dUNrR2RrM1JHcm9HZW9hSlRKTTM5VGNQV293bFA0d0dFVEdTRjlaaF9GTm1Bc2pZc0R4RVd3dGY4Zl83eURDOHBUQ0dfSGVNcGwxRnBkcUZ1LQ?oc=5) |
 | Adobe Creative Agent | 商业产品 | Adobe 将 Creative Agent 扩展至 Firefly、Photoshop、Premiere 及 Creative Cloud 应用 | [Storyboard18](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQanFITXc3WXpFRTJ3S2FfVUlHWERHSGZ3WE81QXYzV0gtRklNZy1tU2tlUEhQTml1SS1PWVM4SWJxREtFdllUREQ1cFY4SHBybDQtdUp4SEFLazB0eVdZdXJVNVdJcG1BR09yeHdpUGpMNm5DNjc2N2RYS3hucUFtRk1IWG92MmN3Vzl0N0ZFdVZzQ19MS1d5UEJWUWVaV3JvdHFqY0stWFJfa3poUWVQQ1Q3azQxNjZUNHVvTGpIZEVXOFROR0VXY3UyaENBRkJ3RzlMNklISjBEQdIB3wFBVV95cUxOYmhXZFdiaXp3ek9JTFRTUzhQQVhleFgyMjhUWkhFMUhSaTJKZm1fMGwwUGJ4SHBUZDZ2V1I4d2xNZkhUeG9XQzlsQ0lEeTAzanhOb0lHelptWU8xbDZQYWFzRkRwc1JlVUozdm1iZllYNnJXMTlKMlNUSkdxdGg2WkpfbjV4SXM4VGNZXzZBVnA4SDdQOTk1YTVmaG5rTVY5REhOT0JFeDNBWHE1dmhLaGdBTkJBbC0wUjY5Z2hScXdta0ZmMU5hN25JeDR4Vkd3QmNicDZFZUt4TUxsdHVF?oc=5) |
 | WPP Media Video Buyer Agent | 商业工具 | WPP 媒体正在开发的视频购买 Agent | [Radio & Television Business Report](https://news.google.com/rss/articles/CBMiZkFVX3lxTFByQXp4WnotSXJmVW5jelgwS2FMM1hBOGlpMU9wNlU3VFo5ejBYTUY5d2RCcFJHR3pQRnh4anliSU0xUjd4R3lXaGtKLUdEMjlYVXdUcXVzdnhSeEw5R011NFFSc1lsUQ?oc=5) |
+
+## 资料更新（2026-08-01）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| --- | --- | --- | --- |
+| wanderingstan/vibeconf-app | 开源项目 | AI Agent 作为真实参与者加入视频会议（Google Meet / Slack），支持语音、头像与白板共享，Electron + MCP 桌面客户端 | https://github.com/wanderingstan/vibeconf-app |
+| wlxb625/ai-native-video-architect | 开源项目 | 面向 AI Agent 的中文 AI 原生视频叙事 Skill，支持短片创作、剧本原生化改造、创意诊断、世界规则设计、场景拆解与生成式视频制作适配 | https://github.com/wlxb625/ai-native-video-architect |
+| AceDataCloud/Skills | 开源项目 | Agent Skills 集合，涵盖音乐、图像、视频生成与网络搜索等，兼容 Claude Code、GitHub Copilot、Gemini CLI 等 | https://github.com/AceDataCloud/Skills |
+| cherry20-1823/AI-Video-Agent | 开源项目 | 基于 OpenAI 的 AI 视频导演 Agent，支持自动项目规划与故事板生成 | https://github.com/cherry20-1823/AI-Video-Agent |
+| pierrelucd670/hermes-video-skills | 开源项目 | 面向 Hermes Agent 的生产级视频生成 Skills，支持 LTX-2.3、Wan 2.2 等模型 | https://github.com/pierrelucd670/hermes-video-skills |
+| PurpleDoubleD/locally-uncensored | 开源项目 | 本地 AI 工作室，支持离线聊天、图像与视频生成、编码 Agent，集成 abliterated LLMs 与 ComfyUI | https://github.com/PurpleDoubleD/locally-uncensored |
+| itsPremkumar/Automated-Video-Generator | 开源项目 | 自主文本到视频生成流水线，含免费 TTS/声音克隆、自动剪辑、字幕与 20+ 单任务操作 | https://github.com/itsPremkumar/Automated-Video-Generator |
+| pireel/pireel | 开源项目 | Capcut / ChatCut 的开源替代品，可通过 MCP 由任意 AI Agent 驱动 | https://github.com/pireel/pireel |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| --- | --- | --- | --- |
+| JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents | 论文 | 面向长程多模态创作的开源画布原生 Harness，支持图像、视频、音频、UI 元素、故事板等多资产创作 | https://arxiv.org/abs/2607.23588v1 |
+| HALLELUAI: A Hallucination-Aware AI System for Ultra-Realistic Image-to-Video Generation at Scale | 论文 | 端到端图像到视频生成系统，集成视频审核与再生成模块，保障大规模生产中的质量与用户体验 | https://arxiv.org/abs/2607.22959v1 |
+| VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System | 论文 | 以代码作为思维链的双引擎 Agent 系统，提升文本到视频生成的物理一致性 | https://arxiv.org/abs/2607.27380v1 |
+| FilmBench: A Film-Grade Benchmark for Cinematic Video Generation | Benchmark | 面向电影级视频生成的评测基准，采用专业电影语言标准评估生成质量 | https://arxiv.org/abs/2607.24241v2 |
+| AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment | 论文 | 多 Agent 推理框架，通过隐式表示对齐实现文本驱动的人-物交互视频生成 | https://arxiv.org/abs/2607.22241v2 |
+| FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications | 论文 | Agent Harness，引导 Agent 部署实时多模态应用（含语音 Agent 与交互式视频生成） | https://arxiv.org/abs/2607.18171v1 |
+| AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities | Benchmark | 音视频联合编辑能力评测基准，含 145 个精选源视频与 196 个音视频耦合编辑任务 | https://arxiv.org/abs/2607.24821v1 |
+| ETPDesigner: Multi-Agent Orchestration for Interactive Multimodal Electronic Theater Program | 论文 | 多 Agent 协作系统，用于交互式多模态电子剧场节目单设计 | https://arxiv.org/abs/2607.19947v1 |
+| Video = World + Event Stream | 论文 | Wan-Streamer v0.3 技术报告，提出“视频 = 世界 + 事件流”的原生流式交互模型 | https://arxiv.org/abs/2607.15038v2 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| --- | --- | --- | --- |
+| How to Automate AI Video Generation With an AI Agent (Without Losing the Director's Job) | 教程 | 探讨如何用 AI Agent 自动化视频生成流程，同时保留导演创意控制 | https://news.google.com/rss/articles/CBMirAFBVV95cUxNclRtbl92MDg1azVIekxRWWtHaG1lb2ZQSmltOVY3bGZaZ3lHbnFMTVU5RjdzdWJFOWZBNUpBSFFldFdmcjdHVlpFTFctd0RmSm4tRF9FX3plR3RoWFVuNk53MlZJU0lVSjU0dWYyTjI5MEszMU05OTB2OVMzbGppTWFsUVhfeV9nS3pIZHdnVEtMa19ub2pMYkkzV0lvZmZVU3NtS1F3cEpIR2FN?oc=5 |
+| JarvisHub：让创作Agent走出聊天框——面向长程多模态创作的开源画布原生Harness | 媒体实测 | 中文介绍 JarvisHub 开源画布原生 Harness 的报道 | https://news.google.com/rss/articles/CBMif0FVX3lxTE1scEkzSko1NGdDMDhBQV96QVlMM1pva1RmUVd0eXR3dVU0bG5SUFUtV09OUkpyZmV6SE14aDU5aW5GS3NqMnFad3RUSnFGS3FqRU40ME5wdzFlUFB0WWhKV2hrZFBKLXRfbUJ4Z21ISDFJd2VMU25Ya2lETlc2bDA?oc=5 |
+| 当Agent掌握了Skill！LibTV的又一次神操作！ | 媒体实测 | 介绍 LibTV 结合 Agent Skills 的实践案例 | https://news.google.com/rss/articles/CBMiXkFVX3lxTE10TGROMFVCckk1NGhENmJqUkJwNHNnTVV2ZzR3MDIxU3owMGcxNjNRaWdYLS12SzBhVEQxblF3NEdjeTM3QTAtUUM2SHA0TW0yNGw4YnZ5TlhfczVZZFE?oc=5 |
+| 如何用 AI 自动生成短视频初稿？MoneyPrinterTurbo 完整教程 | 教程 | MoneyPrinterTurbo 开源 AI 短视频生成工具完整教程 | https://zhuanlan.zhihu.com/p/2043685439295460536 |
+| 3分钟让你的Codex出高质量视频，烧了950 万 Token 实测：GPT-5.6 Sol vs Claude Code，谁做YouTube 长视频更强？ | 媒体实测 | 对比 GPT-5.6 Sol 与 Claude Code 生成 YouTube 长视频的实测 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE50QlRxTmNWb2NnZjFzTXFOSU5jdlAzOFREanhMeFVUdHVPSFo0XzFQSkZWUmNxMFhlVHN5RWZHcGNRdy1DUmtwVnlZMzlxLXFmbGhFTW93?oc=5 |
+| 北京说Agent已经能造世界，杭州却说它是刚发明的电灯泡 | 媒体实测 | 对比北京与杭州两地 Agent 视频生成能力认知差异的报道 | https://news.google.com/rss/articles/CBMisgRBVV95cUxOdU1zcjJVYmozS0FqTG5XQTJXbTkyMmhaY2lmdm1sQ3BZeWFHWTZ1LUtsRFZzLVpNc0g2X09pRUgxdEY3QzhxU1g0bDdzVmlRbloxUUxOek5tTVhLSTA0eVJ0WVN4WjZmSl91U3UtS1NNNlI5S3MtaUlQT0t1OWhIZzJaSG9SeXROZ1FxVFVlT3lhbFlLR2I3cGJEdldlU01rLUhGQ0F0R1RNOTdrOVBqZ3RjaDdfXzNFNFJWUlBNWlJETzhvcG0yaTRCelQ5d3VZd3lsclZkM2RaM2JLaGd5MWg3cUdjSks2a3k5YXRoNEpFSlVBQjhxV0JqNEdiMnNXdkEtRExTRE90NzdrT2dqQmRfNXlyTlRzQ1NFNWltVDRzYVFDTjlWcGJnREk4bXlSS1Nlbl9uLUxCeWdHOW5RWWFWWHczS1FvZmpLUGdrUmxIVkM0bnN3NDB4U3FzclhQY08xMEJONlNId1BkeTgtaFI3ZWdfLXlLWHZ3YjR1Mk5tSmYyQ1Jic3FMVE0wcWFKemZxYVdnbVBDUjN0elMwWG43TXdQbDhQZlp1M0lTSW1RSzFsRm5POE9pUEpVRUNrMUhUZjAyR0t1RHZXZllFVS1Da19pbndfZ21PMWdZQ2tUVmZOUE9udDJrSTd5V1F2amgzYVNkT0ZyTWxodXI4TDhDaVBlTjBsUlZUaUdBN2xnV2xEajQ5a3FYSlg3cTFSb0dCdElkMkhieHgyN1A3VUpB?oc=5 |
+| Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills | 教程 | NVIDIA 官方技术博客，介绍使用 Agent Skills 在一天内完成 Cosmos 3 后训练 | https://news.google.com/rss/articles/CBMilgFBVV95cUxNU0EzX3VocWZOQkpRX1FfX050MDRQLTM5aV9seXpEMzJTT1d2X2JEV0VVbmw1b2pMMGppVzB0bWJLVGZFODJMN3BZcGdyUXNkeXpJSm4tNlE1LXpEWVM0UVJhdjd0eWlFWUt3Yi1PSUZyV1U2ZnFJVGlCUjNEYVFtUW43cWxLdWk3cWI1RXMxOGUwT3BSNFE?oc=5 |
+| 2026年专业团队AI短剧工具横评：协同工业化怎么选 | 媒体实测 | 专业团队视角的 AI 短剧工具横向评测 | https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqYzVxYTJKcHpaR2pwblhha0pzRzM2bzN5V1BWYzRwaGJUR0xLZnE4VXdzSjZBZzRpQlV4akx2WXMzbDBxMG5IMTR6aDFZdmFJY1puSU5Yald2dEg2Rmc?oc=5 |
+| 2026年AI短剧画面表现力横评：镜头语言与影视级哪家更好？ | 媒体实测 | AI 短剧画面表现力横评，聚焦镜头语言与影视级效果 | https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rdDZtdk9YMThpUW5wQUxMSzVEbTk0ZUFsLTVMNm9BdVh6ZTVIbmJFNTJ0cTB0WHZJZUpqcldMSWRaY2ZSWU5wOA?oc=5 |
+| 2026最强AI视频生态拆解：开源Hyperframes彻底颠覆剪辑 | 媒体实测 | 拆解开源 Hyperframes 对 AI 视频剪辑生态的影响 | https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uYXp2X2gzaTVBVlJOYTdocWsxbzAwZUJZbFlXN3Y0RFI1YlVZbDlnci04b3kwT25OUkV5UnZzZG85N3VkRUhhc1dfcXMyeE5rNFhJZzg1ejdfZW9P?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| --- | --- | --- | --- |
+| Revid.ai MCP Server 与命令行工具 | 产品 | 领先 AI 视频生成平台 Revid.ai 发布 MCP Server 与命令行工具，让 AI Agent 可直接调用视频生产能力 | https://news.google.com/rss/articles/CBMiogFBVV95cUxPcGVVQmtIcDk0MUtUeXpQeDIwVXVUTTBMdkdNdGQ0WW1rUV9VczNUMWl0bU5hZ0Z5VU1VZXlKeWJ6OHREWTIwODBWR1dvTkNkUkxXWDdrZFdEaUdlRG1TVHhGeDdkejRWaWpGSWlwaWZseXpDdG9Cbk9kUzRNUmJsbGNkN3g0VkNhWUdLRU82VmlPQmFzY2dqVUN1WE8yTUZyanc?oc=5 |
+| Buzzy.now Seedance 2.5 Video Generator | 产品 | 发布 Seedance 2.5 视频生成器，支持从提示词到成片的端到端 AI 电影制作工作流 | https://news.google.com/rss/articles/CBMikwJBVV95cUxPU0ZDcXdUNXRVT3hSUGhCaXNGNUY2T0pZM2NhMjV3d3BDc0dPOWdjN19MdjRxRUlnZzVSbndjYlZUb0FWQ2pzdFdXMVU4V2ttd01oaDZFUGdvVWNxVHIwVkVsSGI1aW9RWG1zNEhGUVVUdDl1NXNGZHk1Uk05SUo1a3EteFItT3JXSzVKTDJNQXFYR2xiZnRoYjI4elJhdlBWUkFiVXZxbTZicXlUcDgyQldRY2Z5S0JyVEhvNnFlODcyY2RjWno2THRGSW5sd1Nad3hreGRoYWcxZjVlb0pfQW9fWks3RHpvcnhDRldtNHNfbW9GQWExV3JCYjZObjhVd0I4ci1ycUhWVmhxdFdwMGdxZw?oc=5 |
+| Google Gemini Omni for Vids | 产品 | Google 将 Gemini Omni 引入 Vids，支持指令驱动的视频编辑与生成 | https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZFNHhHamlFQWNkZE53YURmRGF2RWxtalJwRlJ6cHgwT2lGRWRwZTdHazg0RXo5Mzd1MlNLOWphN1hHNnpwRXF5TncwZ1FjQXRMS2F3bU5sV1RTTWVHZVRMZVdNVkIxU2ZiS1VKaG5JemRkNkhiM0JiTVpwVlZaWXFoNWRJdE94MWtmaTc1b2QtamdocFVmY29jMWFNVUh1TmJ2ZHJpR3RKWFplZUF0azVR?oc=5 |

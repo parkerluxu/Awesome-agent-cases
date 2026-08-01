@@ -207,3 +207,50 @@
 |------|------|-----------|------|
 | Suno AI使用教程：从入门到进阶 (超详细) - 知乎 | 教程 | Suno 详细使用教程，涵盖编辑功能与高效制作精品歌曲的方法 | [知乎](https://zhuanlan.zhihu.com/p/1887930075674048214) |
 | NeuroSchool-Profkom-LETI | GitHub 项目 | AI 内容生成课程（10 模块），涵盖图像、音乐、视频、AI agent 等 | [GitHub](https://github.com/kostyk348/NeuroSchool-Profkom-LETI) |
+
+## 资料更新（2026-08-01）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Multi-Agent-vs-Single-Prompt-AI-Rap-Music | GitHub 项目 | 法兰克福大学学士论文项目，对比多智能体与单提示词在 AI 说唱音乐生成中的人物一致性（Persona Consistency）与身份漂移（Identity Drift）表现 | https://github.com/AntonSKM/Multi-Agent-vs-Single-Prompt-AI-Rap-Music |
+| octal | GitHub 项目 | Agent-first 音乐制作：AI 编码智能体以代码形式创作真实曲目 | https://github.com/octalmusic/octal |
+| crun-agent-skills | GitHub 项目 | 面向 AI 智能体的媒体生成技能集，可路由、估算、创建并检索图像、视频、语音和音乐任务，覆盖 138 个模型，兼容 Claude Code、Codex、Cursor 等平台 | https://github.com/Sean190828/crun-agent-skills |
+| fenshen-agent-plugin | GitHub 项目 | 通过 Claude Code 调用 fenshen 进行音频制作与视频编辑，支持语音、音乐、转写及时间线操作 | https://github.com/honganai/fenshen-agent-plugin |
+| gemini-audio | GitHub 项目 | 基于 Gemini 3.1 Flash TTS 和 Lyria 3 的智能体技能与 CLI，用于视频配音及音乐生成 | https://github.com/Rkcr7/gemini-audio |
+| localm | GitHub 项目 | 完全离线的本地 LLM 运行工具，支持聊天、编码智能体、图像与音乐生成、知识库/RAG、语音，隐私优先 | https://github.com/Matlan1/localm |
+| Pixazo-AI/skills | GitHub 项目 | 70 个智能体技能，覆盖图像、视频、音乐、语音、3D、虚拟试穿，需 Pixazo API key | https://github.com/Pixazo-AI/skills |
+| koubo-clip | GitHub 项目 | Agent-first 本地 CLI，用于口播视频的清洗与增强，包含字幕、可审查编辑计划、视觉素材、音乐、HyperFrames 渲染等 | https://github.com/MarcusYuan/koubo-clip |
+| video-music-identifier | GitHub 项目 | 智能体技能：通过元数据线索、声学特征分析、多段 Shazam 匹配及波形级比对识别视频背景音乐 | https://github.com/Snoop2023/video-music-identifier |
+| Auto-Soulseek | GitHub 项目 | 输入播放列表 CSV，自动通过 Soulseek 下载并整理去重的艺术家/专辑音乐库，可一键运行或由 LLM 智能体调用 | https://github.com/twanahc/Auto-Soulseek |
+| MystoriumX-AI-Studio | GitHub 项目 | 面向电影配乐生成、视频场景分析、AI 作曲、音频母带与纪录片工作流自动化的 AI 工作室（Python + Streamlit） | https://github.com/islamicretails-bit/MystoriumX-AI-Studio |
+| AIMusicPromptGenerator | GitHub 项目 | 为 Suno、Udio 等平台生成高细节 AI 音乐提示词的专业工具，支持多提供商（OpenRouter/Groq）与精确风格控制 | https://github.com/rodrigocaetanooficial/AIMusicPromptGenerator |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| RIME: Enabling Large-Scale Agentic Music Post-Production | arXiv 论文 | 提出 RIME 框架，面向大规模智能体化音乐后期制作，聚焦商业音乐发布前所需的细粒度迭代精修工作流 | https://arxiv.org/abs/2607.19605v2 |
+| Teleportation Game: Quantum Teleportation in Multi-Agent Systems for Interactive Music | arXiv 论文 | 提出基于量子隐形传态的多智能体交互音乐系统，音乐智能体通过量子态编码旋律与节奏行为，支持最多三个智能体在单条量子线路中协同 | https://arxiv.org/abs/2607.19212v1 |
+| Bring Music The Horizon: Music-Driven 360° Video Generation | arXiv 论文 | 提出情绪感知的音乐驱动 360° 视频生成管线，将音乐情感动态转化为沉浸式全景视觉内容 | https://arxiv.org/abs/2607.13471v1 |
+| Qwen-Music Technical Report | arXiv 论文 | 介绍 Qwen-Music 音乐生成模型，支持文本生成音乐与翻唱歌曲生成两大核心任务，集成 Qwen-Music-Tok 等组件 | https://arxiv.org/abs/2607.11699v2 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 保姆级教程：Grok CLI + Goal 实战，用 Composer 2.5 搭建 AI 声音工作室 | YouTube 视频 | 全栈开源教程，演示如何使用 Grok CLI 与 Goal 搭建 AI 声音工作室 | https://news.google.com/rss/articles/CBMiVkFVX3lxTFByVzdBVS1EMlpvOFdwMHBENWJsZU9wQklCTjl3bkFFNjYwNjRGSTVoaEdHaUxxM2l0Uk9jSWhhNTAyMUtfMVFuajNyb3N6ejlid1pGOXR3?oc=5 |
+| 【最强AI音乐Suno】7月27日最新suno使用教程 | Bilibili 视频 | 手把手教程，覆盖 Suno 免费使用、中文版操作、复刻歌曲、修正中文读音等 15 条视频 | https://www.bilibili.com/video/BV1RugZ6mEbd/ |
+| AI智能体工作流如何实现24分钟内容生产 | CSDN 文章 | 介绍 AI 智能体工作流实现 24 分钟内容生产的方法 | https://news.google.com/rss/articles/CBMib0FVX3lxTE1BSzh1ZU9DTHdEZEc1NjFPX01JYlJoRFYwUjJkT1A1dUpSV1J2TVN2a1p6NThIYTEzR2FxTTBPQzMtMVJsXzZZN3BFWnRzVDdrSXpzdUdVbjBKZS1lcnctaFVuSElnTnBHNHF5QzRPRQ?oc=5 |
+| Google Lyria 3.5 Raises the Bar for AI-Generated Music | SQ Magazine 报道 | 评测 Google Lyria 3.5 在 AI 音乐生成方面的进展 | https://news.google.com/rss/articles/CBMiekFVX3lxTFBzVDdPdDAwVGRjLUFIY2JVNkFiQzhVU2JGbmRYR2FaM3A2MmFjLUtMSS1kakZXWWJzLXVLLS1MUHBoekVJRDZiQnJZREp6YlRBS1FTVVlEVzNyVG4zY1NoMXBFWWhNTlN6UV9tYVdPbUJKemI3Y05xSTNB?oc=5 |
+| Open-Source AI Music Is Heating Up: ACE-Step and Its Expanding Ecosystem | quasa.io 报道 | 报道开源 AI 音乐项目 ACE-Step 及其生态发展 | https://news.google.com/rss/articles/CBMimgFBVV95cUxPR1Q5SnQ2QnpIdUFjUmtVTDNORFdxTU0xNndXNDJuUkVBekZpNzF6OWNCMUFGSS1PeVdSWVB4dThleVFpQnJhQU5OOWRFS1RaU3p0LVlyUFh2ek92TUtJMnB4Y0ZVZl9sR3hVYV82WmlEM2RWOG9vRVFfUVBkNTh0Q004b2tHaTFYNDBZVEdfSmJpNDBRTG1HNWV3?oc=5 |
+| Spotify is deleting millions of AI-generated music tracks to fend off spammers | TechSpot 报道 | 报道 Spotify 删除数百万 AI 生成音乐曲目以应对垃圾信息 | https://news.google.com/rss/articles/CBMinwFBVV95cUxOVFhKVEdodzhIcGNmbXFObmVEV24yb29RWkoyVGpNcWVLV1JlUlRGQjNad2gwZzZDVktBQ0JuTi1xZUEzOWktZDFzcUZ2eHJrTUlWOG00NW4zWF9YY0RZMVdfLVNiUjhVZGhWVjA4VU1TejY4SmJrSVNkTFVTdC1qRGU0YnVUcnVDZUtUOU9YbW1mZElOaG5QeVd1SEpyQmM?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Google Lyria 3.5（Google Flow Music） | 产品发布 | Google DeepMind 发布 Lyria 3.5，在音乐性、歌词、人声与创作控制方面取得进展 | https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/ |
+| hermes-agent（songwriting-and-ai-music 技能） | 开源技能 | NousResearch 的 hermes-agent 仓库中包含歌曲创作与 AI 音乐相关的 SKILL.md 技能文件 | https://news.google.com/rss/articles/CBMipwFBVV95cUxQSDZyeE94QTROTDZlRjJqT3VKV3o4aEhhMU1TbWpuMzlKQUl2N0FLVGV2c3dnaTh5M1p3cUZ3OFZYT1dUM18tUVowa3o3aFA5U3ZwbjNzWXFlVmJNV2VqQktSNzU3dDB0aTlEVEVjSHdhRnI1WEZYU2FpSWN0S1d0S3pmLXRyeHBEM3RpTDRTalBQMHdTRENiZFpsamJhcVpKLUFKTDQ0Yw?oc=5 |
+| hyperframes | 开源工具 | “Write HTML. Render video.” 面向智能体的视频渲染工具 | https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jX1VJZUtYYlBfWndCZEYtUlhhTUpNOEZrZks1U0VVVHpQYmFDZFNkUGJ1VzBZaEVES3hsNHVmbkhhQm5OVlVSSm9PYU53T1FzTzRZ?oc=5 |

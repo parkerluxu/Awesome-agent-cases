@@ -314,3 +314,56 @@ This section is divided into two categories: `26 Tutorials / Cases` and `30 Proj
 | Mininglamp Technology Officially Open-Sources Octo | DEV Community | New-generation platform for human-AI agent collaboration, open-sourced by Mininglamp Technology. | [DEV Community](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWXRuaGV4c25Cemdqc1g2TW1obXdkcHlhc1h2bHVHMkZFUkJldDZ1c2xobnBKOElBWmRsQTBCSmh0ekJ1bHJHRVc2S2pYUjRLdDJaa3BCOVotdlVVR3lodjVsN2tfM3NWTWNhTm9vc3lFZmw4Wkl3dUNrR2RrM1JHcm9HZW9hSlRKTTM5VGNQV293bFA0d0dFVEdTRjlaaF9GTm1Bc2pZc0R4RVd3dGY4Zl83eURDOHBUQ0dfSGVNcGwxRnBkcUZ1LQ?oc=5) |
 | Adobe expands Creative Agent across Firefly, Photoshop, Premiere and Creative Cloud apps | Storyboard18 | Adobe expands its Creative Agent capabilities across multiple creative applications. | [Storyboard18](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQanFITXc3WXpFRTJ3S2FfVUlHWERHSGZ3WE81QXYzV0gtRklNZy1tU2tlUEhQTml1SS1PWVM4SWJxREtFdllUREQ1cFY4SHBybDQtdUp4SEFLazB0eVdZdXJVNVdJcG1BR09yeHdpUGpMNm5DNjc2N2RYS3hucUFtRk1IWG92MmN3Vzl0N0ZFdVZzQ19MS1d5UEJWUWVaV3JvdHFqY0stWFJfa3poUWVQQ1Q3azQxNjZUNHVvTGpIZEVXOFROR0VXY3UyaENBRkJ3RzlMNklISjBEQdIB3wFBVV95cUxOYmhXZFdiaXp3ek9JTFRTUzhQQVhleFgyMjhUWkhFMUhSaTJKZm1fMGwwUGJ4SHBUZDZ2V1I4d2xNZkhUeG9XQzlsQ0lEeTAzanhOb0lHelptWU8xbDZQYWFzRkRwc1JlVUozdm1iZllYNnJXMTlKMlNUSkdxdGg2WkpfbjV4SXM4VGNZXzZBVnA4SDdQOTk1YTVmaG5rTVY5REhOT0JFeDNBWHE1dmhLaGdBTkJBbC0wUjY5Z2hScXdta0ZmMU5hN25JeDR4Vkd3QmNicDZFZUt4TUxsdHVF?oc=5) |
 | WPP Media Developing Video Buyer Agent | Radio & Television Business Report | WPP Media developing an AI agent for video buying. | [Radio & Television Business Report](https://news.google.com/rss/articles/CBMiZkFVX3lxTFByQXp4WnotSXJmVW5jelgwS2FMM1hBOGlpMU9wNlU3VFo5ejBYTUY5d2RCcFJHR3pQRnh4anliSU0xUjd4R3lXaGtKLUdEMjlYVXdUcXVzdnhSeEw5R011NFFSc1lsUQ?oc=5) |
+
+## Resource Update (2026-08-01)
+
+The following resources were discovered after the original article was published. They are provided as leads for further investigation.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| wanderingstan/vibeconf-app | GitHub | Open-source desktop client (Electron + MCP) enabling AI agents to join Google Meet/Slack as real participants — hear, speak, show an avatar, and share a whiteboard. | https://github.com/wanderingstan/vibeconf-app |
+| wlxb625/ai-native-video-architect | GitHub | Chinese AI-native video narrative Skill for AI agents: short-film creation, script adaptation, creative diagnosis, world-rule design, scene breakdown, and generative video production. | https://github.com/wlxb625/ai-native-video-architect |
+| AceDataCloud/Skills | GitHub | Agent Skills for music, image, video generation, and web search; compatible with Claude Code, GitHub Copilot, Gemini CLI, and agentskills.io-compatible agents. | https://github.com/AceDataCloud/Skills |
+| cherry20-1823/AI-Video-Agent | GitHub | AI Video Director Agent powered by OpenAI for automatic project planning and storyboard generation. | https://github.com/cherry20-1823/AI-Video-Agent |
+| pierrelucd670/hermes-video-skills | GitHub | Production-ready video generation skills for Hermes Agent (LTX-2.3, Wan 2.2, PinkCherry NSFW), A40-tested. | https://github.com/pierrelucd670/hermes-video-skills |
+| PurpleDoubleD/locally-uncensored | GitHub | Plug-and-play local AI studio: uncensored chat, image & video generation, coding agent; runs abliterated LLMs + ComfyUI 100% offline. | https://github.com/PurpleDoubleD/locally-uncensored |
+| itsPremkumar/Automated-Video-Generator | GitHub | Agentic AI video generator — fully autonomous text-to-video pipeline with free TTS/voice-clone, auto-editing, captions, and 20+ single-task operations. MIT. | https://github.com/itsPremkumar/Automated-Video-Generator |
+| pireel/pireel | GitHub | Open-source alternative to CapCut/ChatCut, drivable by any AI agent over MCP. | https://github.com/pireel/pireel |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents | arXiv | Open harness for long-horizon multimodal creative agents; supports references, drafts, edits, version relations, tool actions, evaluation signals, and human feedback. | https://arxiv.org/abs/2607.23588v1 |
+| HALLELUAI: A Hallucination-Aware AI System for Ultra-Realistic Image-to-Video Generation at Scale | arXiv | End-to-end system that moderates and regenerates image-to-video outputs to meet expert-level creative standards with consistent quality of experience at scale. | https://arxiv.org/abs/2607.22959v1 |
+| VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System | arXiv | Code-as-chain-of-thought approach for physically consistent video generation using an agentic dual-engine system. | https://arxiv.org/abs/2607.27380v1 |
+| FilmBench: A Film-Grade Benchmark for Cinematic Video Generation | arXiv | Benchmark evaluating video generation using professional Cinematic Language criteria rather than generic multimodal scoring. | https://arxiv.org/abs/2607.24241v2 |
+| AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment | arXiv | Text-driven human-object-interaction video generation using a thinking-before-generation framework with multi-agent reasoning. | https://arxiv.org/abs/2607.22241v2 |
+| FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications | arXiv | Agent harness for deploying real-time multimodal applications (voice agents, interactive video generation) with placement, streaming, and parallelism decisions. | https://arxiv.org/abs/2607.18171v1 |
+| AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities | arXiv | Benchmark with 145 curated source videos and 196 audio-visually coupled editing tasks for evaluating cross-modal consistency. | https://arxiv.org/abs/2607.24821v1 |
+| ETPDesigner: Multi-Agent Orchestration for Interactive Multimodal Electronic Theater Program | arXiv | Collaborative multi-agent system for designing multi-page electronic theater programs with visual consistency. | https://arxiv.org/abs/2607.19947v1 |
+| Video = World + Event Stream | arXiv | Wan-Streamer v0.3 native-streaming interaction model reframing video as a persistent world plus a changing event stream. | https://arxiv.org/abs/2607.15038v2 |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| How to Automate AI Video Generation With an AI Agent (Without Losing the Director's Job) | HackerNoon | Tutorial on automating AI video generation with an AI agent while maintaining creative control. | https://news.google.com/rss/articles/CBMirAFBVV95cUxNclRtbl92MDg1azVIekxRWWtHaG1lb2ZQSmltOVY3bGZaZ3lHbnFMTVU5RjdzdWJFOWZBNUpBSFFldFdmcjdHVlpFTFctd0RmSm4tRF9FX3plR3RoWFVuNk53MlZJU0lVSjU0dWYyTjI5MEszMU05OTB2OVMzbGppTWFsUVhfeV9nS3pIZHdnVEtMa19ub2pMYkkzV0lvZmZVU3NtS1F3cEpIR2FN?oc=5 |
+| 3分钟让你的Codex出高质量视频，烧了950万Token实测：GPT-5.6 Sol vs Claude Code，谁做YouTube长视频更强？ | YouTube | Chinese-language test comparing GPT-5.6 Sol vs Claude Code for generating high-quality YouTube long-form videos via Codex. | https://news.google.com/rss/articles/CBMiVkFVX3lxTE50QlRxTmNWb2NnZjFzTXFOSU5jdlAzOFREanhMeFVUdHVPSFo0XzFQSkZWUmNxMFhlVHN5RWZHcGNRdy1DUmtwVnlZMzlxLXFmbGhFTW93?oc=5 |
+| 如何用AI自动生成短视频初稿？MoneyPrinterTurbo完整... | Zhihu | Chinese-language guide to MoneyPrinterTurbo, an open-source AI short-video generation tool that chains the full production pipeline. | https://zhuanlan.zhihu.com/p/2043685439295460536 |
+| 2026年专业团队AI短剧工具横评：协同工业化怎么选 | thepaper.cn | Chinese-language comparative review of AI short-drama tools for professional teams, focusing on collaborative industrialization. | https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqYzVxYTJKcHpaR2pwblhha0pzRzM2bzN5V1BWYzRwaGJUR0xLZnE4VXdzSjZBZzRpQlV4akx2WXMzbDBxMG5IMTR6aDFZdmFJY1puSU5Yald2dEg2Rmc?oc=5 |
+| 2026年AI短剧画面表现力横评：镜头语言与影视级哪家更好？ | 品玩 | Chinese-language comparative review of AI short-drama visual expressiveness, evaluating cinematography and film-grade quality. | https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rdDZtdk9YMThpUW5wQUxMSzVEbTk0ZUFsLTVMNm9BdVh6ZTVIbmJFNTJ0cTB0WHZJZUpqcldMSWRaY2ZSWU5wOA?oc=5 |
+| 2026最强AI视频生态拆解：开源Hyperframes彻底颠覆剪辑 | 知乎专栏 | Chinese-language analysis of the 2026 AI video ecosystem, focusing on the open-source Hyperframes project and its impact on editing. | https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uYXp2X2gzaTVBVlJOYTdocWsxbzAwZUJZbFlXN3Y0RFI1YlVZbDlnci04b3kwT25OUkV5UnZzZG85N3VkRUhhc1dfcXMyeE5rNFhJZzg1ejdfZW9P?oc=5 |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|---|---|---|---|
+| Revid.ai MCP Server and CLI | Yahoo Finance | Leading AI video generation platform launches MCP server and command-line tool giving AI agents direct access to video production. | https://news.google.com/rss/articles/CBMiogFBVV95cUxPcGVVQmtIcDk0MUtUeXpQeDIwVXVUTTBMdkdNdGQ0WW1rUV9VczNUMWl0bU5hZ0Z5VU1VZXlKeWJ6OHREWTIwODBWR1dvTkNkUkxXWDdrZFdEaUdlRG1TVHhGeDdkejRWaWpGSWlwaWZseXpDdG9Cbk9kUzRNUmJsbGNkN3g0VkNhWUdLRU82VmlPQmFzY2dqVUN1WE8yTUZyanc?oc=5 |
+| Buzzy.now Seedance 2.5 Video Generator | Akron Beacon Journal | End-to-end AI filmmaking workflow from prompt to final video, powered by Seedance 2.5. | https://news.google.com/rss/articles/CBMikwJBVV95cUxPU0ZDcXdUNXRVT3hSUGhCaXNGNUY2T0pZM2NhMjV3d3BDc0dPOWdjN19MdjRxRUlnZzVSbndjYlZUb0FWQ2pzdFdXMVU4V2ttd01oaDZFUGdvVWNxVHIwVkVsSGI1aW9RWG1zNEhGUVVUdDl1NXNGZHk1Uk05SUo1a3EteFItT3JXSzVKTDJNQXFYR2xiZnRoYjI4elJhdlBWUkFiVXZxbTZicXlUcDgyQldRY2Z5S0JyVEhvNnFlODcyY2RjWno2THRGSW5sd1Nad3hreGRoYWcxZjVlb0pfQW9fWks3RHpvcnhDRldtNHNfbW9GQWExV3JCYjZObjhVd0I4ci1ycUhWVmhxdFdwMGdxZw?oc=5 |
+| Google Gemini Omni in Vids | DEV Community | Google brings Gemini Omni to Vids for instruction-driven video editing and generation. | https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZFNHhHamlFQWNkZE53YURmRGF2RWxtalJwRlJ6cHgwT2lGRWRwZTdHazg0RXo5Mzd1MlNLOWphN1hHNnpwRXF5TncwZ1FjQXRMS2F3bU5sV1RTTWVHZVRMZVdNVkIxU2ZiS1VKaG5JemRkNkhiM0JiTVpwVlZaWXFoNWRJdE94MWtmaTc1b2QtamdocFVmY29jMWFNVUh1TmJ2ZHJpR3RKWFplZUF0azVR?oc=5 |
+| NVIDIA Cosmos 3 Post-Training with Agent Skills | NVIDIA Developer | Technical blog on post-training NVIDIA Cosmos 3 in one day using Agent Skills. | https://news.google.com/rss/articles/CBMilgFBVV95cUxNU0EzX3VocWZOQkpRX1FfX050MDRQLTM5aV9seXpEMzJTT1d2X2JEV0VVbmw1b2pMMGppVzB0bWJLVGZFODJMN3BZcGdyUXNkeXpJSm4tNlE1LXpEWVM0UVJhdjd0eWlFWUt3Yi1PSUZyV1U2ZnFJVGlCUjNEYVFtUW43cWxLdWk3cWI1RXMxOGUwT3BSNFE?oc=5 |
+| JarvisHub (Chinese coverage) | 手机新浪网 | Chinese-language coverage of JarvisHub, an open-source canvas-native harness for long-horizon multimodal creative agents. | https://news.google.com/rss/articles/CBMif0FVX3lxTE1scEkzSko1NGdDMDhBQV96QVlMM1pva1RmUVd0eXR3dVU0bG5SUFUtV09OUkpyZmV6SE14aDU5aW5GS3NqMnFad3RUSnFGS3FqRU40ME5wdzFlUFB0WWhKV2hrZFBKLXRfbUJ4Z21ISDFJd2VMU25Ya2lETlc2bDA?oc=5 |
+| LibTV Agent Skills | thepaper.cn | Chinese-language article on LibTV's Agent Skills integration, enabling agents to master creative skills. | https://news.google.com/rss/articles/CBMiXkFVX3lxTE10TGROMFVCckk1NGhENmJqUkJwNHNnTVV2ZzR3MDIxU3owMGcxNjNRaWdYLS12SzBhVEQxblF3NEdjeTM3QTAtUUM2SHA0TW0yNGw4YnZ5TlhfczVZZFE?oc=5 |

@@ -209,3 +209,48 @@ This section is divided into two categories: `21 Tutorials / Cases` and `16 Proj
 | Suno | AI 音乐生成平台 - Suno 中文版 | Product | Chinese-language Suno AI music generation platform. | [Link](https://suno.hk/zh-cn/) |
 | 苏诺之音 Suno AI创作平台 | Product | Chinese Suno AI music creation platform with AI-assisted melody, harmony, and rhythm design. | [Link](https://www.suno.cn/home/?from=xmcts) |
 | Suno AI 音乐创作平台 — 人声克隆与自定义模型 | Product | Suno V5.5 platform supporting voice cloning, custom models, and up to 8-minute songs. | [Link](https://suno.ing/zh-cn/) |
+
+## Resource Update (2026-08-01)
+
+The following resources were discovered after the original article was published. They are provided as leads for further investigation and have not yet been integrated into the main case library.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Multi-Agent-vs-Single-Prompt-AI-Rap-Music | GitHub | Bachelor thesis project evaluating persona consistency and identity drift in multi-agent vs. single-prompt AI rap music generation across multiple cycles | [github.com/AntonSKM/Multi-Agent-vs-Single-Prompt-AI-Rap-Music](https://github.com/AntonSKM/Multi-Agent-vs-Single-Prompt-AI-Rap-Music) |
+| octal | GitHub | Agent-first music production where AI coding agents compose real tracks as code | [github.com/octalmusic/octal](https://github.com/octalmusic/octal) |
+| crun-agent-skills | GitHub | AI media generation skills for agents — route, estimate, create & retrieve image, video, speech and music tasks across 138 models via the Crun API; works with Claude Code, Codex, Cursor & any SKILL.md-compatible platform | [github.com/Sean190828/crun-agent-skills](https://github.com/Sean190828/crun-agent-skills) |
+| fenshen-agent-plugin | GitHub | Make audio and edit video with fenshen from Claude Code — speech, music, transcription, and a timeline driven by asking | [github.com/honganai/fenshen-agent-plugin](https://github.com/honganai/fenshen-agent-plugin) |
+| gemini-audio | GitHub | Voiceover & music generation for videos — an agent skill + CLI over Gemini 3.1 Flash TTS and Lyria 3 | [github.com/Rkcr7/gemini-audio](https://github.com/Rkcr7/gemini-audio) |
+| localm | GitHub | Run local LLMs fully offline — chat, coding agent, image & music generation, knowledge/RAG, voice; privacy-first CLI | [github.com/Matlan1/localm](https://github.com/Matlan1/localm) |
+| Pixazo-AI/skills | GitHub | 70 agent skills covering image, video, music, voice, 3D, virtual try-on; Pixazo API key required | [github.com/Pixazo-AI/skills](https://github.com/Pixazo-AI/skills) |
+| koubo-clip | GitHub | Agent-first local CLI for cleaning and enhancing talking-head videos with transcripts, reviewable edit plans, captions, visual assets, music, HyperFrames rendering, and artifact inspection | [github.com/MarcusYuan/koubo-clip](https://github.com/MarcusYuan/koubo-clip) |
+| video-music-identifier | GitHub | Agent skill to identify a video's background music with evidence — metadata clues + acoustic profiling + multi-segment Shazam, confirmed by waveform-level matching | [github.com/Snoop2023/video-music-identifier](https://github.com/Snoop2023/video-music-identifier) |
+| Auto-Soulseek | GitHub | Hand it a playlist CSV, get back a clean de-duplicated Artist/Album music library — Soulseek downloads, auto-organized; runs in one command or via an LLM agent | [github.com/twanahc/Auto-Soulseek](https://github.com/twanahc/Auto-Soulseek) |
+| MystoriumX-AI-Studio | GitHub | Production-grade AI Studio for cinematic soundtrack generation, video scene analysis, AI music composition, audio mastering, and documentary workflow automation built with Python and Streamlit | [github.com/islamicretails-bit/MystoriumX-AI-Studio](https://github.com/islamicretails-bit/MystoriumX-AI-Studio) |
+| hermes-agent songwriting skill | GitHub | Creative songwriting-and-AI-music skill for the NousResearch hermes-agent | [SKILL.md](https://news.google.com/rss/articles/CBMipwFBVV95cUxQSDZyeE94QTROTDZlRjJqT3VKV3o4aEhhMU1TbWpuMzlKQUl2N0FLVGV2c3dnaTh5M1p3cUZ3OFZYT1dUM18tUVowa3o3aFA5U3ZwbjNzWXFlVmJNV2VqQktSNzU3dDB0aTlEVEVjSHdhRnI1WEZYU2FpSWN0S1d0S3pmLXRyeHBEM3RpTDRTalBQMHdTRENiZFpsamJhcVpKLUFKTDQ0Yw?oc=5) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| RIME: Enabling Large-Scale Agentic Music Post-Production | arXiv | Addresses fine-grained iterative refinement workflows for music post-production, complementary to one-shot music generation models | [arxiv.org/abs/2607.19605v2](https://arxiv.org/abs/2607.19605v2) |
+| Teleportation Game: Quantum Teleportation in Multi-Agent Systems for Interactive Music | arXiv | Interactive music system with quantum musical agents communicating via teleportation; human performers interact in real time with agents whose melodic/rhythmic behaviours are encoded as quantum states | [arxiv.org/abs/2607.19212v1](https://arxiv.org/abs/2607.19212v1) |
+| Bring Music The Horizon: Music-Driven 360° Video Generation | arXiv | Emotion-aware pipeline for music-driven 360° video generation, translating auditory signals into immersive visual forms | [arxiv.org/abs/2607.13471v1](https://arxiv.org/abs/2607.13471v1) |
+| Qwen-Music Technical Report | arXiv | Music generation model supporting Text-to-Music and Cover Song Generation with complete vocal singing; integrates Qwen-Music-Tok and other components | [arxiv.org/abs/2607.11699v2](https://arxiv.org/abs/2607.11699v2) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Grok CLI + Goal 实战：用 Composer 2.5 搭建 AI 声音工作室 | YouTube | Step-by-step tutorial (Chinese) for building an AI sound studio with Grok CLI + Goal and Composer 2.5, full-stack open source | [youtube.com](https://news.google.com/rss/articles/CBMiVkFVX3lxTFByVzdBVS1EMlpvOFdwMHBENWJsZU9wQklCTjl3bkFFNjYwNjRGSTVoaEdHaUxxM2l0Uk9jSWhhNTAyMUtfMVFuajNyb3N6ejlid1pGOXR3?oc=5) |
+| Suno 使用教程（2026年7月） | Bilibili | Latest Suno usage tutorial (Chinese) covering free domestic access, zero-basics mastery, and practical examples like replicating songs and fixing Chinese pronunciation | [bilibili.com/video/BV1RugZ6mEbd](https://www.bilibili.com/video/BV1RugZ6mEbd/) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Google Lyria 3.5 | Product | Launched in Google Flow Music with advances across musicality, lyrics, vocals, and creative control | [deepmind.google blog](https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/) |
+| AIMusicPromptGenerator | GitHub | Professional tool to generate highly-detailed AI music prompts for platforms like Suno and Udio; multi-provider support (OpenRouter/Groq) with BPM-perfect, genre-specific descriptions | [github.com/rodrigocaetanooficial/AIMusicPromptGenerator](https://github.com/rodrigocaetanooficial/AIMusicPromptGenerator) |
+| hyperframes | GitHub | "Write HTML. Render video. Built for agents." — video rendering framework from HeyGen | [github.com/heygen-com/hyperframes](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jX1VJZUtYYlBfWndCZEYtUlhhTUpNOEZrZks1U0VVVHpQYmFDZFNkUGJ1VzBZaEVES3hsNHVmbkhhQm5OVlVSSm9PYU53T1FzTzRZ?oc=5) |
