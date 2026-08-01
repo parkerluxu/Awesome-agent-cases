@@ -328,3 +328,57 @@
 | Lyzr AI Agent | 企业代理 | Lyzr 公司使用自己的 AI 代理完成了 1 亿美元融资，证明产品实际可用 | [TechCrunch](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) |
 | Securing the future of AI agents | 安全框架 | Google DeepMind 发布的 AI 代理安全控制路线图，结合传统防护和实时监控 | [DeepMind](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |
 | OpenAI Atlas（已关闭） | 浏览器产品 | OpenAI 关闭其 AI 浏览器 Atlas，但将部分代理浏览功能迁移至桌面应用和 Chrome 扩展 | [TechCrunch](https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/) |
+
+## 资料更新（2026-08-01）
+
+以下为本次新增的资料线索，按内容类型分组，供读者参考。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| smolanalytics | 开源项目 | 单 Go 二进制文件实现 Web 与产品分析，支持用自然语言查询数据，结果与仪表盘可验证一致（CI 测试保证），编码 Agent 通过 MCP 完成应用埋点，可自托管 | [GitHub](https://github.com/Arjun0606/smolanalytics) |
+| hapi | 开源项目 | 面向 Claude Code / Codex / Gemini / OpenCode 的移动端应用，支持随时随地进行 vibe coding | [GitHub](https://github.com/tiann/hapi) |
+| code-copilot-team | 项目模板 | 面向 AI 代码副驾的多 Agent 团队配置模板，包含 ML/AI（RAG、LangChain、n8n）、企业级 Java 与 Web 应用的现成配置，定义了 Agent 角色、委派模式与会话管理最佳实践 | [GitHub](https://github.com/gosha70/code-copilot-team) |
+| cookiecutter-agentic-webapp | 项目模板 | 面向人类与编码 Agent 协同安全工作的生产级 Web 应用结构模板 | [GitHub](https://github.com/kaleigh-dem/cookiecutter-agentic-webapp) |
+| bootstrap | Claude Code 插件 | 经过实战检验的 Claude Code Skills 插件，用于 Web 应用的脚手架搭建与分层，每个 Skill 均来自真实仓库的构建经验 | [GitHub](https://github.com/joshcoolman/bootstrap) |
+| claude-prototype | Claude Code Skill | 零构建步骤端到端原型 Web 应用的 Claude Code Skill | [GitHub](https://github.com/kurenn/claude-prototype) |
+| ai-website-builder-mcp | 开源项目 | 基于 MCP 的 AI 网站构建后端系统，用户可通过 AI 提示创建、编辑和管理网站，基于 Node.js 与 Express 构建，集成 Claude 等工具实现自动化网站生成 | [GitHub](https://github.com/hetp6670/ai-website-builder-mcp) |
+| Linco Bridge | 开源项目 | 在手机端续接 Codex、Claude Code、Hermes 等本地 AI Agent 的架构与实践 | [AI编程社区](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoc1ROZllJR0VDeGFfVGRSYlEtYkRNcWl3TmlaQ3dzUHlOS0sxZlpfTEozLVhReXlYY21CbWtUblhWUnZuWDNjSFF2QkdCVGI0LS1UUEd6NDRSTGdpUUZYTy1obGN1QQ?oc=5) |
+| learn-claude-code | 开源项目 | “Bash is all you need”——从 0 到 1 构建一个 nano 版 Claude Code 风格的 Agent harness | [GitHub](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hMVQ3Qnh0S0djM0ZjNmIwQ043dUd1Z0hmN1Fqa0pMQzl6U1o2Um5NeXhYX2ptVm5IdVQwd3J3U1VhZjQteUVJX0UycllwSGNxSkRnM1JweUZEZ2FF?oc=5) |
+| web-fetcher | 开源项目 | 为 Claude Code 增加网页抓取与 Markdown 转换能力 | [80aj.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1idjlkQ3hqc3V3R0pEd3R0M2tXaE14S0YyMVVrVVAyMnZIWi10eXZndTdTYmxIQTU3VVg5eW1NUTdBUEZRYkVwSDBETEFNaEFWWVAyaEhlTkVNOHhkWXo4RVNJS05JQ28?oc=5) |
+| ECC | 开源项目 | Agent harness 性能优化系统，涵盖 Skills、instincts、memory、security 与研究优先开发，支持 Claude Code、Codex、Opencode、Cursor 等 | [GitHub](https://news.google.com/rss/articles/CBMiRkFVX3lxTE5qMGZqOGp6MEZMVjFTRWNYbmh4THpoNmUzM1ZiTEZRemZuV083WjBOUW5TVDA0dExrWVhraU1wX1h3TnV1TGc?oc=5) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web | 文章 | 探讨 AI 工程师重新发现本体论（ontologies），将其作为将概率性 Agent 约束在确定性边界内的方法 | [latent.space](https://www.latent.space/p/ontologies-agentic-systems) |
+| Claude Code vs Codex: 23% Higher Cost Per Task [2026] | 评测 | Claude Code 与 Codex 的每任务成本对比，Claude Code 高出 23% | [tech-insider.org](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DY0JtTkEtZjNWNVRJSUU2WUYwRm9jejVlbWpCN1oxWmMxd3oxSkxMQW1oOEFpSWZwT0twRmhyQjM1THB6cy0wM19zTFNVdVJDVUtkQ2NxVHh3RWw3VE13bw?oc=5) |
+| Codex Surpasses Claude Code: Key Milestone and the Heavy Cost Behind the Breakthrough | 报道 | Codex 超越 Claude Code 的关键里程碑及其背后的高昂成本 | [36 Kr](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BcE1icWU2SzZiaUZocGJkTWVUSVBTSk9KMHFFTFd4S2NKcnVkVFM1UjNGOXBLYi1SNlo1TXNhRDZVcDJ6c1FZYjkzd1QtMTR4ZTRz?oc=5) |
+| 6 AI Failure Examples That Showed Us How to Build an AI Agent | 案例分析 | 通过 6 个 AI 失败案例总结构建 AI Agent 的经验教训 | [Netguru](https://news.google.com/rss/articles/CBMifkFVX3lxTE5XTFVtX2tITmVOWWFXdFpMQ29nSFZuVVB5VmFlVUFsNEg0UGxEckF3Q0NvMlZTSzhmLWJDV1hZRWtxQzZmSlRxdU5ubHQ5a2g3VW45NlBGcndwVXM5bjZVWXdtVEU1NDhRd19DLTBKUW9jUEdyZGxWcVFnWGJDdw?oc=5) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 2026最新版Claude Code零基础学习路线 | 教程 | CLAUDE.md、Skills、Hooks、MCP 与 Agent 实战中文教程 | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QSXpwXy1IdERDa2FGMkJDRkFwdmRERjU2MHJmUVpTcGNLRXhLYURRVlRuaEdKQmdteHllLUwxNmw5aXBjSU9jT1M0b3FPYnhLbmhHV3BGWjlVYXd2?oc=5) |
+| 不写一行代码，用 Claude Code 和 GPT Codex 生成了 4 个网站 | 视频实录 | Vibe Coding 许愿式实录，展示零代码生成网站的全过程 | [Bilibili](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWWdBWGVRQnhxcFowWmJPbDY3dElhYnROWG5DQ3lVS254bmptUWowR1VRMjg4MWloTnhXTDFUY041a1AzXzY0R0tpR0JDSkNoZFo2T1hn?oc=5) |
+| PG成为Vibe Coding的首选搭配：AI Agent开发的“大道至简” | 技术分享 | 探讨 PostgreSQL 作为 Vibe Coding 首选数据库的简化之道 | [OSCHINA](https://news.google.com/rss/articles/CBMiWkFVX3lxTE42T3Z1OVNVX1lod1JYRmNlUWh3UWFORWVMYm5iMjhHbVJDTVBGNTNmTjhyNkRBRUZHS21pS2FzOTBwMnlJbC1iOFB5dTZLVy14UGhHN1VudHJwQQ?oc=5) |
+| 深入理解 AI Agent：设计原理与工程实践 | 技术文章 | AI Agent 的设计原理与工程实践 | [GitHub](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1wems0dHhTbm9kX1J3OENDVmZfNnRBLTdCbXBiSUJzWnA5ZFo3U0kzcU1sSjg2ajVNWEpOSXlpQkNIT2YwWktBSDF2aW92VEUxQlE?oc=5) |
+| The Agentic Data Engineer II · Building Data Pipelines with Codex and Claude | 技术文章 | 使用 Codex 和 Claude 构建数据管道的实践 | [Medium](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM2FMNlg0Tk96TmszbkdCckZBNXd6WW1QdG45N29XWlZOa0ZHZlJSamNJWVkyaVY1eWNKdURMUzl4QjlzbXJQT1hNdGV6TjlfZkV0bklKUkk2bDNROUp4dEg0clYzZnNQdWIzVG05U3RPYVU5eGI3MmVaRnJFQkRLZVVmNTVBeU9HWDhzVExwV01xNXBvdnNMLVZ0R1NkcGZta2pIemJBWlV5OVFLUnlqQXFGOXlMb19vbFJ3?oc=5) |
+| Codex from 0 to 10M Users: Building ChatGPT Work | 访谈 | OpenAI 产品工程负责人分享 ChatGPT Work 的构建经验，涵盖 Sites、OpenClaw、Memory、Subagents、No-Code 等 | [latent.space](https://www.latent.space/p/chatgpt-work) |
+| I set up Claude Code the way Anthropic now recommends | 实测分享 | 按 Anthropic 推荐方式配置 Claude Code，子 Agent 递归生成子 Agent 的工作方式改变 | [XDA](https://news.google.com/rss/articles/CBMijgFBVV95cUxNTHp1X3N4Z0o4bFZkQ2hSY1hiQ0p1dFdWQkYwaG1BOUdpVklVWHhCUlQ5R2RCWG1JeEJCVTBMbm1fNnlJb3d0QkVOeHJIWjVBS1hZU0xBWU5IVEg5VFVxdFBPZnFxZ1pnUHhmZ2tDMXZEeHlEdEVGV0tna2g5ZGpjQUJUQmtfVlM1XzNzQ0h3?oc=5) |
+| AI Agent Book 部署指南 | 教程 | 搭建个人 AI Agent 学习与实践环境 | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NQzZSanFUdXNYaS1IQ2xNMmYxX1VTQzVKMDBKTjUzbldzaWZzbWI0cGRjWnZMUUU3Sk5XRkdiS0dFdDk4WVFwOFE0MGJaTUhpc3dQb25janR3SzlY?oc=5) |
+| AI Agent 与前沿部署工程：商业决策智能实践 | 峰会分享 | Summit 2026 上关于 AI Agent 部署工程与商业决策智能的实践分享 | [InfoQ.cn](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5McGQ3V29KeGVuaEZGN24yVkJvcVQzSERBMm1KRGotMUdyODF1azFJaHphTEZlWnFQSGphYllnX2pWVEx3ZmdZWXZYZHdXVXk4RnhNS1J4MU1VX0E?oc=5) |
+| AI Agent 的“手艺”正在被封装：Skill 如何让大模型从“聊天”走向“干活” | 技术文章 | 探讨 Skill 封装如何让大模型从对话走向实际任务执行 | [InfoQ 写作社区](https://news.google.com/rss/articles/CBMiZEFVX3lxTE95clFLZm53NThabFRIblAxNVE4Y3l1Wi0wMmVoNWZJSTV1MExxb1l4Z1BKZlROU2xBVGFlbWV6RnRZd0U4Q1Z1WUNhUzMxOC1iM2NJbl9OSDVNOVlra3o2Z1lFdGw?oc=5) |
+| AI Agent Skill（技能）开发全指南（3/5） | 教程 | 从原理到搭建第一个 Skill 的完整指南 | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pbGRIMTY2RlFqbU9hTGczNUFCUUNjekJqS05WaGNDbzJjUzlIY3Njd0FBOVBhQl9ZR0UzQUFIb09TaEVoVmtPOUlXYTNxOUZOUTk3Nm9WTllVNkFj?oc=5) |
+| Claude Code能直接调用Codex了？ | 实测分享 | 一个写代码、一个负责审查的 Claude Code 与 Codex 协作实践 | [AI编程社区](https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tam1HWVNoakdiNnB1cjJyT2wtelAtbnB5VjItTnMzb1JpbjYxRTNpSzV6TTRCaXZHRUVhbktKeWRxbnUwYTUwSTN0QzJlQWlVTzA2QXJ2UmJhdVlOSTB2UVBGaUJadw?oc=5) |
+| Codex is technically better than Claude Code, but I stopped using it for one specific reason | 实测分享 | 作者认为 Codex 技术上优于 Claude Code，但因某个具体原因弃用 | [XDA](https://news.google.com/rss/articles/CBMitAFBVV95cUxOOUFfZWlUUmdVaGltTFZTbHFpNXZvc3VWbjY0YzFDRERaQV9iOFFBcmF6MUFwdzVkZm5TZnRLNEhZRDl0OUdzV0V5RklsczE1OUVRV0lLd25jNW82YTZnLXVXMzhYNkZmU1JwS1Y0NTdWUlVfVkQ5TjdtbFppME85ZWpZMHoyLUxwX21oRWZYT0V6cW04SDFQbHRENTJfZUFJRkpYQk5BTnJHS3dyOWM0SWFSLUw?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Fusion AI Agent Studio CLI | 产品 | Oracle 推出的 Pro-Code 构建体验 CLI 工具 | [Oracle Blogs](https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtUDBuTzlIM2pHTTRUYUVfVmJ0N2dteWFjRGxXbkY4d0J6VGRpQzRWRURqQ2ljSWc5S1ljVVBQOGRnbVhuZE81elhTa3JQX3lETHoxbGhRWFpISlRHX3VNd0tlUlI?oc=5) |
+| 2026年内嵌式AI Agent赛道全景分析 | 行业分析 | 垂直私域服务商小鹅通业务路线拆解 | [CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrdGp5RWIwOWltYUU1Ti1tVXpxMXlxN0NjelN2WENMQTJwazEwajI5ZU9HcVFrUzJxejFsRkQ1UUlRamdjcXp6WEU3V1k0bHNFbFoyNkNPNG0tZ1lPRUE?oc=5) |

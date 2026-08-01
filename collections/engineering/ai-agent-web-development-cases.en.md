@@ -314,3 +314,52 @@ This section is divided into two categories: `32 Tutorials / Cases` and `15 Proj
 | ChatGPT Work | OpenAI | Agent that can take action across apps and files, staying with projects for hours | [OpenAI](https://openai.com/index/chatgpt-for-your-most-ambitious-work) |
 | Lyzr AI agent fundraise | TechCrunch | Startup used its own AI agent to raise a $100 million round | [TechCrunch](https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/) |
 | Securing the future of AI agents | Google DeepMind | AI Control Roadmap combining traditional safeguards and real-time monitoring | [DeepMind](https://deepmind.google/blog/securing-the-future-of-ai-agents/) |
+
+## Resource Update (2026-08-01)
+
+The following resources were discovered after the original article was published. They are grouped by content type and represent promising leads for further investigation.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| smolanalytics | Open-source analytics | Web + product analytics in a single Go binary; query data in plain English with CI-enforced dashboard parity; coding agent instruments your app over MCP; self-host free. | [github.com/Arjun0606/smolanalytics](https://github.com/Arjun0606/smolanalytics) |
+| hapi | Mobile app | App for Claude Code / Codex / Gemini / OpenCode enabling vibe coding from mobile devices. | [github.com/tiann/hapi](https://github.com/tiann/hapi) |
+| ECC | Agent harness optimizer | Performance optimization system with skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor, and others. | [GitHub via Google News](https://news.google.com/rss/articles/CBMiRkFVX3lxTE5qMGZqOGp6MEZMVjFTRWNYbmh4THpoNmUzM1ZiTEZRemZuV083WjBOUW5TVDA0dExrWVhraU1wX1h3TnV1TGc?oc=5) |
+| code-copilot-team | Project templates | Multi-agent team configurations for AI code copilots; ready-to-use setups for ML/AI (RAG, LangChain, n8n), enterprise Java, and web apps with defined agent roles and delegation patterns. | [github.com/gosha70/code-copilot-team](https://github.com/gosha70/code-copilot-team) |
+| cookiecutter-agentic-webapp | Project template | Production-minded web app structure designed for safe collaboration between humans and coding agents. | [github.com/kaleigh-dem/cookiecutter-agentic-webapp](https://github.com/kaleigh-dem/cookiecutter-agentic-webapp) |
+| bootstrap | Claude Code plugin | Battle-tested Claude Code skills for scaffolding and layering web apps, codified from real-world builds. | [github.com/joshcoolman/bootstrap](https://github.com/joshcoolman/bootstrap) |
+| claude-prototype | Claude Code skill | Skill for prototyping web apps end-to-end with zero build step. | [github.com/kurenn/claude-prototype](https://github.com/kurenn/claude-prototype) |
+| ai-website-builder-mcp | MCP backend | Backend system (Node.js/Express) enabling website creation, editing, and management via AI prompts; integrates with tools like Claude for automated generation. | [github.com/hetp6670/ai-website-builder-mcp](https://github.com/hetp6670/ai-website-builder-mcp) |
+| learn-claude-code | Educational repo | Nano Claude Code–like agent harness built from scratch using Bash; educational resource for understanding agent internals. | [GitHub via Google News](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hMVQ3Qnh0S0djM0ZjNmIwQ043dUd1Z0hmN1Fqa0pMQzl6U1o2Um5NeXhYX2ptVm5IdVQwd3J3U1VhZjQteUVJX0UycllwSGNxSkRnM1JweUZEZ2FF?oc=5) |
+| web-fetcher | Open-source tool | Adds web scraping and Markdown conversion capabilities to Claude Code. | [80aj.com via Google News](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1idjlkQ3hqc3V3R0pEd3R0M2tXaE14S0YyMVVrVVAyMnZIWi10eXZndTdTYmxIQTU3VVg5eW1NUTdBUEZRYkVwSDBETEFNaEFWWVAyaEhlTkVNOHhkWXo4RVNJS05JQ28?oc=5) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Ontologies Are So Back | Article | Explores why AI agents are reviving the semantic web; ontologies as a way to keep probabilistic agents inside deterministic boundaries. | [latent.space](https://www.latent.space/p/ontologies-agentic-systems) |
+| Codex from 0 to 10M Users | Interview | OpenAI's core product engineering lead on building ChatGPT Work: Sites, OpenClaw, Memory, Subagents, Finance, No-Code. | [latent.space](https://www.latent.space/p/chatgpt-work) |
+| The Agentic Data Engineer II | Article | Building data pipelines with Codex and Claude; practical patterns for agentic data engineering. | [Medium via Google News](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM2FMNlg0Tk96TmszbkdCckZBNXd6WW1QdG45N29XWlZOa0ZHZlJSamNJWVkyaVY1eWNKdURMUzl4QjlzbXJQT1hNdGV6TjlfZkV0bklKUkk2bDNROUp4dEg0clYzZnNQdWIzVG05U3RPYVU5eGI3MmVaRnJFQkRLZVVmNTVBeU9HWDhzVExwV01xNXBvdnNMLVZ0R1NkcGZta2pIemJBWlV5OVFLUnlqQXFGOXlMb19vbFJ3?oc=5) |
+| 6 AI Failure Examples | Case study | Lessons from AI agent failures and how they inform better agent design. | [Netguru via Google News](https://news.google.com/rss/articles/CBMifkFVX3lxTE5XTFVtX2tITmVOWWFXdFpMQ29nSFZuVVB5VmFlVUFsNEg0UGxEckF3Q0NvMlZTSzhmLWJDV1hZRWtxQzZmSlRxdU5ubHQ5a2g3VW45NlBGcndwVXM5bjZVWXdtVEU1NDhRd19DLTBKUW9jUEdyZGxWcVFnWGJDdw?oc=5) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Claude Code Zero-Basics Learning Path (2026) | Tutorial | Chinese-language guide covering CLAUDE.md, Skills, Hooks, MCP, and Agent实战. | [知乎专栏 via Google News](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QSXpwXy1IdERDa2FGMkJDRkFwdmRERjU2MHJmUVpTcGNLRXhLYURRVlRuaEdKQmdteHllLUwxNmw5aXBjSU9jT1M0b3FPYnhLbmhHV3BGWjlVYXd2?oc=5) |
+| Vibe Coding Wish-Fulfillment Demo | Video | Builds 4 websites with Claude Code and GPT Codex without writing code. | [Bilibili via Google News](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWWdBWGVRQnhxcFowWmJPbDY3dElhYnROWG5DQ3lVS254bmptUWowR1VRMjg4MWloTnhXTDFUY041a1AzXzY0R0tpR0JDSkNoZFo2T1hn?oc=5) |
+| PG as Vibe Coding Companion | Article | Argues PostgreSQL is the ideal database pairing for AI agent development. | [OSCHINA via Google News](https://news.google.com/rss/articles/CBMiWkFVX3lxTE42T3Z1OVNVX1lod1JYRmNlUWh3UWFORWVMYm5iMjhHbVJDTVBGNTNmTjhyNkRBRUZHS21pS2FzOTBwMnlJbC1iOFB5dTZLVy14UGhHN1VudHJwQQ?oc=5) |
+| AI Agent Skill Development Guide | Tutorial | Part 3 of a series on building AI Agent Skills from principles to first implementation. | [知乎专栏 via Google News](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pbGRIMTY2RlFqbU9hTGczNUFCUUNjekJqS05WaGNDbzJjUzlIY3Njd0FBOVBhQl9ZR0UzQUFIb09TaEVoVmtPOUlXYTNxOUZOUTk3Nm9WTllVNkFj?oc=5) |
+| AI Agent Book Deployment Guide | Tutorial | Guide to setting up a personal AI Agent learning and practice environment. | [知乎专栏 via Google News](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NQzZSanFUdXNYaS1IQ2xNMmYxX1VTQzVKMDBKTjUzbldzaWZzbWI0cGRjWnZMUUU3Sk5XRkdiS0dFdDk4WVFwOFE0MGJaTUhpc3dQb25janR3SzlY?oc=5) |
+| Sub-Agents-Spawning-Sub-Agents Setup | Tutorial | Practical guide to Anthropic's recommended Claude Code setup with recursive sub-agent patterns. | [XDA via Google News](https://news.google.com/rss/articles/CBMijgFBVV95cUxNTHp1X3N4Z0o4bFZkQ2hSY1hiQ0p1dFdWQkYwaG1BOUdpVklVWHhCUlQ5R2RCWG1JeEJCVTBMbm1fNnlJb3d0QkVOeHJIWjVBS1hZU0xBWU5IVEg5VFVxdFBPZnFxZ1pnUHhmZ2tDMXZEeHlEdEVGV0tna2g5ZGpjQUJUQmtfVlM1XzNzQ0h3?oc=5) |
+| Claude Code + Codex Collaboration | Article | Explains how to make Claude Code call Codex directly — one writes code, the other reviews. | [AI编程社区 via Google News](https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tam1HWVNoakdiNnB1cjJyT2wtelAtbnB5VjItTnMzb1JpbjYxRTNpSzV6TTRCaXZHRUVhbktKeWRxbnUwYTUwSTN0QzJlQWlVTzA2QXJ2UmJhdVlOSTB2UVBGaUJadw?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Linco Bridge | Open-source tool | Extends local AI agents (Codex, Claude Code, Hermes) to mobile devices; architecture and practice write-up. | [AI编程社区 via Google News](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoc1ROZllJR0VDeGFfVGRSYlEtYkRNcWl3TmlaQ3dzUHlOS0sxZlpfTEozLVhReXlYY21CbWtUblhWUnZuWDNjSFF2QkdCVGI0LS1UUEd6NDRSTGdpUUZYTy1obGN1QQ?oc=5) |
+| Fusion AI Agent Studio CLI | Enterprise tool | Oracle's pro-code builder experience for AI agents. | [Oracle Blogs via Google News](https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtUDBuTzlIM2pHTTRUYUVfVmJ0N2dteWFjRGxXbkY4d0J6VGRpQzRWRURqQ2ljSWc5S1ljVVBQOGRnbVhuZE81elhTa3JQX3lETHoxbGhRWFpISlRHX3VNd0tlUlI?oc=5) |
+| Claude Code vs Codex Cost Comparison | Benchmark | Reports Claude Code costs 23% more per task than Codex (2026 data). | [tech-insider.org via Google News](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DY0JtTkEtZjNWNVRJSUU2WUYwRm9jejVlbWpCN1oxWmMxd3oxSkxMQW1oOEFpSWZwT0twRmhyQjM1THB6cy0wM19zTFNVdVJDVUtkQ2NxVHh3RWw3VE13bw?oc=5) |
+| Codex Surpasses Claude Code | Analysis | Reports on Codex milestone and the cost behind the breakthrough. | [36 Kr via Google News](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BcE1icWU2SzZiaUZocGJkTWVUSVBTSk9KMHFFTFd4S2NKcnVkVFM1UjNGOXBLYi1SNlo1TXNhRDZVcDJ6c1FZYjkzd1QtMTR4ZTRz?oc=5) |

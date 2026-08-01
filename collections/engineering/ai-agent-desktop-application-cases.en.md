@@ -287,3 +287,57 @@ This section is divided into two categories: `7 Tutorials / Cases` and `15 Proje
 | GitHub 推出 Copilot 桌面应用，支持并行 Agent 开发工作流 | Infoq.cn | GitHub launches Copilot desktop app with parallel agent development workflows. | [Infoq.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WemJtZDlleTNFZVZ3V3NrS091S1lZZmhvWXhVQnlYSEVsY3U1MGpDRzdDbzBucWF6emVaLXkzLXNmZTJJQjVvSjNPZnhPQ3FBb1FCUHJWZzJPSlB0T0E?oc=5) |
 | AWS launches a desktop for agents | The New Stack | AWS introduces a desktop environment for agents. | [The New Stack](https://news.google.com/rss/articles/CBMiakFVX3lxTE4xaDUxQ19DcHdDZEJfNG0xczc1M3oyLXFPZ0ZWV3dGQW5wcUg5WmcwSWZETEVaa0NXTkliTG9NcjdDNlhBQ205eXprNjlMbXNkenRsSThtZUFYOTRpVFR5ZHhHVDRWNm1BM3c?oc=5) |
 | headroom-desktop | GitHub | Unlock 2x more Claude Code and Codex usage. | [GitHub](https://news.google.com/rss/articles/CBMiV0FVX3lxTE50S3VRbDBrOEROWTlwc3ZPTkZMTG1wNC1rdER4dG9DVno0MFYyMkdQVmk0QXVyejJaQVNGV29QSXRlOFJYNkhzSC1nRk0wOXlUYU1CWXF4OA?oc=5) |
+
+## Resource Update (2026-08-01)
+
+The following resources were discovered after the original article was published. They are grouped by content type and represent new leads for AI agent desktop applications.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| TokenDanceLab/AgentHub | GitHub | IM-native multi-agent collaboration platform — @mention Claude Code, Codex, OpenCode like teammates | [Link](https://github.com/TokenDanceLab/AgentHub) |
+| IHUI-INF-AI/IHUI-AI | GitHub | Eight-platform full-stack AI operating system unifying 176 LLMs via LangGraph + MCP + A2A; multi-tenant RLS over 340 tables, RAG knowledge base, agent marketplace; Web/API/CLI/Desktop/Extension/Mobile/Miniapp; Apache 2.0 | [Link](https://github.com/IHUI-INF-AI/IHUI-AI) |
+| utensils/mold | GitHub | CLI-native local AI image and video generation for people, scripts, and agents — CUDA on Linux, Metal on macOS, plus desktop, web, TUI, iPhone, REST/SSE, and MCP | [Link](https://github.com/utensils/mold) |
+| gethouston/houston | GitHub | Open source platform for AI-native products; pre-built AI agents with real tools and 1000+ integrations in a Rust engine + Tauri desktop app; free forever | [Link](https://github.com/gethouston/houston) |
+| packetloss404/PacketADE | GitHub | Tauri v2 desktop app bringing AI coding agents, planning, issue tracking, memory, deployment tooling, and workspace management into a single native environment; runs real development workflows across multiple agent CLIs | [Link](https://github.com/packetloss404/PacketADE) |
+| ayuayue/PiDeck | GitHub | Open source desktop workbench for managing pi Agent sessions in local project directories; supports importing Codex and Claude local sessions; multi-project workspace, session history, Git integration, built-in terminal, model config, plugin management; Electron-based | [Link](https://github.com/ayuayue/PiDeck) |
+| suitedaces/dorabot | GitHub | macOS app for 24/7 AI agents in an IDE with memory, scheduled tasks, browser use, and access to WhatsApp, Telegram, Slack | [Link](https://github.com/suitedaces/dorabot) |
+| open-octo/octo-agent | GitHub | Private, self-hosted AI agent keeping models and data on your machine; feature-rich coding + assistant toolset across eight interfaces (CLI, Web, desktop, IM, VS Code, Obsidian, SDK, Mobile) in a single Go binary | [Link](https://github.com/open-octo/octo-agent) |
+| router-for-me/EasyCLIProxyAPI | GitHub | Desktop GUI for CLIProxyAPI and a tool for automatically configuring popular AI agents | [Link](https://github.com/router-for-me/EasyCLIProxyAPI) |
+| openchamber/openchamber | GitHub | Desktop and web interface for OpenCode AI agent | [Link](https://github.com/openchamber/openchamber) |
+| agent-sh/computer-use-linux | GitHub | Linux desktop control over MCP — AT-SPI, GNOME Shell, Wayland portals, ydotool | [Link](https://github.com/agent-sh/computer-use-linux) |
+| omnimind-ai/OmniBot | GitHub | On-phone/mobile AI agent capable of operating terminals and performing a wide range of tasks in the Android world | [Link](https://github.com/omnimind-ai/OmniBot) |
+| different-ai/openwork | GitHub | Open-source alternative to Claude Cowork, powered by opencode | [Link](https://github.com/different-ai/openwork) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| jin-s13/awesome-gui-agent-hub | GitHub | Curated hub for GUI agent papers, benchmarks, datasets, projects, and computer-use research | [Link](https://github.com/jin-s13/awesome-gui-agent-hub) |
+| trycua/cua | GitHub | Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation | [Link](https://github.com/trycua/cua) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| 一周Vibe Coding打造离线桌面Agent：Tauri+Ollama+Whisper本地化实践 | CSDN文库 | Tutorial on building an offline desktop agent with Tauri + Ollama + Whisper in one week of vibe coding | [Link](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IRTBvcHVkOVdhZ1RnYlhGaFJILUtXbWJZS3ZIOWNoeWRlSkpqNGZYTDBrTzR1X2ZXVUQtT1c0dWlnMVhZWFBneWliRzBMaTlQZW9B?oc=5) |
+| 国产智能体刷新OSWorld全球纪录：90.2%背后的Harness工程化突围 | Substack | Analysis of a domestic agent achieving 90.2% on OSWorld, focusing on Harness engineering | [Link](https://news.google.com/rss/articles/CBMiXkFVX3lxTE50cl9Eb2tPTF9RNk1DWmI2MkJhMjBmZ1JSV29kWVVNcUc3ZkloTUFIQ3B3Y3QxZm5GM21sUk9paXM5WDdSNGJzdXhCMFQxdFcyWFFMQjhlTFB1WVhQcVE?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenAI brings GPT-Live voice control to Codex and ChatGPT desktop | VentureBeat | Agentic coding goes hands-free as OpenAI brings full duplex voice control to Codex and ChatGPT on the desktop | [Link](https://news.google.com/rss/articles/CBMi7gFBVV95cUxNV0RkSG9fZUFleDNpX0cwd3Bleko3WFBTdUdDTmtmR1NXaEpxcno4cXAxTGZRaHdTUjZxWjh5eTEwdDZOeS1HTFBvQ2xlc2xJQWhyVEJCUmIxSTRmSWc1eDVSTmcwRFlNYzZyUk1DTV9VYWU5MkhQOFFVczJiSEZHby0zR1VMZXZZQm95Tm5DcUNaMmVSTWgwZ19rX2ZobUFKYkJXWnBCaWJ6c3Z5UHJEUmVWME44Y1JZRGZNYUpFamdvRy01ejJtM2NXLUhTeFBaRjZEMDgwU2JyLXlCNWV1ZGlxQUV2Z3pCMGNXaHFB?oc=5) |
+| Perplexity AI Desktop Agent for Windows | Tech Times | Perplexity brings AI desktop agent to Windows, routing tasks across 20 models | [Link](https://news.google.com/rss/articles/CBMixwFBVV95cUxNNFJOWXpLbkQybjgxQS1XczFRY0Y0TTR0eDhLenRuOFQ2ZWFISFZJcm9yOEI5aGZkRC1IZzN5SDNQT2VVUW14WjFvV3c2VG9IVG5LUXZQSVpzT29INlFIdDQ3bHFaVkJMbjJOa083a1J2MC1fOGZyLVlxY0lEZkI1S1pyLUZ3aDRIbzIxSXYyNmw5aVFzNkhYNEhCMTV1cmdaNW9MYmJZamk4RXBwVzZsVUt5YTZHaEtkNm1UanJrZjdRZTB4M2xN?oc=5) |
+| 100%开源！吴恩达做了个个人桌面Agent | 量子位 | Andrew Ng's 100% open-source personal desktop agent | [Link](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BWjJhODRMWVlHb3BveHg4UzVHaXMtRTJ0aHdxTWRqdm5fMUtpRTBENXM1TS0tOHBlQ3BsOFhOUklEWVZsT2l6bGd0RHNLVFhPTUc5dg?oc=5) |
+| 2026年7月桌面Agent推荐：Kimi Work能力、场景与定位的深度解析 | CSDN | Deep analysis of Kimi Work's capabilities, scenarios, and positioning as a desktop agent | [Link](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ISWY0emU4RkhNa1dWbU9VdGxfMjVLcEZTNHJzOUwtc1ZPcFVld21lN1E3UERuVXpIOTBOeUk5SDd0LWdacmxOcm9NVG5nZzRxdmdKemN0TmdmRnRhNGc?oc=5) |
+| OpenAI为ChatGPT桌面应用新增语音模式 | 至顶网 | OpenAI adds voice mode to ChatGPT desktop app, enabling control of agents to execute tasks | [Link](https://news.google.com/rss/articles/CBMib0FVX3lxTE54TDNvTFJCcDRqVDNzZklpVXcydmN5OFVVZTRaQTFZSm9wUmE1N3NfbzBYbDBabXVwMlJRNTdiVkN4OTAwbDFSUU1XQ2lvcEpCT3ZEN3hqYV9JVldkMHQ3VnBSZkNVYllCVGUwZXdTRQ?oc=5) |
+| 桌面Agent赛道观察：20款产品背后的大厂卡位与国产替代 | finance.sina.com.cn | Observation of the desktop agent track: positioning of 20 products by major vendors and domestic alternatives | [Link](https://news.google.com/rss/articles/CBMickFVX3lxTE45a1BDOXNmdnU1S2hqZGphVUVoNjg2M3FoRVE0ZHdEcWVGOEZUZXhyQkg3OVFIQ0R0a2ZVVVZ6cEhmcE5hNGVuRWtqRklfQ3dUZ19FcGx1Y2wzM19EZkFhajhEVU1WRWxPd0RlSWd5TFVkQQ?oc=5) |
+| Claude Code brings live iOS app testing into its Mac app | 9to5Mac | Claude Code adds live iOS app testing capability to its Mac application | [Link](https://news.google.com/rss/articles/CBMikgFBVV95cUxPTmUtQ3pfSEs4eW9sM3NWMzFZbEVscXNtcFFqeGJ4OHRqU3VYU19YOUN5VjVueGhMeGFVZnlEMGlhT3hZU0NZMkwyUFhCZUVtOHFUd24xTzV3ei1DQnRZd3pqSHE4NGU4QTNoYU5MeUUwRkwzUFFWTmN3Z0VOWXhlR2RMTTVuZ1lacllpQVdIbTVfZw?oc=5) |
+| 🚀Orca ADE彻底改变AI编程方式！多Agent并行、语音输入、定时审查、Git… | Medium | Orca ADE changes AI programming with multi-agent parallelism, voice input, scheduled reviews, and Git integration | [Link](https://news.google.com/rss/articles/CBMi0wJBVV95cUxPRUZhMTYtMUNBMXR2WjA3Z1BOWGowemhtVTI4X3ZXbFRVWkxudndhZWJNcTM5ZDF4Ul9hN2NPMTlRWjNVYnZHTTRXeWcwVW9mQ283Qm9tTWlxWkZzb18wVHFaazREazlGa21OeFhsbGlxRlB4bE9GcEtENTJlMW5sTkh1Mzhkekd2VXpndTVBc1JHSHlKbXRZcGhiaEFSZHRuOTdLS1k4TDBmaGwtM2VyMHR5anlzNnI1U0F5cmVmYmh4UmxSbE5JUW10MGZOWEtjaVVLQVcydWluLWRaZ2lMTncxRlI2dHNzMG4yWXAydmxrUm5BaEh1ZWRnUmpwZzFneVJQV05NMXpHNHhIREU2Wm81QlJ3WHlkUG1zc3Nob1Y5UXNmQ2FxMHg5WngyQzZQYUVkbzBpTW9jQV9oVXRlZmZPbTRaaW5aaHB3d2hNSjNBX2c?oc=5) |
+| 一夜之间，GPT-5.6 来了，Codex 没了，Claude 急了 | 爱范儿 | Overnight, GPT-5.6 arrives, Codex disappears, Claude panics — analysis of the shifting desktop agent landscape | [Link](https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1MZzlMekhoRmtBQW9yYkZHZ0l1ckY0bnFXZUwybWVZQ1pMTWFpRUQ0MllsUVpSSFhWVDg2Nk4xNHNOWVU?oc=5) |
+| The new ChatGPT superapp takes aim at Claude Desktop | PCWorld | Analysis of the new ChatGPT superapp positioning against Claude Desktop | [Link](https://news.google.com/rss/articles/CBMingFBVV95cUxQbkJ4RTV5OTFUM1lLaEpBcWw1T000bnEteWhQSHN4ZDlYajUtN0lHWWl0UnFMd1h1Zng1cEFJOXBBdlMzWExoekxQbHl6UGlWaS1wem9wTkxMQzRkTENSQmxUVjJyaE44b3lFUFBsV2MzaGdjYmNNbjR2SkJheDRpT1VTYks2WUVVem9iVnRPMk1SN3RyT2tXRmRsY291dw?oc=5) |
+| OpenAI's new voice mode makes it to the ChatGPT desktop app | TechCrunch | OpenAI's new voice mode arrives in the ChatGPT desktop application | [Link](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5) |
+| Codex from 0 to 10M Users: Building ChatGPT Work | Latent Space | OpenAI's core product engineering lead on building ChatGPT Work: Sites, OpenClaw, Memory, Subagents, Finance, No-Code | [Link](https://www.latent.space/p/chatgpt-work) |
+| AI PCs Outdated, AC Sees Overnight Explosive Growth | 36 Kr | Discussion on whether AI agents really need dedicated computers as AI PCs become outdated | [Link](https://news.google.com/rss/articles/CBMiU0FVX3lxTE13bmh2NVdKT0NPeUViSWJndjZUQ1BfU2xNM21DUElmRGRoWDctVktQOXB1MjhIVl9HeXVHOVRpYUl1c1c0Q3d3Mk13YmMyTW1UR2Rv?oc=5) |
