@@ -51,6 +51,7 @@ A bilingual, continuously updated knowledge base of AI agent cases, daily news, 
 <!-- DAILY_BRIEFS_START -->
 | Date | Brief |
 |---|---|
+| 2026-08-01 | [AI News Digest](daily_news/2026/08/2026-08-01-ai-news-digest.md) |
 | 2026-07-31 | [AI News Digest](daily_news/2026/07/2026-07-31-ai-news-digest.md) |
 | 2026-07-26 | [AI News Digest](daily_news/2026/07/2026-07-26-ai-news-digest.md) |
 | 2026-07-25 | [AI News Digest](daily_news/2026/07/2026-07-25-ai-news-digest.md) |
@@ -75,7 +76,6 @@ A bilingual, continuously updated knowledge base of AI agent cases, daily news, 
 | 2026-07-05 | [AI News Digest](daily_news/2026/07/2026-07-05-ai-news-digest.md) |
 | 2026-07-04 | [AI News Digest](daily_news/2026/07/2026-07-04-ai-news-digest.md) |
 | 2026-07-03 | [AI News Digest](daily_news/2026/07/2026-07-03-ai-news-digest.md) |
-| 2026-07-01 | [AI News Digest](daily_news/2026/07/2026-07-01-ai-news-digest.md) |
 <!-- DAILY_BRIEFS_END -->
 
 Older issues are available in the [daily-news archive](daily_news/README.md).
