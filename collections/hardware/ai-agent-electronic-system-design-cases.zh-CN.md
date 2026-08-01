@@ -258,3 +258,51 @@
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
 | ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | Benchmark 工具 | 用于评估 AI 代理在企业 Java 框架迁移中能力的基准，间接涉及 EDA 工具链的 AI 集成。 | [Hugging Face](https://huggingface.co/blog/ibm-research/scarfbench) |
+
+## 资料更新（2026-08-01）
+
+本节为新增资料线索，与前述正文内容相互独立，供读者追踪 AI Agent 在电子系统设计领域的最新进展。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| oaslananka/kicad-mcp-pro | GitHub 项目 | AI-ready MCP server for KiCad，支持从 Claude、Cursor、Copilot 等 AI Agent 自动化原理图、PCB、ERC/DRC、DFM、BOM 及制造审查 | https://github.com/oaslananka/kicad-mcp-pro |
+| NijoP/pcbflow | GitHub 项目 | 自主 AI 辅助 PCB 设计工作流，从需求到制造文件，AI 驱动原理图生成、布局布线，支持 EasyEDA + KiCad，人工参与审查 | https://github.com/NijoP/pcbflow |
+| tscircuit/jlcsearch | GitHub 项目 | 从 JLCPCB 查找符合设计约束（阻值、容值、公差等）的元器件 | https://github.com/tscircuit/jlcsearch |
+| DeconBear/vibe-analog | GitHub 项目 | AI 驱动的交互式电路设计工作流，从自然语言需求到经过验证的 SPICE 网表和原理图 | https://github.com/DeconBear/vibe-analog |
+| sandraschi/kicad-mcp | GitHub 项目 | 通过 FastMCP 实现 KiCad PCB/原理图自动化，支持无头 Gerber/导出及 Agent 检查，兼容 Cursor / Claude Desktop | https://github.com/sandraschi/kicad-mcp |
+| oaslananka/agent-tools | GitHub 项目 | oaslananka AI Agent 工具、MCP 服务器、插件及工程工作流技能的集中目录 | https://github.com/oaslananka/agent-tools |
+| VortexJer/AISight | GitHub 项目 | 面向 AI Agent 的设计与审查工具：3D CAD、PCB、着色器、纹理与动画，输出机器可读报告 | https://github.com/VortexJer/AISight |
+| Brillar0101/claude-micro | GitHub 项目 | RP2040 宏键盘，用于监督 AI 编码 Agent：13 个热插拔按键、RGB 状态、编码器、摇杆、4 层 PCB、CircuitPython 固件 | https://github.com/Brillar0101/claude-micro |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows | arXiv 论文 | 评估通用编码 Agent 在商业 EDA 工具上执行端到端 RTL-to-GDS 流程（综合、物理实现、ECO 优化）的可靠性，基于 PicoRV32 流程 | https://arxiv.org/abs/2607.17528v3 |
+| Symbol and Footprint Database for Electronic Components by Agentic Recognition and Generation | arXiv 论文 | 提出 SFgen，基于多模态大模型的元器件符号与封装智能体识别与生成流程，符号生成准确率 86%，封装生成准确率 80% | https://arxiv.org/abs/2607.19767v1 |
+| LLM for EDA in Front-End Design: Challenges and Opportunities | arXiv 论文 | 探讨 LLM 在前端设计中的潜力：HDL 生成、测试平台构建、设计空间探索，以及 agentic AI 带来的机遇与挑战 | https://arxiv.org/abs/2607.09616v1 |
+| RF-Agent: A Practical Framework for Building Language Agents for RFIC Design | arXiv 论文 | 通过教科书驱动的知识蒸馏，构建面向射频集成电路设计的语言 Agent，多 Agent QTSA 流程将七本 RF 教科书转化为数据集 | https://arxiv.org/abs/2607.18772v1 |
+| Towards Reliable AI-Assisted Analog Design: Template-Constrained LLM Agents for SAR ADC Generation | arXiv 论文 | 提出 ATLAS，端到端多步骤 LLM Agent 框架，通过模板约束生成可通过 SPICE 仿真的 SAR ADC 原理图 | https://arxiv.org/abs/2607.14165v1 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| From Chat to Schematic: Claude Code Meets EasyEDA Pro | 教程（Medium） | 实测使用 Claude Code 驱动 EasyEDA Pro 完成从对话到原理图的设计流程 | https://news.google.com/rss/articles/CBMinAFBVV95cUxOVjRNQ1lHZjJENGxkdmxnQlBxakdIU3NQZTdQVG1RSS1hb0oyQXo0NG1kM3ZydEQzUHVoejVhS085WW5ONE9fLVMxUXNaMWNZSHNHR3MtRy1iZDgzeTBJR0c0OWRlSllvdXloQWpaZ2RzeENmZTQyOU8ySWpYS0djU2dRQk9GR1pxYlByd2pKRG1iVVZ0SGJZNUZjU24?oc=5 |
+| tscircuit 入门教程：5分钟搭建你的第一个电子电路项目 | 教程（CSDN） | 从环境搭建到电路渲染的 tscircuit 快速上手教程 | https://blog.csdn.net/gitblog_00516/article/details/153722461 |
+| Using AI in the PCB Design Game | 媒体实测（Electronic Design） | 探讨 AI 在 PCB 设计中的应用实践 | https://news.google.com/rss/articles/CBMitAFBVV95cUxON3F1cGdLMlBkYzVyZmZ2U2c0LXJzWmNVdHJBb1V0WjhOZFUydTVrM1JNVkVrY1EzZFVkcVlnT0FZb01heGtUZVRrNFp1ZU9SWThWNkFsTF9oQm5zbXJWNThmNy02VjVkYkozN0QwU0FNMzZrT3ZRUXhybGhhblJ5TFdkRkh1TlZjeWpUX3pOUUlFcG5GOGtRaFRERjRObmU0b1pXT0puVnQ2QjgyUHpoY3hLWGQ?oc=5 |
+| How AI Redefines PCB & Package Design | 视频（YouTube） | 视频讲解 AI 如何重新定义 PCB 与封装设计 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pdkNrbno4NFpmZHJPNzhBakdBZGRZZU94QTE3UXJWcGJ2aXpvaGlMWFVZSEs2WnRzRU8tR1p3aURnYTZQTXM1bXhxakstTHdCbGR0Wjln?oc=5 |
+| The Age of Agentic Engineering for Hardware | 文章（Substack） | 探讨硬件领域 Agentic Engineering 时代的到来 | https://news.google.com/rss/articles/CBMijgFBVV95cUxPX3lUN09jYXdianVIQmtEZTI2eDJFRk5nMEdBVVFlb2NnTEEwazJoVkFfMHpLNFcwb0pSM1pVTE1jU0hLZHdkeTUtTFdNZVhrbEp1MHhoSDFUU0drcy12dUdfWkxaUnl2ZlRZYW9aMTZNT0JWdGRoekQ1Mlh6OWpneFFtSzZ2d0JaV3BkVnRR?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 芯和半导体 × 联想集团 EDA Agent | 产品发布（国产 EDA） | 国产 EDA 落地 AI Agent 实战应用，设计优化 50%+，仿真提速 80%+，建库效率提升 50%，亮相 DAC | https://news.google.com/rss/articles/CBMizgRBVV95cUxOT1ZUVkhzRm1LeGxfWGpLMGZaQ0gzZHZnejlKdkgwQzFWMURKRHJ0T0t4MUg0SGpkZzk1cDJ2ZUN3cktlb3QyUEJkdHVXTGM2Z1JkOV91Vkh6NjV5cnFULWcwUGxMOXNjdGdHekozZWxXeHNwQWpaSm91Zjh1MFBXMVpDWkZYWXNFWG1sUTlpWDMwVVYxR0dHQlBEelRNNXlUVm1sLVJKckU4LWR2QnNvb3ZEeXZBT1dLVFlWZ3RtVV9Bc0FVaW9KU1p3ZFRQVG5pX3lJVndLYWxCNGE4SzVfMXkzY2pjcFhfMExWcGc4N3RIMWNFZ0UwVjRJZjJuSVQ5c21yc1pCaXk4bDNseEhzRXUwVnJRT1phTy1HQTV1b0dyUVhqb21kT0U1ZWw2YTFNdEZXMjlBcHlqUWFOZ3hXWC1xQjVSZFd0Ul9EZ1NUaENwZ1VEYWdOSWZEOUdfeEI0dUZYX2gzQkpqMzVxeVliQ1NLc3dfRzdoZmxTXzhvZGxtVWVtMDJXZjdhdF9oZk56UFU5Rl9YcFc5QUdyYVV3VEhUaEpwZkstbjBfWVlJdzZWWjZ2RU5aWGtKOFJiZTdYOEQ5LUxNQnFWN1FkMjdlU2F6cWRQYU5OUjhHMkZTNG9sWW1KNU5tbThQUUhKdzZtRTAySFAxNHBUX1hPVVBqRjRoTDNJLUZGY191OHl3NUtpaDFBMmhTMjNsdkxpTFZPQXZka2JsdnBVajlCSktreWdwS2p1MUtnWjkwTmF4TTVJZEpRVGlLQUlzeUJBQQ?oc=5 |
+| Cadence AuraStack | 产品发布 | Cadence 扩展 AI Agents 至 PCB 与先进芯片封装设计，完成芯片与系统设计软件的 Agent 化 | https://news.google.com/rss/articles/CBMizgFBVV95cUxQN2RZdjJWSWtLZmU4Rmo1Sm5VSXZWLXRXNzVHQ3lCQUZ4VktVcHdVUmVRQ0pWa1ktOGRYTklURHpiZjc5T3BRVmlNSXFXNGZueTZfWmNZQm51ejY5a0wycEI4YmduYk1EdlZiSUpjbjdlMGNQOER0ZUJsVEcyZjdLZ21XVVp6dkRkTjV2M0dJU3MtWmZIZ2s0ZHNJcnVjelRIM1VqWmZRMVo3YkxoUFBHY1BlMW9QOHdGNThLN0xlWHdWY3QzOFBkWmNDblkxZw?oc=5 |
+| Siemens Agentic AI Workflows | 产品发布 | Siemens 推进面向半导体与 PCB 设计的自验证 Agentic AI 工作流，将芯片设计 Agent 接入物理引擎以防止流片错误 | https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sV0NLTWRDRmNYbHEwODE5a08wSnpZbUpmTGJSMmhaLTRrZkFmQmpibVpaNkhGNmhaMURLcHZaN0pqbmpqbmFiTjV2LU91SHhvWUJ4Ry12WEY0THc3dFFwbVlPLWg2QQ?oc=5 |
+| NVIDIA Agent Toolkit（PhysicsNeMo + CUDA-X） | 产品发布 | NVIDIA 扩展 Agent Toolkit，集成 PhysicsNeMo 与 CUDA-X 库，用于工程、设计与构建 | https://news.google.com/rss/articles/CBMigAJBVV95cUxOZXhNSW9TSjVybFBBN1BJT3l2N0l0RDJIRDJ5bjZzR1RfUUFoZEpZNU5FVlpRUHVNenNPbGR5X0l2b2dVeHV0dDhoZHhqS2c0a29yOXZ3V2FtRElzRGs2a1NidmlIVWRMOS1ka19iaERsQnk3WUVQdURqQWlDdWk4VWZqWHFXUjhLVWpBNWVJOTBHOVZIbWxQVFJzQUJuVmE1ZjNzWDFGcldEOFJ3bVFJZDg4QkNKUmtIcG5lRVQwUU5uVkUxRHBxbWljeDVWWWs5azh0OWxKekdDWENoQ3RVeVB1TzVtVFdkODNMM1FNT3lha1hiY1RCRmRkN1F0aVhW?oc=5 |
+| NVIDIA Nemotron 3 Ultra | 模型发布 | 在 Agentic RTL 编码任务中，NVIDIA Nemotron 3 Ultra 在准确性和效率上领先开放模型 | https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTjRHTzBSZnFuV21LQVc2Um4yZXhRdllldkd4VGRRdFdRZXN1eU83SER4VzRkU0RRZkVZbVVqRFVrc2VBUnF2Wmc0cXlqNVBGUVRWcU1pRDRwR2VyNTUybzRvX2RXdFJ3a2dGN243cS00d09kNllXdkdPSEQzd0FPNy1iT0J5WmpQTFZEamZjY3J4b3hUSDFNamtqZU80WDdqX1lsUkFBeEFVbWdpSE5fWVlIQTlKaFlPMXYwSVFYaGU3RzQ?oc=5 |
+| Synopsys Autonomous Engineering Workflows | 产品发布 | Synopsys 展示基于 NVIDIA 技术开发的从硅到系统的全面自主工程工作流 | https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeTdfZzAwNlFHX2RGRDhJTFRsaW1QTTdyTzRDejNJSm9COFF0XzhuS0RrYXRoYkxYc184Yk16VnBBLUFGRXR4TlFjN2lqNVhWVG1tM2pSQ1pXU2dRWXhCSVEzUjFhaFJZcjFOekVsUmRkaUl3X0ZsVGZ1WlRxZFdvX0ZfQlBNcVZ6UUVmMDBWSU96OGRTSFVpYnRTZmpXZEdtSmNfUlpBUDFQaEcyaWFQNmhhNkFseGw0WC1ON0w2aUlOZDhJTmFGc0FRUmYwMm1qRmNDOUxpQXRGNGNsWE1LQk8zTmF0c2ZLQXdCX3NyYkxzUQ?oc=5 |

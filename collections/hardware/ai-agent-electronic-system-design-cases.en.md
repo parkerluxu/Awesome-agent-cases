@@ -248,3 +248,51 @@ This section is divided into two categories: `2 Tutorials / Cases` and `13 Proje
 | Name | Type | Use / Summary | Link |
 |------|------|---------------|------|
 | ScarfBench | Benchmark | Benchmarking AI agents for enterprise Java framework migration. | [Hugging Face](https://huggingface.co/blog/ibm-research/scarfbench) |
+
+## Resource Update (2026-08-01)
+
+The following resources were identified after the original article's publication and represent new leads for AI-agent-driven electronic system design.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| oaslananka/kicad-mcp-pro | GitHub | AI-ready MCP server for KiCad: automate schematic, PCB, ERC/DRC, DFM, BOM and manufacturing review from Claude, Cursor, Copilot and other AI agents. | [github.com/oaslananka/kicad-mcp-pro](https://github.com/oaslananka/kicad-mcp-pro) |
+| NijoP/pcbflow | GitHub | Autonomous, AI-assisted PCB design workflow from requirements to manufacturing-ready files. AI-driven schematic generation, placement, and routing with human-in-the-loop review (EasyEDA + KiCad, any AI coding agent). | [github.com/NijoP/pcbflow](https://github.com/NijoP/pcbflow) |
+| tscircuit/jlcsearch | GitHub | Find parts from JLCPCB matching design constraints (resistance values, capacitance, tolerance etc.). | [github.com/tscircuit/jlcsearch](https://github.com/tscircuit/jlcsearch) |
+| DeconBear/vibe-analog | GitHub | AI-powered interactive circuit design workflow — from natural language requirements to verified SPICE netlists and schematics. | [github.com/DeconBear/vibe-analog](https://github.com/DeconBear/vibe-analog) |
+| sandraschi/kicad-mcp | GitHub | KiCad PCB/schematic automation via FastMCP — headless Gerber/export + agent inspect. Hybrid GUI/headless for Cursor / Claude Desktop. | [github.com/sandraschi/kicad-mcp](https://github.com/sandraschi/kicad-mcp) |
+| oaslananka/agent-tools | GitHub | Central catalog and marketplace for AI agent tools, MCP servers, plugins, and engineering workflow skills. | [github.com/oaslananka/agent-tools](https://github.com/oaslananka/agent-tools) |
+| VortexJer/AISight | GitHub | Design and review tools built for AI agents: 3D CAD, PCB, shaders, textures, and animation — code in, renders + machine-readable reports out. | [github.com/VortexJer/AISight](https://github.com/VortexJer/AISight) |
+| Brillar0101/claude-micro | GitHub | RP2040 macropad for supervising AI coding agents: 13 hot-swap keys with per-key RGB status, encoder, joystick, 4-layer PCB, CircuitPython firmware, printable enclosure. | [github.com/Brillar0101/claude-micro](https://github.com/Brillar0101/claude-micro) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Can AI Agents Really Complete RTL-to-GDS? | arXiv | Evaluates AI agents on a PicoRV32 RTL-to-GDS flow using commercial EDA tools, covering synthesis, physical implementation, and ECO optimization. | [arxiv.org/abs/2607.17528v3](https://arxiv.org/abs/2607.17528v3) |
+| Symbol and Footprint Database for Electronic Components by Agentic Recognition and Generation | arXiv | SFgen: agentic recognition and generation flow for component symbols and footprints using multimodal LLMs; 86% symbol and 80% footprint accuracy. | [arxiv.org/abs/2607.19767v1](https://arxiv.org/abs/2607.19767v1) |
+| LLM for EDA in Front-End Design: Challenges and Opportunities | arXiv | Surveys LLM potential as unified interface for HDL generation, testbench construction, and design space exploration in front-end design. | [arxiv.org/abs/2607.09616v1](https://arxiv.org/abs/2607.09616v1) |
+| RF-Agent: A Practical Framework for Building Language Agents for RFIC Design | arXiv | Textbook-driven knowledge distillation; multi-agent QTSA pipeline converts RF textbook corpus into a domain-specific benchmark. | [arxiv.org/abs/2607.18772v1](https://arxiv.org/abs/2607.18772v1) |
+| Towards Reliable AI-Assisted Analog Design: Template-Constrained LLM Agents for SAR ADC Generation | arXiv | ATLAS: end-to-end, multi-step LLM agentic framework for analog design producing SPICE-verifiable schematics. | [arxiv.org/abs/2607.14165v1](https://arxiv.org/abs/2607.14165v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| How AI Redefines PCB & Package Design | YouTube | Video discussing AI's role in PCB and package design workflows. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pdkNrbno4NFpmZHJPNzhBakdBZGRZZU94QTE3UXJWcGJ2aXpvaGlMWFVZSEs2WnRzRU8tR1p3aURnYTZQTXM1bXhxakstTHdCbGR0Wjln?oc=5) |
+| From Chat to Schematic: Claude Code Meets EasyEDA Pro | Medium | Practical walkthrough of using Claude Code with EasyEDA Pro for schematic generation. | [medium.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxOVjRNQ1lHZjJENGxkdmxnQlBxakdIU3NQZTdQVG1RSS1hb0oyQXo0NG1kM3ZydEQzUHVoejVhS085WW5ONE9fLVMxUXNaMWNZSHNHR3MtRy1iZDgzeTBJR0c0OWRlSllvdXloQWpaZ2RzeENmZTQyOU8ySWpYS0djU2dRQk9GR1pxYlByd2pKRG1iVVZ0SGJZNUZjU24?oc=5) |
+| tscircuit入门教程：5分钟搭建你的第一个电子电路项目 | CSDN Blog | Chinese tutorial for setting up tscircuit and rendering a first circuit project in 5 minutes. | [blog.csdn.net](https://blog.csdn.net/gitblog_00516/article/details/153722461) |
+| The Age of Agentic Engineering for Hardware | Substack | Essay on the shift toward agentic engineering workflows in hardware design. | [assistedeverything.substack.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxPX3lUN09jYXdianVIQmtEZTI2eDJFRk5nMEdBVVFlb2NnTEEwazJoVkFfMHpLNFcwb0pSM1pVTE1jU0hLZHdkeTUtTFdNZVhrbEp1MHhoSDFUU0drcy12dUdfWkxaUnl2ZlRZYW9aMTZNT0JWdGRoekQ1Mlh6OWpneFFtSzZ2d0JaV3BkVnRR?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Cadence AuraStack | Product | Cadence expands AI agents with AuraStack for PCB and advanced chip packaging. | [Forbes](https://news.google.com/rss/articles/CBMizgFBVV95cUxQN2RZdjJWSWtLZmU4Rmo1Sm5VSXZWLXRXNzVHQ3lCQUZ4VktVcHdVUmVRQ0pWa1ktOGRYTklURHpiZjc5T3BRVmlNSXFXNGZueTZfWmNZQm51ejY5a0wycEI4YmduYk1EdlZiSUpjbjdlMGNQOER0ZUJsVEcyZjdLZ21XVVp6dkRkTjV2M0dJU3MtWmZIZ2s0ZHNJcnVjelRIM1VqWmZRMVo3YkxoUFBHY1BlMW9QOHdGNThLN0xlWHdWY3QzOFBkWmNDblkxZw?oc=5) |
+| Siemens Agentic AI Workflows | Product | Siemens advances self-verifying agentic AI workflows for semiconductor and PCB design; hooks chip design agents to physics engines to prevent tapeout errors. | [Siemens Newsroom](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sV0NLTWRDRmNYbHEwODE5a08wSnpZbUpmTGJSMmhaLTRrZkFmQmpibVpaNkhGNmhaMURLcHZaN0pqbmpqbmFiTjV2LU91SHhvWUJ4Ry12WEY0THc3dFFwbVlPLWg2QQ?oc=5) / [Tech Times](https://news.google.com/rss/articles/CBMixAFBVV95cUxQcVFDTGJVNkpyOWpxaVBocXo3UmpEOTRuVWZFVG5DeEk2NjloczZ6c0s2RkxEaGRNWlc2VXZUUWRFR1VSTVhWZVlabDk1em4wRjBUZWJHZmxoVVNGeWU5M2EwVC0wODdyU2hmc3ZIYk9KbWd4OTl1U050N2c3RDhvR3pxUjZqaFhwOEN0UHhUcTg0d1hzWjFSUURFRVJqVTJvYmtoNWhkeW41NWpHSVVnR1NGeUJ4TUtUWTk4NHE0NXFzNGNQ?oc=5) |
+| Cadence Agentization of Chip and System Design | Product | Cadence completes agentization of chip and system design software. | [hpcwire.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxOalZqbkVnVVNZeFlrZnc4TEgyb2l6ZUxmQVhLTTZDYW9obF8teWZLODRzWHBoVkJJejVYSmpfV0FTUzFVWm9EMms5UXlESzF2MkEtc1FObmwzb244U00yUFV3NlBLZDR1ek4zclVrcmh6NTZqWGJLc3pKdFJXYjRuVjJxWXhOc251WUNFaDdfdGpBX0xENTlFWXNRR1EwbGt3d3Q0?oc=5) |
+| Xpeedic + Lenovo EDA Agent | Product | Chinese EDA vendor Xpeedic and Lenovo release AI Agent at DAC; library-building efficiency improved 50%, design optimization 50%+, simulation speedup 80%+. | [驱动之家](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SNkt4U1cyM1ZKRV9wcGVETEJFR3RCOGlKdTh3YS1EUEw0S0swdjZuWnBnRUdsd2UtS0t5WDRGUzlSTEtORmFpTDBmUVhNNlBIQUZGdXI5ZzE?oc=5) / [SEMI](https://news.google.com/rss/articles/CBMihgFBVV95cUxOQXVTR1p5TTYtbFJkeEJ5N1F4Tm5HMnc1QzlxNmJnRjFtekpUWmJzQ2RYWHg4Z1lma3I4SmpNOTVINUhBMXBCc25Ua2QwbXlyakV4LVdmd3QtR2Q5dlpOZjdQZjRpdGZ0ZXhyRGgwTi1SN2JkTWstM1hWX2UxRFVYMWgyWnZyUQ?oc=5) |
+| NVIDIA Agent Toolkit with PhysicsNeMo | Product | NVIDIA expands Agent Toolkit with PhysicsNeMo and CUDA-X libraries for engineering, design, and build workflows. | [NVIDIA Newsroom](https://news.google.com/rss/articles/CBMigAJBVV95cUxOZXhNSW9TSjVybFBBN1BJT3l2N0l0RDJIRDJ5bjZzR1RfUUFoZEpZNU5FVlpRUHVNenNPbGR5X0l2b2dVeHV0dDhoZHhqS2c0a29yOXZ3V2FtRElzRGs2a1NidmlIVWRMOS1ka19iaERsQnk3WUVQdURqQWlDdWk4VWZqWHFXUjhLVWpBNWVJOTBHOVZIbWxQVFJzQUJuVmE1ZjNzWDFGcldEOFJ3bVFJZDg4QkNKUmtIcG5lRVQwUU5uVkUxRHBxbWljeDVWWWs5azh0OWxKekdDWENoQ3RVeVB1TzVtVFdkODNMM1FNT3lha1hiY1RCRmRkN1F0aVhW?oc=5) |
+| NVIDIA Nemotron 3 Ultra | Model | Open model leading on accuracy and efficiency in agentic RTL coding. | [NVIDIA Developer](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTjRHTzBSZnFuV21LQVc2Um4yZXhRdllldkd4VGRRdFdRZXN1eU83SER4VzRkU0RRZkVZbVVqRFVrc2VBUnF2Wmc0cXlqNVBGUVRWcU1pRDRwR2VyNTUybzRvX2RXdFJ3a2dGN243cS00d09kNllXdkdPSEQzd0FPNy1iT0J5WmpQTFZEamZjY3J4b3hUSDFNamtqZU80WDdqX1lsUkFBeEFVbWdpSE5fWVlIQTlKaFlPMXYwSVFYaGU3RzQ?oc=5) |
+| Synopsys Autonomous Engineering Workflows | Product | Synopsys showcases comprehensive autonomous engineering workflows from silicon to systems, developed with NVIDIA technology. | [Synopsys](https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeTdfZzAwNlFHX2RGRDhJTFRsaW1QTTdyTzRDejNJSm9COFF0XzhuS0RrYXRoYkxYc184Yk16VnBBLUFGRXR4TlFjN2lqNVhWVG1tM2pSQ1pXU2dRWXhCSVEzUjFhaFJZcjFOekVsUmRkaUl3X0ZsVGZ1WlRxZFdvX0ZfQlBNcVZ6UUVmMDBWSU96OGRTSFVpYnRTZmpXZEdtSmNfUlpBUDFQaEcyaWFQNmhhNkFseGw0WC1ON0w2aUlOZDhJTmFGc0FRUmYwMm1qRmNDOUxpQXRGNGNsWE1LQk8zTmF0c2ZLQXdCX3NyYkxzUQ?oc=5) |

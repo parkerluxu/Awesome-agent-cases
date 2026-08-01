@@ -253,3 +253,55 @@ The following resources were discovered after the original article was published
 | Vercel's Andrew Qu on why agents are a new kind of software | Podcast | Vercel's agent framework eve and skills/sandboxes for agent-readable websites | [Latent Space](https://www.latent.space/p/vercel-agents-new-software) |
 | Airbnb Kubernetes dynamic configuration Sidecar Sitar-agent | Architecture | Airbnb's architecture for dynamic configuration sidecar agent | [InfoQ](https://www.infoq.cn/article/fO5byVPuZwwlBPosijBV?utm_source=rss&utm_medium=article) |
 | 破解碳核算"黑盒"难题：碳阻迹发布可追溯可复核的碳管理Agent | Product | Traceable and verifiable carbon management agent | [中国日报网](https://news.google.com/rss/articles/CBMifEFVX3lxTE5hbGEwMER2OGE0ZElLbHRDU21XRk5OOUQ3eU11TjNTSV9ad2NjeWUyeHlDZTlEOUM5ZjR0S1Jab2t4Y3ZYRjExSFNOVThzU3RUV1c2Q2FjVlVCSTR3NTRLOHRaZldyT0dXWVJzcE5FSDhDQ0hKX1lBc3RqTFQ?oc=5) |
+
+## Resource Update (2026-08-01)
+
+The following resources were discovered after the original article was published. They are grouped by content type and represent new leads for AI-agent-embedded design work.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| xuqi2024/agent-pulse | GitHub | Physical AI agent work-status indicator on 立创·实战派 ESP32-S3 — shows Claude Code / Cursor / Copilot state on a 2.0" ST7789 LCD over CH340K USB | [Link](https://github.com/xuqi2024/agent-pulse) |
+| NiRuLabs/NiRuLogic | GitHub | Open-source IEC 61131-3 ladder logic editor for Arduino: draw, simulate, flash over USB, watch live power flow. Includes an MCP connector so AI agents can read/write ladder programs directly | [Link](https://github.com/NiRuLabs/NiRuLogic) |
+| su5176/Mklink-AI-Probe | GitHub | All-in-one embedded debugging CLI for Cortex-M microcontrollers. Bridges MKLink/MicroLink hardware probe with AI agents (Claude, OpenAI) for natural-language driven firmware flashing, waveform visualization, memory inspection, fault diagnosis, and industrial protocol debugging | [Link](https://github.com/su5176/Mklink-AI-Probe) |
+| agentic-hil/agentic-hil | GitHub | AI agent develops firmware autonomously: build, flash, stimulate real hardware, observe, fix — policy-gated MCP tools + pytest plugin | [Link](https://github.com/agentic-hil/agentic-hil) |
+| six-ddc/Pinion | GitHub | Palm-size ESP32-P4 AI agent terminal where the model draws its own UI | [Link](https://github.com/six-ddc/Pinion) |
+| chatbotstudios/mini_v1 | GitHub | ESP32-S3 AMOLED smart display firmware with iOS-style LVGL9 UI, SD Card Gallery, and AI agent integration | [Link](https://github.com/chatbotstudios/mini_v1) |
+| speleoalex/myagent | GitHub | Self-hosted AI agent platform that works offline: local models, offline knowledge library (Wikipedia ZIM + own documents), and LAN IoT/home-automation control | [Link](https://github.com/speleoalex/myagent) |
+| Supermikeka/ai-mcu-simulab | GitHub | AI-driven MCU online simulation teaching platform (火山杯 Agent 创新大赛) | [Link](https://github.com/Supermikeka/ai-mcu-simulab) |
+| lla7wel/Pico-AI-Agentic-System | GitHub | Raspberry Pi Pico W push-to-talk AI voice terminal: custom PIO I2S audio, retro green-phosphor TFT, self-hosted FastAPI agent backend with web dashboard | [Link](https://github.com/lla7wel/Pico-AI-Agentic-System) |
+| WasmAgent/wasmagent-js | GitHub | Embedded agent runtime compliance layer — WASM sandbox, MCP firewall, capability manifests, verifiable rollouts, trace-to-training export | [Link](https://github.com/WasmAgent/wasmagent-js) |
+| branover/hexgraph | GitHub | Self-hosted, agentic vulnerability research for binaries & firmware: AI agent decompiles, fuzzes, and verifies exploits inside a sandbox, recording findings to a typed graph. BYOK, fully local | [Link](https://github.com/branover/hexgraph) |
+| sell24cz/ESP32-LLM-Voice-Agent | GitHub | ESP32 + LLM voice agent | [Link](https://github.com/sell24cz/ESP32-LLM-Voice-Agent) |
+| JHChoong05/smart-home-voice-agent | GitHub | End-to-end voice control system: Flask web interface, local Whisper speech recognition, Qwen LLM for intent parsing, MQTT control of ESP32 smart home devices | [Link](https://github.com/JHChoong05/smart-home-voice-agent) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Internet of Agentic Things: Networked AI Agents for Closed-Loop IoT Orchestration | arXiv | Introduces IoAT, an architectural framework integrating agentic AI, IoT, cyber-physical systems, Physical AI, edge computing, and digital twins into a unified closed-loop orchestration framework with cloud, edge/fog, and physical IoT layers | [Link](https://arxiv.org/abs/2607.12662v1) |
+| VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents | arXiv | Autonomous multi-agent framework for IoT-specific vulnerability exploitation, extending LLM-agent penetration testing to constrained IoT hardware, outdated firmware, and insecure default configurations | [Link](https://arxiv.org/abs/2607.09653v1) |
+| A Graph-Native Bitemporal Memory Store for Conversational AI Agents | arXiv | Agent-local Neo4j property graph with HNSW vector indexes and full bitemporal data model for persistent memory across sessions, avoiding context-window exhaustion and third-party memory services | [Link](https://arxiv.org/abs/2607.26520v1) |
+| DevicesWorld: Benchmarking Cross-Device Agents in Heterogeneous Environments | arXiv | Benchmark for evaluating LLM agents operating across multiple devices (phone, desktop, smart home) where goals span heterogeneous execution environments | [Link](https://arxiv.org/abs/2607.13465v1) |
+| FirmPilot: Evidence-Guided Multi-Agent Environment Recovery for IoT Firmware Rehosting | arXiv | Multi-agent approach to IoT firmware rehosting in emulated environments (QEMU), addressing fragile pipelines across boot scripts, persistent configuration, and network setup | [Link](https://arxiv.org/abs/2607.14903v1) |
+| Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls | arXiv | Architecture coupling LLM-based planning with deep learning for closed-loop control of security controls in industrial IoT, addressing LLM hallucination safety liabilities | [Link](https://arxiv.org/abs/2607.09076v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ESP32-S3 N16R8 + 小智 AI + 2.8寸 TFT 屏开发实战 | 稀土掘金 | ESP-IDF environment setup and hardware pitfall guide for ESP32-S3 with 小智 AI and 2.8" TFT display | [Link](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pVVFyYkdYVXF2T0Vxci1vdVRYRDNIYzRGTFhoZi1JbmhqWWZJaXM3RXFYMmg3N2tXM0QwYzNEQXNDZzVMMTlrNlhnb2w3WURNRThhdw?oc=5) |
+| 硬件版【Cursor】？aily blockly IDE尝鲜封神，实战硬伤尽显 | AI编程社区 | Hands-on test of aily blockly IDE as a hardware-oriented visual programming environment, highlighting practical limitations | [Link](https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxQ2FjTXpERHRwd2w4Sy1yRlM5alBCaTdFMkRldTFqZ2VKZUk1N3VweGJuSXVRUEdRZGZqS3ltTm1IV2pqd0k3UERiSzI5eDhFSEJyZlBNY05xU1N5RkVEZlB1RDFaUQ?oc=5) |
+| 基于ESP32的多端分布式骑行助手：嵌入式系统与边缘AI实践 | bbs.csdn.net | Multi-device distributed cycling assistant based on ESP32: embedded systems and edge AI practice | [Link](https://news.google.com/rss/articles/CBMib0FVX3lxTE5HdkNPLUhhbXlSbHVLTklFTUFldjB5VzNDbG1aSmhmLUdMRndQVjcwclFKUWp4T2luTzdta1hwdnVtSVdZYjhpTUt0N1B0VDdsejFqdWM1UUkxNmhSN3ZUajQ1SW5IMnl3d3JYdU5idw?oc=5) |
+| 用逗脑IDE直接管理ESP32开发板上的文件 | 稀土掘金 | Using 逗脑IDE to manage files on ESP32 dev boards (create, delete, upload, download) like a local folder | [Link](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xR2RveFBCNXI4a3BLbEctSlctX2xPTTFYWXVsNFZDdldpZjlLYkloOHVFOHZPWGRCMmk4dWlDU28tR1JMb0FDWjUtUzZOTVFhRFhSeg?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Razz19/Exort | GitHub | Coding agent for embedded devices | [Link](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9obEpOUUNuNkdKdld3WDA1UjEyM1haWjV1SWdTYm1qaW9Uc2ZuNjBLakN4SHdTbmdhejVJNEFVNWEydnp4R3c?oc=5) |
+| Grok Build 开源 | 51CTO | xAI's open-source terminal AI coding agent, 20K stars in 9 days | [Link](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTV2tuVlNCQU9zZ3lWcGZiR0ZLVlB5SHhWdVEzTmlIWW85QTRac1ZJNlVaWmMxSjhINFIxak5QU3FaTm5jalpxekIwREZlQQ?oc=5) |
+| 国产EDA率先落地AI智能体实战应用 | shobserver.cn | Domestic EDA tool with AI agent integration: 50%+ design optimization, 80%+ simulation speedup | [Link](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WUnZMTlJGcnU5QVJrZEE3RVpLcE9YSVJwUndOamtXWXdwQ0w3dnZVWjcydm53TVVMYW1uQk43MmY3NHZWXzhqZXJkUjVZUEJ1a1N0Q0FEM0FabmNr?oc=5) |
+| Ontologies Are So Back | latent.space | Essay on why AI agents are reviving the semantic web — ontologies keep probabilistic agents inside deterministic boundaries | [Link](https://www.latent.space/p/ontologies-agentic-systems) |
+| Anatomy of a Frontier Lab Agent Intrusion | Hugging Face | Technical timeline of the July 2026 agent intrusion incident at a frontier lab | [Link](https://huggingface.co/blog/agent-intrusion-technical-timeline) |

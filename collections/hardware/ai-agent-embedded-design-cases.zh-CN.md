@@ -262,3 +262,57 @@
 | Modal CTO 谈 Agent Experience 基础设施 | 产品 | Modal 联合创始人讨论为何 Agent Experience 正在奏效，以及构建新 Agent 云的教训。 | [Latent Space](https://www.latent.space/p/modal2026) |
 | Vercel 的 Andrew Qu 谈 Agent 是新软件形态 | 产品 | Vercel 软件主管解释其 Agent 框架 eve 的创建过程，以及技能、沙箱和 Agent 可读网站的重要性。 | [Latent Space](https://www.latent.space/p/vercel-agents-new-software) |
 | Microsoft 代理可观测性 | 产品 | 微软博客探讨 AI 驱动与自主 Agent 时代下的云运维新挑战。 | [Microsoft Blog](https://blogs.microsoft.com/blog/2026/06/23/rethinking-cloud-operations-with-agentic-observability/) |
+
+## 资料更新（2026-08-01）
+
+以下为新增资料线索，按内容类型分组，供后续整理参考。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| xuqi2024/agent-pulse | GitHub 项目 | 基于立创·实战派 ESP32-S3 的 Physical AI Agent 工作状态指示器，通过 CH340K USB 在 2.0 英寸 ST7789 LCD 上显示 Claude Code / Cursor / Copilot 状态 | https://github.com/xuqi2024/agent-pulse |
+| NiRuLabs/NiRuLogic | GitHub 项目 | 开源的 Arduino 版 IEC 61131-3 梯形图逻辑编辑器，支持绘制、仿真、USB 烧录及实时功率流监控，内置 MCP 连接器，AI Agent 可直接读写梯形图程序 | https://github.com/NiRuLabs/NiRuLogic |
+| su5176/Mklink-AI-Probe | GitHub 项目 | 面向 Cortex-M 微控制器的嵌入式调试 CLI，桥接 MKLink/MicroLink 硬件探针与 AI Agent（Claude、OpenAI），支持自然语言驱动的固件烧录、波形可视化、内存检查、故障诊断与工业协议调试 | https://github.com/su5176/Mklink-AI-Probe |
+| agentic-hil/agentic-hil | GitHub 项目 | AI Agent 自主开发固件：构建、烧录、激励真实硬件、观察、修复，基于策略门控的 MCP 工具与 pytest 插件 | https://github.com/agentic-hil/agentic-hil |
+| six-ddc/Pinion | GitHub 项目 | 掌上 ESP32-P4 AI Agent 终端，模型自行绘制 UI | https://github.com/six-ddc/Pinion |
+| chatbotstudios/mini_v1 | GitHub 项目 | 基于 ESP32-S3 AMOLED 的智能显示固件，具备 iOS 风格 LVGL9 UI、SD 卡图库与 AI Agent 集成 | https://github.com/chatbotstudios/mini_v1 |
+| speleoalex/myagent | GitHub 项目 | 自托管离线 AI Agent 平台：本地模型、离线知识库（Wikipedia ZIM + 自有文档）及局域网 IoT/智能家居控制 | https://github.com/speleoalex/myagent |
+| Supermikeka/ai-mcu-simulab | GitHub 项目 | AI 驱动的单片机线上仿真教学平台（火山杯 Agent 创新大赛项目） | https://github.com/Supermikeka/ai-mcu-simulab |
+| lla7wel/Pico-AI-Agentic-System | GitHub 项目 | 基于树莓派 Pico W 的按键通话 AI 语音终端：自定义 PIO I2S 音频、复古绿磷 TFT 屏、自托管 FastAPI Agent 后端与 Web 仪表盘 | https://github.com/lla7wel/Pico-AI-Agentic-System |
+| WasmAgent/wasmagent-js | GitHub 项目 | 嵌入式 Agent 运行时合规层：WASM 沙箱、MCP 防火墙、能力清单、可验证发布及 trace-to-training 导出 | https://github.com/WasmAgent/wasmagent-js |
+| branover/hexgraph | GitHub 项目 | 自托管的二进制与固件智能体漏洞研究工具：AI Agent 在沙箱内反编译、模糊测试并验证漏洞利用，所有发现记录到类型化图数据库，支持自带密钥、完全本地化 | https://github.com/branover/hexgraph |
+| sell24cz/ESP32-LLM-Voice-Agent | GitHub 项目 | ESP32 + LLM 语音 Agent | https://github.com/sell24cz/ESP32-LLM-Voice-Agent |
+| JHChoong05/smart-home-voice-agent | GitHub 项目 | 端到端语音控制系统：Flask Web 界面、本地 Whisper 语音识别、Qwen LLM 意图解析，通过 MQTT 实时控制 ESP32 智能家居设备与传感器 | https://github.com/JHChoong05/smart-home-voice-agent |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Internet of Agentic Things: Networked AI Agents for Closed-Loop IoT Orchestration | arXiv 论文 | 提出 IoAT 架构，将 Agentic AI、IoT、信息物理系统、Physical AI、边缘计算与数字孪生统一为闭环编排框架，包含云、边缘/雾与物理 IoT 三层，由自主 AI Agent 跨分布式环境感知、推理、协调与执行 | https://arxiv.org/abs/2607.12662v1 |
+| VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents | arXiv 论文 | 面向 IoT 漏洞的自主多 Agent 渗透测试框架，探索 LLM Agent 在 IoT 特定漏洞场景中的应用 | https://arxiv.org/abs/2607.09653v1 |
+| A Graph-Native Bitemporal Memory Store for Conversational AI Agents | arXiv 论文 | 面向对话式 AI Agent 的本地记忆存储方案：基于 Neo4j 属性图 + HNSW 向量索引 + 全双时态数据模型，避免上下文窗口耗尽与第三方记忆服务的数据隐私问题 | https://arxiv.org/abs/2607.26520v1 |
+| DevicesWorld: Benchmarking Cross-Device Agents in Heterogeneous Environments | arXiv 论文 | 跨设备 Agent 基准测试，评估 Agent 在手机、桌面、智能家居等异构环境中的信息获取与整合能力 | https://arxiv.org/abs/2607.13465v1 |
+| FirmPilot: Evidence-Guided Multi-Agent Environment Recovery for IoT Firmware Rehosting | arXiv 论文 | 面向 IoT 固件重托管的多 Agent 环境恢复框架，解决固件在 QEMU 等模拟环境中执行状态难以达到的问题 | https://arxiv.org/abs/2607.14903v1 |
+| Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls | arXiv 论文 | 面向工业 IoT 安全控制的神经-Agentic 控制框架，将 LLM 语义推理与深度学习结合，用于闭环控制场景 | https://arxiv.org/abs/2607.09076v1 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ESP32-S3 N16R8 + 小智 AI + 2.8寸 TFT 屏开发实战：ESP-IDF 环境搭建与硬件避坑指南 | 稀土掘金 | ESP32-S3 与小智 AI 的实战开发教程，涵盖 ESP-IDF 环境搭建与硬件避坑 | https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pVVFyYkdYVXF2T0Vxci1vdVRYRDNIYzRGTFhoZi1JbmhqWWZJaXM3RXFYMmg3N2tXM0QwYzNEQXNDZzVMMTlrNlhnb2w3WURNRThhdw?oc=5 |
+| 基于ESP32的多端分布式骑行助手：嵌入式系统与边缘AI实践 | bbs.csdn.net | 基于 ESP32 的多端分布式骑行助手，嵌入式系统与边缘 AI 实践 | https://news.google.com/rss/articles/CBMib0FVX3lxTE5HdkNPLUhhbXlSbHVLTklFTUFldjB5VzNDbG1aSmhmLUdMRndQVjcwclFKUWp4T2luTzdta1hwdnVtSVdZYjhpTUt0N1B0VDdsejFqdWM1UUkxNmhSN3ZUajQ1SW5IMnl3d3JYdU5idw?oc=5 |
+| 用逗脑IDE直接管理ESP32开发板上的文件——新建、删除、上传、下载，像操作本地文件夹一样简单 | 稀土掘金 | 使用逗脑 IDE 直接管理 ESP32 开发板文件的操作教程 | https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xR2RveFBCNXI4a3BLbEctSlctX2xPTTFYWXVsNFZDdldpZjlLYkloOHVFOHZPWGRCMmk4dWlDU28tR1JMb0FDWjUtUzZOTVFhRFhSeg?oc=5 |
+| 硬件版【Cursor】？aily blockly IDE尝鲜封神，实战硬伤尽显 | AI编程社区 | 面向硬件的 aily blockly IDE 实测体验，分析其优势与不足 | https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxQ2FjTXpERHRwd2w4Sy1yRlM5alBCaTdFMkRldTFqZ2VKZUk1N3VweGJuSXVRUEdRZGZqS3ltTm1IV2pqd0k3UERiSzI5eDhFSEJyZlBNY05xU1N5RkVEZlB1RDFaUQ?oc=5 |
+| 国产EDA率先落地AI智能体实战应用，设计优化50%+，仿真提速80%+ | shobserver.cn | 国产 EDA 工具落地 AI 智能体实战应用，报道称设计优化超 50%、仿真提速超 80% | https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WUnZMTlJGcnU5QVJrZEE3RVpLcE9YSVJwUndOamtXWXdwQ0w3dnZVWjcydm53TVVMYW1uQk43MmY3NHZWXzhqZXJkUjVZUEJ1a1N0Q0FEM0FabmNr?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Razz19/Exort | GitHub 项目 | 面向嵌入式设备的编码 Agent | https://news.google.com/rss/articles/CBMiRkFVX3lxTE9obEpOUUNuNkdKdld3WDA1UjEyM1haWjV1SWdTYm1qaW9Uc2ZuNjBLakN4SHdTbmdhejVJNEFVNWEydnp4R3c?oc=5 |
+| Grok Build 开源 | 51CTO | xAI 的终端 AI 编程 Agent，开源后 9 天获 2 万 Star | https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTV2tuVlNCQU9zZ3lWcGZiR0ZLVlB5SHhWdVEzTmlIWW85QTRac1ZJNlVaWmMxSjhINFIxak5QU3FaTm5jalpxekIwREZlQQ?oc=5 |
+| Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web | latent.space | 讨论 AI Agent 重新启用本体论（Ontologies）以将概率性 Agent 约束在确定性边界内 | https://www.latent.space/p/ontologies-agentic-systems |
+| Codex from 0 to 10M Users: Building ChatGPT Work | latent.space | OpenAI 产品工程负责人访谈，讨论 ChatGPT Work 的构建，涉及 Sites、OpenClaw、Memory、Subagents、Finance、No-Code 等 | https://www.latent.space/p/chatgpt-work |
+| Agent 成本失控背后：上下文、人工审核与维护成本正在被低估 | InfoQ | 讨论 Agent 实际运行成本被低估的问题，涉及上下文、人工审核与维护成本 | https://www.infoq.cn/article/x4PTF8mgDBvtQQYa8B97?utm_source=rss&utm_medium=article |
+| Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident | Hugging Face Blog | 2026 年 7 月前沿实验室 Agent 入侵事件的技术时间线分析 | https://huggingface.co/blog/agent-intrusion-technical-timeline |
