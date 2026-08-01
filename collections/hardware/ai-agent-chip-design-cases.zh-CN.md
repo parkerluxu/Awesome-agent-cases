@@ -221,3 +221,57 @@
 | 名称 | 类型 | 用途/摘要 | 链接 |
 |------|------|-----------|------|
 | ChipStack AI Super Agent | 产品报道 | Embedded Week 报道：ChipStack AI Super Agent 用于芯片设计自动化。 | [embedded.com](https://news.google.com/rss/articles/CBMixgFBVV95cUxPNlNLdDNDZ2hWV1Q4ZmpPN3RVb25UZm1TTkF3SFpjUThyT0xFMXdkZU1QSVhXX21FaVREWTU2LUZLTE5Mc2p6X1NnYXpRaFNjM2hxcEpkSmkySF9RX2dNaDdFLXhDUU9NNTN6d3dtcUlKMkJtakF6aVpfc0pJZTFLUVVQMGRjekJDZ3JZNXpKOTdEZGhqYzhnd2dYUE1vRFJ6QVZJOHk1ZU83SXdER3gzOW9FYnUwTG5KaHB2QmR5b2k4Njh2QUE?oc=5) |
+
+## 资料更新（2026-08-01）
+
+以下为新增资料线索，按内容类型分组，供后续文章扩展参考。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| oaslananka/kicad-mcp-pro | GitHub 项目 | 面向 KiCad 的 MCP 服务器，支持从 Claude、Cursor、Copilot 等 AI Agent 自动化原理图、PCB、ERC/DRC、DFM、BOM 及制造审查 | https://github.com/oaslananka/kicad-mcp-pro |
+| sjrai007/spec-to-gds | GitHub 项目 | 基于 Claude Code 的自主 RTL-to-GDS 智能体，输入规格输出验证后的 GDSII，无人工介入，原生支持 Apple Silicon 上的 OpenROAD | https://github.com/sjrai007/spec-to-gds |
+| ShenShan123/r2g-skills | GitHub 项目 | 面向 OpenROAD 的 Agent skill 初始版本，用于 RTL-to-GDS 流程 | https://github.com/ShenShan123/r2g-skills |
+| openecos-projects/ecc | GitHub 项目 | 基于开源 EDA 工具的芯片设计自动化解决方案 | https://github.com/openecos-projects/ecc |
+| amoslee2026/Babel | GitHub 项目 | 基于开源 EDA 工具链的 AI-native Chiplet 设计流程 | https://github.com/amoslee2026/Babel |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Can AI Agents Really Complete RTL-to-GDS? | arXiv 论文 | 评估 AI Agent 在商业 EDA 工具下执行端到端 RTL-to-GDS 流程（含综合、物理实现、ECO 优化）的能力，基于 PicoRV32 流程 | https://arxiv.org/abs/2607.17528v3 |
+| LLM for EDA in Front-End Design: Challenges and Opportunities | arXiv 论文 | 探讨 LLM 作为前端设计统一智能接口的潜力，覆盖 HDL 生成、测试平台构建与设计空间探索 | https://arxiv.org/abs/2607.09616v1 |
+| Benchmarking LLMs for Verilog Design Flows | arXiv 论文 | 提出可复现的基准平台，在 50 个任务（组合、时序、有限状态机等）上评估开源 LLM 的 Verilog RTL 生成能力，强调端到端工具链验证 | https://arxiv.org/abs/2607.22759v1 |
+| GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure | arXiv 论文 | 面向功能验证的智能体框架，通过规格驱动的覆盖率收敛解决现有 LLM 方法中接口不匹配与覆盖率脱节问题 | https://arxiv.org/abs/2607.26181v1 |
+| RF-Agent: A Practical Framework for Building Language Agents for RFIC Design | arXiv 论文 | 通过教科书驱动的知识蒸馏（QTSA 多智能体流水线）构建 RF 电路设计语言智能体框架 | https://arxiv.org/abs/2607.18772v1 |
+| CLOSER-Bench: Evaluating Budgeted Cross-Stage Design Closure for Hardware Agents | arXiv 论文 | 面向硬件智能体的跨阶段设计收敛基准，评估智能体在预算约束下处理连续进度、延迟工具反馈及后端失败需回溯 RTL 等场景的能力 | https://arxiv.org/abs/2607.16632v1 |
+| VPR-Evolve: Multi-Agent-Driven Algorithm Evolution for FPGA Place and Route | arXiv 论文 | 多智能体驱动的 FPGA 布局布线算法演化框架，超越传统超参数调优的局限 | https://arxiv.org/abs/2607.24998v1 |
+| ChipVerilog: A Large-Scale OpenCores-Derived Benchmark for LLM-Based Verilog RTL Generation | arXiv 论文 | 基于 OpenCores IP/处理器核构建的描述到 Verilog 生成基准，含 64 个生成目标，覆盖实际 IP 的规模、层次与模块交互 | https://arxiv.org/abs/2607.13079v2 |
+| VClare: Resolving Imperfect Specifications in LLM-Based Verilog Generation | arXiv 论文 | 首次系统研究规格语义缺陷（模糊、矛盾、不完整）对 LLM 生成硬件设计质量的影响，提出自动修复框架 | https://arxiv.org/abs/2607.24854v1 |
+| Towards Reliable AI-Assisted Analog Design: Template-Constrained LLM Agents for SAR ADC Generation | arXiv 论文 | 提出端到端多步骤 LLM 智能体框架 ATLAS，通过模板约束生成可通过 SPICE 仿真的 SAR ADC 原理图 | https://arxiv.org/abs/2607.14165v1 |
+| ARES: Adaptive Reasoning-Effort Steering for PPA- and Cost-Aware RTL Optimization with LLM Agents | arXiv 论文 | 引入归一化美元成本指标，通过自适应推理力度控制实现 PPA 与成本感知的 RTL 优化 | https://arxiv.org/abs/2607.27879v1 |
+| shsridhar-beep/svgap | GitHub 项目 | 为 AI 生成的 RTL 提供证据画像（evidence profiles），补充功能 RTL 基准未覆盖的维度，处于 alpha 研究阶段 | https://github.com/shsridhar-beep/svgap |
+| ArchanaChetan07/llm-hdl-bench | GitHub 项目 | LLM RTL 生成基准：46 个 SystemVerilog 提示词 × 5 类任务，经 Yosys lint/综合 + Icarus Verilog 仿真双工具门控，支持 Docker 复现与 CI | https://github.com/ArchanaChetan07/llm-hdl-bench |
+| ZMYsamuel/ICCAD2026_Problem-A_Benchmark | GitHub 项目 | ICCAD 2026 Problem A（LLM 辅助网表探索与变换）社区提交存档 | https://github.com/ZMYsamuel/ICCAD2026_Problem-A_Benchmark |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AI Agent 设计出量产级芯片！（详细流程） | 知乎专栏 | 中文社区分享 AI Agent 设计量产级芯片的详细流程 | https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtX3Fkd09IenNacS1MQzlJMFR2RDQ3cnpjZm1Famg2UXFIVDhSSTdJRW9LMmxFUzh6M1ZyWUxacWFCQVNxWWx4WndGX0p1RU9SWm05ZUJaTEQ1eThR?oc=5 |
+| DAC 2026 AI+EDA 全景资源图 | 电子工程专辑 | DAC 2026 AI+EDA 领域全景资源梳理 | https://news.google.com/rss/articles/CBMiU0FVX3lxTE94cGJKWDRTbDlEQTB2N3J5U21hZEJ3M1RMSDVrX3kxenRvRVprZlpJOUtoemgzUDZWV0lIYWpNVEVyRlJuMlE4QVVaeF9qc3BMMERZ?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Kimi K3 48 小时自主芯片设计 | 媒体报道 | 报道 Kimi K3 展示 48 小时自主芯片设计能力，称 EDA 行业进入 AI Agent 时代 | https://news.google.com/rss/articles/CBMidkFVX3lxTE01bmlyMkJ1YkFVa3dvdEV3bElqRkw2M1VteV9tN1RjQjFKWDlnMXROLUUtb2ZkRTAwajhlRDQxRV9YQWk3UGMyWk5CbUJsTFA4aGtfajlLWVZTTWg5TXVJYjl0NlNDazF1QnpUcXE4bFN4RlYxNFE?oc=5 |
+| Synopsys, NVIDIA Advance Autonomous AI Agents for Chip Design and Engineering | 媒体报道 | EE Times Asia 报道 Synopsys 与 NVIDIA 在自主 AI Agent 芯片设计方面的进展 | https://news.google.com/rss/articles/CBMiowFBVV95cUxQWmM1cEd1YkdzTGx1UDNhOEVKbTZEclRMaHdyVmRQZ09LZWtMLXlXSFJZaDZfV05yWTVMTkpicE9MMnVCbkRNZmVKbC1FcnVQclBodHl1alhMczRLYTY5YktBRXVwTERJMEFfQWJGZHRYa3liQXFJbjU1NXA0Y1hiMDhoZElzcGpGdlVjZUlyeHhDOElnbl9NLThWMlA4TjJsR21n?oc=5 |
+| Cadence Expands AI Agents With AuraStack For PCB And Advanced Chip Packaging | 媒体报道 | Forbes 报道 Cadence 推出 AuraStack，扩展 AI Agent 至 PCB 与先进芯片封装领域 | https://news.google.com/rss/articles/CBMizgFBVV95cUxQN2RZdjJWSWtLZmU4Rmo1Sm5VSXZWLXRXNzVHQ3lCQUZ4VktVcHdVUmVRQ0pWa1ktOGRYTklURHpiZjc5T3BRVmlNSXFXNGZueTZfWmNZQm51ejY5a0wycEI4YmduYk1EdlZiSUpjbjdlMGNQOER0ZUJsVEcyZjdLZ21XVVp6dkRkTjV2M0dJU3MtWmZIZ2s0ZHNJcnVjelRIM1VqWmZRMVo3YkxoUFBHY1BlMW9QOHdGNThLN0xlWHdWY3QzOFBkWmNDblkxZw?oc=5 |
+| Synopsys, Cadence, and Siemens Take Agentic Chip Design Autonomous at DAC | 媒体报道 | The Futurum Group 报道三大 EDA 厂商在 DAC 上推进自主智能体芯片设计 | https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVlhoNHRNUW1OYkc3UU54SGpJX3JPZUJVR1RkRnl6MWVONkZfM3pfeUJoRHdfT3pvcU92anh1NmVPMEpFYVlnaDRpVHpxM0EzTGZ3YkZ0a2kyQTZULW85R1VPam9MTUJKQUhyWEF6TjBCXzF2eExoZENMMDhnbFh5LVZDZVJZWDd5bGl5TEN0N2draDhyelc5MHMzTWprWjl3ZXBlTlZXMnU4dw?oc=5 |
+| 芯和半导体携手联想集团在 DAC 2026 发布 EDA Agent 最新研发成果 | 媒体报道 | 芯和半导体与联想集团在 DAC 2026 联合发布 EDA Agent 研发成果 | https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pcjh6THk1Rko3MGhhaFBYbDdSazJITTFfMm85dnBsa0NOdDdxaUpZQkNTZ0xOOWt0eXJob19RaUh1NElncU1taHRvVEd4QllOdVE?oc=5 |
+| NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding | 媒体报道 | NVIDIA Developer 报道 Nemotron 3 Ultra 在智能体 RTL 编码任务上的准确率与效率表现 | https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTjRHTzBSZnFuV21LQVc2Um4yZXhRdllldkd4VGRRdFdRZXN1eU83SER4VzRkU0RRZkVZbVVqRFVrc2VBUnF2Wmc0cXlqNVBGUVRWcU1pRDRwR2VyNTUybzRvX2RXdFJ3a2dGN243cS00d09kNllXdkdPSEQzd0FPNy1iT0J5WmpQTFZEamZjY3J4b3hUSDFNamtqZU80WDdqX1lsUkFBeEFVbWdpSE5fWVlIQTlKaFlPMXYwSVFYaGU3RzQ?oc=5 |
+| DAC 2026 Live: AI Chip Design Agents Hit Production as Nobel Laureate Joins the Debate | 媒体报道 | Tech Times 报道 DAC 2026 上 AI 芯片设计智能体进入生产阶段及诺奖得主参与讨论 | https://news.google.com/rss/articles/CBMizgFBVV95cUxQdllUc3d5ZDlPLThGc1JxczR5NmhNbnFvN3JOYWFQNU1wTlpKYVcxbHMxN2JkVXhpaU1vUGpNZzFhMnVWc1lZQXNnYm10dHVSN3ZKaEZxNVZBSmZualM5bGlxVi1iRGZRUWozbHNMUjBBRjUyMFZmSDdVTEw3ZWxFME1ObXg0b3diSVpOZXZodWp1bElzTVZnXzhuUUEzMnhRWjR2clQxRkFjTC14MExlcjdtY2xEbzdTMEZVbTAxVGN1RzdpMHlOMk82bHRyZw?oc=5 |
+| Siemens Hooks Chip Design Agents to Physics Engines to Prevent Tapeout Errors | 媒体报道 | Tech Times 报道 Siemens 将芯片设计智能体接入物理引擎以防止流片错误 | https://news.google.com/rss/articles/CBMixAFBVV95cUxQcVFDTGJVNkpyOWpxaVBocXo3UmpEOTRuVWZFVG5DeEk2NjloczZ6c0s2RkxEaGRNWlc2VXZUUWRFR1VSTVhWZVlabDk1em4wRjBUZWJHZmxoVVNGeWU5M2EwVC0wODdyU2hmc3ZIYk9KbWd4OTl1U050N2c3RDhvR3pxUjZqaFhwOEN0UHhUcTg0d1hzWjFSUURFRVJqVTJvYmtoNWhkeW41NWpHSVVnR1NGeUJ4TUtUWTk4NHE0NXFzNGNQ?oc=5 |
+| Benchmarking Open-Source LLMs on Verilog RTL Generation Across 50 Tasks | 媒体报道 | Semiconductor Engineering 报道 NMIMS、IIT Roorkee、BITS Pilani 团队在 50 个任务上对开源 LLM 进行 Verilog RTL 生成基准测试 | https://news.google.com/rss/articles/CBMiygFBVV95cUxPTkVRanByR3Z0Z2tFaFF0TTNsLUFNYmVRQ1gxRkxreV9HRWVRYklWZnhNbVJZa0pPWmFqdHRfd3ZHNjVnSnBkZUVoQjBpUTRfbHE1QTBwMHFDdW1hZC1sb2JSU1hfaVNZT0NFa2xORDRTaVhSUW9LM193VjNNWnljdGVLVnphR3FqYlpnNVRXUjItZ3lrSFRXWExCUE5QdTNSYXAyYWYzT3A5dGRac0otRkdvOXNZSlQ0cldiV0xMNVItb095M1RkaWRR?oc=5 |

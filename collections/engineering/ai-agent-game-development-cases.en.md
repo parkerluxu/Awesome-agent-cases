@@ -290,3 +290,53 @@ This section is divided into two categories: `3 Tutorials / Cases` and `25 Proje
 |------|------|---------------|------|
 | NVIDIA ACE Game Agent SDK Beta | SDK | AI teammate SDK now in beta testing, integrated with Unreal Engine 5. | [新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTE92TFEtV3hScHktTnNYRVc4dDJYZllGdlFkZFp1S05EVDRBc2FjSnpHUGRSVndDMF85X0JUYmh1cXZnQzQ5WFQ2WDhqY3V3Y1hJUk5LN3B2Z3k2X0NIV05KWnhjOHdlR0NoTExZRHI0SlhncWxXLURTYjM4TlY4RVE?oc=5) |
 | vibecode.game | Platform | YGG launches vibecode.game, teams up with Minds by Animoca Brands for debut game jam. | [Crypto News Australia](https://news.google.com/rss/articles/CBMivwFBVV95cUxNXzlMLUk4cEtvWE51aEFxUmtzamZmZ2lDZkxQMzd4TlZLUFBMbXFfc3FaMDVMamF0eTVIdGhSMW1Uci01VjFENzdabXY3RmhiLS1qa1JvZE9MSjJGMlgxdUMyRFR5WEFmWEVvLVhUVGZHVFBjT3cwM3lNRVg5TTcwMVJZcG85dW1IZ2VZVW05UWZNcFY0a1MtNVBzdUhMVVhRYmQwRUY4MzVhSjMzZm1aRlVjR2pxc3VQQ1hYVEhvVQ?oc=5) |
+
+## Resource Update (2026-08-01)
+
+The following resources were discovered after the original article was published. They are grouped by content type and represent promising leads for further investigation.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| jame581/GodotPrompter | GitHub | Agentic skills framework for Godot 4.x. Domain-specific skills for AI coding agents (Claude Code, Copilot, Antigravity, Cursor). 502 stars. | [Link](https://github.com/jame581/GodotPrompter) |
+| hellokaton/game-copycat | GitHub | Agent Skill that clones casual web games from a single prompt — provably-correct levels, browser-verified, original-branded. Works with Claude Code, Codex & more. | [Link](https://github.com/hellokaton/game-copycat) |
+| Thepizzapie/BuildersGate | GitHub | Agentic game development framework. Run one session per seat: art, gameplay, narrative, QA, audio, tech all in one spot. | [Link](https://github.com/Thepizzapie/BuildersGate) |
+| masafykun/tokyo-zero | GitHub | Open-world game set in Tokyo, built almost entirely by an autonomous AI agent running unattended on a Mac mini (M1). Godot 4.7 / GDScript. | [Link](https://github.com/masafykun/tokyo-zero) |
+| gamedevpl/www.gamedev.pl | GitHub | Open-source AI game maker — describe a game, an AI agent builds it, everyone plays it in the browser. Watch an AI dev team ship in public. | [Link](https://github.com/gamedevpl/www.gamedev.pl) |
+| SummerEngine/summer-engine-agent | GitHub | Game engine for AI agents. Skills framework for game dev with easy install and setup. 38 stars. | [Link](https://github.com/SummerEngine/summer-engine-agent) |
+| kondotakuya65/AI-Game-Generator-Agent | GitHub | LangGraph agent: NL prompt → GameSpec → playable HTML/Canvas game (clarify → design → code → test → deploy). | [Link](https://github.com/kondotakuya65/AI-Game-Generator-Agent) |
+| agentodyssey/agentodyssey | GitHub | Open-ended long-horizon text game generation for test-time continual learning agents. 47 stars. | [Link](https://github.com/agentodyssey/agentodyssey) |
+| satter0827/werewolf-agent | GitHub | Deterministic Werewolf game engine for LLM agents, with Python SDK, HTTP API, Streamlit UI, and reproducible local quality gates. | [Link](https://github.com/satter0827/werewolf-agent) |
+| Shuhan0001/llm-game-code-reliability-study | GitHub | Evaluating AI-assisted game code generation through iterative HTML game development — a versioned study on LLM reliability, spatial reasoning, and constraint robustness. | [Link](https://github.com/Shuhan0001/llm-game-code-reliability-study) |
+| Citronetic/swipi-engine | GitHub | Agentic framework for end-to-end web-game creation from a prompt — Claude-powered reimagining of OpenGame, delivered as a Claude Code plugin + TypeScript library + REST API. | [Link](https://github.com/Citronetic/swipi-engine) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games | arXiv | First social deduction game agent that integrates multimodal information (beyond text-only), addressing reasoning, deception, and collaboration in games like Werewolf. | [Link](https://arxiv.org/abs/2607.26393v1) |
+| PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning | arXiv | Addresses long-horizon tasks requiring sustained perception, reasoning, and exploration. Evaluated on continual learning benchmarks such as ARC-AGI-3. | [Link](https://arxiv.org/abs/2607.20064v2) |
+| CAST: Game Solvers as Turn-Level Teachers for LLM Agents | arXiv | Uses game solver state values as dense process signals to provide turn-level credit for training LLM agents in long-horizon games. | [Link](https://arxiv.org/abs/2607.25308v1) |
+| Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA | arXiv | Benchmarks six recent VLMs on anomaly detection in an agent-driven game QA pipeline, focusing on geometry clipping detection. | [Link](https://arxiv.org/abs/2607.25921v1) |
+| Spatial Reasoning in LLM Game Agents: Impact of Causal Context and Multi-Step Planning | arXiv | Examines spatial reasoning limitations in LLM game agents and evaluates causal prompt augmentation and multi-step planning. Introduces a GVGAI benchmark with three custom games. | [Link](https://arxiv.org/abs/2607.22732v1) |
+| Can Agents Deceive? Evaluating Reasoning and Deception in ParliamentBench using a Social Deduction Game | arXiv | Open-source benchmark framework based on Secret Hitler to evaluate LLMs in scenarios requiring deception, persuasion, and reasoning under incomplete information. | [Link](https://arxiv.org/abs/2607.28146v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| An iOS Developer Vibe-Coded A "Capybara Food Delivery" Game Using Claude Code | Wccftech | 27,000 lines of programming made entirely by AI; won $25,000 in prize money. | [Link](https://news.google.com/rss/articles/CBMijwFBVV95cUxPSUpyd3JKRnNDVm9mdUgtY043dXdZb2pBUFV3dkEwYktKVGRHdXVFZHUzYWRSVm9yY3dXUTR1T1cxNGl2OG9NZ3RCTG51UWNUWHJrNWR2T3R4Y291cDlPUUV2V05DQVlVY1FOZzB2YmdkYjZWeVIyZlhBWEdoZC15V0xJRldzem84dmtQXzM3RdIBlAFBVV95cUxPVGUtblpoQ3V6cGFpRmRTdUJYb0FWZjFkc09jQkpjTnBWNEFTaHJ5M2NjX2k0ajEtaEUtelFzbXFkRG5Cd3BQSWk2aTVFcUVZNnV3RHBVelJaQmNfbUl6NWRzMkFJRmhfaGFLTEtMY3MxVmhZYXFpTnZ3aW01WUFENXR6YmZqZTVWY0U4dDA0VWp0Z2dw?oc=5) |
+| Claude Opus 5发布两天后出现三段提示词案例，可生成浏览器端FPS Demo | 디지털투데이 | Three prompt cases generating browser-based FPS demos within two days of Claude Opus 5 release. | [Link](https://news.google.com/rss/articles/CBMixAFBVV95cUxONElZcXNFRE1fX0VtYTJMdFBiMHR3TzZORDkwSmNoLUVqRk5SSWx3UkZIZjAzRmZGdmZqMnJSaDV4dVNkVWltaVNCM2dUXzlIVGpvbXpYSEI2UlJwSDlFTUU0QUJ2TTM0NEN0YjlLbnhpX1d1YWxfX2p4aFVLVVdNQ3ZiQmZPbWtENkRkN0s0R00tZzBqbWJzanJPSUExZk1PMFl0NnpEYzk2QUtxUDZUYUNxQ3VmaTg5akNfTHBrRi1RUUxB?oc=5) |
+| GPT 5.6 Sol 操控 Blender 有多强？社区案例、MCP 安装与真实实测 | YouTube | Community cases, MCP installation, and real-world testing of GPT 5.6 Sol controlling Blender. | [Link](https://news.google.com/rss/articles/CBMiVkFVX3lxTE84SVJ4dDI0X3NnOFhxOVZmYkZjMXRnT1JZN1lxNlpWMTNPd0NsOFJ0VnVfX1ZPUEtZSi1hdVZmZEtabE81aHA3alk1aDljQU9tMzB6cUdn?oc=5) |
+| Grok Build Mode 实测：一句话生成 App，登录、数据库、GitHub 全打通 | YouTube | Real-world test of Grok Build Mode generating an app from a single sentence, including login, database, and GitHub integration. | [Link](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GdF9wS2owU3dOUVpKQnMyNEZ0U0lXQlRYbWF5eEZXblJmLXlxWm1KSmh0akMzQVNPSHl1M1UwYXpjUDNyQ0tBeWRQHlZsQ041cmlfcUpR?oc=5) |
+| vibe coding 做复杂应用靠谱吗？ 我用一个真实项目试试 | 稀土掘金 | Real-world project testing whether vibe coding is reliable for complex applications. | [Link](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSbDZraXFpZ0JKck02TWhPTm1CZ29HQndSMjBoTHJqWTZQVlp6S0JVUEZYNmZUTWlYejQyZFZFWURCUTl3bEhsdV9UMzNsQ19iSTNLeg?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| MengTo/Skills | GitHub | Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents. | [Link](https://news.google.com/rss/articles/CBMiR0FVX3lxTFBWVHdpOHp5SVlHUkY1bUpMS0JoV1BQSjJIaWpNU3ItaGxSc21BVTk3YWRWVmI0blRSS3hxd05ldjdQN2w4cktz?oc=5) |
+| Meta's Pocket app | Gulf News | Meta's new app that lets AI build games from your ideas without coding. | [Link](https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzhxWE91eE5IWXd0NTJkUmJjaWNsQVlMT1lmRE9JTjBsdzRDX1pNMkhUZ0taeHlMcE5SZFRCMTZrbEFaNnBXTF9HZTFwTVJNdHhJODlwMzdBMDQwT0trZGhxWjUtbTA3c19ZWG1nNVV3c09wN2IxWFFuY3Q5Q2M4LThQdm1kaHF2QnN2UUpUV1h0MEtVRDY0WHUzX0xXN1dVQmN6emxmU2s2MGdKSGI3eVROUjBfS19Pb2ozbmFB0gHQAUFVX3lxTE5RUzNBQlVlZXlwRmxRQUNjU0Q5bFpMUDEySnRGc01sZGk5T05pdGZXVVRDMUJ2V3pmem8zT2tqZG1DRzlsS2V2U19DOFJnVWJXRlcyejhOcko4TElURGJzcEdGek9nWEM4S1NOR2FLOVhqNXAyV2RWNDk1NmZKeXBlV3VqdFNwWUdWMlJTeTdDSDNzTWM3enRvb1Ftb3M2c291TGlIOWNKeGxObXlqc2duYmhVN0h2d0JCdjF4WGlOUVZqYnJ5MXV1MU1Ma2NTV0I?oc=5) |
+| NVIDIA Agentic and Physical AI at SIGGRAPH | NVIDIA Blog | NVIDIA advances graphics and simulation with agentic and physical AI announced at SIGGRAPH. | [Link](https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5OFAwb0RQNlFtQ3RCY0Q1ZFlNQjhnZnNGUTVJU2lxdWtpY083SmQzM1E5eTE3YWVmRnNtMnlWN1ZkREx5b1U2T3BBYTRTVmVIVnpwaGxnWXlhOXJCMUE?oc=5) |
+| RUC-NLPIR/Awesome-Long-Horizon-Agents | GitHub | Roadmap of long-horizon agents — curated resource list. | [Link](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11OTJ5VGNwb0ZmUHdnVXFsLVp0RGE5VkNlRlVLODFPUnhPRTdJVUZSRHdrS3BmSTZWVVpWLXVjdUk0eVQzYjktVDZyVWRhVUduRVJoX0RlYlV3UnIzRWVRcjN0bGUxeE0?oc=5) |

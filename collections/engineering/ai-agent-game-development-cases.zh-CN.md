@@ -303,3 +303,54 @@
 |------|------|-----------|------|
 | 英伟达 ACE Game Agent SDK | 产品 | 无需旗舰显卡即可体验 AI 队友的 SDK，已接入虚幻引擎 5，开启 Beta 测试 | [新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTE92TFEtV3hScHktTnNYRVc4dDJYZllGdlFkZFp1S05EVDRBc2FjSnpHUGRSVndDMF85X0JUYmh1cXZnQzQ5WFQ2WDhqY3V3Y1hJUk5LN3B2Z3k2X0NIV05KWnhjOHdlR0NoTExZRHI0SlhncWxXLURTYjM4TlY4RVE?oc=5) |
 | vibecode.game | 产品 | YGG 推出的 Vibe Coding 游戏平台，与 Minds by Animoca Brands 合作举办首届 Game Jam | [Crypto News Australia](https://news.google.com/rss/articles/CBMivwFBVV95cUxNXzlMLUk4cEtvWE51aEFxUmtzamZmZ2lDZkxQMzd4TlZLUFBMbXFfc3FaMDVMamF0eTVIdGhSMW1Uci01VjFENzdabXY3RmhiLS1qa1JvZE9MSjJGMlgxdUMyRFR5WEFmWEVvLVhUVGZHVFBjT3cwM3lNRVg5TTcwMVJZcG85dW1IZ2VZVW05UWZNcFY0a1MtNVBzdUhMVVhRYmQwRUY4MzVhSjMzZm1aRlVjR2pxc3VQQ1hYVEhvVQ?oc=5) |
+
+## 资料更新（2026-08-01）
+
+以下是 2026 年 7 月下旬至 8 月初新增的 AI Agent 游戏开发相关资料线索，按内容类型分组，供读者参考。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| --- | --- | --- | --- |
+| jame581/GodotPrompter | GitHub 项目 | Godot 4.x 的 Agentic skills 框架，为 Claude Code、Copilot、Antigravity、Cursor 等 AI 编码代理提供领域专用技能（502 stars） | https://github.com/jame581/GodotPrompter |
+| hellokaton/game-copycat | GitHub 项目 | Agent Skill，可从单条提示词克隆休闲网页游戏，具备可验证关卡与浏览器验证，支持 Claude Code、Codex 等 | https://github.com/hellokaton/game-copycat |
+| Thepizzapie/BuildersGate | GitHub 项目 | 面向 AI Agent 的游戏开发工作流，单次会话内整合美术、玩法、叙事、QA、音频、技术等多角色代理 | https://github.com/Thepizzapie/BuildersGate |
+| masafykun/tokyo-zero | GitHub 项目 | 以东京为背景的开放世界游戏，几乎完全由自主 AI 代理在 Mac mini (M1) 上无人值守开发，使用 Godot 4.7 / GDScript | https://github.com/masafykun/tokyo-zero |
+| gamedevpl/www.gamedev.pl | GitHub 项目 | 开源 AI 游戏制作平台，描述游戏后由 AI 代理构建并在浏览器中运行，公开 AI 开发团队的开发过程 | https://github.com/gamedevpl/www.gamedev.pl |
+| SummerEngine/summer-engine-agent | GitHub 项目 | 面向 AI 代理的游戏引擎，提供游戏开发技能框架，安装简便 | https://github.com/SummerEngine/summer-engine-agent |
+| kondotakuya65/AI-Game-Generator-Agent | GitHub 项目 | LangGraph 代理：自然语言提示 → GameSpec → 可玩 HTML/Canvas 游戏（澄清 → 设计 → 编码 → 测试 → 部署） | https://github.com/kondotakuya65/AI-Game-Generator-Agent |
+| agentodyssey/agentodyssey | GitHub 项目 | 面向测试时持续学习代理的开放式长时程文本游戏生成框架（47 stars） | https://github.com/agentodyssey/agentodyssey |
+| satter0827/werewolf-agent | GitHub 项目 | 确定性狼人杀游戏引擎，面向 LLM 代理，提供 Python SDK、HTTP API、Streamlit UI 及可复现的本地质量门禁 | https://github.com/satter0827/werewolf-agent |
+| Citronetic/swipi-engine | GitHub 项目 | 端到端网页游戏创建的 Agentic 框架，基于 Claude，提供 Claude Code 插件、TypeScript 库及 REST API | https://github.com/Citronetic/swipi-engine |
+| Shuhan0001/llm-game-code-reliability-study | GitHub 项目 | 通过迭代式 HTML 游戏开发评估 AI 辅助游戏代码生成的可靠性、空间推理与约束鲁棒性 | https://github.com/Shuhan0001/llm-game-code-reliability-study |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| --- | --- | --- | --- |
+| CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games | arXiv 论文 | 首个集成多模态信息的社交推理游戏代理，用于狼人杀等需要推理、欺骗与协作的场景 | https://arxiv.org/abs/2607.26393v1 |
+| PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning | arXiv 论文 | 通过程序化记忆机制提升 LLM 代理在长时程任务（如 ARC-AGI-3）中的持续感知、推理与探索能力 | https://arxiv.org/abs/2607.20064v2 |
+| CAST: Game Solvers as Turn-Level Teachers for LLM Agents | arXiv 论文 | 利用游戏求解器的状态价值变化作为回合级奖励信号，为 LLM 代理在长时程游戏中提供更密集的反馈 | https://arxiv.org/abs/2607.25308v1 |
+| Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA | arXiv 论文 | 在代理驱动的游戏 QA 流程中评估 6 种 VLM 对几何裁剪异常检测的表现，无需人工标注 | https://arxiv.org/abs/2607.25921v1 |
+| Spatial Reasoning in LLM Game Agents: Impact of Causal Context and Multi-Step Planning | arXiv 论文 | 基于 Qwen3 模型，研究因果提示增强与多步规划对 LLM 游戏代理空间推理及胜率的影响，附带 GVGAI 基准 | https://arxiv.org/abs/2607.22732v1 |
+| Can Agents Deceive? Evaluating Reasoning and Deception in ParliamentBench using a Social Deduction Game | arXiv 论文 | 基于 Secret Hitler 游戏的开源基准框架 ParliamentBench，评估 LLM 在欺骗、说服与信息不完全推理方面的能力 | https://arxiv.org/abs/2607.28146v1 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| --- | --- | --- | --- |
+| 用 Claude Code 开发“水豚外卖”游戏并获奖 | 媒体报道 | iOS 开发者使用 Claude Code 以 vibe coding 方式开发“Capybara Food Delivery”游戏，约 27,000 行代码全部由 AI 生成，赢得 $25,000 奖金 | https://news.google.com/rss/articles/CBMijwFBVV95cUxPSUpyd3JKRnNDVm9mdUgtY043dXdZb2pBUFV3dkEwYktKVGRHdXVFZHUzYWRSVm9yY3dXUTR1T1cxNGl2OG9NZ3RCTG51UWNUWHJrNWR2T3R4Y291cDlPUUV2V05DQVlVY1FOZzB2YmdkYjZWeVIyZlhBWEdoZC15V0xJRldzem84dmtQXzM3RdIBlAFBVV95cUxPVGUtblpoQ3V6cGFpRmRTdUJYb0FWZjFkc09jQkpjTnBWNEFTaHJ5M2NjX2k0ajEtaEUtelFzbXFkRG5Cd3BQSWk2aTVFcUVZNnV3RHBVelJaQmNfbUl6NWRzMkFJRmhfaGFLTEtMY3MxVmhZYXFpTnZ3aW01WUFENXR6YmZqZTVWY0U4dDA0VWp0Z2dw?oc=5 |
+| Claude Opus 5 生成浏览器端 FPS Demo | 媒体报道 | Claude Opus 5 发布两天后出现三段提示词案例，可生成浏览器端 FPS Demo | https://news.google.com/rss/articles/CBMixAFBVV95cUxONElZcXNFRE1fX0VtYTJMdFBiMHR3TzZORDkwSmNoLUVqRk5SSWx3UkZIZjAzRmZGdmZqMnJSaDV4dVNkVWltaVNCM2dUXzlIVGpvbXpYSEI2UlJwSDlFTUU0QUJ2TTM0NEN0YjlLbnhpX1d1YWxfX2p4aFVLVVdNQ3ZiQmZPbWtENkRkN0s0R00tZzBqbWJzanJPSUExZk1PMFl0NnpEYzk2QUtxUDZUYUNxQ3VmaTg5akNfTHBrRi1RUUxB?oc=5 |
+| Meta Pocket 应用：AI 根据创意构建游戏 | 媒体报道 | Meta 新推出的 Pocket 应用可让 AI 根据用户创意直接构建游戏，无需编码 | https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzhxWE91eE5IWXd0NTJkUmJjaWNsQVlMT1lmRE9JTjBsdzRDX1pNMkhUZ0taeHlMcE5SZFRCMTZrbEFaNnBXTF9HZTFwTVJNdHhJODlwMzdBMDQwT0trZGhxWjUtbTA3c19ZWG1nNVV3c09wN2IxWFFuY3Q5Q2M4LThQdm1kaHF2QnN2UUpUV1h0MEtVRDY0WHUzX0xXN1dVQmN6emxmU2s2MGdKSGI3eVROUjBfS19Pb2ozbmFB0gHQAUFVX3lxTE5RUzNBQlVlZXlwRmxRQUNjU0Q5bFpMUDEySnRGc01sZGk5T05pdGZXVVRDMUJ2V3pmem8zT2tqZG1DRzlsS2V2U19DOFJnVWJXRlcyejhOcko4TElURGJzcEdGek9nWEM4S1NOR2FLOVhqNXAyV2RWNDk1NmZKeXBlV3VqdFNwWUdWMlJTeTdDSDNzTWM3enRvb1Ftb3M2c291TGlIOWNKeGxObXlqc2duYmhVN0h2d0JCdjF4WGlOUVZqYnJ5MXV1MU1Ma2NTV0I?oc=5 |
+| NVIDIA SIGGRAPH：Agentic 与 Physical AI 推进图形与仿真 | 媒体报道 | NVIDIA 在 SIGGRAPH 上展示 Agentic AI 与 Physical AI 在图形和仿真领域的最新进展 | https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5OFAwb0RQNlFtQ3RCY0Q1ZFlNQjhnZnNGUTVJU2lxdWtpY083SmQzM1E5eTE3YWVmRnNtMnlWN1ZkREx5b1U2T3BBYTRTVmVIVnpwaGxnWXlhOXJCMUE?oc=5 |
+| GPT 5.6 Sol 操控 Blender 实测 | YouTube 视频 | 社区案例展示 GPT 5.6 Sol 通过 MCP 操控 Blender 的能力，含安装教程与真实测试 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE84SVJ4dDI0X3NnOFhxOVZmYkZjMXRnT1JZN1lxNlpWMTNPd0NsOFJ0VnVfX1ZPUEtZSi1hdVZmZEtabE81aHA3alk1aDljQU9tMzB6cUdn?oc=5 |
+| vibe coding 做复杂应用靠谱吗？ | 稀土掘金 | 作者使用 vibe coding 方式开发一个真实复杂应用的经验分享 | https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSbDZraXFpZ0JKck02TWhPTm1CZ29HQndSMjBoTHJqWTZQVlp6S0JVUEZYNmZUTWlYejQyZFZFWURCUTl3bEhsdV9UMzNsQ19iSTNLeg?oc=5 |
+| Grok Build Mode 实测 | YouTube 视频 | 一句话生成 App，登录、数据库、GitHub 全打通的实际测试 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GdF9wS2owU3dOUVpKQnMyNEZ0U0lXQlRYbWF5eEZXblJmLXlxWm1KSmh0akMzQVNPSHl1M1UwYXpjUDNyQ0tBeWRQHbZsQ041cmlfcUpR?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| --- | --- | --- | --- |
+| MengTo/Skills | GitHub 项目 | 面向设计师和构建者的 Agent skills 集合，支持 Codex、Claude、Cursor 等 AI 编码代理 | https://news.google.com/rss/articles/CBMiR0FVX3lxTFBWVHdpOHp5SVlHUkY1bUpMS0JoV1BQSjJIaWpNU3ItaGxSc21BVTk3YWRWVmI0blRSS3hxd05ldjdQN2w4cktz?oc=5 |
+| RUC-NLPIR/Awesome-Long-Horizon-Agents | GitHub 资源列表 | 长时程代理的路线图与资源汇总 | https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11OTJ5VGNwb0ZmUHdnVXFsLVp0RGE5VkNlRlVLODFPUnhPRTdJVUZSRHdrS3BmSTZWVVpWLXVjdUk0eVQzYjktVDZyVWRhVUduRVJoX0RlYlV3UnIzRWVRcjN0bGUxeE0?oc=5 |
+| OpenAI ARC-AGI-3 得分提升方案 | OpenAI 官方博客 | 通过启用两个 API 设置（保留推理与启用压缩），将 GPT-5.6 在 ARC-AGI-3 上的得分提升三倍 | https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores |
