@@ -219,3 +219,48 @@ The "Resource Update" blocks below are appended automatically by the script from
 | Advancing agentic AI for productivity and intelligent automation on IBM Z | IBM | IBM's approach to agentic AI for productivity and intelligent automation on mainframe systems | [IBM](https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHlnVkpVZXZwdjJEUFp0bmJtODlwSDFiWGw5d3V2NG5PcWRGMlBreW14Wm1naWYtbVlVRjVDbzBDN3ZURHFNbm9nbmZLaWdMYzlGZjFOWlBWX0d2QVgxRm8waFlybnpDT3A0Q1BRZm1RS1ZrSXBRRjBzM05HeEVfZ1QyYmhFVzNMOVRuSWpIcXFVN0VnSmVxd0dPSWlfVmtJWEpoMlhHcTNISGpjRG5kTA) |
 | The Agentic Stack: Discover the Gemini Enterprise Agent Platform | DEV Community | Overview of Google's Gemini Enterprise Agent Platform | [DEV Community](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVVpTMHRlbkk5M2xuVFJISnVqUlo1SjVZMFBOSGZCSkxtMkxxRG1OcjVSNGpLTWhCcVZmM3pmVXdjMWlhWFFQSFdYaEplYjVZZndNbWZyTGVhTXo1UV9GMUFnbjBQSjlnZW9HMEJMUzhHWVFBX0V4MFlUTkxKX1JNMmdyemZSa1ljVThQdFU2N2IxLUlxZVlrUGZnYkNSMmlTdVZCTHRYVy1Qa3JjcFRrbnBXUFpEaG1h) |
 | Natively — Free open-source AI meeting assistant | GitHub | Open-source alternative to Cluely, Otter, Granola, Fireflies with real-time transcription and AI meeting notes | [GitHub](https://news.google.com/rss/articles/CBMieEFVX3lxTE9sa1FQRDJCX0RLd2habWZwazZiaTB2LWRUZTN3ZGFJUFVFcnFNMk9iOGdNWFB1VS1tdTZfenExdHFQcTlGWDlvSGVmcEpLWVUyNnljeEl0Rm1JWmJWdC1TLWRBMTVjYUdqMXVxd0VmUVVjM2tHTWZUaw) |
+
+## Resource Update (2026-08-02)
+
+The following resources were discovered after the original article was published. They are provided as leads for further investigation.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OfficeAgentEnv | GitHub project | Real-world OpenEnv environment simulating an AI-powered office assistant for email triage and meeting scheduling; designed to evaluate multi-step reasoning, decision-making, and task automation in agents. | https://github.com/Abhaykumarbadam/OfficeAgentEnv |
+| OfficeCLI (iOfficeAI) | GitHub project | Open-source, single-binary Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files; no Office installation required. | https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuWmNPWTVhVHdPNi13MDB5dHBXcWItTnU1TWNLR25hRmlyNnZGWTVqQV9oTmtZLVh6aFUySTl5anZnYTJCdTZaRXhGbEM5S3M?oc=5 |
+| CAT Agent Skills | Microsoft Open Source | Microsoft open-source agent skills project (details to be explored). | https://news.google.com/rss/articles/CBMieEFVX3lxTFBVTU90em5yQk5HclZmTEtMeVRHRnpJMnRJQUViZ2dJQm5kNjRxUzZHc2NaY2ZIN3Vab3BOMDZKM2VQRWxzYWlnNTFqOXA3VTl5QlpxdFVvV05wd0RhMjd0U2ZQQmhibXhCUmlwbTNvMGQ5NXBxZy13RA?oc=5 |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| FinanceHarness: Autonomous Financial Deep Research Framework | arXiv paper (2026-07-30) | Layered harness for financial deep research agents, paired with a verifiable, point-in-time benchmark; addresses the gap where general-purpose deep research systems fail on financial analysis. | https://arxiv.org/abs/2607.27853v1 |
+| Agentic ERP: Multi-Agent LLM Architecture for Autonomous Enterprise Resource Planning | arXiv paper (2026-07-19) | Expert-system architecture combining role-aligned LLM agents with a risk-tiered human-in-the-loop harness and graph-based coordination for ERP decision-making. | https://arxiv.org/abs/2607.17331v1 |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| 桌面Agent实战指南：17款工具盘点、上手教程与自定义模型配置 | Tutorial (稀土掘金, 2026-07-23) | Hands-on guide covering 17 desktop agent tools, getting-started tutorials, and custom model configuration. | https://news.google.com/rss/articles/CBMiVEFVX3lxTE1valB3M0FlMDd4c1doWEVVbjVhQ09XQ1VLOTdwM1NLNThqd0hkMkRpSUVsQWEzUW9SaHFKcnItMHFJdGZRY0xveTh5OVBpM3RTZVFzbQ?oc=5 |
+| 实测｜3个案例跑通TRAE Work高阶工作流：从Prompt到工作流，我的AI办公终于升级了 | Tutorial (知乎专栏, 2026-07-26) | Three worked examples of TRAE Work advanced workflows, from prompt to workflow, for AI office automation. | https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EbXZGS0FYUWpnREluazZsWGRaMGtERlkzaUl5VlF0WUVKMmNfamFMSlFvSW9NNGJPM1RrX1FBbnNqQjRsUmZCRVFFM09nWFdLVGY3Y1dCM0FKa1Bh?oc=5 |
+| AI agents with $3,000 budget flunk open-ended AI research assignment | Media test (R&D World, 2026-07-31) | Report on AI agent performance limits in open-ended research tasks under budget constraints. | https://news.google.com/rss/articles/CBMingFBVV95cUxNNmc1M1dON1NRNnBoRUhyWHpyYS1nTURvZlJZTDhUTlhVcWtyRFZWQTRkSm1uMXRESDlpYzRCMGNvYnV2SEc3TllaMFVEQ2FRWkt3NGhJTmJhNXpIRG9JTnl4ckhyS29VU0tSbU5feXFEMkREc2thMnhaX0FWLWNFcXdIMllZRl9mOElaclVHV3F3WWhfbWg4V29MVEhRZw?oc=5 |
+| Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs | Media test (TechCrunch, 2026-07-17) | Hands-on evaluation of Vertu's executive AI agent offering. | https://news.google.com/rss/articles/CBMitwFBVV95cUxQTnUtSFFraUNONDhSemRxQzJpTXhkMlVleHpEN0N0Mll5TmZqUVJZVGNraWFVUTZzWVZ5NDhOZjJILV9yLUg1cEM4UFN3Z1pRcmVxNVZXakI1Tk0teDhDT3FnWTdpaktPR05SNlUzSEstVGdPeWFmdVE3VE9ybFlmQ3lScC1sbS1VR2x4UnRtbnpVd3hCbWg3a2ZHcTVweTdwdlhNeDNuTGRNdkx1bm5QYllNVGRNRzQ?oc=5 |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Gemini Spark | Product (Google, 2026-07-29) | Persistent 24/7 personal AI agent expanded across Google's product ecosystem; launched in India. | https://news.google.com/rss/articles/CBMiugFBVV95cUxORmVHV2JlTjJDaWUwVnF6b3BSNzN1OWJXRXhsdjNxWnJ3QzVYTTM1WU9rWXBrTE9PQ2hKbXVoeUxjNUNNQ3JzdEZzUHBPajJDSmQzaXlEMGhock1rUmwyRENWNXBPQVhhbEQ5TWN3bnJ6YTRFZUVPcGd2bWljMzcwYWJ1bGtVM3VXOEsxeWJ0ODBGbURXYURKYWV0RDkyd2E1QnN0V0YyTVJ5MFVQOHNZZkZnZTlaNFhfUHc?oc=5 |
+| Perplexity Personal Computer | Product (The Tech Buzz, 2026-07-28) | Perplexity brings AI agents to Windows with a "Personal Computer" offering. | https://news.google.com/rss/articles/CBMimgFBVV95cUxQU05kNFlRRHliVXplQVFvWGE1R1dIQi1yTEZZWkotaTdNTm5fTHpjTWdtSlJoSVQ0b2szOHF2al9FR1lRYlNja2MwbEFjMUluT3ZaOW9JQ29GWWxQZGwxSkNuNVIzdGJLX3B2RmZNeGVZMGVzbUlVUjBIVjBUQXI4MmNaMVZ3NU1Eb2tscW95Y2thVG5FWUZTejVR?oc=5 |
+| Nano Work (Zhou Hongyi) | Product (finance.biggo.com, 2026-07-28) | Office AI agent launched by Zhou Hongyi; offering 100 million tokens to help 1,000 small businesses. | https://news.google.com/rss/articles/CBMidkFVX3lxTE1aR2pVLXp5SW5wd2ZLMUNGSTYzUFdtbGYzSnFIZU1qcEc2NGtqR1YxTGNreGlNM0k4UC1NTl9RS2NqVFlpNnNPbGlRNmhZT1pTQnBQNFpEdUY5QnEyeTE0elZWRlhtLVBnMUs0LWlidF9RQVdGakE?oc=5 |
+| Kimi Work | Product (CSDN, 2026-07-30) | Desktop agent with capabilities, scenarios, and positioning analysis published July 2026. | https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ISWY0emU4RkhNa1dWbU9VdGxfMjVLcEZTNHJzOUwtc1ZPcFVld21lN1E3UERuVXpIOTBOeUk5SDd0LWdacmxOcm9NVG5nZzRxdmdKemN0TmdmRnRhNGc?oc=5 |
+| 泛微·数智大脑 Xiaoe.AI | Product (财富号, 2026-07-16) | Enterprise AI agent providing 7×24 intelligent office assistant for every employee. | https://news.google.com/rss/articles/CBMia0FVX3lxTE8yTGJrcFFtMm44eXlhbXM5RmlWd3YweGZ4Z3VoRnNfSnY1WUU5a3RDWVBucGFVMFctc1A1S1UwWDN0RHB5ZFBfQTBsRXhtbUgtUDhhekpXT0FnVlRsb3JES0JzWWNkSWhjc1dV?oc=5 |
+| 八爪鱼RPA | Product (rpa.bazhuayu.com) | RPA+AI platform for e-commerce process automation; released "AI写流程3.0" with dynamic process generation agents. | https://rpa.bazhuayu.com/ |
+| 有道AI耳机 | Product (163.com, 2026-07-19) | AI earbuds with simultaneous interpretation that turn meeting records into a "queryable agent." | https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZNFdXaG41WmJFTHRXc2FDWXpJc1BaYWZzeEFHVElBM19sUDBTVUM4LXNYMWFwQzB5VXFfR2NjLW9HMThyTXNTcVhzOTVmektoOHNWbDVwNkFyQXRqcTVxWkdR?oc=5 |
+| Gemini Enterprise | Product (Sohu, 2026-07-20) | Google upgraded Gemini Enterprise with refreshed UI and rebuilt Workspace connectors to strengthen enterprise AI agent capabilities. | https://news.google.com/rss/articles/CBMijAFBVV95cUxPSTBDV2dLMFhfdWVkMjAzZlNRTE9KU0YxLXV6dFVYNDlrVW9CQVFzazNsdzBfX2VpWEpVQ3dVbzY4VUtSSkNMeHgyOVB0R0tNUkdPYURUVnc0YS1idFdLZUJxQXBaRmk4NU9mVlIyOGFDU2tPSGZvc3hrOXJiOUFPWVd3Vm9RX0NSbTdqNw?oc=5 |
+| ChatGPT Work | Product (latent.space, 2026-07-28) | OpenAI's product engineering lead discusses building ChatGPT Work: Sites, OpenClaw, Memory, Subagents, Finance, No-Code. | https://www.latent.space/p/chatgpt-work |
+| avatarin retail agent (GPT-Realtime) | Product case (OpenAI, 2026-07-30) | avatarin uses OpenAI's GPT-Realtime for a 24/7 multilingual retail agent at Yamada Denki; 30,000 users in two weeks, 92% positive survey responses. | https://openai.com/index/avatarin |
+| GitHub Agentic Workflows | Tool (GitHub Blog, 2026-07-08) | Automating cross-repo documentation with GitHub Agentic Workflows. | https://news.google.com/rss/articles/CBMisAFBVV95cUxOX0ZUSmt2TV8zQ21KcHV6LWJlUUtGYms0OGNfRU1CRUd0YmZVTkh0SEdYUGxEd3Y5WXdFMVNUQzNqOC1wVEN2LTZXTWp5U0ZoVW9DZTJ0QW9BSGJkNnJ3UndJLV9keVFSajRxTEZjMUYyZjVyRjRSeGFvcFVFWjhEczFITGptdWJZOWFobXJrQXFzQ3ZmUXREcy1BaDlWbC1uUmtxMmVRVzdKSTR4eWE0YQ?oc=5 |
+| Built Technologies document intelligence on AWS | Product case (AWS, 2026-07-15) | AI-powered document intelligence solution on AWS powering agents across real estate finance. | https://news.google.com/rss/articles/CBMi-wFBVV95cUxOa3R4OUF6WlF4Uk00c2VRTUJiT1JzTFp6a09ZRUdlWU5fSDJYQkEzYUxUUmRZQWJrX2pJNEF6UFh1dDBNXzBUak00ZmxSbzZMNTVpNVVweDRzTEVVS0hna0tuLUNEeXRGdnRFa09PbkpMaVdWbFNjRzlYM2FiZHpZdXRTakhmLXUwVWFERHBiT0RvdmZ6QjlVRklJbHJFNy1oNnMtUHFUblE4YWV6TkU3S1B2X25OSERlNkRDWVZSMEpaY2dpcEpaMzRtRnFQbndfenZFckRKa29RLU5vN0E3YnlLSmJKbFVJYTlVQVAtc1VQWFd2MnZfMXJuYw?oc=5 |

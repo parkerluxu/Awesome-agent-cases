@@ -221,3 +221,59 @@
 | 英伟达押注智能体AI，加速生物科技领域科学发现 | 媒体实测 | 英伟达押注 Agentic AI 加速生物科技领域科学发现 | [thepaper.cn](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Od2dPV2VZd2F4VlpqeWtLak56VDdpUlJsS1pZZVFTVXV5NGdvRnhWY043VWo5Yllhcmt3aFRaMEI0OExrbkpoVjlNVmlCLUJScWlGNDFHWHNpUXlzVmYzZQ) |
 | OpenAI与Google DeepMind报告：AI Agent改变工作方式，拓展科研与工作边界 | 媒体实测 | OpenAI 与 Google DeepMind 报告：AI Agent 改变工作方式，拓展科研与工作边界 | [blog.csdn.net](https://news.google.com/rss/articles/CBMia0FVX3lxTFBwaFZUbzFCelRGN1FYcDVZV0JaSGNBZTJ3SXd4eDZFdnJadzFkT2VRMXpUaGFqeldzLXduT3BFVVFZMFlEdHlaaDRBSmdsZ0JoRTZTOEkwdTlkQ1lobnlVOWRsYjZRQXlaRVpj) |
 | When AI Agents Become Indispensable Partners in the Modern
+
+## 资料更新（2026-08-02）
+
+以下为新增资料线索，按内容类型分组，供后续整理参考。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| research-radar | GitHub 项目 | AI 科研代理：文献监测、主张抽取、影响力评估、论文改写，全程人工介入；含 G0/G1/G2 信任门、证据保真度与 NLI 检查、ChromaDB 向量检索、PaperQA2、5 项 CCF-A 技能，341 项测试 | https://github.com/GZ-November/research-radar |
+| scientific-article-writing-skill | GitHub 项目 | 基于 Ecarnot et al. 2015 的学术论文写作/评价/修改/方向调整 Agent Skill，跨工具通用（Codex/Claude/opencode 等） | https://github.com/songyuyao7952/scientific-article-writing-skill |
+| ai-paper-review-agentic | GitHub 项目 | 多协作代理自动查找、总结和评审科学论文的 AI 研究助手 | https://github.com/juanortiz-p/ai-paper-review-agentic |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ReasFlow | arXiv 论文 | 面向应用数学中推理中心型科学发现的知识基多代理系统，弥补现有自动化研究系统偏重经验驱动领域的不足 | https://arxiv.org/abs/2607.14178v2 |
+| SciForge | arXiv 论文 | AI 原生多模态科研工作台，将论文、代码、数据集、模型输出、图表等异构工件保留为可审计的研究状态，图形界面保留人工判断 | https://arxiv.org/abs/2607.16038v1 |
+| Plato-Bio | arXiv 论文 | 基于 Plato/Denario 架构的生物学路由扩展，采用验证优先的新颖性筛查，含显式工作流状态、溯源记录、引用检查、主张-证据链接与发布门控 | https://arxiv.org/abs/2607.23975v1 |
+| SciExplore | arXiv 论文 | 评估 LLM 与代理在科学信息检索与推理能力的 benchmark，含四类任务类型 | https://arxiv.org/abs/2607.20926v1 |
+| European XFEL 代理系统 | arXiv 论文 | 面向欧洲 XFEL 科学家的大规模复杂数据分析代理系统，与高性能计算环境集成，采用设计科学研究方法 | https://arxiv.org/abs/2607.16845v1 |
+| NVAITC AI Scientist (NAIS) | arXiv 论文 | 受治理的端到端代理研究系统，以高血压 GWAS 为案例，支持研究规划、数据访问、工作流编排、证据追踪、可复现性与人工监督 | https://arxiv.org/abs/2607.11084v1 |
+| WARA | arXiv 论文 | 无线资源分配优化领域的首个端到端自动研究框架，闭环多代理设计 | https://arxiv.org/abs/2607.19822v1 |
+| 生物系统 ODE 自动发现 | arXiv 论文 | 基于 LLM 代理的常微分方程自动发现系统，面向生物系统，结合符号回归与领域先验 | https://arxiv.org/abs/2607.13608v1 |
+| Ensemble QSP | arXiv 论文 | 三层分层记忆架构的多代理框架，解决长时程多会话计算建模中的上下文限制问题（104 次运行中项目中期状态中位 301 tokens） | https://arxiv.org/abs/2607.07666v3 |
+| Lean-QuantumAlg-Bench / Lean-QIT-Bench | arXiv 论文 | 两个 Lean 4 定理证明 benchmark（36 与 40 个任务），评估 AI 代理在量子算法与量子信息领域的机器可检查证明能力 | https://arxiv.org/abs/2607.21533v1 |
+| HALLMARK | arXiv 论文 | 幻觉引用检测 benchmark：2,526 条 BibTeX 条目，覆盖 14 种幻觉类型、3 个难度层级，诊断 LLM 引用验证器的三类失败模式 | https://arxiv.org/abs/2607.18360v1 |
+| ToFu | arXiv 论文 | 面向研究者的白盒、token 高效代理 harness，可读取代码库、编辑文件、运行命令并与开发工具集成 | https://arxiv.org/abs/2607.11423v1 |
+| LabRobFail | arXiv 论文 | 化学自驱动实验室中机器人失败分析的 benchmark 与框架，含 LabRobFail-Sim 故障注入 | https://arxiv.org/abs/2607.23704v2 |
+| IDEAgent | arXiv 论文 | 代理式质量-多样性搜索的研究想法生成框架，兼顾想法质量与多样性 | https://arxiv.org/abs/2607.22375v1 |
+| MisKnow-Agent | arXiv 论文 | 受控评估框架，构造支持错误结论的任务文档，检验 Deep Research 代理对误导性信息的抵抗能力 | https://arxiv.org/abs/2607.20891v2 |
+| AREX | arXiv 论文 | 递归自改进的深度研究代理，通过验证中间结果并利用部分验证状态引导后续精化 | https://arxiv.org/abs/2607.21461v2 |
+| Auto Research for Materials | arXiv 论文 | 以干预为中心的 Auto Research 验证方法，区分可复用发现与针对开发反馈的过拟合改动，含 Held-Out Transfer | https://arxiv.org/abs/2607.17100v2 |
+| SDABench | arXiv 论文 | 面向 AI 科学家的能力导向 benchmark，围绕六种能力（描述、探索、推断、预测、因果、机制）重组评估 | https://arxiv.org/abs/2607.11079v1 |
+| LabEvolver | arXiv 论文 | 免训练框架，为湿实验代理配备基于执行经验的情景记忆，含状态接地内循环与外层经验演化循环 | https://arxiv.org/abs/2607.27690v1 |
+| Baikal | arXiv 论文 | 将数据湖上的深度研究建模为预算受限搜索问题，结构化搜索避免局部过利用 | https://arxiv.org/abs/2607.27726v1 |
+| 系统综述多代理系统 | arXiv 论文 | 两套适配系统综述的多代理系统（筛选与抽取），含人工介入，用于临床试验文献综述 | https://arxiv.org/abs/2607.21920v1 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Scientific Agent Skills 保姆级教程 | 教程 | 如何把 Codex、Claude Code 变成科研助手 | https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hRTRlZXl0MHRlcFo1VXNEXzdtalFHYkxOZGdvR0VreVBHR05fMHd4NmlCOTNwd3I5cUNUWno5SWFCQ3hFWDQwc1FwY1N3cldwRlM5ZlRHRkpCUm9zS1pCWW1XaDRMQQ?oc=5 |
+| Claude Code学术研究技能包 | 教程 | 32 个 Agent 协同的 AI 论文写作助手 | https://news.google.com/rss/articles/CBMib0FVX3lxTE82R0RqOWswVnMwaF81VTlLX081ek9qZ2RrSDRoOXV4RUVnTWR4bTlJY0xVT1JLM0xJMjNDOHgwQzlfeWZOTVRTUlp5b3Q1d2xmYklJc3NEeWU5dEpkcXBLYW9mN1hNMkpoTHQ4V3RkOA?oc=5 |
+| 中国 AI 代理在自主研究中超越 Claude Code | 媒体报道 | 南华早报报道 | https://news.google.com/rss/articles/CBMixgFBVV95cUxQSXJuMjJKb1l6ajJGdjVnMnV3YmppZmtTN2JMRWpuRktyam9NcXg2MkhtbjYwWG1zR0l1SEdmMzU4eDk5MXdZODl3RVlkdU9Jbk5wLV8xbUNKQ2VKdE56d2F3a1Y3NzNROTA1d2N3d1dJVi1kbVZtUVFLZHlJbzRZYnBaTjZjWmQ4Y1hwcWI3bng1N0ZhRlVpZ2RpWG5IVDlZb1dHajNSX0x4dXY4Zy1vV0IwWjBielhCWWYzcTFqX2RZS2Vhc1E?oc=5 |
+| 3000 美元预算的 AI 代理未通过开放式 AI 研究任务 | 媒体报道 | R&D World 报道 | https://news.google.com/rss/articles/CBMingFBVV95cUxNNmc1M1dON1NRNnBoRUhyWHpyYS1nTURvZlJZTDhUTlhVcWtyRFZWQTRkSm1uMXRESDlpYzRCMGNvYnV2SEc3TllaMFVEQ2FRWkt3NGhJTmJhNXpIRG9JTnl4ckhyS29VU0tSbU5feXFEMkREc2thMnhaX0FWLWNFcXdIMllZRl9mOElaclVHV3F3WWhfbWg4V29MVEhRZw?oc=5 |
+| AI 代理辅助同步辐射 X 射线实验测量准备 | 媒体报道 | Phys.org 报道，为自主运行铺路 | https://news.google.com/rss/articles/CBMifEFVX3lxTE9GZlpBNnJLT0RSdkNhWDBqRENlb3h4S3o1RDRucnVEUkZfUGJMeDFNcDJhcGtiT3R4UEJlXzlLM2xONW9RQ3NuNW1ON1dRYi01OFExclZiV0tLYXNvcVJ2XzFfc09LYVU2ZHdPcWFPQmdJNGlxLW9zbFlXSTU?oc=5 |
+| Agentic Science Challenge | 媒体报道 | 用一万道题验证 AI Agent 能否真正做科研 | https://news.google.com/rss/articles/CBMijAFBVV95cUxQMlN3TUdzMHd4a19IaEJCM2lLQ2Z4aHpHQTdYdFNHdkhuVHlZcFo1U21DbzJ1Y01URDFhWXNhekZMRm41OW44aWw1b3MyLWRfMjBCUUVTZjdOaUF2SS0zaHNWV1B4Uzh2N0VSMFdSb1ZQQ3ljSFJ2eDRINXZPUzdZaENyc1JER2NQdXBQaw?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ToFu | 工具 | 面向研究者的白盒、token 高效代理 harness，可读取代码库、编辑文件、运行命令并与开发工具集成 | https://arxiv.org/abs/2607.11423v1 |
+| SciForge | 工具 | AI 原生多模态科研工作台，将论文、代码、数据集、模型输出、图表等异构工件保留为可审计的研究状态 | https://arxiv.org/abs/2607.16038v1 |

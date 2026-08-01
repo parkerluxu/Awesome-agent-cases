@@ -218,3 +218,52 @@
 | open-note —— 跨平台智能笔记 Agent 应用 | 开源工具 | 具有长期记忆和自我进化能力的跨平台智能笔记 Agent | [链接](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sdDdRREtRdGZZU29GQXdCZC1FVVJCZUdqbXdFMko4eS1Hb0pYT3dmLXJPUnBfdUdSWVQ3NFFwR2pFOVprMUwzTUNid2U3VkNFQmxKcGNqR2w?oc=5) |
 | agentscope-ai/QwenPaw | 开源工具 | 基于 Qwen 的 Agent 工具 | [链接](https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5Y240azh3bnBVb2xrVXQ5TWIxUmpNYUZaYXNPYkJJeHgzX1VXN2wwQVh4VGN0MFlBREZPdUdVNXlINi1jY2twbGVWUmRrZ0VKQkE?oc=5) |
 | Natively — 免费开源 AI 会议助手 | 开源工具 | 免费开源的 AI 会议助手，支持实时转录、AI 会议记录和面试副驾驶 | [链接](https://news.google.com/rss/articles/CBMieEFVX3lxTE9sa1FQRDJCX0RLd2habWZwazZiaTB2LWRUZTN3ZGFJUFVFcnFNMk9iOGdNWFB1VS1tdTZfenExdHFQcTlGWDlvSGVmcEpLWVUyNnljeEl0Rm1JWmJWdC1TLWRBMTVjYUdqMXVxd0VmUVVjM2tHTWZUaw?oc=5) |
+
+## 资料更新（2026-08-02）
+
+以下为新增资料线索，按内容类型分组，供后续整理参考。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| iOfficeAI/OfficeCLI | 开源项目 | 专为 AI Agent 读写、编辑和自动化 Word、Excel、PowerPoint 文件而构建的 Office 套件；免费、开源、单二进制，无需安装 Office | [GitHub](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuWmNPWTVhVHdPNi13MDB5dHBXcWItTnU1TWNLR25hRmlyNnZGWTVqQV9oTmtZLVh6aFUySTl5anZnYTJCdTZaRXhGbEM5S3M?oc=5) |
+| Abhaykumarbadam/OfficeAgentEnv | 开源项目 | 真实世界 OpenEnv 环境，模拟 AI 办公助手处理邮件分类和会议安排，用于评估 Agent 的多步推理、决策与任务自动化能力 | [GitHub](https://github.com/Abhaykumarbadam/OfficeAgentEnv) |
+| CAT Agent Skills | 开源项目 | Microsoft 开源的 Agent 技能库 | [Microsoft Open Source](https://news.google.com/rss/articles/CBMieEFVX3lxTFBVTU90em5yQk5HclZmTEtMeVRHRnpJMnRJQUViZ2dJQm5kNjRxUzZHc2NaY2ZIN3Vab3BOMDZKM2VQRWxzYWlnNTFqOXA3VTl5QlpxdFVvV05wd0RhMjd0U2ZQQmhibXhCUmlwbTNvMGQ5NXBxZy13RA?oc=5) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| FinanceHarness: Autonomous Financial Deep Research Framework | arXiv 论文 | 面向金融深度研究的自主 Agent 框架，含分层驱动机制与可验证的时点基准测试 | [arXiv](https://arxiv.org/abs/2607.27853v1) |
+| Agentic ERP: Multi-Agent Large Language Model Architecture for Autonomous Enterprise Resource Planning | arXiv 论文 | 面向企业资源规划（ERP）的多 Agent LLM 架构，结合角色对齐的 Agent 与风险分级的人机协同机制 | [arXiv](https://arxiv.org/abs/2607.17331v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 桌面Agent实战指南：17款工具盘点、上手教程与自定义模型配置 | 教程 | 2026 上半年桌面 Agent 工具盘点与上手教程 | [稀土掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1valB3M0FlMDd4c1doWEVVbjVhQ09XQ1VLOTdwM1NLNThqd0hkMkRpSUVsQWEzUW9SaHFKcnItMHFJdGZRY0xveTh5OVBpM3RTZVFzbQ?oc=5) |
+| 实测｜3个案例跑通TRAE Work高阶工作流：从Prompt到工作流，我的AI办公终于升级了 | 实测 | 通过 3 个案例演示 TRAE Work 高阶工作流的搭建与使用 | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EbXZGS0FYUWpnREluazZsWGRaMGtERlkzaUl5VlF0WUVKMmNfamFMSlFvSW9NNGJPM1RrX1FBbnNqQjRsUmZCRVFFM09nWFdLVGY3Y1dCM0FKa1Bh?oc=5) |
+| AI Agent 到底是什么？5个已经在用的真实场景 | 教程 | 用 5 个真实场景解释 AI Agent 的概念与应用 | [稀土掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBad2pNTkpRSUVyVGp3cEd5RzBwQWp4RkFoVjJNcERkT3dHS2tHNEg3OENNVlIzVHJpTDlHWFN0X3BDbTZMbFhETFIxbHJwZVFmQkVkdw?oc=5) |
+| RPA 是什么？一文看懂机器人流程自动化（2026 最新实战） | 教程 | 介绍 2026 年融合 LLM 的 RPA Agent 如何处理非结构化数据 | [CSDN](https://blog.csdn.net/Maydaycxc/article/details/161041706) |
+| 2026年7月桌面Agent推荐：Kimi Work能力、场景与定位的深度解析 | 评测 | Kimi Work 桌面 Agent 的能力、场景与定位解析 | [CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ISWY0emU4RkhNa1dWbU9VdGxfMjVLcEZTNHJzOUwtc1ZPcFVld21lN1E3UERuVXpIOTBOeUk5SDd0LWdacmxOcm9NVG5nZzRxdmdKemN0TmdmRnRhNGc?oc=5) |
+| AI agents with $3,000 budget flunk open-ended AI research assignment | 实测 | 预算 3000 美元的 AI Agent 在开放式研究任务中的表现评测 | [R&D World](https://news.google.com/rss/articles/CBMingFBVV95cUxNNmc1M1dON1NRNnBoRUhyWHpyYS1nTURvZlJZTDhUTlhVcWtyRFZWQTRkSm1uMXRESDlpYzRCMGNvYnV2SEc3TllaMFVEQ2FRWkt3NGhJTmJhNXpIRG9JTnl4ckhyS29VU0tSbU5feXFEMkREc2thMnhaX0FWLWNFcXdIMllZRl9mOElaclVHV3F3WWhfbWg4V29MVEhRZw?oc=5) |
+| Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs | 实测 | 对 Vertu 面向高管推出的高价 AI Agent 进行实际性能测试 | [TechCrunch](https://news.google.com/rss/articles/CBMitwFBVV95cUxQTnUtSFFraUNONDhSemRxQzJpTXhkMlVleHpEN0N0Mll5TmZqUVJZVGNraWFVUTZzWVZ5NDhOZjJILV9yLUg1cEM0UFN3Z1pRcmVxNVZXakI1Tk0teDhDT3FnWTdpaktPR05SNlUzSEstVGdPeWFmdVE3VE9ybFlmQ3lScC1sbS1VR2x4UnRtbnpVd3hCbWg3a2ZHcTVweTdwdlhNeDNuTGRNdkx1bm5QYllNVGRNRzQ?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Gemini Spark | 产品发布 | Google 推出的 24/7 个人 AI Agent，扩展至其产品生态 | [blog.google](https://news.google.com/rss/articles/CBMiugFBVV95cUxORmVHV2JlTjJDaWUwVnF6b3BSNzN1OWJXRXhsdjNxWnJ3QzVYTTM1WU9rWXBrTE9PQ2hKbXVoeUxjNUNNQ3JzdEZzUHBPajJDSmQzaXlEMGhock1rUmwyRENWNXBPQVhhbEQ5TWN3bnJ6YTRFZUVPcGd2bWljMzcwYWJ1bGtVM3VXOEsxeWJ0ODBGbURXYURKYWV0RDkyd2E1QnN0V0YyTVJ5MFVQOHNZZkZnZTlaNFhfUHc?oc=5) |
+| Perplexity Personal Computer | 产品发布 | Perplexity 将 AI Agent 带到 Windows 平台 | [The Tech Buzz](https://news.google.com/rss/articles/CBMimgFBVV95cUxQU05kNFlRRHliVXplQVFvWGE1R1dIQi1yTEZZWkotaTdNTm5fTHpjTWdtSlJoSVQ0b2szOHF2al9FR1lRYlNja2MwbEFjMUluT3ZaOW9JQ29GWWxQZGwxSkNuNVIzdGJLX3B2RmZNeGVZMGVzbUlVUjBIVjBUQXI4MmNaMVZ3NU1Eb2tscW95Y2thVG5FWUZTejVR?oc=5) |
+| 泛微·数智大脑 Xiaoe.AI | 产品发布 | 为每位员工配备 7×24 小时的智能办公助手 | [财富号](https://news.google.com/rss/articles/CBMia0FVX3lxTE8yTGJrcFFtMm44eXlhbXM5RmlWd3YweGZ4Z3VoRnNfSnY1WUU5a3RDWVBucGFVMFctc1A1S1UwWDN0RHB5ZFBfQTBsRXhtbUgtUDhhekpXT0FnVlRsb3JES0JzWWNkSWhjc1dV?oc=5) |
+| 金山办公，用Agent再造一个WPS | 产品报道 | 金山办公利用 Agent 重构 WPS 产品 | [Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxQVlJkMDllU3UxRnlqeHJlamV3U21sX3kyUFRRU3p4NkJwZDVhMm55bE1NOGRQR3Q2elFUYnlpREtzbzd6ZWw2aWVHZHpJM25GYUkzYmhoc1dBeXVHVHNsa2pTSzlCd2FYekwtb0VqenRMS0hhVU41dG9ha2tubU1USTUyQjBiZXktUzRWRQ?oc=5) |
+| 有道AI耳机 | 产品报道 | 戴在耳上的同传设备，让会议记录变成“可追问的 Agent” | [163.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZNFdXaG41WmJFTHRXc2FDWXpJc1BaYWZzeEFHVElBM19sUDBTVUM4LXNYMWFwQzB5VXFfR2NjLW9HMThyTXNTcVhzOTVmektoOHNWbDVwNkFyQXRqcTVxWkdR?oc=5) |
+| 八爪鱼RPA | 产品更新 | 发布「AI写流程3.0」，构建动态流程生成 Agent | [八爪鱼RPA](https://rpa.bazhuayu.com/) |
+| ChatGPT Work | 产品访谈 | OpenAI 产品工程负责人分享 ChatGPT Work 从 0 到 1000 万用户的构建经验，涵盖 Sites、OpenClaw、Memory、Subagents、Finance、No-Code 等 | [latent.space](https://www.latent.space/p/chatgpt-work) |
+| avatarin 零售 Agent | 案例 | avatarin 使用 OpenAI GPT-Realtime 为山田电机顾客提供 24/7 多语言支持；两周内 3 万人使用，92% 调查反馈为正面 | [OpenAI](https://openai.com/index/avatarin) |
+| Built Technologies 文档智能方案 | 案例 | 在 AWS 上构建 AI 驱动的文档智能解决方案，为房地产金融领域的 Agent 提供支持 | [AWS](https://news.google.com/rss/articles/CBMi-wFBVV95cUxOa3R4OUF6WlF4Uk00c2VRTUJiT1JzTFp6a09ZRUdlWU5fSDJYQkEzYUxUUmRZQWJrX2pJNEF6UFh1dDBNXzBUak00ZmxSbzZMNTVpNVVweDRzTEVVS0hna0tuLUNEeXRGdnRFa09PbkpMaVdWbFNjRzlYM2FiZHpZdXRTakhmLXUwVWFERHBiT0RvdmZ6QjlVRklJbHJFNy1oNnMtUHFUblE4YWV6TkU3S1B2X25OSERlNkRDWVZSMEpaY2dpcEpaMzRtRnFQbndfenZFckRKa29RLU5vN0E3YnlLSmJKbFVJYTlVQVAtc1VQWFd2MnZfMXJuYw?oc=5) |
+| 办公级Agent三国杀 | 行业观察 | 办公级 Agent 市场竞争格局分析 | [华尔街见闻](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RSG56N3lZM1kyTWJRdndYak12eFlzaEcxV3lJY3RybUs3eVRtdzFJeGI4MTNyeDJNWW1CSkkxbERyZnE2WkVsaU1ocTJtOEZYclVz?oc=5) |
+| 桌面Agent赛道观察：20款产品背后的大厂卡位与国产替代 | 行业观察 | 盘点 20 款桌面 Agent 产品及大厂布局 | [新浪财经](https://news.google.com/rss/articles/CBMickFVX3lxTE45a1BDOXNmdnU1S2hqZGphVUVoNjg2M3FoRVE0ZHdEcWVGOEZUZXhyQkg3OVFIQ0R0a2ZVVVZ6cEhmcE5hNGVuRWtqRklfQ3dUZ19FcGx1Y2wzM19EZkFhajhEVU1WRWxPd0RlSWd5TFVkQQ?oc=5) |
+| Google升级Gemini Enterprise | 产品更新 | 焕新交互界面并重构 Workspace 连接器以强化企业级 AI 智能体能力 | [Sohu](https://news.google.com/rss/articles/CBMijAFBVV95cUxPSTBDV2dLMFhfdWVkMjAzZlNRTE9KU0YxLXV6dFVYNDlrVW9CQVFzazNsdzBfX2VpWEpVQ3dVbzY4VUtSSkNMeHgyOVB0R0tNUkdPYURUVnc0YS1idFdLZUJxQXBaRmk4NU9mVlIyOGFDU2tPSGZvc3hrOXJiOUFPWVd3Vm9RX0NSbTdqNw?oc=5) |
+| 政企、制造、金融多场景智能体案例合集 | 案例合集 | 政企、制造、金融多场景智能体落地案例 | [财富号](https://news.google.com/rss/articles/CBMia0FVX3lxTE02RVd3aTFTTEhndUk0T1BmM0VFVHRnNk9RbUFoTFREaHF1UFdyZWQyNGpFdFVMWmZCS2dVQ1AtSTRUaWZFNWVYUGZNOGtCcF81X1JHS2otUUxVRDJ1SjVpTFhLX1lkZlAxX2dn?oc=5) |
