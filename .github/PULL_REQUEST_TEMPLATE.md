@@ -22,6 +22,7 @@
 - [ ] Content follows the placement rules in `docs/content-guide.md`
 - [ ] Each entry includes title, source link, resource type, topic, and "why it matters"
 - [ ] Internal links are relative and correct
+- [ ] Generated files in `cases/` were not edited directly
 - [ ] If adding a collection: `collections/README.md`, domain README, `indexes/by-topic.md`, and relevant content-type indexes are updated
 - [ ] If adding a daily digest: `daily_news/README.md` is updated and root READMEs show only the latest seven issues
 - [ ] Bilingual versions (`.en.md` / `.zh-CN.md`) are maintained when applicable

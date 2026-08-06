@@ -1,0 +1,40 @@
+name: Sync published cases
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 16 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-published-cases
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate case mirrors
+        run: node scripts/sync-cases.mjs
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- README.md docs/README.zh-CN.md cases; then
+            echo "Case mirrors are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md docs/README.zh-CN.md cases
+          git commit -m "chore(cases): sync published case summaries"
+          git push

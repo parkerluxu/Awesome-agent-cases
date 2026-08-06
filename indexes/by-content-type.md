@@ -4,7 +4,7 @@ Collections are the source of truth. This index describes which collections are 
 
 | Resource type | Recommended starting points |
 |---|---|
-| Practical cases | [Cross-industry deliverables](../collections/industry/ai-agent-industry-case-tutorials.en.md), [Web development](../collections/engineering/ai-agent-web-development-cases.en.md), [Office automation](../collections/industry/ai-agent-office-automation-cases.en.md), [Scientific research automation](../collections/industry/ai-agent-scientific-research-automation-cases.en.md) |
+| Practical cases | [Published Agent Case Share cases](../cases/README.md), [Cross-industry deliverables](../collections/industry/ai-agent-industry-case-tutorials.en.md), [Web development](../collections/engineering/ai-agent-web-development-cases.en.md), [Office automation](../collections/industry/ai-agent-office-automation-cases.en.md), [Scientific research automation](../collections/industry/ai-agent-scientific-research-automation-cases.en.md) |
 | Tutorials and implementation patterns | [Engineering collections](../collections/engineering/README.md), [Creative collections](../collections/creative/README.md), [High-heat projects and tutorials](../collections/ecosystem/ai-agent-projects-report.en.md) |
 | Open-source projects and frameworks | [Ecosystem resource map](../collections/ecosystem/ai-agent-tools-cases-tutorials-projects-papers.md), [High-heat projects report](../collections/ecosystem/ai-agent-projects-report.en.md) |
 | Papers and benchmarks | [Scientific research automation](../collections/industry/ai-agent-scientific-research-automation-cases.en.md), [Hardware collections](../collections/hardware/README.md), [Ecosystem resource map](../collections/ecosystem/ai-agent-tools-cases-tutorials-projects-papers.md) |

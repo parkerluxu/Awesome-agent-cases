@@ -80,7 +80,8 @@ Before adding content, please read the [content guide](docs/content-guide.md). K
 - **Daily news digests** go in `daily_news/YYYY/MM/` with the naming convention `YYYY-MM-DD-ai-news-digest.md`.
 - **Domain collections** go in `collections/<domain>/`. Choose the domain by the task the reader wants to solve, not by resource type.
 - **Images** for daily digests go in `daily_news/assets/YYYY-MM-DD-ai-news-digest/`.
-- Do **not** create top-level `cases/`, `papers/`, or `projects/` folders — use `indexes/by-content-type.md` for cross-cutting views.
+- **Published case mirrors** in `cases/` are generated from Agent Case Share. Update or submit a case on the website instead of editing generated Markdown directly.
+- Do **not** create top-level `papers/` or `projects/` folders — use `indexes/by-content-type.md` for cross-cutting views.
 
 ### Entry Quality
 
@@ -117,6 +118,7 @@ When possible, maintain both English and Chinese versions using the `.en.md` and
 - [ ] Content follows the placement rules in `docs/content-guide.md`
 - [ ] Each entry includes title, source link, resource type, topic, and "why it matters"
 - [ ] Internal links are relative and correct
+- [ ] Generated files in `cases/` were not edited directly
 - [ ] If adding a collection, `collections/README.md`, the domain README, `indexes/by-topic.md`, and relevant content-type indexes are updated
 - [ ] If adding a daily digest, `daily_news/README.md` is updated and root READMEs show only the latest seven issues
 - [ ] Bilingual versions are maintained when possible

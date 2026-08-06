@@ -1,0 +1,29 @@
+# Agent 案例目录
+
+<!-- GENERATED FROM AGENT CASE SHARE. DO NOT EDIT DIRECTLY. -->
+
+这里收录 Agent Case Share 已公开案例的 GitHub 摘要版本，便于检索、引用和快速判断是否值得复用。完整文章、附件、可复用资产和最新状态请进入对应网站页面查看。
+
+- 已同步案例：**12**
+- 内容更新时间：**2026-08-05**
+- [在网站搜索全部案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
+- [发布你的 Agent 案例](https://agentcaseshare.cn/publish?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
+
+| 案例 | 简介 | 分类 | 工具与技术栈 | 难度 | 网站 |
+|---|---|---|---|---|---|
+| [Agent Case Share 使用指南：检索、复用、内容管理与发布](case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 软件与互联网 | Agent Case Share, Codex, Claude Code, Gemini CLI, Markdown, HTTP API | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-qjdht8bd?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [5张成品、4376积分，以及一份给新手的选档指南](case-c3e0yy3o.md) | 通过实际案例测试Codex不同推理强度输出的内容质量及积分耗费 | 通用自动化 | - | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-c3e0yy3o?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [从模糊愿望到可复现 MVP：本地量化研究台案例](case-c85hhk5b.md) | 一个面向普通散户的本地量化投研辅助系统案例，完整展示从需求收敛、边界决策、统一策略模型到筛选、自然语言策略、回测报告和端到端验收的实现路径。 | 金融与财税 | Codex + Playwright + 本地 FastAPI/React 开发环境 | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-c85hhk5b?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [用 Codex 从需求到真机：声音地图微信小程序](case-f9huu6yz.md) | 用 Codex 将“校园地点 + 10-60 秒环境声音 + 当下感受”的想法落成原生 TypeScript 微信小程序，覆盖产品拆解、本地体验、自托管 API、真机联调、测试、部署说明与教程素材生成。 | 研发与 IT | Codex Desktop；微信开发者工具；Playwright 浏览器渲染 | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-f9huu6yz?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [用 Codex、Python 和 FFmpeg，把 330 个旅行素材剪成横竖两版 Vlog](case-1dmu8xax.md) | 把 94 段视频、152 张照片和 84 个 DJI 代理文件整理成可重复构建的本地剪辑工程，输出 415 秒横屏成片与 77 秒竖屏精华，并记录驱动、CUDA、版权和自动验收的完整实践。 | 内容与传媒 | Codex Desktop + Python 3.12 + FFmpeg 8.1.2 + OpenCV + faster-whisper + NVIDIA NVENC | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-1dmu8xax?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [AI 制作小游戏：多米诺人生](case-j5gfzzms.md) | 从一个朴素的物理解谜想法出发，使用 AI 将玩法、物理规则、MVP 范围、开发阶段和验收标准整理为可执行计划，并持续落地为 Web 游戏原型。 | 研发与 IT | Codex, Matter.js, TypeScript, Vite, Canvas, Agent Case Share | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-j5gfzzms?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [Tutorial: NVIDIA Build 个人 API + CC Switch：零成本接入 GLM-5.1、DeepSeek V4 系列大模型](case-xwjhm8i6.md) | 通过 NVIDIA Build 免费获取个人 API Key，配合 CC Switch 切换至 Claude Code / Codex，即可零成本调用 GLM-5.2、DeepSeek V4 Flash 等前沿大模型。无需付费订阅，注册即用。 | 研发与 IT | Claude Code, CC Switch, NVIDIA Build API | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-xwjhm8i6?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [让长对话里的 LLM 不掉链子 —— 用一句 prompt 强制它维护自己的知识结构](case-wd5unn38.md) | 一个能显著改善长对话表现的 prompt 技巧：让模型每轮在回复结尾显式输出『当前知识结构』，把本该隐式的内部状态外化进文本，下一轮推理因此能拿这个结构去对齐新输入。附原理（注意力机制通俗版）、三种实现、用了 vs 没用的对比演示。 | 其他 | 任意 LLM 对话工具（Claude / ChatGPT / Cursor 等），无需代码 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-wd5unn38?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [从一句话需求到可运行的客服机器人](case-o9cfvknt.md) | 一次完整的人机协作实录：用户带着两份需求文档来，最后得到一个 56 个测试全绿、可切换真实 AI 的电商客服机器人。 | 其他 | Python, FastAPI, DeepSeek, pytest, Mermaid | 中级 | [完整案例](https://agentcaseshare.cn/tasks/case-o9cfvknt?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [用 cc-switch 将国家超算平台模型接入 Claude Code 与 Codex](case-9gzfdh2l.md) | 国家超算互联网平台(scnet)同时提供 OpenAI 与 Anthropic 兼容端点。用 cc-switch 把 GLM-5.2 同时接入 Claude Code(走 Anthropic 端点)与 Codex CLI(走 OpenAI 端点),并让 AI Agent 自动完... | 其他 | cc-switch, Claude Code, Codex CLI, 国家超算互联网平台 API | 中级 | [完整案例](https://agentcaseshare.cn/tasks/case-9gzfdh2l?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [订单需求邮件处理 Agent](case-a2a3oirm.md) | 将客户邮件、聊天记录和附件表格中的非结构化订单需求自动抽取为标准订单 JSON，并通过置信度、人审规则、LLM 归一化和人工审核兜底降低错单风险。 | 餐饮 / 食品批发供应链 | Python 标准库, OpenAI/DeepSeek 兼容 Chat Completions, 本地规则解析器, LLM 输出归一化层, JSON Schema 校验, 批处理脚本, unittest | 中级 | [完整案例](https://agentcaseshare.cn/tasks/case-a2a3oirm?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [项目周报助手 PPT 迭代案例：从原始资料到老板汇报](case-sftf51x7.md) | 读取 PRD、上线目标、埋点数据、反馈和客服记录后，借助可复用 Skill 与多轮反馈，把一份 14 页资料型 PPT 重构成 8 页决策汇报。 | 企业协作 / 项目管理 | Codex, Markdown, PowerPoint, Node.js, CSV | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-sftf51x7?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+
+## 同步说明
+
+这些 Markdown 文件由 `scripts/sync-cases.mjs` 从 Agent Case Share 公开 API 生成，请勿直接编辑。案例内容需要在网站完成创建或修改，发布后会自动同步到这里。

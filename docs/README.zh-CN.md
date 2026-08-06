@@ -38,11 +38,31 @@
 
 | 想找什么 | 推荐入口 |
 |---|---|
-| 今日动态 | [最新日报](../daily_news/2026/07/2026-07-17-ai-news-digest.md) |
+| 可复现的 Agent 案例 | [已发布案例目录](../cases/README.md) |
+| 今日动态 | [最新日报](../daily_news/2026/08/2026-08-05-ai-news-digest.md) |
 | 某个具体领域 | [按主题浏览](../indexes/by-topic.md) |
 | 案例、项目、教程或论文 | [按内容类型浏览](../indexes/by-content-type.md) |
 | 按时间阅读 | [按日期浏览](../indexes/by-date.md) |
 | 全部日报 | [日报归档](../daily_news/README.md) |
+
+## 可复现的 Agent 案例
+
+<!-- CASES_SHOWCASE_START -->
+
+网站已发布案例会自动同步为简明 Markdown，方便在 GitHub 中检索、引用和快速阅读。
+
+| 案例 | 简介 | 难度 |
+|---|---|---|
+| [Agent Case Share 使用指南：检索、复用、内容管理与发布](../cases/case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 入门 |
+| [5张成品、4376积分，以及一份给新手的选档指南](../cases/case-c3e0yy3o.md) | 通过实际案例测试Codex不同推理强度输出的内容质量及积分耗费 | 入门 |
+| [从模糊愿望到可复现 MVP：本地量化研究台案例](../cases/case-c85hhk5b.md) | 一个面向普通散户的本地量化投研辅助系统案例，完整展示从需求收敛、边界决策、统一策略模型到筛选、自然语言策略、回测报告和端到端验收的实现路径。 | 高级 |
+| [用 Codex 从需求到真机：声音地图微信小程序](../cases/case-f9huu6yz.md) | 用 Codex 将“校园地点 + 10-60 秒环境声音 + 当下感受”的想法落成原生 TypeScript 微信小程序，覆盖产品拆解、本地体验、自托管 API、真机联调、测试、部署说明与教程素材生成。 | 高级 |
+| [用 Codex、Python 和 FFmpeg，把 330 个旅行素材剪成横竖两版 Vlog](../cases/case-1dmu8xax.md) | 把 94 段视频、152 张照片和 84 个 DJI 代理文件整理成可重复构建的本地剪辑工程，输出 415 秒横屏成片与 77 秒竖屏精华，并记录驱动、CUDA、版权和自动验收的完整实践。 | 高级 |
+| [AI 制作小游戏：多米诺人生](../cases/case-j5gfzzms.md) | 从一个朴素的物理解谜想法出发，使用 AI 将玩法、物理规则、MVP 范围、开发阶段和验收标准整理为可执行计划，并持续落地为 Web 游戏原型。 | 入门 |
+
+[浏览全部 12 个案例](../cases/README.md) · [在网站搜索案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme-zh)
+
+<!-- CASES_SHOWCASE_END -->
 
 ## 最近日报
 
@@ -93,8 +113,10 @@
 
 ## 仓库组织方式
 
+- `cases/`：从 Agent Case Share 公开 API 自动生成的已发布案例摘要。
 - `daily_news/YYYY/MM/`：按日期归档的新闻日报；配图集中放在 `daily_news/assets/`，避免在月目录中重复。
 - `collections/<domain>/`：按应用领域维护的长期专题资料包。
+- `scripts/`：可重复执行的内容同步与校验工具。
 - `indexes/`：按主题、内容类型和时间提供同一批内容的不同入口。
 - `docs/`：维护规范和多语言入口文档。
 
