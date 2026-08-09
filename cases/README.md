@@ -5,15 +5,15 @@
 这里收录 Agent Case Share 已公开案例的 GitHub 摘要版本，便于检索、引用和快速判断是否值得复用。完整文章、附件、可复用资产和最新状态请进入对应网站页面查看。
 
 - 已同步案例：**14**
-- 内容更新时间：**2026-08-08**
+- 内容更新时间：**2026-08-09**
 - [在网站搜索全部案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 - [发布你的 Agent 案例](https://agentcaseshare.cn/publish?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 
 | 案例 | 简介 | 分类 | 工具与技术栈 | 难度 | 网站 |
 |---|---|---|---|---|---|
+| [AI Agent 零基础通用入门课程教案](case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 教育与培训 | Codex、Claude Code 等通用 AI Agent | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-hzo3s639?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 软件与互联网 | Agent Case Share, Codex, Claude Code, Gemini CLI, Markdown, HTTP API | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-qjdht8bd?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [Claude Code 安装与第三方大模型接入](case-ezdqv6ex.md) | Claude Code 终端 AI 编程助手的安装与配置指南，解决国内网络环境下的 API 连接问题，支持智谱 GLM（免费）、DeepSeek 等第三方大模型。 | 软件与互联网 | - | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-ezdqv6ex?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
-| [AI Agent 零基础通用入门课程教案](case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 教育与培训 | Codex、Claude Code 等通用 AI Agent | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-hzo3s639?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [5张成品、4376积分，以及一份给新手的选档指南](case-c3e0yy3o.md) | 通过实际案例测试Codex不同推理强度输出的内容质量及积分耗费 | 通用自动化 | - | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-c3e0yy3o?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [从模糊愿望到可复现 MVP：本地量化研究台案例](case-c85hhk5b.md) | 一个面向普通散户的本地量化投研辅助系统案例，完整展示从需求收敛、边界决策、统一策略模型到筛选、自然语言策略、回测报告和端到端验收的实现路径。 | 金融与财税 | Codex + Playwright + 本地 FastAPI/React 开发环境 | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-c85hhk5b?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [用 Codex 从需求到真机：声音地图微信小程序](case-f9huu6yz.md) | 用 Codex 将“校园地点 + 10-60 秒环境声音 + 当下感受”的想法落成原生 TypeScript 微信小程序，覆盖产品拆解、本地体验、自托管 API、真机联调、测试、部署说明与教程素材生成。 | 研发与 IT | Codex Desktop；微信开发者工具；Playwright 浏览器渲染 | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-f9huu6yz?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |

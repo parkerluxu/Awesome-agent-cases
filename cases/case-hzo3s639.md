@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-hzo3s639"
 category: "教育与培训"
 difficulty: "BEGINNER"
 author: "luxu"
-updated_at: "2026-08-07T14:50:27.147Z"
+updated_at: "2026-08-09T15:22:12.394Z"
 tags:
   - "AI Agent"
   - "零基础教程"
@@ -56,13 +56,14 @@ tags:
 | 工具与技术栈 | Codex、Claude Code 等通用 AI Agent |
 | 标签 | AI Agent、零基础教程、codex、Claude Code、自动化、提示词、安全、生产力 |
 | 案例 ID | `case-hzo3s639` |
-| 最后更新 | 2026-08-07 |
+| 最后更新 | 2026-08-09 |
 
 ## 关联资源
 
 - [第 1 课：AI Agent 和聊天机器人有什么不同](https://agentcaseshare.cn/articles/article-ay3kcdtb)
 - [第 2 课：安装、工作目录与安全边界](https://agentcaseshare.cn/articles/article-jbsj6l7q)
 - [第 3 课：完成第一个可运行成果](https://agentcaseshare.cn/articles/article-uymw3ga4)
+- [第 4 课：写出一个好任务](https://agentcaseshare.cn/articles/article-7134f38t)
 
 ---
 
