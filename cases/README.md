@@ -4,8 +4,8 @@
 
 这里收录 Agent Case Share 已公开案例的 GitHub 摘要版本，便于检索、引用和快速判断是否值得复用。完整文章、附件、可复用资产和最新状态请进入对应网站页面查看。
 
-- 已同步案例：**14**
-- 内容更新时间：**2026-08-09**
+- 已同步案例：**15**
+- 内容更新时间：**2026-08-13**
 - [在网站搜索全部案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 - [发布你的 Agent 案例](https://agentcaseshare.cn/publish?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 
@@ -13,12 +13,13 @@
 |---|---|---|---|---|---|
 | [AI Agent 零基础通用入门课程教案](case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 教育与培训 | Codex、Claude Code 等通用 AI Agent | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-hzo3s639?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 软件与互联网 | Agent Case Share, Codex, Claude Code, Gemini CLI, Markdown, HTTP API | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-qjdht8bd?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [AI 制作小游戏：多米诺人生](case-j5gfzzms.md) | 在线体验：https://domino-life.parkerluxu.space/ 从一个朴素的物理解谜想法出发，使用 AI 将玩法、物理规则、MVP 范围、开发阶段和验收标准整理为可执行计划，并持续落地为 Web 游戏原型。 | 研发与 IT | Codex, Matter.js, TypeScript, Vite, Canvas, Agent Case Share | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-j5gfzzms?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [如何用 AI 制作一个完整的教学短视频](case-sopyouc8.md) | 完整记录 AI 如何从课程目标和逐字稿生成教学画面、命令动画、神经配音、逐字字幕、背景音乐和最终 MP4，并总结真实迭代中的音频排障、版权核验与人工验收方法。 | 教育内容制作 | Codex + HTML/CSS/JavaScript + 神经 TTS + FFmpeg + libass | 中级 | [完整案例](https://agentcaseshare.cn/tasks/case-sopyouc8?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [Claude Code 安装与第三方大模型接入](case-ezdqv6ex.md) | Claude Code 终端 AI 编程助手的安装与配置指南，解决国内网络环境下的 API 连接问题，支持智谱 GLM（免费）、DeepSeek 等第三方大模型。 | 软件与互联网 | - | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-ezdqv6ex?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [5张成品、4376积分，以及一份给新手的选档指南](case-c3e0yy3o.md) | 通过实际案例测试Codex不同推理强度输出的内容质量及积分耗费 | 通用自动化 | - | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-c3e0yy3o?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [从模糊愿望到可复现 MVP：本地量化研究台案例](case-c85hhk5b.md) | 一个面向普通散户的本地量化投研辅助系统案例，完整展示从需求收敛、边界决策、统一策略模型到筛选、自然语言策略、回测报告和端到端验收的实现路径。 | 金融与财税 | Codex + Playwright + 本地 FastAPI/React 开发环境 | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-c85hhk5b?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [用 Codex 从需求到真机：声音地图微信小程序](case-f9huu6yz.md) | 用 Codex 将“校园地点 + 10-60 秒环境声音 + 当下感受”的想法落成原生 TypeScript 微信小程序，覆盖产品拆解、本地体验、自托管 API、真机联调、测试、部署说明与教程素材生成。 | 研发与 IT | Codex Desktop；微信开发者工具；Playwright 浏览器渲染 | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-f9huu6yz?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [用 Codex、Python 和 FFmpeg，把 330 个旅行素材剪成横竖两版 Vlog](case-1dmu8xax.md) | 把 94 段视频、152 张照片和 84 个 DJI 代理文件整理成可重复构建的本地剪辑工程，输出 415 秒横屏成片与 77 秒竖屏精华，并记录驱动、CUDA、版权和自动验收的完整实践。 | 内容与传媒 | Codex Desktop + Python 3.12 + FFmpeg 8.1.2 + OpenCV + faster-whisper + NVIDIA NVENC | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-1dmu8xax?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
-| [AI 制作小游戏：多米诺人生](case-j5gfzzms.md) | 从一个朴素的物理解谜想法出发，使用 AI 将玩法、物理规则、MVP 范围、开发阶段和验收标准整理为可执行计划，并持续落地为 Web 游戏原型。 | 研发与 IT | Codex, Matter.js, TypeScript, Vite, Canvas, Agent Case Share | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-j5gfzzms?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [Tutorial: NVIDIA Build 个人 API + CC Switch：零成本接入 GLM-5.1、DeepSeek V4 系列大模型](case-xwjhm8i6.md) | 通过 NVIDIA Build 免费获取个人 API Key，配合 CC Switch 切换至 Claude Code / Codex，即可零成本调用 GLM-5.2、DeepSeek V4 Flash 等前沿大模型。无需付费订阅，注册即用。 | 研发与 IT | Claude Code, CC Switch, NVIDIA Build API | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-xwjhm8i6?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [让长对话里的 LLM 不掉链子 —— 用一句 prompt 强制它维护自己的知识结构](case-wd5unn38.md) | 一个能显著改善长对话表现的 prompt 技巧：让模型每轮在回复结尾显式输出『当前知识结构』，把本该隐式的内部状态外化进文本，下一轮推理因此能拿这个结构去对齐新输入。附原理（注意力机制通俗版）、三种实现、用了 vs 没用的对比演示。 | 其他 | 任意 LLM 对话工具（Claude / ChatGPT / Cursor 等），无需代码 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-wd5unn38?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [从一句话需求到可运行的客服机器人](case-o9cfvknt.md) | 一次完整的人机协作实录：用户带着两份需求文档来，最后得到一个 56 个测试全绿、可切换真实 AI 的电商客服机器人。 | 其他 | Python, FastAPI, DeepSeek, pytest, Mermaid | 中级 | [完整案例](https://agentcaseshare.cn/tasks/case-o9cfvknt?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
