@@ -64,6 +64,7 @@ tags:
 - [第 2 课：安装、工作目录与安全边界](https://agentcaseshare.cn/articles/article-jbsj6l7q)
 - [第 3 课：完成第一个可运行成果](https://agentcaseshare.cn/articles/article-uymw3ga4)
 - [第 4 课：写出一个好任务](https://agentcaseshare.cn/articles/article-7134f38t)
+- [第 5 课：让 Codex 学会一门手艺：什么是 Skill](https://agentcaseshare.cn/articles/article-8ko82xwt)
 
 ---
 
