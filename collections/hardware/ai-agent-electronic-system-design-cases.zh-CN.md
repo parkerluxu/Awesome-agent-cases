@@ -306,3 +306,56 @@
 | NVIDIA Agent Toolkit（PhysicsNeMo + CUDA-X） | 产品发布 | NVIDIA 扩展 Agent Toolkit，集成 PhysicsNeMo 与 CUDA-X 库，用于工程、设计与构建 | https://news.google.com/rss/articles/CBMigAJBVV95cUxOZXhNSW9TSjVybFBBN1BJT3l2N0l0RDJIRDJ5bjZzR1RfUUFoZEpZNU5FVlpRUHVNenNPbGR5X0l2b2dVeHV0dDhoZHhqS2c0a29yOXZ3V2FtRElzRGs2a1NidmlIVWRMOS1ka19iaERsQnk3WUVQdURqQWlDdWk4VWZqWHFXUjhLVWpBNWVJOTBHOVZIbWxQVFJzQUJuVmE1ZjNzWDFGcldEOFJ3bVFJZDg4QkNKUmtIcG5lRVQwUU5uVkUxRHBxbWljeDVWWWs5azh0OWxKekdDWENoQ3RVeVB1TzVtVFdkODNMM1FNT3lha1hiY1RCRmRkN1F0aVhW?oc=5 |
 | NVIDIA Nemotron 3 Ultra | 模型发布 | 在 Agentic RTL 编码任务中，NVIDIA Nemotron 3 Ultra 在准确性和效率上领先开放模型 | https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTjRHTzBSZnFuV21LQVc2Um4yZXhRdllldkd4VGRRdFdRZXN1eU83SER4VzRkU0RRZkVZbVVqRFVrc2VBUnF2Wmc0cXlqNVBGUVRWcU1pRDRwR2VyNTUybzRvX2RXdFJ3a2dGN243cS00d09kNllXdkdPSEQzd0FPNy1iT0J5WmpQTFZEamZjY3J4b3hUSDFNamtqZU80WDdqX1lsUkFBeEFVbWdpSE5fWVlIQTlKaFlPMXYwSVFYaGU3RzQ?oc=5 |
 | Synopsys Autonomous Engineering Workflows | 产品发布 | Synopsys 展示基于 NVIDIA 技术开发的从硅到系统的全面自主工程工作流 | https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeTdfZzAwNlFHX2RGRDhJTFRsaW1QTTdyTzRDejNJSm9COFF0XzhuS0RrYXRoYkxYc184Yk16VnBBLUFGRXR4TlFjN2lqNVhWVG1tM2pSQ1pXU2dRWXhCSVEzUjFhaFJZcjFOekVsUmRkaUl3X0ZsVGZ1WlRxZFdvX0ZfQlBNcVZ6UUVmMDBWSU96OGRTSFVpYnRTZmpXZEdtSmNfUlpBUDFQaEcyaWFQNmhhNkFseGw0WC1ON0w2aUlOZDhJTmFGc0FRUmYwMm1qRmNDOUxpQXRGNGNsWE1LQk8zTmF0c2ZLQXdCX3NyYkxzUQ?oc=5 |
+
+## 资料更新（2026-08-22）
+
+以下为新增资料线索，供后续整理与追踪。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| tipoLi5890/akcli | GitHub 项目 | AI 原生原理图设计 Agent，面向 KiCad 的零依赖纯标准库 Python CLI，支持从 JSON 操作列表创建/编辑 .kicad_sch、网表差异安全护栏、ERC/设计/意图/BOM 检查、调用 KiCad 内置 ngspice 仿真、元器件选型与数据手册获取，以及将 Altium .SchDoc/.SchLib/.PcbDoc 只读导入 KiCad | [GitHub](https://github.com/tipoLi5890/akcli) |
+| GittieLabs/hardware-agent-studio | GitHub 项目 | 开源、本地优先的 AI 助手，桥接 PCB 设计（KiCad）与机械 CAD（FreeCAD） | [GitHub](https://github.com/GittieLabs/hardware-agent-studio) |
+| deadbringer17/Copperbrain | GitHub 项目 | Model Context Protocol 服务器，向 LLM Agent 暴露原理图捕获、网表生成、BOM 验证和 PCB 工具链集成能力 | [GitHub](https://github.com/deadbringer17/Copperbrain) |
+| JMET04/aicad-agent | GitHub 项目 | 确定性 CAD/EDA Agent 插件，支持 2D 绘图、AutoCAD、SolidWorks、KiCad，含审查门禁与可审计交付 | [GitHub](https://github.com/JMET04/aicad-agent) |
+| Jie-Xiao-2026/EDA-Copilot-Agent | GitHub 项目 | 本地 EDA 助手，提供确定性工程工具、规则引擎、可追溯工作流、BOM/报告生成及人在回路 Agent 编排 | [GitHub](https://github.com/Jie-Xiao-2026/EDA-Copilot-Agent) |
+| embedded-society/altium-designer-mcp | GitHub 项目 | 用于 AI 辅助管理 Altium Designer 元件库的 MCP 服务器 | [GitHub](https://github.com/embedded-society/altium-designer-mcp) |
+| tscircuit/easyeda-converter | GitHub 项目 | 将 EasyEDA JSON PCB 封装转换为 tscircuit JSON 格式 | [GitHub](https://github.com/tscircuit/easyeda-converter) |
+| tscircuit/tscircuit-autorouter | GitHub 项目 | MIT 许可的 PCB 自动布线器 | [GitHub](https://github.com/tscircuit/tscircuit-autorouter) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| EDATracer: An Agentic Framework for Large-Scale EDA Artifact Analysis | arXiv 论文 | 面向大规模 EDA 工件（源文件、脚本、日志、网表、报告）分析的智能体框架，解决证据分散于多种工件类型与设计阶段的问题 | [arXiv](https://arxiv.org/abs/2608.04032v1) |
+| OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing | arXiv 论文 | 首个大规模 PCB 布线约束感知空间推理多模态基准，评估 LLM 在严格几何、拓扑与电气约束下的布线推理能力 | [arXiv](https://arxiv.org/abs/2608.04434v1) |
+| Open-Source LLM-Driven Formal Verification: A Multi-Agent Pipeline for RTL Repair | arXiv 论文 | 面向 RTL 修复的多智能体流水线，结合形式化证明与全开源工具链，不依赖仿真或商业工具 | [arXiv](https://arxiv.org/abs/2607.28877v1) |
+| AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models | arXiv 论文 | 端到端模拟电路设计框架，覆盖从拓扑生成到尺寸设计的完整流程 | [arXiv](https://arxiv.org/abs/2608.13472v1) |
+| PICopilot: An LLM-based Agentic Framework for Assisting Photonic Integrated Circuit Design via Script Generation | arXiv 论文 | 基于 LLM 的智能体框架，通过脚本生成辅助光子集成电路设计 | [arXiv](https://arxiv.org/abs/2608.01791v3) |
+| NetlistBench: Evaluating LLM Reliability in SPICE Netlist Recognition and Manipulation | arXiv 论文 | 面向 SPICE 网表识别与操作的结构化验证基准，包含 2,342 个案例 | [arXiv](https://arxiv.org/abs/2608.12197v1) |
+| SeqFeed: Improving Agentic RTL Code Generation with Sequential Behavior Feedback | arXiv 论文 | 通过顺序行为反馈改进智能体 RTL 代码生成，解决跨时钟周期信号演化信息的传递问题 | [arXiv](https://arxiv.org/abs/2608.16934v2) |
+| VClare: Resolving Imperfect Specifications in LLM-Based Verilog Generation | arXiv 论文 | 首个针对不完美规格（模糊、矛盾、不完整）的系统性研究，提出自动修复框架以提升 LLM 生成 Verilog 的质量 | [arXiv](https://arxiv.org/abs/2607.24854v1) |
+| Chat Debugging: An Exploratory Study of Human-AI Collaboration to Debug Analog Circuits | arXiv 论文 | 探索性研究：本科生通过对话式 LLM 调试面包板与 PCB 上模拟电路故障的人机协作模式 | [arXiv](https://arxiv.org/abs/2608.02955v1) |
+| NeuroAbs: A Neuro-Symbolic RTL Abstraction Framework for Property Checking Acceleration | arXiv 论文 | 神经-符号 RTL 抽象框架，用于加速属性检查的形式化验证 | [arXiv](https://arxiv.org/abs/2608.17304v1) |
+| ORACLE: A Multi-Objective Reinforcement Learning-Based Analog Circuit Design Optimizer with Large Language Models-Guided Exploration | arXiv 论文 | 基于多目标强化学习与 LLM 引导探索的模拟电路设计优化器，保留真实 Pareto 权衡 | [arXiv](https://arxiv.org/abs/2608.04999v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 唯一国产EDA落地案例亮相DAC！芯和联手联想发布AI Agent：建库效率提升50% | 媒体报道 | 芯和与联想在 DAC 发布国产 EDA AI Agent，宣称建库效率提升 50% | [新浪财经](https://news.google.com/rss/articles/CBMihgFBVV95cUxPelNWWllrSGtXQ0ZDM2g4SE5qRGJNRVRXazNfOE9aclJ3aExrRVpYSUpZZnhldVFXa0g3OXE1OWg4OW85dE42OEx6RXo0Nzc0RTNVdF9McGxreV94Q3MwX0Y2NUJmNlNlbEk0NnJjYzBoRUVNTi10WGdRd0pNUGZFY0xsckRmZw?oc=5) |
+| Siemens Upgrades Its AI Agent to Enable Self-Verifying Agentic AI EDA Workflows | 媒体报道 | 西门子升级 AI Agent，支持自验证的智能体 EDA 工作流 | [All About Circuits](https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGVwTXZhMlpkUGVNdXhEdkxLQWpIcGNfbEVFUVZtdUZHMm1scVN0Q1BpVFFqckthZUVfTGNacDNjUmstdnlGdzBjLUJKcS11dm5MbmdaTTNDNHRWT1hZam4zYjNxbEhDOWVQTTAxZWVqR1hlbExGX3M4WXg3NzVGSVVzeVNkLXctbndZLWN2aktDVnlqT25UZF9nbldvOTdNZUtUeGc2b2RpeFpLM2NkbG9mZWk1NGVhdWc?oc=5) |
+| Cadence Develops Agentic AI Platform for PCB Design | 媒体报道 | Cadence 开发面向 PCB 设计的智能体 AI 平台 | [embedded.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxQa3VLYkpqS2NZV0pPdmVpb09Rc3g4dm1sR25rVElPbUR1clN0dVdrN3VIdVNodExkeno3U2FLWVU5VzR5eWNDUkZDSDlIZXFyNUV1bXdGREdrY09PRV9tNy1xc0J2dFF5cHp4SjdzdUNsWkNVeHpxQ2VNV1JFeDJRSURHTQ?oc=5) |
+| Siemens boosts its EDA with Nvidia AI tools and hardware for agentic engineering of PCBs, semis | 媒体报道 | 西门子借助 NVIDIA AI 工具与硬件增强 EDA，面向 PCB 与半导体的智能体工程 | [Fierce Sensors](https://news.google.com/rss/articles/CBMitAFBVV95cUxPbDF1Njczb3hCeUhnbGxsN3RWQVhUaHNXcDFMendXZGF1MFNHVUl2Ql9IczI1azVUanZjeGl5TUg0ek1uQVhnMHV0OUZ0NWlaQnBZUXVYOHNBRHc5dnZ6RVlpX255UXROa21iQlFoNVlrLWxWM0I5dmxYTG1kR3dNVWJpUVpkMXB0eWpGdzlLMUZHSnl3YlJoSDZ5bVNQVk5Ba3g4YTVVRjBDZ2MyVTMyaUhNSjI?oc=5) |
+| 西门子推进半导体与PCB设计的自验证智能体AI工作流 | 媒体报道 | 西门子推进半导体与 PCB 设计的自验证智能体 AI 工作流（产品特写） | [siscmag.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLRy1UWWhhd2xFRVNYekk3cmQxRzVDa3F5bDdvLWtXNXRlSE5YVEQ2dHI1a2xodzZvRlRjdDFNd19DZnJuM1ZSSVVITjFQd1RNaDNib2RXYw?oc=5) |
+| DAC 2026 Live: AI Chip Design Agents Hit Production as Nobel Laureate Joins the Debate | 媒体报道 | DAC 2026 现场：AI 芯片设计 Agent 进入生产阶段，诺贝尔奖得主参与讨论 | [Tech Times](https://news.google.com/rss/articles/CBMizgFBVV95cUxQdllUc3d5ZDlPLThGc1JxczR5NmhNbnFvN3JOYWFQNU1wTlpKYVcxbHMxN2JkVXhpaU1vUGpNZzFhMnVWc1lZQXNnYm10dHVSN3ZKaEZxNVZBSmZualM5bGlxVi1iRGZRUWozbHNMUjBBRjUyMFZmSDdVTEw3ZWxFME1ObXg0b3diSVpOZXZodWp1bElzTVZnXzhuUUEzMnhRWjR2clQxRkFjTC14MExlcjdtY2xEbzdTMEZVbTAxVGN1RzdpMHlOMk82bHRyZw?oc=5) |
+| NVIDIA Expands Agent Toolkit with PhysicsNeMo and CUDA-X to Advance Autonomous Engineering and Chip Design | 媒体报道 | NVIDIA 扩展 Agent Toolkit，集成 PhysicsNeMo 与 CUDA-X，推进自主工程与芯片设计 | [Quiver Quantitative](https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaDRNVVI1bHNFNDFIZFBOY3R3UjYtX2VXYV83WEJVNDhSYzFuajZXbWtmb1B4NGs2LThBdHFSY1R4QlExNER1NVhCMlF6bEUxSFpIYk41VVUtSzdxZjNUSzMzWGNlNHJIQmdCeHpOLU9zcXduYzZ4cVcwNlA4NS1GRnkxS24xX1c4Y0Y1cTZhcWJGSkZxZDZOaXhyTlNpNXJqVjd4aTU1YlY5bDJfOFJfS2x2MWxOUFpHRXJZUXk1NFJJRzM3UlVfdU5OSDNYNU9jVVJMQk5CalZ0azItYXE3dFljcEpYQnREdUlSa2dfX2Q3UWFxTEY2WXFjUQ?oc=5) |
+| NVIDIA 扩展 Agent Toolkit，集成 PhysicsNeMo 与 CUDA-X 库，重塑全球工程、设计与制造方式 | 媒体报道 | NVIDIA 官方发布：Agent Toolkit 集成 PhysicsNeMo 与 CUDA-X 库 | [NVIDIA](https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdnctRmxwdHBWend6aHVwRGlZVGVMSEJkS1dCYkRRZU5XQURsN0dCNC1tT0tqaGhCcEFrVW1iM1puamZ0cFZxQ0RnRWZ5NDhvVVZJaUY4SWpCQ19PZU1PYWJEVFdqc2d5ZnotMnE1Tl9DeGVpTDl3NDhMalU3VkFjWTRvSC03TV9aeG1QYUYtbE01QTJNSlFlaDNNb3R4cG5ZZ1ZRZjExSm9aZ0JmRXR6TV9xU3pxVi1SY1FkYU5FREk3M29lamljOVNUTkR1SGVraUN5MWIwRThQckZuN0NoS3EwSFhONnZ1NFpmekF1SHFiLVo0QlJuRy1B?oc=5) |
+| 嵌入式IDE变天：开发正在Agent化 | 媒体报道 | 嵌入式 IDE 开发流程的 Agent 化趋势分析 | [blog.csdn.net](https://news.google.com/rss/articles/CBMibkFVX3lxTE1GeDJQcHF0ZlFoQzl5ZkxHYUVXdTlBVnFuSXR3OTdSX2I1eHBGYmxiNlBmZjZsZ2pPLVdGVEo3SURvRDFkdzdHOUsxSFBNN19EZU8zWU9BT3NvRmlBTVpIcDF4MVVtYkpnV3V0aHRR?oc=5) / [36 Kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WM0lqX184YThERTg4OGZiMnNiVHBtWTBrVjlvaXB3dDhRMHU0THRlTnhFMUVHVHFyWDFDVUxwQ05SbHB6OEpKSXJnT3dJUQ?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| 本地运行、支持视觉与工具调用：Meta 开源智能体模型 | 产品资讯 | Meta 开源支持视觉与工具调用的本地运行智能体模型 | [InfoQ](https://www.infoq.cn/article/aGfkSN1YlmLrUQMPea9L?utm_source=rss&utm_medium=article) |

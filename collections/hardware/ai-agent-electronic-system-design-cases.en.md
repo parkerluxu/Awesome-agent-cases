@@ -296,3 +296,53 @@ The following resources were identified after the original article's publication
 | NVIDIA Agent Toolkit with PhysicsNeMo | Product | NVIDIA expands Agent Toolkit with PhysicsNeMo and CUDA-X libraries for engineering, design, and build workflows. | [NVIDIA Newsroom](https://news.google.com/rss/articles/CBMigAJBVV95cUxOZXhNSW9TSjVybFBBN1BJT3l2N0l0RDJIRDJ5bjZzR1RfUUFoZEpZNU5FVlpRUHVNenNPbGR5X0l2b2dVeHV0dDhoZHhqS2c0a29yOXZ3V2FtRElzRGs2a1NidmlIVWRMOS1ka19iaERsQnk3WUVQdURqQWlDdWk4VWZqWHFXUjhLVWpBNWVJOTBHOVZIbWxQVFJzQUJuVmE1ZjNzWDFGcldEOFJ3bVFJZDg4QkNKUmtIcG5lRVQwUU5uVkUxRHBxbWljeDVWWWs5azh0OWxKekdDWENoQ3RVeVB1TzVtVFdkODNMM1FNT3lha1hiY1RCRmRkN1F0aVhW?oc=5) |
 | NVIDIA Nemotron 3 Ultra | Model | Open model leading on accuracy and efficiency in agentic RTL coding. | [NVIDIA Developer](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTjRHTzBSZnFuV21LQVc2Um4yZXhRdllldkd4VGRRdFdRZXN1eU83SER4VzRkU0RRZkVZbVVqRFVrc2VBUnF2Wmc0cXlqNVBGUVRWcU1pRDRwR2VyNTUybzRvX2RXdFJ3a2dGN243cS00d09kNllXdkdPSEQzd0FPNy1iT0J5WmpQTFZEamZjY3J4b3hUSDFNamtqZU80WDdqX1lsUkFBeEFVbWdpSE5fWVlIQTlKaFlPMXYwSVFYaGU3RzQ?oc=5) |
 | Synopsys Autonomous Engineering Workflows | Product | Synopsys showcases comprehensive autonomous engineering workflows from silicon to systems, developed with NVIDIA technology. | [Synopsys](https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeTdfZzAwNlFHX2RGRDhJTFRsaW1QTTdyTzRDejNJSm9COFF0XzhuS0RrYXRoYkxYc184Yk16VnBBLUFGRXR4TlFjN2lqNVhWVG1tM2pSQ1pXU2dRWXhCSVEzUjFhaFJZcjFOekVsUmRkaUl3X0ZsVGZ1WlRxZFdvX0ZfQlBNcVZ6UUVmMDBWSU96OGRTSFVpYnRTZmpXZEdtSmNfUlpBUDFQaEcyaWFQNmhhNkFseGw0WC1ON0w2aUlOZDhJTmFGc0FRUmYwMm1qRmNDOUxpQXRGNGNsWE1LQk8zTmF0c2ZLQXdCX3NyYkxzUQ?oc=5) |
+
+## Resource Update (2026-08-22)
+
+The following resources were identified after the original article's publication and represent new leads for AI-agent-driven electronic system design.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| tipoLi5890/akcli | GitHub project | AI-native schematic design agent for KiCad (zero-dependency pure-stdlib Python CLI). Authors and edits `.kicad_sch` from JSON op-lists with net-diff safety rails, runs ERC/design/intent/BOM checks, simulates via KiCad's bundled ngspice, sources real parts, fetches datasheets, and imports Altium `.SchDoc`/`.SchLib`/`.PcbDoc` read-only into KiCad. | [github.com/tipoLi5890/akcli](https://github.com/tipoLi5890/akcli) |
+| GittieLabs/hardware-agent-studio | GitHub project | Open-source, local-first AI assistant bridging PCB design (KiCad) and Mechanical CAD (FreeCAD). | [github.com/GittieLabs/hardware-agent-studio](https://github.com/GittieLabs/hardware-agent-studio) |
+| deadbringer17/Copperbrain | GitHub project | Model Context Protocol server exposing schematic capture, netlist generation, BOM validation, and PCB toolchain integration to LLM agents. | [github.com/deadbringer17/Copperbrain](https://github.com/deadbringer17/Copperbrain) |
+| JMET04/aicad-agent | GitHub project | Deterministic CAD/EDA agent plugin for 2D drawings, AutoCAD, SolidWorks, KiCad, with review gates and auditable delivery. | [github.com/JMET04/aicad-agent](https://github.com/JMET04/aicad-agent) |
+| Jie-Xiao-2026/EDA-Copilot-Agent | GitHub project | Local EDA assistant with deterministic engineering tools, rule engine, traceable workflows, BOM/report generation, and human-in-the-loop agent orchestration. | [github.com/Jie-Xiao-2026/EDA-Copilot-Agent](https://github.com/Jie-Xiao-2026/EDA-Copilot-Agent) |
+| embedded-society/altium-designer-mcp | GitHub project | MCP server for AI-assisted management of Altium Designer component libraries. | [github.com/embedded-society/altium-designer-mcp](https://github.com/embedded-society/altium-designer-mcp) |
+| tscircuit/easyeda-converter | GitHub project | Converts EasyEDA JSON PCB footprints into tscircuit JSON. | [github.com/tscircuit/easyeda-converter](https://github.com/tscircuit/easyeda-converter) |
+| tscircuit/tscircuit-autorouter | GitHub project | State-of-the-art MIT-licensed PCB autorouter. | [github.com/tscircuit/tscircuit-autorouter](https://github.com/tscircuit/tscircuit-autorouter) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| EDATracer | arXiv paper | Agentic framework for large-scale EDA artifact analysis (source files, scripts, logs, netlists, reports) across heterogeneous design stages. | [arxiv.org/abs/2608.04032v1](https://arxiv.org/abs/2608.04032v1) |
+| OmniRouting | arXiv paper / benchmark | First large-scale benchmark for constraint-aware spatial reasoning in PCB routing, evaluating LLMs under geometric, topological, and electrical constraints. | [arxiv.org/abs/2608.04434v1](https://arxiv.org/abs/2608.04434v1) |
+| Open-Source LLM-Driven Formal Verification | arXiv paper | Multi-agent pipeline for RTL repair combining formal proof with an entirely open-source toolchain. | [arxiv.org/abs/2607.28877v1](https://arxiv.org/abs/2607.28877v1) |
+| AaLLM | arXiv paper | End-to-end analog circuit design framework from topology generation to sizing using LLMs. | [arxiv.org/abs/2608.13472v1](https://arxiv.org/abs/2608.13472v1) |
+| PICopilot | arXiv paper | LLM-based agentic framework for photonic integrated circuit design via script generation. | [arxiv.org/abs/2608.01791v3](https://arxiv.org/abs/2608.01791v3) |
+| NetlistBench | arXiv paper / benchmark | Structure-verified benchmark (2,342 cases) for evaluating LLM reliability in SPICE netlist recognition and manipulation. | [arxiv.org/abs/2608.12197v1](https://arxiv.org/abs/2608.12197v1) |
+| SeqFeed | arXiv paper | Improves agentic RTL code generation with sequential behavior feedback across clock cycles. | [arxiv.org/abs/2608.16934v2](https://arxiv.org/abs/2608.16934v2) |
+| VClare | arXiv paper | Framework for resolving imperfect specifications (vagueness, contradictions, incompleteness) in LLM-based Verilog generation. | [arxiv.org/abs/2607.24854v1](https://arxiv.org/abs/2607.24854v1) |
+| Chat Debugging | arXiv paper | Exploratory study of human-AI collaboration for debugging analog circuits on breadboards and PCBs via LLM conversations. | [arxiv.org/abs/2608.02955v1](https://arxiv.org/abs/2608.02955v1) |
+| NeuroAbs | arXiv paper | Neuro-symbolic RTL abstraction framework for property checking acceleration. | [arxiv.org/abs/2608.17304v1](https://arxiv.org/abs/2608.17304v1) |
+| ORACLE | arXiv paper | Multi-objective reinforcement learning-based analog circuit design optimizer with LLM-guided exploration. | [arxiv.org/abs/2608.04999v1](https://arxiv.org/abs/2608.04999v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| DAC 2026 Live: AI Chip Design Agents Hit Production | News article | Coverage of AI chip design agents reaching production status at DAC 2026, with Nobel Laureate joining the debate. | [Tech Times](https://news.google.com/rss/articles/CBMizgFBVV95cUxQdllUc3d5ZDlPLThGc1JxczR5NmhNbnFvN3JOYWFQNU1wTlpKYVcxbHMxN2JkVXhpaU1vUGpNZzFhMnVWc1lZQXNnYm10dHVSN3ZKaEZxNVZBSmZualM5bGlxVi1iRGZRUWozbHNMUjBBRjUyMFZmSDdVTEw3ZWxFME1ObXg0b3diSVpOZXZodWp1bElzTVZnXzhuUUEzMnhRWjR2clQxRkFjTC14MExlcjdtY2xEbzdTMEZVbTAxVGN1RzdpMHlOMk82bHRyZw?oc=5) |
+| 嵌入式IDE变天：开发正在Agent化 | Blog article | Discussion of how embedded IDEs are becoming agentized (Chinese-language source). | [blog.csdn.net](https://news.google.com/rss/articles/CBMibkFVX3lxTE1GeDJQcHF0ZlFoQzl5ZkxHYUVXdTlBVnFuSXR3OTdSX2I1eHBGYmxiNlBmZjZsZ2pPLVdGVEo3SURvRDFkdzdHOUsxSFBNN19EZU8zWU9BT3NvRmlBTVpIcDF4MVVtYkpnV3V0aHRR?oc=5) / [36 Kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WM0lqX184YThERTg4OGZiMnNiVHBtWTBrVjlvaXB3dDhRMHU0THRlTnhFMUVHVHFyWDFDVUxwQ05SbHB6OEpKSXJnT3dJUQ?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Siemens AI Agent Upgrade | Product news | Siemens upgrades its AI agent to enable self-verifying agentic AI EDA workflows. | [All About Circuits](https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGVwTXZhMlpkUGVNdXhEdkxLQWpIcGNfbEVFUVZtdUZHMm1scVN0Q1BpVFFqckthZUVfTGNacDNjUmstdnlGdzBjLUJKcS11dm5MbmdaTTNDNHRWT1hZam4zYjNxbEhDOWVQTTAxZWVqR1hlbExGX3M4WXg3NzVGSVVzeVNkLXctbndZLWN2aktDVnlqT25UZF9nbldvOTdNZUtUeGc2b2RpeFpLM2NkbG9mZWk1NGVhdWc?oc=5) |
+| Siemens + NVIDIA EDA Integration | Product news | Siemens boosts its EDA with NVIDIA AI tools and hardware for agentic engineering of PCBs and semiconductors. | [Fierce Sensors](https://news.google.com/rss/articles/CBMitAFBVV95cUxPbDF1Njczb3hCeUhnbGxsN3RWQVhUaHNXcDFMendXZGF1MFNHVUl2Ql9IczI1azVUanZjeGl5TUg0ek1uQVhnMHV0OUZ0NWlaQnBZUXVYOHNBRHc5dnZ6RVlpX255UXROa21iQlFoNVlrLWxWM0I5dmxYTG1kR3dNVWJpUVpkMXB0eWpGdzlLMUZHSnl3YlJoSDZ5bVNQVk5Ba3g4YTVVRjBDZ2MyVTMyaUhNSjI?oc=5) |
+| Cadence Agentic AI Platform for PCB Design | Product news | Cadence develops an agentic AI platform for PCB design. | [embedded.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxQa3VLYkpqS2NZV0pPdmVpb09Rc3g4dm1sR25rVElPbUR1clN0dVdrN3VIdVNodExkeno3U2FLWVU5VzR5eWNDUkZDSDlIZXFyNUV1bXdGREdrY09PRV9tNy1xc0J2dFF5cHp4SjdzdUNsWkNVeHpxQ2VNV1JFeDJRSURHTQ?oc=5) |
+| NVIDIA Agent Toolkit Expansion | Product news | NVIDIA expands its Agent Toolkit with PhysicsNeMo and CUDA-X libraries for autonomous engineering and chip design. | [Quiver Quantitative](https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaDRNVVI1bHNFNDFIZFBOY3R3UjYtX2VXYV83WEJVNDhSYzFuajZXbWtmb1B4NGs2LThBdHFSY1R4QlExNER1NVhCMlF6bEUxSFpIYk41VVUtSzdxZjNUSzMzWGNlNHJIQmdCeHpOLU9zcXduYzZ4cVcwNlA4NS1GRnkxS24xX1c4Y0Y1cTZhcWJGSkZxZDZOaXhyTlNpNXJqVjd4aTU1YlY5bDJfOFJfS2x2MWxOUFpHRXJZUXk1NFJJRzM3UlVfdU5OSDNYNU9jVVJMQk5CalZ0azItYXE3dFljcEpYQnREdUlSa2dfX2Q3UWFxTEY2WXFjUQ?oc=5) / [NVIDIA (Chinese)](https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdnctRmxwdHBWend6aHVwRGlZVGVMSEJkS1dCYkRRZU5XQURsN0dCNC1tT0tqaGhCcEFrVW1iM1puamZ0cFZxQ0RnRWZ5NDhvVVZJaUY4SWpCQ19PZU1PYWJEVFdqc2d5ZnotMnE1Tl9DeGVpTDl3NDhMalU3VkFjWTRvSC03TV9aeG1QYUYtbE01QTJNSlFlaDNNb3R4cG5ZZ1ZRZjExSm9aZ0JmRXR6TV9xU3pxVi1SY1FkYU5FREk3M29lamljOVNUTkR1SGVraUN5MWIwRThQckZuN0NoS3EwSFhONnZ1NFpmekF1SHFiLVo0QlJuRy1B?oc=5) |
+| 芯和 (Xpeedic) + Lenovo AI Agent | Product news | Chinese EDA vendor Xpeedic and Lenovo release an AI Agent at DAC 2026, claiming 50% library-building efficiency improvement. | [新浪财经](https://news.google.com/rss/articles/CBMihgFBVV95cUxPelNWWllrSGtXQ0ZDM2g4SE5qRGJNRVRXazNfOE9aclJ3aExrRVpYSUpZZnhldVFXa0g3OXE1OWg4OW85dE42OEx6RXo0Nzc0RTNVdF9McGxreV94Q3MwX0Y2NUJmNlNlbEk0NnJjYzBoRUVNTi10WGdRd0pNUGZFY0xsckRmZw?oc=5) |

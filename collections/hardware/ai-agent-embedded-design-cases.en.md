@@ -305,3 +305,57 @@ The following resources were discovered after the original article was published
 | 国产EDA率先落地AI智能体实战应用 | shobserver.cn | Domestic EDA tool with AI agent integration: 50%+ design optimization, 80%+ simulation speedup | [Link](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WUnZMTlJGcnU5QVJrZEE3RVpLcE9YSVJwUndOamtXWXdwQ0w3dnZVWjcydm53TVVMYW1uQk43MmY3NHZWXzhqZXJkUjVZUEJ1a1N0Q0FEM0FabmNr?oc=5) |
 | Ontologies Are So Back | latent.space | Essay on why AI agents are reviving the semantic web — ontologies keep probabilistic agents inside deterministic boundaries | [Link](https://www.latent.space/p/ontologies-agentic-systems) |
 | Anatomy of a Frontier Lab Agent Intrusion | Hugging Face | Technical timeline of the July 2026 agent intrusion incident at a frontier lab | [Link](https://huggingface.co/blog/agent-intrusion-technical-timeline) |
+
+## Resource Update (2026-08-22)
+
+The following resources were discovered after the original article was published. They are grouped by content type and represent new leads for AI-agent embedded development.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| garycli/garycli | GitHub | AI-native embedded engineering agent — from natural-language requirements to code, build, flash, runtime validation, diagnosis and repair. 142 stars. | [Link](https://github.com/garycli/garycli) |
+| puritysb/AgentDeck | GitHub | Physical controller & multi-surface dashboard for AI coding agents — Stream Deck+, Android, iOS/macOS, ESP32 displays, TUI. 205 stars. | [Link](https://github.com/puritysb/AgentDeck) |
+| qarnet/serial-mcp | GitHub | Serial port MCP server for Claude Code, Codex, Opencode and AI agents. Reliable UART/USB-serial access for embedded development. | [Link](https://github.com/qarnet/serial-mcp) |
+| JosephR26/esp32-devops-mcp | GitHub | AI-powered ESP32 development automation for Claude Code — build, flash, benchmark, and test with natural language commands. | [Link](https://github.com/JosephR26/esp32-devops-mcp) |
+| NotchStone/FirmForge | GitHub | MCP & CLI firmware verification toolchain for AI-agent MCU programming. 5-stage pipeline Detect→Review→Build→Flash→Verify with real-hardware compile, flash & serial readback on ATmega328P/2560. | [Link](https://github.com/NotchStone/FirmForge) |
+| MoRiv447/Firment | GitHub | Embedded development runtime for AI coding agents — build, flash, monitor, debug, and interact with real hardware. | [Link](https://github.com/MoRiv447/Firment) |
+| LucaZhang7784/stackchan-fusion | GitHub | StackChan desktop robot xiaozhi voice bridge to local AI agents (agy/pi/claude/codex) via MCP Toolkit. | [Link](https://github.com/LucaZhang7784/stackchan-fusion) |
+| Joho6666/xiaozhi-windows-agent | GitHub | XiaoZhi Windows MCP Agent Bridge: ESP32 voice control of Windows PC, software operation, file read/write, multimodal screen vision, Shell execution and local AI agent scheduling. | [Link](https://github.com/Joho6666/xiaozhi-windows-agent) |
+| timzenxia/ai-passport-skill | GitHub | Claude Code agent skill for developing firmware on the FoloToy AI Passport (ESP32-C3 wearable AI hardware). | [Link](https://github.com/timzenxia/ai-passport-skill) |
+| BigQ749/trae-k2-remote | GitHub | TRAE K2: turn the FoloToy TRAE AI Passport contest badge into a BLE HID remote (闪电说 + PPT). Agent-ready from-zero guide. | [Link](https://github.com/BigQ749/trae-k2-remote) |
+| ristllin/Nimbus | GitHub | Ambient status light and desk-side AI agent on an ESP32-S3: LED ring + e-ink or touch display, voice, Telegram, bring-your-own-key (Mistral/OpenAI/Anthropic). | [Link](https://github.com/ristllin/Nimbus) |
+| DemoJustLuGuo/STM32F407-AI-develop-workflows | GitHub | AI development workflows for STM32F407ZGT6 board, optimized for AI coding agents: workspace structure design, Markdown-first reading, local dependency and minimal project preparation. | [Link](https://github.com/DemoJustLuGuo/STM32F407-AI-develop-workflows) |
+| saeedb1377/local-ai-mcu-agent | GitHub | AI agent operates STM32 boards via whitelisted UART commands. On-device alarm latching, 2 Hz supervisor, error recovery, sensor log analysis. Local LLM, no cloud. | [Link](https://github.com/saeedb1377/local-ai-mcu-agent) |
+| dwatman/mcuscope | GitHub | Serial debug bridge for MCUs: filtered views, graphs, markers, web UI, and a CLI for AI agents. | [Link](https://github.com/dwatman/mcuscope) |
+| qagent567/esp_google_ai | GitHub | Connect Google Gemini AI to ESP32: Vision, Function Calling, Web Dashboard, SSE Streaming, FreeRTOS & Smart DNS. | [Link](https://github.com/qagent567/esp_google_ai) |
+| dg-edcharbeneau/esp32-deepgram-voice-agent | GitHub | Deepgram Voice Agent API on the Waveshare ESP32-S3-Touch-AMOLED-1.75C: mic → STT/LLM/TTS → speaker over one WebSocket, with a radial spectrum analyzer UI. | [Link](https://github.com/dg-edcharbeneau/esp32-deepgram-voice-agent) |
+| LEO-Ricardo20/MetaCore-Studio | GitHub | AI-assisted embedded and IoT development platform for hardware design, firmware generation, and local project analysis. | [Link](https://github.com/LEO-Ricardo20/MetaCore-Studio) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark | arXiv | Benchmark for evaluating agentic reverse engineering on binaries (malware, firmware, proprietary apps) where source code is unavailable. Addresses contamination-free evaluation of agentic RE. | [Link](https://arxiv.org/abs/2608.11469v1) |
+| A Fully Automated, Deployment-Aware Testing Pipeline for IoT-Based Automotive Applications | arXiv | End-to-end, deployment-aware testing pipeline for IoT-based automotive applications combining requirement-driven test/code generation with LLM and VLM assistance and human-in-the-loop curation. | [Link](https://arxiv.org/abs/2608.19752v1) |
+| CL4D: Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynamic Scenes | arXiv | First foundational 4D vision encoder for embodied AI agents operating in dynamic physical environments, jointly capturing spatial structure and motion evolution. | [Link](https://arxiv.org/abs/2608.18734v1) |
+| HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety | arXiv | Lifecycle-oriented benchmark organizing agent harness safety into six operational phases, covering tools, extensions, persistent state, permissions, and external actions. | [Link](https://arxiv.org/abs/2608.17597v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AI Agent Rewrites Arduino Code | Open Source For You | Article covering an AI agent rewriting Arduino code. | [Link](https://news.google.com/rss/articles/CBMiekFVX3lxTFBnaGRwOVQtb19RX2RMNEV0VmJDaFJyNG9lUjF5MGF3OVl0amJSX3JyVUZuWlNNZGR3VEtLdFdrZnJtUHdoMGFyOVF5V04xdzZSX0ttVXBsTko4MW84Y01Vb19EdF93Smh5bWYyVmZqOWF0X1dPb2p4X2ln?oc=5) |
+| Running an AI agent on an MCU: SCINTIX P4 meets ESP-Claw | Hackster.io | Article on running an AI agent on an MCU using SCINTIX P4 with ESP-Claw. | [Link](https://news.google.com/rss/articles/CBMilwFBVV95cUxOMmQxbnN6SkRCV1l1OHU1WFd0bXl3ZFp3bmJMTTRVbWlJV1RGdGNPcWFjaGNzTEF1d09OSEJwMFdEeWJ6UjdpVk9tYW0tRzVrQ1BpT19TdUVYTVgwX0FpTTI3QnBwWlYwVXJqaUlsOE1kUkluWnNKOC1DUjdEX01saUJBeUotY2RFLXZtc01jMDlkMDVGREY4?oc=5) |
+| 28.9M-parameter LLM runs locally on ESP32-S3 at 9 tokens/s | CNX Software | Report on running a 28.9M-parameter LLM locally on ESP32-S3 at 9 tokens/s. | [Link](https://news.google.com/rss/articles/CBMioAFBVV95cUxOYThaZDJTajB5SHd0Z3I1TVBqT2REM2tvd2JhWlRRS0hpOHZ6Q0VGSG40Sl9KaW1tamRoTHZBR2JiQkE2N3BFamlIdVF3dWpsZ2RWN0xoTnZOREc0aGwxN2FEVnljejE3NHU5OTFDcTFzZzJhd1lybW9mM25RWDd2OE1TVDdPckJiZkk1aEFUYWpYRzM3aEZDQ01rRU5ZeDhz0gGoAUFVX3lxTE1HVjRwT05PWG9NLVNNVDZRYXBSUXBubzIydWd6MkdGelp2RmthY3pXeWpRNXpWWVJLSDM2TGNCZW45aUk2YW9USF9vQTZYZl9jQVBmaHdYV0NDcWxPVXJLOGg0UzBfRjhqU3VHRWx6Tm9yTTlqVjctRHFXb2VVUGR6Qkp0VHN1WVRWQnhKSk43VDk3UUlFM2d6R2hrS3JESlhMd0tySzZlRw?oc=5) |
+| LLM Runs on $8 ESP32 Chip — 9.5 Tokens/Sec, No Cloud | Machine Brief | Report on running an LLM on an $8 ESP32 chip at 9.5 tokens/sec without cloud. | [Link](https://news.google.com/rss/articles/CBMirwFBVV95cUxNVGVxNHozaTdoTllYWG1aV0JFWjBRRktWaDVNSXQyLTJRNjM2b2FaVFpLb0ozQzFOWGdxSnpBWTJ3bkZMVU1xT0dLTnVDNTNLYXNyT1d5SndjSEwwRG9VbXNzMTh4ZTRRQnhCNnZUeWwzUjFmVlFGMkdwSGJCRV9xa3piSlJvQkpmdkxlVXZiQmZoOWtIZmMxajVOUWlkM2xRSHZlcWpKaUNiSnVIOEx3?oc=5) |
+| 一块 ESP32 凭什么跟你"唠嗑"？ 两套真实跑通的语音方案拆给你看 | 稀土掘金 | Chinese article dissecting two real-world voice solutions for ESP32 conversational AI. | [Link](https://news.google.com/rss/articles/CBMiVEFVX3lxTE4waUMySU5DVl9Gb2d0WEVrZ2pUNjZScGNxa0N0bXBEQzdlOXZ0RmpvSFRmS1RMMUlfZXJ2UnB3ZlVkbWRsZFp6S1JOR3lUU1k3WkFIaA?oc=5) |
+| Optimizing Inference Performance for the Open-Weight LLM GLM-5.1 | Embedded Computing Design | Article on optimizing inference performance for the open-weight LLM GLM-5.1. | [Link](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ0hveWVZTmhVbks4Mk9IQWVUdmE3TGNtR1VIb0NpVDRIRlpPbUdPQ0lkYjRCOW9zb3NBa2ZldWRPaENOWFlBTHFYUGV1RlotNkdmeEp2cjFUT1lWN3dycVY5OXFIeWg3QWJydENUcHczdzRpQnlmM3BTcHJXSlZBbGdCd0dxTnQxWjg0ZUttQTQ2XzVNSVFzazJmY0hsRjBrT2pZeW1FdEVtVWRJTkNmSHpsQnNNcjJRU25MQ0NNNFM?oc=5) |
+| 嵌入式IDE变天：开发正在Agent化 | 电子工程专辑 | Chinese article on how embedded IDEs are being transformed by agent-based development. | [Link](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LVGJxejMyZl9oQTNXSEw0TG5yYlVERzh0QUM3OXNoeDl3TjRqVnlVU0d2Z1RnSGl1TXJIMndndjR2SFVwR2daRHRWUkZEUExqR2dZ?oc=5) |
+| 从趋势到落地：百语，面向智能硬件的语音Agent全栈服务平台 | beareyes.com.cn | Chinese article on Baiyu, a full-stack voice agent service platform for smart hardware. | [Link](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSWtnNFZhaXRRMktZZWRQQlpMQWJlcS1meWkwZndTNkE4a0VYVFcyZm4xeHBJbjNVSElUZHcwZ0IyWTNQOXlmNEV0aHYxLUZuWE5rUno0Mkl6SUxjemJtQWU3WjNWdw?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenConnector | Open-source connector gateway | Open-source connector gateway enabling AI agents to securely call 1000+ SaaS services. Solves authentication management, permission control, interface adaptation, and runtime auditing. Provides standardized Actions to agents. | [Link](https://www.oschina.net/news/502067/oomol-lab-open-connector) |

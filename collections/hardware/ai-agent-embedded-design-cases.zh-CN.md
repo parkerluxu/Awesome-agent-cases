@@ -316,3 +316,57 @@
 | Codex from 0 to 10M Users: Building ChatGPT Work | latent.space | OpenAI 产品工程负责人访谈，讨论 ChatGPT Work 的构建，涉及 Sites、OpenClaw、Memory、Subagents、Finance、No-Code 等 | https://www.latent.space/p/chatgpt-work |
 | Agent 成本失控背后：上下文、人工审核与维护成本正在被低估 | InfoQ | 讨论 Agent 实际运行成本被低估的问题，涉及上下文、人工审核与维护成本 | https://www.infoq.cn/article/x4PTF8mgDBvtQQYa8B97?utm_source=rss&utm_medium=article |
 | Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident | Hugging Face Blog | 2026 年 7 月前沿实验室 Agent 入侵事件的技术时间线分析 | https://huggingface.co/blog/agent-intrusion-technical-timeline |
+
+## 资料更新（2026-08-22）
+
+以下为新增资料线索，按内容类型分组，供后续整理参考。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| garycli/garycli | GitHub 项目 | AI 原生嵌入式工程 Agent，从自然语言需求到代码、构建、烧录、运行时验证、诊断与修复，支持 STM32，142 Stars | https://github.com/garycli/garycli |
+| puritysb/AgentDeck | GitHub 项目 | AI 编码 Agent 的物理控制器与多端仪表盘，支持 Stream Deck+、Android、iOS/macOS、ESP32 显示屏与 TUI，205 Stars | https://github.com/puritysb/AgentDeck |
+| qarnet/serial-mcp | GitHub 项目 | 面向 Claude Code、Codex、Opencode 等 AI Agent 的串口 MCP 服务器，提供可靠的 UART/USB 串口访问能力 | https://github.com/qarnet/serial-mcp |
+| JosephR26/esp32-devops-mcp | GitHub 项目 | 面向 Claude Code 的 ESP32 开发自动化 MCP，支持自然语言构建、烧录、基准测试与测试 | https://github.com/JosephR26/esp32-devops-mcp |
+| NotchStone/FirmForge | GitHub 项目 | AI Agent MCU 编程的固件验证工具链（MCP & CLI），五阶段流水线：检测→审查→构建→烧录→验证，支持 ATmega328P/2560（Arduino UNO/Nano/Mega2560），含双编译路径与 Modbus RTU 调试 | https://github.com/NotchStone/FirmForge |
+| MoRiv447/Firment | GitHub 项目 | 面向 AI 编码 Agent 的嵌入式开发运行时，支持构建、烧录、监控、调试及与真实硬件交互 | https://github.com/MoRiv447/Firment |
+| LucaZhang7784/stackchan-fusion | GitHub 项目 | StackChan 桌面机器人 × 小智语音桥接，通过 MCP Toolkit 连接本地 AI Agent（agy/pi/claude/codex），实现双向语音交互 | https://github.com/LucaZhang7784/stackchan-fusion |
+| Joho6666/xiaozhi-windows-agent | GitHub 项目 | 小智 ESP32 语音控制 Windows 电脑的 MCP Agent 桥接，支持操作软件、读写文件、多模态屏幕视觉、执行 Shell 与调度本地 AI Agent | https://github.com/Joho6666/xiaozhi-windows-agent |
+| timzenxia/ai-passport-skill | GitHub 项目 | 面向 FoloToy AI Passport（ESP32-C3 可穿戴 AI 硬件）的 Claude Code Agent skill，用于固件开发 | https://github.com/timzenxia/ai-passport-skill |
+| BigQ749/trae-k2-remote | GitHub 项目 | 将 FoloToy TRAE AI Passport 竞赛徽章改造为 BLE HID 遥控器（翻页笔 + PPT），提供 Agent 友好的从零指南 | https://github.com/BigQ749/trae-k2-remote |
+| ristllin/Nimbus | GitHub 项目 | 基于 ESP32-S3 的环境状态灯与桌面 AI Agent：LED 环 + 电子墨水屏或触摸屏，支持语音、Telegram，可自备密钥接入 Mistral/OpenAI/Anthropic | https://github.com/ristllin/Nimbus |
+| DemoJustLuGuo/STM32F407-AI-develop-workflows | GitHub 项目 | 面向 STM32F407ZGT6 的 AI 开发工作流，针对 AI coding agent 做了工作区结构、Markdown 优先读取、本地依赖与最小工程等优化 | https://github.com/DemoJustLuGuo/STM32F407-AI-develop-workflows |
+| saeedb1377/local-ai-mcu-agent | GitHub 项目 | 通过白名单 UART 命令操作 STM32 开发板的本地 AI Agent，支持板载报警锁存、2Hz 监督、错误恢复与传感器日志分析，本地 LLM，无云端依赖 | https://github.com/saeedb1377/local-ai-mcu-agent |
+| dwatman/mcuscope | GitHub 项目 | MCU 串口调试桥接工具：过滤视图、图表、标记、Web UI，并提供面向 AI Agent 的 CLI | https://github.com/dwatman/mcuscope |
+| qagent567/esp_google_ai | GitHub 项目 | 将 Google Gemini AI 接入 ESP32：视觉、函数调用、Web 仪表盘、SSE 流式传输、FreeRTOS 与智能 DNS | https://github.com/qagent567/esp_google_ai |
+| dg-edcharbeneau/esp32-deepgram-voice-agent | GitHub 项目 | 在 Waveshare ESP32-S3-Touch-AMOLED-1.75C 上运行 Deepgram Voice Agent API：麦克风→STT/LLM/TTS→扬声器，单 WebSocket 连接，带径向频谱分析仪 UI | https://github.com/dg-edcharbeneau/esp32-deepgram-voice-agent |
+| LEO-Ricardo20/MetaCore-Studio | GitHub 项目 | AI 辅助嵌入式与 IoT 开发平台，支持硬件设计、固件生成与本地工程分析 | https://github.com/LEO-Ricardo20/MetaCore-Studio |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark | arXiv 论文 | 提出面向 Agent 逆向工程能力的基准，聚焦恶意软件、固件与专有应用等二进制场景下的程序语义恢复评估，强调基准实例须对 Agent 不可见（无污染） | https://arxiv.org/abs/2608.11469v1 |
+| A Fully Automated, Deployment-Aware Testing Pipeline for IoT-Based Automotive Applications | arXiv 论文 | 面向 IoT 汽车应用的端到端部署感知测试流水线，结合 LLM/VLM 辅助的需求驱动测试与代码生成，以及人在回路审核 | https://arxiv.org/abs/2608.19752v1 |
+| CL4D: Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynamic Scenes | arXiv 论文 | 面向具身 AI Agent 的 4D 视觉编码器，联合捕捉动态场景中的空间结构与运动演化，支持视觉-语言推理 | https://arxiv.org/abs/2608.18734v1 |
+| HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety | arXiv 论文 | 面向 Agent harness 安全的生命周期基准，将安全失败按六个运维阶段组织，覆盖工具、扩展、持久状态、权限与外部动作管理 | https://arxiv.org/abs/2608.17597v1 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AI Agent Rewrites Arduino Code | 媒体文章（Open Source For You） | 报道 AI Agent 重写 Arduino 代码的实践 | https://news.google.com/rss/articles/CBMiekFVX3lxTFBnaGRwOVQtb19RX2RMNEV0VmJDaFJyNG9lUjF5MGF3OVl0amJSX3JyVUZuWlNNZGR3VEtLdFdrZnJtUHdoMGFyOVF5V04xdzZSX0ttVXBsTko4MW84Y01Vb19EdF93Smh5bWYyVmZqOWF0X1dPb2p4X2ln?oc=5 |
+| Running an AI agent on an MCU: SCINTIX P4 meets ESP-Claw | 媒体实测（Hackster.io） | 在 MCU 上运行 AI Agent 的实测：SCINTIX P4 与 ESP-Claw 结合 | https://news.google.com/rss/articles/CBMilwFBVV95cUxOMmQxbnN6SkRCV1l1OHU1WFd0bXl3ZFp3bmJMTTRVbWlJV1RGdGNPcWFjaGNzTEF1d09OSEJwMFdEeWJ6UjdpVk9tYW0tRzVrQ1BpT19TdUVYTVgwX0FpTTI3QnBwWlYwVXJqaUlsOE1kUkluWnNKOC1DUjdEX01saUJBeUotY2RFLXZtc01jMDlkMDVGREY4?oc=5 |
+| 嵌入式IDE变天：开发正在Agent化 | 媒体文章（电子工程专辑） | 报道嵌入式 IDE 开发流程的 Agent 化趋势 | https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LVGJxejMyZl9oQTNXSEw0TG5yYlVERzh0QUM3OXNoeDl3TjRqVnlVU0d2Z1RnSGl1TXJIMndndjR2SFVwR2daRHRWUkZEUExqR2dZ?oc=5 |
+| 从趋势到落地：百语，面向智能硬件的语音Agent全栈服务平台 | 媒体文章（beareyes.com.cn） | 介绍面向智能硬件的语音 Agent 全栈服务平台 | https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSWtnNFZhaXRRMktZZWRQQlpMQWJlcS1meWkwZndTNkE4a0VYVFcyZm4xeHBJbjNVSElUZHcwZ0IyWTNQOXlmNEV0aHYxLUZuWE5rUno0Mkl6SUxjemJtQWU3WjNWdw?oc=5 |
+| 28.9M-parameter LLM runs locally on ESP32-S3 at 9 tokens/s | 媒体实测（CNX Software） | 在 ESP32-S3 上本地运行 28.9M 参数 LLM，速度约 9 tokens/s | https://news.google.com/rss/articles/CBMioAFBVV95cUxOYThaZDJTajB5SHd0Z3I1TVBqT2REM2tvd2JhWlRRS0hpOHZ6Q0VGSG40Sl9KaW1tamRoTHZBR2JiQkE2N3BFamlIdVF3dWpsZ2RWN0xoTnZOREc0aGwxN2FEVnljejE3NHU5OTFDcTFzZzJhd1lybW9mM25RWDd2OE1TVDdPckJiZkk1aEFUYWpYRzM3aEZDQ01rRU5ZeDhz0gGoAUFVX3lxTE1HVjRwT05PWG9NLVNNVDZRYXBSUXBubzIydWd6MkdGelp2RmthY3pXeWpRNXpWWVJLSDM2TGNCZW45aUk2YW9USF9vQTZYZl9jQVBmaHdYV0NDcWxPVXJLOGg0UzBfRjhqU3VHRWx6Tm9yTTlqVjctRHFXb2VVUGR6Qkp0VHN1WVRWQnhKSk43VDk3UUlFM2d6R2hrS3JESlhMd0tySzZlRw?oc=5 |
+| LLM Runs on $8 ESP32 Chip — 9.5 Tokens/Sec, No Cloud | 媒体实测（Machine Brief） | 在约 8 美元的 ESP32 芯片上本地运行 LLM，速度约 9.5 tokens/s，无需云端 | https://news.google.com/rss/articles/CBMirwFBVV95cUxNVGVxNHozaTdoTllYWG1aV0JFWjBRRktWaDVNSXQyLTJRNjM2b2FaVFpLb0ozQzFOWGdxSnpBWTJ3bkZMVU1xT0dLTnVDNTNLYXNyT1d5SndjSEwwRG9VbXNzMTh4ZTRRQnhCNnZUeWwzUjFmVlFGMkdwSGJCRV9xa3piSlJvQkpmdkxlVXZiQmZoOWtIZmMxajVOUWlkM2xRSHZlcWpKaUNiSnVIOEx3?oc=5 |
+| 一块 ESP32 凭什么跟你"唠嗑"？两套真实跑通的语音方案拆给你看 | 教程（稀土掘金） | 拆解两套在 ESP32 上真实跑通的语音方案 | https://news.google.com/rss/articles/CBMiVEFVX3lxTE4waUMySU5DVl9Gb2d0WEVrZ2pUNjZScGNxa0N0bXBEQzdlOXZ0RmpvSFRmS1RMMUlfZXJ2UnB3ZlVkbWRsZFp6S1JOR3lUU1k3WkFIaA?oc=5 |
+| Optimizing Inference Performance for the Open-Weight LLM GLM-5.1 | 媒体文章（Embedded Computing Design） | 面向开放权重 LLM GLM-5.1 的推理性能优化 | https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ0hveWVZTmhVbks4Mk9IQWVUdmE3TGNtR1VIb0NpVDRIRlpPbUdPQ0lkYjRCOW9zb3NBa2ZldWRPaENOWFlBTHFYUGV1RlotNkdmeEp2cjFUT1lWN3dycVY5OXFIeWg3QWJydENUcHczdzRpQnlmM3BTcHJXSlZBbGdCd0dxTnQxWjg0ZUttQTQ2XzVNSVFzazJmY0hsRjBrT2pZeW1FdEVtVWRJTkNmSHpsQnNNcjJRU25MQ0NNNFM?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| OpenConnector 开源连接器网关 | 开源工具 | 面向 AI Agent 与应用开发者的开源连接器网关，解决 SaaS 服务接入时的认证管理、权限控制、接口适配与运行审计问题，将用户已有应用账号连接到统一运行时，向 Agent 暴露标准化 Actions，覆盖 GitHub、Gmail、Notion 等 1000+ 服务 | https://www.oschina.net/news/502067/oomol-lab-open-connector |
