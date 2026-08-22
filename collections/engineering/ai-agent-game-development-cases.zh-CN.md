@@ -354,3 +354,58 @@
 | MengTo/Skills | GitHub 项目 | 面向设计师和构建者的 Agent skills 集合，支持 Codex、Claude、Cursor 等 AI 编码代理 | https://news.google.com/rss/articles/CBMiR0FVX3lxTFBWVHdpOHp5SVlHUkY1bUpMS0JoV1BQSjJIaWpNU3ItaGxSc21BVTk3YWRWVmI0blRSS3hxd05ldjdQN2w4cktz?oc=5 |
 | RUC-NLPIR/Awesome-Long-Horizon-Agents | GitHub 资源列表 | 长时程代理的路线图与资源汇总 | https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11OTJ5VGNwb0ZmUHdnVXFsLVp0RGE5VkNlRlVLODFPUnhPRTdJVUZSRHdrS3BmSTZWVVpWLXVjdUk0eVQzYjktVDZyVWRhVUduRVJoX0RlYlV3UnIzRWVRcjN0bGUxeE0?oc=5 |
 | OpenAI ARC-AGI-3 得分提升方案 | OpenAI 官方博客 | 通过启用两个 API 设置（保留推理与启用压缩），将 GPT-5.6 在 ARC-AGI-3 上的得分提升三倍 | https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores |
+
+## 资料更新（2026-08-22）
+
+> 以下为新增资料线索，供读者参考。内容与上文正文相互独立，仅作增量补充。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| tettethu/VibeGame | 开源项目 | 自进化多智能体框架 + AI 原生游戏引擎，可将自然语言转化为可玩的 2D Web 游戏并支持任意编辑，基于 Claude Code 与 Codex 构建 | [GitHub](https://github.com/tettethu/VibeGame) |
+| BurakErdemci/gamachine | 开源项目 | Unity 的 AI 游戏开发工作室，可在单一桌面应用中统一驱动 Claude Code、Codex、Antigravity、Copilot、Cursor、OpenCode 及云端模型，并通过 MCP 实时控制 Unity Editor | [GitHub](https://github.com/BurakErdemci/gamachine) |
+| IvanMurzak/Unreal-MCP | 开源项目 | Unreal Engine 的 MCP 插件（C++ 编辑器插件 + .NET 桥接），可将 Unreal Editor 连接到 AI 智能体（通过 ai-game.dev 或本地 MCP 服务器） | [GitHub](https://github.com/IvanMurzak/Unreal-MCP) |
+| EricSun0218/OpenGameAgent | 开源项目 | 面向 AI 原生游戏、自主 NPC 与交互世界的 C# 智能体运行时，提供结构化上下文、工具、记忆、多 NPC 调度与持久化游戏动作 | [GitHub](https://github.com/EricSun0218/OpenGameAgent) |
+| brandlll-lee/SolersEngine | 开源项目 | 基于 Godot 的 AI 原生游戏引擎，AI 智能体可直接在编辑器内参与构建、试玩与迭代 | [GitHub](https://github.com/brandlll-lee/SolersEngine) |
+| Crystalhihihi/minecraft-ai-building | 开源项目 | 游戏内编码智能体，可自主规划、建造并自检 Minecraft 建筑（含自定义 MCP 桥接、确定性生成器与机器验证器） | [GitHub](https://github.com/Crystalhihihi/minecraft-ai-building) |
+| Tristan578/project-forge | 开源项目 | 面向浏览器的 AI 原生 3D 游戏引擎，通过 MCP 命令让 LLM/智能体以自然语言构建完整游戏（场景、物理、音频、粒子、脚本与导出），基于 WebGPU、Rust/WASM 与 Bevy | [GitHub](https://github.com/Tristan578/project-forge) |
+| CaganIslam/designloop | 开源项目 | 设计系统 + 证据标准 + render-look-fix 循环，作为 Agent Skill 为编码智能体提供 UI 视觉反馈，适用于 Web 与游戏引擎 | [GitHub](https://github.com/CaganIslam/designloop) |
+| cjosewski/golden-hour-style-agent | 开源项目 | 面向 VR 大规模伤亡分诊训练器 Golden Hour 的风格指南智能体，采用生成器/评估器/精炼器循环与 LLM 裁判（返回 SCORE+REASON） | [GitHub](https://github.com/cjosewski/golden-hour-style-agent) |
+| cjosewski/golden-hour-ger-pipeline | 开源项目 | 生成器/评估器/精炼器流水线（含熔断器），为 Golden Hour（Unreal Engine 5.8 VR 训练器）生成伤亡分类数据行，评估器依据游戏 GDD 规则重新推导 SALT 分诊类别 | [GitHub](https://github.com/cjosewski/golden-hour-ger-pipeline) |
+| xiyan-imp0524/AI-Game-Generator-Agent | 开源项目 | 基于 LangGraph 的游戏构建器：自然语言提示 → 可玩的 HTML/Canvas 游戏（FastAPI + Next.js 工作室） | [GitHub](https://github.com/xiyan-imp0524/AI-Game-Generator-Agent) |
+| a-bhimava/open-weight-ai-agent-game-voice-generator | 开源项目 | 面向游戏角色的开放权重 AI 语音生成系统，基于 Qwen3-TTS 提供 31 个 Colab 模块，覆盖 NPC 对话包、分支对话树、Boss 遭遇、情绪网格与语音老化，无需 API Key | [GitHub](https://github.com/a-bhimava/open-weight-ai-agent-game-voice-generator) |
+| AbdulHannan031/gamesmith-ai-game-generator | 开源项目 | 通过聊天构建可玩的 2D 浏览器游戏：智能体自行编写、试玩并截图 Canvas 游戏，然后发布到公共街机（Next.js + OpenAI） | [GitHub](https://github.com/AbdulHannan031/gamesmith-ai-game-generator) |
+| IvanMurzak/Godot-MCP | 开源项目 | Godot Engine 的 Model Context Protocol（MCP）集成，提供 C# 编写的 Godot Editor AI 工具，支持云端连接 ai-game.dev（Apache-2.0） | [GitHub](https://github.com/IvanMurzak/Godot-MCP) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| When Stories Evolve: Benchmarking LLM Storytelling Across Agent Architectures in Open-Ended World Simulations | 论文 | 提出 WSE-bench 过程基准，分别评估动态 LLM 叙事中的持续生成、规范一致性与有意义发展，面向开放世界模拟与 AI 原生游戏中的事实/关系/因果/角色状态保持 | [arXiv](https://arxiv.org/abs/2608.15654v1) |
+| IF:CARGO: LLM-Based Semantic Compilation for AI-Native Rule Programming Games | 论文 | 实验性解谜游戏案例研究，将 LLM 作为语义编译器（而非自主游戏智能体），将自然语言 IF/THEN 规则翻译为受约束命令模式，供游戏引擎确定性验证与执行，形成表达-执行-观察-修正的可玩循环 | [arXiv](https://arxiv.org/abs/2608.12195v1) |
+| "Pharos Night: Crown Pursuit": An AI-Native Deck-Building and Tactical Arena Game Design Based on Multi-Agent Systems | 论文 | 基于多智能体系统的 AI 原生卡组构筑 + 战术竞技场游戏设计，LLM 用于生成素材与卡牌、支持 NPC 决策及自然语言交互 | [arXiv](https://arxiv.org/abs/2608.12216v1) |
+| Beyond Asking: A Pipeline for Personalized Game Generation that Reads Players from Behavior | 论文 | 探讨从玩家行为推断能力与风格以进行个性化游戏生成的流水线，指出 LLM 对游戏转录的玩家画像“看似合理但未经验证”的问题 | [arXiv](https://arxiv.org/abs/2608.16196v1) |
+| ukanwat/aaabench | Benchmark | 长时程基准测试框架：给编码智能体一个真实游戏引擎、专业条件与时间，要求其构建开放世界游戏（仅框架，无结果） | [GitHub](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9sbGpDd3J5VDhRbENQWHd4cHdIU2ozUnRNaGZRYnRpQ2lROUt2OTVDbU5ZMkc2aU5rUndpd0pCb3BVV0xhZ05vS1lVRQ?oc=5) |
+| Lost-Rabbit-Digital/godot-model-bench | Benchmark | 在 Godot 4.7 GDScript 游戏开发任务上对 LLM 进行基准测试，包含 7 轮挑战 | [GitHub](https://github.com/Lost-Rabbit-Digital/godot-model-bench) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| AI 策划团队从 0 到 1：用 CodeBuddy 多 Agent 协作做一款肉鸽卡牌游戏 | 教程 | GameRes 文章，介绍使用 CodeBuddy 多 Agent 协作从零开发肉鸽卡牌游戏的实践 | [GameRes](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HcVNkUGdXSk94SEhVT09sSHI4c1Z5Snk3RTlVZUJvWXl6LWZ1d2RXQTFIM1Y5NWF0Y1FtVE9xVWhZWUs2eVQtcGdiQ0J3OHM?oc=5) |
+| 游戏圈“天降神兵”！对话 Unity 中国 CEO：“团结 Codely”AI 智能体来了 | 媒体实测 | 对 Unity 中国 CEO 的访谈，介绍“团结 Codely”AI 智能体 | [womenofchina.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zZE10MDBmOGRGajYxSy1ORjVGd1VCZGtwdVZPX0ZvNjBzUTZ4NTRtUDBfbllPR083N041eEdrZVFuQUNCQmNmamRaZ2haMU1Fa2Z1OFhhQQ?oc=5) |
+| AI 驱动的 Unity 游戏研发管线：从 AI Agent 工具链到工业化管线重构 | 教程 | CSDN 文章，探讨 AI Agent 工具链与 Unity 工业化管线重构 | [CSDN](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHWjE0LVp6S29BM2hnUV9wUUh4dWV2TXFEd0J1NHotUUs0X1BzaTNPWVFtTjcyY1ZLbjJ5bjJiYWljdUxyWGFEV3ljUk52eEJZQnloMG9KSENnMXZsaTYw?oc=5) |
+| NVIDIA AVO Reaches 100% on ARC-AGI-3 | 媒体实测 | NVIDIA 技术博客，展示 AVO 架构在 ARC-AGI-3 上达到 100%，面向长时程自主智能体的通用架构 | [NVIDIA Developer](https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeWdoMm9yUFVic2RHYzhQdkZobHFiZmp5YTRYV193V1ZyaEhLX2ZaS3JRbDI1b3AtdVgyU0Q4R004MXByVjJTa2E0b20tbjJSMnpTY3BtV3ZtcmtyZkNNUUJGTnU4T0lveExzS3ZiSDBuQVozRHpxcmV1UVUyUm9USDdqZm9BUEFjcm5aM0pQQzE3TzZPZWMtU3AxQjBZN2txbEVYclh6R1Ixa2dyalpfMU9XX1lXdzVpUTRBSmpFRlc0Ulh0Y1lGM3IxaFJLcV9JNDBWbEFTd08wNDFyQ3hlZnN4ckNLODV3d0J3TzRORGZhaUlKSDNsQg?oc=5) |
+| Patterns and problems in multiagent systems | 教程 | Anthropic 文章，讨论多智能体系统中的模式与问题 | [Anthropic](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoVFQ4NnRrVGF2dXBQMmhjNzhmQUVZQVF6ckVvWlpkMVdHMnpFOVpodWhoUEw4bWdacG1JRE9kUUZpUWN2WnJiZ3NHaFY0LWJHMF9zOGFGR0tlZmhta180N2Nkaw?oc=5) |
+| DeepSeek Harness 来了，它不想做下一个 Codex | 媒体实测 | 36 Kr 报道，介绍 DeepSeek Harness 的定位与特性 | [36 Kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HLTBnT0J5Nk1PdjRXNEFnTE1LU1MyMHc2WHo3VTdxNmp2ODhxU2V6eE15OV9CWWtUTFByZ04zcGUwNFZsTlN4N0t2YUVFZw?oc=5) |
+| 开源两天 9.5 万 Star！DeepSeek Harness 到底是个啥？小白安装到实战一篇讲透 | 教程 | 稀土掘金文章，从安装到实战详解 DeepSeek Harness | [稀土掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XbHFnR21qOVNNQWdTTzZVd25DTGx5eWRPQ3dJUXYtaklXVHM5RVA2N1h3d2txODI5MEpTLWZnRFZhZEJubVN2QzZ2T3NaanhteHZXNw?oc=5) |
+| DeepSeek 昨晚刚开源了 Harness：附万少的 2 万字保姆级教程 | 教程 | 稀土掘金文章，提供 DeepSeek Harness 的详细教程 | [稀土掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTE92V1hsQ1psZG1xWXYzVTBKdGt4WEh5XzNCOEFVa1h0d054aU1rZVA1dC1fX0JpYlQ2cklEWmd3UWNTM0IzOU50dGFjNk5McnZFcEcyRw?oc=5) |
+| 实测 DeepSeek Harness：梁文锋把智能体拼成乐高 | 媒体实测 | 新京报实测文章，将 DeepSeek Harness 比作可拼装的智能体乐高 | [新京报](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OZW0xcjVqcndaa0lDMnFkV2xvZVFoMTBxMzJRb2FuVnpBNnVqU2lKYXpLVmVLSWR5N2RjQ0lJVnJaV1plQWM2a0JaSm9HblJBLWhKTGd2VmdLSnlLd0FFTkt3?oc=5) |
+| From Atari to EVE Online: Building on 15 Years of AI Research in Games | 媒体实测 | Google DeepMind 博客，回顾 15 年游戏 AI 研究，并与游戏工作室合作原型化突破性 AI 玩法 | [DeepMind Blog](https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| DeepSeek Harness | 产品/工具 | 开源智能体编排工具，开源两天获 9.5 万 Star，被多家媒体评测与教程覆盖 | [36 Kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HLTBnT0J5Nk1PdjRXNEFnTE1LU1MyMHc2WHo3VTdxNmp2ODhxU2V6eE15OV9CWWtUTFByZ04zcGUwNFZsTlN4N0t2YUVFZw?oc=5) · [稀土掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XbHFnR21qOVNNQWdTTzZVd25DTGx5eWRPQ3dJUXYtaklXVHM5RVA2N1h3d2txODI5MEpTLWZnRFZhZEJubVN2QzZ2T3NaanhteHZXNw?oc=5) · [新京报](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OZW0xcjVqcndaa0lDMnFkV2xvZVFoMTBxMzJRb2FuVnpBNnVqU2lKYXpLVmVLSWR5N2RjQ0lJVnJaV1plQWM2a0JaSm9HblJBLWhKTGd2VmdLSnlLd0FFTkt3?oc=5) |

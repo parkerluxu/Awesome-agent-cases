@@ -266,3 +266,56 @@ The following resources were identified after the original article was published
 |------|------|---------------|------|
 | Cadence AuraStack | Product | Cadence's AI agent expansion for PCB and advanced chip packaging. | https://news.google.com/rss/articles/CBMizgFBVV95cUxQN2RZdjJWSWtLZmU4Rmo1Sm5VSXZWLXRXNzVHQ3lCQUZ4VktVcHdVUmVRQ0pWa1ktOGRYTklURHpiZjc5T3BRVmlNSXFXNGZueTZfWmNZQm51ejY5a0wycEI4YmduYk1EdlZiSUpjbjdlMGNQOER0ZUJsVEcyZjdLZ21XVVp6dkRkTjV2M0dJU3MtWmZIZ2s0ZHNJcnVjelRIM1VqWmZRMVo3YkxoUFBHY1BlMW9QOHdGNThLN0xlWHdWY3QzOFBkWmNDblkxZw?oc=5 |
 | NVIDIA Nemotron 3 Ultra | Model | Open model leading on accuracy and efficiency in agentic RTL coding. | https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTjRHTzBSZnFuV21LQVc2Um4yZXhRdllldkd4VGRRdFdRZXN1eU83SER4VzRkU0RRZkVZbVVqRFVrc2VBUnF2Wmc0cXlqNVBGUVRWcU1pRDRwR2VyNTUybzRvX2RXdFJ3a2dGN243cS00d09kNllXdkdPSEQzd0FPNy1iT0J5WmpQTFZEamZjY3J4b3hUSDFNamtqZU80WDdqX1lsUkFBeEFVbWdpSE5fWVlIQTlKaFlPMXYwSVFYaGU3RzQ?oc=5 |
+
+## Resource Update (2026-08-22)
+
+The following resources were discovered after the original article was published and represent new leads for AI-agent-driven chip design. They are grouped by content type.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| ChipAgents | GitHub project | Agentic AI chip design environment for iterating on design and verification with AI agents inside a code editor. | [github.com/api-evangelist/chipagents](https://github.com/api-evangelist/chipagents) |
+| edge-rtl-agent | GitHub project | Local-first closed-loop RTL generation on a consumer 6GB GPU using small LLMs with open EDA tools (VerilogEval v2 / LibreLane / sky130). | [github.com/a413123a413123/edge-rtl-agent](https://github.com/a413123a413123/edge-rtl-agent) |
+| Atrisa | GitHub project | Y Combinator (P26) startup building AI agents for analog circuit design; chat-based assistant for creating designs, debugging circuits, and running simulations. | [github.com/api-evangelist/atrisa](https://github.com/api-evangelist/atrisa) |
+| Hardware Intelligence | GitHub project | Y Combinator (Summer 2026) startup building an end-to-end, agent-native toolchain for chip design with agentic AI and ultrafast feedback loops. | [github.com/api-evangelist/hardware-intelligence](https://github.com/api-evangelist/hardware-intelligence) |
+| Chipstack | GitHub project | AI-driven semiconductor verification company using agentic AI to automate chip design verification. | [github.com/api-evangelist/chipstack](https://github.com/api-evangelist/chipstack) |
+| GateTruth | GitHub project | Audits testbench rigor of RTL-generation LLM benchmarks via mutation testing; ships a PPA-aware 60+8-task reference suite. | [github.com/meetbhadra701-cloud/GateTruth](https://github.com/meetbhadra701-cloud/GateTruth) |
+| datasheet-cli | GitHub project | CLI in Rust for searching electronic parts, downloading datasheets, and extracting structured data for LLM agents (Mouser & DigiKey). | [github.com/akiselev/datasheet-cli](https://github.com/akiselev/datasheet-cli) |
+| aicad-agent | GitHub project | Deterministic CAD/EDA agent plugin for 2D drawings, AutoCAD, SolidWorks, KiCad, with review gates and auditable delivery. | [github.com/JMET04/aicad-agent](https://github.com/JMET04/aicad-agent) |
+| kvfabric | GitHub project | Decode-phase KV-cache engine for LLM inference: SystemVerilog RTL to sign-off-clean GDSII on SkyWater 130nm with formally proved paged allocator and torus NoC. | [github.com/Niranjan-GopaL/kvfabric](https://github.com/Niranjan-GopaL/kvfabric) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| EDATracer | arXiv paper | Agentic framework for large-scale EDA artifact analysis across source files, scripts, logs, netlists, and reports; addresses lack of public benchmarks. | [arxiv.org/abs/2608.04032v1](https://arxiv.org/abs/2608.04032v1) |
+| Open-Source LLM-Driven Formal Verification | arXiv paper | Multi-agent pipeline for RTL repair combining formal proof with an entirely open-source toolchain, avoiding simulation-only validation. | [arxiv.org/abs/2607.28877v1](https://arxiv.org/abs/2607.28877v1) |
+| ZhuLong | arXiv paper | Execution-grounded LLM coding agent for EDA scripting (PyAether and SKILL) with offline API self-exploration; evaluated on EDA-Eval-PyAether benchmark. | [arxiv.org/abs/2608.07925v1](https://arxiv.org/abs/2608.07925v1) |
+| HINT | arXiv paper | Executable hardware-intent intermediate representation layer between behavioral specifications and RTL for LLM-driven generation. | [arxiv.org/abs/2608.07625v2](https://arxiv.org/abs/2608.07625v2) |
+| VeriTrace | arXiv paper | Human-like temporal exploration to complete agentic action space for Verilog RTL generation debugging. | [arxiv.org/abs/2608.02878v1](https://arxiv.org/abs/2608.02878v1) |
+| OmniRouting | arXiv paper | Semantic-coupled multimodal benchmark for constraint-aware spatial reasoning in PCB routing. | [arxiv.org/abs/2608.04434v1](https://arxiv.org/abs/2608.04434v1) |
+| SCALE | arXiv paper | Self-supervised constraint-aware layout generation for local P&R DRV fixing at advanced nodes using visual layout understanding. | [arxiv.org/abs/2607.21850v1](https://arxiv.org/abs/2607.21850v1) |
+| Coverage-Driven RTL Assertion Generation | arXiv paper | Formal exploration and neuro-symbolic refinement for coverage-driven RTL assertion generation. | [arxiv.org/abs/2608.18482v1](https://arxiv.org/abs/2608.18482v1) |
+| SeqFeed | arXiv paper | Improving agentic RTL code generation with sequential behavior feedback across multiple clock cycles. | [arxiv.org/abs/2608.16934v2](https://arxiv.org/abs/2608.16934v2) |
+| SynAct | arXiv paper | Reasoning-acting LLM agent for adaptive synthesis optimization with PPA-aware command selection. | [arxiv.org/abs/2608.12751v2](https://arxiv.org/abs/2608.12751v2) |
+| Agent-Orchestration in Autonomous Chip Design | arXiv paper | Models chip-design superintelligence as an AI-organization with agent orchestration. | [arxiv.org/abs/2608.14035v1](https://arxiv.org/abs/2608.14035v1) |
+| Spec-Driven Hardware Evolution | arXiv paper | Executable contract refinement and proof-guided RTL update for semantic version evolution of trusted legacy designs. | [arxiv.org/abs/2608.12684v1](https://arxiv.org/abs/2608.12684v1) |
+| LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities | arXiv paper | Detection and repair of hardware security vulnerabilities in Verilog designs using LLMs. | [arxiv.org/abs/2608.04907v1](https://arxiv.org/abs/2608.04907v1) |
+| CHORUS | arXiv paper | Complementary experts for high-coverage testbench stimulus generation via post-training framework. | [arxiv.org/abs/2608.10090v1](https://arxiv.org/abs/2608.10090v1) |
+| HWE-Bench | 知乎专栏 | Hardware task benchmark for the agent era. | [news.google.com/rss](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JODF6UzBBNmtWR1Z0UFhxMmk4VU9FV3pDXzFhdEFNZ1JoR1V0SmdUY3ZfMV9VRHdWNGQwZjZKZDhWRDZKTU1kNXBiRVVIYnZUMUZHcEd6eDdZR3l3?oc=5) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| EDAUtils — AI-Powered SoC Design Workflows | YouTube | Video on AI-powered SoC design workflows covering integration, CAD flows, and verification. | [news.google.com/rss](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sMmNqZGVCMndlTi1wZUlJSmtlYVh2MGJ0dGdqUXJFUEphWHdpYUZQNl9hUGJtNV96ZGFNbUtGQWUwR3ZZQVNRb01QQ1g1a0lINTV4RVNB?oc=5) |
+| 快速构建OpenROAD开发环境 | CSDN博客 | Tutorial on configuring, compiling, and running OpenROAD for RTL-to-GDS digital chip backend design. | [blog.csdn.net](https://blog.csdn.net/qq_37818210/article/details/147797113) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenROAD | Open-source tool | Open-source autonomous toolchain for chip design; RTL to GDSII in 24 hours with no human in the loop. | [openroad.org](https://openroad.org/) |
+| NVIDIA Agent Toolkit Expansion | Product news | NVIDIA expands agent toolkit with PhysicsNeMo and CUDA-X libraries for autonomous engineering and chip design. | [NVIDIA Newsroom](https://news.google.com/rss/articles/CBMigAJBVV95cUxOZXhNSW9TSjVybFBBN1BJT3l2N0l0RDJIRDJ5bjZzR1RfUUFoZEpZNU5FVlpRUHVNenNPbGR5X0l2b2dVeHV0dDhoZHhqS2c0a29yOXZ3V2FtRElzRGs2a1NidmlIVWRMOS1ka19iaERsQnk3WUVQdURqQWlDdWk4VWZqWHFXUjhLVWpBNWVJOTBHOVZIbWxQVFJzQUJuVmE1ZjNzWDFGcldEOFJ3bVFJZDg4QkNKUmtIcG5lRVQwUU5uVkUxRHBxbWljeDVWWWs5azh0OWxKekdDWENoQ3RVeVB1TzVtVFdkODNMM1FNT3lha1hiY1RCRmRkN1F0aVhW?oc=5) |
+| 2026年，智能体在芯片设计中扮演什么角色？ | 电子工程专辑 | Article on the role of agents in chip design in 2026. | [news.google.com/rss](https://news.google.com/rss/articles/CBMiXEFVX3lxTE40NVdxeFF1WUpTNWo2MHdOVW4wZXA2dzBpbHJpcmpWTHBHQU5zazZ4b0ZGWjhsT0paZnJvbnB3eHBIN2daY2UyYzdFREprZW5VZDF6SnBCMGlkcW0z?oc=5) |

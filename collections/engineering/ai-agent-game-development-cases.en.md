@@ -340,3 +340,54 @@ The following resources were discovered after the original article was published
 | Meta's Pocket app | Gulf News | Meta's new app that lets AI build games from your ideas without coding. | [Link](https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzhxWE91eE5IWXd0NTJkUmJjaWNsQVlMT1lmRE9JTjBsdzRDX1pNMkhUZ0taeHlMcE5SZFRCMTZrbEFaNnBXTF9HZTFwTVJNdHhJODlwMzdBMDQwT0trZGhxWjUtbTA3c19ZWG1nNVV3c09wN2IxWFFuY3Q5Q2M4LThQdm1kaHF2QnN2UUpUV1h0MEtVRDY0WHUzX0xXN1dVQmN6emxmU2s2MGdKSGI3eVROUjBfS19Pb2ozbmFB0gHQAUFVX3lxTE5RUzNBQlVlZXlwRmxRQUNjU0Q5bFpMUDEySnRGc01sZGk5T05pdGZXVVRDMUJ2V3pmem8zT2tqZG1DRzlsS2V2U19DOFJnVWJXRlcyejhOcko4TElURGJzcEdGek9nWEM4S1NOR2FLOVhqNXAyV2RWNDk1NmZKeXBlV3VqdFNwWUdWMlJTeTdDSDNzTWM3enRvb1Ftb3M2c291TGlIOWNKeGxObXlqc2duYmhVN0h2d0JCdjF4WGlOUVZqYnJ5MXV1MU1Ma2NTV0I?oc=5) |
 | NVIDIA Agentic and Physical AI at SIGGRAPH | NVIDIA Blog | NVIDIA advances graphics and simulation with agentic and physical AI announced at SIGGRAPH. | [Link](https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5OFAwb0RQNlFtQ3RCY0Q1ZFlNQjhnZnNGUTVJU2lxdWtpY083SmQzM1E5eTE3YWVmRnNtMnlWN1ZkREx5b1U2T3BBYTRTVmVIVnpwaGxnWXlhOXJCMUE?oc=5) |
 | RUC-NLPIR/Awesome-Long-Horizon-Agents | GitHub | Roadmap of long-horizon agents — curated resource list. | [Link](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11OTJ5VGNwb0ZmUHdnVXFsLVp0RGE5VkNlRlVLODFPUnhPRTdJVUZSRHdrS3BmSTZWVVpWLXVjdUk0eVQzYjktVDZyVWRhVUduRVJoX0RlYlV3UnIzRWVRcjN0bGUxeE0?oc=5) |
+
+## Resource Update (2026-08-22)
+
+The following resources were discovered after the original article was published. They are grouped by content type and represent promising leads for further investigation.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| VibeGame | GitHub | Self-evolving multi-agent framework with an AI-native game engine; turns natural language into playable 2D web games. Built on Claude Code & Codex. | [github.com/tettethu/VibeGame](https://github.com/tettethu/VibeGame) |
+| gamachine | GitHub | AI game dev studio for Unity; drives multiple coding agents (Claude Code, Codex, Copilot, Cursor, etc.) from one desktop app with live Unity Editor control via MCP. | [github.com/BurakErdemci/gamachine](https://github.com/BurakErdemci/gamachine) |
+| Unreal-MCP | GitHub | MCP plugin for Unreal Engine; connects Unreal Editor to AI agents via a local MCP server or ai-game.dev. | [github.com/IvanMurzak/Unreal-MCP](https://github.com/IvanMurzak/Unreal-MCP) |
+| OpenGameAgent | GitHub | Open-source C# agent runtime for AI-native games, autonomous NPCs, and interactive worlds; includes structured context, tools, memory, and multi-NPC scheduling. | [github.com/EricSun0218/OpenGameAgent](https://github.com/EricSun0218/OpenGameAgent) |
+| SolersEngine | GitHub | AI-native game engine built on Godot; AI agent works directly inside the editor for build, playtest, and iterate loops. | [github.com/brandlll-lee/SolersEngine](https://github.com/brandlll-lee/SolersEngine) |
+| minecraft-ai-building | GitHub | In-game coding agent that autonomously plans, builds, and self-inspects Minecraft structures via a custom MCP bridge. | [github.com/Crystalhihihi/minecraft-ai-building](https://github.com/Crystalhihihi/minecraft-ai-building) |
+| project-forge | GitHub | AI-native 3D game engine for the browser; MCP commands let LLMs build complete games (scenes, physics, audio, scripts) via natural language. WebGPU + Rust/WASM + Bevy. | [github.com/Tristan578/project-forge](https://github.com/Tristan578/project-forge) |
+| designloop | GitHub | Design system + evidence standard + render-look-fix loop as an Agent Skill; gives coding agents visual feedback on UI for web and game engines. | [github.com/CaganIslam/designloop](https://github.com/CaganIslam/designloop) |
+| golden-hour-style-agent | GitHub | Style Guide Agent for a VR MCI trainer; Generator/Evaluator/Refiner loop with an LLM judge returning SCORE+REASON. | [github.com/cjosewski/golden-hour-style-agent](https://github.com/cjosewski/golden-hour-style-agent) |
+| golden-hour-ger-pipeline | GitHub | Generator/Evaluator/Refiner pipeline with circuit breaker; generates casualty archetype rows for a VR mass-casualty triage trainer (Unreal Engine 5.8). | [github.com/cjosewski/golden-hour-ger-pipeline](https://github.com/cjosewski/golden-hour-ger-pipeline) |
+| AI-Game-Generator-Agent | GitHub | LangGraph game builder: natural-language prompt → playable HTML/Canvas game (FastAPI + Next.js studio). | [github.com/xiyan-imp0524/AI-Game-Generator-Agent](https://github.com/xiyan-imp0524/AI-Game-Generator-Agent) |
+| open-weight-ai-agent-game-voice-generator | GitHub | Open-weight AI voice generation for game characters; 31 Colab modules on Qwen3-TTS covering NPC dialogue, branching trees, boss encounters, and voice aging. | [github.com/a-bhimava/open-weight-ai-agent-game-voice-generator](https://github.com/a-bhimava/open-weight-ai-agent-game-voice-generator) |
+| gamesmith-ai-game-generator | GitHub | Build playable 2D browser games by chatting with AI; agent writes, playtests, screenshots, and publishes games to a public arcade. | [github.com/AbdulHannan031/gamesmith-ai-game-generator](https://github.com/AbdulHannan031/gamesmith-ai-game-generator) |
+| Godot-MCP | GitHub | Model Context Protocol integration for the Godot Engine; AI tools for the Godot Editor in C# with cloud connection to ai-game.dev. | [github.com/IvanMurzak/Godot-MCP](https://github.com/IvanMurzak/Godot-MCP) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| aaabench | Benchmark | Long-horizon benchmark harness: give a coding agent a real game engine, professional conditions, and time to build an open-world game. Harness only, no results yet. | [GitHub](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9sbGpDd3J5VDhRbENQWHd4cHdIU2ozUnRNaGZRYnRpQ2lROUt2OTVDbU5ZMkc2aU5rUndpd0pCb3BVV0xhZ05vS1lVRQ?oc=5) |
+| WSE-bench | Paper | "When Stories Evolve" — process benchmark evaluating sustained generation, canonical coherence, and meaningful development in dynamic LLM storytelling for open-ended world simulations. | [arXiv:2608.15654](https://arxiv.org/abs/2608.15654v1) |
+| IF:CARGO | Paper | Case study of a puzzle game using an LLM as a semantic compiler; players author IF/THEN rules in natural language, translated to a constrained command schema for deterministic validation. | [arXiv:2608.12195](https://arxiv.org/abs/2608.12195v1) |
+| Pharos Night: Crown Pursuit | Paper | AI-native deck-building and tactical arena game design based on multi-agent systems; LLMs generate materials/cards, support NPC decisions, and mediate natural-language interactions. | [arXiv:2608.12216](https://arxiv.org/abs/2608.12216v1) |
+| Beyond Asking | Paper | Pipeline for personalized game generation that infers player abilities and behavioral style from raw gameplay transcripts using LLMs. | [arXiv:2608.16196](https://arxiv.org/abs/2608.16196v1) |
+| godot-model-bench | Benchmark | Benchmarks LLMs on Godot 4.7 GDScript game-development tasks with 7 rounds of challenges. | [github.com/Lost-Rabbit-Digital/godot-model-bench](https://github.com/Lost-Rabbit-Digital/godot-model-bench) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| AI 策划团队从 0 到 1 | Article | Walkthrough of building a roguelike card game from scratch using CodeBuddy multi-agent collaboration. | [GameRes](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HcVNkUGdXSk94SEhVT09sSHI4c1Z5Snk3RTlVZUJvWXl6LWZ1d2RXQTFIM1Y5NWF0Y1FtVE9xVWhZWUs2eVQtcGdiQ0J3OHM?oc=5) |
+| AI驱动的Unity游戏研发管线 | Article | AI-driven Unity game development pipeline: from AI agent toolchains to industrialized pipeline restructuring. | [CSDN](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHWjE0LVp6S29BM2hnUV9wUUh4dWV2TXFEd0J1NHotUUs0X1BzaTNPWVFtTjcyY1ZLbjJ5bjJiYWljdUxyWGFEV3ljUk52eEJZQnloMG9KSENnMXZsaTYw?oc=5) |
+| 团结Codely AI智能体 | Interview | Unity China CEO interview on the "Tuanjie Codely" AI agent for game development. | [womenofchina.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zZE10MDBmOGRGajYxSy1ORjVGd1VCZGtwdVZPX0ZvNjBzUTZ4NTRtUDBfbllPR083N041eEdrZVFuQUNCQmNmamRaZ2haMU1Fa2Z1OFhhQQ?oc=5) |
+| DeepSeek Harness tutorials | Articles | Multiple Chinese-language tutorials and analyses of DeepSeek Harness, an open-source agent harness (9.5万 stars in 2 days). | [36 Kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HLTBnT0J5Nk1PdjRXNEFnTE1LU1MyMHc2WHo3VTdxNmp2ODhxU2V6eE15OV9CWWtUTFByZ04zcGUwNFZsTlN4N0t2YUVFZw?oc=5), [稀土掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XbHFnR21qOVNNQWdTTzZVd25DTGx5eWRPQ3dJUXYtaklXVHM5RVA2N1h3d2txODI5MEpTLWZnRFZhZEJubVN2QzZ2T3NaanhteHZXNw?oc=5), [新京报](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OZW0xcjVqcndaa0lDMnFkV2xvZVFoMTBxMzJRb2FuVnpBNnVqU2lKYXpLVmVLSWR5N2RjQ0lJVnJaV1plQWM2a0JaSm9HblJBLWhKTGd2VmdLSnlLd0FFTkt3?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| NVIDIA AVO | Product | NVIDIA's general-purpose architecture for long-horizon autonomous agents; reached 100% on ARC-AGI-3 benchmark. | [NVIDIA Technical Blog](https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeWdoMm9yUFVic2RHYzhQdkZobHFiZmp5YTRYV193V1ZyaEhLX2ZaS3JRbDI1b3AtdVgyU0Q4R004MXByVjJTa2E0b20tbjJSMnpTY3BtV3ZtcmtyZkNNUUJGTnU4T0lveExzS3ZiSDBuQVozRHpxcmV1UVUyUm9USDdqZm9BUEFjcm5aM0pQQzE3TzZPZWMtU3AxQjBZN2txbEVYclh6R1Ixa2dyalpfMU9XX1lXdzVpUTRBSmpFRlc0Ulh0Y1lGM3IxaFJLcV9JNDBWbEFTd08wNDFyQ3hlZnN4ckNLODV3d0J3TzRORGZhaUlKSDNsQg?oc=5) |
+| Patterns and problems in multiagent systems | Article | Anthropic's analysis of common patterns and pitfalls in multiagent system design. | [Anthropic](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoVFQ4NnRrVGF2dXBQMmhjNzhmQUVZQVF6ckVvWlpkMVdHMnpFOVpodWhoUEw4bWdacG1JRE9kUUZpUWN2WnJiZ3NHaFY0LWJHMF9zOGFGR0tlZmhta180N2Nkaw?oc=5) |
+| From Atari to EVE Online | Blog | Google DeepMind's retrospective on 15 years of AI research in games and new studio partnerships. | [DeepMind Blog](https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/) |

@@ -275,3 +275,55 @@
 | DAC 2026 Live: AI Chip Design Agents Hit Production as Nobel Laureate Joins the Debate | 媒体报道 | Tech Times 报道 DAC 2026 上 AI 芯片设计智能体进入生产阶段及诺奖得主参与讨论 | https://news.google.com/rss/articles/CBMizgFBVV95cUxQdllUc3d5ZDlPLThGc1JxczR5NmhNbnFvN3JOYWFQNU1wTlpKYVcxbHMxN2JkVXhpaU1vUGpNZzFhMnVWc1lZQXNnYm10dHVSN3ZKaEZxNVZBSmZualM5bGlxVi1iRGZRUWozbHNMUjBBRjUyMFZmSDdVTEw3ZWxFME1ObXg0b3diSVpOZXZodWp1bElzTVZnXzhuUUEzMnhRWjR2clQxRkFjTC14MExlcjdtY2xEbzdTMEZVbTAxVGN1RzdpMHlOMk82bHRyZw?oc=5 |
 | Siemens Hooks Chip Design Agents to Physics Engines to Prevent Tapeout Errors | 媒体报道 | Tech Times 报道 Siemens 将芯片设计智能体接入物理引擎以防止流片错误 | https://news.google.com/rss/articles/CBMixAFBVV95cUxQcVFDTGJVNkpyOWpxaVBocXo3UmpEOTRuVWZFVG5DeEk2NjloczZ6c0s2RkxEaGRNWlc2VXZUUWRFR1VSTVhWZVlabDk1em4wRjBUZWJHZmxoVVNGeWU5M2EwVC0wODdyU2hmc3ZIYk9KbWd4OTl1U050N2c3RDhvR3pxUjZqaFhwOEN0UHhUcTg0d1hzWjFSUURFRVJqVTJvYmtoNWhkeW41NWpHSVVnR1NGeUJ4TUtUWTk4NHE0NXFzNGNQ?oc=5 |
 | Benchmarking Open-Source LLMs on Verilog RTL Generation Across 50 Tasks | 媒体报道 | Semiconductor Engineering 报道 NMIMS、IIT Roorkee、BITS Pilani 团队在 50 个任务上对开源 LLM 进行 Verilog RTL 生成基准测试 | https://news.google.com/rss/articles/CBMiygFBVV95cUxPTkVRanByR3Z0Z2tFaFF0TTNsLUFNYmVRQ1gxRkxreV9HRWVRYklWZnhNbVJZa0pPWmFqdHRfd3ZHNjVnSnBkZUVoQjBpUTRfbHE1QTBwMHFDdW1hZC1sb2JSU1hfaVNZT0NFa2xORDRTaVhSUW9LM193VjNNWnljdGVLVnphR3FqYlpnNVRXUjItZ3lrSFRXWExCUE5QdTNSYXAyYWYzT3A5dGRac0otRkdvOXNZSlQ0cldiV0xMNVItb095M1RkaWRR?oc=5 |
+
+## 资料更新（2026-08-22）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| ChipAgents | GitHub 项目 | Agentic AI 芯片设计环境，帮助半导体工程师在代码编辑器内与 AI 智能体协作，宣称可将芯片设计与验证迭代速度提升至 10 倍 | https://github.com/api-evangelist/chipagents |
+| edge-rtl-agent | GitHub 项目 | 本地优先的闭环 RTL 生成方案，在消费级 6GB GPU 上运行，组合小型 LLM 与开源 EDA 工具链（VerilogEval v2 / LibreLane / sky130） | https://github.com/a123a413123a413/edge-rtl-agent |
+| Atrisa | GitHub 项目 | Y Combinator（P26）初创公司，构建面向模拟电路设计的 AI 智能体，提供基于自然语言对话的助理工程师，支持设计创建、电路调试与仿真运行 | https://github.com/api-evangelist/atrisa |
+| Hardware Intelligence | GitHub 项目 | Y Combinator（2026 夏季）旧金山初创公司，构建端到端的 agent-native 芯片设计工具链，聚焦智能体 AI 与超快反馈闭环 | https://github.com/api-evangelist/hardware-intelligence |
+| Chipstack | GitHub 项目 | AI 驱动的半导体验证公司，使用 agentic AI 自动化芯片设计验证流程（该环节通常占芯片开发总工作量的 60% 以上） | https://github.com/api-evangelist/chipstack |
+| GateTruth | GitHub 项目 | 通过变异测试审计 RTL 生成 LLM 基准的 testbench 严谨性，附带 PPA 感知的 60+8 任务参考套件 | https://github.com/meetbhadra701-cloud/GateTruth |
+| datasheet-cli | GitHub 项目 | 用 Rust 编写的 CLI 工具，支持搜索电子元器件、下载数据手册并为 LLM 智能体提取结构化数据（Mouser 与 DigiKey） | https://github.com/akiselev/datasheet-cli |
+| aicad-agent | GitHub 项目 | 确定性 CAD/EDA 智能体插件，支持 2D 图纸、AutoCAD、SolidWorks、KiCad，含审查门禁与可审计交付 | https://github.com/JMET04/aicad-agent |
+| kvfabric | GitHub 项目 | 面向 LLM 推理的解码阶段 KV-cache 引擎，SystemVerilog RTL 到 SkyWater 130nm 签核级 GDSII（0 DRC、0 LVS、时序收敛），含形式化验证的分页分配器与 torus NoC 上的 16 节点序列并行网格 | https://github.com/Niranjan-GopaL/kvfabric |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| EDATracer | arXiv 论文 | 面向大规模 EDA 工件（源文件、脚本、日志、网表、报告）分析的智能体框架，针对跨工件类型与设计阶段的证据分散问题 | https://arxiv.org/abs/2608.04032v1 |
+| Open-Source LLM-Driven Formal Verification | arXiv 论文 | 多智能体流水线，将 LLM 驱动的 RTL 修复与形式化验证结合，完全基于开源工具链，不依赖商业工具或仅靠仿真验证 | https://arxiv.org/abs/2607.28877v1 |
+| ZhuLong | arXiv 论文 | 面向 EDA 脚本编写的执行接地 LLM 编码智能体，支持 PyAether 与 SKILL，通过统一 MCP 工具实现 API 检索、文档检查与沙箱执行，含离线 API 自探索机制，附带 EDA-Eval-PyAether 基准 | https://arxiv.org/abs/2608.07925v1 |
+| HINT | arXiv 论文 | 可执行的硬件意图中间表示层，位于行为规格与 RTL 之间，使微架构显式化，支持 pre-RTL 检查并明确 RTL 降级义务 | https://arxiv.org/abs/2608.07625v2 |
+| VeriTrace | arXiv 论文 | 类人时间探索方法，补全智能体的动作空间，解决多智能体系统在标准基准上约 95% 准确率平台期的问题 | https://arxiv.org/abs/2608.02878v1 |
+| OmniRouting | arXiv 论文 | 首个大规模多模态基准，用于评估 LLM 在 PCB 布线中受严格几何、拓扑与电气约束下的空间推理能力 | https://arxiv.org/abs/2608.04434v1 |
+| SCALE | arXiv 论文 | 面向先进节点（sub-2nm）局部布局布线 DRV 修复的自监督约束感知布局生成方法，探索 LLM 在版图视觉理解中的应用 | https://arxiv.org/abs/2607.21850v1 |
+| Coverage-Driven RTL Assertion Generation | arXiv 论文 | 结合形式化探索与神经符号精化的覆盖驱动 RTL 断言生成方法，解决随机/有限轨迹难以覆盖难达行为的问题 | https://arxiv.org/abs/2608.18482v1 |
+| SeqFeed | arXiv 论文 | 通过顺序行为反馈改进 agentic RTL 代码生成，解决智能体理解多时钟周期信号演化与传播的挑战 | https://arxiv.org/abs/2608.16934v2 |
+| SynAct | arXiv 论文 | 推理-行动 LLM 智能体，用于自适应逻辑综合优化，可随电路状态演化动态调整综合命令，而非一次性生成静态脚本 | https://arxiv.org/abs/2608.12751v2 |
+| Agent-Orchestration in Autonomous Chip Design | arXiv 论文 | 提出将芯片设计超级智能建模为大规模"AI 组织"的构想，探讨智能体编排在自主芯片设计中的核心问题 | https://arxiv.org/abs/2608.14035v1 |
+| Spec-Driven Hardware Evolution | arXiv 论文 | 以契约为中心的 RTL 版本迭代框架，支持可信遗留设计的语义版本演化，而非从头重新生成 RTL | https://arxiv.org/abs/2608.12684v1 |
+| LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities | arXiv 论文 | 面向 Verilog 设计中硬件安全漏洞（CWE 框架下的不当访问控制、敏感信息暴露等）的 LLM 辅助检测与修复 | https://arxiv.org/abs/2608.04907v1 |
+| CHORUS | arXiv 论文 | 互补专家后训练框架，用于高覆盖率 testbench 激励生成，超越传统 SFT-to-RL 流水线的性能上限 | https://arxiv.org/abs/2608.10090v1 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| HWE-Bench：Agent 时代的硬件任务 Benchmark 和一些碎碎念 | 知乎专栏 | 介绍 HWE-Bench 硬件任务基准及作者相关讨论 | https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JODF6UzBBNmtWR1Z0UFhxMmk4VU9FV3pDXzFhdEFNZ1JoR1V0SmdUY3ZfMV9VRHdWNGQwZjZKZDhWRDZKTU1kNXBiRVVIYnZUMUZHcEd6eDdZR3l3?oc=5 |
+| 快速构建 OpenROAD 开发环境：配置、编译与运行 | CSDN 博客 | OpenROAD 开源数字芯片后端设计流程（RTL-to-GDS）的环境搭建教程 | https://blog.csdn.net/qq_37818210/article/details/147797113 |
+| OpenROAD project | 官方网站 | 开源自主芯片设计工具链，宣称 24 小时内从 RTL 到 GDSII 且无需人工介入 | https://openroad.org/ |
+| NVIDIA Expands Agent Toolkit with PhysicsNeMo and CUDA-X | NVIDIA Newsroom / Quiver Quantitative | NVIDIA 扩展 Agent Toolkit，加入 PhysicsNeMo 与 CUDA-X 库，推进自主工程与芯片设计 | https://news.google.com/rss/articles/CBMigAJBVV95cUxOZXhNSW9TSjVybFBBN1BJT3l2N0l0RDJIRDJ5bjZzR1RfUUFoZEpZNU5FVlpRUHVNenNPbGR5X0l2b2dVeHV0dDhoZHhqS2c0a29yOXZ3V2FtRElzRGs2a1NidmlIVWRMOS1ka19iaERsQnk3WUVQdURqQWlDdWk4VWZqWHFXUjhLVWpBNWVJOTBHOVZIbWxQVFJzQUJuVmE1ZjNzWDFGcldEOFJ3bVFJZDg4QkNKUmtIcG5lRVQwUU5uVkUxRHBxbWljeDVWWWs5azh0OWxKekdDWENoQ3RVeVB1TzVtVFdkODNMM1FNT3lha1hiY1RCRmRkN1F0aVhW?oc=5 |
+| 2026 年，智能体在芯片设计中扮演什么角色？ | 电子工程专辑 | 行业媒体对智能体在芯片设计中角色的讨论 | https://news.google.com/rss/articles/CBMiXEFVX3lxTE40NVdxeFF1WUpTNWo2MHdOVW4wZXA2dzBpbHJpcmpWTHBHQU5zazZ4b0ZGWjhsT0paZnJvbnB3eHBIN2daY2UyYzdFREprZW5VZDF6SnBCMGlkcW0z?oc=5 |
+| EDAUtils —AI-Powered SoC Design Workflows: Integration, CAD Flows & Verification | YouTube | 视频内容，介绍 AI 驱动的 SoC 设计工作流：集成、CAD 流程与验证 | https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sMmNqZGVCMndlTi1wZUlJSmtlYVh2MGJ0dGdqUXJFUEphWHdpYUZQNl9hUGJtNV96ZGFNbUtGQWUwR3ZZQVNRb01QQ1g1a0lINTV4RVNB?oc=5 |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| OpenROAD | 开源工具链 | 开源自主芯片设计工具链，提供完整的 RTL-to-GDS 数字芯片后端设计流程，对教育、研究与初创芯片公司免费开放 | https://openroad.org/ |
