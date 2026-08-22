@@ -344,3 +344,57 @@
 | OpenAI's new voice mode makes it to the ChatGPT desktop app | TechCrunch | OpenAI 新语音模式上线 ChatGPT 桌面应用 | https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5 |
 | Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI | Latent Space | OpenAI 产品工程负责人分享 ChatGPT Work 构建经验，涉及 Sites、OpenClaw、Memory、Subagents、Finance、No-Code 等 | https://www.latent.space/p/chatgpt-work |
 | AI PCs Outdated, AC Sees Overnight Explosive Growth: Do AI Agents Really Need Dedicated Computers? | 36 Kr | 探讨 AI PC 是否过时、AI Agent 是否需要专用计算机 | https://news.google.com/rss/articles/CBMiU0FVX3lxTE13bmh2NVdKT0NPeUViSWJndjZUQ1BfU2xNM21DUElmRGRoWDctVktQOXB1MjhIVl9HeXVHOVRpYUl1c1c0Q3d3Mk13YmMyTW1UR2Rv?oc=5 |
+
+## 资料更新（2026-08-22）
+
+> 以下为新增资料线索，供后续整理与追踪，不代表原文结论。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| StaffordAI | GitHub 项目 | 桌面应用，用于像管理同事一样运行一组 Claude Code 代理：雇佣、分配项目、观察工作进度并接管后续任务 | https://github.com/BENZOOgataga/StaffordAI |
+| electron-mcp-for-agentsroom | GitHub 项目 | 让 AI 代理完全控制任意 Electron 应用，无需改动现有代码，面向 AgentsRoom.dev | https://github.com/AgentsRoomDev/electron-mcp-for-agentsroom |
+| pinvou-agent | GitHub 项目 | 开源桌面 AI 代理，支持工具、文件、知识、工作流与真实交付物（Tauri 构建） | https://github.com/Pinvou/pinvou-agent |
+| Kun | GitHub 项目 | 本地优先的 AI 代理工作区，覆盖编码、写作、设计、研究与自动化，同一运行时支持桌面 GUI 与 TUI | https://github.com/KunAgent/Kun |
+| oxideterm | GitHub 项目 | AI 原生工作区，面向本地 shell 与远程机器；零 Electron、零 OpenSSL、零遥测、无订阅 | https://github.com/AnalyseDeCircuit/oxideterm |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| UI-Mate | arXiv 论文 | 面向开放权重基础 GUI 代理，通过上下文演示学习与环境接地训练栈提升复杂数字任务自动化能力 | https://arxiv.org/abs/2608.15930v1 |
+| The Role Specialization Model (RSM) | arXiv 论文 | 探索性案例研究：在 Agentic Software Engineering (SE 3.0) 中，按角色分工协调 Antigravity、Gemini CLI 与 Qwen Code 三种 LLM 工具 | https://arxiv.org/abs/2608.12311v1 |
+| Screenshots or Tools? | arXiv 论文 | 研究混合 GUI-MCP 计算机使用代理中截图与文本工具调用的效果差异，基于 OSWorld-MCP benchmark（309 任务） | https://arxiv.org/abs/2608.03327v2 |
+| CUADebug | arXiv 论文 | 诊断与修复计算机使用代理（CUA）故障的框架，处理视觉感知、空间接地、低层交互等多模态因果定位问题 | https://arxiv.org/abs/2608.02643v1 |
+| Interactive Reward Agent | arXiv 论文 | 通过环境状态验证进行 GUI 任务评估，为测试时扩展与后训练提供奖励信号 | https://arxiv.org/abs/2607.25904v2 |
+| LegacyWorld | arXiv 论文 | 面向遗留工作流的 GUI 代理原子性感知评估，源于 legacy-use 框架的预部署评估研究 | https://arxiv.org/abs/2608.14131v1 |
+| A Gateway Architecture for Enterprise MCP Authentication | arXiv 论文 | 企业 MCP 认证网关架构，统一异构认证、身份委托，解决用户/非用户角色问题 | https://arxiv.org/abs/2608.10760v1 |
+| Qwen-CUA | arXiv 论文 | 原生计算机使用代理（397B-A17B MoE），仅通过截图观察、键盘鼠标操作，无需 DOM 树或任务 API | https://arxiv.org/abs/2608.02352v1 |
+| ComponentBench | arXiv 论文 | 面向现代 Web UI 的组件级计算机使用代理评估 benchmark 与诊断流水线 | https://arxiv.org/abs/2608.18307v1 |
+| Scaling GUI Agents with Visual State Transitions | arXiv 论文 | 提出状态转换预训练（STP）作为 GUI 代理的新扩展轴，联合优化逆动力学与正动力学 | https://arxiv.org/abs/2607.24112v1 |
+| Ouroboros | arXiv 论文 | 自进化前沿编码代理框架，通过评审提交改进工具、提示词与核心实现 | https://arxiv.org/abs/2608.08311v2 |
+| MAGA | arXiv 论文 | 多平台 GUI 代理通过结构化动作蒸馏实现自融合，整合移动、Web 与桌面环境策略 | https://arxiv.org/abs/2607.29320v1 |
+| Inducing Task Models from Computer-Use Traces | arXiv 论文 | 从自然计算机使用轨迹中归纳符号化、可审计、可复用的任务模型 | https://arxiv.org/abs/2608.20319v1 |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| DeepSeek Harness 每周 3 次更新，集成 Claude Code 与 Codex 作为子代理 | 36 Kr 报道 | DeepSeek Harness 成为代理时代核心调度层，集成 Claude Code 与 Codex 作为子代理 | https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tanBjQ1Q3TVBiNTN0bjJMQWpyNGRUOFNNckR1QVFROHE3QXJXQ1FDdV93Qzc0OU5EbjlFVWV3Vkk1UUo5U0xtMmxaWUJlLXQzSEF3?oc=5 |
+| OpenAI 全面开源 Codex Harness | AIBase 报道 | OpenAI 开源 Codex Harness，进一步开放 AI 编程智能体底层能力 | https://news.google.com/rss/articles/CBMiTkFVX3lxTE01ckp3OG1KWmpHZU4yVVVuNGNBT1RIemIxaHVTelU3dXhpWHJYVlpWeTlQWWd3TlJuNnJfX0w1Q2l1VjB0X2xjMDdOblFRdw?oc=5 |
+| 首个突破 90% 成功率的桌面操作智能体 | InfoQ-CN 报道 | 实在 Agent 登顶 OSWorld 双冠，从堆模型到拼工程 | https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RbzF0ai1adlduR1NBcENKT05Hd05RWmVjWjVHVFRBdmxQOW5CZUJtUG1Xa0s3ODdDS1FqV1NZdW5hQlpRcVY2NkRUNjh5SzFQaklnSTY5bWtLZjdPQnc?oc=5 |
+| Claude Code vs. Codex: Why I use both and how to choose one | ZDNET 实测 | 对比 Claude Code 与 Codex 的使用场景与选择建议 | https://news.google.com/rss/articles/CBMidkFVX3lxTE00elhyV1ZnVnFNblFSZGx3d1dQcmtHek4xTlZqT1JqaTFYaTNjOFI4dEhORWkyaExjRC15ODIwTW8tXzBaa0dQTEtQblZJcTVDUHdWYTJ5TDJ2UEQyRkZ0SEdHWHlzNlU5OGpmOXpVZVBycndfaHc?oc=5 |
+| OpenAI’s ChatGPT/Codex desktop app is now on Linux | The New Stack 报道 | OpenAI 的 ChatGPT/Codex 桌面应用登陆 Linux | https://news.google.com/rss/articles/CBMiY0FVX3lxTE42aUZGS1k1UTJSbE1BaTc2TUtpV1ZsbVZKNEIweXhOUDhnbFZ2T2lhT29hdWZWTGFfSWYzYTVhblpDVWlvOVBIdExCZmw1VkdXdk1OTG5HYjVWQ0VwVG5WdVlDTQ?oc=5 |
+| Hands-On with Computer History: OpenAI’s Take on Agent Memory | MacStories 实测 | 上手体验 OpenAI 的代理记忆功能 | https://news.google.com/rss/articles/CBMimwFBVV95cUxNbExfQUtaMjd2RkNoakRjZE1pSlZBQ0QweV9DQWFHRTdQc29pX3FiTzd5b3QtREtad2VyUnd0V3QxWi1peHNxYjRmalZJeVh6Ym9GbkFNMTc2WFZ6RGM1S0ZsbzNvdDd3QkxrbDlCdGlLMm1IeE5PRnZJcGtSTE9wV2pIT013NW5NczBjMjhjU0VJd1JseXdzQXFTVQ?oc=5 |
+| Nvidia just showed that the harness, not the AI model, is now the real hero | TechCrunch 报道 | Nvidia 研究显示，通过微调，AI 代理即使底层模型不强也能表现良好 | https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/ |
+| The Evolution of the Agent Harness | Latent Space 文章 | 讨论模型不断将 harness 吸收进权重，未来可能成为人类注意力的 harness | https://www.latent.space/p/attention-interface |
+| Stampli cuts launch hours by 68% using ChatGPT Work | OpenAI 官方案例 | Stampli 使用 Codex 与 ChatGPT Work 将发布生产时间从数周压缩至数天 | https://openai.com/index/stampli |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| OpenConnector | 开源连接器网关 | 面向 AI Agent 与应用开发者的开源连接器网关，解决认证管理、权限控制、接口适配与运行审计，支持 1000+ SaaS 服务 | https://www.oschina.net/news/502067/oomol-lab-open-connector |
+| Codex agents dashboard | GitHub Release | OpenAI Codex 新增交互式代理仪表盘，支持搜索、启动、打开、重命名与停止任务，可配置快捷键 | https://github.com/openai/codex/releases |
+| Vercel fx | 轻量 Agent | Zig 语言实现的轻量 Agent，能直接在浏览器里运行 | https://news.google.com/rss/articles/CBMiWEFVX3lxTE02OXNhWjVXN1cyWUU3TVBRWm50ckhrZzByakhONzZtYkdncXhZaEM1aERPZ0ZBQ0FJMkExZVN0cUs1dUJlaExHaHRLZFU1dFY0ZVVCQXVqTHc?oc=5 |

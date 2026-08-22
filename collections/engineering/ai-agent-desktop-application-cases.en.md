@@ -341,3 +341,57 @@ The following resources were discovered after the original article was published
 | OpenAI's new voice mode makes it to the ChatGPT desktop app | TechCrunch | OpenAI's new voice mode arrives in the ChatGPT desktop application | [Link](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5) |
 | Codex from 0 to 10M Users: Building ChatGPT Work | Latent Space | OpenAI's core product engineering lead on building ChatGPT Work: Sites, OpenClaw, Memory, Subagents, Finance, No-Code | [Link](https://www.latent.space/p/chatgpt-work) |
 | AI PCs Outdated, AC Sees Overnight Explosive Growth | 36 Kr | Discussion on whether AI agents really need dedicated computers as AI PCs become outdated | [Link](https://news.google.com/rss/articles/CBMiU0FVX3lxTE13bmh2NVdKT0NPeUViSWJndjZUQ1BfU2xNM21DUElmRGRoWDctVktQOXB1MjhIVl9HeXVHOVRpYUl1c1c0Q3d3Mk13YmMyTW1UR2Rv?oc=5) |
+
+## Resource Update (2026-08-22)
+
+The following resources were discovered after the original article was published. They are grouped by content type and represent promising leads for further investigation.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| KunAgent/Kun | GitHub | Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI. 6,149 stars. | [Link](https://github.com/KunAgent/Kun) |
+| Pinvou/pinvou-agent | GitHub | Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables. 1,117 stars. | [Link](https://github.com/Pinvou/pinvou-agent) |
+| AnalyseDeCircuit/oxideterm | GitHub | AI-native workspace for local shells and remote machines. Zero Electron, zero OpenSSL, zero telemetry, and no app subscription. 1,328 stars. | [Link](https://github.com/AnalyseDeCircuit/oxideterm) |
+| BENZOOgataga/StaffordAI | GitHub | Desktop app for running a team of Claude Code agents you manage like colleagues. Hire them, give them a project, watch their work, and pick up where you left off. | [Link](https://github.com/BENZOOgataga/StaffordAI) |
+| AgentsRoomDev/electron-mcp-for-agentsroom | GitHub | Give your AI agents full control over any Electron app. Zero changes to your existing code. Made for AgentsRoom.dev. | [Link](https://github.com/AgentsRoomDev/electron-mcp-for-agentsroom) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations | arXiv | Foundation GUI agent integrating an environment-grounded training stack with in-context demonstration learning. Addresses scarce training data, ambiguous prompts, and unreliable execution. | [Link](https://arxiv.org/abs/2608.15930v1) |
+| LegacyWorld: Atomicity-Aware Evaluation of GUI Agents for Legacy Workflows | arXiv | Pre-deployment evaluation study for automating legacy enterprise workflows with multimodal LLM agents. Identifies stateful workflows where successful demos are insufficient. | [Link](https://arxiv.org/abs/2608.14131v1) |
+| ComponentBench: Diagnosing Component-Level Failures in Computer-Use Agents | arXiv | Benchmark and diagnostic pipeline for component-level evaluation of computer-use agents on modern web UIs, filling the gap between long-horizon workflows and atomic GUI-grounding tests. | [Link](https://arxiv.org/abs/2608.18307v1) |
+| Inducing Task Models from Computer-Use Traces | arXiv | Deriving symbolic, auditable, and reusable task models from passively recorded screenshots and mouse/keyboard actions. Relevant for agents learning real-world workflows. | [Link](https://arxiv.org/abs/2608.20319v1) |
+| A Gateway Architecture for Enterprise MCP Authentication | arXiv | Addresses the governance crisis from fragmented MCP server authentication in enterprises. Proposes a gateway architecture for unifying heterogeneous auth and identity delegation. | [Link](https://arxiv.org/abs/2608.10760v1) |
+| The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development | arXiv | Case study coordinating Antigravity, Gemini CLI, and Qwen Code under a role-distribution framework for Agentic Software Engineering (SE 3.0). | [Link](https://arxiv.org/abs/2608.12311v1) |
+| Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents | arXiv | Finds that having MCP tools available does not settle whether a model benefits; tool-decision behavior separates reasoning from non-reasoning models on OSWorld-MCP. | [Link](https://arxiv.org/abs/2608.03327v2) |
+| Qwen-CUA: Native Computer Use for (almost) Everything | arXiv | Native computer-use agent with 397B-A17B MoE backbone. Observes only screenshots and acts through keyboard/mouse events, without DOM trees or accessibility metadata. | [Link](https://arxiv.org/abs/2608.02352v1) |
+| CUADebug: Diagnosing and Repairing Computer-Use Agent Failures | arXiv | Framework for diagnosing and repairing CUA failures arising from coupled visual perception, spatial grounding, low-level interaction, and environment dynamics. | [Link](https://arxiv.org/abs/2608.02643v1) |
+| Interactive Reward Agent: GUI Task Evaluation via Environment-State Verification | arXiv | GUI task evaluation using environment-state verification (system configs, file data, app settings) as reward signals for test-time scaling and post-training. | [Link](https://arxiv.org/abs/2607.25904v2) |
+| Scaling GUI Agents with Visual State Transitions | arXiv | Introduces State Transition Pretraining (STP) as a new scaling axis for GUI agents, jointly optimizing inverse and forward dynamics for action-grounded visual representations. | [Link](https://arxiv.org/abs/2607.24112v1) |
+| MAGA: Multi-Platform Self-Fusion of GUI Agents via Structured Action Distillation | arXiv | Consolidates domain-specific GUI agents into a single cross-environment policy via structured action distillation, avoiding weight-merging corruption. | [Link](https://arxiv.org/abs/2607.29320v1) |
+| Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution | arXiv | Self-developing agent harness whose tools, prompts, and core implementation improve through reviewed commits that become the runtime for later work. | [Link](https://arxiv.org/abs/2608.08311v2) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Nvidia just showed that the harness, not the AI model, is now the real hero | TechCrunch | Nvidia research shows AI agents can perform well through fine-tuning even if the base model isn't great at the task — highlighting the importance of the harness. | [Link](https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/) |
+| The Evolution of the Agent Harness | Latent Space | Essay on how models keep absorbing the harness into their weights — soon it will be a harness for human attention rather than for the model. | [Link](https://www.latent.space/p/attention-interface) |
+| Claude Code vs. Codex: Why I use both and how to choose one (if you must) | ZDNET | Practical comparison of Claude Code and Codex for agentic coding workflows. | [Link](https://news.google.com/rss/articles/CBMidkFVX3lxTE00elhyV1ZnVnFNblFSZGx3d1dQcmtHek4xTlZqT1JqaTFYaTNjOFI4dEhORWkyaExjRC15ODIwTW8tXzBaa0dQTEtQblZJcTVDUHdWYTJ5TDJ2UEQyRkZ0SEdHWHlzNlU5OGpmOXpVZVBycndfaHc?oc=5) |
+| Hands-On with Computer History: OpenAI's Take on Agent Memory | MacStories | Hands-on review of OpenAI's agent memory capabilities in the ChatGPT/Codex desktop app. | [Link](https://news.google.com/rss/articles/CBMimwFBVV95cUxNbExfQUtaMjd2RkNoakRjZE1pSlZBQ0QweV9DQWFHRTdQc29pX3FiTzd5b3QtREtad2VyUnd0V3QxWi1peHNxYjRmalZJeVh6Ym9GbkFNMTc2WFZ6RGM1S0ZsbzNvdDd3QkxrbDlCdGlLMm1IeE5PRnZJcGtSTE9wV2pIT013NW5NczBjMjhjU0VJd1JseXdzQXFTVQ?oc=5) |
+| OpenAI's ChatGPT/Codex desktop app is now on Linux | The New Stack | Announcement of Linux support for OpenAI's ChatGPT/Codex desktop app. | [Link](https://news.google.com/rss/articles/CBMiY0FVX3lxTE42aUZGS1k1UTJSbE1BaTc2TUtpV1ZsbVZKNEIweXhOUDhnbFZ2T2lhT29hdWZWTGFfSWYzYTVhblpDVWlvOVBIdExCZmw1VkdXdk1OTG5HYjVWQ0VwVG5WdVlDTQ?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| OpenAI Codex releases | GitHub | Added an interactive codex agents dashboard for searching, starting, opening, renaming, and stopping tasks, with configurable shortcuts. | [Link](https://github.com/openai/codex/releases) |
+| DeepSeek Harness | 36 Kr | Unveils 3 weekly updates, integrates Claude Code & Codex as sub-agents to become the core scheduling layer in the agent era. | [Link](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tanBjQ1Q3TVBiNTN0bjJMQWpyNGRUOFNNckR1QVFROHE3QXJXQ1FDdV93Qzc0OU5EbjlFVWV3Vkk1UUo5U0xtMmxaWUJlLXQzSEF3?oc=5) |
+| OpenAI open-sources Codex Harness | AIBase | OpenAI fully open-sources the Codex Harness, further opening the underlying capabilities of AI coding agents. | [Link](https://news.google.com/rss/articles/CBMiTkFVX3lxTE01ckp3OG1KWmpHZU4yVVVuNGNBT1RIemIxaHVTelU3dXhpWHJYVlpWeTlQWWd3TlJuNnJfX0w1Q2l1VjB0X2xjMDdOblFRdw?oc=5) |
+| 实在 Agent (OSWorld) | InfoQ-CN | First desktop agent to break 90% success rate on OSWorld, achieving dual top rankings. | [Link](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RbzF0ai1adlduR1NBcENKT05Hd05RWmVjWjVHVFRBdmxQOW5CZUJtUG1Xa0s3ODdDS1FqV1NZdW5hQlpRcVY2NkRUNjh5SzFQaklnSTY5bWtLZjdPQnc?oc=5) |
+| OpenConnector | OSCHINA | Open-source connector gateway for AI agents to securely call 1000+ SaaS services. Solves authentication management, permission control, interface adaptation, and audit. | [Link](https://www.oschina.net/news/502067/oomol-lab-open-connector) |
+| Vercel fx | OSCHINA | Lightweight agent implemented in Zig that can run directly in the browser. | [Link](https://news.google.com/rss/articles/CBMiWEFVX3lxTE02OXNhWjVXN1cyWUU3TVBRWm50ckhrZzByakhONzZtYkdncXhZaEM1aERPZ0ZBQ0FJMkExZVN0cUs1dUJlaExHaHRLZFU1dFY0ZVVCQXVqTHc?oc=5) |
+| Stampli + ChatGPT Work | OpenAI | Case study: Stampli cuts launch hours by 68% using Codex and ChatGPT Work to compress weeks of launch production into days. | [Link](https://openai.com/index/stampli) |
