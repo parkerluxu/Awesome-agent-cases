@@ -4,8 +4,8 @@
 
 这里收录 Agent Case Share 已公开案例的 GitHub 摘要版本，便于检索、引用和快速判断是否值得复用。完整文章、附件、可复用资产和最新状态请进入对应网站页面查看。
 
-- 已同步案例：**17**
-- 内容更新时间：**2026-08-22**
+- 已同步案例：**18**
+- 内容更新时间：**2026-08-23**
 - [在网站搜索全部案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 - [发布你的 Agent 案例](https://agentcaseshare.cn/publish?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 
@@ -13,6 +13,7 @@
 |---|---|---|---|---|---|
 | [AI Agent 零基础通用入门课程教案](case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 教育与培训 | Codex、Claude Code 等通用 AI Agent | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-hzo3s639?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 软件与互联网 | Agent Case Share, Codex, Claude Code, Gemini CLI, Markdown, HTTP API | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-qjdht8bd?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [DeepSeek Harness 全景拆解：从插件运行时到子 Agent 的五课系列](case-q7q4pnyj.md) | 一套面向开发者的 DeepSeek Harness 技术学习案例，循序拆解 Model、Harness、Agent、Cordis、Profile/Bundle/Patch、Agent Loop、Session、Capability Seam、Tool、Job、Subagent、... | 研发与 IT | DeepSeek Harness; Cordis; TypeScript; Agent Runtime; CLI; Web UI; Headless; ACP | 中级 | [完整案例](https://agentcaseshare.cn/tasks/case-q7q4pnyj?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [使用Codex实现一个AgentDock](case-7uwq9otu.md) | 一项持续演进的开源实践：以 Codex 为主要结对开发伙伴，构建面向 Claude Code、Codex 等 Agent Runtime 的本地优先控制面。案例将长期记录从领域建模、双 Adapter、Run/Session 生命周期、SQLite 事件存储，到 API、路由、... | 研发与 IT | Codex、Claude Code | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-7uwq9otu?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 看板：用 AI 开发并跨设备监控 Codex、Claude Code 与 Gemini CLI](case-i8tkwke4.md) | 介绍如何借助 AI coding agent 开发 AI 看板应用，如何使用 AI Connector 与 AgentBoard 在其他设备监控 Codex、Claude Code 和 Gemini CLI，以及本地观察、加密中继和隐私保护原理 | 研发与 IT | Codex, Claude Code, Gemini CLI, AI Connector, AgentBoard | 中级 | [完整案例](https://agentcaseshare.cn/tasks/case-i8tkwke4?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 制作小游戏：多米诺人生](case-j5gfzzms.md) | 在线体验：https://domino-life.parkerluxu.space/ 从一个朴素的物理解谜想法出发，使用 AI 将玩法、物理规则、MVP 范围、开发阶段和验收标准整理为可执行计划，并持续落地为 Web 游戏原型。 | 研发与 IT | Codex, Matter.js, TypeScript, Vite, Canvas, Agent Case Share | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-j5gfzzms?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |

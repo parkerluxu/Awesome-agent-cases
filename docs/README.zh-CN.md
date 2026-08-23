@@ -55,12 +55,12 @@
 |---|---|---|
 | [AI Agent 零基础通用入门课程教案](../cases/case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 入门 |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](../cases/case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 入门 |
+| [DeepSeek Harness 全景拆解：从插件运行时到子 Agent 的五课系列](../cases/case-q7q4pnyj.md) | 一套面向开发者的 DeepSeek Harness 技术学习案例，循序拆解 Model、Harness、Agent、Cordis、Profile/Bundle/Patch、Agent Loop、Session、Capability Seam、Tool、Job、Subagent、... | 中级 |
 | [使用Codex实现一个AgentDock](../cases/case-7uwq9otu.md) | 一项持续演进的开源实践：以 Codex 为主要结对开发伙伴，构建面向 Claude Code、Codex 等 Agent Runtime 的本地优先控制面。案例将长期记录从领域建模、双 Adapter、Run/Session 生命周期、SQLite 事件存储，到 API、路由、... | 高级 |
 | [AI 看板：用 AI 开发并跨设备监控 Codex、Claude Code 与 Gemini CLI](../cases/case-i8tkwke4.md) | 介绍如何借助 AI coding agent 开发 AI 看板应用，如何使用 AI Connector 与 AgentBoard 在其他设备监控 Codex、Claude Code 和 Gemini CLI，以及本地观察、加密中继和隐私保护原理 | 中级 |
 | [AI 制作小游戏：多米诺人生](../cases/case-j5gfzzms.md) | 在线体验：https://domino-life.parkerluxu.space/ 从一个朴素的物理解谜想法出发，使用 AI 将玩法、物理规则、MVP 范围、开发阶段和验收标准整理为可执行计划，并持续落地为 Web 游戏原型。 | 入门 |
-| [如何用 AI 制作一个完整的教学短视频](../cases/case-sopyouc8.md) | 完整记录 AI 如何从课程目标和逐字稿生成教学画面、命令动画、神经配音、逐字字幕、背景音乐和最终 MP4，并总结真实迭代中的音频排障、版权核验与人工验收方法。 | 中级 |
 
-[浏览全部 17 个案例](../cases/README.md) · [在网站搜索案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme-zh)
+[浏览全部 18 个案例](../cases/README.md) · [在网站搜索案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme-zh)
 
 <!-- CASES_SHOWCASE_END -->
 
