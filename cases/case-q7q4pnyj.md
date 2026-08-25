@@ -61,6 +61,7 @@ DeepSeek Harness 同时涉及插件运行时、Agent Loop、会话事件、Provi
 
 - [第一课：DeepSeek Harness 到底是什么？它为什么不急着再做一个 Claude Code](https://agentcaseshare.cn/articles/article-3ai6qwcz)
 - [第二课：你以为是在启动 Agent？其实 DSH 每次都在现场组装它](https://agentcaseshare.cn/articles/article-r6vzaw5n)
+- [第三课：一个 Agent 任务到底是怎么跑起来的？从 Agent Loop 到 Trajectory](https://agentcaseshare.cn/articles/article-0m4vj16k)
 - [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
 
 ---
