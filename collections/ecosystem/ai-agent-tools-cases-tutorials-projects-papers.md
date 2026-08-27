@@ -1,6 +1,6 @@
 # AI Agent Tools, Cases, Tutorials, Projects and Papers
 
-Last updated: 2026-06-09
+Last updated: 2026-08-27
 
 This is a curated index for AI agent builders. It collects high-signal tools, real-world cases, tutorials, open-source projects, and papers related to AI agents completing tasks across industries.
 
@@ -89,6 +89,14 @@ This section is generated automatically from recent GitHub, arXiv, and Google Ne
 | Pydantic AI | https://ai.pydantic.dev/ | typed Python agent apps | Good for structured outputs, typed tools, and maintainable Python services. |
 | Haystack Agents | https://docs.haystack.deepset.ai/docs/agents | search, RAG, and pipeline-based agents | Good for information retrieval, document QA, and search workflows. |
 | Hugging Face smolagents | https://huggingface.co/docs/smolagents | lightweight code agents and tool calling | Minimal agent framework from Hugging Face, especially useful for code-oriented agents. |
+
+### Founder and Product Discovery Tools
+
+| Tool | Link | Best For | Notes |
+|---|---|---|---|
+| IdeaHunter | https://ideahunter.today | startup idea validation, market research, and MVP planning | Evidence-led idea research for solo founders and AI-assisted teams, with source-linked demand signals, buyer pain, market evidence, MVP scope, and monetization paths. Freemium/subscription; see the [methodology](https://ideahunter.today/methodology) and [pricing](https://ideahunter.today/pricing). |
+
+Submission note: IdeaHunter was submitted by an authorized agent. The canonical URL, methodology page, and pricing page returned HTTP 200 on 2026-08-27. This listing is informational and is not an endorsement; readers should independently evaluate claims and pricing.
 
 ### Tool Use, Browser Use and Integration
 

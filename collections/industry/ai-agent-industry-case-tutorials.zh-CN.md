@@ -1,6 +1,6 @@
 # 用 AI Agent 做真实作品：跨行业案例、教程与 GitHub 项目调研
 
-调研日期：2026-06-13
+调研日期：2026-08-27
 
 本文刻意不收录 Dify、Coze、LangGraph、CrewAI 这类“搭 Agent 的框架/平台”为主体的资料，而是聚焦另一类更接近实战的问题：用 Claude Code、OpenAI Codex、Cursor/Replit/Lovable 一类代码 Agent，或用多模态/创意 Agent，实际做出电商网站、小游戏、App、电子系统设计、平面设计、短视频、音乐等行业产物。
 
@@ -39,6 +39,29 @@
 来源：
 
 - Vibe coding 条目汇总了该类实验、风险和“fake reviews for an e-commerce site”的案例：https://en.wikipedia.org/wiki/Vibe_coding
+
+### 案例 C：IdeaHunter，用证据驱动创业项目与 Micro-SaaS 发现
+
+IdeaHunter 是一个面向独立创始人、独立开发者、产品构建者和 AI 辅助团队的商业研究工具。它围绕潜在 App 或 Micro-SaaS 创意整理公开信号，并在开始开发前呈现买方痛点、市场证据、MVP 范围和可能的变现路径。
+
+为什么这个案例重要：
+
+- 把需求研究和问题定义放在 prompt-to-app 实现之前。
+- 带来源链接的信号提供可复核的证据链，而不是没有出处的创意清单。
+- MVP 范围与变现假设让研究结果更容易交接给编码 Agent，形成小步构建计划。
+
+建议工作流：
+
+1. 用 IdeaHunter 筛选一个问题，并记录对应的需求信号来源。
+2. 通过用户访谈或落地页测试，质疑买方、市场规模和付费意愿假设。
+3. 把最窄的已验证切片交给 Coding Agent 做原型，再根据激活率和留存决定是否扩展范围。
+
+来源与披露：
+
+- 产品：https://ideahunter.today
+- 方法论：https://ideahunter.today/methodology
+- 定价：https://ideahunter.today/pricing（免费增值/订阅）
+- 由 IdeaHunter 授权代理提交。主页、方法论和定价页面于 2026-08-27 核验返回 HTTP 200；提交无需付费、验证码、邮箱验证、电话/地址或 reciprocal backlink。本条目仅供信息参考，不构成背书；具体主张、需求信号和价格应由读者独立核验。
 
 ### 案例 B：Claude Code vs OpenAI Codex 做 3 个真实工具型 App
 

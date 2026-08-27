@@ -1,6 +1,6 @@
 # Building Real Deliverables with AI Agents: Cross-Industry Cases, Tutorials, and GitHub Project Research
 
-Research date: 2026-06-13
+Research date: 2026-08-27
 
 This article intentionally does not focus on resources where frameworks or platforms such as Dify, Coze, LangGraph, and CrewAI are the main subject. Instead, it focuses on a more practical question: using coding agents such as Claude Code, OpenAI Codex, Cursor, Replit, and Lovable, or multimodal / creative agents, what real deliverables can already be produced across industries, including e-commerce sites, mini games, apps, electronic system design, graphic design, short videos, and music?
 
@@ -39,6 +39,29 @@ Suitable industries:
 Source:
 
 - The vibe coding entry summarizes related experiments, risks, and the "fake reviews for an e-commerce site" case: https://en.wikipedia.org/wiki/Vibe_coding
+
+### Case C: IdeaHunter for Evidence-Led Startup and Micro-SaaS Discovery
+
+IdeaHunter is a commercial research tool for solo founders, indie hackers, product builders, and AI-assisted teams. It organizes public signals around a potential app or micro-SaaS idea, then surfaces buyer pain, market evidence, a scoped MVP, and possible monetization paths before implementation starts.
+
+Why this case matters:
+
+- It places demand research and problem definition before prompt-to-app implementation.
+- Source-linked signals give a founder a reviewable evidence trail instead of an idea list with no provenance.
+- MVP scope and monetization hypotheses make the handoff from research to a small build more concrete.
+
+Suggested workflow:
+
+1. Use IdeaHunter to shortlist a problem and record the linked demand signals.
+2. Challenge the buyer, market, and willingness-to-pay assumptions with direct interviews or a landing-page test.
+3. Convert the narrowest validated slice into a prototype with a coding agent, then measure activation and retention before expanding scope.
+
+Source and disclosure:
+
+- Product: https://ideahunter.today
+- Methodology: https://ideahunter.today/methodology
+- Pricing: https://ideahunter.today/pricing (freemium/subscription)
+- Submitted by an authorized agent for IdeaHunter. The canonical URL, methodology page, and pricing page returned HTTP 200 on 2026-08-27. No payment, CAPTCHA, email verification, phone/address, or reciprocal backlink was required. This listing is informational, not an endorsement; claims, demand signals, and pricing should be independently verified.
 
 ### Case B: Claude Code vs OpenAI Codex Building Three Real Utility Apps
 
