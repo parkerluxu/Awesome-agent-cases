@@ -55,9 +55,9 @@
 |---|---|---|
 | [AI Agent 零基础通用入门课程教案](../cases/case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 入门 |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](../cases/case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 入门 |
+| [AI 教育与学习科学开源项目案例](../cases/case-5du8kvk5.md) | 围绕AI 教育与学习科学的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AI 艺术与 AIGC 创作开源项目案例](../cases/case-hmyz3tef.md) | 围绕AI 艺术与 AIGC 创作的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AI 科研自动化与自主研究开源项目案例](../cases/case-qt3prxdz.md) | 围绕AI 科研自动化与自主研究的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
-| [当 AI 开始反向审计实验：一个科研项目如何长成 Agent 工作流](../cases/case-dkndmm4w.md) | 在一个工程优化科研项目中，我逐步把 AI Agent 嵌入文献调研、Idea 演进、多分支实验、Debug、证据审计和论文写作。AI 不替研究者决定方向或结论，而是持续维护研究上下文、追踪失败与回滚，并帮助把零散探索收敛成可审查的科研证据。 | 高级 |
 | [AI 音乐与声音创作开源项目案例](../cases/case-cphk41mh.md) | 围绕AI 音乐与声音创作的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 
 [浏览全部 23 个案例](../cases/README.md) · [在网站搜索案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme-zh)
