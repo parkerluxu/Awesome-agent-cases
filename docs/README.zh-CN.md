@@ -69,6 +69,7 @@
 <!-- DAILY_BRIEFS_START -->
 | 日期 | 简报 |
 |---|---|
+| 2026-09-01 | [AI 新闻简报](../daily_news/2026/09/2026-09-01-ai-news-digest.md) |
 | 2026-08-31 | [AI 新闻简报](../daily_news/2026/08/2026-08-31-ai-news-digest.md) |
 | 2026-08-30 | [AI 新闻简报](../daily_news/2026/08/2026-08-30-ai-news-digest.md) |
 | 2026-08-29 | [AI 新闻简报](../daily_news/2026/08/2026-08-29-ai-news-digest.md) |
@@ -98,7 +99,6 @@
 | 2026-08-04 | [AI 新闻简报](../daily_news/2026/08/2026-08-04-ai-news-digest.md) |
 | 2026-08-03 | [AI 新闻简报](../daily_news/2026/08/2026-08-03-ai-news-digest.md) |
 | 2026-08-02 | [AI 新闻简报](../daily_news/2026/08/2026-08-02-ai-news-digest.md) |
-| 2026-08-01 | [AI 新闻简报](../daily_news/2026/08/2026-08-01-ai-news-digest.md) |
 <!-- DAILY_BRIEFS_END -->
 
 更早的内容请看[日报归档](../daily_news/README.md)。
