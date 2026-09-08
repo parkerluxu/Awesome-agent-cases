@@ -386,6 +386,24 @@ Sources:
 - Higgsfield AI overview: https://en.wikipedia.org/wiki/Higgsfield_AI
 - LTX Studio overview: https://en.wikipedia.org/wiki/LTX_Studio
 
+### Case E: TaoLive Digital-Avatar Agents for Live Commerce
+
+**Resource type:** Paper / production technical report. **Topic:** Industry / live-commerce marketing.
+
+[Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report](https://arxiv.org/abs/2608.15763) describes an agent that answers product questions, interacts with viewers,
+and applies changing marketing strategies during digital-avatar live streams.
+
+The engineering contribution is Harness-Aware Training: the model encounters variations in Skills, tool schemas,
+prompts, and Hooks during training. The report then tests developer-reviewed harness edits with model weights fixed,
+alongside serving measurements and an online A/B test on Taobao Live. This is useful when business strategies change
+more frequently than a team can retrain its model.
+
+The online comparison evaluates the deployed system as a whole; it does not isolate the effect of HAT alone.
+The paper and project notes are public, while the implementation, model checkpoints, and internal evaluation data
+are not released.
+
+Source: [arXiv technical report, August 2026](https://arxiv.org/abs/2608.15763).
+
 ## 7. Music, MV, and Audio Content
 
 ### Case A: MusicAgent, a Music Understanding and Generation Agent
