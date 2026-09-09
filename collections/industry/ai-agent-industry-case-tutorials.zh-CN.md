@@ -386,6 +386,21 @@ NarratoAI 是一个中文开源项目，调研时约 9.8k star，定位是“利
 - Higgsfield AI 概述：https://en.wikipedia.org/wiki/Higgsfield_AI
 - LTX Studio 概述：https://en.wikipedia.org/wiki/LTX_Studio
 
+### 案例 E：TaoLive 直播电商数字人 Agent
+
+**资源类型：** 论文 / 生产技术报告。**主题：** 行业应用 / 直播电商营销。
+
+[Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report](https://arxiv.org/abs/2608.15763) 介绍了一个在数字人直播中回答商品问题、与观众互动并执行营销策略的 Agent。
+
+报告提出 Harness-Aware Training，在训练中变化 Skills、工具 Schema、提示词和 Hooks，
+再固定模型权重，评估经过开发者审核后的 Harness 更新；同时给出推理服务测试和淘宝直播线上 A/B 测试。
+对于业务策略更新频繁、无法每次都重新训练模型的团队，这提供了一个可参考的训练与运行时设计案例。
+
+线上 A/B 比较的是完整部署系统，不能单独归因为 HAT。当前公开的是论文和项目研究资料，
+实现代码、模型权重和内部评测数据尚未发布。
+
+来源：[arXiv 技术报告，2026 年 8 月](https://arxiv.org/abs/2608.15763)。
+
 ## 7. 音乐、MV 与声音内容
 
 ### 案例 A：MusicAgent，音乐理解与生成 Agent
