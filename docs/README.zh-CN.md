@@ -55,12 +55,12 @@
 |---|---|---|
 | [AI Agent 零基础通用入门课程教案](../cases/case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 入门 |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](../cases/case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 入门 |
+| [机器人与具身智能开源项目案例](../cases/case-uzfecpbf.md) | 围绕机器人与具身智能的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [多模态内容与创意生产开源项目案例](../cases/case-ifo7n33s.md) | 围绕多模态内容与创意生产的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AI 科研与科学发现开源项目案例](../cases/case-95gpv4hf.md) | 围绕AI 科研与科学发现的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [企业知识库与 RAG开源项目案例](../cases/case-f7wu99g4.md) | 围绕企业知识库与 RAG的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
-| [编程 Agent 与软件工程开源项目案例](../cases/case-zmdl5epo.md) | 围绕编程 Agent 与软件工程的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 
-[浏览全部 29 个案例](../cases/README.md) · [在网站搜索案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme-zh)
+[浏览全部 30 个案例](../cases/README.md) · [在网站搜索案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme-zh)
 
 <!-- CASES_SHOWCASE_END -->
 
