@@ -62,8 +62,8 @@ tags:
 - [系统架构图解](https://agentcaseshare.cn/articles/article-c236uuvw)
 - [从一句话需求到可运行的客服机器人](https://agentcaseshare.cn/articles/article-8mro2sj0)
 - [从一句话需求到可运行的客服机器人](https://agentcaseshare.cn/articles/article-avtfbo2t)
-- [E-commerce Customer Service Bot - Source Code](https://agentcaseshare.cn/assets/cmrc2rrw401t1wj9p1qle1owi)
 - [Human-AI Collaboration Development Methodology](https://agentcaseshare.cn/assets/cmrc2rrw501t2wj9p72eckq0r)
+- [E-commerce Customer Service Bot - Source Code](https://agentcaseshare.cn/assets/cmrc2rrw401t1wj9p1qle1owi)
 
 ---
 

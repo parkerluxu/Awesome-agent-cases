@@ -1,11 +1,11 @@
 ---
 id: "case-7uwq9otu"
-title: "使用Codex实现一个AgentDock"
+title: "AgentDock：统一管理 Codex、Claude Code 等本地 AI Agent，支持环境隔离与运行审计"
 canonical_url: "https://agentcaseshare.cn/tasks/case-7uwq9otu"
 category: "研发与 IT"
 difficulty: "ADVANCED"
 author: "luxu"
-updated_at: "2026-08-22T13:12:14.014Z"
+updated_at: "2026-09-13T14:12:14.667Z"
 tags:
   - "codex"
   - "Claude Code"
@@ -19,33 +19,34 @@ tags:
 
 <!-- GENERATED FROM AGENT CASE SHARE. DO NOT EDIT DIRECTLY. -->
 
-# 使用Codex实现一个AgentDock
+# AgentDock：统一管理 Codex、Claude Code 等本地 AI Agent，支持环境隔离与运行审计
 
-> 一项持续演进的开源实践：以 Codex 为主要结对开发伙伴，构建面向 Claude Code、Codex 等 Agent Runtime 的本地优先控制面。案例将长期记录从领域建模、双 Adapter、Run/Session 生命周期、SQLite 事件存储，到 API、路由、SDK、团队治理与远程执行的完整过程。
+> AgentDock 是面向 Codex、Claude Code 等本地 Agent CLI 的 local-first 控制面。它统一 Engine、Environment、Permission、Agent、Project、Session 与 Run，提供确定性路由、dry-run、SQLite 审计、回环 HTTP API、可恢复 SSE、零依赖 Node SDK、Control Center 和第三方 Adapter 生命周期管理。
 
 [在 Agent Case Share 查看完整案例、文章和可复用资产](https://agentcaseshare.cn/tasks/case-7uwq9otu?utm_source=github&utm_medium=repository&utm_campaign=case-7uwq9otu)
 
 ## 要解决的问题
 
-不同代码 Agent 的 CLI、会话、权限、工作目录和输出格式各自独立，个人与团队难以统一调度、隔离执行环境并追溯一次任务的实际执行条件。
+多个代码 Agent CLI 各自拥有二进制、认证目录、配置、权限、会话和输出格式。个人与团队难以统一调度、隔离工作环境、在执行前确认真实边界，并在终端断开后追溯一次任务使用的 Agent、目录、权限、Session、事件和终态。
 
 ## 实现方案
 
-以 AgentDock 作为 Runtime 控制面：用 Adapter 统一 CLI 差异，以 Profile、Project、Policy 描述执行边界，以 Session、Run、RunEvent 保存生命周期和证据链；先完成本地 CLI 闭环，再逐步扩展本地 API、路由和第三方 Adapter SDK。
+以 AgentDock 作为本机 Agent Runtime 控制面：用 Adapter 统一 CLI 差异；用 Engine、Environment、Permission、Agent 和 Project 固化路由与边界；用 dry-run 在执行前解释计划；用 Session、Run、不可变快照、有序事件和 SQLite 保留证据；通过仅回环 API、Bearer Token、SSE、Node SDK 与 Control Center 服务脚本、IDE、CI 和人工审计。
 
 ## Agent 工作流
 
-1. 访谈并收敛统一 Runtime 调度的真实需求
-2. 固化 Runtime、Adapter、Profile、Project、Policy、Session、Run 与事件模型
-3. 为 Claude Code 和 Codex 实现并验证 Adapter
-4. 接入配置校验、策略解析、SQLite 持久化和 CLI
-5. 用真实 Runtime 输出修正 Session 与参数映射假设
-6. 建立仅回环监听的 HTTP API 与事件流
-7. 继续迭代认证、路由、SDK、团队治理与远程能力
+1. 安装依赖并运行 typecheck、测试和构建
+2. 校验配置并使用 doctor 检查 Engine、Project 与 SQLite
+3. 配置 Agent Engine、Agent Environment、Environment Permission、Agent 与 Project
+4. 使用 dry-run 核对路由、工作目录、网络和写入边界
+5. 通过 CLI 或本地 API 执行真实 Run
+6. 在 CLI 或 Control Center 查看 Run 快照、Session 和事件时间线
+7. 通过 JSONL 导出、SSE 或 Node SDK 接入脚本、IDE 与 CI
+8. 按需安装并显式授权第三方 Adapter
 
 ## 效果与复盘
 
-形成一套可复查、可复现、可持续扩展的 Agent Runtime 控制面实践记录；后续文章将保留设计取舍、失败日志、修复过程和完整项目演进，而不只展示最终结果。
+形成一套可运行、可审计、可扩展的本地多 Agent 控制面：同一套配置和证据链可同时服务 Codex、Claude Code、脚本、IDE、CI 与人工排查。2026-09-13 实测 typecheck、构建、配置校验、doctor 通过，24 个测试文件共 95 项测试全部通过。
 
 ## 案例信息
 
@@ -54,14 +55,16 @@ tags:
 | 分类 | 研发与 IT |
 | 难度 | 高级 |
 | 作者 | luxu |
-| 工具与技术栈 | Codex、Claude Code |
+| 工具与技术栈 | Codex、Claude Code、Node.js、TypeScript、SQLite |
 | 标签 | codex、Claude Code、Agent Runtime、TypeScript、SQLite、本地优先、开源项目、AgentDock |
 | 案例 ID | `case-7uwq9otu` |
-| 最后更新 | 2026-08-22 |
+| 最后更新 | 2026-09-13 |
 
 ## 关联资源
 
 - [从一个统一入口的想法，到真实 Runtime 联调：我和 Codex 共同实现 AgentDock 的开发记录](https://agentcaseshare.cn/articles/article-odhsn1ur)
+- [AgentDock 详细使用指南：统一管理 Codex、Claude Code 与本地 Agent Runtime](https://agentcaseshare.cn/articles/article-9eg4qz85)
+- [AgentDock](https://github.com/parkerluxu/AgentDock.git)
 
 ---
 
