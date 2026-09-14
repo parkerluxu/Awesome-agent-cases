@@ -4,8 +4,8 @@
 
 这里收录 Agent Case Share 已公开案例的 GitHub 摘要版本，便于检索、引用和快速判断是否值得复用。完整文章、附件、可复用资产和最新状态请进入对应网站页面查看。
 
-- 已同步案例：**32**
-- 内容更新时间：**2026-09-13**
+- 已同步案例：**33**
+- 内容更新时间：**2026-09-14**
 - [在网站搜索全部案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 - [发布你的 Agent 案例](https://agentcaseshare.cn/publish?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 
@@ -13,6 +13,7 @@
 |---|---|---|---|---|---|
 | [AI Agent 零基础通用入门课程教案](case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 教育与培训 | Codex、Claude Code 等通用 AI Agent | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-hzo3s639?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 软件与互联网 | Agent Case Share, Codex, Claude Code, Gemini CLI, Markdown, HTTP API | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-qjdht8bd?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [AI 社会科学研究开源项目案例](case-2zjxisye.md) | 围绕AI 社会科学研究的开源项目、落地路径与风险边界的长期案例导航。 | 科研与学术 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-2zjxisye?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 金融、财税与风控开源项目案例](case-3zqdzb6j.md) | 围绕AI 金融、财税与风控的开源项目、落地路径与风险边界的长期案例导航。 | 金融与财税 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-3zqdzb6j?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AgentDock：统一管理 Codex、Claude Code 等本地 AI Agent，支持环境隔离与运行审计](case-7uwq9otu.md) | AgentDock 是面向 Codex、Claude Code 等本地 Agent CLI 的 local-first 控制面。它统一 Engine、Environment、Permission、Agent、Project、Session 与 Run，提供确定性路由、dry-r... | 研发与 IT | Codex、Claude Code、Node.js、TypeScript、SQLite | 高级 | [完整案例](https://agentcaseshare.cn/tasks/case-7uwq9otu?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 电子设计与芯片工程开源项目案例](case-8s2mab5l.md) | 围绕AI 电子设计与芯片工程的开源项目、落地路径与风险边界的长期案例导航。 | 电子信息与硬件 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-8s2mab5l?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
