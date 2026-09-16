@@ -55,10 +55,10 @@
 |---|---|---|
 | [AI Agent 零基础通用入门课程教案](../cases/case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 入门 |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](../cases/case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 入门 |
+| [AI 音乐与声音创作开源项目案例](../cases/case-cphk41mh.md) | 围绕AI 音乐与声音创作的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AI 社会科学研究开源项目案例](../cases/case-2zjxisye.md) | 围绕AI 社会科学研究的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AI 金融、财税与风控开源项目案例](../cases/case-3zqdzb6j.md) | 围绕AI 金融、财税与风控的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AgentDock：统一管理 Codex、Claude Code 等本地 AI Agent，支持环境隔离与运行审计](../cases/case-7uwq9otu.md) | AgentDock 是面向 Codex、Claude Code 等本地 Agent CLI 的 local-first 控制面。它统一 Engine、Environment、Permission、Agent、Project、Session 与 Run，提供确定性路由、dry-r... | 高级 |
-| [AI 电子设计与芯片工程开源项目案例](../cases/case-8s2mab5l.md) | 围绕AI 电子设计与芯片工程的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 
 [浏览全部 33 个案例](../cases/README.md) · [在网站搜索案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme-zh)
 

@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-cphk41mh"
 category: "艺术设计与创意"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-08-28T12:08:55.696Z"
+updated_at: "2026-09-16T14:40:23.491Z"
 tags: []
 ---
 
@@ -43,14 +43,17 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-cphk41mh` |
-| 最后更新 | 2026-08-28 |
+| 最后更新 | 2026-09-16 |
 
 ## 关联资源
 
 - [AI 音乐与声音创作开源项目案例](https://agentcaseshare.cn/articles/case-ai-music-overview)
 - [AI 音乐与声音创作开源项目汇总](https://agentcaseshare.cn/articles/case-ai-music-2026-08-28-projects)
+- [AI 音乐与声音创作开源项目汇总](https://agentcaseshare.cn/articles/case-ai-music-2026-09-16-projects)
 - [MOSS-TTS：开源语音合成家族的中文长文与克隆验证](https://agentcaseshare.cn/articles/case-ai-music-2026-08-28-openmoss-moss-tts)
+- [multimodal-art-projection/yue：先写符号乐谱再渲染完整歌曲的 AI 音乐项目](https://agentcaseshare.cn/articles/case-ai-music-2026-09-16-multimodal-art-projection-yue)
 - [0xshug0/audio.cpp：纯 C++ 音频模型推理引擎的本地化实践](https://agentcaseshare.cn/articles/case-ai-music-2026-08-28-0xshug0-audio-cpp)
+- [jd-opensource/joyai-echo：长时音视频生成双项目非商业试用决策案例](https://agentcaseshare.cn/articles/case-ai-music-2026-09-16-jd-opensource-joyai-echo)
 
 ---
 
