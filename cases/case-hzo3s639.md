@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-hzo3s639"
 category: "教育与培训"
 difficulty: "BEGINNER"
 author: "luxu"
-updated_at: "2026-09-15T15:47:07.235Z"
+updated_at: "2026-09-17T13:26:42.807Z"
 tags:
   - "AI Agent"
   - "零基础教程"
@@ -56,7 +56,7 @@ tags:
 | 工具与技术栈 | Codex、Claude Code 等通用 AI Agent |
 | 标签 | AI Agent、零基础教程、codex、Claude Code、自动化、提示词、安全、生产力 |
 | 案例 ID | `case-hzo3s639` |
-| 最后更新 | 2026-09-15 |
+| 最后更新 | 2026-09-17 |
 
 ## 关联资源
 

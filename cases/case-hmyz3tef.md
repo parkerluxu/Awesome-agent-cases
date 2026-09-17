@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-hmyz3tef"
 category: "艺术设计与创意"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-08-30T14:37:55.628Z"
+updated_at: "2026-09-17T15:54:31.061Z"
 tags: []
 ---
 
@@ -43,14 +43,17 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-hmyz3tef` |
-| 最后更新 | 2026-08-30 |
+| 最后更新 | 2026-09-17 |
 
 ## 关联资源
 
 - [AI 艺术与 AIGC 创作开源项目案例](https://agentcaseshare.cn/articles/case-ai-art-overview)
 - [AI 艺术与 AIGC 创作开源项目汇总](https://agentcaseshare.cn/articles/case-ai-art-2026-08-30-projects)
+- [AI 艺术与 AIGC 创作开源项目汇总](https://agentcaseshare.cn/articles/case-ai-art-2026-09-17-projects)
 - [krillinai/krillinai：AI 视频翻译配音，从下载到渲染的全链路开源工具](https://agentcaseshare.cn/articles/case-ai-art-2026-08-30-krillinai-krillinai)
+- [mflux：在 Mac 本地运行生成式图像与视频模型的 MLX 实现](https://agentcaseshare.cn/articles/case-ai-art-2026-09-17-mflux-community-mflux)
 - [yils-lin/short-video-factory：AI 批量短视频工厂的适用边界与验证要点](https://agentcaseshare.cn/articles/case-ai-art-2026-08-30-yils-lin-short-video-factory)
+- [zenstory-ai/drama-skills：短剧漫剧剧本分镜提示词全链路技能集试用判断](https://agentcaseshare.cn/articles/case-ai-art-2026-09-17-zenstory-ai-drama-skills)
 
 ---
 
