@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-5du8kvk5"
 category: "教育与培训"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-08-31T14:51:03.144Z"
+updated_at: "2026-09-18T15:17:05.015Z"
 tags: []
 ---
 
@@ -43,14 +43,17 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-5du8kvk5` |
-| 最后更新 | 2026-08-31 |
+| 最后更新 | 2026-09-18 |
 
 ## 关联资源
 
 - [AI 教育与学习科学开源项目案例](https://agentcaseshare.cn/articles/case-ai-education-overview)
 - [AI 教育与学习科学开源项目汇总](https://agentcaseshare.cn/articles/case-ai-education-2026-08-31-projects)
+- [AI 教育与学习科学开源项目汇总](https://agentcaseshare.cn/articles/case-ai-education-2026-09-18-projects)
 - [exorust/torchleet：用真实面试题检验你的 PyTorch 功底](https://agentcaseshare.cn/articles/case-ai-education-2026-08-31-exorust-torchleet)
+- [LearnHouse 开源学习平台教育场景案例部署与试点判断](https://agentcaseshare.cn/articles/case-ai-education-2026-09-18-learnhouse-learnhouse)
 - [caviraoss/pagelm：开源自托管的学习材料转化工具评估](https://agentcaseshare.cn/articles/case-ai-education-2026-08-31-caviraoss-pagelm)
+- [datatalksclub/llm-zoomcamp：10 周 LLM 应用课程能否支撑团队 RAG 试点与验收判断](https://agentcaseshare.cn/articles/case-ai-education-2026-09-18-datatalksclub-llm-zoomcamp)
 
 ---
 
