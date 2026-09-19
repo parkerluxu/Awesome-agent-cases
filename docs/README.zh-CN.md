@@ -55,12 +55,12 @@
 |---|---|---|
 | [AI Agent 零基础通用入门课程教案](../cases/case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 入门 |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](../cases/case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 入门 |
+| [AI 医疗、生物与健康开源项目案例](../cases/case-8rfrzrjt.md) | 围绕AI 医疗、生物与健康的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
+| [一个科研项目如何长成 Agent 工作流](../cases/case-dkndmm4w.md) | 这是一个围绕 PDN 去耦电容优化展开的长周期科研项目。随着实验从简单场景逐步扩展到更复杂的工程 Case，我把 ChatGPT、Codex 和本地实验工具逐渐嵌入文献梳理、实验分支管理、调试、严格验证、证据审计和论文写作中，最终形成了一套可追溯的科研 Agent 工作流。 | 高级 |
 | [AI 教育与学习科学开源项目案例](../cases/case-5du8kvk5.md) | 围绕AI 教育与学习科学的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AI 艺术与 AIGC 创作开源项目案例](../cases/case-hmyz3tef.md) | 围绕AI 艺术与 AIGC 创作的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
-| [AI 音乐与声音创作开源项目案例](../cases/case-cphk41mh.md) | 围绕AI 音乐与声音创作的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
-| [AI 社会科学研究开源项目案例](../cases/case-2zjxisye.md) | 围绕AI 社会科学研究的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 
-[浏览全部 33 个案例](../cases/README.md) · [在网站搜索案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme-zh)
+[浏览全部 34 个案例](../cases/README.md) · [在网站搜索案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme-zh)
 
 <!-- CASES_SHOWCASE_END -->
 

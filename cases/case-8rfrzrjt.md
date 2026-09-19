@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-8rfrzrjt"
 category: "医疗与健康"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-01T12:58:08.064Z"
+updated_at: "2026-09-19T13:12:48.660Z"
 tags: []
 ---
 
@@ -43,14 +43,17 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-8rfrzrjt` |
-| 最后更新 | 2026-09-01 |
+| 最后更新 | 2026-09-19 |
 
 ## 关联资源
 
 - [AI 医疗、生物与健康开源项目案例](https://agentcaseshare.cn/articles/case-ai-healthcare-biotech-overview)
 - [AI 医疗、生物与健康开源项目汇总](https://agentcaseshare.cn/articles/case-ai-healthcare-biotech-2026-09-01-projects)
+- [AI 医疗、生物与健康开源项目汇总](https://agentcaseshare.cn/articles/case-ai-healthcare-biotech-2026-09-19-projects)
 - [maziyarpanahi/openmed：本地优先的临床文本去标识化与实体提取](https://agentcaseshare.cn/articles/case-ai-healthcare-biotech-2026-09-01-maziyarpanahi-openmed)
+- [BioNeMo Recipes：药物发现大模型训练与适配参考实现案例](https://agentcaseshare.cn/articles/case-ai-healthcare-biotech-2026-09-19-nvidia-bionemo-bionemo-recipes)
 - [project-monai/monai：医疗影像深度学习框架的选型与验证要点](https://agentcaseshare.cn/articles/case-ai-healthcare-biotech-2026-09-01-project-monai-monai)
+- [thetahealth/mirobody：自托管健康数据引擎，化验与可穿戴记录的归一与溯源](https://agentcaseshare.cn/articles/case-ai-healthcare-biotech-2026-09-19-thetahealth-mirobody)
 
 ---
 
