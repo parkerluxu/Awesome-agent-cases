@@ -71,6 +71,7 @@ Published cases are synchronized as concise Markdown summaries for discovery, ci
 <!-- DAILY_BRIEFS_START -->
 | Date | Brief |
 |---|---|
+| 2026-09-20 | [AI News Digest](daily_news/2026/09/2026-09-20-ai-news-digest.md) |
 | 2026-09-19 | [AI News Digest](daily_news/2026/09/2026-09-19-ai-news-digest.md) |
 | 2026-09-17 | [AI News Digest](daily_news/2026/09/2026-09-17-ai-news-digest.md) |
 | 2026-09-16 | [AI News Digest](daily_news/2026/09/2026-09-16-ai-news-digest.md) |
