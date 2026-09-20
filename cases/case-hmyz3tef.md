@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-hmyz3tef"
 category: "艺术设计与创意"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-17T15:54:31.061Z"
+updated_at: "2026-09-20T06:26:43.085Z"
 tags: []
 ---
 
@@ -43,7 +43,7 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-hmyz3tef` |
-| 最后更新 | 2026-09-17 |
+| 最后更新 | 2026-09-20 |
 
 ## 关联资源
 
