@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-8rfrzrjt"
 category: "医疗与健康"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-19T13:12:48.660Z"
+updated_at: "2026-09-21T02:38:53.082Z"
 tags: []
 ---
 
@@ -43,7 +43,7 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-8rfrzrjt` |
-| 最后更新 | 2026-09-19 |
+| 最后更新 | 2026-09-21 |
 
 ## 关联资源
 

@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-qjdht8bd"
 category: "软件与互联网"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-08-05T15:50:33.182Z"
+updated_at: "2026-09-21T16:12:53.527Z"
 tags:
   - "平台使用"
   - "内容检索"
@@ -51,7 +51,7 @@ tags:
 | 工具与技术栈 | Agent Case Share, Codex, Claude Code, Gemini CLI, Markdown, HTTP API |
 | 标签 | 平台使用、内容检索、资产复用、内容管理、案例发布、AI、API、常见问题 |
 | 案例 ID | `case-qjdht8bd` |
-| 最后更新 | 2026-08-05 |
+| 最后更新 | 2026-09-21 |
 
 ## 关联资源
 
