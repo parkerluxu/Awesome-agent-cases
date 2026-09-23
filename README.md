@@ -57,12 +57,12 @@ Published cases are synchronized as concise Markdown summaries for discovery, ci
 |---|---|---|
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](cases/case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 入门 |
 | [AI Agent 零基础通用入门课程教案](cases/case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 入门 |
+| [AI 零售、电商与增长开源项目案例](cases/case-qbk2aose.md) | 围绕AI 零售、电商与增长的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AI 内容、视频与传媒开源项目案例](cases/case-e6lfg5bw.md) | 围绕AI 内容、视频与传媒的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AI 3D、CAD 与工程设计开源项目案例](cases/case-9dac7016.md) | 围绕AI 3D、CAD 与工程设计的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 | [AI 医疗、生物与健康开源项目案例](cases/case-8rfrzrjt.md) | 围绕AI 医疗、生物与健康的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
-| [AI 艺术与 AIGC 创作开源项目案例](cases/case-hmyz3tef.md) | 围绕AI 艺术与 AIGC 创作的开源项目、落地路径与风险边界的长期案例导航。 | 入门 |
 
-[Browse all 36 cases](cases/README.md) · [Search on Agent Case Share](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme)
+[Browse all 37 cases](cases/README.md) · [Search on Agent Case Share](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=readme)
 
 <!-- CASES_SHOWCASE_END -->
 
