@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-zmdl5epo"
 category: "研发与 IT"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-07T12:24:14.126Z"
+updated_at: "2026-09-26T02:46:40.685Z"
 tags: []
 ---
 
@@ -43,14 +43,17 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-zmdl5epo` |
-| 最后更新 | 2026-09-07 |
+| 最后更新 | 2026-09-26 |
 
 ## 关联资源
 
-- [编程 Agent 与软件工程开源项目案例](https://agentcaseshare.cn/articles/case-coding-agents-overview)
+- [AI 编程与软件工程开源项目案例](https://agentcaseshare.cn/articles/case-coding-agents-overview)
 - [编程 Agent 与软件工程开源项目汇总](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-07-projects)
+- [AI 编程与软件工程开源项目汇总](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-25-projects)
 - [esengine/deepseek-reasonix：可留宿运行的 DeepSeek 原生编码代理](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-07-esengine-deepseek-reasonix)
+- [gentleman-programming/gentle-ai：为已有 AI 编码 agent 补记忆与证据](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-25-gentleman-programming-gentle-ai)
 - [obra/superpowers：为编码代理注入结构化开发流程](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-07-obra-superpowers)
+- [headroomlabs-ai/headroom：LLM 上下文压缩层项目案例](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-25-headroomlabs-ai-headroom)
 
 ---
 

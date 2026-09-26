@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-f7wu99g4"
 category: "研发与 IT"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-08T13:59:55.952Z"
+updated_at: "2026-09-26T14:59:19.799Z"
 tags: []
 ---
 
@@ -43,14 +43,17 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-f7wu99g4` |
-| 最后更新 | 2026-09-08 |
+| 最后更新 | 2026-09-26 |
 
 ## 关联资源
 
 - [企业知识库与 RAG开源项目案例](https://agentcaseshare.cn/articles/case-enterprise-knowledge-rag-overview)
 - [企业知识库与 RAG开源项目汇总](https://agentcaseshare.cn/articles/case-enterprise-knowledge-rag-2026-09-08-projects)
+- [企业知识库与 RAG开源项目汇总](https://agentcaseshare.cn/articles/case-enterprise-knowledge-rag-2026-09-26-projects)
 - [zleap-ai/sag：查询时动态超边能否让企业知识库告别 RAG 幻觉](https://agentcaseshare.cn/articles/case-enterprise-knowledge-rag-2026-09-08-zleap-ai-sag)
+- [pipeshub-ai/pipeshub-ai：开源企业知识检索平台](https://agentcaseshare.cn/articles/case-enterprise-knowledge-rag-2026-09-26-pipeshub-ai-pipeshub-ai)
 - [arc53/docsgpt：开源企业知识库与 RAG 代理平台](https://agentcaseshare.cn/articles/case-enterprise-knowledge-rag-2026-09-08-arc53-docsgpt)
+- [iaar-shanghai/awesome-ai-memory：AI 记忆知识库索引案例](https://agentcaseshare.cn/articles/case-enterprise-knowledge-rag-2026-09-26-iaar-shanghai-awesome-ai-memory)
 
 ---
 

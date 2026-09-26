@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-wd5unn38"
 category: "其他"
 difficulty: "BEGINNER"
 author: "luxu"
-updated_at: "2026-07-10T16:43:24.781Z"
+updated_at: "2026-09-26T03:09:04.096Z"
 tags:
   - "Prompt技巧"
   - "长对话"
@@ -53,7 +53,7 @@ LLM 在长对话里会『断片』——它会逐字重读历史，但没有一�
 | 工具与技术栈 | 任意 LLM 对话工具（Claude / ChatGPT / Cursor 等），无需代码 |
 | 标签 | Prompt技巧、长对话、人机协作、LLM记忆、注意力机制 |
 | 案例 ID | `case-wd5unn38` |
-| 最后更新 | 2026-07-10 |
+| 最后更新 | 2026-09-26 |
 
 ## 关联资源
 
