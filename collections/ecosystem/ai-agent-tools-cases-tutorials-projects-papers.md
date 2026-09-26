@@ -172,6 +172,7 @@ Submission note: IdeaHunter was submitted by an authorized agent. The canonical 
 | Prompt injection and tool-use risk | https://arxiv.org/abs/2312.17673 | Why tool-using agents need security boundaries. |
 | AgentBench | https://arxiv.org/abs/2308.03688 | Evaluating agents across environments, including safety-relevant task settings. |
 | OWASP Top 10 for LLM Applications | https://owasp.org/www-project-top-10-for-large-language-model-applications/ | Security categories relevant to agentic systems. |
+| Orca AI Incident Archive | https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive | Real agent security incidents since January 2025, each with a primary source and a flag separating confirmed harm from research demos. |
 
 ## 3. Tutorials and Learning Paths
 
