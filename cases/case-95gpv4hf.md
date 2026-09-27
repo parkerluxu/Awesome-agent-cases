@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-95gpv4hf"
 category: "科研与学术"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-09T13:24:45.886Z"
+updated_at: "2026-09-27T15:43:12.621Z"
 tags: []
 ---
 
@@ -43,14 +43,17 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-95gpv4hf` |
-| 最后更新 | 2026-09-09 |
+| 最后更新 | 2026-09-27 |
 
 ## 关联资源
 
 - [AI 科研与科学发现开源项目案例](https://agentcaseshare.cn/articles/case-ai-scientific-research-overview)
 - [AI 科研与科学发现开源项目汇总](https://agentcaseshare.cn/articles/case-ai-scientific-research-2026-09-09-projects)
+- [AI 科研与科学发现开源项目汇总](https://agentcaseshare.cn/articles/case-ai-scientific-research-2026-09-27-projects)
 - [aipoch/open-science：本地优先的 AI 科研工作台，能否兑现可复现承诺？](https://agentcaseshare.cn/articles/case-ai-scientific-research-2026-09-09-aipoch-open-science)
+- [google-deepmind/science-skills：科研 Agent 技能集案例](https://agentcaseshare.cn/articles/case-ai-scientific-research-2026-09-27-google-deepmind-science-skills)
 - [delibae/claude-prism：本地优先的 AI 科学写作工作台评估](https://agentcaseshare.cn/articles/case-ai-scientific-research-2026-09-09-delibae-claude-prism)
+- [hang-jin/editaplot：Origin 可编辑科研绘图 Skill 案例](https://agentcaseshare.cn/articles/case-ai-scientific-research-2026-09-27-hang-jin-editaplot)
 
 ---
 
