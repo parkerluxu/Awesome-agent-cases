@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-95gpv4hf"
 category: "科研与学术"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-27T15:43:12.621Z"
+updated_at: "2026-09-28T15:21:06.682Z"
 tags: []
 ---
 
@@ -43,7 +43,7 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-95gpv4hf` |
-| 最后更新 | 2026-09-27 |
+| 最后更新 | 2026-09-28 |
 
 ## 关联资源
 
