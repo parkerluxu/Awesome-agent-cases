@@ -411,3 +411,55 @@ The following resources were discovered after the original article was published
 | modern-web-guidance | GitHub | Google Chrome's guidance repo to keep coding agents up to date with the latest web best practices. | [github.com/GoogleChrome/modern-web-guidance](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kdWs1Yk1Pd0JPY19qbUFqYlpCa3I0VjRLUG0xdHFoRlJwZ2hnSHdBOU5KdTdoeTFHNVNVNWJtdlRKQVoxSmprOEdSanF2QnBncEJPRG5GVlVLV0hnTzVVNg?oc=5) |
 | AnySearch MCP Server | MCP | Search MCP server configuration guide and scenario analysis for AI agents. | [CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFSTdDQ2Z2TVMyWDh4c2hTSUlJUVJjeTVBOXhwTjZLbW8xdkVSaHlTU1hfOWpnMGxZRzFJTHBTaEJTaWNUUGs2MHRKOGdoM19wSTVzbVZfb0MzQ0t2eHc?oc=5) |
 | Baidu Maps Agent Plugin | Plugin | Two commands to let AI agents use Baidu Maps. | [CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vdldhQTcteVJKVDB6Z3QwNUlubDl3bzc2Vk82NDJ0aXkwbHhUV2o4dW91Rm13WHdwTUNvdFF6ekUtU254cEhSRlJ4aVB6RE5pUDJ3XzZRQ08xTTlZLUE?oc=5) |
+
+## Resource Update (2026-09-29)
+
+The following newly discovered resources are relevant to AI agent web development.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| ToolJet/ToolJet | Open-source Platform | Enterprise app generation platform for internal tools, dashboards, and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP. | [GitHub](https://github.com/ToolJet/ToolJet) |
+| neat-technologies/neat | Open-source Tool | Live code graph that fuses static analysis with OpenTelemetry runtime traces, queried over MCP so AI coding agents get real full-stack context. | [GitHub](https://github.com/neat-technologies/neat) |
+| Protovibe-Studio/protovibe-studio | Open-source Tool | A visual editor web builder for React + Tailwind apps for rapidly creating and editing web projects with your own AI agent. | [GitHub](https://github.com/Protovibe-Studio/protovibe-studio) |
+| disyli/atomix-demo | Demo Project | AI agent driven app builder demo: natural language to runnable web app, Vue3 + Go + DeepSeek + SSE. | [GitHub](https://github.com/disyli/atomix-demo) |
+| WowCoder/talk2code | Demo Project | Multi-agent PM/Coder/QA pipeline with real-browser (Playwright) acceptance tests and a delivery gate. | [GitHub](https://github.com/WowCoder/talk2code) |
+| PhichetAotabo/Phichet_Protfolio | Demo Project | Design-to-Code Implementation with Figma MCP, exploring a workflow by implementing Figma designs into functional Fluent UI interfaces with Next.js. | [GitHub](https://github.com/PhichetAotabo/Phichet_Protfolio) |
+| ninaggguk-ux/ninas-bench | Benchmark Tool | A single-file web app that benchmarks local LLMs and quants — speed and quality in one place. | [GitHub](https://github.com/ninaggguk-ux/ninas-bench) |
+| addyosmani/agent-skills | Open-source Tool | Production-grade engineering skills for AI coding agents. | [GitHub](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwdnF1aFhXZTJ2dGE2MlpDd082UHFMaXo1ODllaDY0M3gzdDJZajNzWVBXV1V6VDJWU0VVamNOZXgtQW9RY3hZUTNJR2FxRERrRlNqdQ?oc=5) |
+| deepcoldy/botmux | Open-source Tool | Bridge Feishu/Lark to AI coding CLIs — Claude Code, Codex, Gemini, OpenCode… every DM, group or topic spawns its own live-streaming CLI session. | [GitHub](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1zYkkyODEtNU9lYXlmdVpZUFFLYVAwVFFXclFoenQ0czY1dTV5dlJQc25jR0VsN3ZjY293c3kydXg5U2hHNkhpSkdJRQ?oc=5) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents | Paper | Introduces a five-platform framework for studying hybrid computer-use agents that autonomously decide when to explore an interface, implement software, and run and visually verify their artifacts. | [arXiv](https://arxiv.org/abs/2609.22000v2) |
+| ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks | Paper | A benchmark evaluating coding agents on features discovered through interaction with fully functional reference applications. | [arXiv](https://arxiv.org/abs/2609.18805v1) |
+| Framework and Benchmark for Code-Driven Agentic Testing in Web Development | Paper | Introduces Code-driven Agentic Testing (CAT), a paradigm in which the agent writes Playwright code to drive the browser, gathers feedback, and autonomously explores web applications. | [arXiv](https://arxiv.org/abs/2609.00081v1) |
+| VibeJam: A User Study Platform for Web Development with Agents | Paper | A browser-based user study platform for users to collaborate with AI agents to develop websites, enabling agent customization. | [arXiv](https://arxiv.org/abs/2608.29889v1) |
+| Rendering-in-the-Loop: An Execution-Driven Agent for Interactive Web Development | Paper | Presents RILA, an execution-driven agent that puts browser rendering in the loop, iteratively editing generated code from multimodal references. | [arXiv](https://arxiv.org/abs/2609.02088v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| Pi Agent 必装8 个插件分享：Sandbox、MCP、Pi-Herdr-Agents、Memory、浏览器与联网Agent 协作与Agentic Coding 完整教程与实战｜AI 编程 | Video Tutorial | A tutorial covering essential plugins for Pi Agent, including Sandbox, MCP, and browser-based agent collaboration. | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzUVlCLUVXZVZMbXJLQzBBVV9MQldlTE1yMG5lc2Q4UGdBTzBLMEVqSVBCSnctZGs4WW5OQ1hYVXdVVGFZRGl4TzZPbXMybWVlR2paVXJR?oc=5) |
+| 一口气学会Vibe Coding AI编程！从开荒到做出第一个项目，涵盖Claude Code、Cursor、Codex，存下吧！真的很难找全的！ | Video Tutorial | A comprehensive tutorial on Vibe Coding AI programming, covering Claude Code, Cursor, and Codex. | [Bilibili](https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rcjM4T0ZlU2EtVVJFaGFGMmxubDB6emhlOVh3YktFQ1NzS1FYNTJ0UVNxQTJGTTJpeEtTM0IwelBEWlFrckI0M19OV01HRW1MalpVdXUzMA?oc=5) |
+| 所有还在用Claude Code的朋友，我都劝你试试Codex｜ 附 Codex 保姆级入门教程 | Tutorial | A beginner's guide to Codex, with a comparison to Claude Code. | [知乎](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDUXhDTDFIX2dlOExmQ08wT0pxaE56aVlTNmw5dlVPZEZjNGJqYUYzc0o5TDZrSTNvTWhtOS1paGlCbmEwZDZDbS1kUTlRSE1WbXo4WmsyWXMzZy1n?oc=5) |
+| Claude Code与Codex深度对比：安装配置、实战表现与避坑指南 | Tutorial | A deep comparison of Claude Code and Codex, covering installation, configuration, and practical performance. | [CSDN](https://news.google.com/rss/articles/CBMib0FVX3lxTE9WNWhWSkNqWkZPbnd2eF82OV9PNVk1NEtPYUlNX0J0dE54aFdNVk8xbk00LW1rLVk1VXRUTGtvRkFBUWg3TVNZVTNTQVU0dTFtdkt4ejRJMjVKTGNtSjdDWXpUOWJXSm8xMGNzY1JPNA?oc=5) |
+| 给Codex配上Jev，直接起飞。在 Codex 中安装Jev 判断模型实测，Agent 决策比LLM 快 40-2 | Tutorial | A tutorial on installing Jev in Codex to improve agent decision-making speed. | [稀土掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTE90V1AweGl1Wkc3b0tvUVRIUEZxTkpqd2Fub0loclBSRTZseUpxRzlJa0d6em9FZUxZdXNTRUhHSUI3QVJuc3BjNHNaT0VhLU5nczRuUg?oc=5) |
+| Agent运行底座实战：DeepSeek Harness部署教程、四种运行模式、Python代码示例与优劣分析 | Tutorial | A practical guide to deploying DeepSeek Harness, covering four operating modes and Python code examples. | [知乎](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nRWoxbVlHY2ZXbW90V2IyNjNLMV9Ya3J4TzBobEk0OUc1aDVHSWdhLW5aSlpWbUdKUHhmMHEyX2pKX0pSZXZDcHVueElqV3Q1Ym5Rb0VfSXJCSHR3?oc=5) |
+| Goodbye Claude Code: How to Run DeepSeek Agent Harness 100% Locally | Tutorial | A guide on running DeepSeek Agent Harness entirely locally as an alternative to Claude Code. | [Medium](https://news.google.com/rss/articles/CBMitAFBVV95cUxPckQyb1pnYWJsZXJNR09LQ193MUR6ZXQzYkhoLU5Fa3hKRjc4UDVRWEM0dFF2LXhpTnY3emJlcUV3NEI2ZVotSWJUazV5cHkwU0RYTVZqcU8xU2hLdzFQVFdkZW5MTGhQZnZrTGE0VjBMY2xBbTZKUF9WNDdVNEU2bmF2Y0ZzX0RwTnZYYW4zd1RTSGgySWs5V00wUEFMSXRIdnZpOTlkWVBfaEZNQXYzeFJ0Ny0?oc=5) |
+| 实测腾讯BrowserSkill：让AI Agent直接操作已登录浏览器的技术方案 | Tutorial | A technical review of Tencent's BrowserSkill, which allows AI agents to directly operate a logged-in browser. | [积墨 AI](https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ0pYSzYyV0dZMHBtdE16LVBUb0RPSUNCNE4xbnNBM3NJWkJuNFZDOGNKWFJrc2NJWWszMFhaVjMxZnZDTUpocTBpb3lGcDNjWmgweGdRX1hOOFJoUzcyMFh0Umpaa1FXanZYajI2dERWZGh4Z0JIWjJSaDQwMDJJUUlRR2IyUExabU02NjFzV2x5YWJMaEEyN3k5UQ?oc=5) |
+| Build a Speaker-Recognition App with Claude Code | Tutorial | A tutorial on building a speaker-recognition application using Claude Code. | [Towards Data Science](https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVdna3AxdzR6aFltTzZ3cVJtWmNBR3U4NzVpNnROLThEZjFsUDdueDZIdFBDdWhVMFptRU40VDdMOFJLcnlubEpqdHB6VF9WZ0E0dll4UjBPSEFXWThRVDZMSHVFUnBZaUE4NXJQMF94SWlpeUM0U1M5cHM2QlF6RFBNTllPNFU?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| Ringg AI Agents | Commercial Product | Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1. | [OpenAI](https://openai.com/index/ringg) |
+| The Enterprise Guide to MCP Gateways | White Paper | A guide from Snowflake on governing the next generation of AI agents with MCP Gateways. | [Snowflake](https://news.google.com/rss/articles/CBMikwFBVV95cUxPNU1UM0xEdUcwaWFjMHRYR2FYeVBmWlBhNl9zQXhkbndLdmdRX2RyR2F4TEhqT2lhdUdUVUQydmxrR3lnUHNQV0lMbFNUN1ppM3NWdjQ3eGt4SnI2SURJLUJBYjlQWmZSaDVFX0x2eG51VldCMkRuXzNJbFlRMHdTZGpWanBIZmM0c3c4VTQwY21LWVE?oc=5) |
+| Optimizing agent system prompts with Amazon Bedrock AgentCore | Documentation | A guide on optimizing agent system prompts using Amazon Bedrock AgentCore. | [Amazon Web Services (AWS)](https://news.google.com/rss/articles/CBMirAFBVV95cUxPYWpXNVNRZEpRLW44UncyT0d3NS1vVVFyaXk1TTNuVDdKdG5kTUZiTFVuaE54Mlg3Mks4X1pfUTNpR0ZOaFVrTnE2MXZCWFBpN3M1YW1ZQlFSaDQtUWtZZlpXYjRNc19YQkRLWUYyQkpiekZ3eG5OaE9TM2xuS1IwNmgxYkVPS1VsUWFfTXY2ZkFWOXdCM0pOOTNkd2tXMHhseTVHdFdmNkFRbVNi?oc=5) |
+| DeepSeek Harness | Open-source Platform | A platform that has surpassed 200,000 stars, turning Claude Code and Codex into plugins. | [Pasquale Pillitteri](https://news.google.com/rss/articles/CBMikwFBVV95cUxONjZaeXJYOXFNd1huamFRR21zVkt6OUdlcUIzMXpBWTZ1czhHX1dGSWtPMEFITGZad0xxTnRyVjUwajNvZ0I1LXdEd1BuRHJ5b0FBR3NHN3F6S1FoUl9iOWkzcXc1bVJMMEtockNQd2JEdUxrQUdWbmRQaWw4S1dRRDc2aExHNFBPQXBmM0FsQmNpcUU?oc=5) |
+| EVASafe | Open-source App | An Android password manager independently written by an AI Agent, completely offline with data never leaving the phone. | [80aj.com](https://news.google.com/rss/articles/CBMidEFVX3lxTFBrMlhZQUhjVkFsLTRfbm9NX2RnMWg5U3NsazB2UVJxdkJQeG9yQXFMM1BPMDh4VWRjczI4TTg2dkgxeHRUOUhMeEpWdExYLXBvT1p4bzgtZ0lwSEF4MHZ1MUNnZy1wYWZ6SDJoZXBYbFZiOEI0?oc=5) |

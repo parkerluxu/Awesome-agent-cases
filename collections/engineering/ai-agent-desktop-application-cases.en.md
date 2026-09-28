@@ -395,3 +395,52 @@ The following resources were discovered after the original article was published
 | OpenConnector | OSCHINA | Open-source connector gateway for AI agents to securely call 1000+ SaaS services. Solves authentication management, permission control, interface adaptation, and audit. | [Link](https://www.oschina.net/news/502067/oomol-lab-open-connector) |
 | Vercel fx | OSCHINA | Lightweight agent implemented in Zig that can run directly in the browser. | [Link](https://news.google.com/rss/articles/CBMiWEFVX3lxTE02OXNhWjVXN1cyWUU3TVBRWm50ckhrZzByakhONzZtYkdncXhZaEM1aERPZ0ZBQ0FJMkExZVN0cUs1dUJlaExHaHRLZFU1dFY0ZVVCQXVqTHc?oc=5) |
 | Stampli + ChatGPT Work | OpenAI | Case study: Stampli cuts launch hours by 68% using Codex and ChatGPT Work to compress weeks of launch production into days. | [Link](https://openai.com/index/stampli) |
+
+## Resource Update (2026-09-29)
+
+The following newly discovered resources are appended to the case library.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| ochieng-stephen/resume-studio | GitHub Project | Native macOS/Windows desktop app for writing and tailoring résumés and cover letters, with an embedded terminal for AI coding agents (Claude Code, Codex, Aider). | [GitHub](https://github.com/ochieng-stephen/resume-studio) |
+| saeedkolivand/ai-job-hunter-app | GitHub Project | Local-first AI desktop assistant that scrapes job boards, matches roles to your resume, and auto-generates application materials. Supports offline use with Ollama or routing through AI CLI agents. | [GitHub](https://github.com/saeedkolivand/ai-job-hunter-app) |
+| tdpi95/jota | GitHub Project | Local-first desktop app for daily tasks, journal, and notes as plain markdown files. Features kanban, automatic time tracking, git-backed undo, and a built-in MCP server for AI agents. | [GitHub](https://github.com/tdpi95/jota) |
+| q1820926174-cpu/UI-Venus-MCP | GitHub Project | Cross-platform Computer-Use MCP for unified GUI automation for AI agents (Windows/Linux/macOS/Android/iOS/Browser), with a structured-first approach and a pluggable vision provider. | [GitHub](https://github.com/q1820926174-cpu/UI-Venus-MCP) |
+| opencx-labs/catamorphic | GitHub Project | Open-source desktop app ("Work") for getting work done with AI agents, built on the "Catamorphic" framework for embedding agents, workflows, and apps in products. | [GitHub](https://github.com/opencx-labs/catamorphic) |
+| vixl-ai/vixl | GitHub Project | Local-first desktop coding agent with BYOK, MCP, and support for OpenAI-compatible/Ollama hosts. | [GitHub](https://github.com/vixl-ai/vixl) |
+| tmustier/codex-computer-use-mcp | GitHub Project | Background-safe MCP server for the signed Codex Computer Use broker on macOS, optimized for use with coding agents. | [GitHub](https://github.com/tmustier/codex-computer-use-mcp) |
+| shopable-ai/opendesk | GitHub Project | API-driven desktop automation runtime for AI agents, enabling control of system apps with JavaScript, HTTP, MCP, vision/OCR, and evidence. | [GitHub](https://github.com/shopable-ai/opendesk) |
+| blueberrycongee/wuu | GitHub Project | Open-source BYOK AI coding agent with a desktop app, scriptable CLI, and built-in multi-agent orchestration, written in Go. | [GitHub](https://github.com/blueberrycongee/wuu) |
+| lorisunjunbin/petp | GitHub Project | Python RPA toolkit with 80+ processors for orchestrating browser automation, AI/LLM, databases, SSH, email, and HTTP tasks. Includes a built-in MCP Tool Server for AI agent integration. | [GitHub](https://github.com/lorisunjunbin/petp) |
+| MuseLinn/MusePi | GitHub Project | Desktop-first AI coding assistant with Electron GUI, TUI/CLI, daemon, and desktop companion. Features native video understanding, MCP, advisor, memory, and multi-domain skills. | [GitHub](https://github.com/MuseLinn/MusePi) |
+| kiexpert/wkappbot-sdk | GitHub Project | Open-source RPA SDK for Windows that gives AI agents "real eyes and hands," enabling focusless, self-healing, multi-AI computer use. | [GitHub](https://github.com/kiexpert/wkappbot-sdk) |
+| DO0OG/Ari-VoiceCommand | GitHub Project | Open-source Windows AI voice assistant and autonomous desktop agent built with Python/PySide6. Supports wake words, STT/TTS, local LLMs with Ollama, MCP tools, plugins, and Windows automation. | [GitHub](https://github.com/DO0OG/Ari-VoiceCommand) |
+| PersonalJarvis/PersonalJarvis | GitHub Project | Open-source AI desktop workspace for voice, agents, coding, and computer use, designed to run locally with user-chosen models and tools. | [GitHub](https://github.com/PersonalJarvis/PersonalJarvis) |
+| contact9prime-lab/bento-ai-os | GitHub Project | A local-first AI desktop environment featuring an autonomous agent that builds apps, runs jobs, and takes real actions on your machine. Supports local models via Ollama or cloud providers. | [GitHub](https://github.com/contact9prime-lab/bento-ai-os) |
+| Marker-Inc-Korea/AutoRAG | GitHub Project | An agent system that can find anything on your computer, designed to get smarter with frequent use. | [GitHub](https://github.com/Marker-Inc-Korea/AutoRAG) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents | Paper | Proposes a framework for GUI agents where skills are treated as living procedural knowledge that evolves through execution, addressing the challenge of dynamic interfaces. | [arXiv](https://arxiv.org/abs/2609.17653v1) |
+| RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents | Paper | Introduces a five-platform framework for studying hybrid computer-use agents that autonomously decide when to use GUI, implement software, and run/verify artifacts. | [arXiv](https://arxiv.org/abs/2609.22000v2) |
+| CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents | Paper | Presents a scalable environment for hybrid GUI+CLI agents, arguing that capable agents must coordinate both modalities over shared application state for real-world work. | [arXiv](https://arxiv.org/abs/2609.05374v1) |
+| ERPBench: A State-Grounded Evaluation Paradigm for Computer-Use Agents in Enterprise Software | Paper | Proposes a benchmark for evaluating computer-use agents in complex Enterprise Resource Planning (ERP) systems, which pose distinct challenges like dense interfaces and persistent state changes. | [arXiv](https://arxiv.org/abs/2609.17885v2) |
+| EchoPath: Execution-Level Replayable Memory for GUI Agents | Paper | Introduces a model-agnostic harness that converts artifact-validated GUI trajectories into replayable memory, improving efficiency for repetitive enterprise tasks. | [arXiv](https://arxiv.org/abs/2609.16635v1) |
+| Learn How to Act from Your Own Interactions: On-Policy Self-Distillation for GUI Agents | Paper | Explores on-policy self-distillation methods for GUI agents, focusing on improving step-wise reasoning and long-horizon memory for complex, multi-turn software interactions. | [arXiv](https://arxiv.org/abs/2609.27307v1) |
+| Qwen-Audio-Agent Technical Report | Paper | Presents a harness combining full-duplex voice interaction with asynchronous task execution via a foreground-background agent architecture and an orchestration runtime. | [arXiv](https://arxiv.org/abs/2609.25195v1) |
+| From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents | Paper | Studies the incremental value and longitudinal dynamics of skill libraries that retain, refine, and reuse procedural knowledge from agent interaction experience. | [arXiv](https://arxiv.org/abs/2609.04869v1) |
+| The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge | Paper | Introduces the KNOWS benchmark to evaluate agents on complex, multi-step workflows that require information retrieval, synthesis into artifacts, and navigation of program interfaces. | [arXiv](https://arxiv.org/abs/2609.30604v1) |
+| CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments | Paper | A benchmark testing whether computer-use agents preserve user objectives when operating in online environments (e.g., marketplaces) that have misaligned incentives. | [arXiv](https://arxiv.org/abs/2609.27273v1) |
+| MintAct: A Unified Visual Agent for Digital Environments | Paper | Presents a family of vision-language models that unifies UI grounding, multi-step navigation across mobile/desktop/web, and visual tool use. | [arXiv](https://arxiv.org/abs/2609.22083v1) |
+| Affora: A Design System for Agent-Friendly Interfaces | Paper | Proposes a design system that supports both human readers and machine agents, preserving visual freedom while making interfaces clearer for computer-use agents. | [arXiv](https://arxiv.org/abs/2609.19125v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| GitHub - Avarce/codex-china-guide | Guide | A quick-reference guide for using Codex in China, covering installation, login, phone verification, proxy settings, reconnection, and quota/context issues, with official sources. | [GitHub](https://github.com/Avarce/codex-china-guide) |
+| （2026年9月最新）国内Codex安装使用教程：从安装到上手 ... | Tutorial | A tutorial (updated September 2026) for installing and using Codex in China, addressing account registration challenges. | [Zhihu](https://zhuanlan.zhihu.com/p/2074880096264111344) |

@@ -398,3 +398,52 @@
 | OpenConnector | 开源连接器网关 | 面向 AI Agent 与应用开发者的开源连接器网关，解决认证管理、权限控制、接口适配与运行审计，支持 1000+ SaaS 服务 | https://www.oschina.net/news/502067/oomol-lab-open-connector |
 | Codex agents dashboard | GitHub Release | OpenAI Codex 新增交互式代理仪表盘，支持搜索、启动、打开、重命名与停止任务，可配置快捷键 | https://github.com/openai/codex/releases |
 | Vercel fx | 轻量 Agent | Zig 语言实现的轻量 Agent，能直接在浏览器里运行 | https://news.google.com/rss/articles/CBMiWEFVX3lxTE02OXNhWjVXN1cyWUU3TVBRWm50ckhrZzByakhONzZtYkdncXhZaEM1aERPZ0ZBQ0FJMkExZVN0cUs1dUJlaExHaHRLZFU1dFY0ZVVCQXVqTHc?oc=5 |
+
+## 资料更新（2026-09-29）
+
+以下为近期发现的、与 AI Agent 桌面应用相关的新增资料线索。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| resume-studio | GitHub 项目 | 一款原生 macOS 和 Windows 桌面应用，用于撰写、定制和发送简历与求职信，内置终端可运行 AI 编码代理（如 Claude Code, Codex, Aider）。 | [GitHub](https://github.com/ochieng-stephen/resume-studio) |
+| ai-job-hunter-app | GitHub 项目 | 本地优先的 AI 桌面助手，可抓取招聘网站、匹配职位与简历，并自动生成简历和求职信。支持离线运行（Ollama）、自带 API 密钥或通过 AI CLI 代理（Claude Code, Codex, Gemini CLI）路由。 | [GitHub](https://github.com/saeedkolivand/ai-job-hunter-app) |
+| jota | GitHub 项目 | 一款本地优先的桌面应用，用于管理日常任务、日志和笔记（纯 Markdown 文件），具备看板、自动时间追踪、Git 支持的撤销功能，并内置 MCP 服务器供 AI 代理使用。 | [GitHub](https://github.com/tdpi95/jota) |
+| UI-Venus-MCP | GitHub 项目 | 跨平台计算机使用 MCP（Model Context Protocol），为 AI 代理提供统一的 GUI 自动化能力（支持 Windows/Linux/macOS/Android/iOS/浏览器），采用结构化优先、视觉兜底的策略。 | [GitHub](https://github.com/q1820926174-cpu/UI-Venus-MCP) |
+| catamorphic | GitHub 项目 | 一款开源桌面应用，旨在通过 AI 代理完成工作（work.software），其底层框架 Catamorphic 支持在自定义产品中嵌入代理、工作流和应用。 | [GitHub](https://github.com/opencx-labs/catamorphic) |
+| vixl | GitHub 项目 | 一款本地优先的桌面编码代理，支持自带 API 密钥（BYOK）、MCP 以及兼容 OpenAI/Ollama 的主机。 | [GitHub](https://github.com/vixl-ai/vixl) |
+| codex-computer-use-mcp | GitHub 项目 | 一个后台安全的 MCP 服务器，用于 macOS 上的签名 Codex Computer Use 代理。可与所有编码代理配合使用，并针对可选的 Pi 适配器进行了优化。 | [GitHub](https://github.com/tmustier/codex-computer-use-mcp) |
+| opendesk | GitHub 项目 | 一个 API 驱动的桌面自动化运行时，供 AI 代理使用：通过 JavaScript、HTTP、MCP、视觉/OCR 和证据来控制系统应用。 | [GitHub](https://github.com/shopable-ai/opendesk) |
+| wuu | GitHub 项目 | 一款开源的 BYOK AI 编码代理，提供桌面应用、可脚本化的 CLI 以及内置的多代理编排功能，使用 Go 语言编写。 | [GitHub](https://github.com/blueberrycongee/wuu) |
+| petp | GitHub 项目 | 一个 Python RPA 工具包，包含 80 多个处理器，可编排浏览器自动化、AI/LLM（11 个提供商）、数据库、SSH、电子邮件和 HTTP 任务。支持可配置的管道、定时任务和循环，可作为 wxPython GUI、无头服务或 Docker 容器运行，并内置 MCP 工具服务器（Streamable-HTTP）供 AI 代理集成。 | [GitHub](https://github.com/lorisunjunbin/petp) |
+| MusePi | GitHub 项目 | 一款桌面优先的 AI 编码助手，包含 Electron GUI、TUI/CLI、守护进程和桌面伴侣。具备原生视频理解、MCP、顾问、记忆、多领域技能以及独立的更新通道。 | [GitHub](https://github.com/MuseLinn/MusePi) |
+| wkappbot-sdk | GitHub 项目 | 一个开源 RPA 工具，旨在赋予 AI 代理在 Windows 上的“眼睛和手”（Computer Use, App Use），实现人类、应用生态和 AI 共享一个键盘的无焦点、自愈、多 AI 协作。 | [GitHub](https://github.com/kiexpert/wkappbot-sdk) |
+| Ari-VoiceCommand | GitHub 项目 | 一款开源的 Windows AI 语音助手和自主桌面代理，使用 Python/PySide6 构建。支持唤醒词、语音转文本、文本转语音、本地 LLM（Ollama）、MCP 工具、插件和 Windows 自动化。 | [GitHub](https://github.com/DO0OG/Ari-VoiceCommand) |
+| PersonalJarvis | GitHub 项目 | 一款开源的 AI 桌面工作区，支持语音、代理、编码和计算机使用。可在本地计算机上运行，并选择自定义的模型和工具。 | [GitHub](https://github.com/PersonalJarvis/PersonalJarvis) |
+| bento-ai-os | GitHub 项目 | 一个本地优先的 AI 桌面环境，作为一个自主代理，可在你的机器上构建应用、运行作业并执行真实操作。支持通过 Ollama 运行本地模型或任何云提供商。 | [GitHub](https://github.com/contact9prime-lab/bento-ai-os) |
+| AutoRAG | GitHub 项目 | AutoRAG：现在你的代理可以在你的电脑上找到任何东西。使用频率越高，它就越智能。 | [GitHub](https://github.com/Marker-Inc-Korea/AutoRAG) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents | 论文 | 针对 GUI 代理在动态界面中执行长周期任务时计划易失效的问题，提出一种无需训练的技能进化框架，旨在将技能视为可通过部署持续改进的“活知识”。 | [arXiv](https://arxiv.org/abs/2609.17653v1) |
+| RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents | 论文 | 提出一个五平台框架 RecreationWorld，用于研究混合计算机使用代理（CUAs），这类代理能自主决定何时探索界面、实现软件、运行并视觉验证其产物。 | [arXiv](https://arxiv.org/abs/2609.22000v2) |
+| CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents | 论文 | 指出当前计算机使用代理主要依赖 GUI，效率低下，而现实工作是混合的。为此，提出了一个可扩展的混合环境 CUA-Universe，以支持 GUI 和 CLI 在真实应用上的协同。 | [arXiv](https://arxiv.org/abs/2609.05374v1) |
+| ERPBench: A State-Grounded Evaluation Paradigm for Computer-Use Agents in Enterprise Software | 论文 | 提出 ERPBench，一个针对企业软件（如 ERP 系统）中计算机使用代理的评估范式，强调其界面密集、多步交互和错误会改变持久业务记录等独特挑战。 | [arXiv](https://arxiv.org/abs/2609.17885v2) |
+| EchoPath: Execution-Level Replayable Memory for GUI Agents | 论文 | 提出 EchoPath，一个模型无关的框架，可将经过验证的 GUI 轨迹转换为可重放的执行级记忆，以提升 GUI 代理在重复性企业任务中的效率。 | [arXiv](https://arxiv.org/abs/2609.16635v1) |
+| Learn How to Act from Your Own Interactions: On-Policy Self-Distillation for GUI Agents | 论文 | 研究基于策略的自蒸馏（OPSD）方法在 GUI 代理中的应用，旨在通过密集的 token 级监督提升 GUI 定位这一基础子任务的性能。 | [arXiv](https://arxiv.org/abs/2609.27307v1) |
+| Qwen-Audio-Agent Technical Report | 论文 | 介绍 Qwen-Audio-Agent，一个结合全双工语音交互与异步任务执行的框架，采用前台-后台架构，由编排运行时管理任务状态、协调用户输入和授权请求。 | [arXiv](https://arxiv.org/abs/2609.25195v1) |
+| From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents | 论文 | 探讨计算机使用代理如何将一次交互中获得的程序性知识系统地保留、改进并复用到后续任务中，研究技能库的增量价值及其在重复交互下的纵向动态。 | [arXiv](https://arxiv.org/abs/2609.04869v1) |
+| The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge | 论文 | 提出 KNOWS 基准，用于评估代理在复杂多步工作流中检索信息、将其综合成文档/演示文稿/电子表格等产物，并导航程序界面以生成连贯最终产品的能力。 | [arXiv](https://arxiv.org/abs/2609.30604v1) |
+| CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments | 论文 | 探讨当计算机使用代理所处的环境（如在线市场）存在与用户目标不一致的激励时，代理如何保持用户目标的鲁棒性。 | [arXiv](https://arxiv.org/abs/2609.27273v1) |
+| MintAct: A Unified Visual Agent for Digital Environments | 论文 | 提出 MintAct，一系列视觉语言模型，统一了 UI 定位、跨移动/桌面/网页的多步导航以及视觉工具使用能力，并在 2B、4B 和 8B 规模上进行了训练。 | [arXiv](https://arxiv.org/abs/2609.22083v1) |
+| Affora: A Design System for Agent-Friendly Interfaces | 论文 | 提出 Affora 设计系统，旨在支持人类和机器阅读者，同时保留视觉自由和熟悉的人类工作流程，使软件界面更易于计算机使用代理操作。 | [arXiv](https://arxiv.org/abs/2609.19125v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| Codex 国内使用与报错速查 | GitHub 项目/指南 | 针对 Codex 在国内使用可能遇到的安装、登录、手机号验证、终端代理、断线重连、额度用完、上下文满了等问题，提供按报错原文查询原因和处理步骤的速查指南，每条附官方出处，并包含中英界面对照和 AGENTS.md 中文模板。 | [GitHub](https://github.com/Avarce/codex-china-guide) |
+| （2026年9月最新）国内Codex安装使用教程：从安装到上手 ... | 知乎文章 | 一篇关于 Codex 在国内安装和使用的教程，更新了账号注册难点的解决方法。 | [知乎](https://zhuanlan.zhihu.com/p/2074880096264111344) |

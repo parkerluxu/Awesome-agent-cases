@@ -433,3 +433,55 @@
 | AnySearch MCP Server | MCP 工具 | AI Agent 搜索 MCP 推荐，提供配置指南与场景解析 | https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFSTdDQ2Z2TVMyWDh4c2hTSUlJUVJjeTVBOXhwTjZLbW8xdkVSaHlTU1hfOWpnMGxZRzFJTHBTaEJTaWNUUGs2MHRKOG9hc19wSTVzbVZfb0MzQ0t2eHc?oc=5 |
 | 百度地图 Agent Plugin | Agent 插件 | 两条命令即可让 AI Agent 调用百度地图能力 | https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vdldhQTcteVJKVDB6Z3QwNUlubDl3bzc2Vk82NDJ0aXkwbHhUV2o4dW91Rm13WHdwTUNvdFF6ekUtU254cEhSRlJ4aVB6RE5pUDJ3XzZRQ08xTTlZLUE?oc=5 |
 | InternAgentS | 科研智能体工作台 | 上海AI实验室开源的国产科研智能体工作台，面向 AI for Science，支持本地部署、多模型适配，整合论文阅读、实验分析、代码迭代、远程计算与科研写作 | https://ai-bot.cn/daily-ai-news/ |
+
+## 资料更新（2026-09-29）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| ToolJet/ToolJet | GitHub 项目 | 开源企业应用生成平台，支持通过提示、Claude Code、Codex 和 Cursor (MCP) 可视化构建内部工具、仪表盘、业务应用、工作流和 AI Agent。 | [GitHub](https://github.com/ToolJet/ToolJet) |
+| neat-technologies/neat | GitHub 项目 | 实时代码图，融合静态分析 (tree-sitter) 与 OpenTelemetry 运行时追踪，通过 MCP 查询，为 AI 编码 Agent 提供全栈上下文。 | [GitHub](https://github.com/neat-technologies/neat) |
+| Protovibe-Studio/protovibe-studio | GitHub 项目 | 用于 React + Tailwind 应用的可视化编辑器 Web 构建器，可与自定义 AI Agent 配合快速创建和编辑 Web 项目。 | [GitHub](https://github.com/Protovibe-Studio/protovibe-studio) |
+| disyli/atomix-demo | GitHub 项目 | AI Agent 驱动的应用构建器演示：自然语言生成可运行的 Web 应用，技术栈为 Vue3 + Go + DeepSeek + SSE。 | [GitHub](https://github.com/disyli/atomix-demo) |
+| WowCoder/talk2code | GitHub 项目 | Talk2Code — 将一句话转化为可运行的 Web 应用。采用多 Agent (PM/Coder/QA) 流水线，包含真实浏览器 (Playwright) 验收测试和交付门控。 | [GitHub](https://github.com/WowCoder/talk2code) |
+| PhichetAotabo/Phichet_Protfolio | GitHub 项目 | 探索使用 Figma MCP 将设计转化为代码的工作流，将 Figma 设计实现为 Fluent UI 界面 (Next.js)，展示 AI 和 MCP 如何连接 UX/UI 设计与前端开发。 | [GitHub](https://github.com/PhichetAotabo/Phichet_Protfolio) |
+| ninaggguk-ux/ninas-bench | GitHub 项目 | 单文件 Web 应用，用于基准测试本地 LLM 和量化版本的速度与质量。可连接 LM Studio 或 Ollama，运行测试套件并导出结果。 | [GitHub](https://github.com/ninaggguk-ux/ninas-bench) |
+| addyosmani/agent-skills | GitHub 项目 | 面向 AI 编码 Agent 的生产级工程技能库。 | [GitHub](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwdnF1aFhXZTJ2dGE2MlpDd082UHFMaXo1ODllaDY0M3gzdDJZajNzWVBXV1V6VDJWU0VVamNOZXgtQW9RY3hZUTNJR2FxRERrRlNqdQ?oc=5) |
+| deepcoldy/botmux | GitHub 项目 | 将飞书/Lark 桥接到 AI 编码 CLI (Claude Code, Codex, Gemini, OpenCode 等) 的工具，每个私聊、群组或话题都会生成一个实时流式 CLI 会话。 | [GitHub](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1zYkkyODEtNU9lYXlmdVpZUFFLYVAwVFFXclFoenQ0czY1dTV5dlJQc25jR0VsN3ZjY293c3kydXg5U2hHNkhpSkdJRQ?oc=5) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents | 论文 | 研究混合计算机使用 Agent (CUA)，这类 Agent 能自主决定何时探索界面、实现软件、运行并视觉验证其产物。提出了 RecreationWorld，一个围绕“再创造”任务的五平台框架。 | [arXiv](https://arxiv.org/abs/2609.22000v2) |
+| ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks | 论文 | 提出 ProgramDistill 基准，评估编码 Agent 通过与功能完整的参考应用交互来发现特性，并在不完整的应用中实现这些特性的能力。 | [arXiv](https://arxiv.org/abs/2609.18805v1) |
+| Framework and Benchmark for Code-Driven Agentic Testing in Web Development | 论文 | 提出代码驱动的 Agent 测试 (CAT) 范式，其中 Agent 编写 Playwright 代码来驱动浏览器、收集反馈并自主探索 Web 应用，以系统测试视觉语言模型 (VLM) 的 bug 发现能力。 | [arXiv](https://arxiv.org/abs/2609.00081v1) |
+| VibeJam: A User Study Platform for Web Development with Agents | 论文 | 发布 VibeJam，一个基于浏览器的用户研究平台，用于用户与 AI Agent 协作开发网站。支持 Agent 定制化，并用于在线研究程序员如何使用编码 Agent。 | [arXiv](https://arxiv.org/abs/2608.29889v1) |
+| Rendering-in-the-Loop: An Execution-Driven Agent for Interactive Web Development | 论文 | 提出 RILA，一个执行驱动的 Agent，将浏览器渲染置于循环中，迭代编辑生成的代码，以验证交互功能，而不仅仅是视觉指标。 | [arXiv](https://arxiv.org/abs/2609.02088v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| Pi Agent 必装8 个插件分享：Sandbox、MCP、Pi-Herdr-Agents、Memory、浏览器与联网Agent 协作与Agentic Coding 完整教程与实战｜AI 编程 | 视频教程 | 关于 Pi Agent 的插件分享与 Agentic Coding 实战教程。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzUVlCLUVXZVZMbXJLQzBBVV9MQldlTE1yMG5lc2Q4UGdBTzBLMEVqSVBCSnctZGs4WW5OQ1hYVXdVVGFZRGl4TzZPbXMybWVlR2paVXJR?oc=5) |
+| 一口气学会Vibe Coding AI编程！从开荒到做出第一个项目，涵盖Claude Code、Cursor、Codex，存下吧！真的很难找全的！ | 视频教程 | 涵盖 Claude Code、Cursor、Codex 的 Vibe Coding AI 编程入门到项目实战教程。 | [Bilibili](https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rcjM4T0ZlU2EtVVJFaGFGMmxubDB6emhlOVh3YktFQ1NzS1FYNTJ0UVNxQTJGTTJpeEtTM0IwelBEWlFrckI0M19OV01HRW1MalpVdXUzMA?oc=5) |
+| 所有还在用Claude Code的朋友，我都劝你试试Codex｜ 附 Codex 保姆级入门教程 | 文章教程 | Codex 入门教程，并与 Claude Code 进行对比。 | [知乎](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDUXhDTDFIX2dlOExmQ08wT0pxaE56aVlTNmw5dlVPZEZjNGJqYUYzc0o5TDZrSTNvTWhtOS1paGlCbmEwZDZDbS1kUTlRSE1WbXo4WmsyWXMzZy1n?oc=5) |
+| Claude Code与Codex深度对比：安装配置、实战表现与避坑指南 | 文章教程 | 对 Claude Code 与 Codex 在安装配置、实战表现方面的深度对比与指南。 | [CSDN](https://news.google.com/rss/articles/CBMib0FVX3lxTE9WNWhWSkNqWkZPbnd2eF82OV9PNVk1NEtPYUlNX0J0dE54aFdNVk8xbk00LW1rLVk1VXRUTGtvRkFBUWg3TVNZVTNTQVU0dTFtdkt4ejRJMjVKTGNtSjdDWXpUOWJXSm8xMGNzY1JPNA?oc=5) |
+| 2026 最新 Claude Code 国内上手教程：从安装到第一次跑通，完整流程一次讲清 | 文章教程 | Claude Code 国内环境下的安装与首次运行完整流程教程。 | [知乎](https://zhuanlan.zhihu.com/p/2028268722809316061) |
+| 给Codex配上Jev，直接起飞。在 Codex 中安装Jev 判断模型实测，Agent 决策比LLM 快 40-2 | 文章实测 | 在 Codex 中安装 Jev 判断模型的实测，展示 Agent 决策速度提升。 | [稀土掘金](https://news.google.com/rss/articles/CBMiVEFVX3lxTE90V1AweGl1Wkc3b0tvUVRIUEZxTkpqd2Fub0loclBSRTZseUpxRzlJa0d6em9FZUxZdXNTRUhHSUI3QVJuc3BjNHNaT0VhLU5nczRuUg?oc=5) |
+| Agent运行底座实战：DeepSeek Harness部署教程、四种运行模式、Python代码示例与优劣分析 | 文章教程 | DeepSeek Harness 的部署教程、运行模式分析与代码示例。 | [知乎](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nRWoxbVlHY2ZXbW90V2IyNjNLMV9Ya3J4TzBobEk0OUc1aDVHSWdhLW5aSlpWbUdKUHhmMHEyX2pKX0pSZXZDcHVueElqV3Q1Ym5Rb0VfSXJCSHR3?oc=5) |
+| Goodbye Claude Code: How to Run DeepSeek Agent Harness 100% Locally | 文章教程 | 如何在本地 100% 运行 DeepSeek Agent Harness 的教程。 | [Medium](https://news.google.com/rss/articles/CBMitAFBVV95cUxPckQyb1pnYWJsZXJNR09LQ193MUR6ZXQzYkhoLU5Fa3hKRjc4UDVRWEM0dFF2LXhpTnY3emJlcUV3NEI2ZVotSWJUazV5cHkwU0RYTVZqcU8xU2hLdzFQVFdkZW5MTGhQZnZrTGE0VjBMY2xBbTZKUF9WNDdVNEU2bmF2Y0ZzX0RwTnZYYW4zd1RTSGgySWs5V00wUEFMSXRIdnZpOTlkWVBfaEZNQXYzeFJ0Ny0?oc=5) |
+| 实测腾讯BrowserSkill：让AI Agent直接操作已登录浏览器的技术方案 | 文章实测 | 实测腾讯 BrowserSkill 技术方案，使 AI Agent 能直接操作已登录的浏览器。 | [积墨 AI](https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ0pYSzYyV0dZMHBtdE16LVBUb0RPSUNCNE4xbnNBM3NJWkJuNFZDOGNKWFJrc2NJWWszMFhaVjMxZnZDTUpocTBpb3lGcDNjWmgweGdRX1hOOFJoUzcyMFh0Umpaa1FXanZYajI2dERWZGh4Z0JIWjJSaDQwMDJJUUlRR2IyUExabU02NjFzV2x5YWJMaEEyN3k5UQ?oc=5) |
+| Build a Speaker-Recognition App with Claude Code | 文章教程 | 使用 Claude Code 构建说话人识别应用的教程。 | [Towards Data Science](https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVdna3AxdzR6aFltTzZ3cVJtWmNBR3U4NzVpNnROLThEZjFsUDdueDZIdFBDdWhVMFptRU40VDdMOFJLcnlubEpqdHB6VF9WZ0E0dll4UjBPSEFXWThRVDZMSHVFUnBZaUE4NXJQMF94SWlpeUM0U1M5cHM2QlF6RFBNTllPNFU?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| Ringg AI agents | 产品案例 | 使用 GPT-5.6，Ringg 为语音、聊天、WhatsApp 和 Web 提供多语言 Agent，成本比 GPT-4.1 低 90%。 | [OpenAI](https://openai.com/index/ringg) |
+| AI Agent 时代的搜索基建：一文读懂 MCP 与智能搜索新范式 | 文章 | 解读 MCP 与智能搜索新范式。 | [CSDN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BbWNMY1JTbThpbGdWUjZDblF0TWFqUkpWd1ppVndtLW1tdFVnMWkwY0hMSk1KQ215VjJGS0RKci1pSnpWV0oxVjZoWm4xLWhqbXcwM2RtWmxSNlV3WXc?oc=5) |
+| The Enterprise Guide to MCP Gateways: Governing the Next Generation of AI Agents | 文章 | 关于 MCP 网关的企业指南，用于治理下一代 AI Agent。 | [Snowflake](https://news.google.com/rss/articles/CBMikwFBVV95cUxPNU1UM0xEdUcwaWFjMHRYR2FYeVBmWlBhNl9zQXhkbndLdmdRX2RyR2F4TEhqT2lhdUdUVUQydmxrR3lnUHNQV0lMbFNUN1ppM3NWdjQ3eGt4SnI2SURJLUJBYjlQWmZSaDVFX0x2eG51VldCMkRuXzNJbFlRMHdTZGpWanBIZmM0c3c4VTQwY21LWVE?oc=5) |
+| Optimizing agent system prompts with Amazon Bedrock AgentCore | 文章 | 使用 Amazon Bedrock AgentCore 优化 Agent 系统提示词。 | [Amazon Web Services (AWS)](https://news.google.com/rss/articles/CBMirAFBVV95cUxPYWpXNVNRZEpRLW44UncyT0d3NS1vVVFyaXk1TTNuVDdKdG5kTUZiTFVuaE54Mlg3Mks4X1pfUTNpR0ZOaFVrTnE2MXZCWFBpN3M1YW1ZQlFSaDQtUWtZZlpXYjRNc19YQkRLWUYyQkpiekZ3eG5OaE9TM2xuS1IwNmgxYkVPS1VsUWFfTXY2ZkFWOXdCM0pOOTNkd2tXMHhseTVHdFdmNkFRbVNi?oc=5) |
+| DeepSeek Harness 突破 20 万星标，将 Claude Code 和 Codex 变成插件 | 文章 | DeepSeek Harness 项目动态，将 Claude Code 和 Codex 集成为插件。 | [Pasquale Pillitteri](https://news.google.com/rss/articles/CBMikwFBVV95cUxONjZaeXJYOXFNd1huamFRR21zVkt6OUdlcUIzMXpBWTZ1czhHX1dGSWtPMEFITGZad0xxTnRyVjUwajNvZ0I1LXdEd1BuRHJ5b0FBR3NHN3F6S1FoUl9iOWkzcXc1bVJMMEtockNQd2JEdUxrQUdWbmRQaWw4S1dRRDc2aExHNFBPQXBmM0FsQmNpcUU?oc=5) |
+| AI Agent 独立编写的安卓密码管理器 EVASafe 开源 | 产品案例 | AI Agent 独立编写的安卓密码管理器 EVASafe 开源，强调完全离线、数据不出手机。 | [80aj.com](https://news.google.com/rss/articles/CBMidEFVX3lxTFBrMlhZQUhjVkFsLTRfbm9NX2RnMWg5U3NsazB2UVJxdkJQeG9yQXFMM1BPMDh4VWRjczI4TTg2dkgxeHRUOUhMeEpWdExYLXBvT1p4bzgtZ0lwSEF4MHZ1MUNnZy1wYWZ6SDJoZXBYbFZiOEI0?oc=5) |
