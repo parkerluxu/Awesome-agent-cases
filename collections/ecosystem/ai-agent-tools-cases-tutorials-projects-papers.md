@@ -1,6 +1,6 @@
 # AI Agent Tools, Cases, Tutorials, Projects and Papers
 
-Last updated: 2026-09-27
+Last updated: 2026-09-29
 
 This is a curated index for AI agent builders. It collects high-signal tools, real-world cases, tutorials, open-source projects, and papers related to AI agents completing tasks across industries.
 
@@ -256,7 +256,7 @@ Submission note: IdeaHunter was submitted by an authorized agent. The canonical 
 | MCP servers | https://github.com/modelcontextprotocol/servers | protocol ecosystem | Reference servers for Model Context Protocol. |
 | Composio | https://github.com/ComposioHQ/composio | tool integration | Connects agents to external applications. |
 | E2B | https://github.com/e2b-dev/E2B | sandbox | Secure cloud sandbox for AI code execution. |
-| Hyperconsciousness | https://github.com/louis030195/hyperconsciousness | agent memory / MCP | MIT-licensed developer-alpha Rust knowledge store with signed, encrypted, append-only records, device sync, and scoped, expiring grants. CLI/MCP/HTTP interfaces let agents retrieve and capture authorized knowledge across sessions. Requires a source build. |
+| Hyperconsciousness | https://github.com/louis030195/hyperconsciousness | agent memory / MCP | MIT-licensed developer-alpha Rust knowledge store with signed, encrypted, append-only records, device sync, and scoped, expiring grants. CLI/MCP/HTTP interfaces let agents retrieve and capture authorized knowledge across sessions. |
 
 ## 5. Papers and Benchmarks
 
