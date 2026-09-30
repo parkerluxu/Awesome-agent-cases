@@ -447,3 +447,52 @@
 | :--- | :--- | :--- | :--- |
 | Codex 国内使用与报错速查 | GitHub 项目/指南 | 针对 Codex 在国内使用可能遇到的安装、登录、手机号验证、终端代理、断线重连、额度用完、上下文满了等问题，提供按报错原文查询原因和处理步骤的速查指南，每条附官方出处，并包含中英界面对照和 AGENTS.md 中文模板。 | [GitHub](https://github.com/Avarce/codex-china-guide) |
 | （2026年9月最新）国内Codex安装使用教程：从安装到上手 ... | 知乎文章 | 一篇关于 Codex 在国内安装和使用的教程，更新了账号注册难点的解决方法。 | [知乎](https://zhuanlan.zhihu.com/p/2074880096264111344) |
+
+## 资料更新（2026-10-01）
+
+以下为近期新增的 AI Agent 桌面应用相关资料线索，按内容类型整理。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| argus-automation | GitHub 项目 | 为 Claude Code、Codex 和 OpenClaw Stars 构建的桌面工作流自动化工具。 | [GitHub](https://github.com/redshiftexitpoll442/argus-automation) |
+| Monochromatic | GitHub 项目 | TypeScript 和 Rust 单体仓库，包含 Claude Code 和 Pi 编码代理插件、MCP stdio 服务器框架、Wayland 桌面应用（GTK4 文件管理器、Slint 终端等）。 | [GitHub](https://github.com/Aquaticat/Monochromatic) |
+| izzi-ai | GitHub 项目 | 面向 Windows 和 macOS 的桌面 AI Agent 中心，可运行 OpenClaw、HyperFrames、F5 TTS 等。 | [GitHub](https://github.com/kentzu213/izzi-ai) |
+| yardsort | GitHub 项目 | 在独立的 git worktree 中并行运行 AI 编码代理的桌面应用，基于 Tauri + Rust，支持 Linux、macOS 和 Windows。 | [GitHub](https://github.com/joaoh82/yardsort) |
+| nirvana-os-engine | GitHub 项目 | Nirvana-OS 引擎，提供“一句话输入，完成工作输出”的代理操作，运行时无关，支持 Claude Code、Codex 等多种代理。 | [GitHub](https://github.com/gutomec/nirvana-os-engine) |
+| treeix | GitHub 项目 | AI 工作区应用，集成代理、worktree、差异对比、拉取请求和工单管理，免费开源，适用于 Mac。 | [GitHub](https://github.com/zaxovaiko/treeix) |
+| Vex | GitHub 项目 | 基于 Electron/Chromium 的桌面浏览器，内置 AI 代理、广告拦截、Tor、分屏、侧边栏应用面板等功能。 | [GitHub](https://github.com/0xmortuex/Vex) |
+| trama | GitHub 项目 | 协调 AI 编码代理团队在代码仓库上工作的桌面应用，支持决策、授权、worktree 和实时检查。 | [GitHub](https://github.com/emanueledenaro/trama) |
+| mermaid-code | GitHub 项目 | 基于 Mermaid Live Editor 的本地优先 Mermaid 图表编辑器，通过 Tauri 集成 AI 代理和桌面原生功能。 | [GitHub](https://github.com/m8524769/mermaid-code) |
+| PowerSkills | GitHub 项目 | 使 AI 代理能够使用 PowerShell 技能控制 Windows 任务，如 Outlook、Edge、桌面自动化等。 | [GitHub](https://github.com/felipemsilva/PowerSkills) |
+| intentic | GitHub 项目 | 开源编码代理工作区，运行在本地机器上，旨在减少 AI 浪费。 | [GitHub](https://github.com/intentic/intentic) |
+| AutoBot-AI | GitHub 项目 | 自托管的代理式 AI，支持语音、视觉驱动的浏览器和计算机控制、可视化工作流、人工审批、多用户 RBAC 和知识图谱。 | [GitHub](https://github.com/mrveiss/AutoBot-AI) |
+| agentloom | GitHub 项目 | 本地代理团队协作平台，设定目标后由代理团队完成，支持模型协调、会话持续和变更检查。 | [GitHub](https://github.com/MyAgentHubs/agentloom) |
+| shell.online | GitHub 项目 | 在本地计算机运行代理或命令，并通过任意浏览器访问的终端工具。 | [GitHub](https://github.com/TeoSlayer/shell.online) |
+| agent-foundation | GitHub 项目 | 用于构建和运行自有代理系统的开源库和自托管平台，包含托管代理、内存、沙箱、计算机使用和持久执行功能。 | [GitHub](https://github.com/converge-ai-labs/agent-foundation) |
+| DSH Desktop | 桌面客户端 | 开源桌面客户端，支持通过 Agents Anywhere 进行远程控制和操作。 | [官网](https://www.dshdesktop.cn/) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| MatToolBench | 论文/Benchmark | 首个用于评估多模态 GUI 代理在专业材料科学软件上操作能力的真实环境基准。 | [arXiv](https://arxiv.org/abs/2609.37053v1) |
+| Neuro-Symbolic Computer Use | 论文 | 提出神经符号计算机使用方法，通过学习策略执行重复工作流，而非每次重新规划，以提高可靠性和效率。 | [arXiv](https://arxiv.org/abs/2609.36927v1) |
+| Are We There Yet? | 论文 | 评估计算机使用代理对盲人用户访问桌面应用的有效性，通过一项为期三周的日记研究进行。 | [arXiv](https://arxiv.org/abs/2609.00524v1) |
+| EngiWorld | 论文/Benchmark | 首个围绕完整设计循环构建的专业工程环境基准，涵盖 CAD、CAE、CAM 等 6 个工程领域的 1,301 个任务。 | [arXiv](https://arxiv.org/abs/2609.37686v1) |
+| SCOUT | 论文 | 提出一种协同推理与工具使用的方法，用于检测计算机使用代理在良性指令和环境下可能造成的意外伤害。 | [arXiv](https://arxiv.org/abs/2609.36201v1) |
+| LongPuzzleBench | 论文/Benchmark | 用于评估 GUI 代理在长周期视觉谜题上能力的基准，测试代理在长链耦合决策中保持连贯性的能力。 | [arXiv](https://arxiv.org/abs/2609.34769v1) |
+| PrecogUI | 论文 | 提出一种预认知架构，通过主动经验池将 GUI 代理的范式从被动执行转变为主动决策。 | [arXiv](https://arxiv.org/abs/2609.36923v1) |
+| CUA-Sandbox | 论文 | 为计算机使用代理强化学习提供高效环境，通过共享运行时减少内存和初始化成本。 | [arXiv](https://arxiv.org/abs/2609.32750v1) |
+| HybridCUA | 论文 | 提出结合 GUI 和 CLI 交互的下一代计算机使用代理，以提高效率和可扩展性。 | [arXiv](https://arxiv.org/abs/2609.38008v1) |
+| Absorbed in Inertia | 论文 | 发现计算机使用代理会表现出“惰性”，即重复无效动作，并提出通过分析模型内部激活值来检测该现象。 | [arXiv](https://arxiv.org/abs/2609.37176v1) |
+| VRL-Bench | 论文/Benchmark | 一个用于在有限试验预算下公平评估试错学习的基准测试工具。 | [arXiv](https://arxiv.org/abs/2609.12404v1) |
+| OSWorld-Pro | 论文/Benchmark | 提出基于过程的计算机使用代理评估方法，旨在提供比仅评估最终结果更透明的失败分析。 | [arXiv](https://arxiv.org/abs/2609.24890v1) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| Beyond the Browser: Building Desktop GUI Agents in 2026... | 技术文章 | 介绍如何使用 UI-TARS、Claude Computer Use 和 OSWorld 2.0 构建桌面 GUI 代理。 | [DEV Community](https://news.google.com/rss/articles/CBMivAFBVV95cUxPX19lSjJyenhWVEotWmZYNkRwbDJYdmItVTJTRmJjbER4T1FCa2NiU1J2NmFuRjJ5ZmdfTFNFWFNIeHRxdms4ZF8wNnpTczhsdUJZVllWQkdzZUdJRDhWWnZRQ0hrNTNJeTBlbERnbVM2bElueUJidXBycTdxYWt6ckV3S2JCUTd6RG9McVhOaDhwdk5mSmlzOGhPaVR0TkhoMXotYmdwQWhzaVVXNjE2bS1zS3BjZmR3Rkp5RQ?oc=5) |
+| 所有还在用Claude Code的朋友，我都劝你试试Codex｜ 附 Codex 保姆级入门教程 | 教程 | Codex 的入门教程，对比 Claude Code。 | [知乎专栏](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDUXhDTDFIX2dlOExmQ08wT0pxaE56aVlTNmw5dlVPZEZjNGJqYUYzc0o5TDZrSTNvTWhtOS1paGlCbmEwZDZDbS1kUTlRSE1WbXo4WmsyWXMzZy1n?oc=5) |

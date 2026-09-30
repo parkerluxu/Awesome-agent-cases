@@ -444,3 +444,57 @@ The following newly discovered resources are appended to the case library.
 | :--- | :--- | :--- | :--- |
 | GitHub - Avarce/codex-china-guide | Guide | A quick-reference guide for using Codex in China, covering installation, login, phone verification, proxy settings, reconnection, and quota/context issues, with official sources. | [GitHub](https://github.com/Avarce/codex-china-guide) |
 | （2026年9月最新）国内Codex安装使用教程：从安装到上手 ... | Tutorial | A tutorial (updated September 2026) for installing and using Codex in China, addressing account registration challenges. | [Zhihu](https://zhuanlan.zhihu.com/p/2074880096264111344) |
+
+## Resource Update (2026-10-01)
+
+Newly discovered resource leads for AI agent desktop applications.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| redshiftexitpoll442/argus-automation | GitHub Project | Automate desktop workflows for AI agents with Argus Automation, built for Claude Code, Codex, and OpenClaw. | [GitHub](https://github.com/redshiftexitpoll442/argus-automation) |
+| Aquaticat/Monochromatic | GitHub Project | TypeScript and Rust monorepo including Claude Code and Pi coding-agent plugins, a minimal MCP stdio server framework, and Wayland desktop apps (GTK4 file manager, Slint terminal, true-peak music player). | [GitHub](https://github.com/Aquaticat/Monochromatic) |
+| kentzu213/izzi-ai | GitHub Project | Izzi AI — Desktop AI Agent Hub for Windows & macOS. Run OpenClaw, HyperFrames, F5 TTS and the IzziAPI Marketing Room from one app. | [GitHub](https://github.com/kentzu213/izzi-ai) |
+| joaoh82/yardsort | GitHub Project | Run AI coding agents in parallel, each in its own git worktree. Desktop app for Linux, macOS and Windows (Tauri + Rust). | [GitHub](https://github.com/joaoh82/yardsort) |
+| gutomec/nirvana-os-engine | GitHub Project | Nirvana-OS engine: ready-to-run agentic operations. One sentence in, finished work out. Source-available engine for companies, squads and mind-clones. Runtime-agnostic: Claude Code, Codex, Gemini-CLI, Antigravity, Hermes. | [GitHub](https://github.com/gutomec/nirvana-os-engine) |
+| zaxovaiko/treeix | GitHub Project | Your AI workspace. Everything you use daily, in one app: agents, worktrees, diffs, pull requests and tickets. Free and open source, for Mac. | [GitHub](https://github.com/zaxovaiko/treeix) |
+| 0xmortuex/Vex | GitHub Project | A browser built for you — fast, private, and rearrangeable to the pixel. An Electron/Chromium desktop browser with a built-in AI agent, ad/tracker blocking, Tor, split screen, sidebar app panels, and more. | [GitHub](https://github.com/0xmortuex/Vex) |
+| emanueledenaro/trama | GitHub Project | Desktop app that coordinates a team of AI coding agents on your repository: decisions, mandate, worktrees and real checks tied to every change. | [GitHub](https://github.com/emanueledenaro/trama) |
+| m8524769/mermaid-code | GitHub Project | A local-first Mermaid diagram editor built on Mermaid Live Editor, enhanced with AI agent integration and desktop-native features via Tauri. | [GitHub](https://github.com/m8524769/mermaid-code) |
+| felipemsilva/PowerSkills | GitHub Project | Enable AI agents to control Windows tasks using PowerShell skills for Outlook, Edge, desktop automation, and structured shell commands in JSON format. | [GitHub](https://github.com/felipemsilva/PowerSkills) |
+| intentic/intentic | GitHub Project | An open-source workspace for coding agents, running on your own machine. More work. Less AI waste. Same subscriptions. | [GitHub](https://github.com/intentic/intentic) |
+| mrveiss/AutoBot-AI | GitHub Project | Self-hosted, agentic AI you own — voice, vision-driven browser & computer control, visual workflows, human-in-the-loop approvals, multi-user RBAC, and a knowledge graph. Runs on your infrastructure. | [GitHub](https://github.com/mrveiss/AutoBot-AI) |
+| MyAgentHubs/agentloom | GitHub Project | Set the goal. A local agent team carries it to done. Coordinate models, continue sessions and inspect changes in one desktop workspace. Follow the work from your phone when you step away. | [GitHub](https://github.com/MyAgentHubs/agentloom) |
+| TeoSlayer/shell.online | GitHub Project | Your terminal, anywhere. Run an agent or command on your computer and use it from any browser. Developed by Pilot Protocol. | [GitHub](https://github.com/TeoSlayer/shell.online) |
+| converge-ai-labs/agent-foundation | GitHub Project | An open-source library and self-hosted platform for building and running your own agent systems—with managed agents, memory, sandboxes, computer use, and durable execution. | [GitHub](https://github.com/converge-ai-labs/agent-foundation) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows | Paper | The first real-environment benchmark for evaluating multimodal GUI agents on professional materials science software. | [arXiv](https://arxiv.org/abs/2609.37053v1) |
+| Neuro-Symbolic Computer Use: Learning Reusable Policies for Reliable and Efficient Execution | Paper | Introduces neuro-symbolic computer use, where a recurring workflow is executed by a learned policy rather than re-derived by an agent on each run. | [arXiv](https://arxiv.org/abs/2609.36927v1) |
+| Are We There Yet? Assessing Computer-Use Agents for Blind Users' Accessible Interaction with Desktop Applications | Paper | A three-week diary study with 8 blind users using OLLA, a screen-reader-accessible CUA prototype, to evaluate effectiveness for blind screen-reader users in real-world desktop workflows. | [arXiv](https://arxiv.org/abs/2609.00524v1) |
+| EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments? | Paper | The first benchmark structured around the complete design loop: 1,301 expert-curated tasks spanning 6 engineering domains (CAD, CAE, CAM, BIM, EDA, and 3D visualization). | [arXiv](https://arxiv.org/abs/2609.37686v1) |
+| SCOUT: Synergizing Reasoning and Tool-Use for Computer-Use Safety | Paper | Proposes a method for detecting harmful behaviors in computer-use agents (CUAs) that requires careful, task-specific reasoning and active investigation. | [arXiv](https://arxiv.org/abs/2609.36201v1) |
+| LongPuzzleBench: Evaluating GUI Agents on Long-Horizon Visual Puzzles | Paper | A benchmark that tests whether GUI agents stay coherent across long chains of coupled decisions using long-horizon visual puzzles. | [arXiv](https://arxiv.org/abs/2609.34769v1) |
+| PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval | Paper | A pre-cognitive architecture that shifts the paradigm from reactive execution to proactive decision-making for GUI agents. | [arXiv](https://arxiv.org/abs/2609.36923v1) |
+| CUA-Sandbox: Efficient Environments for Computer-Use Agent Reinforcement Learning | Paper | Proposes a method to share a single execution runtime across multiple parallel environments for computer-use agent reinforcement learning, reducing memory and initialization costs. | [arXiv](https://arxiv.org/abs/2609.32750v1) |
+| HybridCUA: Learning to Orchestrate GUI and CLI for Computer-Use Agents | Paper | Argues that the next generation of CUAs should combine GUI interactions with the command line interface (CLI) for more efficient and scalable task completion. | [arXiv](https://arxiv.org/abs/2609.38008v1) |
+| Absorbed in Inertia: Activation Analysis for Computer-Use Agents | Paper | Discovers that computer-use agents can exhibit inertia, repeating fruitless actions, and proposes a protocol to measure this using the agent's internal activation values. | [arXiv](https://arxiv.org/abs/2609.37176v1) |
+| VRL-Bench: Benchmarking agents on computer control tasks under finite trial budgets | Paper | A harness for fair evaluation of trial-and-error learning under finite trial budgets for language agents on complex tasks such as computer control. | [arXiv](https://arxiv.org/abs/2609.12404v1) |
+| OSWorld-Pro: Process-based Evaluation for Computer Use Agents | Paper | Proposes a process-based evaluation for Computer-Use Agents (CUAs) to provide transparency into how and why agents fail, beyond just assessing final deliverables. | [arXiv](https://arxiv.org/abs/2609.24890v1) |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| Beyond the Browser: Building Desktop GUI Agents in 2026 with UI-TARS, Claude Computer Use, and OSWorld 2.0 | Tutorial | Article on building desktop GUI agents in 2026. | [DEV Community](https://news.google.com/rss/articles/CBMivAFBVV95cUxPX19lSjJyenhWVEotWmZYNkRwbDJYdmItVTJTRmJjbER4T1FCa2NiU1J2NmFuRjJ5ZmdfTFNFWFNIeHRxdms4ZF8wNnpTczhsdUJZVllWQkdzZUdJRDhWWnZRQ0hrNTNJeTBlbERnbVM2bElueUJidXBycTdxYWt6ckV3S2JCUTd6RG9McVhOaDhwdk5mSmlzOGhPaVR0TkhoMXotYmdwQWhzaVVXNjE2bS1zS3BjZmR3Rkp5RQ?oc=5) |
+| 所有还在用Claude Code的朋友，我都劝你试试Codex｜ 附 Codex 保姆级入门教程 | Tutorial | A beginner's tutorial for Codex, aimed at users of Claude Code. | [zhuanlan.zhihu.com](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDUXhDTDFIX2dlOExmQ08wT0pxaE56aVlTNmw5dlVPZEZjNGJqYUYzc0o5TDZrSTNvTWhtOS1paGlCbmEwZDZDbS1kUTlRSE1WbXo4WmsyWXMzZy1n?oc=5) |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| DSH Desktop | Product | Open-source desktop client where the desktop itself is a plugin. Enables remote control and task management via Agents Anywhere. | [Website](https://www.dshdesktop.cn/) |

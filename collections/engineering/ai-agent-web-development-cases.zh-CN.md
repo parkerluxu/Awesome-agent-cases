@@ -485,3 +485,51 @@
 | Optimizing agent system prompts with Amazon Bedrock AgentCore | 文章 | 使用 Amazon Bedrock AgentCore 优化 Agent 系统提示词。 | [Amazon Web Services (AWS)](https://news.google.com/rss/articles/CBMirAFBVV95cUxPYWpXNVNRZEpRLW44UncyT0d3NS1vVVFyaXk1TTNuVDdKdG5kTUZiTFVuaE54Mlg3Mks4X1pfUTNpR0ZOaFVrTnE2MXZCWFBpN3M1YW1ZQlFSaDQtUWtZZlpXYjRNc19YQkRLWUYyQkpiekZ3eG5OaE9TM2xuS1IwNmgxYkVPS1VsUWFfTXY2ZkFWOXdCM0pOOTNkd2tXMHhseTVHdFdmNkFRbVNi?oc=5) |
 | DeepSeek Harness 突破 20 万星标，将 Claude Code 和 Codex 变成插件 | 文章 | DeepSeek Harness 项目动态，将 Claude Code 和 Codex 集成为插件。 | [Pasquale Pillitteri](https://news.google.com/rss/articles/CBMikwFBVV95cUxONjZaeXJYOXFNd1huamFRR21zVkt6OUdlcUIzMXpBWTZ1czhHX1dGSWtPMEFITGZad0xxTnRyVjUwajNvZ0I1LXdEd1BuRHJ5b0FBR3NHN3F6S1FoUl9iOWkzcXc1bVJMMEtockNQd2JEdUxrQUdWbmRQaWw4S1dRRDc2aExHNFBPQXBmM0FsQmNpcUU?oc=5) |
 | AI Agent 独立编写的安卓密码管理器 EVASafe 开源 | 产品案例 | AI Agent 独立编写的安卓密码管理器 EVASafe 开源，强调完全离线、数据不出手机。 | [80aj.com](https://news.google.com/rss/articles/CBMidEFVX3lxTFBrMlhZQUhjVkFsLTRfbm9NX2RnMWg5U3NsazB2UVJxdkJQeG9yQXFMM1BPMDh4VWRjczI4TTg2dkgxeHRUOUhMeEpWdExYLXBvT1p4bzgtZ0lwSEF4MHZ1MUNnZy1wYWZ6SDJoZXBYbFZiOEI0?oc=5) |
+
+## 资料更新（2026-10-01）
+
+以下为近期发现的 AI Agent Web 开发相关新资料线索，可作为原文内容的补充。
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| anchor-inference/daedalus | GitHub 项目 | 一个可自行运行、自我发展的个人 AI Agent，支持 macOS、Linux、Windows 桌面应用、手机 Web 应用及 Telegram。具备真实工具（shell, browser, git, MCP）和项目团队协作能力。 | [GitHub](https://github.com/anchor-inference/daedalus) |
+| benoit08260/OpenMCP-Chain | GitHub 项目 | 一个安全协议栈，旨在将区块链与 AI 集成，使 AI Agent 能够利用 Web3 功能并具备完整的审计跟踪。 | [GitHub](https://github.com/benoit08260/OpenMCP-Chain) |
+| xiufengsun/TokenTracker | GitHub 项目 | 一个本地优先的 AI 代币使用与成本跟踪器，支持 31 种编码工具（包括 Claude Code, Codex, Cursor 等），并提供原生应用。 | [GitHub](https://github.com/xiufengsun/TokenTracker) |
+| limecloud/lime | GitHub 项目 | 一个全栈 AI Agent，用于编码、文件处理、终端操作、工具使用、研究、内容创作、多模态工作和多智能体工作流。 | [GitHub](https://github.com/limecloud/lime) |
+| DennisDRX/Faraday-Web-Researcher-Agent | GitHub 项目 | 一个自主的 Web 研究 Agent（基于 LangGraph/Streamlit），使用动态工具（如 Tavily, Google, NewsAPI）调查查询，收集多源信息，并在 Streamlit UI 中生成结构化报告。 | [GitHub](https://github.com/DennisDRX/Faraday-Web-Researcher-Agent) |
+| Dario2003-droid/opencode-browser-automator | GitHub 项目 | 2026 年自主 Web Agent 工具包，用于 AI 驱动的浏览器自动化测试与抓取。 | [GitHub](https://github.com/Dario2003-droid/opencode-browser-automator) |
+| nadeemanjum273-cmd/Mind_Dream-AI-Customer-support- | GitHub 项目 | 一个生产就绪的全栈 AI 销售与客户支持 Agent，名为 Mind_Dream。使用 Next.js 15, FastAPI, LangChain 和 Google Gemini 构建，具备 ChromaDB RAG、自主下单、退款资格检查和实时 Google Sheets 同步功能。 | [GitHub](https://github.com/nadeemanjum273-cmd/Mind_Dream-AI-Customer-support-) |
+| happier-dev/happier | GitHub 项目 | 一个 Web、桌面和移动端客户端及编排器，支持 Codex, Claude Code, OpenCode, Pi, Cursor, Grok 等多种 AI 编码代理，并提供端到端加密。 | [GitHub](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpNC1UbzFsdzJCYnhoYUlmN1ZGTV9xSFNaY2NENDVJMUtrQko3UVdZTTNmdExuaEJfUG5PU1FWZW5rMWRldkVGUnhXTEQ1QTA?oc=5) |
+| zhuyansen/awesome-claude-video-skills | GitHub 项目 | 一个开源技能和工具包集合，使 Claude Code、Codex 和其他编码 Agent 能够制作视频。包含 180 个按类型分类的仓库，每个都经过安全评级。 | [GitHub](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55TEhEN2JBNUZTY2NaN3BlY2hBRUk4emU0eHA0V1VENkY0RUszTmI3WVlTMGx6bElJRVRtSVZ5VnFsa2dUVXQyVzdTbzBQR2VudHFZUkRVM0R0MW1wa0RNNmVQbm9iZFk?oc=5) |
+| MengTo/Skills | GitHub 项目 | 为设计师和构建者提供的 Agent 技能集合，适用于 Codex, Claude, Cursor 和其他 AI 编码代理。 | [GitHub](https://news.google.com/rss/articles/CBMiR0FVX3lxTFAwYkV5b2VnWTRBWVdxN1pYVDB4VlVvVTA2bW5oVHJrRkI3NzlnMEY3MGRnRTdMbEZlTW9jaWhZMnVlVXFLYWV3?oc=5) |
+
+### 论文 / Benchmark
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| Beyond Prompt-to-App: Accountable Translation in Teacher-Facing Agentic Authoring | 论文 | 研究自然语言应用构建器如何将专业意图跨编译、生成、检查和批准流程进行转换。报告了一个面向教师的代理创作系统的有界追踪研究。 | [arXiv](https://arxiv.org/abs/2609.04679v1) |
+| Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents | 博客文章 | 探讨 MCP Agent 的源感知验证，强调不仅验证事实，还要验证信息来源。 | [Hugging Face Blog](https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source) |
+
+### 教程 / 媒体实测
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| MCP Browser Automation Tutorial: Build an AI Agent That Browses the Web (2026) | 教程 | 介绍如何构建一个能够浏览网页的 AI Agent，重点使用 MCP 进行浏览器自动化。 | [Medium](https://news.google.com/rss/articles/CBMivAFBVV95cUxPTlhacDZpS1lvRDZmUTZLSm84b19DOV9IQkZMdzMzSkE2cGR5QjBDRTRLTGFmM3NnSzJIODRiVXVJcVdpVm02TDVNQkd3OHBqc2VqQ05iSTFyT21vSGJmSlI1dnVDZ0FoRjVMb3R5cEdrdHRpUG56TnI4cTczQU9fb0xWVHJFekdtZEN0ZGlhWFdpd3pDYVhVTFgzVS1KSEEzdno4M0cwVTl4UjFmMkx4SEFGTG45c0ZoZ2FmRQ?oc=5) |
+| DeepSeek Harness vs Codex vs Claude Code: What I Learned Comparing Three Agent Harnesses | 实测对比 | 对 DeepSeek Harness、Codex 和 Claude Code 三种 Agent 框架进行比较和经验分享。 | [Medium](https://news.google.com/rss/articles/CBMixgFBVV95cUxOLVh6OG1lVVM4bUxwaHVEWWd6bU5veTJybXN3U3hWLUhwekxuQ2QzUW84WjRWWkR5S1hGRF8tUzczQzNGSUdfT2VVRUQ5c3VxTUEtcDFoY0xWWk93YlcwWmRUYjVlOWs2c3JiRFRFMlhJZFZkaHRGczA3N3ZycU9hb1JZWXhWZ2xXTmd3LUpvQTlvOU9BTVVoTnBRVnQ4TG1ZR2dLdXZvNDhiWnppVE5YcG1mbHV0Mm9BSGhLdGF6OXZ5TlNrRkE?oc=5) |
+| 彻底解决 Claude Code 与 Codex 远程 SSH 断连：双向保活与 tmux 兜底实战 | 教程 | 分享解决 Claude Code 和 Codex 在远程 SSH 连接中断问题的实战方法，包括双向保活和 tmux 兜底策略。 | [CSDN](https://news.google.com/rss/articles/CBMib0FVX3lxTE0wQjlEczNFbGRBVGl2cm5mc0xtNHp4MlFNanNRcDljcnV0MW9PNEdUMVFZT0dIc3pmcFh5OWN1WHlndENyN3piUktZdlQyUmVCLVl3NmxQeW9jMHdZaGw1Z29KeUs1aFV2X2dLNjNTUQ?oc=5) |
+| 零基础用Coze搭建多Agent协作AI团队：20+企业级项目实战，智能体/工作流/应用一次打通 | 教程 | 介绍如何使用 Coze 平台从零基础搭建多 Agent 协作的 AI 团队，涵盖 20 多个企业级项目实战。 | [bilibili.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LOGItRHA2M0xxLVd5aTFNQmJPZUJZTnBpSFkwMTh0cmxoQkNUd1RLMHdYZUktXzJzMVdfbDVhQmpPaFFhUFZpampjSC1pbEhFSV9fOTB2RQ?oc=5) |
+| Herdr 两个月后：用 /dispatch-codex 让 Agent 调度 Agent | 教程 | 分享使用 Herdr 平台两个月后的经验，重点介绍如何使用 `/dispatch-codex` 命令让 Agent 调度其他 Agent。 | [bilibili.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WOUdJTW40RUZiMDk1cXUzYUlwTjB1LXVtVDB3M0hiSFpkaWJ6eWlnLUZTSndVZ0Zpd2hzOW1xSUtPY005U1M2WG1IT3F6N0toVXFTMTVidw?oc=5) |
+| Building a Real App with Claude Code (Start to Finish) | 视频教程 | 展示如何使用 Claude Code 从头到尾构建一个真实的应用程序。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCcnF3alRRUngwQW9YRHFrbWN3Ukc1dk9PeFptS2pSTFdleXdFaHJ1V1d2TVB0Rm1jeXVDR1o1eU01UG8wS3haeHdwWEUzX0lZVENWeDln?oc=5) |
+| 9 Free AI Agent Skills You NEED to Install Now | 视频教程 | 介绍 9 个免费的 AI Agent 技能，建议立即安装。 | [YouTube](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxWnBDX0ktTm5JYXBGU01pLTVrRWFzYnhNNnMyU0ItYk9TelJCdVRJWjQybUg3LU1POWFnOTIya1lHWjlER1M4U3M1V1NMM21xdG5Cck5B?oc=5) |
+| Create Your First Agent in Microsoft Copilot Studio | 教程 | 指导如何在 Microsoft Copilot Studio 中创建您的第一个 Agent。 | [microsoft.github.io](https://news.google.com/rss/articles/CBMickFVX3lxTFBUOHdoZEpwdF9FUnpTd1FRQlp6RWYxTW90bXE3dlJhQWY0VUhnc3kza3V2MFkzZU1weHBHNm5NNUtzQVhsU1dSQWFpVXU4WkU1VEdDV1pCd1B0TTYxZmxLOHRZZl9WUGJwVkc1a0hndjZjdw?oc=5) |
+| Migrate faster with AWS Transform and your AI coding agent | 教程 | 介绍如何利用 AWS Transform 和您的 AI 编码代理来加速迁移过程。 | [Amazon Web Services (AWS)](https://news.google.com/rss/articles/CBMitwFBVV95cUxNNFd5Skw0Y3Y3VUoyYlVTeTY2S0NfRWsxbTNqSkRhWlFDQk4zLTdsOVFLdk1rdUdiSmQzOTlBZWVLQW9SNWxVWjVRUGVDbXFWdUQ1MGhrVEhRTzZvTEM2LTF3bzlLakZVSVh6LTViM1BRa2M0M1JjT2JPcVMzVXBvRnRRUTRNQzZZOUlydTc1ZXI2R2hFOWptNktxdjFTaTJhNktFNmZUUUpxNUhyRE5qU21DWnFlWFU?oc=5) |
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| OpenAI Dots | 产品 | OpenAI 推出的 Dots，是 ChatGPT 内始终在线的 AI Agent。 | [Technology Org](https://news.google.com/rss/articles/CBMihAFBVV95cUxNendoTVpQaERMbHg5MndWaTNEVnduWEl3UDAwXzh6ZzRlaGRKWHFnVkNOd0czbTR3WExxUjRla0xadDhlLWllRHh3eDhKZVg2ZkxwNUJHZlZVRkpWS0loYkJzVC1DdUZOZGJnTHFUY2RpcVlKTFlyZ1dZbVhIZ29JWHRmLWw?oc=5) |
+| Unity Plugins for Claude Code & Codex | 工具 | Unity 插件为 Claude Code 提供 29 项技能，为 Codex 提供 31 项技能。 | [shattered.io](https://news.google.com/rss/articles/CBMickFVX3lxTE1sTFQ0ajZoQ21aYlFNRW1aRm9RMGxLR3J6d3cwTjZyZUlXb3BmTFpIUUdCdGozLTJ2bXF0emFKSEh5R2hoaE9SVXpoX1BpaTR4aHNQOHVVc1BKTnlqQ0lLOG82YU1Gam5WeFVLZlhzdURtQQ?oc=5) |
+| Google ADK for Kotlin 1.0 | 工具 | Google 发布的 Android 开发者 AI Agent 实战指南，ADK for Kotlin 1.0 版本。 | [积墨 AI](https://news.google.com/rss/articles/CBMimAFBVV95cUxOT3RiVnUtQWtncVdMZl9oRE1rNWxmM05nQzhDYWFydjdCUjVfN0pESDhpNHRsZWJmTEtKWG14d2E3NVNVX09hV1phRmVBbzFaOG1jMjBpelV1akxpMkRCM3NvdGFRdVo4aTg2T21GSV8zSkNWOVdyRjd1NkhFdDZFbjFjSll2R0VwajkyaGlKRVVHZndHUFJwTg?oc=5) |

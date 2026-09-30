@@ -463,3 +463,45 @@ The following newly discovered resources are relevant to AI agent web developmen
 | Optimizing agent system prompts with Amazon Bedrock AgentCore | Documentation | A guide on optimizing agent system prompts using Amazon Bedrock AgentCore. | [Amazon Web Services (AWS)](https://news.google.com/rss/articles/CBMirAFBVV95cUxPYWpXNVNRZEpRLW44UncyT0d3NS1vVVFyaXk1TTNuVDdKdG5kTUZiTFVuaE54Mlg3Mks4X1pfUTNpR0ZOaFVrTnE2MXZCWFBpN3M1YW1ZQlFSaDQtUWtZZlpXYjRNc19YQkRLWUYyQkpiekZ3eG5OaE9TM2xuS1IwNmgxYkVPS1VsUWFfTXY2ZkFWOXdCM0pOOTNkd2tXMHhseTVHdFdmNkFRbVNi?oc=5) |
 | DeepSeek Harness | Open-source Platform | A platform that has surpassed 200,000 stars, turning Claude Code and Codex into plugins. | [Pasquale Pillitteri](https://news.google.com/rss/articles/CBMikwFBVV95cUxONjZaeXJYOXFNd1huamFRR21zVkt6OUdlcUIzMXpBWTZ1czhHX1dGSWtPMEFITGZad0xxTnRyVjUwajNvZ0I1LXdEd1BuRHJ5b0FBR3NHN3F6S1FoUl9iOWkzcXc1bVJMMEtockNQd2JEdUxrQUdWbmRQaWw4S1dRRDc2aExHNFBPQXBmM0FsQmNpcUU?oc=5) |
 | EVASafe | Open-source App | An Android password manager independently written by an AI Agent, completely offline with data never leaving the phone. | [80aj.com](https://news.google.com/rss/articles/CBMidEFVX3lxTFBrMlhZQUhjVkFsLTRfbm9NX2RnMWg5U3NsazB2UVJxdkJQeG9yQXFMM1BPMDh4VWRjczI4TTg2dkgxeHRUOUhMeEpWdExYLXBvT1p4bzgtZ0lwSEF4MHZ1MUNnZy1wYWZ6SDJoZXBYbFZiOEI0?oc=5) |
+
+## Resource Update (2026-10-01)
+
+The following resources were discovered after the original article was compiled.
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| anchor-inference/daedalus | GitHub Project | A personal, self-developing AI agent with its own app window, web app, and Telegram integration. Features real tools (shell, browser, git, MCP) and can modify its own code via pull requests. | https://github.com/anchor-inference/daedalus |
+| benoit08260/OpenMCP-Chain | GitHub Project | A secure protocol stack for integrating blockchain and AI, enabling AI Agents to leverage Web3 capabilities with full audit trails. | https://github.com/benoit08260/OpenMCP-Chain |
+| xiufengsun/TokenTracker | GitHub Project | Local-first AI token usage and cost tracker for 31 coding tools, including Claude Code, Codex, Cursor, Gemini, and DeepSeek Harness. Features native apps and does not read prompts. | https://github.com/xiufengsun/TokenTracker |
+| limecloud/lime | GitHub Project | A full-stack AI agent for coding, files, terminals, tools, research, content, multimodal work, and multi-agent workflows. | https://github.com/limecloud/lime |
+| DennisDRX/Faraday-Web-Researcher-Agent | GitHub Project | An autonomous web research agent built with LangGraph and Streamlit. Investigates queries using dynamic tools, gathers multi-source info, and synthesizes structured reports. | https://github.com/DennisDRX/Faraday-Web-Researcher-Agent |
+| Dario2003-droid/opencode-browser-automator | GitHub Project | An autonomous web agent toolkit for AI browser automation, designed for testing and scraping. | https://github.com/Dario2003-droid/opencode-browser-automator |
+| nadeemanjum273-cmd/Mind_Dream-AI-Customer-support- | GitHub Project | A production-ready full-stack AI sales and customer support agent featuring ChromaDB RAG, autonomous order placement, and real-time Google Sheets sync. Built with Next.js 15, FastAPI, LangChain, and Google Gemini. | https://github.com/nadeemanjum273-cmd/Mind_Dream-AI-Customer-support- |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| Beyond Prompt-to-App: Accountable Translation in Teacher-Facing Agentic Authoring | Paper | A study on natural-language app builders, reporting a bounded trace study of a teacher-facing agentic authoring system. Examines how compiled specifications add governance requirements. | https://arxiv.org/abs/2609.04679v1 |
+| Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents | Blog Post | Discusses source-aware verification for MCP agents, focusing on verifying the source of information, not just the fact itself. | https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source |
+
+### Tutorials / Media Tests
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| MCP Browser Automation Tutorial: Build an AI Agent That Browses the Web (2026) | Tutorial | A tutorial on building an AI agent that browses the web using MCP browser automation. | https://news.google.com/rss/articles/CBMivAFBVV95cUxPTlhacDZpS1lvRDZmUTZLSm84b19DOV9IQkZMdzMzSkE2cGR5QjBDRTRLTGFmM3NnSzJIODRiVXVJcVdpVm02TDVNQkd3OHBqc2VqQ05iSTFyT21vSGJmSlI1dnVDZ0FoRjVMb3R5cEdrdHRpUG56TnI4cTczQU9fb0xWVHJFekdtZEN0ZGlhWFdpd3pDYVhVTFgzVS1KSEEzdno4M0cwVTl4UjFmMkx4SEFGTG45c0ZoZ2FmRQ?oc=5 |
+| DeepSeek Harness vs Codex vs Claude Code: What I Learned Comparing Three Agent Harnesses | Article | A comparative analysis of three AI agent harnesses: DeepSeek Harness, Codex, and Claude Code. | https://news.google.com/rss/articles/CBMixgFBVV95cUxOLVh6OG1lVVM4bUxwaHVEWWd6bU5veTJybXN3U3hWLUhwekxuQ2QzUW84WjRWWkR5S1hGRF8tUzczQzNGSUdfT2VVRUQ5c3VxTUEtcDFoY0xWWk93YlcwWmRUYjVlOWs2c3JiRFRFMlhJZFZkaHRGczA3N3ZycU9hb1JZWXhWZ2xXTmd3LUpvQTlvOU9BTVVoTnBRVnQ4TG1ZR2dLdXZvNDhiWnppVE5YcG1mbHV0Mm9BSGhLdGF6OXZ5TlNrRkE?oc=5 |
+| 9 Free AI Agent Skills You NEED to Install Now | Video | A video showcasing nine free AI agent skills for installation. | https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxWnBDX0ktTm5JYXBGU01pLTVrRWFzYnhNNnMyU0ItYk9TelJCdVRJWjQybUg3LU1POWFnOTIya1lHWjlER1M4U3M1V1NMM21xdG5Cck5B?oc=5 |
+| Building a Real App with Claude Code (Start to Finish) | Video | A video tutorial demonstrating the process of building a real application from start to finish using Claude Code. | https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCcnF3alRRUngwQW9YRHFrbWN3Ukc1dk9PeFptS2pSTFdleXdFaHJ1V1d2TVB0Rm1jeXVDR1o1eU01UG8wS3haeHdwWEUzX0lZVENWeDln?oc=5 |
+| Create Your First Agent in Microsoft Copilot Studio | Tutorial | A guide to creating your first agent within Microsoft Copilot Studio. | https://news.google.com/rss/articles/CBMickFVX3lxTFBUOHdoZEpwdF9FUnpTd1FRQlp6RWYxTW90bXE3dlJhQWY0VUhnc3kza3V2MFkzZU1weHBHNm5NNUtzQVhsU1dSQWFpVXU4WkU1VEdDV1pCd1B0TTYxZmxLOHRZZl9WUGJwVkc1a0hndjZjdw?oc=5 |
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| happier-dev/happier | Product / Tool | A web, desktop, and mobile client and orchestrator for various AI coding agents (Codex, Claude Code, Cursor, etc.), featuring full end-to-end encryption. | https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpNC1UbzFsdzJCYnhoYUlmN1ZGTV9xSFNaY2NENDVJMUtrQko3UVdZTTNmdExuaEJfUG5PU1FWZW5rMWRldkVGUnhXTEQ1QTA?oc=5 |
+| zhuyansen/awesome-claude-video-skills | Resource List | A curated list of open-source skills and toolkits that enable Claude Code, Codex, and other coding agents to create video. Includes 180 repos, each security-graded. | https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55TEhEN2JBNUZTY2NaN3BlY2hBRUk4emU0eHA0V1VENkY0RUszTmI3WVlTMGx6bElJRVRtSVZ5VnFsa2dUVXQyVzdTbzBQR2VudHFZUkRVM0R0MW1wa0RNNmVQbm9iZFk?oc=5 |
+| MengTo/Skills | Resource List | Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents. | https://news.google.com/rss/articles/CBMiR0FVX3lxTFAwYkV5b2VnWTRBWVdxN1pYVDB4VlVvVTA2bW5oVHJrRkI3NzlnMEY3MGRnRTdMbEZlTW9jaWhZMnVlVXFLYWV3?oc=5 |
+| OpenAI Dots | Product | Always-on AI agents launched inside ChatGPT by OpenAI. | https://news.google.com/rss/articles/CBMihAFBVV95cUxNendoTVpQaERMbHg5MndWaTNEVnduWEl3UDAwXzh6ZzRlaGRKWHFnVkNOd0czbTR3WExxUjRla0xadDhlLWllRHh3eDhKZVg2ZkxwNUJHZlZVRkpWS0loYkJzVC1DdUZOZGJnTHFUY2RpcVlKTFlyZ1dZbVhIZ29JWHRmLWw?oc=5 |
