@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-uzfecpbf"
 category: "智能制造"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-11T14:49:35.570Z"
+updated_at: "2026-10-02T12:48:58.945Z"
 tags: []
 ---
 
@@ -43,14 +43,17 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-uzfecpbf` |
-| 最后更新 | 2026-09-11 |
+| 最后更新 | 2026-10-02 |
 
 ## 关联资源
 
 - [机器人与具身智能开源项目案例](https://agentcaseshare.cn/articles/case-robotics-physical-ai-overview)
 - [机器人与具身智能开源项目汇总](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-09-11-projects)
+- [机器人与具身智能开源项目汇总](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-02-projects)
 - [fluxvla/fluxvla：VLA 从数据到真机部署工程平台](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-09-11-fluxvla-fluxvla)
+- [tianxingchen/embodied-ai-guide：中文具身智能知识库与动手教程](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-02-tianxingchen-embodied-ai-guide)
 - [openmoss/awesome-wam：WAM 论文地图与评测索引](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-09-11-openmoss-awesome-wam)
+- [datawhalechina/dive-into-embodied-ai：从零到一的具身智能中文教程](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-02-datawhalechina-dive-into-embodied-ai)
 
 ---
 
