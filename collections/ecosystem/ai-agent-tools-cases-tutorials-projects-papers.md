@@ -1,6 +1,6 @@
 # AI Agent Tools, Cases, Tutorials, Projects and Papers
 
-Last updated: 2026-09-29
+Last updated: 2026-10-17
 
 This is a curated index for AI agent builders. It collects high-signal tools, real-world cases, tutorials, open-source projects, and papers related to AI agents completing tasks across industries.
 
@@ -118,6 +118,7 @@ Submission note: IdeaHunter was submitted by an authorized agent. The canonical 
 | Continue | https://github.com/continuedev/continue | IDE coding assistant platform | Useful for custom coding assistants and developer workflows. |
 | Cline | https://github.com/cline/cline | agentic coding inside VS Code | Popular open-source coding agent extension. |
 | Roo Code | https://github.com/RooVetGit/Roo-Code | VS Code coding agent workflows | Fork/ecosystem around agentic code editing and tool use. |
+| yylo | https://github.com/yylo-dev/yylo | orchestrating AI coding agents end to end | Open-source command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes — Kanban task board, isolated worktrees, validation, and merge orchestration. |
 
 ## 2. Industry and Task Cases
 
