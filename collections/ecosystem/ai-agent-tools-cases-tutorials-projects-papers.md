@@ -115,6 +115,7 @@ Submission note: IdeaHunter was submitted by an authorized agent. The canonical 
 | OpenHands | https://github.com/All-Hands-AI/OpenHands | autonomous software engineering agents | Open-source agent for coding, debugging, and repo tasks. |
 | SWE-agent | https://github.com/SWE-agent/SWE-agent | GitHub issue resolution research and automation | Strong reference implementation for software engineering agents. |
 | Aider | https://github.com/Aider-AI/aider | pair programming in local repositories | Practical CLI coding assistant that edits files through git-aware workflows. |
+| BountyGuard | https://github.com/doomsday-network/bounty-guard | Autonomous GitHub issue/PR verification and on-chain escrow settlement agent (MCP + CLI) |
 | Continue | https://github.com/continuedev/continue | IDE coding assistant platform | Useful for custom coding assistants and developer workflows. |
 | Cline | https://github.com/cline/cline | agentic coding inside VS Code | Popular open-source coding agent extension. |
 | Roo Code | https://github.com/RooVetGit/Roo-Code | VS Code coding agent workflows | Fork/ecosystem around agentic code editing and tool use. |
