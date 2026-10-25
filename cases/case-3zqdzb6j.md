@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-3zqdzb6j"
 category: "金融与财税"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-13T14:52:53.180Z"
+updated_at: "2026-10-25T09:22:45.725Z"
 tags: []
 ---
 
@@ -43,13 +43,16 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-3zqdzb6j` |
-| 最后更新 | 2026-09-13 |
+| 最后更新 | 2026-10-25 |
 
 ## 关联资源
 
 - [AI 金融、财税与风控开源项目案例](https://agentcaseshare.cn/articles/case-ai-finance-overview)
 - [AI 金融、财税与风控开源项目汇总](https://agentcaseshare.cn/articles/case-ai-finance-2026-09-13-projects)
+- [AI 金融、财税与风控开源项目汇总](https://agentcaseshare.cn/articles/case-ai-finance-2026-10-25-projects)
 - [lumibot：可回测AI交易代理与Python量化策略框架](https://agentcaseshare.cn/articles/case-ai-finance-2026-09-13-lumiwealth-lumibot)
+- [himself65/finance-skills：面向 AI agent 的金融分析技能集合案例](https://agentcaseshare.cn/articles/case-ai-finance-2026-10-25-himself65-finance-skills)
+- [openbq-org/openbb：金融数据集成与多面消费的开源底座](https://agentcaseshare.cn/articles/case-ai-finance-2026-10-25-openbq-org-openbb)
 - [llmquant/quant-mind：量化金融知识抽取的 agent 原生框架与采用判断](https://agentcaseshare.cn/articles/case-ai-finance-2026-09-13-llmquant-quant-mind)
 
 ---
