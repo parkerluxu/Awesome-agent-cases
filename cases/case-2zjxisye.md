@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-2zjxisye"
 category: "科研与学术"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-14T14:29:22.110Z"
+updated_at: "2026-10-26T11:35:36.486Z"
 tags: []
 ---
 
@@ -43,14 +43,17 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-2zjxisye` |
-| 最后更新 | 2026-09-14 |
+| 最后更新 | 2026-10-26 |
 
 ## 关联资源
 
 - [AI 社会科学研究开源项目案例](https://agentcaseshare.cn/articles/case-ai-social-science-overview)
 - [AI 社会科学研究开源项目汇总](https://agentcaseshare.cn/articles/case-ai-social-science-2026-09-14-projects)
+- [AI 社会科学研究开源项目汇总](https://agentcaseshare.cn/articles/case-ai-social-science-2026-10-26-projects)
 - [nixtla/nixtla：AI 社会科学研究中的时间序列预测与异常检测案例](https://agentcaseshare.cn/articles/case-ai-social-science-2026-09-14-nixtla-nixtla)
+- [expectedparrot/edsl：面向计算社会科学的 AI 调查 DSL](https://agentcaseshare.cn/articles/case-ai-social-science-2026-10-26-expectedparrot-edsl)
 - [TradingAgents-AShare：多智能体 A 股投研系统的适用边界与试点判断](https://agentcaseshare.cn/articles/case-ai-social-science-2026-09-14-kylinmountain-tradingagents-ashare)
+- [pku-yuangroup/openai4s：面向科研的混合智能体试点评估](https://agentcaseshare.cn/articles/case-ai-social-science-2026-10-26-pku-yuangroup-openai4s)
 
 ---
 
