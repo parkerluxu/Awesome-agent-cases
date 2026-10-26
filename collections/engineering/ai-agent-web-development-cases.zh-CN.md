@@ -533,3 +533,11 @@
 | OpenAI Dots | 产品 | OpenAI 推出的 Dots，是 ChatGPT 内始终在线的 AI Agent。 | [Technology Org](https://news.google.com/rss/articles/CBMihAFBVV95cUxNendoTVpQaERMbHg5MndWaTNEVnduWEl3UDAwXzh6ZzRlaGRKWHFnVkNOd0czbTR3WExxUjRla0xadDhlLWllRHh3eDhKZVg2ZkxwNUJHZlZVRkpWS0loYkJzVC1DdUZOZGJnTHFUY2RpcVlKTFlyZ1dZbVhIZ29JWHRmLWw?oc=5) |
 | Unity Plugins for Claude Code & Codex | 工具 | Unity 插件为 Claude Code 提供 29 项技能，为 Codex 提供 31 项技能。 | [shattered.io](https://news.google.com/rss/articles/CBMickFVX3lxTE1sTFQ0ajZoQ21aYlFNRW1aRm9RMGxLR3J6d3cwTjZyZUlXb3BmTFpIUUdCdGozLTJ2bXF0emFKSEh5R2hoaE9SVXpoX1BpaTR4aHNQOHVVc1BKTnlqQ0lLOG82YU1Gam5WeFVLZlhzdURtQQ?oc=5) |
 | Google ADK for Kotlin 1.0 | 工具 | Google 发布的 Android 开发者 AI Agent 实战指南，ADK for Kotlin 1.0 版本。 | [积墨 AI](https://news.google.com/rss/articles/CBMimAFBVV95cUxOT3RiVnUtQWtncVdMZl9oRE1rNWxmM05nQzhDYWFydjdCUjVfN0pESDhpNHRsZWJmTEtKWG14d2E3NVNVX09hV1phRmVBbzFaOG1jMjBpelV1akxpMkRCM3NvdGFRdVo4aTg2T21GSV8zSkNWOVdyRjd1NkhFdDZFbjFjSll2R0VwajkyaGlKRVVHZndHUFJwTg?oc=5) |
+
+## 资料更新（2026-10-26）
+
+### 产品 / 工具
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+| :--- | :--- | :--- | :--- |
+| agent-qa | 项目 / 工具 | 工程 / 应用测试：用自然语言测试 Web、Android 和 iOS 应用，结合 memidex 持久记忆与经验证的自我改进，让编码智能体通过 CLI/MCP 跨运行复用测试经验。 | https://vostride.com/docs/agent-qa |
