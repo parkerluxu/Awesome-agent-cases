@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-gousp8ic"
 category: "数据与经营分析"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-10-11T13:52:08.599Z"
+updated_at: "2026-11-02T14:10:47.517Z"
 tags: []
 ---
 
@@ -43,17 +43,20 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-gousp8ic` |
-| 最后更新 | 2026-10-11 |
+| 最后更新 | 2026-11-02 |
 
 ## 关联资源
 
 - [AI 数据分析与经营决策开源项目案例](https://agentcaseshare.cn/articles/case-ai-data-analysis-overview)
-- [AI 数据分析与经营决策开源项目汇总](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-10-11-projects)
 - [AI 数据分析与经营决策开源项目汇总](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-09-02-projects)
-- [canner/wrenai：用语义层约束 AI 代理的生成式 BI 引擎](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-09-02-canner-wrenai)
+- [AI 数据分析与经营决策开源项目汇总](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-10-11-projects)
+- [AI 数据分析与经营决策开源项目汇总](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-11-01-projects)
+- [pgalko/bambooai：可追溯可复现的 AI 数据分析工作台](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-11-01-pgalko-bambooai)
 - [deepinsight-ai/deepbi：对话式取数与仪表盘组装的开源试点](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-10-11-deepinsight-ai-deepbi)
-- [datagallery-ai/dataagent：企业数据问答的语义治理工作台](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-10-11-datagallery-ai-dataagent)
+- [canner/wrenai：用语义层约束 AI 代理的生成式 BI 引擎](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-09-02-canner-wrenai)
+- [oceanbase/seekdb：AI 检索数据库的嵌入式试点评估](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-11-01-oceanbase-seekdb)
 - [microsoft/data-formulator：用自然语言完成从数据到图表的分析闭环](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-09-02-microsoft-data-formulator)
+- [datagallery-ai/dataagent：企业数据问答的语义治理工作台](https://agentcaseshare.cn/articles/case-ai-data-analysis-2026-10-11-datagallery-ai-dataagent)
 
 ---
 
