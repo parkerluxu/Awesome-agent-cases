@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-q4ds67ch"
 category: "研发与 IT"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-24T15:40:49.983Z"
+updated_at: "2026-11-05T14:03:36.505Z"
 tags: []
 ---
 
@@ -43,13 +43,16 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-q4ds67ch` |
-| 最后更新 | 2026-09-24 |
+| 最后更新 | 2026-11-05 |
 
 ## 关联资源
 
 - [AI Agent 与真实工作流开源项目案例](https://agentcaseshare.cn/articles/case-ai-agents-workflows-overview)
+- [AI Agent 与真实工作流开源项目汇总](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-11-05-projects)
 - [AI Agent 与真实工作流开源项目汇总](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-09-24-projects)
 - [feder-cr/invisible_playwright_mcp：隐身浏览器 MCP 项目案例](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-09-24-feder-cr-invisible-playwright-mcp)
+- [activepieces/activepieces：开源 AI 自动化平台的落地评估](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-11-05-activepieces-activepieces)
+- [tauricresearch/tradingagents：多智能体交易研究框架的落地评估](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-11-05-tauricresearch-tradingagents)
 - [eracle/openoutreach：自托管 B2B 线索发现与触达 Agent](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-09-24-eracle-openoutreach)
 
 ---
