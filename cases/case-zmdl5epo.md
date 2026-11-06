@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-zmdl5epo"
 category: "研发与 IT"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-26T02:46:40.685Z"
+updated_at: "2026-11-06T16:22:06.377Z"
 tags: []
 ---
 
@@ -43,17 +43,20 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-zmdl5epo` |
-| 最后更新 | 2026-09-26 |
+| 最后更新 | 2026-11-06 |
 
 ## 关联资源
 
 - [AI 编程与软件工程开源项目案例](https://agentcaseshare.cn/articles/case-coding-agents-overview)
-- [AI 编程与软件工程开源项目汇总](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-25-projects)
+- [AI 编程与软件工程开源项目汇总](https://agentcaseshare.cn/articles/case-coding-agents-2026-11-06-projects)
 - [编程 Agent 与软件工程开源项目汇总](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-07-projects)
+- [AI 编程与软件工程开源项目汇总](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-25-projects)
 - [gentleman-programming/gentle-ai：为已有 AI 编码 agent 补记忆与证据](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-25-gentleman-programming-gentle-ai)
+- [openqodex：编码代理推送前的独立代码审查](https://agentcaseshare.cn/articles/case-coding-agents-2026-11-06-openqodex-openqodex)
 - [esengine/deepseek-reasonix：可留宿运行的 DeepSeek 原生编码代理](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-07-esengine-deepseek-reasonix)
-- [obra/superpowers：为编码代理注入结构化开发流程](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-07-obra-superpowers)
 - [headroomlabs-ai/headroom：LLM 上下文压缩层项目案例](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-25-headroomlabs-ai-headroom)
+- [teaql/teaql-agent-kit：模型驱动编码代理脚手架案例](https://agentcaseshare.cn/articles/case-coding-agents-2026-11-06-teaql-teaql-agent-kit)
+- [obra/superpowers：为编码代理注入结构化开发流程](https://agentcaseshare.cn/articles/case-coding-agents-2026-09-07-obra-superpowers)
 
 ---
 
