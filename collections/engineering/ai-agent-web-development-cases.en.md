@@ -505,3 +505,11 @@ The following resources were discovered after the original article was compiled.
 | zhuyansen/awesome-claude-video-skills | Resource List | A curated list of open-source skills and toolkits that enable Claude Code, Codex, and other coding agents to create video. Includes 180 repos, each security-graded. | https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55TEhEN2JBNUZTY2NaN3BlY2hBRUk4emU0eHA0V1VENkY0RUszTmI3WVlTMGx6bElJRVRtSVZ5VnFsa2dUVXQyVzdTbzBQR2VudHFZUkRVM0R0MW1wa0RNNmVQbm9iZFk?oc=5 |
 | MengTo/Skills | Resource List | Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents. | https://news.google.com/rss/articles/CBMiR0FVX3lxTFAwYkV5b2VnWTRBWVdxN1pYVDB4VlVvVTA2bW5oVHJrRkI3NzlnMEY3MGRnRTdMbEZlTW9jaWhZMnVlVXFLYWV3?oc=5 |
 | OpenAI Dots | Product | Always-on AI agents launched inside ChatGPT by OpenAI. | https://news.google.com/rss/articles/CBMihAFBVV95cUxNendoTVpQaERMbHg5MndWaTNEVnduWEl3UDAwXzh6ZzRlaGRKWHFnVkNOd0czbTR3WExxUjRla0xadDhlLWllRHh3eDhKZVg2ZkxwNUJHZlZVRkpWS0loYkJzVC1DdUZOZGJnTHFUY2RpcVlKTFlyZ1dZbVhIZ29JWHRmLWw?oc=5 |
+
+## Resource Update (2026-10-26)
+
+### Products / Tools
+
+| Name | Type | Use / Summary | Link |
+| :--- | :--- | :--- | :--- |
+| agent-qa | Project / Tool | Engineering / application QA: natural-language tests for web, Android and iOS apps, with memidex persistent memory and validated self-improvement. CLI/MCP access lets coding agents reuse testing experience across runs. | https://vostride.com/docs/agent-qa |
