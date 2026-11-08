@@ -277,3 +277,20 @@
 |------|------|-----------|------|
 | ToFu | 工具 | 面向研究者的白盒、token 高效代理 harness，可读取代码库、编辑文件、运行命令并与开发工具集成 | https://arxiv.org/abs/2607.11423v1 |
 | SciForge | 工具 | AI 原生多模态科研工作台，将论文、代码、数据集、模型输出、图表等异构工件保留为可审计的研究状态 | https://arxiv.org/abs/2607.16038v1 |
+
+## 资料更新（2026-11-05）
+
+### 项目
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Agon | 开源项目 | 基于 Prompt Economy 的全学科自动科研系统。在所有 autoresearch 系统中提示词量最小：18 个角色的 prompt 一共 230.6 KiB。口号：human navigates, AI drives。 | [github.com/AutoResearch-Factory/Agon](https://github.com/AutoResearch-Factory/Agon) |
+| AutoSR | 开源项目 | 多 agent 符号回归 (symbolic regression)。精确恢复所有已发表的符号回归系统都解不出的 3 道 cp3-bench 题。在 [autosr.app](https://autosr.app) 上开放免费试用。 | [github.com/AutoResearch-Factory/AutoSR](https://github.com/AutoResearch-Factory/AutoSR) |
+
+### 论文 / Benchmarks
+
+| 名称 | 类型 | 用途/摘要 | 链接 |
+|------|------|-----------|------|
+| Agon | arXiv 论文 | 基于 Prompt Economy 的全学科自动科研系统（arXiv 2606.24177）。 | https://arxiv.org/abs/2606.24177 |
+| AutoSR | arXiv 论文 | 通过搜索研究状态做自动符号回归（arXiv 2608.16876）。 | https://arxiv.org/abs/2608.16876 |
+| SciPIvot | Benchmark | 评测科研 agent 在关键节点上像 Principal Investigator 一样做判断的能力。248 道题来自 6 个月真实研究中资深研究者对 LLM agent 的纠正，覆盖 26 个项目、6 个学科。5 个前沿模型里有 4 个正确率低于瞎蒙，最好的那一个也只有 63.5%（arXiv 2610.21082）。 | https://arxiv.org/abs/2610.21082 |
