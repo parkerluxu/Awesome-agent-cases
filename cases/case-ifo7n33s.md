@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-ifo7n33s"
 category: "艺术设计与创意"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-10-19T13:51:57.287Z"
+updated_at: "2026-11-10T13:58:06.239Z"
 tags: []
 ---
 
@@ -43,20 +43,23 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-ifo7n33s` |
-| 最后更新 | 2026-10-19 |
+| 最后更新 | 2026-11-10 |
 
 ## 关联资源
 
 - [多模态内容与创意生产开源项目案例](https://agentcaseshare.cn/articles/case-multimodal-creative-overview)
 - [多模态内容与创意生产开源项目汇总](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-09-28-projects)
 - [多模态内容与创意生产开源项目汇总](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-10-19-projects)
+- [多模态内容与创意生产开源项目汇总](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-11-09-projects)
 - [多模态内容与创意生产开源项目汇总](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-09-10-projects)
 - [scenario-labs/skills：面向 AI 代理的多模态创意生产技能集](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-10-19-scenario-labs-skills)
 - [samuraigpt/generative-media-skills：Agent 多模态生成技能集案例](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-09-10-samuraigpt-generative-media-skills)
 - [hypit-ai/hypit：代理驱动视频工作流克隆案例](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-09-28-hypit-ai-hypit)
+- [hbai-ltd/toonflow-app：开源画布式 AI 短剧创作平台评估](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-11-09-hbai-ltd-toonflow-app)
 - [agents365-ai/video-podcast-maker：编码代理驱动的 4K 视频播客生产管线](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-09-10-agents365-ai-video-podcast-maker)
 - [martindelophy/ai-video-editor：浏览器内人机共编视频时间线的开源工具](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-10-19-martindelophy-ai-video-editor)
 - [nomadamas/cozyclay：浏览器内开源 previs 镜头预演工具](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-09-28-nomadamas-cozyclay)
+- [invoke-ai/invokeai：本地自托管的图像生成创意引擎](https://agentcaseshare.cn/articles/case-multimodal-creative-2026-11-09-invoke-ai-invokeai)
 
 ---
 
