@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-2l7slam9"
 category: "研发与 IT"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-09-30T15:36:40.703Z"
+updated_at: "2026-11-13T13:35:01.921Z"
 tags: []
 ---
 
@@ -43,13 +43,16 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-2l7slam9` |
-| 最后更新 | 2026-09-30 |
+| 最后更新 | 2026-11-13 |
 
 ## 关联资源
 
 - [AI 基础设施与开源生态开源项目案例](https://agentcaseshare.cn/articles/case-ai-infrastructure-open-source-overview)
+- [AI 基础设施与开源生态开源项目汇总](https://agentcaseshare.cn/articles/case-ai-infrastructure-open-source-2026-11-11-projects)
 - [AI 基础设施与开源生态开源项目汇总](https://agentcaseshare.cn/articles/case-ai-infrastructure-open-source-2026-09-30-projects)
+- [vLLM：开源 LLM 推理与服务引擎的选型评估](https://agentcaseshare.cn/articles/case-ai-infrastructure-open-source-2026-11-11-vllm-project-vllm)
 - [modeltc/lightllm：轻量级大模型推理服务框架案例](https://agentcaseshare.cn/articles/case-ai-infrastructure-open-source-2026-09-30-modeltc-lightllm)
+- [pipecat-ai/pipecat：实时语音与多模态对话智能体开源框架](https://agentcaseshare.cn/articles/case-ai-infrastructure-open-source-2026-11-11-pipecat-ai-pipecat)
 - [budtmo/docker-android：容器化安卓模拟器与测试环境](https://agentcaseshare.cn/articles/case-ai-infrastructure-open-source-2026-09-30-budtmo-docker-android)
 
 ---
