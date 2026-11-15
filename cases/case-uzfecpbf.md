@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-uzfecpbf"
 category: "智能制造"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-10-24T02:15:05.719Z"
+updated_at: "2026-11-15T14:47:01.213Z"
 tags: []
 ---
 
@@ -43,19 +43,22 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-uzfecpbf` |
-| 最后更新 | 2026-10-24 |
+| 最后更新 | 2026-11-15 |
 
 ## 关联资源
 
 - [机器人与具身智能开源项目案例](https://agentcaseshare.cn/articles/case-robotics-physical-ai-overview)
-- [机器人与具身智能开源项目汇总](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-23-projects)
-- [机器人与具身智能开源项目汇总](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-02-projects)
 - [机器人与具身智能开源项目汇总](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-09-11-projects)
+- [机器人与具身智能开源项目汇总](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-11-13-projects)
+- [机器人与具身智能开源项目汇总](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-02-projects)
+- [机器人与具身智能开源项目汇总](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-23-projects)
+- [genesis-embodied-ai/genesis-world：物理 AI 仿真平台的选型评估](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-11-13-genesis-embodied-ai-genesis-world)
 - [tianxingchen/embodied-ai-guide：中文具身智能知识库与动手教程](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-02-tianxingchen-embodied-ai-guide)
-- [fluxvla/fluxvla：VLA 从数据到真机部署工程平台](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-09-11-fluxvla-fluxvla)
 - [SPEAR：照片级具身 AI 模拟器的 Python 可编程控制层](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-23-spear-sim-spear)
+- [fluxvla/fluxvla：VLA 从数据到真机部署工程平台](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-09-11-fluxvla-fluxvla)
 - [openmoss/awesome-wam：WAM 论文地图与评测索引](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-09-11-openmoss-awesome-wam)
 - [datawhalechina/dive-into-embodied-ai：从零到一的具身智能中文教程](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-02-datawhalechina-dive-into-embodied-ai)
+- [fluxvla/fluxvla：具身智能全栈工程平台试点评估](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-11-13-fluxvla-fluxvla)
 - [haosulab/sapien：具身智能仿真平台的选型评估](https://agentcaseshare.cn/articles/case-robotics-physical-ai-2026-10-23-haosulab-sapien)
 
 ---
