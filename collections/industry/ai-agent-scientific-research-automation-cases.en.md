@@ -266,3 +266,20 @@ The following resources were identified after the original article was compiled.
 | AI agent helps prepare synchrotron X-ray experimental measurements | News article | Phys.org report on an AI agent assisting with synchrotron X-ray experimental measurement preparation, paving the way for autonomous operation. | [Phys.org via Google News](https://news.google.com/rss/articles/CBMifEFVX3lxTE9GZlpBNnJLT0RSdkNhWDBqRENlb3h4S3o1RDRucnVEUkZfUGJMeDFNcDJhcGtiT3R4UEJlXzlLM2xONW9RQ3NuNW1ON1dRYi01OFExclZiV0tLYXNvcVJ2XzFfc09LYVU2ZHdPcWFPQmdJNGlxLW9zbFlXSTU?oc=5) |
 | Claude Code学术研究技能包 | Tutorial | CSDN tutorial on a 32-agent collaborative AI paper-writing assistant skill pack for Claude Code. | [CSDN via Google News](https://news.google.com/rss/articles/CBMib0FVX3lxTE82R0RqOWswVnMwaF81VTlLX081ek9qZ2RrSDRoOXV4RUVnTWR4bTlJY0xVT1JLM0xJMjNDOHgwQzlfeWZOTVRTUlp5b3Q1d2xmYklJc3NEeWU5dEpkcXBLYW9mN1hNMkpoTHQ4V3RkOA?oc=5) |
 | AI Agent能不能真的做科研？ | News article | Sohu report on the Agentic Science Challenge using 10,000 questions to verify whether AI agents can truly conduct scientific research. | [Sohu via Google News](https://news.google.com/rss/articles/CBMijAFBVV95cUxQMlN3TUdzMHd4a19IaEJCM2lLQ2Z4aHpHQTdYdFNHdkhuVHlZcFo1U21DbzJ1Y01URDFhWXNhekZMRm41OW44aWw1b3MyLWRfMjBCUUVTZjdOaUF2SS0zaHNWV1B4Uzh2N0VSMFdSb1ZQQ3ljSFJ2eDRINXZPUzdZaENyc1JER2NQdXBQaw?oc=5) |
+
+## Resource Update (2026-11-05)
+
+### Projects
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Agon | GitHub project | Cross-disciplinary autoresearch system built on Prompt Economy. Carries the smallest prompt footprint among such systems (18 roles, 230.6 KiB total) and runs across 10+ research fields without modification. Motto: human navigates, AI drives. | [github.com/AutoResearch-Factory/Agon](https://github.com/AutoResearch-Factory/Agon) |
+| AutoSR | GitHub project | Multi-agent symbolic regression that searches research states (equation + motives, probes, failed attempts, independent review). Exactly recovers three cp3-bench problems that 12 published SR systems all missed. Free public trial at autosr.app. | [github.com/AutoResearch-Factory/AutoSR](https://github.com/AutoResearch-Factory/AutoSR) |
+
+### Papers / Benchmarks
+
+| Name | Type | Use / Summary | Link |
+|------|------|---------------|------|
+| Agon | Paper | An autonomous large-scale omnidisciplinary research system built on Prompt Economy (arXiv 2606.24177). | [arxiv.org/abs/2606.24177](https://arxiv.org/abs/2606.24177) |
+| AutoSR | Paper | Automatic symbolic regression by searching research states (arXiv 2608.16876). | [arxiv.org/abs/2608.16876](https://arxiv.org/abs/2608.16876) |
+| SciPIvot | Benchmark | Benchmarks Principal-Investigator judgment at pivotal moments of scientific AutoResearch agents: 248 questions from 6 months of real research corrections across 26 projects and 6 disciplines; 4 of 5 frontier models score below chance (arXiv 2610.21082). | [arxiv.org/abs/2610.21082](https://arxiv.org/abs/2610.21082) |
