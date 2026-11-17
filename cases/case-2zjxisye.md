@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-2zjxisye"
 category: "科研与学术"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-10-26T11:35:36.486Z"
+updated_at: "2026-11-16T15:21:28.852Z"
 tags: []
 ---
 
@@ -43,15 +43,18 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-2zjxisye` |
-| 最后更新 | 2026-10-26 |
+| 最后更新 | 2026-11-16 |
 
 ## 关联资源
 
 - [AI 社会科学研究开源项目案例](https://agentcaseshare.cn/articles/case-ai-social-science-overview)
-- [AI 社会科学研究开源项目汇总](https://agentcaseshare.cn/articles/case-ai-social-science-2026-09-14-projects)
 - [AI 社会科学研究开源项目汇总](https://agentcaseshare.cn/articles/case-ai-social-science-2026-10-26-projects)
-- [nixtla/nixtla：AI 社会科学研究中的时间序列预测与异常检测案例](https://agentcaseshare.cn/articles/case-ai-social-science-2026-09-14-nixtla-nixtla)
+- [AI 社会科学研究开源项目汇总](https://agentcaseshare.cn/articles/case-ai-social-science-2026-11-16-projects)
+- [AI 社会科学研究开源项目汇总](https://agentcaseshare.cn/articles/case-ai-social-science-2026-09-14-projects)
 - [expectedparrot/edsl：面向计算社会科学的 AI 调查 DSL](https://agentcaseshare.cn/articles/case-ai-social-science-2026-10-26-expectedparrot-edsl)
+- [nixtla/nixtla：AI 社会科学研究中的时间序列预测与异常检测案例](https://agentcaseshare.cn/articles/case-ai-social-science-2026-09-14-nixtla-nixtla)
+- [brycewang-stanford/auto-empirical-research-skills：社会科学实证研究的 AI Agent 技能库案例](https://agentcaseshare.cn/articles/case-ai-social-science-2026-11-16-brycewang-stanford-auto-empirical-research-ski)
+- [microsoft/responsible-ai-toolbox：面向模型评估的负责任 AI 工具套件案例](https://agentcaseshare.cn/articles/case-ai-social-science-2026-11-16-microsoft-responsible-ai-toolbox)
 - [TradingAgents-AShare：多智能体 A 股投研系统的适用边界与试点判断](https://agentcaseshare.cn/articles/case-ai-social-science-2026-09-14-kylinmountain-tradingagents-ashare)
 - [pku-yuangroup/openai4s：面向科研的混合智能体试点评估](https://agentcaseshare.cn/articles/case-ai-social-science-2026-10-26-pku-yuangroup-openai4s)
 
