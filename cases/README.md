@@ -5,7 +5,7 @@
 这里收录 Agent Case Share 已公开案例的 GitHub 摘要版本，便于检索、引用和快速判断是否值得复用。完整文章、附件、可复用资产和最新状态请进入对应网站页面查看。
 
 - 已同步案例：**41**
-- 内容更新时间：**2026-11-22**
+- 内容更新时间：**2026-11-25**
 - [在网站搜索全部案例](https://agentcaseshare.cn/tasks?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 - [发布你的 Agent 案例](https://agentcaseshare.cn/publish?utm_source=github&utm_medium=repository&utm_campaign=case-directory)
 
@@ -13,6 +13,7 @@
 |---|---|---|---|---|---|
 | [AI Agent 零基础通用入门课程教案](case-hzo3s639.md) | 一套面向零基础学习者的通用入门课程，通过讲解、演示与低风险练习，逐步掌握 AI Agent 的基本原理、任务描述、工具使用、权限边界、结果验证和人机协作方法，并延伸到网页、文档、数据与自动化等真实场景。 | 教育与培训 | Codex、Claude Code 等通用 AI Agent | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-hzo3s639?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [Agent Case Share 使用指南：检索、复用、内容管理与发布](case-qjdht8bd.md) | 面向 Agent Case Share 使用者的持续维护型指南，覆盖案例、文章、项目、标签与分类的检索，可复用资产的查看与引用，个人内容和资产管理，以及手动与 AI 发布、常见工作流和问题排查。 | 软件与互联网 | Agent Case Share, Codex, Claude Code, Gemini CLI, Markdown, HTTP API | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-qjdht8bd?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
+| [AI 零售、电商与增长开源项目案例](case-qbk2aose.md) | 围绕AI 零售、电商与增长的开源项目、落地路径与风险边界的长期案例导航。 | 零售与电商 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-qbk2aose?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 数据分析与经营决策开源项目案例](case-gousp8ic.md) | 围绕AI 数据分析与经营决策的开源项目、落地路径与风险边界的长期案例导航。 | 数据与经营分析 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-gousp8ic?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 社会科学研究开源项目案例](case-2zjxisye.md) | 围绕AI 社会科学研究的开源项目、落地路径与风险边界的长期案例导航。 | 科研与学术 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-2zjxisye?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 金融、财税与风控开源项目案例](case-3zqdzb6j.md) | 围绕AI 金融、财税与风控的开源项目、落地路径与风险边界的长期案例导航。 | 金融与财税 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-3zqdzb6j?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
@@ -28,7 +29,6 @@
 | [AI 设计与视觉创意开源项目案例](case-a0zhgu7r.md) | 围绕AI 设计与视觉创意的开源项目、落地路径与风险边界的长期案例导航。 | 艺术设计与创意 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-a0zhgu7r?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 医疗、生物与健康开源项目案例](case-8rfrzrjt.md) | 围绕AI 医疗、生物与健康的开源项目、落地路径与风险边界的长期案例导航。 | 医疗与健康 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-8rfrzrjt?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 科研与科学发现开源项目案例](case-95gpv4hf.md) | 围绕AI 科研与科学发现的开源项目、落地路径与风险边界的长期案例导航。 | 科研与学术 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-95gpv4hf?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
-| [AI 零售、电商与增长开源项目案例](case-qbk2aose.md) | 围绕AI 零售、电商与增长的开源项目、落地路径与风险边界的长期案例导航。 | 零售与电商 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-qbk2aose?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [AI 艺术与 AIGC 创作开源项目案例](case-hmyz3tef.md) | 围绕AI 艺术与 AIGC 创作的开源项目、落地路径与风险边界的长期案例导航。 | 艺术设计与创意 | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-hmyz3tef?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [企业知识库与 RAG开源项目案例](case-f7wu99g4.md) | 围绕企业知识库与 RAG的开源项目、落地路径与风险边界的长期案例导航。 | 研发与 IT | GitHub, README, Release, 官方文档, LLM 研究档案 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-f7wu99g4?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
 | [让长对话里的 LLM 不掉链子 —— 用一句 prompt 强制它维护自己的知识结构](case-wd5unn38.md) | 一个能显著改善长对话表现的 prompt 技巧：让模型每轮在回复结尾显式输出『当前知识结构』，把本该隐式的内部状态外化进文本，下一轮推理因此能拿这个结构去对齐新输入。附原理（注意力机制通俗版）、三种实现、用了 vs 没用的对比演示。 | 其他 | 任意 LLM 对话工具（Claude / ChatGPT / Cursor 等），无需代码 | 入门 | [完整案例](https://agentcaseshare.cn/tasks/case-wd5unn38?utm_source=github&utm_medium=repository&utm_campaign=case-directory) |
