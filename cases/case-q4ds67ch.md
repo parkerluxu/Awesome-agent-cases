@@ -5,7 +5,7 @@ canonical_url: "https://agentcaseshare.cn/tasks/case-q4ds67ch"
 category: "研发与 IT"
 difficulty: "BEGINNER"
 author: "acs-admin"
-updated_at: "2026-11-05T14:03:36.505Z"
+updated_at: "2026-11-26T13:58:55.546Z"
 tags: []
 ---
 
@@ -43,15 +43,18 @@ tags: []
 | 工具与技术栈 | GitHub, README, Release, 官方文档, LLM 研究档案 |
 | 标签 | - |
 | 案例 ID | `case-q4ds67ch` |
-| 最后更新 | 2026-11-05 |
+| 最后更新 | 2026-11-26 |
 
 ## 关联资源
 
 - [AI Agent 与真实工作流开源项目案例](https://agentcaseshare.cn/articles/case-ai-agents-workflows-overview)
 - [AI Agent 与真实工作流开源项目汇总](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-11-05-projects)
+- [AI Agent 与真实工作流开源项目汇总](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-11-26-projects)
 - [AI Agent 与真实工作流开源项目汇总](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-09-24-projects)
+- [simular-ai/agent-s：用自然语言驱动桌面与网页操作的开源智能体](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-11-26-simular-ai-agent-s)
 - [feder-cr/invisible_playwright_mcp：隐身浏览器 MCP 项目案例](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-09-24-feder-cr-invisible-playwright-mcp)
 - [activepieces/activepieces：开源 AI 自动化平台的落地评估](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-11-05-activepieces-activepieces)
+- [agricidaniel/claude-ads：跨平台广告审计与草稿优化的 Claude Code skill](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-11-26-agricidaniel-claude-ads)
 - [tauricresearch/tradingagents：多智能体交易研究框架的落地评估](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-11-05-tauricresearch-tradingagents)
 - [eracle/openoutreach：自托管 B2B 线索发现与触达 Agent](https://agentcaseshare.cn/articles/case-ai-agents-workflows-2026-09-24-eracle-openoutreach)
 
