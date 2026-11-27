@@ -69,6 +69,7 @@
 <!-- DAILY_BRIEFS_START -->
 | 日期 | 简报 |
 |---|---|
+| 2026-11-27 | [AI 新闻简报](../daily_news/2026/11/2026-11-27-ai-news-digest.md) |
 | 2026-11-26 | [AI 新闻简报](../daily_news/2026/11/2026-11-26-ai-news-digest.md) |
 | 2026-11-25 | [AI 新闻简报](../daily_news/2026/11/2026-11-25-ai-news-digest.md) |
 | 2026-11-22 | [AI 新闻简报](../daily_news/2026/11/2026-11-22-ai-news-digest.md) |
